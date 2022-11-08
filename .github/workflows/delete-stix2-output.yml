@@ -1,0 +1,20 @@
+name: delete-stix2-output
+on: workflow_dispatch
+
+jobs:
+  delete-stix2-output:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.7"]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Delete stix2-objects and commit
+        run: |
+          rm -rf stix2_objects stix2_bundles
+          git config user.name "Signals Corps Bot"
+          git config user.email github-actions@signalscorps.com
+          git add .
+          git commit -m "Delete stix2-objects"
+          git push origin

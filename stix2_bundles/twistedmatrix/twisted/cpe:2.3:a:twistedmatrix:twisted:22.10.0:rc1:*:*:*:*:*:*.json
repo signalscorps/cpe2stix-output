@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--09bd99fe-125c-4d69-ac59-947cb75566c0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c7838645-aa86-52c2-bc35-387082e64ddd",
+            "name": "Twisted Matrix Twisted 22.10.0 Release Candidate 1",
+            "cpe": "cpe:2.3:a:twistedmatrix:twisted:22.10.0:rc1:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "twistedmatrix",
+            "version": "22.10.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:twistedmatrix:twisted:22.10.0:rc1:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-08T13:20Z",
+                        "titles": [
+                            {
+                                "title": "Twisted Matrix Twisted 22.10.0 Release Candidate 1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.twistedmatrix.com/trac/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/twisted/twisted/security/advisories/GHSA-vg46-2rrj-3647",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/twisted/twisted/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

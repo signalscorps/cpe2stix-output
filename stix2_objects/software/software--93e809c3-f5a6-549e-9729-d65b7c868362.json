@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--93e809c3-f5a6-549e-9729-d65b7c868362",
+    "name": "Mitre CVE Services 1.1.1 for Node.js",
+    "cpe": "cpe:2.3:a:mitre:cve_services:1.1.1:*:*:*:*:node.js:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "mitre",
+    "version": "1.1.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:mitre:cve_services:1.1.1:*:*:*:*:node.js:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-08T19:29Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/CVEProject/cve-services/releases",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Mitre CVE Services 1.1.1 for Node.js"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-46561"
+                ]
+            }
+        }
+    }
+}

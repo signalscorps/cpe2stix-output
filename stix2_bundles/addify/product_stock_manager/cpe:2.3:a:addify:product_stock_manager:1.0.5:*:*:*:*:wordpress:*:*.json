@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--2125c078-bbcd-4644-b275-5261fc9d94e6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--98c2f9ea-0923-59e6-8873-5b7d088159df",
+            "name": "Addify Product Stock Manager 1.0.5 for WordPress",
+            "cpe": "cpe:2.3:a:addify:product_stock_manager:1.0.5:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "addify",
+            "version": "1.0.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:addify:product_stock_manager:1.0.5:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-08T17:42Z",
+                        "titles": [
+                            {
+                                "title": "Addify Product Stock Manager 1.0.5 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wpscan.com/vulnerability/d8005cd0-8232-4d43-a4e4-14728eaf1300",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://woocommerce.com/products/product-stock-manager/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://dzv365zjfbd8v.cloudfront.net/changelogs/addify-product-stock-manager/changelog.txt",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://addify.co/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

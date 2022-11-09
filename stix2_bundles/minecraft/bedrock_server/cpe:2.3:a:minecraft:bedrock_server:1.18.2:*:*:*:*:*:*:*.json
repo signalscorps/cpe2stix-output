@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--1755a409-3d6f-40c1-9a48-554cbd104f42",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b815f1fd-77d4-5d5b-9d3a-966a7f992d95",
+            "name": "Minecraft Bedrock Server 1.18.2",
+            "cpe": "cpe:2.3:a:minecraft:bedrock_server:1.18.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "minecraft",
+            "version": "1.18.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:minecraft:bedrock_server:1.18.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-08T19:29Z",
+                        "titles": [
+                            {
+                                "title": "Minecraft Bedrock Server 1.18.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.minecraft.net/en-us/download/server/bedrock",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23884"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

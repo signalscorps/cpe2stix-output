@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--0c7adffe-b76a-47d3-a629-3aa06c04794a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c37d451f-fc5f-5772-a41c-f05a36311cde",
+            "name": "Addify Role Based Pricing for WooCommerce 1.6.3 for WordPress",
+            "cpe": "cpe:2.3:a:addify:role_based_pricing_for_woocommerce:1.6.3:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "addify",
+            "version": "1.6.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:addify:role_based_pricing_for_woocommerce:1.6.3:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-08T17:42Z",
+                        "titles": [
+                            {
+                                "title": "Addify Role Based Pricing for WooCommerce 1.6.3 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://woocommerce.com/products/role-based-pricing-for-woocommerce/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://wpscan.com/vulnerability/6af63aab-b7a6-4ef6-8604-4b4b99467a34",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://addify.co/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://dzv365zjfbd8v.cloudfront.net/changelogs/role-based-pricing-for-woocommerce/changelog.txt",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

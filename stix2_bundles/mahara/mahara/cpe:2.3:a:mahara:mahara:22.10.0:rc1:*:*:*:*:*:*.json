@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--45822046-895e-499a-99cc-4307b987ec89",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--343e9ac9-db1d-5ec1-8e56-af394eb60b9b",
+            "name": "Mahara 22.10.0 Release Candidate 1",
+            "cpe": "cpe:2.3:a:mahara:mahara:22.10.0:rc1:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mahara",
+            "version": "22.10.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:mahara:mahara:22.10.0:rc1:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-08T19:29Z",
+                        "titles": [
+                            {
+                                "title": "Mahara 22.10.0 Release Candidate 1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/MaharaProject/mahara/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://mahara.org/interaction/forum/topic.php?id=9199",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-42707"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

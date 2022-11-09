@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--0acde9d6-5d64-4207-9164-c480090e6849",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--21bb92c1-f133-58ed-b095-7cbf1892bb8d",
+            "name": "virglrenderer 0.9.0",
+            "cpe": "cpe:2.3:a:virglrenderer_project:virglrenderer:0.9.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "virglrenderer_project",
+            "version": "0.9.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:virglrenderer_project:virglrenderer:0.9.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-08T13:17Z",
+                        "titles": [
+                            {
+                                "title": "virglrenderer 0.9.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://gitlab.freedesktop.org/virgl/virglrenderer/-/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://gitlab.freedesktop.org/virgl/virglrenderer",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-0135",
+                            "CVE-2022-0175"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

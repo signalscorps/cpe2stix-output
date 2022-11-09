@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--bf02dcea-ff1b-410e-823d-729e696222ad",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--af51beda-a798-5999-9a55-c2a1afca0331",
+            "name": "Advantech iView 5.7.04.6469",
+            "cpe": "cpe:2.3:a:advantech:iview:5.7.04.6469:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "advantech",
+            "version": "5.7.04.6469",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:advantech:iview:5.7.04.6469:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-08T14:36Z",
+                        "titles": [
+                            {
+                                "title": "Advantech iView 5.7.04.6469",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.tenable.com/security/research/tra-2022-32",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.advantech.com/en-us/support/details/firmware?id=1-HIPU-183",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://www.cisa.gov/uscert/ics/advisories/icsa-22-179-03",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3323"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

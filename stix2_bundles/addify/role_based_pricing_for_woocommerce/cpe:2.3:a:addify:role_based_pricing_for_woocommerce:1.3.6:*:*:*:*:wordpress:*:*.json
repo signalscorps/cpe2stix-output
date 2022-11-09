@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--3599b55a-58ba-4219-bc5b-fb9cf34d798e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--07b49585-0a69-5e2f-b6f4-3eb656c957a9",
+            "name": "Addify Role Based Pricing for WooCommerce 1.3.6 for WordPress",
+            "cpe": "cpe:2.3:a:addify:role_based_pricing_for_woocommerce:1.3.6:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "addify",
+            "version": "1.3.6",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:addify:role_based_pricing_for_woocommerce:1.3.6:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-08T17:42Z",
+                        "titles": [
+                            {
+                                "title": "Addify Role Based Pricing for WooCommerce 1.3.6 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://woocommerce.com/products/role-based-pricing-for-woocommerce/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://addify.co/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://dzv365zjfbd8v.cloudfront.net/changelogs/role-based-pricing-for-woocommerce/changelog.txt",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3537"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

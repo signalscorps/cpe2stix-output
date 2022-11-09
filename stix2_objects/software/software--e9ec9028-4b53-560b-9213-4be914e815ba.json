@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--e9ec9028-4b53-560b-9213-4be914e815ba",
+    "name": "McAfee Data Loss Prevention Endpoint (DLPe) 11.9.0",
+    "cpe": "cpe:2.3:a:mcafee:data_loss_prevention_endpoint:11.9.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "mcafee",
+    "version": "11.9.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:mcafee:data_loss_prevention_endpoint:11.9.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-08T19:29Z",
+                "refs": [
+                    {
+                        "ref": "https://kcm.trellix.com/corporate/index?page=content&id=SB10386",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "McAfee Data Loss Prevention Endpoint (DLPe) 11.9.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-2330"
+                ]
+            }
+        }
+    }
+}

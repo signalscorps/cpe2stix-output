@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--e83b4a17-a7e3-4d53-830c-79fb04e91aba",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--afcdb42e-53bc-5f89-9e25-ab205fa9499e",
+            "name": "Microsoft Clarity 0.3",
+            "cpe": "cpe:2.3:a:microsoft:clarity:0.3:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "microsoft",
+            "version": "0.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:microsoft:clarity:0.3:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-08T19:29Z",
+                        "titles": [
+                            {
+                                "title": "Microsoft Clarity 0.3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cybersecurityworks.com/zerodays/cve-2021-33850-stored-cross-site-scripting-xss-in-wordpress-microsoft-clarity-plugin.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

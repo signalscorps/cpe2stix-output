@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--1132e60e-e6d8-4c4d-8b8d-5f96ac140a9a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--aa31de15-9b6b-5d9a-a000-89d43f933493",
+            "name": "Mumara Classic 2.9.3",
+            "cpe": "cpe:2.3:a:mumara:classic:2.9.3:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mumara",
+            "version": "2.9.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:mumara:classic:2.9.3:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-08T19:29Z",
+                        "titles": [
+                            {
+                                "title": "Mumara Classic 2.9.3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.mumara.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.mumara.com/classic/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-43329"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

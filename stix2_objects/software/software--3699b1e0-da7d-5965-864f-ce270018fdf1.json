@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--3699b1e0-da7d-5965-864f-ce270018fdf1",
+    "name": "MindSkip xzs-Mysql T3.4.0",
+    "cpe": "cpe:2.3:a:mindskip:xzs-mysql:t3.4.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "mindskip",
+    "version": "t3.4.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:mindskip:xzs-mysql:t3.4.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-08T19:29Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/mindskip/xzs-mysql/issues/327",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/mindskip/xzs-mysql",
+                        "type": "Project"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "MindSkip xzs-Mysql T3.4.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-46086"
+                ]
+            }
+        }
+    }
+}

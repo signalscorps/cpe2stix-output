@@ -1,0 +1,44 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--5a7eb3bf-8add-5dfa-9cfe-b10eed46ea5c",
+    "name": "Moodle 3.11.9",
+    "cpe": "cpe:2.3:a:moodle:moodle:3.11.9:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "moodle",
+    "version": "3.11.9",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:moodle:moodle:3.11.9:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-08T19:29Z",
+                "refs": [
+                    {
+                        "ref": "https://moodle.org/mod/forum/discuss.php?d=437685",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Moodle 3.11.9"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2007-6538",
+                    "CVE-2010-4207",
+                    "CVE-2010-4208",
+                    "CVE-2022-40313",
+                    "CVE-2022-40314",
+                    "CVE-2022-40315",
+                    "CVE-2022-40316"
+                ]
+            }
+        }
+    }
+}

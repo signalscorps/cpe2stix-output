@@ -1,0 +1,59 @@
+{
+    "type": "bundle",
+    "id": "bundle--71e91707-7922-4246-ba42-098a6d4f3706",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9fc3f69b-a75a-5f6b-ab82-5d47b439dada",
+            "name": "MediaWiki 1.36.4",
+            "cpe": "cpe:2.3:a:mediawiki:mediawiki:1.36.4:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mediawiki",
+            "version": "1.36.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:mediawiki:mediawiki:1.36.4:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-08T19:29Z",
+                        "titles": [
+                            {
+                                "title": "MediaWiki 1.36.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.mediawiki.org/wiki/Release_notes/1.36",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-45471",
+                            "CVE-2021-45472",
+                            "CVE-2021-45474",
+                            "CVE-2022-28205",
+                            "CVE-2022-28206",
+                            "CVE-2022-28209",
+                            "CVE-2022-28323",
+                            "CVE-2022-29903",
+                            "CVE-2022-29904",
+                            "CVE-2022-29905",
+                            "CVE-2022-29906",
+                            "CVE-2022-29907",
+                            "CVE-2022-34750",
+                            "CVE-2022-34911",
+                            "CVE-2022-34912",
+                            "CVE-2022-39194"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

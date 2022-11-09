@@ -1,0 +1,47 @@
+{
+    "type": "bundle",
+    "id": "bundle--a6cdc7be-6c74-412c-ad7d-6146ef4e07c9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3f39b43a-d5b7-5269-8b44-c905403b7eda",
+            "name": "Mitel Micollab 9.5.0.101",
+            "cpe": "cpe:2.3:a:mitel:micollab:9.5.0.101:*:*:*:*:-:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mitel",
+            "version": "9.5.0.101",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:mitel:micollab:9.5.0.101:*:*:*:*:-:*:*",
+                        "lastModifiedDate": "2022-11-08T19:29Z",
+                        "titles": [
+                            {
+                                "title": "Mitel Micollab 9.5.0.101",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.mitel.com/-/media/mitel/file/pdf/support/security-advisories/security-bulletin-22-0006-001-v3.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-36451",
+                            "CVE-2022-36452",
+                            "CVE-2022-36453",
+                            "CVE-2022-36454"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--30f9b97f-2432-408b-a9ae-3aeb8e00d394",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c398451b-6922-5468-a298-85d883251371",
+            "name": "Magento Magento 2.3.7 Patch 1 Commerce Edition",
+            "cpe": "cpe:2.3:a:magento:magento:2.3.7:p1:*:*:commerce:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "magento",
+            "version": "2.3.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:magento:magento:2.3.7:p1:*:*:commerce:*:*:*",
+                        "lastModifiedDate": "2022-11-08T19:29Z",
+                        "titles": [
+                            {
+                                "title": "Magento Magento 2.3.7 Patch 1 Commerce Edition",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-7.html",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-28566",
+                            "CVE-2021-28567",
+                            "CVE-2022-24086",
+                            "CVE-2022-34253",
+                            "CVE-2022-34254",
+                            "CVE-2022-34255",
+                            "CVE-2022-34256",
+                            "CVE-2022-34257",
+                            "CVE-2022-34258",
+                            "CVE-2022-34259"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

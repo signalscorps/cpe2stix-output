@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--4034fa40-3fad-41ac-813a-298b674ccec6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--59f4f30d-45ab-519e-b3c9-66b5726764ce",
+            "name": "Apache Software Foundation Ivy 2.5.0 Release Candidate 1",
+            "cpe": "cpe:2.3:a:apache:ivy:2.5.0:rc1:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "apache",
+            "version": "2.5.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:apache:ivy:2.5.0:rc1:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-08T14:17Z",
+                        "titles": [
+                            {
+                                "title": "Apache Software Foundation Ivy 2.5.0 Release Candidate 1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://ant.apache.org/ivy/",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://lists.apache.org/thread/gqvvv7qsm2dfjg6xzsw1s2h08tbr0sdy",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/apache/ant-ivy",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-37865"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--3f1d0c3a-0f18-4c84-880d-302fa31b4792",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fa48e0c6-41f6-51e0-8983-a3f05f9eb5df",
+            "name": "Muhammara Project Muhammara 1.0.0 Release Candidate 1 for Node.js",
+            "cpe": "cpe:2.3:a:muhammara_project:muhammara:1.0.0:rc1:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "muhammara_project",
+            "version": "1.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:muhammara_project:muhammara:1.0.0:rc1:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2022-11-08T13:14Z",
+                        "titles": [
+                            {
+                                "title": "Muhammara Project Muhammara 1.0.0 Release Candidate 1 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/julianhille/MuhammaraJS/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.npmjs.com/package/muhammara",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-25885",
+                            "CVE-2022-25892"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

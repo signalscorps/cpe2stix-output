@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--c347b763-d37b-4a78-bb2a-780c5b867a34",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a6d7b4c5-8cf0-5198-8f55-1e561e008d3d",
+            "name": "Object First 1.0.7.712",
+            "cpe": "cpe:2.3:a:objectfirst:object_first:1.0.7.712:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "objectfirst",
+            "version": "1.0.7.712",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:objectfirst:object_first:1.0.7.712:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-08T19:29Z",
+                        "titles": [
+                            {
+                                "title": "Object First 1.0.7.712",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://objectfirst.com/security/of-20221024-0002/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://objectfirst.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-44794",
+                            "CVE-2022-44795",
+                            "CVE-2022-44796"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

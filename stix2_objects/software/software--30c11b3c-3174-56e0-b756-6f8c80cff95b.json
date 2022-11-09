@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--30c11b3c-3174-56e0-b756-6f8c80cff95b",
+    "name": "MetaMask",
+    "cpe": "cpe:2.3:a:metamask:metamask:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "metamask",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:metamask:metamask:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-08T19:29Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/MetaMask/metamask-extension/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://halborn.com/halborn-discovers-critical-vulnerability-affecting-crypto-wallet-browser-extensions/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "MetaMask"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-32969"
+                ]
+            }
+        }
+    }
+}

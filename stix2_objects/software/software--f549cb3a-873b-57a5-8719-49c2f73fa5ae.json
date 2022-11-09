@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--f549cb3a-873b-57a5-8719-49c2f73fa5ae",
+    "name": "Megazone reverseWall-MDS for AWS",
+    "cpe": "cpe:2.3:a:megazone:reversewall-mds:-:*:*:*:*:aws:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "megazone",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:megazone:reversewall-mds:-:*:*:*:*:aws:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-08T19:29Z",
+                "refs": [
+                    {
+                        "ref": "https://www.krcert.or.kr/krcert/secNoticeView.do?bulletin_writing_sequence=66962",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.megazone.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://aws.amazon.com/marketplace/pp/prodview-ja3nptdvmkpv6",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Megazone reverseWall-MDS for AWS"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-23769"
+                ]
+            }
+        }
+    }
+}

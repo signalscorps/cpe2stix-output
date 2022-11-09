@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--40a504c2-62f1-4a8d-b803-97adfa3454e9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a77ae63b-8e46-50ae-96a0-3d452dbad2cf",
+            "name": "Addify Product Stock Manager 1.0.1 for WordPress",
+            "cpe": "cpe:2.3:a:addify:product_stock_manager:1.0.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "addify",
+            "version": "1.0.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:addify:product_stock_manager:1.0.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-08T17:42Z",
+                        "titles": [
+                            {
+                                "title": "Addify Product Stock Manager 1.0.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://dzv365zjfbd8v.cloudfront.net/changelogs/addify-product-stock-manager/changelog.txt",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://woocommerce.com/products/product-stock-manager/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://addify.co/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wpscan.com/vulnerability/d8005cd0-8232-4d43-a4e4-14728eaf1300",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--7e4821a6-a697-538f-9448-ea5cd8d7fbe0",
+    "name": "Magento Magento 2.4.3 Patch 1 Commerce Edition",
+    "cpe": "cpe:2.3:a:magento:magento:2.4.3:p1:*:*:commerce:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "magento",
+    "version": "2.4.3",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:magento:magento:2.4.3:p1:*:*:commerce:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-08T19:29Z",
+                "refs": [
+                    {
+                        "ref": "https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Magento Magento 2.4.3 Patch 1 Commerce Edition"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-24086",
+                    "CVE-2022-34253",
+                    "CVE-2022-34254",
+                    "CVE-2022-34255",
+                    "CVE-2022-34256",
+                    "CVE-2022-34257",
+                    "CVE-2022-34258",
+                    "CVE-2022-34259"
+                ]
+            }
+        }
+    }
+}

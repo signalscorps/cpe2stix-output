@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--cb280d62-0da3-4357-9b2a-a850538d6eb5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d10184d9-831e-5530-b26c-0e1b24b5a2e5",
+            "name": "Munhak Munhak-moa",
+            "cpe": "cpe:2.3:a:munhak:munhak-moa:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "munhak",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:munhak:munhak-moa:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-08T19:29Z",
+                        "titles": [
+                            {
+                                "title": "Munhak Munhak-moa",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/31xxx/CVE-2022-31564.json",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://munhak.live/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/woduq1414/munhak-moa/issues/1",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-31564"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

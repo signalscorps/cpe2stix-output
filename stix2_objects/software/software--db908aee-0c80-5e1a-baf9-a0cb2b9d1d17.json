@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--db908aee-0c80-5e1a-baf9-a0cb2b9d1d17",
+    "name": "Apache Software Foundation Ivy 2.4.0",
+    "cpe": "cpe:2.3:a:apache:ivy:2.4.0:-:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "apache",
+    "version": "2.4.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:apache:ivy:2.4.0:-:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-08T14:17Z",
+                "refs": [
+                    {
+                        "ref": "https://ant.apache.org/ivy/",
+                        "type": "Version"
+                    },
+                    {
+                        "ref": "https://lists.apache.org/thread/gqvvv7qsm2dfjg6xzsw1s2h08tbr0sdy",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/apache/ant-ivy",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Apache Software Foundation Ivy 2.4.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-37865"
+                ]
+            }
+        }
+    }
+}

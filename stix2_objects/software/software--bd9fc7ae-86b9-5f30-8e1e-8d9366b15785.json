@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--bd9fc7ae-86b9-5f30-8e1e-8d9366b15785",
+    "name": "Liferay Portal 7.4.3.28",
+    "cpe": "cpe:2.3:a:liferay:liferay_portal:7.4.3.28:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "liferay",
+    "version": "7.4.3.28",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:liferay:liferay_portal:7.4.3.28:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-08T19:29Z",
+                "refs": [
+                    {
+                        "ref": "https://www.offensity.com/en/blog/authenticated-persistent-xss-in-liferay-dxp-cms-cve-2022-38901-and-cve-2022-38902/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Liferay Portal 7.4.3.28"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-38512",
+                    "CVE-2022-38901",
+                    "CVE-2022-39975",
+                    "CVE-2022-42114",
+                    "CVE-2022-42115"
+                ]
+            }
+        }
+    }
+}

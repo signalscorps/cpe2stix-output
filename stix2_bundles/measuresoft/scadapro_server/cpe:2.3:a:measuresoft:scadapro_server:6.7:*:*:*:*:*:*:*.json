@@ -1,0 +1,54 @@
+{
+    "type": "bundle",
+    "id": "bundle--be82e17d-f090-4ad5-815f-3adbe2717846",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8dc650a6-6af2-561e-ba42-589d6cb88a1c",
+            "name": "Measuresoft Scadapro Server 6.7",
+            "cpe": "cpe:2.3:a:measuresoft:scadapro_server:6.7:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "measuresoft",
+            "version": "6.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:measuresoft:scadapro_server:6.7:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-08T19:29Z",
+                        "titles": [
+                            {
+                                "title": "Measuresoft Scadapro Server 6.7",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cisa.gov/uscert/ics/advisories/icsa-22-265-01",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://measuresoft.com/?page_id=910",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-2892",
+                            "CVE-2022-2894",
+                            "CVE-2022-2895",
+                            "CVE-2022-2896",
+                            "CVE-2022-2897",
+                            "CVE-2022-2898",
+                            "CVE-2022-3263"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

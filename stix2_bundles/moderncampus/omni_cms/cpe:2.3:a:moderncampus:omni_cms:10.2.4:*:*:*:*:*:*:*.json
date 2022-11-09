@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--246cb37f-b59d-4995-96b0-402d0649ab0b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fc2124e8-0a7f-5d48-8c7e-7b149941558c",
+            "name": "Modern Campus Omni CMS 10.2.4",
+            "cpe": "cpe:2.3:a:moderncampus:omni_cms:10.2.4:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "moderncampus",
+            "version": "10.2.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:moderncampus:omni_cms:10.2.4:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-08T19:29Z",
+                        "titles": [
+                            {
+                                "title": "Modern Campus Omni CMS 10.2.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://gist.github.com/Mr-Akuma/8d84b564fb051caa1b1ea31b24f6b9fb",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://moderncampus.com/products/web-content-management.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-40766"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

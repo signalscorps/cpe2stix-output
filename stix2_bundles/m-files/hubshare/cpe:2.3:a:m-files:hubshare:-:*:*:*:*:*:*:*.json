@@ -1,0 +1,51 @@
+{
+    "type": "bundle",
+    "id": "bundle--e6b37375-905f-41d1-ba24-1968e0924e25",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0ff71ae0-578a-583f-8267-450df8cc1f80",
+            "name": "M-files Hubshare",
+            "cpe": "cpe:2.3:a:m-files:hubshare:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "m-files",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:m-files:hubshare:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-08T19:29Z",
+                        "titles": [
+                            {
+                                "title": "M-files Hubshare",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.m-files.com/solutions/hubshare/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.themissinglink.com.au/security-advisories/cve-2022-39016",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-39016",
+                            "CVE-2022-39017",
+                            "CVE-2022-39018",
+                            "CVE-2022-39019"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

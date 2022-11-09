@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--a1510677-0292-42e9-9794-977d1bd84f6b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--660f34d8-5893-5901-8a4b-2b8bbb4fafcb",
+            "name": "MediaWiki CreatereRirect 2022-04-14 for MediaWiki",
+            "cpe": "cpe:2.3:a:mediawiki:createredirect:2022-04-14:*:*:*:*:mediawiki:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mediawiki",
+            "version": "2022-04-14",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:mediawiki:createredirect:2022-04-14:*:*:*:*:mediawiki:*:*",
+                        "lastModifiedDate": "2022-11-08T19:29Z",
+                        "titles": [
+                            {
+                                "title": "MediaWiki CreatereRirect 2022-04-14 for MediaWiki",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.mediawiki.org/wiki/Extension:CreateRedirect",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://gerrit.wikimedia.org/r/c/mediawiki/extensions/CreateRedirect/+/780567",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://phabricator.miraheze.org/T9061",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

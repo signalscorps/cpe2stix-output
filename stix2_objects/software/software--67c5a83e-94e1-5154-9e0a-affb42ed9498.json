@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--67c5a83e-94e1-5154-9e0a-affb42ed9498",
+    "name": "M-files Hubshare 3.3.10.9",
+    "cpe": "cpe:2.3:a:m-files:hubshare:3.3.10.9:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "m-files",
+    "version": "3.3.10.9",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:m-files:hubshare:3.3.10.9:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-08T19:29Z",
+                "refs": [
+                    {
+                        "ref": "https://www.m-files.com/solutions/hubshare/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://www.themissinglink.com.au/security-advisories/cve-2022-39016",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "M-files Hubshare 3.3.10.9"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-39018",
+                    "CVE-2022-39019"
+                ]
+            }
+        }
+    }
+}

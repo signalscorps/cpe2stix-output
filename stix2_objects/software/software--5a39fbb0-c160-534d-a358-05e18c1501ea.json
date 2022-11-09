@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--5a39fbb0-c160-534d-a358-05e18c1501ea",
+    "name": "Golang Net 2018-09-17",
+    "cpe": "cpe:2.3:a:golang:net:2018-09-17:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "golang",
+    "version": "2018-09-17",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:golang:net:2018-09-17:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-08T19:40Z",
+                "refs": [
+                    {
+                        "ref": "https://golang.org/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/golang/net",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Golang Net 2018-09-17"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2018-17142",
+                    "CVE-2018-17143",
+                    "CVE-2018-17846",
+                    "CVE-2018-17847",
+                    "CVE-2018-17848"
+                ]
+            }
+        }
+    }
+}

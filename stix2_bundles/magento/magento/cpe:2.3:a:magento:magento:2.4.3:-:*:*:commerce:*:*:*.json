@@ -1,0 +1,51 @@
+{
+    "type": "bundle",
+    "id": "bundle--3c605da5-99bf-4aa5-a7b0-4b5c420438c1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5672b9d0-1cb2-5965-97de-9308c8d6cf60",
+            "name": "Magento Magento 2.4.3 Commerce Edition",
+            "cpe": "cpe:2.3:a:magento:magento:2.4.3:-:*:*:commerce:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "magento",
+            "version": "2.4.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:magento:magento:2.4.3:-:*:*:commerce:*:*:*",
+                        "lastModifiedDate": "2022-11-08T19:29Z",
+                        "titles": [
+                            {
+                                "title": "Magento Magento 2.4.3 Commerce Edition",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://devdocs.magento.com/guides/v2.4/release-notes/bk-release-notes.html",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-24086",
+                            "CVE-2022-34253",
+                            "CVE-2022-34254",
+                            "CVE-2022-34255",
+                            "CVE-2022-34256",
+                            "CVE-2022-34257",
+                            "CVE-2022-34258",
+                            "CVE-2022-34259"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

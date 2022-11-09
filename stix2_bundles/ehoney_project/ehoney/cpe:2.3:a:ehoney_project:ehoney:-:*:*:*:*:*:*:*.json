@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--0203d43c-74bf-4a05-8dcb-5974e80f73f3",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fcc0a56f-b443-5c0c-936a-bf005f6bdc1e",
+            "name": "Ehoney Project Ehoney",
+            "cpe": "cpe:2.3:a:ehoney_project:ehoney:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ehoney_project",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ehoney_project:ehoney:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-08T13:19Z",
+                        "titles": [
+                            {
+                                "title": "Ehoney Project Ehoney",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/seccome/Ehoney/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://seccome.github.io/Ehoney/Introduction/Ehoney/",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3729",
+                            "CVE-2022-3730",
+                            "CVE-2022-3731",
+                            "CVE-2022-3732",
+                            "CVE-2022-3735"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

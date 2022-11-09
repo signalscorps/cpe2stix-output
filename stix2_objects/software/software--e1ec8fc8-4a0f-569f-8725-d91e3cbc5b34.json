@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--e1ec8fc8-4a0f-569f-8725-d91e3cbc5b34",
+    "name": "Twisted Matrix Twisted 22.10.0",
+    "cpe": "cpe:2.3:a:twistedmatrix:twisted:22.10.0:-:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "twistedmatrix",
+    "version": "22.10.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:twistedmatrix:twisted:22.10.0:-:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-08T13:20Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/twisted/twisted/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://github.com/twisted/twisted/security/advisories/GHSA-vg46-2rrj-3647",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.twistedmatrix.com/trac/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Twisted Matrix Twisted 22.10.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-39348"
+                ]
+            }
+        }
+    }
+}

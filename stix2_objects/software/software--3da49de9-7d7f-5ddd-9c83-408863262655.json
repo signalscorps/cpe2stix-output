@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--3da49de9-7d7f-5ddd-9c83-408863262655",
+    "name": "Mealie 1.0.0 Beta 2",
+    "cpe": "cpe:2.3:a:mealie:mealie:1.0.0:beta2:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "mealie",
+    "version": "1.0.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:mealie:mealie:1.0.0:beta2:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-08T19:29Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/hay-kot/mealie/issues/1336",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/hay-kot/mealie/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://mealie.io/",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Mealie 1.0.0 Beta 2"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-32425"
+                ]
+            }
+        }
+    }
+}

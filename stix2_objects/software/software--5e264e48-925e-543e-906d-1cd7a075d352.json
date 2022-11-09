@@ -1,0 +1,48 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--5e264e48-925e-543e-906d-1cd7a075d352",
+    "name": "MeterSphere 1.15.4",
+    "cpe": "cpe:2.3:a:metersphere:metersphere:1.15.4:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "metersphere",
+    "version": "1.15.4",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:metersphere:metersphere:1.15.4:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-08T19:29Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/metersphere/metersphere/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://metersphere.io/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/metersphere/metersphere/issues/8651",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "MeterSphere 1.15.4"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-45788",
+                    "CVE-2021-45789",
+                    "CVE-2021-45790"
+                ]
+            }
+        }
+    }
+}

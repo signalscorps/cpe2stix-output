@@ -1,0 +1,41 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--e97564a9-f2a4-540a-8a88-3c0716ce0d5c",
+    "name": "Mplayer 1.5",
+    "cpe": "cpe:2.3:a:mplayerhq:mplayer:1.5:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "mplayerhq",
+    "version": "1.5",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:mplayerhq:mplayer:1.5:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-08T19:29Z",
+                "refs": [
+                    {
+                        "ref": "http://www.mplayerhq.hu/design7/news.html",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Mplayer 1.5"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2010-3908",
+                    "CVE-2011-0722",
+                    "CVE-2011-2160",
+                    "CVE-2022-32317"
+                ]
+            }
+        }
+    }
+}

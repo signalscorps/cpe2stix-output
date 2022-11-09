@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--fe76bc48-c230-496e-ab7b-012ac876e68b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e2de524b-118f-554a-96f8-d190bb080bac",
+            "name": "Minitool Partition Wizard 12.0",
+            "cpe": "cpe:2.3:a:minitool:partition_wizard:12.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "minitool",
+            "version": "12.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:minitool:partition_wizard:12.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-08T19:29Z",
+                        "titles": [
+                            {
+                                "title": "Minitool Partition Wizard 12.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.exploit-db.com/exploits/50859",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-29320"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--3fe532b1-a1f0-4771-8800-6d791272390c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--75d65e6a-c0e5-5c90-81c3-7307777e6b6d",
+            "name": "Froxlor 0.10.35.1",
+            "cpe": "cpe:2.3:a:froxlor:froxlor:0.10.35.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "froxlor",
+            "version": "0.10.35.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:froxlor:froxlor:0.10.35.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-08T14:18Z",
+                        "titles": [
+                            {
+                                "title": "Froxlor 0.10.35.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/Froxlor/Froxlor",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://www.froxlor.org/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3017",
+                            "CVE-2022-3721",
+                            "CVE-2022-3869"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--9f96e51d-fc87-5346-b4bc-179d33e32ebc",
+    "name": "Midori-global Better PDF Exporter 10.0.0 for Jira Server",
+    "cpe": "cpe:2.3:a:midori-global:better_pdf_exporter:10.0.0:*:*:*:*:jira_server:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "midori-global",
+    "version": "10.0.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:midori-global:better_pdf_exporter:10.0.0:*:*:*:*:jira_server:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-08T19:29Z",
+                "refs": [
+                    {
+                        "ref": "https://marketplace.atlassian.com/apps/5167/better-pdf-exporter-for-jira?tab=overview&hosting=server",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2022-038.txt",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.midori-global.com/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Midori-global Better PDF Exporter 10.0.0 for Jira Server"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-36131"
+                ]
+            }
+        }
+    }
+}

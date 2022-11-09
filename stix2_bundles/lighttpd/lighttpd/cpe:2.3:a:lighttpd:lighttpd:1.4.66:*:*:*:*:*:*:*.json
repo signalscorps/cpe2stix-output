@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--741894c0-21b9-407c-83dc-041065ed0fee",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a7a8923a-7cc8-59ea-9dbf-774ca8ef8ce3",
+            "name": "lighttpd 1.4.66",
+            "cpe": "cpe:2.3:a:lighttpd:lighttpd:1.4.66:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "lighttpd",
+            "version": "1.4.66",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:lighttpd:lighttpd:1.4.66:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-08T19:29Z",
+                        "titles": [
+                            {
+                                "title": "lighttpd 1.4.66",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/lighttpd/lighttpd1.4/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41556"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

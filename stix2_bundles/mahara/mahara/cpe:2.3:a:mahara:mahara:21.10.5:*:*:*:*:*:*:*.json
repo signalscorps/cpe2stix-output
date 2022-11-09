@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--1405c64e-3f4e-486c-a466-f06c972f941a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6791a60b-b200-5d26-9a86-2a917d708b88",
+            "name": "Mahara 21.10.5",
+            "cpe": "cpe:2.3:a:mahara:mahara:21.10.5:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mahara",
+            "version": "21.10.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:mahara:mahara:21.10.5:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-08T19:29Z",
+                        "titles": [
+                            {
+                                "title": "Mahara 21.10.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/MaharaProject/mahara/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://mahara.org/interaction/forum/topic.php?id=9199",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

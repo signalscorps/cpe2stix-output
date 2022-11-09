@@ -20,8 +20,8 @@ from cpe2stix.config import Config
 from cpe2stix.main import main
 from cpe2stix import logger
 
-EXAMPLES_FOLDER = Path(os.path.abspath(__file__)).parent
-REPO_FOLDER = EXAMPLES_FOLDER.parent
+SCRIPTS_FOLDER = Path(os.path.abspath(__file__)).parent
+REPO_FOLDER = SCRIPTS_FOLDER.parent
 CREDENTIALS_FILE_PATH = REPO_FOLDER / "credentials.yml"
 
 STIX2_OBJECTS_FOLDER = REPO_FOLDER / "stix2_objects"

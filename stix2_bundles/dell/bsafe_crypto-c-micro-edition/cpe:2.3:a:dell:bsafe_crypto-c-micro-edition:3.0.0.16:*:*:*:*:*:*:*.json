@@ -1,0 +1,55 @@
+{
+    "type": "bundle",
+    "id": "bundle--7fbc83a4-0e99-4892-a623-85926b2b184d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e5ea17db-895d-5a1c-a4ea-ffbea8aaab96",
+            "name": "Dell BSAFE Crypto-C Micro Edition 3.0.0.16",
+            "cpe": "cpe:2.3:a:dell:bsafe_crypto-c-micro-edition:3.0.0.16:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "dell",
+            "version": "3.0.0.16",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:dell:bsafe_crypto-c-micro-edition:3.0.0.16:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-01T14:25Z",
+                        "titles": [
+                            {
+                                "title": "Dell BSAFE Crypto-C Micro Edition 3.0.0.16",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.dell.com/support/home/en-us/product-support/product/bsafe-crypto-c-micro-edition/overview",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2007-6755",
+                            "CVE-2019-3731",
+                            "CVE-2020-29505",
+                            "CVE-2020-29506",
+                            "CVE-2020-29507",
+                            "CVE-2020-29508",
+                            "CVE-2020-35163",
+                            "CVE-2020-35164",
+                            "CVE-2020-35166",
+                            "CVE-2020-35167",
+                            "CVE-2020-35168",
+                            "CVE-2020-35169"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

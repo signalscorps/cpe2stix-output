@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--47451d89-78e3-4545-b59f-9700aacfe209",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b2ccd5be-eaeb-55a6-bdab-652eaf7364fc",
+            "name": "Microsoft StorSimple 8020 Firmware",
+            "cpe": "cpe:2.3:o:microsoft:storsimple_8020_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "microsoft",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:microsoft:storsimple_8020_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-01T13:36Z",
+                        "titles": [
+                            {
+                                "title": "Microsoft StorSimple 8020 Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-38017",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://learn.microsoft.com/en-us/azure/storsimple/storsimple-overview",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-38017"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

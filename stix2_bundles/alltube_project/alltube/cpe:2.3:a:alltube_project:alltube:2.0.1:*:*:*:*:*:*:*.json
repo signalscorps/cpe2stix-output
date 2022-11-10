@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--6d676a2b-7a4b-4a56-a14b-a2a327bfb36f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7c394ef0-bdf6-5105-b4dc-11aa7898aa35",
+            "name": "AllTube Project AllTube 2.0.1",
+            "cpe": "cpe:2.3:a:alltube_project:alltube:2.0.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "alltube_project",
+            "version": "2.0.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:alltube_project:alltube:2.0.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-01T17:34Z",
+                        "titles": [
+                            {
+                                "title": "AllTube Project AllTube 2.0.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/Rudloff/alltube/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-0692",
+                            "CVE-2022-24739"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

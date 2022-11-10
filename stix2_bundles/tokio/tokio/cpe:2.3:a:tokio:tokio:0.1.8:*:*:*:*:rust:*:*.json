@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--a13860c8-7f0c-4f58-95e7-8cdef9ba0f1b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ae3064a4-d0a4-572c-bbe6-8c7a8f19473c",
+            "name": "Tokio 0.1.8 for Rust",
+            "cpe": "cpe:2.3:a:tokio:tokio:0.1.8:*:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tokio",
+            "version": "0.1.8",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:tokio:tokio:0.1.8:*:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-01T16:06Z",
+                        "titles": [
+                            {
+                                "title": "Tokio 0.1.8 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://tokio.rs/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://crates.io/crates/tokio/versions",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/tokio-rs/tokio/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

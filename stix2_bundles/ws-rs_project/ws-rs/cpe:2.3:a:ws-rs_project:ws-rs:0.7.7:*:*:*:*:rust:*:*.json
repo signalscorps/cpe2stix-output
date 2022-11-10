@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--af88fe5a-e749-4239-8bb2-309bddc379fb",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ca4ea7d1-92d8-5312-9c4d-2525291eef32",
+            "name": "WS-RS Project WS-RS 0.7.7 for Rust",
+            "cpe": "cpe:2.3:a:ws-rs_project:ws-rs:0.7.7:*:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ws-rs_project",
+            "version": "0.7.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ws-rs_project:ws-rs:0.7.7:*:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-01T14:08Z",
+                        "titles": [
+                            {
+                                "title": "WS-RS Project WS-RS 0.7.7 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://crates.io/crates/ws/versions",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/housleyjk/ws-rs/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

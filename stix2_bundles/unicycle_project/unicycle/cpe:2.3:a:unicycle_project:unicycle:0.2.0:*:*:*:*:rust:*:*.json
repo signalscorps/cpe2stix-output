@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--651e36e0-39f3-449c-a637-9aaa85f5de2f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--88455969-793d-50d1-983d-8a61146d66a8",
+            "name": "unicycle Project unicycle 0.2.0 for Rust",
+            "cpe": "cpe:2.3:a:unicycle_project:unicycle:0.2.0:*:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "unicycle_project",
+            "version": "0.2.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:unicycle_project:unicycle:0.2.0:*:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-01T12:31Z",
+                        "titles": [
+                            {
+                                "title": "unicycle Project unicycle 0.2.0 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://crates.io/crates/unicycle/versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-36436"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

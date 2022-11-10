@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--2a2e3997-cfb1-4359-ac08-6932bf4119ed",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--32275257-9462-5404-a11e-737e89df663d",
+            "name": "V9 Project V9 0.1.38 for Rust",
+            "cpe": "cpe:2.3:a:v9_project:v9:0.1.38:*:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "v9_project",
+            "version": "0.1.38",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:v9_project:v9:0.1.38:*:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-01T14:33Z",
+                        "titles": [
+                            {
+                                "title": "V9 Project V9 0.1.38 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://crates.io/crates/v9/versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-36447"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

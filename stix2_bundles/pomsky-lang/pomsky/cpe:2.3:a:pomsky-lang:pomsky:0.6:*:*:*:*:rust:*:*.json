@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--f81f5273-e590-4405-ba0d-2bbe39341778",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--79d528ed-cf6a-5246-a4e2-f742d283a9a4",
+            "name": "Pomsky-lang Pomsky 0.6 for Rust",
+            "cpe": "cpe:2.3:a:pomsky-lang:pomsky:0.6:*:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "pomsky-lang",
+            "version": "0.6",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:pomsky-lang:pomsky:0.6:*:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-01T12:27Z",
+                        "titles": [
+                            {
+                                "title": "Pomsky-lang Pomsky 0.6 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://pomsky-lang.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/rulex-rs/pomsky/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://crates.io/crates/pomsky",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--e2c58786-3605-4e84-84ba-fc0f419bfeab",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5f536fb0-fc40-5577-af7c-92fa2157bcaa",
+            "name": "The Linux Foundation Tremor-Script 0.13.0 Release Candidate 5 for Rust",
+            "cpe": "cpe:2.3:a:linuxfoundation:tremor-script:0.13.0:rc5:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "linuxfoundation",
+            "version": "0.13.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:linuxfoundation:tremor-script:0.13.0:rc5:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-01T12:56Z",
+                        "titles": [
+                            {
+                                "title": "The Linux Foundation Tremor-Script 0.13.0 Release Candidate 5 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://crates.io/crates/tremor-script/versions",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://www.tremor.rs/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.tremor.rs/docs/tremor-script/index/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

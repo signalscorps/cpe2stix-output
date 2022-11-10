@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--61b45d76-55c4-45fe-97af-5bdee7702f9d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--48d06fa9-bd54-5eb8-b9dd-7e43ae589415",
+            "name": "libsbc Project libsbc 0.1.1 for Rust",
+            "cpe": "cpe:2.3:a:libsbc_project:libsbc:0.1.1:*:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "libsbc_project",
+            "version": "0.1.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:libsbc_project:libsbc:0.1.1:*:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-01T11:55Z",
+                        "titles": [
+                            {
+                                "title": "libsbc Project libsbc 0.1.1 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://crates.io/crates/libsbc/versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-36440"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

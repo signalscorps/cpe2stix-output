@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--d6d8cfa3-b374-4a1f-bea3-dc18b079b750",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e5129047-3a26-5cbc-86e4-93b294fdf9a8",
+            "name": "PublishPress Capabilities 2.5.0 - Edition for WordPress",
+            "cpe": "cpe:2.3:a:publishpress:capabilities:2.5.0:*:*:*:-:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "publishpress",
+            "version": "2.5.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:publishpress:capabilities:2.5.0:*:*:*:-:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-01T13:11Z",
+                        "titles": [
+                            {
+                                "title": "PublishPress Capabilities 2.5.0 - Edition for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/capability-manager-enhanced/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://publishpress.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3366"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

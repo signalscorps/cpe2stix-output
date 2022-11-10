@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--665331d9-eac2-427a-b396-c362325a0183",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--98919418-a3f0-5cdb-854c-ed1428d5fe0f",
+            "name": "lesspipe Project lesspipe 1.88",
+            "cpe": "cpe:2.3:a:lesspipe_project:lesspipe:1.88:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "lesspipe_project",
+            "version": "1.88",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:lesspipe_project:lesspipe:1.88:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-01T19:42Z",
+                        "titles": [
+                            {
+                                "title": "lesspipe Project lesspipe 1.88",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/wofr06/lesspipe",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://github.com/wofr06/lesspipe/releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-44542"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--af8d2501-590e-49e8-850d-095fde6ec32c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--157524e8-ae15-5764-8959-02caccdf5a55",
+            "name": "ThimPress LearnPress 4.1.7 for WordPress",
+            "cpe": "cpe:2.3:a:thimpress:learnpress:4.1.7:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "thimpress",
+            "version": "4.1.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:thimpress:learnpress:4.1.7:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-01T10:59Z",
+                        "titles": [
+                            {
+                                "title": "ThimPress LearnPress 4.1.7 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/learnpress/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://thimpress.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3360"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

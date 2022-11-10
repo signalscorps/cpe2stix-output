@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--f8d6afa3-1f3f-4d71-8a2b-a0391fbef98d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b0a1a5e1-d588-5e08-ad91-784039f629aa",
+            "name": "timg Project timg 1.4.4",
+            "cpe": "cpe:2.3:a:timg_project:timg:1.4.4:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "timg_project",
+            "version": "1.4.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:timg_project:timg:1.4.4:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-01T19:44Z",
+                        "titles": [
+                            {
+                                "title": "timg Project timg 1.4.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/hzeller/timg/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/hzeller/timg",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43151"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

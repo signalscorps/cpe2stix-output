@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--1185d20c-c628-4435-bb3f-67c48b3cc191",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4eddf54f-1383-5495-ae39-b3e8c7a7568a",
+            "name": "Arvados 2.4.3 for Ruby",
+            "cpe": "cpe:2.3:a:arvados:arvados:2.4.3:*:*:*:*:ruby:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "arvados",
+            "version": "2.4.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:arvados:arvados:2.4.3:*:*:*:*:ruby:*:*",
+                        "lastModifiedDate": "2022-11-01T17:47Z",
+                        "titles": [
+                            {
+                                "title": "Arvados 2.4.3 for Ruby",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://arvados.org/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://rubygems.org/gems/arvados/versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

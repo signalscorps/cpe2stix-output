@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--1afd062b-8ace-5ab7-b5e6-bb2b530c8572",
+    "name": "OpenDev VirtualBMC 2.1.0 for OpenStack",
+    "cpe": "cpe:2.3:a:opendev:virtualbmc:2.1.0:*:*:*:*:openstack:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "opendev",
+    "version": "2.1.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:opendev:virtualbmc:2.1.0:*:*:*:*:openstack:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-01T14:42Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/openstack/virtualbmc/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://opendev.org/openstack/virtualbmc",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://storyboard.openstack.org/#!/story/2010382",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "OpenDev VirtualBMC 2.1.0 for OpenStack"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-44020"
+                ]
+            }
+        }
+    }
+}

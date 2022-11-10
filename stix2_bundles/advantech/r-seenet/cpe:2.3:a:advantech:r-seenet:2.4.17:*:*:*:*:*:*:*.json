@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--54084d65-77ea-4ad8-8258-260175695a1a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e9e9da8d-fe01-5a46-a852-6fbfc4d30884",
+            "name": "Advantech R-seeNet 2.4.17",
+            "cpe": "cpe:2.3:a:advantech:r-seenet:2.4.17:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "advantech",
+            "version": "2.4.17",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:advantech:r-seenet:2.4.17:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-01T15:02Z",
+                        "titles": [
+                            {
+                                "title": "Advantech R-seeNet 2.4.17",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cisa.gov/uscert/ics/advisories/icsa-22-291-01",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.advantech.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3385",
+                            "CVE-2022-3386",
+                            "CVE-2022-3387"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

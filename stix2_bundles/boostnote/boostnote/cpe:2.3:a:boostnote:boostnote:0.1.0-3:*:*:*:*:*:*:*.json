@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--2f508011-1309-495b-983e-1b404768aa8d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e7f64a32-209d-521d-9135-4994da3c4f0b",
+            "name": "Boost Note 0.1.0-3",
+            "cpe": "cpe:2.3:a:boostnote:boostnote:0.1.0-3:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "boostnote",
+            "version": "0.1.0-3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:boostnote:boostnote:0.1.0-3:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-01T18:37Z",
+                        "titles": [
+                            {
+                                "title": "Boost Note 0.1.0-3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://boostnote.io/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/BoostIO/BoostNote-App/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-41392"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

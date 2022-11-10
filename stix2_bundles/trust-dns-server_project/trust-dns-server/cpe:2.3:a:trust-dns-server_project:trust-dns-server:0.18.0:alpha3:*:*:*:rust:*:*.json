@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--685171b9-dcc1-4d2e-9ede-ecdf9b1bef5a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9107057c-42f7-54ed-b885-f3f4d7f2ebed",
+            "name": "Trust-DNS-Server Project Trust-DNS-Server 0.18.0 Alpha 3 for Rust",
+            "cpe": "cpe:2.3:a:trust-dns-server_project:trust-dns-server:0.18.0:alpha3:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "trust-dns-server_project",
+            "version": "0.18.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:trust-dns-server_project:trust-dns-server:0.18.0:alpha3:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-01T12:49Z",
+                        "titles": [
+                            {
+                                "title": "Trust-DNS-Server Project Trust-DNS-Server 0.18.0 Alpha 3 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/bluejekyll/trust-dns/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://crates.io/crates/trust-dns-server/versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-35857"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

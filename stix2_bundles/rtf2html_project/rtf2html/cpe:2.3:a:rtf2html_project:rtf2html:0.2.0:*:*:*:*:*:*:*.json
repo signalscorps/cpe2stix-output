@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--20b0a9a3-9b37-42ea-8bb1-13820058bbdb",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--48596e87-c80f-5b37-9caa-e3d45ddf4bc7",
+            "name": "RTF to HTML Project RTF to HTML 0.2.0",
+            "cpe": "cpe:2.3:a:rtf2html_project:rtf2html:0.2.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "rtf2html_project",
+            "version": "0.2.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:rtf2html_project:rtf2html:0.2.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-01T19:01Z",
+                        "titles": [
+                            {
+                                "title": "RTF to HTML Project RTF to HTML 0.2.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/lvu/rtf2html",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://github.com/lvu/rtf2html/blob/master/ChangeLog",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43148"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

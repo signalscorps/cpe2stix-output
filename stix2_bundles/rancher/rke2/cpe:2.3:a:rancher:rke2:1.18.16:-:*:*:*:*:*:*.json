@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--26f97131-efac-4528-b8db-a2743d506f02",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bc25ec4d-a55b-5a4d-b46c-be86d49a3aa2",
+            "name": "Rancher Rke2 1.18.16",
+            "cpe": "cpe:2.3:a:rancher:rke2:1.18.16:-:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "rancher",
+            "version": "1.18.16",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:rancher:rke2:1.18.16:-:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-01T14:31Z",
+                        "titles": [
+                            {
+                                "title": "Rancher Rke2 1.18.16",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/rancher/rke2/releases",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

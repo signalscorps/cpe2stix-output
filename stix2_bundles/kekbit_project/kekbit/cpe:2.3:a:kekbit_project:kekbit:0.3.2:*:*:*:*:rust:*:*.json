@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--513c30a7-d167-4414-ba5f-f652743b8117",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--031c8abd-72f1-529c-9d76-eb37992800ac",
+            "name": "Kekbit Project Kekbit 0.3.2 for Rust",
+            "cpe": "cpe:2.3:a:kekbit_project:kekbit:0.3.2:*:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "kekbit_project",
+            "version": "0.3.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:kekbit_project:kekbit:0.3.2:*:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-01T11:29Z",
+                        "titles": [
+                            {
+                                "title": "Kekbit Project Kekbit 0.3.2 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://crates.io/crates/kekbit/versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-36449"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

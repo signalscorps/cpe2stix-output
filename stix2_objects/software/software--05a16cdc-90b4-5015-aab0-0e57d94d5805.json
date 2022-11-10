@@ -1,0 +1,49 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--05a16cdc-90b4-5015-aab0-0e57d94d5805",
+    "name": "Dell BSAFE Crypto-J 5.0",
+    "cpe": "cpe:2.3:a:dell:bsafe_crypto-j:5.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "dell",
+    "version": "5.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:dell:bsafe_crypto-j:5.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-01T14:25Z",
+                "refs": [
+                    {
+                        "ref": "https://www.dell.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://www.dell.com/support/home/product-support/product/bsafe-crypto-j/overview",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Dell BSAFE Crypto-J 5.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2007-6755",
+                    "CVE-2016-0887",
+                    "CVE-2016-8212",
+                    "CVE-2016-8217",
+                    "CVE-2018-11070",
+                    "CVE-2019-3738",
+                    "CVE-2019-3739",
+                    "CVE-2019-3740"
+                ]
+            }
+        }
+    }
+}

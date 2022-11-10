@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--b73e0edb-13b2-4f39-b52a-2a3507fc70b8",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--88cd2878-e433-557a-8a60-cce56e1f79ba",
+            "name": "Trust-DNS-Server Project Trust-DNS-Server 0.19.1 for Rust",
+            "cpe": "cpe:2.3:a:trust-dns-server_project:trust-dns-server:0.19.1:*:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "trust-dns-server_project",
+            "version": "0.19.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:trust-dns-server_project:trust-dns-server:0.19.1:*:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-01T12:49Z",
+                        "titles": [
+                            {
+                                "title": "Trust-DNS-Server Project Trust-DNS-Server 0.19.1 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/bluejekyll/trust-dns/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://crates.io/crates/trust-dns-server/versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

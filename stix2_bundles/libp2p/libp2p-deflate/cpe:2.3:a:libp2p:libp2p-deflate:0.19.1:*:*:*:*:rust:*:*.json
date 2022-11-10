@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--9b76bc14-4875-4cbe-a93b-095be5d1a4ee",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8ae54a3a-db1a-56dd-808c-6e454557ccd8",
+            "name": "libp2p libp2p-deflate 0.19.1 for Rust",
+            "cpe": "cpe:2.3:a:libp2p:libp2p-deflate:0.19.1:*:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "libp2p",
+            "version": "0.19.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:libp2p:libp2p-deflate:0.19.1:*:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-01T11:52Z",
+                        "titles": [
+                            {
+                                "title": "libp2p libp2p-deflate 0.19.1 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://libp2p.io/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://crates.io/crates/libp2p-deflate/versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-36443"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

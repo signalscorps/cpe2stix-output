@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--bfdd4ae4-993e-4114-bca9-d4eafc0841f6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--77bdf6aa-c375-538a-80cd-0867af08ec1a",
+            "name": "conduit-hyper Project conduit-hyper 0.3.0 Alpha 2 for Rust",
+            "cpe": "cpe:2.3:a:conduit-hyper_project:conduit-hyper:0.3.0:alpha2:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "conduit-hyper_project",
+            "version": "0.3.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:conduit-hyper_project:conduit-hyper:0.3.0:alpha2:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-01T14:31Z",
+                        "titles": [
+                            {
+                                "title": "conduit-hyper Project conduit-hyper 0.3.0 Alpha 2 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://crates.io/crates/conduit-hyper",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://github.com/conduit-rust/conduit-hyper",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://github.com/conduit-rust/conduit-hyper/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-39294"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

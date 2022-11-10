@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--c35a97d1-66e0-4fed-a4d8-46c708379378",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--50bd2c62-1629-5071-a9c4-d52627328f8f",
+            "name": "nano arena Project nano arena 0.5.0 for Rust",
+            "cpe": "cpe:2.3:a:nano_arena_project:nano_arena:0.5.0:*:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nano_arena_project",
+            "version": "0.5.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nano_arena_project:nano_arena:0.5.0:*:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-01T12:24Z",
+                        "titles": [
+                            {
+                                "title": "nano arena Project nano arena 0.5.0 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://crates.io/crates/nano_arena",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-28032"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

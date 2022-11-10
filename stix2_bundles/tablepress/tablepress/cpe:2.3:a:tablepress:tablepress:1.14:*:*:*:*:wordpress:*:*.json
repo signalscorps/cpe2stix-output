@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--e6af3db1-35ee-4e5f-8193-b31456c76546",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--009fa70e-4dc6-57fb-9894-81419960088a",
+            "name": "TablePress 1.14 for WordPress",
+            "cpe": "cpe:2.3:a:tablepress:tablepress:1.14:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tablepress",
+            "version": "1.14",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:tablepress:tablepress:1.14:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-01T15:25Z",
+                        "titles": [
+                            {
+                                "title": "TablePress 1.14 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://tablepress.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/TablePress/TablePress/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/tablepress/#description",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

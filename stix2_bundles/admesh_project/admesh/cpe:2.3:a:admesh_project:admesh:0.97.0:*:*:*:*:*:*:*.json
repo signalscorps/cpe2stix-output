@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--a410b02e-7e0b-42db-942c-58dec43c40da",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f8de05cf-c22b-5f84-92ae-8b3936b4662d",
+            "name": "ADMesh Project ADMesh 0.97.0",
+            "cpe": "cpe:2.3:a:admesh_project:admesh:0.97.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "admesh_project",
+            "version": "0.97.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:admesh_project:admesh:0.97.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-01T17:26Z",
+                        "titles": [
+                            {
+                                "title": "ADMesh Project ADMesh 0.97.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/admesh/admesh/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2018-25033"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

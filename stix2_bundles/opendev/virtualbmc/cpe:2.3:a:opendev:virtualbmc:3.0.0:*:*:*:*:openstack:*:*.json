@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--78f31f4a-a1f7-4688-b833-eabb222dc389",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--388c2e7e-11be-5774-a17d-7d9ff41a1b84",
+            "name": "OpenDev VirtualBMC 3.0.0 for OpenStack",
+            "cpe": "cpe:2.3:a:opendev:virtualbmc:3.0.0:*:*:*:*:openstack:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "opendev",
+            "version": "3.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:opendev:virtualbmc:3.0.0:*:*:*:*:openstack:*:*",
+                        "lastModifiedDate": "2022-11-01T14:42Z",
+                        "titles": [
+                            {
+                                "title": "OpenDev VirtualBMC 3.0.0 for OpenStack",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/openstack/virtualbmc/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://opendev.org/openstack/virtualbmc",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://storyboard.openstack.org/#!/story/2010382",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

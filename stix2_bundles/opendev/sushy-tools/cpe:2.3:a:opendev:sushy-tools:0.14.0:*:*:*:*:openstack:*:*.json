@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--718e5e4d-26f7-4b04-bea5-ea8fe55746af",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2ef27b00-6431-524d-ba0e-46d7f7850913",
+            "name": "OpenDev Sushy-tools 0.14.0 for OpenStack",
+            "cpe": "cpe:2.3:a:opendev:sushy-tools:0.14.0:*:*:*:*:openstack:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "opendev",
+            "version": "0.14.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:opendev:sushy-tools:0.14.0:*:*:*:*:openstack:*:*",
+                        "lastModifiedDate": "2022-11-01T14:42Z",
+                        "titles": [
+                            {
+                                "title": "OpenDev Sushy-tools 0.14.0 for OpenStack",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://storyboard.openstack.org/#!/story/2010382",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/openstack/sushy-tools/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://opendev.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://opendev.org/openstack/sushy-tools",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-44020"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

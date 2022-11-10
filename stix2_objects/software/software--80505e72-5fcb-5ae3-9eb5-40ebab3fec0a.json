@@ -1,0 +1,50 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--80505e72-5fcb-5ae3-9eb5-40ebab3fec0a",
+    "name": "OpenDev Sushy-tools 0.16.0 for OpenStack",
+    "cpe": "cpe:2.3:a:opendev:sushy-tools:0.16.0:*:*:*:*:openstack:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "opendev",
+    "version": "0.16.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:opendev:sushy-tools:0.16.0:*:*:*:*:openstack:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-01T14:42Z",
+                "refs": [
+                    {
+                        "ref": "https://storyboard.openstack.org/#!/story/2010382",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/openstack/sushy-tools/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://opendev.org/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://opendev.org/openstack/sushy-tools",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "OpenDev Sushy-tools 0.16.0 for OpenStack"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-44020"
+                ]
+            }
+        }
+    }
+}

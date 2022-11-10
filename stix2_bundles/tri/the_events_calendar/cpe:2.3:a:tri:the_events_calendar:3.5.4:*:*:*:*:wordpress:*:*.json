@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--e89469c1-31e1-473d-ae36-83f6ffaeac82",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0a294f43-5a81-5b7b-81c5-4b4c039601d8",
+            "name": "Modern Tribe The Events Calendar 3.5.4 for WordPress",
+            "cpe": "cpe:2.3:a:tri:the_events_calendar:3.5.4:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tri",
+            "version": "3.5.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:tri:the_events_calendar:3.5.4:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-01T18:16Z",
+                        "titles": [
+                            {
+                                "title": "Modern Tribe The Events Calendar 3.5.4 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/the-events-calendar/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://tri.be/our-work/the-events-calendar/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-15109"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

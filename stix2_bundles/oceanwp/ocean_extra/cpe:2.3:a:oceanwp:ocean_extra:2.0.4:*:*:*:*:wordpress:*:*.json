@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--257dc8c9-783d-4d7e-ab29-e13722120f82",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e8d7b577-8fa4-510b-802f-e40b4954cd0f",
+            "name": "OceanWP Ocean Extra 2.0.4 for WordPress",
+            "cpe": "cpe:2.3:a:oceanwp:ocean_extra:2.0.4:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "oceanwp",
+            "version": "2.0.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:oceanwp:ocean_extra:2.0.4:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-01T13:30Z",
+                        "titles": [
+                            {
+                                "title": "OceanWP Ocean Extra 2.0.4 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/ocean-extra/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://oceanwp.org/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3374"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

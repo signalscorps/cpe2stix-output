@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--cb56fb7c-edd9-47ad-bf90-48137a5e060e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9b601492-540c-5de3-862e-938634ea989c",
+            "name": "The Linux Foundation Tremor-Script 0.12.0 for Rust",
+            "cpe": "cpe:2.3:a:linuxfoundation:tremor-script:0.12.0:-:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "linuxfoundation",
+            "version": "0.12.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:linuxfoundation:tremor-script:0.12.0:-:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-01T12:56Z",
+                        "titles": [
+                            {
+                                "title": "The Linux Foundation Tremor-Script 0.12.0 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://crates.io/crates/tremor-script/versions",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://www.tremor.rs/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.tremor.rs/docs/tremor-script/index/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

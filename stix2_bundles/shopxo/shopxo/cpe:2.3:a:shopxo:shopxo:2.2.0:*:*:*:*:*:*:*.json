@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--96185c96-57d9-46e6-bf88-45283a0ec11a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--57f26e90-b2b0-5778-8aa9-6b4f9fc9b3ee",
+            "name": "ShopXO 2.2.0",
+            "cpe": "cpe:2.3:a:shopxo:shopxo:2.2.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "shopxo",
+            "version": "2.2.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:shopxo:shopxo:2.2.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "ShopXO 2.2.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/gongfuxiang/shopxo/tags",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-41938"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

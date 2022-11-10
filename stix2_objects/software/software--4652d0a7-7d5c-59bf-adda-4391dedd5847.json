@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--4652d0a7-7d5c-59bf-adda-4391dedd5847",
+    "name": "Redis 2022-09-30",
+    "cpe": "cpe:2.3:a:redis:redis:2022-09-30:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "redis",
+    "version": "2022-09-30",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:redis:redis:2022-09-30:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T16:47Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/redis/redis/commit/0bf90d944313919eb8e63d3588bf63a367f020a3",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Redis 2022-09-30"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

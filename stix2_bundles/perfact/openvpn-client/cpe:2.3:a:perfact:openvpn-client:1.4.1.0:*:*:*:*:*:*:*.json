@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--2e8b7748-2e0a-4462-88f0-effc3d6c22b3",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a509441d-e6d6-5392-8aec-35d46b71656a",
+            "name": "PerFact OpenVPN-client 1.4.1.0",
+            "cpe": "cpe:2.3:a:perfact:openvpn-client:1.4.1.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "perfact",
+            "version": "1.4.1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:perfact:openvpn-client:1.4.1.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "PerFact OpenVPN-client 1.4.1.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://perfact.de/en/services/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.cisa.gov/uscert/ics/advisories/icsa-21-056-01",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://exchange.xforce.ibmcloud.com/vulnerabilities/197460",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-27406"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

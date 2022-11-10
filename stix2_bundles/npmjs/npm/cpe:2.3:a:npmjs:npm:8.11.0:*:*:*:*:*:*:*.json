@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--f52e5133-c998-49a4-81b0-bb8d6bef3b67",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d98bb404-ec70-5164-b515-c7afe1806d3c",
+            "name": "npmjs npm 8.11.0",
+            "cpe": "cpe:2.3:a:npmjs:npm:8.11.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "npmjs",
+            "version": "8.11.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:npmjs:npm:8.11.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T15:10Z",
+                        "titles": [
+                            {
+                                "title": "npmjs npm 8.11.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/nodejs/node/pull/43210",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/npm/cli/security/advisories/GHSA-hj9c-8jmm-8c52",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

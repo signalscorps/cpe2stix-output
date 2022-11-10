@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--712b87d1-ab96-40ad-aa90-fcea41b32aa1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bd31da56-e83b-5024-b197-69f8fafa9e9e",
+            "name": "Related Code Messenger",
+            "cpe": "cpe:2.3:a:relatedcode:messenger:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "relatedcode",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:relatedcode:messenger:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "Related Code Messenger",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/relatedcode/Messenger",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://relatedcode.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://fluidattacks.com/advisories/coldplay/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41707",
+                            "CVE-2022-41708"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--70805526-e642-457d-9c5a-0a2d13d14474",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--92c13b19-925a-53e4-b344-007434fc8c5c",
+            "name": "SAP Enable Now Manager 1.0",
+            "cpe": "cpe:2.3:a:sap:enable_now_manager:1.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sap",
+            "version": "1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sap:enable_now_manager:1.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "SAP Enable Now Manager 1.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-35293"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--f8a73fc6-6654-4aa9-8f48-3bf9724e4f8f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--65dc7b41-e669-5705-91ef-2978be471b4e",
+            "name": "Necta WiFi Mouse Server 1.7.8.5",
+            "cpe": "cpe:2.3:a:necta:wifi_mouse_server:1.7.8.5:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "necta",
+            "version": "1.7.8.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:necta:wifi_mouse_server:1.7.8.5:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T15:10Z",
+                        "titles": [
+                            {
+                                "title": "Necta WiFi Mouse Server 1.7.8.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/H4rk3nz0/PenTesting/blob/main/Exploits/wifi%20mouse/wifi-mouse-server-rce.py",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "http://necta.us/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3218"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

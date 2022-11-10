@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--1459b84a-a700-54e5-a4fe-20c5d9e1bb24",
+    "name": "Siemens 6AG1315-2FJ14-2AB0",
+    "cpe": "cpe:2.3:h:siemens:6ag1315-2fj14-2ab0:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "siemens",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:siemens:6ag1315-2fj14-2ab0:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T17:50Z",
+                "refs": [
+                    {
+                        "ref": "https://cert-portal.siemens.com/productcert/pdf/ssa-478960.pdf",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Siemens 6AG1315-2FJ14-2AB0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-30694"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--f831265b-e3ae-5be0-aba0-2b72e72598f3",
+    "name": "SAS Web Report Studio 4.4",
+    "cpe": "cpe:2.3:a:sas:web_report_studio:4.4:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "sas",
+    "version": "4.4",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:sas:web_report_studio:4.4:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://documentation.sas.com/doc/en/wrscdc/4.4/citug/titlepage.htm",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "SAS Web Report Studio 4.4"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-25256"
+                ]
+            }
+        }
+    }
+}

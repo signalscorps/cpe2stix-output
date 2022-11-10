@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--24ea3ee3-b3cc-451c-985d-9ee2b652f147",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--952759fa-662e-57f6-8e03-f47fb56965db",
+            "name": "Siemens 6ES7317-7TK10-0AB0",
+            "cpe": "cpe:2.3:h:siemens:6es7317-7tk10-0ab0:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "siemens",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:siemens:6es7317-7tk10-0ab0:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T17:50Z",
+                        "titles": [
+                            {
+                                "title": "Siemens 6ES7317-7TK10-0AB0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert-portal.siemens.com/productcert/pdf/ssa-478960.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-30694"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

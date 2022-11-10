@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--f33122d8-f0c1-45c7-a4a9-8fd733292f43",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f72312d0-0f43-5128-98c5-6f59f59da354",
+            "name": "fil-ocl Project fil-ocl 0.17.0 for Rust",
+            "cpe": "cpe:2.3:a:fil-ocl_project:fil-ocl:0.17.0:*:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "fil-ocl_project",
+            "version": "0.17.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:fil-ocl_project:fil-ocl:0.17.0:*:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-09T15:53Z",
+                        "titles": [
+                            {
+                                "title": "fil-ocl Project fil-ocl 0.17.0 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/cogciprocate/ocl/blob/master/RELEASES.md",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://crates.io/crates/fil-ocl",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-25908"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--206d1919-e582-574f-844c-98ecabe8819f",
+    "name": "Nic Knot Resolver",
+    "cpe": "cpe:2.3:a:nic:knot_resolver:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "nic",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:nic:knot_resolver:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T15:10Z",
+                "refs": [
+                    {
+                        "ref": "https://exchange.xforce.ibmcloud.com/vulnerabilities/229244",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/CZ-NIC/knot-resolver",
+                        "type": "Version"
+                    },
+                    {
+                        "ref": "https://www.nic.cz/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Nic Knot Resolver"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2013-5661",
+                    "CVE-2018-1000002",
+                    "CVE-2018-10920",
+                    "CVE-2018-1110",
+                    "CVE-2019-10190",
+                    "CVE-2019-10191",
+                    "CVE-2019-19331",
+                    "CVE-2020-12667",
+                    "CVE-2021-40083",
+                    "CVE-2022-32983",
+                    "CVE-2022-40188"
+                ]
+            }
+        }
+    }
+}

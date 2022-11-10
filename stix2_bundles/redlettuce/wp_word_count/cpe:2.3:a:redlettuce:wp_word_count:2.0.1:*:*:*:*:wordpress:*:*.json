@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--c61e4efa-f668-4dfe-9906-3ec15b2916e2",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d062ae93-4504-5d73-8646-835410e46b0e",
+            "name": "RedLettuce WP Word Count 2.0.1 for WordPress",
+            "cpe": "cpe:2.3:a:redlettuce:wp_word_count:2.0.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "redlettuce",
+            "version": "2.0.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:redlettuce:wp_word_count:2.0.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-09T17:50Z",
+                        "titles": [
+                            {
+                                "title": "RedLettuce WP Word Count 2.0.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.trac.wordpress.org/log/wp-word-count/",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://redlettuce.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3408"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

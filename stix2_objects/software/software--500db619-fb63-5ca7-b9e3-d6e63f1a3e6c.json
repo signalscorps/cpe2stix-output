@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--500db619-fb63-5ca7-b9e3-d6e63f1a3e6c",
+    "name": "Rockwell Automation FactorTalk View 10.0 Standard Edition",
+    "cpe": "cpe:2.3:a:rockwellautomation:factorytalk_view:10.0:*:*:*:se:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "rockwellautomation",
+    "version": "10.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:rockwellautomation:factorytalk_view:10.0:*:*:*:se:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T16:47Z",
+                "refs": [
+                    {
+                        "ref": "https://www.cisa.gov/uscert/ics/advisories/icsa-20-177-03",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Rockwell Automation FactorTalk View 10.0 Standard Edition"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-12027",
+                    "CVE-2020-12028",
+                    "CVE-2020-12031",
+                    "CVE-2020-14480",
+                    "CVE-2020-14481"
+                ]
+            }
+        }
+    }
+}

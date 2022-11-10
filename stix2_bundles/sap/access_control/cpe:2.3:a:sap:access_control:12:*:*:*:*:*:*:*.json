@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--9970837a-b4da-4a3a-9d9b-cc8034f34db5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--75fa7122-7c45-513d-9bbc-5eace4351ed0",
+            "name": "SAP Access Control 12",
+            "cpe": "cpe:2.3:a:sap:access_control:12:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sap",
+            "version": "12",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sap:access_control:12:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "SAP Access Control 12",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-39801"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

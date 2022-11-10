@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--9ef91419-fb16-48d6-9360-c0c333c2ae93",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2fe7b16b-8e35-5185-baa7-726ca746fb74",
+            "name": "Redis 7.0.5",
+            "cpe": "cpe:2.3:a:redis:redis:7.0.5:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "redis",
+            "version": "7.0.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:redis:redis:7.0.5:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "Redis 7.0.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/redis/redis/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://redis.io/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/redis/redis/security/advisories/GHSA-5gc4-76rx-22c9",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3647"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

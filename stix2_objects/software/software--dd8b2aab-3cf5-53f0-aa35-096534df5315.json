@@ -1,0 +1,44 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--dd8b2aab-3cf5-53f0-aa35-096534df5315",
+    "name": "Python 3.9.15",
+    "cpe": "cpe:2.3:a:python:python:3.9.15:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "python",
+    "version": "3.9.15",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:python:python:3.9.15:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T19:43Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/python/cpython/tags",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Python 3.9.15"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2009-2940",
+                    "CVE-2009-3720",
+                    "CVE-2015-20107",
+                    "CVE-2020-29396",
+                    "CVE-2021-32052",
+                    "CVE-2022-42919",
+                    "CVE-2022-45061"
+                ]
+            }
+        }
+    }
+}

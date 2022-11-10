@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--bd32617b-189f-57c8-a4ae-cd47267dadb7",
+    "name": "Siemens EK-ERTEC 200 PN IO",
+    "cpe": "cpe:2.3:h:siemens:ek-ertec_200_pn_io:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "siemens",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:siemens:ek-ertec_200_pn_io:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T17:50Z",
+                "refs": [
+                    {
+                        "ref": "https://cert-portal.siemens.com/productcert/pdf/ssa-478960.pdf",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Siemens EK-ERTEC 200 PN IO"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2017-2680",
+                    "CVE-2017-2681"
+                ]
+            }
+        }
+    }
+}

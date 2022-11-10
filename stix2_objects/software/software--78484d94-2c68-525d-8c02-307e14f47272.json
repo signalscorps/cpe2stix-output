@@ -1,0 +1,41 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--78484d94-2c68-525d-8c02-307e14f47272",
+    "name": "Siemens SIPLUS S7-1200 CP 1243-1 RAIL",
+    "cpe": "cpe:2.3:h:siemens:siplus_s7-1200_cp_1243-1_rail:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "siemens",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:siemens:siplus_s7-1200_cp_1243-1_rail:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T17:50Z",
+                "refs": [
+                    {
+                        "ref": "https://cert-portal.siemens.com/productcert/pdf/ssa-478960.pdf",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Siemens SIPLUS S7-1200 CP 1243-1 RAIL"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-41991",
+                    "CVE-2022-34819",
+                    "CVE-2022-34820",
+                    "CVE-2022-34821"
+                ]
+            }
+        }
+    }
+}

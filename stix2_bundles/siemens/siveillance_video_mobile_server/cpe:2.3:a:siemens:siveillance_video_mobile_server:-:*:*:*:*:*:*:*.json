@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--d27bf5eb-f504-438b-b9ba-615ed1705002",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--391c3d5f-84bb-5ba1-a2af-88a295aac375",
+            "name": "Siemens Siveillance Video Mobile Server -",
+            "cpe": "cpe:2.3:a:siemens:siveillance_video_mobile_server:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "siemens",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:siemens:siveillance_video_mobile_server:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "Siemens Siveillance Video Mobile Server -",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert-portal.siemens.com/productcert/pdf/ssa-640732.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43400"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

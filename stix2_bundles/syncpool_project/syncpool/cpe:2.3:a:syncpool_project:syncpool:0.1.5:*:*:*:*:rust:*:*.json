@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--07e3c742-8f39-42e3-a028-69c2a78b56b0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9a32d7d0-b4fa-5abd-9f87-1701fbedffaf",
+            "name": "syncpool Project syncpool 0.1.5 for Rust",
+            "cpe": "cpe:2.3:a:syncpool_project:syncpool:0.1.5:*:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "syncpool_project",
+            "version": "0.1.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:syncpool_project:syncpool:0.1.5:*:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-09T16:53Z",
+                        "titles": [
+                            {
+                                "title": "syncpool Project syncpool 0.1.5 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://crates.io/crates/syncpool/versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-36462"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--8c6b2a44-57b3-5c03-a13d-4ffbed5db277",
+    "name": "Percona Server 8.0.28-19 for MySQL",
+    "cpe": "cpe:2.3:a:percona:percona_server:8.0.28-19:*:*:*:*:mysql:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "percona",
+    "version": "8.0.28-19",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:percona:percona_server:8.0.28-19:*:*:*:*:mysql:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T16:47Z",
+                "refs": [
+                    {
+                        "ref": "https://docs.percona.com/percona-server/8.0/release-notes/Percona-Server-8.0.28-19.html",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Percona Server 8.0.28-19 for MySQL"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-27928",
+                    "CVE-2022-34968"
+                ]
+            }
+        }
+    }
+}

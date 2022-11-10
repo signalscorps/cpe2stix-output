@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--711bfc63-0ae0-4033-b4e4-c330ffc17f52",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8a208e2f-de87-5d64-b77c-85c8b075a048",
+            "name": "Sangfor VDI Client 5.4.2.1006",
+            "cpe": "cpe:2.3:a:sangfor:vdi_client:5.4.2.1006:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sangfor",
+            "version": "5.4.2.1006",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sangfor:vdi_client:5.4.2.1006:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "Sangfor VDI Client 5.4.2.1006",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/NF-Security-Team/CVEs/tree/main/CVE-2022-22908",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-22908"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

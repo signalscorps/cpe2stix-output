@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--bc75107f-bba1-4361-a432-cd55fd4c76f5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--58f57905-2201-55b2-b246-199ba3113729",
+            "name": "sr.solutions UserTakeOver",
+            "cpe": "cpe:2.3:a:sr.solutions:usertakeover:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sr.solutions",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sr.solutions:usertakeover:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "sr.solutions UserTakeOver",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://medium.com/@bcksec/ilias-lms-usertakeover-4-0-1-vulnerability-b2824679403",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.sr.solutions/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-31478"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

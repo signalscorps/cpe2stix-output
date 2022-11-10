@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--d4e4c76d-8cfc-431f-a14b-357539f4dd8c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--02d80ec9-cf55-537f-a673-abf22f21cfaf",
+            "name": "PingCAP TiDB 6.4.0",
+            "cpe": "cpe:2.3:a:pingcap:tidb:6.4.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "pingcap",
+            "version": "6.4.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:pingcap:tidb:6.4.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "PingCAP TiDB 6.4.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/pingcap/tidb/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://en.pingcap.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

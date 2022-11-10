@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--99eaeb01-b627-45f2-8a96-f41b8a4693d9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--87ba9a11-d9a5-5360-9981-8830529fd458",
+            "name": "SysAid ITIL 20.4.74 B10",
+            "cpe": "cpe:2.3:a:sysaid:itil:20.4.74:b10:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sysaid",
+            "version": "20.4.74",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sysaid:itil:20.4.74:b10:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "SysAid ITIL 20.4.74 B10",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/atredispartners/advisories/blob/master/ATREDIS-2022-0001.md",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-43974"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

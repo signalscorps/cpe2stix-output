@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--ea18709d-61fd-464f-beaa-7a4f70cef5a9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6bcfdc4c-a396-5b28-966d-f200e0df245c",
+            "name": "Amperecomputing Ampere Altra Max Firmware 2022-07-15",
+            "cpe": "cpe:2.3:o:amperecomputing:ampere_altra_max_firmware:2022-07-15:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "amperecomputing",
+            "version": "2022-07-15",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:amperecomputing:ampere_altra_max_firmware:2022-07-15:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T22:47Z",
+                        "titles": [
+                            {
+                                "title": "Amperecomputing Ampere Altra Max Firmware 2022-07-15",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://amperecomputing.com/products/security-bulletins/hertzbleed.html",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/35xxx/CVE-2022-35888.json",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-35888"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

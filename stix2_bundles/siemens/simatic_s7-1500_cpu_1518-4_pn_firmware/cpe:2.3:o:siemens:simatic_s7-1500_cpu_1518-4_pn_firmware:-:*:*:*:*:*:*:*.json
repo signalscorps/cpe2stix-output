@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--97b93a53-1ab3-4746-bb45-6532d30d5c8f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7d8dd15f-77f3-5749-ac01-90a21c4f8afb",
+            "name": "Siemens SIMATIC S7-1500 CPU 1518-4 PN Firmware",
+            "cpe": "cpe:2.3:o:siemens:simatic_s7-1500_cpu_1518-4_pn_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "siemens",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:siemens:simatic_s7-1500_cpu_1518-4_pn_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T17:50Z",
+                        "titles": [
+                            {
+                                "title": "Siemens SIMATIC S7-1500 CPU 1518-4 PN Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert-portal.siemens.com/productcert/pdf/ssa-478960.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-30694"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

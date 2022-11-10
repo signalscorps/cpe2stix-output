@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--1706e3b3-647d-40e7-906c-cfec1d134e5d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1987fab8-fe0e-5c13-a956-bda6d6578708",
+            "name": "sys-info Project sys-info 0.5.6 for Rust",
+            "cpe": "cpe:2.3:a:sys-info_project:sys-info:0.5.6:*:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sys-info_project",
+            "version": "0.5.6",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sys-info_project:sys-info:0.5.6:*:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-09T16:41Z",
+                        "titles": [
+                            {
+                                "title": "sys-info Project sys-info 0.5.6 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://crates.io/crates/sys-info/versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-36434"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

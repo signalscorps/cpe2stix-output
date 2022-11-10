@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--2c94e51f-5cf5-425b-9340-e24651c10f81",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2fff53d0-ac9f-52f5-9c4b-abfdbc118391",
+            "name": "PHP memecached 2.2.0 B1",
+            "cpe": "cpe:2.3:a:php:memcached:2.2.0:b1:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "php",
+            "version": "2.2.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:php:memcached:2.2.0:b1:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T17:50Z",
+                        "titles": [
+                            {
+                                "title": "PHP memecached 2.2.0 B1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://pecl.php.net/package-changelog.php?package=memcached&release",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-26635"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

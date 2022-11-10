@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--d28fdbfb-5ccb-4409-9e05-8b63789c62a2",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1a29d8bc-e80a-57cd-8d49-8bce550f9576",
+            "name": "SEOPanel SEOPanel 4.6.0",
+            "cpe": "cpe:2.3:a:seopanel:seopanel:4.6.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "seopanel",
+            "version": "4.6.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:seopanel:seopanel:4.6.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "SEOPanel SEOPanel 4.6.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.seopanel.org/blog/2020/08/seo-panel-4-6-0-released/",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-27461"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "type": "bundle",
+    "id": "bundle--ab241ced-e181-44cf-897a-80311b782c85",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--84379249-93db-57fc-80ce-4c36ecb6aa0e",
+            "name": "Sailsjs Sails 0.11.0 Release Candidate 10 for Node.js",
+            "cpe": "cpe:2.3:a:sailsjs:sails:0.11.0:rc10:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sailsjs",
+            "version": "0.11.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sailsjs:sails:0.11.0:rc10:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2022-11-09T21:00Z",
+                        "titles": [
+                            {
+                                "title": "Sailsjs Sails 0.11.0 Release Candidate 10 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://sailsjs.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://sailsjs.com/documentation/reference/configuration/sails-config-security",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.npmjs.com/package/sails",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2016-10549",
+                            "CVE-2018-21036",
+                            "CVE-2021-44908"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

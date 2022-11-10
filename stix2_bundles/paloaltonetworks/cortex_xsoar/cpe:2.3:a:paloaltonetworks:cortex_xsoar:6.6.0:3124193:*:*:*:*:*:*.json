@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--4403a079-b23e-4dfc-a724-d83a6d120031",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a3e742e1-4da6-5fd8-ad9c-bef61c095b48",
+            "name": "Palo Alto Networks Cortex XSOAR 6.6.0 3124193",
+            "cpe": "cpe:2.3:a:paloaltonetworks:cortex_xsoar:6.6.0:3124193:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "paloaltonetworks",
+            "version": "6.6.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:paloaltonetworks:cortex_xsoar:6.6.0:3124193:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T19:49Z",
+                        "titles": [
+                            {
+                                "title": "Palo Alto Networks Cortex XSOAR 6.6.0 3124193",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://docs.paloaltonetworks.com/cortex/cortex-xsoar/6-6/cortex-xsoar-release-notes/cortex-soar-release-information/minor-releases#id289d10bb-80c2-48c0-871d-9ee903737de5",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-0027"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

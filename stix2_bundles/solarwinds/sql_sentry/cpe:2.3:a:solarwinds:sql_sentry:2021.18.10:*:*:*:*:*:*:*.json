@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--908ed870-fb7b-4041-846a-ad369b416755",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8427cc9b-d13c-5059-97f0-93e470b40df1",
+            "name": "SolarWinds SQL Sentry 2021.18.10",
+            "cpe": "cpe:2.3:a:solarwinds:sql_sentry:2021.18.10:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "solarwinds",
+            "version": "2021.18.10",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:solarwinds:sql_sentry:2021.18.10:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "SolarWinds SQL Sentry 2021.18.10",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.solarwinds.com/trust-center/security-advisories/cve-2022-38107",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.solarwinds.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-38107"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

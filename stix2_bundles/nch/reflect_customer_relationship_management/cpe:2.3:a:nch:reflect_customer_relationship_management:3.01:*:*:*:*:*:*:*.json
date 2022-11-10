@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--f6d9eb98-84a6-4ab9-b060-c38db6eb1e43",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2767bf69-c34b-5424-86ca-f4683b186b65",
+            "name": "NCH Reflect Customer Relationship Management 3.01",
+            "cpe": "cpe:2.3:a:nch:reflect_customer_relationship_management:3.01:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nch",
+            "version": "3.01",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nch:reflect_customer_relationship_management:3.01:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T15:10Z",
+                        "titles": [
+                            {
+                                "title": "NCH Reflect Customer Relationship Management 3.01",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/0xfml/poc/blob/main/NCH/ReflectCRM_3.01_CC.md",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-37468"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

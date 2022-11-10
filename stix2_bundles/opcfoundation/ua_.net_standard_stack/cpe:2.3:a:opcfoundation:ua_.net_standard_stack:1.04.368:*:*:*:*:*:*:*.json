@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--7186402e-d5a1-4f6a-940e-16a135f6b686",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8407251e-23d8-5fa4-b6ab-789d01341585",
+            "name": "Opcfoundation UA .NET Standard Stack 1.04.368",
+            "cpe": "cpe:2.3:a:opcfoundation:ua_.net_standard_stack:1.04.368:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "opcfoundation",
+            "version": "1.04.368",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:opcfoundation:ua_.net_standard_stack:1.04.368:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T15:10Z",
+                        "titles": [
+                            {
+                                "title": "Opcfoundation UA .NET Standard Stack 1.04.368",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://files.opcfoundation.org/SecurityBulletins/OPC%20Foundation%20Security%20Bulletin%20CVE-2022-33916.pdf",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/33xxx/CVE-2022-33916.json",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-29862",
+                            "CVE-2022-29863",
+                            "CVE-2022-29864",
+                            "CVE-2022-29865",
+                            "CVE-2022-29866",
+                            "CVE-2022-33916"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

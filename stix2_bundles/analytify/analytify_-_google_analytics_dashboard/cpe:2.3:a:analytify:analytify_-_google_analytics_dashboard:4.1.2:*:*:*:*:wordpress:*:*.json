@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--f4049b44-4b29-459f-99b5-368e785a4e74",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--72b77b6b-c023-5dde-a128-feed484034c0",
+            "name": "Analytify - Google Analytics Dashboard 4.1.2 for WordPress",
+            "cpe": "cpe:2.3:a:analytify:analytify_-_google_analytics_dashboard:4.1.2:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "analytify",
+            "version": "4.1.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:analytify:analytify_-_google_analytics_dashboard:4.1.2:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-09T17:50Z",
+                        "titles": [
+                            {
+                                "title": "Analytify - Google Analytics Dashboard 4.1.2 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/wp-analytify/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://analytify.io/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/wp-analytify/wordpress-analytify-plugin-4-2-2-cross-site-request-forgery-csrf-vulnerability?_s_id=cve",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-38137"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

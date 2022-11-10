@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--6ae50cc2-bb87-4091-a64c-bb60c1d09f8a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b5af746f-4fa4-5eb5-ae33-2281ef909548",
+            "name": "N-prolog Project N-prolog 1.91 1.5",
+            "cpe": "cpe:2.3:a:n-prolog_project:n-prolog:1.91:1.5:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "n-prolog_project",
+            "version": "1.91",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:n-prolog_project:n-prolog:1.91:1.5:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T17:50Z",
+                        "titles": [
+                            {
+                                "title": "N-prolog Project N-prolog 1.91 1.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/sasagawa888/nprolog/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43343"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

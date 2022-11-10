@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--3fd71d99-fd88-51ea-b5ea-61f30827f5dc",
+    "name": "Strapi 4.1.12",
+    "cpe": "cpe:2.3:a:strapi:strapi:4.1.12:-:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "strapi",
+    "version": "4.1.12",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:strapi:strapi:4.1.12:-:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/strapi/strapi/releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Strapi 4.1.12"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-32114"
+                ]
+            }
+        }
+    }
+}

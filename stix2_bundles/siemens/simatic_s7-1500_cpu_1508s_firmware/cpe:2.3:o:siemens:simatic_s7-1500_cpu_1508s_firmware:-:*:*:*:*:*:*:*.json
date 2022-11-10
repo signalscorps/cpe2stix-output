@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--839601bc-d588-46b2-a9a4-dc009e9f3864",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c8d0bca8-94fd-5452-bf40-8bc35d83c6ef",
+            "name": "Siemens SIMATIC S7-1500 CPU 1508S Firmware",
+            "cpe": "cpe:2.3:o:siemens:simatic_s7-1500_cpu_1508s_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "siemens",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:siemens:simatic_s7-1500_cpu_1508s_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T17:50Z",
+                        "titles": [
+                            {
+                                "title": "Siemens SIMATIC S7-1500 CPU 1508S Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert-portal.siemens.com/productcert/pdf/ssa-478960.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-30694"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

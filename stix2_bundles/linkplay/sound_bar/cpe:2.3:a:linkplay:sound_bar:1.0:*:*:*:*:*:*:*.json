@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--55a18b2d-6205-47dc-ba5b-f81fa922df46",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f987053a-f35d-561f-9ea2-0129f4c7e9f8",
+            "name": "Linkplay Sound Bar 1.0",
+            "cpe": "cpe:2.3:a:linkplay:sound_bar:1.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "linkplay",
+            "version": "1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:linkplay:sound_bar:1.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "Linkplay Sound Bar 1.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://gist.github.com/zachi40/1f8d174939684c07f5e32ee039ce9acf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-28605"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

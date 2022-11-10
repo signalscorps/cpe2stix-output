@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--9a6cce96-236e-53fd-b0e4-6c37e4e4aea2",
+    "name": "Silicon Labs Gecko Bootloader 4.0.1",
+    "cpe": "cpe:2.3:a:silabs:gecko_bootloader:4.0.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "silabs",
+    "version": "4.0.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:silabs:gecko_bootloader:4.0.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/SiliconLabs/gecko_sdk/blame/2e82050dc8823c9fe0e8908c1b2666fb83056230/platform/bootloader/core/btl_bootload.c",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/24xxx/CVE-2022-24936.json",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.silabs.com/documents/public/user-guides/ug266-gecko-bootloader-user-guide.pdf",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Silicon Labs Gecko Bootloader 4.0.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-24936"
+                ]
+            }
+        }
+    }
+}

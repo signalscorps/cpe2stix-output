@@ -1,0 +1,47 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--f691f2ff-5ffb-5371-8d82-62869812b0b3",
+    "name": "Nepxion Discovery for Spring Cloud",
+    "cpe": "cpe:2.3:a:nepxion:discovery:-:*:*:*:*:spring_cloud:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "nepxion",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:nepxion:discovery:-:*:*:*:*:spring_cloud:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T15:10Z",
+                "refs": [
+                    {
+                        "ref": "https://securitylab.github.com/advisories/GHSL-2022-033_GHSL-2022-034_Discovery/",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/Nepxion/Discovery/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://nepxion.com/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Nepxion Discovery for Spring Cloud"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-23463",
+                    "CVE-2022-23464"
+                ]
+            }
+        }
+    }
+}

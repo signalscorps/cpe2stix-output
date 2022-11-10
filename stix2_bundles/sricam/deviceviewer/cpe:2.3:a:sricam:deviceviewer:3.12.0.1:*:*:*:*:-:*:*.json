@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--f6a35add-4a75-4699-ae48-2affc89db9fd",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e3a1f006-1a39-566d-a67f-6210d18b170a",
+            "name": "Sricam Deviceviewer 3.12.0.1",
+            "cpe": "cpe:2.3:a:sricam:deviceviewer:3.12.0.1:*:*:*:*:-:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sricam",
+            "version": "3.12.0.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sricam:deviceviewer:3.12.0.1:*:*:*:*:-:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "Sricam Deviceviewer 3.12.0.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.exploit-db.com/exploits/47477",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "http://www.sricam.com/download.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-25062",
+                            "CVE-2019-25063"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

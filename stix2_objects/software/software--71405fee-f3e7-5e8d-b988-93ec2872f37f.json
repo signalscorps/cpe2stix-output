@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--71405fee-f3e7-5e8d-b988-93ec2872f37f",
+    "name": "SAP Data Services 4.3",
+    "cpe": "cpe:2.3:a:sap:data_services:4.3:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "sap",
+    "version": "4.3",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:sap:data_services:4.3:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.sap.com/index.html",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "SAP Data Services 4.3"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-35226"
+                ]
+            }
+        }
+    }
+}

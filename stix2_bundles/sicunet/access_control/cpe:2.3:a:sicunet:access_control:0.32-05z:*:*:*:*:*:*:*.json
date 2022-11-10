@@ -1,0 +1,51 @@
+{
+    "type": "bundle",
+    "id": "bundle--411ae5fb-dad2-49a4-b913-61fa1ac2f3e9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--633e5a36-c033-5a8a-ac9f-70492b905703",
+            "name": "Sicunet Access Control 0.32-05z",
+            "cpe": "cpe:2.3:a:sicunet:access_control:0.32-05z:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sicunet",
+            "version": "0.32-05z",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sicunet:access_control:0.32-05z:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "Sicunet Access Control 0.32-05z",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.sicunet.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.sicunet.com/features/download.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2017-20037",
+                            "CVE-2017-20038",
+                            "CVE-2017-20039",
+                            "CVE-2017-20040"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

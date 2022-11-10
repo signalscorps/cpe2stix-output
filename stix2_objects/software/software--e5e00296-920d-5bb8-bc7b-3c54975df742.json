@@ -1,0 +1,49 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--e5e00296-920d-5bb8-bc7b-3c54975df742",
+    "name": "NEC Expresscluster X SingleServerSafe 4.2 for Windows",
+    "cpe": "cpe:2.3:a:nec:expresscluster_x_singleserversafe:4.2:*:*:*:*:windows:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "nec",
+    "version": "4.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:nec:expresscluster_x_singleserversafe:4.2:*:*:*:*:windows:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T16:47Z",
+                "refs": [
+                    {
+                        "ref": "https://jpn.nec.com/security-info/secinfo/nv22-014_en.html",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "NEC Expresscluster X SingleServerSafe 4.2 for Windows"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-20700",
+                    "CVE-2021-20701",
+                    "CVE-2021-20702",
+                    "CVE-2021-20703",
+                    "CVE-2021-20704",
+                    "CVE-2021-20705",
+                    "CVE-2021-20706",
+                    "CVE-2021-20707",
+                    "CVE-2022-34822",
+                    "CVE-2022-34823",
+                    "CVE-2022-34824",
+                    "CVE-2022-34825"
+                ]
+            }
+        }
+    }
+}

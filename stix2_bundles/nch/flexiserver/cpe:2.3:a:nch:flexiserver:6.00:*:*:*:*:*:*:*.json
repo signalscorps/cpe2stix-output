@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--00aaed69-5cbc-4593-8787-e7163f06bc86",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2e69400f-ef0a-54bd-9ddb-44437a75d108",
+            "name": "NCH Flexiserver 6.00",
+            "cpe": "cpe:2.3:a:nch:flexiserver:6.00:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nch",
+            "version": "6.00",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nch:flexiserver:6.00:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T15:10Z",
+                        "titles": [
+                            {
+                                "title": "NCH Flexiserver 6.00",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/0xfml/poc/blob/main/NCH/Flexiserver_6.00_LFI.md",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-37439"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

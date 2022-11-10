@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--d45d9d16-1914-49e7-a704-ed25a3d3a373",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2add8681-ab27-57a8-bd2f-94bc414321bb",
+            "name": "Sigstore Cosign 1.13.0",
+            "cpe": "cpe:2.3:a:sigstore:cosign:1.13.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sigstore",
+            "version": "1.13.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sigstore:cosign:1.13.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T19:48Z",
+                        "titles": [
+                            {
+                                "title": "Sigstore Cosign 1.13.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.sigstore.dev/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/sigstore/cosign/releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

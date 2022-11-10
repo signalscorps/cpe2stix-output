@@ -1,0 +1,47 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--15e0d0cb-82ac-5b66-b1e1-141dce491815",
+    "name": "Sailsjs Sails 1.0.0-5 for Node.js",
+    "cpe": "cpe:2.3:a:sailsjs:sails:1.0.0-5:*:*:*:*:node.js:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "sailsjs",
+    "version": "1.0.0-5",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:sailsjs:sails:1.0.0-5:*:*:*:*:node.js:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T21:00Z",
+                "refs": [
+                    {
+                        "ref": "https://sailsjs.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://sailsjs.com/documentation/reference/configuration/sails-config-security",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://www.npmjs.com/package/sails",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Sailsjs Sails 1.0.0-5 for Node.js"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2018-21036",
+                    "CVE-2021-44908"
+                ]
+            }
+        }
+    }
+}

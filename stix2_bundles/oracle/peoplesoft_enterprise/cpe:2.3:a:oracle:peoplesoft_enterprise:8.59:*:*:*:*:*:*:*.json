@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--54ac2d5c-852e-4134-98fc-5f581f7e9f19",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ebfac517-9d2f-5b0c-a64b-48265cd2748b",
+            "name": "Oracle Peoplesoft Enterprise 8.59",
+            "cpe": "cpe:2.3:a:oracle:peoplesoft_enterprise:8.59:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "oracle",
+            "version": "8.59",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:oracle:peoplesoft_enterprise:8.59:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "Oracle Peoplesoft Enterprise 8.59",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.oracle.com/security-alerts/cpujan2022.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2009-0982",
+                            "CVE-2009-0998",
+                            "CVE-2009-1013",
+                            "CVE-2009-1014",
+                            "CVE-2010-0080",
+                            "CVE-2022-21602",
+                            "CVE-2022-21639"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

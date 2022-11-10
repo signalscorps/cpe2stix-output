@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--b8b71e02-09b6-4c39-9e82-fcf0602bc255",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--53009514-2f59-570c-8ed0-d29903b5b855",
+            "name": "SCoRe Lab OpenMF",
+            "cpe": "cpe:2.3:a:scorelab:openmf:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "scorelab",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:scorelab:openmf:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "SCoRe Lab OpenMF",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://scorelab.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/scorelab/OpenMF/issues/262",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/31xxx/CVE-2022-31581.json",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-31581"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

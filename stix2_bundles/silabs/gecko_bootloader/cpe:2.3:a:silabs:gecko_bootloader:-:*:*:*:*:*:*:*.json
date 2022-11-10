@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--a4e837cb-d996-44cb-a68c-5a4f76cd61db",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--88c31864-1164-5943-b7db-f4f42abfe59f",
+            "name": "Silicon Labs Gecko Bootloader",
+            "cpe": "cpe:2.3:a:silabs:gecko_bootloader:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "silabs",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:silabs:gecko_bootloader:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "Silicon Labs Gecko Bootloader",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/SiliconLabs/gecko_sdk/blame/2e82050dc8823c9fe0e8908c1b2666fb83056230/platform/bootloader/core/btl_bootload.c",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/24xxx/CVE-2022-24936.json",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.silabs.com/documents/public/user-guides/ug266-gecko-bootloader-user-guide.pdf",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-24936"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

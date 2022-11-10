@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--434e97ad-d3b2-47a9-9daf-d8dfdcc09aaa",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--32a8204e-f500-5c5e-ba5a-16f025fe4127",
+            "name": "Oracle BI Publisher 5.9.0.0.0",
+            "cpe": "cpe:2.3:a:oracle:bi_publisher:5.9.0.0.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "oracle",
+            "version": "5.9.0.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:oracle:bi_publisher:5.9.0.0.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "Oracle BI Publisher 5.9.0.0.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.oracle.com/security-alerts/cpujan2022.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-21590"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--1612fb9d-d478-4d22-8532-ffb9740d2b8d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--62931c94-5adf-5abc-a197-938b7598c8f6",
+            "name": "OpenKM 6.3.11",
+            "cpe": "cpe:2.3:a:openkm:openkm:6.3.11:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "openkm",
+            "version": "6.3.11",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:openkm:openkm:6.3.11:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T15:10Z",
+                        "titles": [
+                            {
+                                "title": "OpenKM 6.3.11",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://sourceforge.net/projects/openkm/files/6.3.11/",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-40317"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

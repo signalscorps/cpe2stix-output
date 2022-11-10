@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--e5909787-acc9-40fd-a313-c580fd1d1a23",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--30f9a602-f510-5dcf-9c48-d86c53d48c6c",
+            "name": "PHPok 6.1",
+            "cpe": "cpe:2.3:a:phpok:phpok:6.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "phpok",
+            "version": "6.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:phpok:phpok:6.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "PHPok 6.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/qinggan/phpok/issues/12",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-29363",
+                            "CVE-2022-40889"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

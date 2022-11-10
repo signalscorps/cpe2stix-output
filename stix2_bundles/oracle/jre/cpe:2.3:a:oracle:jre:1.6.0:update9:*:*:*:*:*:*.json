@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--b7caedff-d4a0-423a-9ac9-9da4aa6330b2",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f92d4fee-d8ca-53a6-8949-ff2d80a58621",
+            "name": "Oracle Java Runtime Environment (JRE) 1.6.0 Update 9",
+            "cpe": "cpe:2.3:a:oracle:jre:1.6.0:update9:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "oracle",
+            "version": "1.6.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:oracle:jre:1.6.0:update9:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T17:50Z",
+                        "titles": [
+                            {
+                                "title": "Oracle Java Runtime Environment (JRE) 1.6.0 Update 9",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.oracle.com/java/technologies/javase-java-archive-javase6-downloads.html",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2012-5373",
+                            "CVE-2013-4578"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

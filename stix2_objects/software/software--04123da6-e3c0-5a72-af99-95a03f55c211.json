@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--04123da6-e3c0-5a72-af99-95a03f55c211",
+    "name": "Sophos Firewall 19.0.1",
+    "cpe": "cpe:2.3:a:sophos:firewall:19.0.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "sophos",
+    "version": "19.0.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:sophos:firewall:19.0.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://www.sophos.com/en-us/security-advisories/sophos-sa-20220923-sfos-rce",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Sophos Firewall 19.0.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3236"
+                ]
+            }
+        }
+    }
+}

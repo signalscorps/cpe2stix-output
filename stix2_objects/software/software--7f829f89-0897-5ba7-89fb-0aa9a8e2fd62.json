@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--7f829f89-0897-5ba7-89fb-0aa9a8e2fd62",
+    "name": "Reiner-SCT TimeCard 6.05.07",
+    "cpe": "cpe:2.3:a:reiner-sct:timecard:6.05.07:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "reiner-sct",
+    "version": "6.05.07",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:reiner-sct:timecard:6.05.07:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T16:47Z",
+                "refs": [
+                    {
+                        "ref": "https://www.compass-security.com/fileadmin/Research/Advisories/2021-12_CSNC-2021-012_timeCard_Hardcoded_Credentials.txt",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.reiner-sct.com/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Reiner-SCT TimeCard 6.05.07"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-33583"
+                ]
+            }
+        }
+    }
+}

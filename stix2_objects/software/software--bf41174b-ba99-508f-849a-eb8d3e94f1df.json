@@ -1,0 +1,49 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--bf41174b-ba99-508f-849a-eb8d3e94f1df",
+    "name": "SAP Enable Now 10",
+    "cpe": "cpe:2.3:a:sap:enable_now:10:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "sap",
+    "version": "10",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:sap:enable_now:10:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.sap.com/index.html",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "SAP Enable Now 10"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2019-0340",
+                    "CVE-2019-0385",
+                    "CVE-2019-0403",
+                    "CVE-2019-0404",
+                    "CVE-2019-0405",
+                    "CVE-2020-6178",
+                    "CVE-2020-6197",
+                    "CVE-2022-35297"
+                ]
+            }
+        }
+    }
+}

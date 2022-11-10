@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--bfed531b-8b8c-58ab-8a01-8f11a8a46828",
+    "name": "Grafana 9.2.3",
+    "cpe": "cpe:2.3:a:grafana:grafana:9.2.3:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "grafana",
+    "version": "9.2.3",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:grafana:grafana:9.2.3:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/grafana/grafana/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://github.com/grafana/grafana/security/advisories/GHSA-vqc4-mpj8-jxch",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Grafana 9.2.3"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-39328"
+                ]
+            }
+        }
+    }
+}

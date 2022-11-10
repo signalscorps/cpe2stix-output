@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--c68db704-57af-5a54-9ed6-2ebf61c305e8",
+    "name": "Fastify WebSocket 7.1.1 for Node.js",
+    "cpe": "cpe:2.3:a:fastify:websocket:7.1.1:*:*:*:*:node.js:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "fastify",
+    "version": "7.1.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:fastify:websocket:7.1.1:*:*:*:*:node.js:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T16:47Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/fastify/fastify-websocket/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://github.com/fastify/fastify-websocket/security/advisories/GHSA-4pcg-wr6c-h9cq",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.fastify.io/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Fastify WebSocket 7.1.1 for Node.js"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

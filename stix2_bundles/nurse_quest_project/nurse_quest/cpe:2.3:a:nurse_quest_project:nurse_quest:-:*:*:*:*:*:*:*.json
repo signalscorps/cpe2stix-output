@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--9c0d49e0-f637-4409-8daa-1f88aebb16e6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3c3d554b-37de-5a88-a204-982a0aac30ae",
+            "name": "Nurse Quest Project Nurse Quest",
+            "cpe": "cpe:2.3:a:nurse_quest_project:nurse_quest:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nurse_quest_project",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nurse_quest_project:nurse_quest:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T17:50Z",
+                        "titles": [
+                            {
+                                "title": "Nurse Quest Project Nurse Quest",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/31xxx/CVE-2022-31555.json",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/romain20100/nursequest/issues/6",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/romain20100/nursequest",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-31555"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

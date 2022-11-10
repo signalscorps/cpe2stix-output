@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--60bf9f7b-8003-4fa0-8c17-9b51e5a56497",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3f3626a8-3152-5498-88ba-cb88482840ad",
+            "name": "Octocat Project Octocat 1.0.1 for Node.js",
+            "cpe": "cpe:2.3:a:octocat_project:octocat:1.0.1:*:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "octocat_project",
+            "version": "1.0.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:octocat_project:octocat:1.0.1:*:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2022-11-09T17:50Z",
+                        "titles": [
+                            {
+                                "title": "Octocat Project Octocat 1.0.1 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.npmjs.com/package/octocat",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/octocademy/octocat.js/security/advisories/GHSA-r4jg-5v89-9v62",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

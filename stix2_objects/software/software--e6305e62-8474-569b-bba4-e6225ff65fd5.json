@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--e6305e62-8474-569b-bba4-e6225ff65fd5",
+    "name": "South River Technology Titan FTP Server NextGen",
+    "cpe": "cpe:2.3:a:southrivertech:titan_ftp_server_nextgen:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "southrivertech",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:southrivertech:titan_ftp_server_nextgen:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/34xxx/CVE-2022-34005.json",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.southrivertech.com/software/nextgen/titanftp/en/relnotes.pdf",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "South River Technology Titan FTP Server NextGen"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-34005",
+                    "CVE-2022-34006"
+                ]
+            }
+        }
+    }
+}

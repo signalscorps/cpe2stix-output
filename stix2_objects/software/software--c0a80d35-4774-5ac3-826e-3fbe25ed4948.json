@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--c0a80d35-4774-5ac3-826e-3fbe25ed4948",
+    "name": "Rexians Rex-Web",
+    "cpe": "cpe:2.3:a:rexians:rex-web:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "rexians",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:rexians:rex-web:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T16:47Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/Rexians/rex-web/issues/5",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://mcoc.rexians.tk/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/31xxx/CVE-2022-31568.json",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Rexians Rex-Web"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-31568"
+                ]
+            }
+        }
+    }
+}

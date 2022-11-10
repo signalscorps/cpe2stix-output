@@ -1,0 +1,68 @@
+{
+    "type": "bundle",
+    "id": "bundle--ae6d37b0-f5eb-4e55-bad1-61bc524ec84a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a2f463ee-cfbd-5e55-8186-8baf03ae55f8",
+            "name": "Red Hat Keycloak 9.0.13",
+            "cpe": "cpe:2.3:a:redhat:keycloak:9.0.13:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "redhat",
+            "version": "9.0.13",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:redhat:keycloak:9.0.13:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "Red Hat Keycloak 9.0.13",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://maven.repository.redhat.com/ga/org/keycloak/keycloak-core/9.0.13.redhat-00006/",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-10758",
+                            "CVE-2020-10770",
+                            "CVE-2020-10776",
+                            "CVE-2020-14302",
+                            "CVE-2020-14366",
+                            "CVE-2020-14389",
+                            "CVE-2020-1694",
+                            "CVE-2020-1714",
+                            "CVE-2020-1725",
+                            "CVE-2020-1728",
+                            "CVE-2020-1758",
+                            "CVE-2020-27826",
+                            "CVE-2020-27838",
+                            "CVE-2021-20195",
+                            "CVE-2021-20202",
+                            "CVE-2021-20222",
+                            "CVE-2021-20323",
+                            "CVE-2021-3461",
+                            "CVE-2021-3513",
+                            "CVE-2021-3632",
+                            "CVE-2021-3637",
+                            "CVE-2021-3827",
+                            "CVE-2021-3856",
+                            "CVE-2022-1245",
+                            "CVE-2022-1466"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

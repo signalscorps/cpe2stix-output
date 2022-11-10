@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--9c800423-9eb2-43e3-9c0b-2f657561d8c7",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--33b136e5-90af-53ea-9059-458dae8673fb",
+            "name": "Summit Media Concepts uContext For Amazon 3.9.1 for WordPress",
+            "cpe": "cpe:2.3:a:summitmediaconcepts:ucontext_for_amazon:3.9.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "summitmediaconcepts",
+            "version": "3.9.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:summitmediaconcepts:ucontext_for_amazon:3.9.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "Summit Media Concepts uContext For Amazon 3.9.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "http://www.summitmediaconcepts.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/ucontext-for-amazon/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-2541"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

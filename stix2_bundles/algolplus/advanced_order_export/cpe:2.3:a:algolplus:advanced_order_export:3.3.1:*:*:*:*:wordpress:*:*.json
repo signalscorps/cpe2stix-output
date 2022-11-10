@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--334784b5-bbd0-4c62-a659-005d305b8256",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--794ae874-1186-5b9d-8f07-2563ba93bb7d",
+            "name": "Algol Plus Advanced Order Export 3.3.1 for WordPress",
+            "cpe": "cpe:2.3:a:algolplus:advanced_order_export:3.3.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "algolplus",
+            "version": "3.3.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:algolplus:advanced_order_export:3.3.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-09T17:50Z",
+                        "titles": [
+                            {
+                                "title": "Algol Plus Advanced Order Export 3.3.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://algolplus.com/plugins/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/woo-order-export-lite/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-35275",
+                            "CVE-2022-40128"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

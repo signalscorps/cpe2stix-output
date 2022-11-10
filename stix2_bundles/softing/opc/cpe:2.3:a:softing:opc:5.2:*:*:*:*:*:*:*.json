@@ -1,0 +1,59 @@
+{
+    "type": "bundle",
+    "id": "bundle--a050d0e3-7ed1-40bd-9edf-cc9f42ec7fe2",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5f833471-6fba-5093-8c6d-f4d30467989b",
+            "name": "Softing OPC 5.2",
+            "cpe": "cpe:2.3:a:softing:opc:5.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "softing",
+            "version": "5.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:softing:opc:5.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "Softing OPC 5.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cisa.gov/uscert/ics/advisories/icsa-22-228-04",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://company.softing.com/us/index.html",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-40871",
+                            "CVE-2021-40873",
+                            "CVE-2022-1069",
+                            "CVE-2022-1373",
+                            "CVE-2022-1748",
+                            "CVE-2022-2334",
+                            "CVE-2022-2335",
+                            "CVE-2022-2336",
+                            "CVE-2022-2337",
+                            "CVE-2022-2338",
+                            "CVE-2022-2547",
+                            "CVE-2022-37453"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

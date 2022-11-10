@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--ad62c056-0e71-52eb-9e37-71dc67e7a827",
+    "name": "SAP Commerce 2205",
+    "cpe": "cpe:2.3:a:sap:commerce:2205:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "sap",
+    "version": "2205",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:sap:commerce:2205:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.sap.com/index.html",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "SAP Commerce 2205"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-41204"
+                ]
+            }
+        }
+    }
+}

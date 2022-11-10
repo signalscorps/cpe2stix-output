@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--7f38ad47-473e-49c2-8228-ebc2a38b3bfd",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bddf57be-a61a-524b-966f-d800bec5ae7b",
+            "name": "ticketed lock Project ticketed lock 0.2.0 for Rust",
+            "cpe": "cpe:2.3:a:ticketed_lock_project:ticketed_lock:0.2.0:*:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ticketed_lock_project",
+            "version": "0.2.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ticketed_lock_project:ticketed_lock:0.2.0:*:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-09T16:35Z",
+                        "titles": [
+                            {
+                                "title": "ticketed lock Project ticketed lock 0.2.0 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://crates.io/crates/ticketed_lock/versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-36439"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

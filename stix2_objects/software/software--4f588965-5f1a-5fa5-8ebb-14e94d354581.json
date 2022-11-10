@@ -1,0 +1,41 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--4f588965-5f1a-5fa5-8ebb-14e94d354581",
+    "name": "SapphireIMS 4097 1",
+    "cpe": "cpe:2.3:a:sapphireims:sapphireims:4097_1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "sapphireims",
+    "version": "4097_1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:sapphireims:sapphireims:4097_1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://vuln.shellcoder.party/2020/07/18/cve-2017-16632-sapphireims-insecure-storage-of-password/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "SapphireIMS 4097 1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2017-16629",
+                    "CVE-2017-16630",
+                    "CVE-2017-16631",
+                    "CVE-2017-16632"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--c9181d97-2307-4a56-8f2a-0471a812ff45",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ec600554-8eba-54e5-8895-2477662f9319",
+            "name": "Siemens SINEC NMS 1.0.3",
+            "cpe": "cpe:2.3:a:siemens:sinec_nms:1.0.3:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "siemens",
+            "version": "1.0.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:siemens:sinec_nms:1.0.3:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "Siemens SINEC NMS 1.0.3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert-portal.siemens.com/productcert/pdf/ssa-371761.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-34798",
+                            "CVE-2021-39275",
+                            "CVE-2021-40438"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

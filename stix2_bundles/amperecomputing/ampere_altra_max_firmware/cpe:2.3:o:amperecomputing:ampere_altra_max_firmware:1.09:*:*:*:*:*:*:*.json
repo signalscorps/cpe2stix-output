@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--05ebe877-58ad-4754-ac69-24ba488fe3d8",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8bb004e2-b75e-52e8-94df-bc92f6f22b01",
+            "name": "Amperecomputing Ampere Altra Max Firmware 1.09",
+            "cpe": "cpe:2.3:o:amperecomputing:ampere_altra_max_firmware:1.09:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "amperecomputing",
+            "version": "1.09",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:amperecomputing:ampere_altra_max_firmware:1.09:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T22:47Z",
+                        "titles": [
+                            {
+                                "title": "Amperecomputing Ampere Altra Max Firmware 1.09",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://exchange.xforce.ibmcloud.com/vulnerabilities/230299",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-45454",
+                            "CVE-2022-35888",
+                            "CVE-2022-37459"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

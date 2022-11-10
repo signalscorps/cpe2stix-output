@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--8a4ca6cf-f313-4dfe-84cf-a37b3ec89640",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f6af3f07-548b-5341-8c00-001abf6948cb",
+            "name": "SEOScout 0.9.83 for WordPress",
+            "cpe": "cpe:2.3:a:seoscout:seoscout:0.9.83:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "seoscout",
+            "version": "0.9.83",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:seoscout:seoscout:0.9.83:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "SEOScout 0.9.83 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://seoscout.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/ab-rankings-testing-tool/wordpress-seo-scout-plugin-0-9-83-cross-site-request-forgery-csrf-vulnerability",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

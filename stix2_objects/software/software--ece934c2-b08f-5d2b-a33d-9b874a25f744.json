@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--ece934c2-b08f-5d2b-a33d-9b874a25f744",
+    "name": "Analytify - Google Analytics Dashboard 2.1.19 for WordPress",
+    "cpe": "cpe:2.3:a:analytify:analytify_-_google_analytics_dashboard:2.1.19:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "analytify",
+    "version": "2.1.19",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:analytify:analytify_-_google_analytics_dashboard:2.1.19:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T17:50Z",
+                "refs": [
+                    {
+                        "ref": "https://wordpress.org/plugins/wp-analytify/#developers",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://analytify.io/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://patchstack.com/database/vulnerability/wp-analytify/wordpress-analytify-plugin-4-2-2-cross-site-request-forgery-csrf-vulnerability?_s_id=cve",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Analytify - Google Analytics Dashboard 2.1.19 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-38137"
+                ]
+            }
+        }
+    }
+}

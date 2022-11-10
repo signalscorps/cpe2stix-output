@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--ad09cd92-9f65-41ec-b6f8-35762dd8243b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8f82a881-e72d-5b5d-9d0f-013d5e139168",
+            "name": "CodEasily Gmedia Gallery 1.15.3 for WordPress",
+            "cpe": "cpe:2.3:a:codeasily:gmedia_gallery:1.15.3:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "codeasily",
+            "version": "1.15.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:codeasily:gmedia_gallery:1.15.3:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-09T15:12Z",
+                        "titles": [
+                            {
+                                "title": "CodEasily Gmedia Gallery 1.15.3 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://codeasily.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/grand-media/#developers",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-0873"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

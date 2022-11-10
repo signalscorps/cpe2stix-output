@@ -1,0 +1,51 @@
+{
+    "type": "bundle",
+    "id": "bundle--611181ab-7a16-4b48-ae37-62b8b46211c2",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f2d3a850-1e7b-5117-94b7-3a063afa22e0",
+            "name": "ForgeRock Access Management (AM) 6.5.4",
+            "cpe": "cpe:2.3:a:forgerock:access_management:6.5.4:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "forgerock",
+            "version": "6.5.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:forgerock:access_management:6.5.4:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T18:27Z",
+                        "titles": [
+                            {
+                                "title": "ForgeRock Access Management (AM) 6.5.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://backstage.forgerock.com/knowledge/kb/article/a90639318",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.forgerock.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-37153",
+                            "CVE-2021-37154",
+                            "CVE-2022-24669",
+                            "CVE-2022-24670"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

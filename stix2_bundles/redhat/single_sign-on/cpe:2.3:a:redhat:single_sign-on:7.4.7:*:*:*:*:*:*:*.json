@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--ef40f193-b133-4124-a418-a9b9f20e0b9f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ed219835-ddf8-531f-b9f5-bfb7e672d100",
+            "name": "Red Hat Single Sign-on 7.4.7",
+            "cpe": "cpe:2.3:a:redhat:single_sign-on:7.4.7:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "redhat",
+            "version": "7.4.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:redhat:single_sign-on:7.4.7:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "Red Hat Single Sign-on 7.4.7",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://access.redhat.com/solutions/6320651",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-3461",
+                            "CVE-2021-3632"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

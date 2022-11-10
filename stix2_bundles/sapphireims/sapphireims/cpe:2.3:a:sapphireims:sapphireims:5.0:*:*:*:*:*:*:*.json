@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--92ed3f0c-352c-4e2f-ba4d-99e970f17958",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--85700b81-9118-55a8-ab21-1dc6a9a2f6ec",
+            "name": "SapphireIMS 5.0",
+            "cpe": "cpe:2.3:a:sapphireims:sapphireims:5.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sapphireims",
+            "version": "5.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sapphireims:sapphireims:5.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "SapphireIMS 5.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/advisories/GHSA-wjw3-27pj-fvhg",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-25560",
+                            "CVE-2020-25561",
+                            "CVE-2020-25562",
+                            "CVE-2020-25563",
+                            "CVE-2020-25564",
+                            "CVE-2020-25565",
+                            "CVE-2020-25566"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

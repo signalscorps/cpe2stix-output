@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--dad65fa3-c3cf-55cb-a448-6b9edc52333f",
+    "name": "SeaCms 2021-05-30",
+    "cpe": "cpe:2.3:a:seacms:seacms:2021-05-30:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "seacms",
+    "version": "2021-05-30",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:seacms:seacms:2021-05-30:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/kk98kk0/exploit/blob/master/SEACMS-V210530-sql.md",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.seacms.net/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "SeaCms 2021-05-30"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-37358"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--6e529cca-f857-4aab-a0de-c008cf985cf6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--31b4ee66-3eb9-5e99-85df-01583b9b0b1a",
+            "name": "Redhat OpenShift Container Platform 4.10",
+            "cpe": "cpe:2.3:a:redhat:openshift_container_platform:4.10:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "redhat",
+            "version": "4.10",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:redhat:openshift_container_platform:4.10:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "Redhat OpenShift Container Platform 4.10",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cloud.redhat.com/blog/introducing-red-hat-openshift-4.10",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-3695",
+                            "CVE-2021-3696",
+                            "CVE-2021-3697",
+                            "CVE-2022-1677",
+                            "CVE-2022-1708"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

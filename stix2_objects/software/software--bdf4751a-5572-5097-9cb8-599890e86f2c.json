@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--bdf4751a-5572-5097-9cb8-599890e86f2c",
+    "name": "Open Ticket Request System (OTRS) 7.0.39",
+    "cpe": "cpe:2.3:a:otrs:otrs:7.0.39:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "otrs",
+    "version": "7.0.39",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:otrs:otrs:7.0.39:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T16:47Z",
+                "refs": [
+                    {
+                        "ref": "https://otrs.com/release-notes/otrs-security-advisory-2022-13-2/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Open Ticket Request System (OTRS) 7.0.39"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2011-2385",
+                    "CVE-2020-1778"
+                ]
+            }
+        }
+    }
+}

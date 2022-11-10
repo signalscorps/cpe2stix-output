@@ -1,0 +1,55 @@
+{
+    "type": "bundle",
+    "id": "bundle--fecd2b26-7156-44b6-92d8-c5d17c69d7bb",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a56fb4ed-dc1d-5968-afb0-73cae1904a32",
+            "name": "NEC Expresscluster X SingleServerSafe 3.0 for Windows",
+            "cpe": "cpe:2.3:a:nec:expresscluster_x_singleserversafe:3.0:*:*:*:*:windows:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nec",
+            "version": "3.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nec:expresscluster_x_singleserversafe:3.0:*:*:*:*:windows:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "NEC Expresscluster X SingleServerSafe 3.0 for Windows",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://jpn.nec.com/security-info/secinfo/nv22-014_en.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-20700",
+                            "CVE-2021-20701",
+                            "CVE-2021-20702",
+                            "CVE-2021-20703",
+                            "CVE-2021-20704",
+                            "CVE-2021-20705",
+                            "CVE-2021-20706",
+                            "CVE-2021-20707",
+                            "CVE-2022-34822",
+                            "CVE-2022-34823",
+                            "CVE-2022-34824",
+                            "CVE-2022-34825"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--bdc87662-c425-51c6-b411-400d6173279a",
+    "name": "NHI Health Insurance Web Service Component",
+    "cpe": "cpe:2.3:a:nhi:health_insurance_web_service_component:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "nhi",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:nhi:health_insurance_web_service_component:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T15:10Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2021/45xxx/CVE-2021-45918.json",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.twcert.org.tw/tw/cp-132-6227-eaf49-1.html",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.nhi.gov.tw/english/Content_List.aspx?n=320832076C00692B&topn=BCB2B0D2433F6491",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "NHI Health Insurance Web Service Component"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-45918",
+                    "CVE-2022-35217",
+                    "CVE-2022-35218",
+                    "CVE-2022-35219"
+                ]
+            }
+        }
+    }
+}

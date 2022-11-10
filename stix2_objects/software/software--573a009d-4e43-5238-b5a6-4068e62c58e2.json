@@ -1,0 +1,40 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--573a009d-4e43-5238-b5a6-4068e62c58e2",
+    "name": "SAP NetWeaver Application Server ABAP 789",
+    "cpe": "cpe:2.3:a:sap:netweaver_application_server_abap:789:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "sap",
+    "version": "789",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:sap:netweaver_application_server_abap:789:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "SAP NetWeaver Application Server ABAP 789"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-41212",
+                    "CVE-2022-41214",
+                    "CVE-2022-41215"
+                ]
+            }
+        }
+    }
+}

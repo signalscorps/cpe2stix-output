@@ -1,0 +1,54 @@
+{
+    "type": "bundle",
+    "id": "bundle--49f32ba7-c55a-4c90-9f59-d935bfab2e50",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f62d22a2-844e-5699-aa0b-6e1e073bdfdd",
+            "name": "Redis 7.0.0",
+            "cpe": "cpe:2.3:a:redis:redis:7.0.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "redis",
+            "version": "7.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:redis:redis:7.0.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "Redis 7.0.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/redis/redis/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://redis.io/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/redis/redis/security/advisories/GHSA-5gc4-76rx-22c9",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-31144",
+                            "CVE-2022-35951",
+                            "CVE-2022-3647"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

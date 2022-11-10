@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--cb839ea6-d784-5c80-a961-5153350673c3",
+    "name": "SAP SuccessFactors Mobile 8.0.5 for Android",
+    "cpe": "cpe:2.3:a:sap:successfactors_mobile:8.0.5:*:*:*:*:android:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "sap",
+    "version": "8.0.5",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:sap:successfactors_mobile:8.0.5:*:*:*:*:android:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.sap.com/index.html",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "SAP SuccessFactors Mobile 8.0.5 for Android"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-40498",
+                    "CVE-2022-35291"
+                ]
+            }
+        }
+    }
+}

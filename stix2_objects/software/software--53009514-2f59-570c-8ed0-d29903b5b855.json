@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--53009514-2f59-570c-8ed0-d29903b5b855",
+    "name": "SCoRe Lab OpenMF",
+    "cpe": "cpe:2.3:a:scorelab:openmf:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "scorelab",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:scorelab:openmf:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://scorelab.org/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/scorelab/OpenMF/issues/262",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/31xxx/CVE-2022-31581.json",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "SCoRe Lab OpenMF"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-31581"
+                ]
+            }
+        }
+    }
+}

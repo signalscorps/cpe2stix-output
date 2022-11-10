@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--cf44f2ff-e1f4-44e3-afc2-aa3f35506b7b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--93be947a-9b46-5082-8ce1-07e5d949e2a5",
+            "name": "Starwind Software Command Center",
+            "cpe": "cpe:2.3:a:starwindsoftware:command_center:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "starwindsoftware",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:starwindsoftware:command_center:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "Starwind Software Command Center",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.starwindsoftware.com/security/sw-20220802-0003/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-25704"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--e57df5b3-80a2-4f9c-b534-81710be16185",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--01872570-52a2-5003-b167-a5b45b53c706",
+            "name": "5 Anchor Connect 1.2.5 for WordPress",
+            "cpe": "cpe:2.3:a:5-anker:5_anker_connect:1.2.5:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "5-anker",
+            "version": "1.2.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:5-anker:5_anker_connect:1.2.5:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-09T17:50Z",
+                        "titles": [
+                            {
+                                "title": "5 Anchor Connect 1.2.5 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/5-anker-connect/wordpress-5-anker-connect-plugin-1-2-6-reflected-cross-site-scripting-xss-vulnerability?_s_id=cve",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/5-anker-connect/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.5-anker.com/produkte/connect/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-30545"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

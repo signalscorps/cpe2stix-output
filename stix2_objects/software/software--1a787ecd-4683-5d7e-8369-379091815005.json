@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--1a787ecd-4683-5d7e-8369-379091815005",
+    "name": "NukeViet 4.4.0",
+    "cpe": "cpe:2.3:a:nukeviet:nukeviet:4.4.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "nukeviet",
+    "version": "4.4.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:nukeviet:nukeviet:4.4.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T15:10Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/nukeviet/nukeviet/releases",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "NukeViet 4.4.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-22765",
+                    "CVE-2022-30874"
+                ]
+            }
+        }
+    }
+}

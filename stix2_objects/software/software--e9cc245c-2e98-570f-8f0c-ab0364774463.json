@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--e9cc245c-2e98-570f-8f0c-ab0364774463",
+    "name": "5 Anchor Connect 1.1.1 for WordPress",
+    "cpe": "cpe:2.3:a:5-anker:5_anker_connect:1.1.1:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "5-anker",
+    "version": "1.1.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:5-anker:5_anker_connect:1.1.1:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T17:50Z",
+                "refs": [
+                    {
+                        "ref": "https://patchstack.com/database/vulnerability/5-anker-connect/wordpress-5-anker-connect-plugin-1-2-6-reflected-cross-site-scripting-xss-vulnerability?_s_id=cve",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://wordpress.org/plugins/5-anker-connect/#developers",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://www.5-anker.com/produkte/connect/",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "5 Anchor Connect 1.1.1 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-30545"
+                ]
+            }
+        }
+    }
+}

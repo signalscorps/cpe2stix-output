@@ -1,0 +1,55 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--8469c739-5d9c-5916-98ce-a6d02f273379",
+    "name": "Open HW Group CVA6",
+    "cpe": "cpe:2.3:a:openhwgroup:cva6:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "openhwgroup",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:openhwgroup:cva6:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T15:10Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/openhwgroup/cva6/issues/884",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/openhwgroup/cva6",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://www.openhwgroup.org/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Open HW Group CVA6"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-33021",
+                    "CVE-2022-33023",
+                    "CVE-2022-34633",
+                    "CVE-2022-34634",
+                    "CVE-2022-34635",
+                    "CVE-2022-34636",
+                    "CVE-2022-34637",
+                    "CVE-2022-34639",
+                    "CVE-2022-34640",
+                    "CVE-2022-34641"
+                ]
+            }
+        }
+    }
+}

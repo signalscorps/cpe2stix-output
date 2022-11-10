@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--a3c0b7e6-a62d-4354-8a8e-e9a19971c033",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--950a975f-373c-5735-b942-f531965ae6ff",
+            "name": "Ampere Computing Ampere Altra Max Firmware 2.05",
+            "cpe": "cpe:2.3:o:amperecomputing:ampere_altra_max_firmware:2.05:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "amperecomputing",
+            "version": "2.05",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:amperecomputing:ampere_altra_max_firmware:2.05:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T22:47Z",
+                        "titles": [
+                            {
+                                "title": "Ampere Computing Ampere Altra Max Firmware 2.05",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://amperecomputing.com/products/security-bulletins/platypus.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-35888",
+                            "CVE-2022-37459"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

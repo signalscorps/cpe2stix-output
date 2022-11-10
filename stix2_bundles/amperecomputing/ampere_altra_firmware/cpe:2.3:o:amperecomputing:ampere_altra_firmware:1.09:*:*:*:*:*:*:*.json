@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--ade23daf-9e47-47b5-8d07-2c5aa03f6755",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--02935c2d-6974-5387-be7b-2e8a40933c85",
+            "name": "Amperecomputing Ampere Altra Firmware 1.09",
+            "cpe": "cpe:2.3:o:amperecomputing:ampere_altra_firmware:1.09:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "amperecomputing",
+            "version": "1.09",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:amperecomputing:ampere_altra_firmware:1.09:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T22:47Z",
+                        "titles": [
+                            {
+                                "title": "Amperecomputing Ampere Altra Firmware 1.09",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://exchange.xforce.ibmcloud.com/vulnerabilities/230299",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-35888"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

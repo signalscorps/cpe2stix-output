@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--253baefa-1083-4ca5-910c-9d8293296c62",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9aa4ad3f-2cc7-5f22-8f80-4d2ee57b88c4",
+            "name": "SonicWall Global Management System (GMS) 9.3.2",
+            "cpe": "cpe:2.3:a:sonicwall:global_management_system:9.3.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sonicwall",
+            "version": "9.3.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sonicwall:global_management_system:9.3.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "SonicWall Global Management System (GMS) 9.3.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0021",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

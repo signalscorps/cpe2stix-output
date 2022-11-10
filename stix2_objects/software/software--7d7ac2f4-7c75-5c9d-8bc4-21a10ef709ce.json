@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--7d7ac2f4-7c75-5c9d-8bc4-21a10ef709ce",
+    "name": "Script Mobile Browser Color Select for Wordpress",
+    "cpe": "cpe:2.3:a:script:mobile_browser_color_select:-:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "script",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:script:mobile_browser_color_select:-:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://www.wordfence.com/vulnerability-advisories/#CVE-2022-1969",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://wordpress.org/plugins/mobile-browser-color-select/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://www.script.co.il/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Script Mobile Browser Color Select for Wordpress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-1969"
+                ]
+            }
+        }
+    }
+}

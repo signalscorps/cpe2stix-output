@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--5a541fe9-5c8d-5ebd-814d-842770375712",
+    "name": "Symantec Endpoint Detection And Response 4.7.0",
+    "cpe": "cpe:2.3:a:symantec:endpoint_detection_and_response:4.7.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "symantec",
+    "version": "4.7.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:symantec:endpoint_detection_and_response:4.7.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://vuldb.com/?id.213183#:~:text=This%20vulnerability%20is%20uniquely%20identified,4.7.0%20eliminates%20this%20vulnerability.",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/37xxx/CVE-2022-37015.json",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Symantec Endpoint Detection And Response 4.7.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

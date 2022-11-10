@@ -1,0 +1,47 @@
+{
+    "type": "bundle",
+    "id": "bundle--9744a7b5-e9cc-4e8e-a104-2b99d30ffee6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bb9776a9-dd01-59ca-9707-f40c8e8ca0ab",
+            "name": "Siemens SIMATIC S7-1200 CPU 1215 FC Firmware",
+            "cpe": "cpe:2.3:o:siemens:simatic_s7-1200_cpu_1215_fc_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "siemens",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:siemens:simatic_s7-1200_cpu_1215_fc_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T17:50Z",
+                        "titles": [
+                            {
+                                "title": "Siemens SIMATIC S7-1200 CPU 1215 FC Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert-portal.siemens.com/productcert/pdf/ssa-478960.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2013-0700",
+                            "CVE-2013-2780",
+                            "CVE-2021-3449",
+                            "CVE-2022-30694"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

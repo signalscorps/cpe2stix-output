@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--3ce575b3-f022-4eb8-a468-f1e85343d37f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ab9c9780-9599-5b51-8536-b60b40fb789a",
+            "name": "tiny future Project tiny future 0.3.0 for Rust",
+            "cpe": "cpe:2.3:a:tiny_future_project:tiny_future:0.3.0:*:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tiny_future_project",
+            "version": "0.3.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:tiny_future_project:tiny_future:0.3.0:*:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-09T16:28Z",
+                        "titles": [
+                            {
+                                "title": "tiny future Project tiny future 0.3.0 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://crates.io/crates/tiny_future/versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-36438"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--ea859244-fef5-52a4-831e-812ae5d5e1d3",
+    "name": "Passwork 5.0.9",
+    "cpe": "cpe:2.3:a:passwork:passwork:5.0.9:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "passwork",
+    "version": "5.0.9",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:passwork:passwork:5.0.9:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T16:47Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/42xxx/CVE-2022-42955.json",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://passwork.canny.io/changelog",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://chrome.google.com/webstore/detail/passwork-self-hosted/ibiipnmmlnehmeonnhbdajcfagcgihkl",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Passwork 5.0.9"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-42955",
+                    "CVE-2022-42956"
+                ]
+            }
+        }
+    }
+}

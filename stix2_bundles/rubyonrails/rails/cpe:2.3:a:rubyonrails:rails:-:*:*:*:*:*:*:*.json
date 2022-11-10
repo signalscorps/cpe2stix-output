@@ -1,0 +1,58 @@
+{
+    "type": "bundle",
+    "id": "bundle--f73ae902-816c-46d7-ba8c-0f3885800c3d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--00f56b89-44c4-5ecf-bfd0-2ec97794c564",
+            "name": "Ruby on Rails Rails ",
+            "cpe": "cpe:2.3:a:rubyonrails:rails:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "rubyonrails",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:rubyonrails:rails:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "Ruby on Rails Rails ",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://rubyonrails.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/rails/rails",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2011-1497",
+                            "CVE-2019-5419",
+                            "CVE-2019-5420",
+                            "CVE-2020-8162",
+                            "CVE-2020-8163",
+                            "CVE-2020-8164",
+                            "CVE-2020-8165",
+                            "CVE-2020-8166",
+                            "CVE-2020-8167",
+                            "CVE-2021-22904",
+                            "CVE-2022-3704"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

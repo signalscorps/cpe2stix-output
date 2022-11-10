@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--6a84d6de-0080-41d6-b092-aee77a617abd",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7e5fe513-9664-53b5-a3cf-d3a00d4feba7",
+            "name": "Nextauth.js Next-auth 3.29.10 for Node.js",
+            "cpe": "cpe:2.3:a:nextauth.js:next-auth:3.29.10:*:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nextauth.js",
+            "version": "3.29.10",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nextauth.js:next-auth:3.29.10:*:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2022-11-09T15:10Z",
+                        "titles": [
+                            {
+                                "title": "Nextauth.js Next-auth 3.29.10 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/nextauthjs/next-auth/security/advisories/GHSA-xv97-c62v-4587",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

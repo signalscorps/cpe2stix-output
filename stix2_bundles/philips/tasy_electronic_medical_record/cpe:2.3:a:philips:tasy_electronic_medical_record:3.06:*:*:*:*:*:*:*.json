@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--863599d1-e4e4-4855-b0f8-d7bae2203208",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9ba2adfa-984c-5f99-9f68-e071eaeb8c93",
+            "name": "Philips Tasy Electronic Medical Record (EMR) 3.06",
+            "cpe": "cpe:2.3:a:philips:tasy_electronic_medical_record:3.06:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "philips",
+            "version": "3.06",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:philips:tasy_electronic_medical_record:3.06:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "Philips Tasy Electronic Medical Record (EMR) 3.06",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cisa.gov/uscert/ics/advisories/icsma-21-308-01",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-39375",
+                            "CVE-2021-39376"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

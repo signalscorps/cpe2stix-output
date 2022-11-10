@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--5511ae60-aafc-505b-b5e7-7ac25cf89fcd",
+    "name": "Panini Everest Engine 2.0.4",
+    "cpe": "cpe:2.3:a:panini:everest_engine:2.0.4:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "panini",
+    "version": "2.0.4",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:panini:everest_engine:2.0.4:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T16:47Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/usmarine2141/CVE-2022-39959",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.panini.com/en/news-events/panini-patents-revolutionary-new-%E2%80%9Ceverest%E2%80%9D-architecture",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Panini Everest Engine 2.0.4"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-39959"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--e44e97fe-eb42-4a12-8e04-3ff4afdadb4f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1b6aeb41-f3be-5bf6-89bb-fbe90e310da7",
+            "name": "IRIS Software iSAMS 22.2.3.2",
+            "cpe": "cpe:2.3:a:iris:isams:22.2.3.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "iris",
+            "version": "22.2.3.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:iris:isams:22.2.3.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T18:34Z",
+                        "titles": [
+                            {
+                                "title": "IRIS Software iSAMS 22.2.3.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://excellium-services.com/cert-xlm-advisory/CVE-2022-37028/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.isams.com/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.iris.co.uk/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-37028"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

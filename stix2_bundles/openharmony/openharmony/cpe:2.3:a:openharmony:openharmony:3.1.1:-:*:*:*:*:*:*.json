@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--1db7594f-4972-42a9-89e3-dcc74da40dee",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a6c586d8-f3ef-5056-81f6-43c019e823fc",
+            "name": "Openharmony Openharmony 3.1.1 ",
+            "cpe": "cpe:2.3:a:openharmony:openharmony:3.1.1:-:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "openharmony",
+            "version": "3.1.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:openharmony:openharmony:3.1.1:-:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T15:10Z",
+                        "titles": [
+                            {
+                                "title": "Openharmony Openharmony 3.1.1 ",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://gitee.com/openharmony/docs/tree/master/zh-cn/release-notes",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-38064",
+                            "CVE-2022-38081",
+                            "CVE-2022-38700",
+                            "CVE-2022-42463",
+                            "CVE-2022-42464",
+                            "CVE-2022-42488",
+                            "CVE-2022-43449",
+                            "CVE-2022-43451",
+                            "CVE-2022-43495"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

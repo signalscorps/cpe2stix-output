@@ -1,0 +1,54 @@
+{
+    "type": "bundle",
+    "id": "bundle--d11efeda-9f28-4586-ac9d-2bab860c144e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ee24956b-5a3f-58d1-839e-141d81bfca4d",
+            "name": "Sailsjs Sails 0.4.6 for Node.js",
+            "cpe": "cpe:2.3:a:sailsjs:sails:0.4.6:*:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sailsjs",
+            "version": "0.4.6",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sailsjs:sails:0.4.6:*:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2022-11-09T21:00Z",
+                        "titles": [
+                            {
+                                "title": "Sailsjs Sails 0.4.6 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.npmjs.com/package/sails",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://sailsjs.com/documentation/reference/configuration/sails-config-security",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://sailsjs.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2016-10549",
+                            "CVE-2018-21036",
+                            "CVE-2021-44908"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

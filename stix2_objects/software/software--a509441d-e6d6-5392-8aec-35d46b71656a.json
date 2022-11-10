@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--a509441d-e6d6-5392-8aec-35d46b71656a",
+    "name": "PerFact OpenVPN-client 1.4.1.0",
+    "cpe": "cpe:2.3:a:perfact:openvpn-client:1.4.1.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "perfact",
+    "version": "1.4.1.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:perfact:openvpn-client:1.4.1.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T16:47Z",
+                "refs": [
+                    {
+                        "ref": "https://perfact.de/en/services/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://www.cisa.gov/uscert/ics/advisories/icsa-21-056-01",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://exchange.xforce.ibmcloud.com/vulnerabilities/197460",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "PerFact OpenVPN-client 1.4.1.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-27406"
+                ]
+            }
+        }
+    }
+}

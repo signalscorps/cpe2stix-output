@@ -1,0 +1,65 @@
+{
+    "type": "bundle",
+    "id": "bundle--3cc62d33-41b1-4962-af41-f56e25a0b4b5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e67b2879-f609-5a07-90a8-1bff5e31f96e",
+            "name": "osTicket",
+            "cpe": "cpe:2.3:a:osticket:osticket:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "osticket",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:osticket:osticket:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "osTicket",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://osticket.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/osTicket/osTicket-plugins/commit/a7842d494889fd5533d13deb3c6a7789768795ae",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2005-1439",
+                            "CVE-2006-5407",
+                            "CVE-2014-4744",
+                            "CVE-2015-1176",
+                            "CVE-2015-1347",
+                            "CVE-2018-7192",
+                            "CVE-2018-7193",
+                            "CVE-2018-7194",
+                            "CVE-2018-7195",
+                            "CVE-2018-7196",
+                            "CVE-2019-11537",
+                            "CVE-2019-14748",
+                            "CVE-2019-14749",
+                            "CVE-2019-14750",
+                            "CVE-2020-16193",
+                            "CVE-2020-24881",
+                            "CVE-2020-24917",
+                            "CVE-2022-32074"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

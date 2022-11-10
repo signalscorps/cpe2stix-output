@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--5188e114-d357-5f8a-8483-48f46cf9a263",
+    "name": "OpenWRT LuCI git-22.140.66206-02913be",
+    "cpe": "cpe:2.3:a:openwrt:luci:git-22.140.66206-02913be:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "openwrt",
+    "version": "git-22.140.66206-02913be",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:openwrt:luci:git-22.140.66206-02913be:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T15:10Z",
+                "refs": [
+                    {
+                        "ref": "https://gist.github.com/librick/eacf19bcfc5ca964e0882b4ef9864bf5",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://openwrt.org/docs/guide-user/luci/start",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "OpenWRT LuCI git-22.140.66206-02913be"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-41435"
+                ]
+            }
+        }
+    }
+}

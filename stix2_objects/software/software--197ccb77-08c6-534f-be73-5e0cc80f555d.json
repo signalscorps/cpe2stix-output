@@ -1,0 +1,40 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--197ccb77-08c6-534f-be73-5e0cc80f555d",
+    "name": "Siemens SCALANCE X200 IRT",
+    "cpe": "cpe:2.3:h:siemens:scalance_x200_irt:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "siemens",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:siemens:scalance_x200_irt:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T17:50Z",
+                "refs": [
+                    {
+                        "ref": "https://cert-portal.siemens.com/productcert/pdf/ssa-478960.pdf",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Siemens SCALANCE X200 IRT"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2017-2680",
+                    "CVE-2017-2681",
+                    "CVE-2018-4842"
+                ]
+            }
+        }
+    }
+}

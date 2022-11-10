@@ -1,0 +1,53 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--964e3452-56a1-5825-945f-79b747ef7d09",
+    "name": "Red Hat OpenShift 1.0 ",
+    "cpe": "cpe:2.3:a:redhat:openshift:1.0:*:*:*:-:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "redhat",
+    "version": "1.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:redhat:openshift:1.0:*:*:*:-:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T16:47Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2013/4xxx/CVE-2013-4253.json",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/openshift/openshift-extras/blob/enterprise-2.0/README.md#security-notice",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.openwall.com/lists/oss-security/2014/06/05/19",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Red Hat OpenShift 1.0 "
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2013-4253",
+                    "CVE-2013-4281",
+                    "CVE-2018-10885",
+                    "CVE-2019-19346",
+                    "CVE-2019-19348",
+                    "CVE-2020-1761",
+                    "CVE-2020-35514",
+                    "CVE-2021-3636"
+                ]
+            }
+        }
+    }
+}

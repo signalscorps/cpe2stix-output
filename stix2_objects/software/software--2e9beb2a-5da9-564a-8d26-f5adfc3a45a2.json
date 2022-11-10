@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--2e9beb2a-5da9-564a-8d26-f5adfc3a45a2",
+    "name": "open62541 1.3 Release Candidate 1",
+    "cpe": "cpe:2.3:a:open62541:open62541:1.3:rc1:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "open62541",
+    "version": "1.3",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:open62541:open62541:1.3:rc1:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:14Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/open62541/open62541/tags",
+                        "type": "Version"
+                    },
+                    {
+                        "ref": "http://www.open62541.org/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "open62541 1.3 Release Candidate 1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-25761"
+                ]
+            }
+        }
+    }
+}

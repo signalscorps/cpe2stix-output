@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--78c56f00-ade8-524e-bb40-6e1174252a70",
+    "name": "oVirt Log Collector",
+    "cpe": "cpe:2.3:a:ovirt:log_collector:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "ovirt",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:ovirt:log_collector:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T16:47Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/2xxx/CVE-2022-2806.json",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/oVirt/ovirt-log-collector/tags",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "oVirt Log Collector"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-2806"
+                ]
+            }
+        }
+    }
+}

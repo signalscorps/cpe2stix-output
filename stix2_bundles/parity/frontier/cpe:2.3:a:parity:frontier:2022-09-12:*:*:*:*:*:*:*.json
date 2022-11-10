@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--7f59cbc5-b17f-407e-86f1-4b92ffc8504a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--39e83443-a0a4-573c-a895-b27c0230f384",
+            "name": "Parity Frontier 2022-09-12",
+            "cpe": "cpe:2.3:a:parity:frontier:2022-09-12:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "parity",
+            "version": "2022-09-12",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:parity:frontier:2022-09-12:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "Parity Frontier 2022-09-12",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/paritytech/frontier/pull/851",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/paritytech/frontier/security/advisories/GHSA-v57h-6hmh-g2p4",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

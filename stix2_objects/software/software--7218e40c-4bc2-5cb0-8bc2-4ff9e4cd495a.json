@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--7218e40c-4bc2-5cb0-8bc2-4ff9e4cd495a",
+    "name": "Reviewboard Review Board 4.0 Release Candidate 1",
+    "cpe": "cpe:2.3:a:reviewboard:review_board:4.0:rc1:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "reviewboard",
+    "version": "4.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:reviewboard:review_board:4.0:rc1:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T16:47Z",
+                "refs": [
+                    {
+                        "ref": "https://www.reviewboard.org/news/2021/04/14/review-board-3-0-21-and-4-0-rc-2-security-bug-fixes-and-docker/",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Reviewboard Review Board 4.0 Release Candidate 1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-31330"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--ae7e1f3d-5298-46fe-a0eb-8ab85669261e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7c506005-4fbe-516c-9c2a-b4df1aa574ee",
+            "name": "PHPFusion 9.10.20",
+            "cpe": "cpe:2.3:a:php-fusion:phpfusion:9.10.20:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "php-fusion",
+            "version": "9.10.20",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:php-fusion:phpfusion:9.10.20:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "PHPFusion 9.10.20",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/3xxx/CVE-2022-3152.json",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://huntr.dev/bounties/b3f888d2-5c71-4682-8287-42613401fd5a/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--a98a0650-9cf1-4993-b2da-fe3181c5230b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--80a38a6a-42d9-5e51-bf56-4972e703e3fb",
+            "name": "SmokePing 2.7.3-r1",
+            "cpe": "cpe:2.3:a:smokeping:smokeping:2.7.3-r1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "smokeping",
+            "version": "2.7.3-r1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:smokeping:smokeping:2.7.3-r1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "SmokePing 2.7.3-r1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "http://gpo.zugaina.org/net-analyzer/smokeping",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://bugs.gentoo.org/602652",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/oetiker/SmokePing/releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2016-20015",
+                            "CVE-2017-20147"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

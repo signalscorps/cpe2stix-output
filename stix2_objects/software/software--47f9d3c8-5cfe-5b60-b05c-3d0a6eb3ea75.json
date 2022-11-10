@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--47f9d3c8-5cfe-5b60-b05c-3d0a6eb3ea75",
+    "name": "Starwind Software SAN & NAS 1.0 Update 1",
+    "cpe": "cpe:2.3:a:starwindsoftware:san_\\&_nas:1.0:update_1:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "starwindsoftware",
+    "version": "1.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:starwindsoftware:san_\\&_nas:1.0:update_1:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://www.starwindsoftware.com/security/sw-20220812-0003/",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.starwindsoftware.com/san-and-nas",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Starwind Software SAN & NAS 1.0 Update 1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2019-20807"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--85663068-2f8c-59b0-bfe1-83776ce035bb",
+    "name": "SAP 3D Visual Enterprise Author 9",
+    "cpe": "cpe:2.3:a:sap:3d_visual_enterprise_author:9:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "sap",
+    "version": "9",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:sap:3d_visual_enterprise_author:9:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://help.sap.com/docs/SAP_3D_VISUAL_ENTERPRISE_AUTHOR",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://sap.com/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "SAP 3D Visual Enterprise Author 9"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-41211"
+                ]
+            }
+        }
+    }
+}

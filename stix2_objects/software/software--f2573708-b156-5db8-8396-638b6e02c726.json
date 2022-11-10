@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--f2573708-b156-5db8-8396-638b6e02c726",
+    "name": "NetApp SANtricity Storage Plugin for Vcenter",
+    "cpe": "cpe:2.3:a:netapp:santricity_storage_plugin:-:*:*:*:*:vcenter:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "netapp",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:netapp:santricity_storage_plugin:-:*:*:*:*:vcenter:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T15:10Z",
+                "refs": [
+                    {
+                        "ref": "https://security.netapp.com/advisory/ntap-20221028-0012/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "NetApp SANtricity Storage Plugin for Vcenter"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

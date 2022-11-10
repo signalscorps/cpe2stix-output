@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--53b4475e-f32e-5a03-ac99-ecd5e0e1c490",
+    "name": "Oracle Java Runtime Environment (JRE) 1.5.0 Update 28",
+    "cpe": "cpe:2.3:a:oracle:jre:1.5.0:update28:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "oracle",
+    "version": "1.5.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:oracle:jre:1.5.0:update28:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T17:50Z",
+                "refs": [
+                    {
+                        "ref": "https://www.oracle.com/java/technologies/java-archive-javase5-downloads.html",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Oracle Java Runtime Environment (JRE) 1.5.0 Update 28"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2012-5373",
+                    "CVE-2013-4578"
+                ]
+            }
+        }
+    }
+}

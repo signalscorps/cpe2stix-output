@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--00a560d7-257e-5f93-8e31-91eef365401d",
+    "name": "OpenDocMan 1.4.4",
+    "cpe": "cpe:2.3:a:opendocman:opendocman:1.4.4:-:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "opendocman",
+    "version": "1.4.4",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:opendocman:opendocman:1.4.4:-:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T15:10Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/opendocman/opendocman/releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "OpenDocMan 1.4.4"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-45834"
+                ]
+            }
+        }
+    }
+}

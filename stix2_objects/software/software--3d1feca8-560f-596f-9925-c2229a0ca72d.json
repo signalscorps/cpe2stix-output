@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--3d1feca8-560f-596f-9925-c2229a0ca72d",
+    "name": "Pega Infinity 7.3.1",
+    "cpe": "cpe:2.3:a:pega:infinity:7.3.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "pega",
+    "version": "7.3.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:pega:infinity:7.3.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T16:47Z",
+                "refs": [
+                    {
+                        "ref": "https://support.pega.com/support-doc/pega-security-advisory-c22-vulnerability-%E2%80%93-hotfix-matrix-0",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Pega Infinity 7.3.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-24083"
+                ]
+            }
+        }
+    }
+}

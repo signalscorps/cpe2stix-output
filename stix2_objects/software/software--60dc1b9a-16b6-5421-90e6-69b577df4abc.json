@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--60dc1b9a-16b6-5421-90e6-69b577df4abc",
+    "name": "Siemens Parasolid 35.0.170",
+    "cpe": "cpe:2.3:a:siemens:parasolid:35.0.170:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "siemens",
+    "version": "35.0.170",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:siemens:parasolid:35.0.170:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://cert-portal.siemens.com/productcert/pdf/ssa-853037.pdf",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.plm.automation.siemens.com/global/en/products/plm-components/",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Siemens Parasolid 35.0.170"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-39157"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--dce68809-ae7b-4093-99e0-82f31d4bd57e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--47effd50-8296-5c03-b4e1-7f258029b3d6",
+            "name": "Fastify WebSocket 7.0.0 for Node.js",
+            "cpe": "cpe:2.3:a:fastify:websocket:7.0.0:*:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "fastify",
+            "version": "7.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:fastify:websocket:7.0.0:*:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "Fastify WebSocket 7.0.0 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/fastify/fastify-websocket/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/fastify/fastify-websocket/security/advisories/GHSA-4pcg-wr6c-h9cq",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.fastify.io/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-39386"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

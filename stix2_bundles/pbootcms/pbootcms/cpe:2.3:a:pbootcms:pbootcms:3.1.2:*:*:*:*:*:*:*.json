@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--3cc08a27-e6e0-48de-accc-0b85316b9bfa",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0783bc45-8a08-51ae-963c-ba880979cf76",
+            "name": "PbootCMS 3.1.2",
+            "cpe": "cpe:2.3:a:pbootcms:pbootcms:3.1.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "pbootcms",
+            "version": "3.1.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:pbootcms:pbootcms:3.1.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "PbootCMS 3.1.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/Snakinya/Vuln/issues/1",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/Pbootcms/Pbootcms",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-32417"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

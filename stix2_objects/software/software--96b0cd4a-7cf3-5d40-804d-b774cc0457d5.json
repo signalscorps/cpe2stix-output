@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--96b0cd4a-7cf3-5d40-804d-b774cc0457d5",
+    "name": "Palantir Foundry Multipass",
+    "cpe": "cpe:2.3:a:palantir:foundry_multipass:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "palantir",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:palantir:foundry_multipass:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T16:47Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/palantir/security-bulletins/blob/main/PLTRSEC-2022-02.md",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.palantir.com/platforms/foundry/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/27xxx/CVE-2022-27889.json",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Palantir Foundry Multipass"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-27889"
+                ]
+            }
+        }
+    }
+}

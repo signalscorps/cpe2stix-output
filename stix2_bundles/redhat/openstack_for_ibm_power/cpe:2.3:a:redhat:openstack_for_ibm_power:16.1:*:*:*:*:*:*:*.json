@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--74c6a6bb-47fa-4be6-b432-d50ba46e012d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--45e97cc1-477b-535b-a55e-30196a653b7c",
+            "name": "Red Hat OpenStack For IBM Power 16.1",
+            "cpe": "cpe:2.3:a:redhat:openstack_for_ibm_power:16.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "redhat",
+            "version": "16.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:redhat:openstack_for_ibm_power:16.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "Red Hat OpenStack For IBM Power 16.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://access.redhat.com/documentation/en-us/red_hat_openstack_platform/16.1/html/release_notes/chap-introduction",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_sm/p/897/ENUS5639-OSP/index.html&lang=en&request_locale=en",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-9490"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

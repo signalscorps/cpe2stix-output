@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--d1a37e24-db8b-411b-9b50-9e28c86f5a3c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8c80d4df-7734-565c-af1a-1bfee73f5d05",
+            "name": "stack dst Project stack dst 0.2.0 for Rust",
+            "cpe": "cpe:2.3:a:stack_dst_project:stack_dst:0.2.0:*:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "stack_dst_project",
+            "version": "0.2.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:stack_dst_project:stack_dst:0.2.0:*:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-09T16:50Z",
+                        "titles": [
+                            {
+                                "title": "stack dst Project stack dst 0.2.0 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://crates.io/crates/stack_dst/versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-28034",
+                            "CVE-2021-28035"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--0ffdf7ed-b926-42f4-be86-562d75d1c53e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9ed28ac5-720f-5fd1-9611-c2c64996161d",
+            "name": "Starwind Software Starwind Virtual SAN V8 Build14338",
+            "cpe": "cpe:2.3:a:starwindsoftware:starwind_virtual_san:v8:build14338:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "starwindsoftware",
+            "version": "v8",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:starwindsoftware:starwind_virtual_san:v8:build14338:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "Starwind Software Starwind Virtual SAN V8 Build14338",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.starwindsoftware.com/release-notes-build-vsan-for-vmware-vsphere",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://www.starwindsoftware.com/security/sw-20220802-0002/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-36385",
+                            "CVE-2021-4034"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

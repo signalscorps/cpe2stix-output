@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--b38ae165-f9f8-4ab0-b273-404f5625f6a3",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--40df3211-a279-5653-a425-05d046bddc22",
+            "name": "Palantir Foundry Multipass 3.647.0",
+            "cpe": "cpe:2.3:a:palantir:foundry_multipass:3.647.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "palantir",
+            "version": "3.647.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:palantir:foundry_multipass:3.647.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "Palantir Foundry Multipass 3.647.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/palantir/security-bulletins/blob/main/PLTRSEC-2022-02.md",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.palantir.com/platforms/foundry/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/27xxx/CVE-2022-27889.json",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

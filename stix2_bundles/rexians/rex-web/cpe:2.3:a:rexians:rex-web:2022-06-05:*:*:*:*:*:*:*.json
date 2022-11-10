@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--002dab77-a9df-4be5-935f-3148bbdfff96",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--71a4383e-ef52-5bb8-a37c-81c4cfdba0e0",
+            "name": "Rexians Rex-Web 2022-06-05",
+            "cpe": "cpe:2.3:a:rexians:rex-web:2022-06-05:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "rexians",
+            "version": "2022-06-05",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:rexians:rex-web:2022-06-05:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "Rexians Rex-Web 2022-06-05",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/Rexians/rex-web/issues/5",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://mcoc.rexians.tk/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/31xxx/CVE-2022-31568.json",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-31568"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

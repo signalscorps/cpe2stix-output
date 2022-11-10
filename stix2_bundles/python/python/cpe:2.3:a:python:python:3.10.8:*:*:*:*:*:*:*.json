@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--28c31813-f4a9-4563-964d-ddad57dd152e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--21ff6948-a807-50d5-af9f-d4f5103d7406",
+            "name": "Python 3.10.8",
+            "cpe": "cpe:2.3:a:python:python:3.10.8:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "python",
+            "version": "3.10.8",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:python:python:3.10.8:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T16:47Z",
+                        "titles": [
+                            {
+                                "title": "Python 3.10.8",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/python/cpython/issues/97514",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2009-2940",
+                            "CVE-2009-3720",
+                            "CVE-2020-29396",
+                            "CVE-2021-32052",
+                            "CVE-2022-45061"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

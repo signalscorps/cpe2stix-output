@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--5b7fbd01-fdb8-4259-8b58-100be31fe86c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1a40e235-465f-5d8c-bbce-eeff8f798364",
+            "name": "Advanced Ads - Ad Manager & AdSense 1.37.1 for WordPress",
+            "cpe": "cpe:2.3:a:wpadvancedads:advanced_ads_-_ad_manager_\\&_adsense:1.37.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wpadvancedads",
+            "version": "1.37.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wpadvancedads:advanced_ads_-_ad_manager_\\&_adsense:1.37.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-09T21:42Z",
+                        "titles": [
+                            {
+                                "title": "Advanced Ads - Ad Manager & AdSense 1.37.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wpadvancedads.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://plugins.trac.wordpress.org/log/advanced-ads/",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/advanced-ads/wordpress-advanced-ads-ad-manager-adsense-plugin-1-31-1-authenticated-stored-cross-site-scripting-xss-vulnerability?_s_id=cve",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

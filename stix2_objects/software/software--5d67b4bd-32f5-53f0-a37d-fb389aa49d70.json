@@ -1,0 +1,40 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--5d67b4bd-32f5-53f0-a37d-fb389aa49d70",
+    "name": "Oracle Java Development Kit (JDK) 1.6.0 Update 8",
+    "cpe": "cpe:2.3:a:oracle:jdk:1.6.0:update8:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "oracle",
+    "version": "1.6.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:oracle:jdk:1.6.0:update8:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T17:50Z",
+                "refs": [
+                    {
+                        "ref": "https://www.oracle.com/java/technologies/javase/6u-relnotes.html",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Oracle Java Development Kit (JDK) 1.6.0 Update 8"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2007-3503",
+                    "CVE-2012-5373",
+                    "CVE-2013-4578"
+                ]
+            }
+        }
+    }
+}

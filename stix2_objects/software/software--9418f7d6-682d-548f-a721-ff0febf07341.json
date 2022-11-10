@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--9418f7d6-682d-548f-a721-ff0febf07341",
+    "name": "NetApp SANtricity Web Services Proxy",
+    "cpe": "cpe:2.3:a:netapp:santricity_web_services_proxy:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "netapp",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:netapp:santricity_web_services_proxy:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T15:10Z",
+                "refs": [
+                    {
+                        "ref": "https://security.netapp.com/advisory/ntap-20221028-0012/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "NetApp SANtricity Web Services Proxy"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-28165"
+                ]
+            }
+        }
+    }
+}

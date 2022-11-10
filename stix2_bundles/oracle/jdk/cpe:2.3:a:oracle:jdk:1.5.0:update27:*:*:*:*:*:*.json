@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--99c7a8fa-c739-4906-a04a-ad3b4a59076a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b6bb66fd-e405-58d2-9662-fe272e31b20e",
+            "name": "Oracle Java Development Kit (JDK) 1.5.0 Update 27",
+            "cpe": "cpe:2.3:a:oracle:jdk:1.5.0:update27:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "oracle",
+            "version": "1.5.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:oracle:jdk:1.5.0:update27:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T17:50Z",
+                        "titles": [
+                            {
+                                "title": "Oracle Java Development Kit (JDK) 1.5.0 Update 27",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.oracle.com/java/technologies/javase/advancedv5-support-relnotes.html",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2011-3546",
+                            "CVE-2011-3547",
+                            "CVE-2011-3561",
+                            "CVE-2012-5373",
+                            "CVE-2013-4578"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

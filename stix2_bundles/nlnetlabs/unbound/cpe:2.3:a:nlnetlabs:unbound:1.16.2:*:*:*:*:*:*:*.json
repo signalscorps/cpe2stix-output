@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--d4d1dc93-bb4e-4922-9623-5a14e40726a1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ab444ed7-e8cd-57e6-9116-d7b4de5f57f0",
+            "name": "NLnet Labs Unbound 1.16.2",
+            "cpe": "cpe:2.3:a:nlnetlabs:unbound:1.16.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nlnetlabs",
+            "version": "1.16.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nlnetlabs:unbound:1.16.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T15:10Z",
+                        "titles": [
+                            {
+                                "title": "NLnet Labs Unbound 1.16.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.nlnetlabs.nl/downloads/unbound/CVE-2022-30698_CVE-2022-30699.txt",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://nlnetlabs.nl/downloads/unbound/",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3204"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

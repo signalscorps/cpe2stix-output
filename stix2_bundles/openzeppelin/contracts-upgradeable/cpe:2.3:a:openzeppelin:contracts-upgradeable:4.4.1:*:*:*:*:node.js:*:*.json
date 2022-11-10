@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--ea493bf2-dbcb-4e9b-93e9-cc4115edb0b6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7cf2e678-df0f-5740-8c0b-7cbac1c2b003",
+            "name": "Openzeppelin Contracts-upgradeable 4.4.1 for Node.js",
+            "cpe": "cpe:2.3:a:openzeppelin:contracts-upgradeable:4.4.1:*:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "openzeppelin",
+            "version": "4.4.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:openzeppelin:contracts-upgradeable:4.4.1:*:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2022-11-09T15:10Z",
+                        "titles": [
+                            {
+                                "title": "Openzeppelin Contracts-upgradeable 4.4.1 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/OpenZeppelin/openzeppelin-contracts/security/advisories/GHSA-9c22-pwxw-p6hx",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-31198",
+                            "CVE-2022-35915",
+                            "CVE-2022-35961"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

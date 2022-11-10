@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--d8da21da-7143-40a8-b357-8efc8e653e83",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4edf34c4-1533-547a-9b27-6497271b2890",
+            "name": "Advanced Ads - Ad Manager & AdSense 1.16.1 for WordPress",
+            "cpe": "cpe:2.3:a:wpadvancedads:advanced_ads_-_ad_manager_\\&_adsense:1.16.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wpadvancedads",
+            "version": "1.16.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wpadvancedads:advanced_ads_-_ad_manager_\\&_adsense:1.16.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-09T21:42Z",
+                        "titles": [
+                            {
+                                "title": "Advanced Ads - Ad Manager & AdSense 1.16.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wpadvancedads.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://plugins.trac.wordpress.org/log/advanced-ads/",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/advanced-ads/wordpress-advanced-ads-ad-manager-adsense-plugin-1-31-1-authenticated-stored-cross-site-scripting-xss-vulnerability?_s_id=cve",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-32776"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

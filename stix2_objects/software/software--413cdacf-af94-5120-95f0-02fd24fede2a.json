@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--413cdacf-af94-5120-95f0-02fd24fede2a",
+    "name": "CodeAndMore WP Page Widget 3.7 for WordPress",
+    "cpe": "cpe:2.3:a:codeandmore:wp_page_widget:3.7:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "codeandmore",
+    "version": "3.7",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:codeandmore:wp_page_widget:3.7:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T17:50Z",
+                "refs": [
+                    {
+                        "ref": "http://www.codeandmore.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://plugins.trac.wordpress.org/log/wp-page-widget/",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://patchstack.com/database/vulnerability/wp-page-widget/wordpress-wp-page-widget-plugin-3-9-cross-site-request-forgery-csrf-vulnerability",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "CodeAndMore WP Page Widget 3.7 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-32587"
+                ]
+            }
+        }
+    }
+}

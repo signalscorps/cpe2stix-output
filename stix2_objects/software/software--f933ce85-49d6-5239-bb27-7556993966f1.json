@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--f933ce85-49d6-5239-bb27-7556993966f1",
+    "name": "Softlink Oliver v5 Library",
+    "cpe": "cpe:2.3:a:softlinkint:oliver_v5_library:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "softlinkint",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:softlinkint:oliver_v5_library:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://www.exploit-db.com/exploits/50599",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.softlinkint.com/product/oliver/",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Softlink Oliver v5 Library"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-45027"
+                ]
+            }
+        }
+    }
+}

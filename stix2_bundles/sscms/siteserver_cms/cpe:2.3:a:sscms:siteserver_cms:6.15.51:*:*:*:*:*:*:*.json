@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--4c56e919-558a-4044-8efa-742ae53076ae",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1938d207-cfef-5e8f-9354-652a6278db02",
+            "name": "Siteserver CMS 6.15.51",
+            "cpe": "cpe:2.3:a:sscms:siteserver_cms:6.15.51:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sscms",
+            "version": "6.15.51",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sscms:siteserver_cms:6.15.51:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "Siteserver CMS 6.15.51",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/siteserver/cms/issues/3238",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-42655",
+                            "CVE-2021-42656",
+                            "CVE-2022-30349"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

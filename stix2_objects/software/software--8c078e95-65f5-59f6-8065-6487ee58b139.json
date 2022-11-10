@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--8c078e95-65f5-59f6-8065-6487ee58b139",
+    "name": "Gifdec Project Gifdec",
+    "cpe": "cpe:2.3:a:gifdec_project:gifdec:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "gifdec_project",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:gifdec_project:gifdec:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/lecram/gifdec/pull/23",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/lecram/gifdec",
+                        "type": "Project"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Gifdec Project Gifdec"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-43359"
+                ]
+            }
+        }
+    }
+}

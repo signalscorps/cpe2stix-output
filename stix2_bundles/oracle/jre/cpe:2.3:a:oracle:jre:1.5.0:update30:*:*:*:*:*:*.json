@@ -1,0 +1,57 @@
+{
+    "type": "bundle",
+    "id": "bundle--7d5f45c2-8c92-4d74-961f-ef692b5f5629",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4127543d-85e5-54bd-9223-8fa63dbeebda",
+            "name": "Oracle Java Runtime Environment (JRE) 1.5.0 Update 30",
+            "cpe": "cpe:2.3:a:oracle:jre:1.5.0:update30:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "oracle",
+            "version": "1.5.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:oracle:jre:1.5.0:update30:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T17:50Z",
+                        "titles": [
+                            {
+                                "title": "Oracle Java Runtime Environment (JRE) 1.5.0 Update 30",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.oracle.com/java/technologies/java-archive-javase5-downloads.html",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2011-3563",
+                            "CVE-2012-0497",
+                            "CVE-2012-0498",
+                            "CVE-2012-0499",
+                            "CVE-2012-0500",
+                            "CVE-2012-0501",
+                            "CVE-2012-0502",
+                            "CVE-2012-0503",
+                            "CVE-2012-0504",
+                            "CVE-2012-0505",
+                            "CVE-2012-0506",
+                            "CVE-2012-0507",
+                            "CVE-2012-5373",
+                            "CVE-2013-4578"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

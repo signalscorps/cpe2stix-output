@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--26d0a775-d452-4fb1-8294-5388216d8dea",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0f9523c5-4883-5955-bdea-f5e7e6994fae",
+            "name": "Securonix Snypr 6.4",
+            "cpe": "cpe:2.3:a:securonix:snypr:6.4:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "securonix",
+            "version": "6.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:securonix:snypr:6.4:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "Securonix Snypr 6.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://conway.scot/securonix-rce/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.securonix.com/press_release/securonix-snypr-recognized-as-a-strong-performer-by-leading-analyst-firm/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-37108"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

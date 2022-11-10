@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--836a7751-2fbe-4fbd-b046-db1653e12641",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7b5562fd-253b-5785-8051-70b9aa9f22ad",
+            "name": "SAP BusinessObjects BW Publisher Service 430",
+            "cpe": "cpe:2.3:a:sap:businessobjects_bw_publisher_service:430:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sap",
+            "version": "430",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sap:businessobjects_bw_publisher_service:430:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T20:55Z",
+                        "titles": [
+                            {
+                                "title": "SAP BusinessObjects BW Publisher Service 430",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.sap.com/index.html",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-31591"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

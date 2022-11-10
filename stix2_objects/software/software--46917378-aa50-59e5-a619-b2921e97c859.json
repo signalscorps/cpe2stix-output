@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--46917378-aa50-59e5-a619-b2921e97c859",
+    "name": "Siemens SIMATIC S7-400 PN/DP V6 Firmware",
+    "cpe": "cpe:2.3:o:siemens:simatic_s7-400_pn\\/dp_v6_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "siemens",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:siemens:simatic_s7-400_pn\\/dp_v6_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T17:50Z",
+                "refs": [
+                    {
+                        "ref": "https://cert-portal.siemens.com/productcert/pdf/ssa-478960.pdf",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Siemens SIMATIC S7-400 PN/DP V6 Firmware"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2018-4843",
+                    "CVE-2022-30694"
+                ]
+            }
+        }
+    }
+}

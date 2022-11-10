@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--8d68dd41-909b-425d-9fc2-696ed145aae9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--808bd959-bfac-5a1d-a343-6e1a82344cfb",
+            "name": "openBaraza Human Capital Management (HCM) 3.1.6",
+            "cpe": "cpe:2.3:a:openbaraza:openbaraza_human_capital_management:3.1.6:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "openbaraza",
+            "version": "3.1.6",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:openbaraza:openbaraza_human_capital_management:3.1.6:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T15:10Z",
+                        "titles": [
+                            {
+                                "title": "openBaraza Human Capital Management (HCM) 3.1.6",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/charlesbickel/CVE-2021-38619",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-38583",
+                            "CVE-2021-38619"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

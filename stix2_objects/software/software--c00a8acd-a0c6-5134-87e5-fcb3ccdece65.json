@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--c00a8acd-a0c6-5134-87e5-fcb3ccdece65",
+    "name": "Starwind Software Starwind Virtual SAN V8 Build14398",
+    "cpe": "cpe:2.3:a:starwindsoftware:starwind_virtual_san:v8:build14398:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "starwindsoftware",
+    "version": "v8",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:starwindsoftware:starwind_virtual_san:v8:build14398:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-09T20:55Z",
+                "refs": [
+                    {
+                        "ref": "https://www.starwindsoftware.com/release-notes-build-vsan-for-vmware-vsphere",
+                        "type": "Version"
+                    },
+                    {
+                        "ref": "https://www.starwindsoftware.com/security/sw-20220802-0003/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Starwind Software Starwind Virtual SAN V8 Build14398"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-25704",
+                    "CVE-2021-20271"
+                ]
+            }
+        }
+    }
+}

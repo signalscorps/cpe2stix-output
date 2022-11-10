@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--2523ed07-282b-455f-a686-6d7850059df4",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d781e6af-7102-51b6-901b-9e61cb998ea4",
+            "name": "IRIS Software iSAMS",
+            "cpe": "cpe:2.3:a:iris:isams:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "iris",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:iris:isams:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T18:34Z",
+                        "titles": [
+                            {
+                                "title": "IRIS Software iSAMS",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://excellium-services.com/cert-xlm-advisory/CVE-2022-37028/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.isams.com/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.iris.co.uk/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

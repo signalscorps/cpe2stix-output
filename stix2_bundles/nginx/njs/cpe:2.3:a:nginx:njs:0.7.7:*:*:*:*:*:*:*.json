@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--cfcd8a27-61c4-4f00-81e5-139de810feb8",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7fcaf338-7755-5cfa-97bd-4e16d1e49514",
+            "name": "Nginx NJS 0.7.7",
+            "cpe": "cpe:2.3:a:nginx:njs:0.7.7:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nginx",
+            "version": "0.7.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nginx:njs:0.7.7:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-09T15:10Z",
+                        "titles": [
+                            {
+                                "title": "Nginx NJS 0.7.7",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/nginx/njs/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "http://nginx.org/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

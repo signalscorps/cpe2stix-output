@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--3bee3aa5-2984-4523-a5ba-137465d87719",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--34d2c5b2-44a9-59e6-a018-fd0de814468c",
+            "name": "Lenovo Elan Miniport Touchpad Driver for Windows",
+            "cpe": "cpe:2.3:a:lenovo:elan_miniport_touchpad_driver:-:*:*:*:*:windows:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "lenovo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:lenovo:elan_miniport_touchpad_driver:-:*:*:*:*:windows:*:*",
+                        "lastModifiedDate": "2022-11-09T15:10Z",
+                        "titles": [
+                            {
+                                "title": "Lenovo Elan Miniport Touchpad Driver for Windows",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.emc.com.tw/upload/F2E/Vulnerability%20Report/Vulnerability%20Report_Miniport%20touchpad%20Windows%20driver_20221107.pdf",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://support.lenovo.com/us/en/downloads/ds119736-elan-ultranav-miniport-driver-for-windows-10-64-bit-thinkpad-13-2nd-gen",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-42205"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

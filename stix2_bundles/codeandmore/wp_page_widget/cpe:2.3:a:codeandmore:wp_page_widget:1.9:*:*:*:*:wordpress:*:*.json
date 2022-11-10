@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--cf62db13-2116-4749-9e03-e0abf60cd4b9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ec7d3256-5b82-507b-8d3c-7569bb64a8ee",
+            "name": "CodeAndMore WP Page Widget 1.9 for WordPress",
+            "cpe": "cpe:2.3:a:codeandmore:wp_page_widget:1.9:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "codeandmore",
+            "version": "1.9",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:codeandmore:wp_page_widget:1.9:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-09T17:50Z",
+                        "titles": [
+                            {
+                                "title": "CodeAndMore WP Page Widget 1.9 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "http://www.codeandmore.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://plugins.trac.wordpress.org/log/wp-page-widget/",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/wp-page-widget/wordpress-wp-page-widget-plugin-3-9-cross-site-request-forgery-csrf-vulnerability",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-32587"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

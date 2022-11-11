@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--9244e3cf-ce2d-44ef-9353-b2192d49a753",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3eb50d65-5c93-5653-abd9-660fb020551a",
+            "name": "Wisa Smart Wing CMS 1905",
+            "cpe": "cpe:2.3:a:wisa:smart_wing_cms:1905:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wisa",
+            "version": "1905",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wisa:smart_wing_cms:1905:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-10T18:23Z",
+                        "titles": [
+                            {
+                                "title": "Wisa Smart Wing CMS 1905",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.krcert.or.kr/krcert/secNoticeView.do?bulletin_writing_sequence=66963",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.wisa.co.kr/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-26639",
+                            "CVE-2022-23770"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

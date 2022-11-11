@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--c44fa0a4-7ef2-4272-88c5-e3bcaa4828f9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7435b1aa-80b0-5681-a8e8-a916987667e2",
+            "name": "Wayland 1.20.91",
+            "cpe": "cpe:2.3:a:wayland:wayland:1.20.91:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wayland",
+            "version": "1.20.91",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wayland:wayland:1.20.91:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-10T18:23Z",
+                        "titles": [
+                            {
+                                "title": "Wayland 1.20.91",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://gitlab.freedesktop.org/wayland/wayland/-/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://gitlab.freedesktop.org/wayland/wayland/-/issues/224",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

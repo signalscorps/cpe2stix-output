@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--c3279f35-4ada-52de-a886-be46c9cc88de",
+    "name": "Zblogcn Z-BlogPHP 1.7.2",
+    "cpe": "cpe:2.3:a:zblogcn:z-blogphp:1.7.2:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "zblogcn",
+    "version": "1.7.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:zblogcn:z-blogphp:1.7.2:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-10T19:03Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/zblogcn/zblogphp/issues/336",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Zblogcn Z-BlogPHP 1.7.2"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-40357"
+                ]
+            }
+        }
+    }
+}

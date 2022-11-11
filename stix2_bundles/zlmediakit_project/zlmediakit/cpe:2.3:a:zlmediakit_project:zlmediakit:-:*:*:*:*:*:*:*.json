@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--05a7b1e5-148e-4bcf-94e6-3cf8812e70d4",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--aca9e123-7698-5fd1-9cb4-709a79dd3e5b",
+            "name": "ZLMediaKit Project ZLMediaKit-",
+            "cpe": "cpe:2.3:a:zlmediakit_project:zlmediakit:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "zlmediakit_project",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:zlmediakit_project:zlmediakit:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-10T19:03Z",
+                        "titles": [
+                            {
+                                "title": "ZLMediaKit Project ZLMediaKit-",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/ZLMediaKit/ZLMediaKit/commit/d0f0c69f931566e5fa5765fc75fc8c6d9480286c",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/ZLMediaKit/ZLMediaKit/issues/1839",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-37237"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

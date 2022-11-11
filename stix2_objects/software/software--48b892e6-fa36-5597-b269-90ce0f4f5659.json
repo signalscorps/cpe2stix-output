@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--48b892e6-fa36-5597-b269-90ce0f4f5659",
+    "name": "Xfce 4.16",
+    "cpe": "cpe:2.3:a:xfce:xfce:4.16:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "xfce",
+    "version": "4.16",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:xfce:xfce:4.16:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-10T19:03Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/32xxx/CVE-2022-32278.json",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://gitlab.xfce.org/xfce/exo/-/commit/c71c04ff5882b2866a0d8506fb460d4ef796de9f",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Xfce 4.16"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

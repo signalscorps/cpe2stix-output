@@ -1,0 +1,55 @@
+{
+    "type": "bundle",
+    "id": "bundle--2bde49ac-fa58-4670-8570-0bb3215f7562",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7d3d243f-9b89-5b2b-8222-55dd859051c7",
+            "name": "Known 1.3.1",
+            "cpe": "cpe:2.3:a:withknown:known:1.3.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "withknown",
+            "version": "1.3.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:withknown:known:1.3.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-10T18:23Z",
+                        "titles": [
+                            {
+                                "title": "Known 1.3.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://blog.jitendrapatro.me/multiple-vulnerabilities-in-idno-known-php-cms-software/#The-Vulnerability",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://withknown.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/idno/known",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-30852",
+                            "CVE-2022-31290",
+                            "CVE-2022-32115",
+                            "CVE-2022-33011"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

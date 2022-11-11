@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--5905fdb4-1f15-4b72-9ea0-71ea5d748c97",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1bb257c2-1fbc-5913-834a-c4a4e4633a04",
+            "name": "Xerosecurity Sn1per 9.0 ",
+            "cpe": "cpe:2.3:a:xerosecurity:sn1per:9.0:-:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "xerosecurity",
+            "version": "9.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:xerosecurity:sn1per:9.0:-:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-10T19:03Z",
+                        "titles": [
+                            {
+                                "title": "Xerosecurity Sn1per 9.0 ",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/1N3/Sn1per/releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-39273",
+                            "CVE-2021-39274"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

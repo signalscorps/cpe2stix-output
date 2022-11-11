@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--ceb35e43-1e9f-4796-b7b3-26587fc8dc7d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--42a8231b-5107-5976-b3ca-82e673dc5a5e",
+            "name": "Yotpo Reviews For WooCommerce Project Yotpo Reviews For WooCommerce 2.0.4 for WordPress",
+            "cpe": "cpe:2.3:a:yotpo_reviews_for_woocommerce_project:yotpo_reviews_for_woocommerce:2.0.4:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "yotpo_reviews_for_woocommerce_project",
+            "version": "2.0.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:yotpo_reviews_for_woocommerce_project:yotpo_reviews_for_woocommerce:2.0.4:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-10T19:03Z",
+                        "titles": [
+                            {
+                                "title": "Yotpo Reviews For WooCommerce Project Yotpo Reviews For WooCommerce 2.0.4 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/yotpo-reviews-for-woocommerce/#description",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://wpscan.com/vulnerability/7ec9e493-bc48-4a5d-8c7e-34beaba892ae",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-2555"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "type": "bundle",
+    "id": "bundle--ca49126b-3b1a-40c3-9444-c0cbe59eaa80",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c35e3f5c-4758-5f9a-a8f7-9aaebd87048e",
+            "name": "GitLab 15.3.5 Enterprise Edition",
+            "cpe": "cpe:2.3:a:gitlab:gitlab:15.3.5:*:*:*:enterprise:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "gitlab",
+            "version": "15.3.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:gitlab:gitlab:15.3.5:*:*:*:enterprise:*:*:*",
+                        "lastModifiedDate": "2022-11-10T17:30Z",
+                        "titles": [
+                            {
+                                "title": "GitLab 15.3.5 Enterprise Edition",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://gitlab.com/gitlab-org/cves/-/blob/master/2022/CVE-2022-3413.json",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://about.gitlab.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-15592",
+                            "CVE-2019-6781",
+                            "CVE-2021-22196",
+                            "CVE-2021-22197",
+                            "CVE-2021-22198",
+                            "CVE-2021-22201",
+                            "CVE-2021-32823"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--e0a6d071-7a87-457e-b321-c77a5f264847",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3aad67c5-9df6-563b-be48-b41127fbd1ef",
+            "name": "Webroot SecureAnywhere 21.4",
+            "cpe": "cpe:2.3:a:webroot:secureanywhere:21.4:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "webroot",
+            "version": "21.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:webroot:secureanywhere:21.4:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-10T18:23Z",
+                        "titles": [
+                            {
+                                "title": "Webroot SecureAnywhere 21.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2021-1433",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.webroot.com/us/en/home/products/av",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-40424",
+                            "CVE-2021-40425"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

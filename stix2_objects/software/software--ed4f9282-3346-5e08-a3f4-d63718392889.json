@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--ed4f9282-3346-5e08-a3f4-d63718392889",
+    "name": "Wikmd Project Wikmd",
+    "cpe": "cpe:2.3:a:wikmd_project:wikmd:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "wikmd_project",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:wikmd_project:wikmd:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-10T18:23Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/Linbreux/wikmd/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://github.com/Linbreux/wikmd/security/advisories/GHSA-9m4m-6gqx-gfj3",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Wikmd Project Wikmd"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-36080",
+                    "CVE-2022-36081"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--c32d70e0-3523-4c1f-a351-35253a75f439",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--42d978df-6c80-5f4e-9f83-7198154cfa2b",
+            "name": "Wiris MathType 7.28.0",
+            "cpe": "cpe:2.3:a:wiris:mathtype:7.28.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wiris",
+            "version": "7.28.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wiris:mathtype:7.28.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-10T18:23Z",
+                        "titles": [
+                            {
+                                "title": "Wiris MathType 7.28.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://docs.wiris.com/mathtype/en/mathtype-office-tools/mathtype-office-tools-release-notes.html",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-31372"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

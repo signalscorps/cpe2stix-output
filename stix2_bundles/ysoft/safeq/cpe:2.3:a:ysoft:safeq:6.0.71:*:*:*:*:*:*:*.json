@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--6e23dee9-8e21-40f7-8ab7-34c3e23efffd",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0a82b45d-cb29-5b56-995e-17cccb000bc3",
+            "name": "YSoft SafeQ 6.0.71",
+            "cpe": "cpe:2.3:a:ysoft:safeq:6.0.71:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ysoft",
+            "version": "6.0.71",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ysoft:safeq:6.0.71:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-10T19:03Z",
+                        "titles": [
+                            {
+                                "title": "YSoft SafeQ 6.0.71",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.ysoft.com/en/legal/ysoft-safeq-client-v3-local-privilege-escalation",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/38xxx/CVE-2022-38176.json",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-38176"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

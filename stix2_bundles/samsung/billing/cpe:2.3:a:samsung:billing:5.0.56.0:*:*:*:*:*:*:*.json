@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--9ff394be-eddc-4968-8119-bc2284673abd",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b0678ff3-391e-5837-8447-6f1dea349440",
+            "name": "Samsung Billing 5.0.56.0",
+            "cpe": "cpe:2.3:a:samsung:billing:5.0.56.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "samsung",
+            "version": "5.0.56.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:samsung:billing:5.0.56.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-10T17:42Z",
+                        "titles": [
+                            {
+                                "title": "Samsung Billing 5.0.56.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://security.samsungmobile.com/serviceWeb.smsb?year=2022&month=11",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--ab456ab9-fdfa-4417-9ced-30ca55024b00",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3ea4a655-7636-5232-88a4-12d7c0b8f0d0",
+            "name": "Samsung Galaxy Buds Pro Manage",
+            "cpe": "cpe:2.3:a:samsung:galaxy_buds_pro_manage:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "samsung",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:samsung:galaxy_buds_pro_manage:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-10T17:42Z",
+                        "titles": [
+                            {
+                                "title": "Samsung Galaxy Buds Pro Manage",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://security.samsungmobile.com/serviceWeb.smsb?year=2022&month=11",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-39893"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

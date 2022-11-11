@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--1fc9f2a0-1c17-411f-925f-f0dce5537ab4",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3ef3a4a3-4c1b-5a1a-bb11-66fb03c0b737",
+            "name": "X.org Libx11",
+            "cpe": "cpe:2.3:a:x.org:libx11:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "x.org",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:x.org:libx11:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-10T19:03Z",
+                        "titles": [
+                            {
+                                "title": "X.org Libx11",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/3xxx/CVE-2022-3555.json",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://cgit.freedesktop.org/xorg/lib/libX11/commit/?id=8a368d808fec166b5fb3dfe6312aab22c7ee20af",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2007-1667",
+                            "CVE-2016-7942",
+                            "CVE-2016-7943",
+                            "CVE-2018-14598",
+                            "CVE-2018-14599",
+                            "CVE-2018-14600",
+                            "CVE-2020-14344",
+                            "CVE-2020-14363",
+                            "CVE-2021-31535"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

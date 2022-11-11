@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--33a56337-f997-4a9c-8326-5b42d8b3c8da",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--724018fd-7543-5f4a-9046-fc38e35f1535",
+            "name": "Samsung GalaxyWatch4Plugin",
+            "cpe": "cpe:2.3:a:samsung:galaxywatch4plugin:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "samsung",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:samsung:galaxywatch4plugin:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-10T17:42Z",
+                        "titles": [
+                            {
+                                "title": "Samsung GalaxyWatch4Plugin",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://security.samsungmobile.com/serviceWeb.smsb?year=2022&month=11",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.apkmirror.com/apk/samsung-electronics-co-ltd/galaxy-watch4-plugin/",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-39889"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

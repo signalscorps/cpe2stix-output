@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--c1dca0b9-c4b3-5c80-a79b-67ad7ea84fce",
+    "name": "Zoom Meetings 5.10.6 for macOS",
+    "cpe": "cpe:2.3:a:zoom:meetings:5.10.6:*:*:*:*:macos:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "zoom",
+    "version": "5.10.6",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:zoom:meetings:5.10.6:*:*:*:*:macos:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-10T19:03Z",
+                "refs": [
+                    {
+                        "ref": "https://explore.zoom.us/en/trust/security/security-bulletin/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Zoom Meetings 5.10.6 for macOS"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-28751",
+                    "CVE-2022-28756",
+                    "CVE-2022-28757",
+                    "CVE-2022-28762",
+                    "CVE-2022-28763"
+                ]
+            }
+        }
+    }
+}

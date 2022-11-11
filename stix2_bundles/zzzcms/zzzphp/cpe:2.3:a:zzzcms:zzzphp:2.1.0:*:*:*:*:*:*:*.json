@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--c40edb7b-6f5d-4b91-82e5-49217090a38b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bf276d3a-80fa-57ec-87f0-0544164ac5b1",
+            "name": "Zzzcms Zzzphp 2.1.0",
+            "cpe": "cpe:2.3:a:zzzcms:zzzphp:2.1.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "zzzcms",
+            "version": "2.1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:zzzcms:zzzphp:2.1.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-10T19:03Z",
+                        "titles": [
+                            {
+                                "title": "Zzzcms Zzzphp 2.1.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/metaStor/Vuls/blob/main/zzzcms/zzzphp%20V2.1.0%20RCE/zzzphp%20V2.1.0%20RCE.md",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23881"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

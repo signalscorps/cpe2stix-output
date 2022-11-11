@@ -1,0 +1,60 @@
+{
+    "type": "bundle",
+    "id": "bundle--ae9575aa-0bf3-41e5-8c67-218703af160a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c7b50285-c4c6-54fd-aa18-fc4514d70cd7",
+            "name": "GitLab 15.5.0 Community Edition",
+            "cpe": "cpe:2.3:a:gitlab:gitlab:15.5.0:*:*:*:community:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "gitlab",
+            "version": "15.5.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:gitlab:gitlab:15.5.0:*:*:*:community:*:*:*",
+                        "lastModifiedDate": "2022-11-10T18:23Z",
+                        "titles": [
+                            {
+                                "title": "GitLab 15.5.0 Community Edition",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://gitlab.com/gitlab-org/cves/-/blob/master/2022/CVE-2022-2761.json",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-15592",
+                            "CVE-2019-6781",
+                            "CVE-2021-22196",
+                            "CVE-2021-22197",
+                            "CVE-2021-22198",
+                            "CVE-2021-22201",
+                            "CVE-2021-32823",
+                            "CVE-2022-2761",
+                            "CVE-2022-3265",
+                            "CVE-2022-3280",
+                            "CVE-2022-3483",
+                            "CVE-2022-3486",
+                            "CVE-2022-3706",
+                            "CVE-2022-3726",
+                            "CVE-2022-3793",
+                            "CVE-2022-3818",
+                            "CVE-2022-3819"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

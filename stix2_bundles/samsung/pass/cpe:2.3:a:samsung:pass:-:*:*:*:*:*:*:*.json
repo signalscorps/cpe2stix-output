@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--d181c852-5c62-48f3-b6a5-7ca03b19e6b9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--53b63caa-af06-551f-b16e-4a83101be57f",
+            "name": "Samsung Pass",
+            "cpe": "cpe:2.3:a:samsung:pass:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "samsung",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:samsung:pass:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-10T17:42Z",
+                        "titles": [
+                            {
+                                "title": "Samsung Pass",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://security.samsungmobile.com/serviceWeb.smsb?year=2022&month=11",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-39892"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

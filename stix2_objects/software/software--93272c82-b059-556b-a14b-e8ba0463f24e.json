@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--93272c82-b059-556b-a14b-e8ba0463f24e",
+    "name": "WolfSSL 5.5.1",
+    "cpe": "cpe:2.3:a:wolfssl:wolfssl:5.5.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "wolfssl",
+    "version": "5.5.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:wolfssl:wolfssl:5.5.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-10T18:23Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/wolfSSL/wolfssl/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://www.wolfssl.com/docs/security-vulnerabilities/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "WolfSSL 5.5.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-42905"
+                ]
+            }
+        }
+    }
+}

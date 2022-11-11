@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--45a90813-5207-47cc-bd2f-efcf7a3f75ef",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ddddcf09-e9ca-5697-a5c7-a6fe78f89b75",
+            "name": "Withsecure F-secure Policy Manager for Windows",
+            "cpe": "cpe:2.3:a:withsecure:f-secure_policy_manager:-:*:*:*:*:windows:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "withsecure",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:withsecure:f-secure_policy_manager:-:*:*:*:*:windows:*:*",
+                        "lastModifiedDate": "2022-11-10T18:23Z",
+                        "titles": [
+                            {
+                                "title": "Withsecure F-secure Policy Manager for Windows",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.withsecure.com/en/support/security-advisories/cve-2022-38162?_gl=1*dtq2t3*_up*MQ..*_ga*MTMxOTM1OTA2MC4xNjY2NzIxMjQ0*_ga_B5SG5Y2DHS*MTY2NjcyMTI0MS4xLjAuMTY2NjcyMTI0MS4wLjAuMA..",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-38162"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

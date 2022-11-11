@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--fa417341-10ec-45b7-ad87-0e40271e1829",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a608c757-b250-53c9-9de9-7057b0e1ee00",
+            "name": "WP Humans.txt Project WP Humans.txt 1.06 for WordPress",
+            "cpe": "cpe:2.3:a:wp_humans.txt_project:wp_humans.txt:1.06:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wp_humans.txt_project",
+            "version": "1.06",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wp_humans.txt_project:wp_humans.txt:1.06:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-10T18:23Z",
+                        "titles": [
+                            {
+                                "title": "WP Humans.txt Project WP Humans.txt 1.06 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/wp-humanstxt/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://wpscan.com/vulnerability/2296156e-b177-478e-a01c-b1ea4fee0aca",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3392"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

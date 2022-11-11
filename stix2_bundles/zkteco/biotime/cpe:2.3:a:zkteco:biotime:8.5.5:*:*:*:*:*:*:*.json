@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--01ac427d-431e-4387-92ac-b8787d0ac4bc",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2a17ca39-93b9-5629-b0da-398dc273ef4c",
+            "name": "ZKTeco BioTime 8.5.5",
+            "cpe": "cpe:2.3:a:zkteco:biotime:8.5.5:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "zkteco",
+            "version": "8.5.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:zkteco:biotime:8.5.5:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-10T19:03Z",
+                        "titles": [
+                            {
+                                "title": "ZKTeco BioTime 8.5.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://codingkoala.eu/posts/CVE202230515/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.zkteco.me/software-5",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-30515"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

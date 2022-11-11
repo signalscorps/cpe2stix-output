@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--0d561247-ab99-4743-9ed7-c76cac64fd5f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--66115cef-c59c-5883-bcae-678dfe4ef159",
+            "name": "Zfile 4.1.1",
+            "cpe": "cpe:2.3:a:zfile:zfile:4.1.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "zfile",
+            "version": "4.1.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:zfile:zfile:4.1.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-10T19:03Z",
+                        "titles": [
+                            {
+                                "title": "Zfile 4.1.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/achiove/repdosenotexist/blob/main/request4cve.pdf",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://docs.zfile.vip/changelog/os",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.zfile.vip/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-40050"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--129b61e0-5480-4b33-987e-ecb291032b79",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e4d0f94c-80ce-5585-a133-ffa31bf5a7b2",
+            "name": "Simple Video Embedder Project Simple Video Embedder 2.2 for WordPress",
+            "cpe": "cpe:2.3:a:simple_video_embedder_project:simple_video_embedder:2.2:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "simple_video_embedder_project",
+            "version": "2.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:simple_video_embedder_project:simple_video_embedder:2.2:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-10T18:23Z",
+                        "titles": [
+                            {
+                                "title": "Simple Video Embedder Project Simple Video Embedder 2.2 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/simple-video-embedder/",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/simple-video-embedder/wordpress-simple-video-embedder-plugin-2-2-auth-stored-cross-site-scripting-xss-vulnerability?_s_id=cve",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-44590"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

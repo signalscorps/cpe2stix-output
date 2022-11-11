@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--89d19ad7-37c7-5b18-95f8-081d0231d153",
+    "name": "Yimihome YWOA 6.1",
+    "cpe": "cpe:2.3:a:yimihome:ywoa:6.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "yimihome",
+    "version": "6.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:yimihome:ywoa:6.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-10T19:03Z",
+                "refs": [
+                    {
+                        "ref": "http://www.yimihome.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/cloudwebsoft/ywoa",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Yimihome YWOA 6.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-36605",
+                    "CVE-2022-38808"
+                ]
+            }
+        }
+    }
+}

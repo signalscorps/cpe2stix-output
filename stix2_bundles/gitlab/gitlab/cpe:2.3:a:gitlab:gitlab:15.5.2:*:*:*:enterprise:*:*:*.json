@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--6b3e0d54-6edf-4acf-8dad-13ad29666148",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a4d1c458-3a6e-53c4-8bdc-83a7a3f4023d",
+            "name": "GitLab 15.5.2 Enterprise Edition",
+            "cpe": "cpe:2.3:a:gitlab:gitlab:15.5.2:*:*:*:enterprise:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "gitlab",
+            "version": "15.5.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:gitlab:gitlab:15.5.2:*:*:*:enterprise:*:*:*",
+                        "lastModifiedDate": "2022-11-10T18:23Z",
+                        "titles": [
+                            {
+                                "title": "GitLab 15.5.2 Enterprise Edition",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://gitlab.com/gitlab-org/cves/-/blob/master/2022/CVE-2022-2761.json",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-15592",
+                            "CVE-2019-6781",
+                            "CVE-2021-22196",
+                            "CVE-2021-22197",
+                            "CVE-2021-22198",
+                            "CVE-2021-22201",
+                            "CVE-2021-32823"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

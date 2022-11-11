@@ -1,0 +1,44 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--65749b03-e964-57f5-a61d-59cbc1585a2f",
+    "name": "GitLab 15.5.2 Community Edition",
+    "cpe": "cpe:2.3:a:gitlab:gitlab:15.5.2:*:*:*:community:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "gitlab",
+    "version": "15.5.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:gitlab:gitlab:15.5.2:*:*:*:community:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-10T18:23Z",
+                "refs": [
+                    {
+                        "ref": "https://gitlab.com/gitlab-org/cves/-/blob/master/2022/CVE-2022-2761.json",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "GitLab 15.5.2 Community Edition"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2019-15592",
+                    "CVE-2019-6781",
+                    "CVE-2021-22196",
+                    "CVE-2021-22197",
+                    "CVE-2021-22198",
+                    "CVE-2021-22201",
+                    "CVE-2021-32823"
+                ]
+            }
+        }
+    }
+}

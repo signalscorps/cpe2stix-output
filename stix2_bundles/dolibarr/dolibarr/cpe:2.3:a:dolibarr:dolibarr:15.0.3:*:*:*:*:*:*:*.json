@@ -1,0 +1,51 @@
+{
+    "type": "bundle",
+    "id": "bundle--012d7466-cb89-49ab-8a4c-49e1ab960ec2",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8eac3b93-3227-5de2-aaf4-47ae3913ea26",
+            "name": "Dolibarr 15.0.3",
+            "cpe": "cpe:2.3:a:dolibarr:dolibarr:15.0.3:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "dolibarr",
+            "version": "15.0.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:dolibarr:dolibarr:15.0.3:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-11T14:21Z",
+                        "titles": [
+                            {
+                                "title": "Dolibarr 15.0.3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/Dolibarr/dolibarr/",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://www.dolibarr.org/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-0174",
+                            "CVE-2022-0731",
+                            "CVE-2022-0746",
+                            "CVE-2022-2060"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

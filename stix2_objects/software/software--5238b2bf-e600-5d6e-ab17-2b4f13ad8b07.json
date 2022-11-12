@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--5238b2bf-e600-5d6e-ab17-2b4f13ad8b07",
+    "name": "Dolibarr 16.0.0",
+    "cpe": "cpe:2.3:a:dolibarr:dolibarr:16.0.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "dolibarr",
+    "version": "16.0.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:dolibarr:dolibarr:16.0.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-11T14:21Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/Dolibarr/dolibarr/",
+                        "type": "Version"
+                    },
+                    {
+                        "ref": "https://www.dolibarr.org/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Dolibarr 16.0.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-0174"
+                ]
+            }
+        }
+    }
+}

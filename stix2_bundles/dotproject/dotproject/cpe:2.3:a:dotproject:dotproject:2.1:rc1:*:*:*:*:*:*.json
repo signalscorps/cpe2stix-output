@@ -1,0 +1,51 @@
+{
+    "type": "bundle",
+    "id": "bundle--d89f3292-9548-400e-a30a-558339d5d940",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5ee5bb37-69ce-5228-ab3a-be77b3e011c7",
+            "name": "dotProject 2.1 Release Candidate 1",
+            "cpe": "cpe:2.3:a:dotproject:dotproject:2.1:rc1:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "dotproject",
+            "version": "2.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:dotproject:dotproject:2.1:rc1:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-11T14:45Z",
+                        "titles": [
+                            {
+                                "title": "dotProject 2.1 Release Candidate 1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://sourceforge.net/projects/dotproject/files/dotproject/",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://dotproject.net/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2007-3226",
+                            "CVE-2008-6747",
+                            "CVE-2012-5701",
+                            "CVE-2012-5702"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

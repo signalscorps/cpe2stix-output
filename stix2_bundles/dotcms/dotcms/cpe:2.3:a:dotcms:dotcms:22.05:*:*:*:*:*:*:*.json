@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--f2436167-0db2-4b51-8eea-94ce46a09fa5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ab8994a1-0ea6-5e98-81f7-404ed7f63e21",
+            "name": "dotCMS 22.05",
+            "cpe": "cpe:2.3:a:dotcms:dotcms:22.05:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "dotcms",
+            "version": "22.05",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:dotcms:dotcms:22.05:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-11T14:36Z",
+                        "titles": [
+                            {
+                                "title": "dotCMS 22.05",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/dotCMS/core/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-37431"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--95eb28d1-f3b3-4f02-bf22-8f84f1882db9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1c710cc2-a44d-55e4-971f-f60b7cdaa61b",
+            "name": "dotProject 2.0.3",
+            "cpe": "cpe:2.3:a:dotproject:dotproject:2.0.3:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "dotproject",
+            "version": "2.0.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:dotproject:dotproject:2.0.3:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-11T14:45Z",
+                        "titles": [
+                            {
+                                "title": "dotProject 2.0.3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://sourceforge.net/projects/dotproject/files/dotproject/",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://dotproject.net/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2006-3240",
+                            "CVE-2007-5486",
+                            "CVE-2008-6747",
+                            "CVE-2012-5701",
+                            "CVE-2012-5702"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

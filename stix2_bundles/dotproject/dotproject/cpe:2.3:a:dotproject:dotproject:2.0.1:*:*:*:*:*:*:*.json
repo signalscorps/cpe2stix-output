@@ -1,0 +1,57 @@
+{
+    "type": "bundle",
+    "id": "bundle--f459f680-662d-428d-8dc5-428b1b5cc316",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b2d07fc4-8f1a-5236-a029-6911c421a2bf",
+            "name": "dotProject 2.0.1",
+            "cpe": "cpe:2.3:a:dotproject:dotproject:2.0.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "dotproject",
+            "version": "2.0.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:dotproject:dotproject:2.0.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-11T14:45Z",
+                        "titles": [
+                            {
+                                "title": "dotProject 2.0.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://sourceforge.net/projects/dotproject/files/dotproject/",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://dotproject.net/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2006-0754",
+                            "CVE-2006-0755",
+                            "CVE-2006-0756",
+                            "CVE-2006-2851",
+                            "CVE-2006-3240",
+                            "CVE-2006-4234",
+                            "CVE-2007-5486",
+                            "CVE-2008-6747",
+                            "CVE-2012-5701",
+                            "CVE-2012-5702"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

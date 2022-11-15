@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--26934392-6941-4842-a22b-e899e28f9aef",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fecd6b97-f412-5e11-91eb-35a54b250eb7",
+            "name": "Mitsubishi Electric MSZ-FT25/35/50VGK-E1",
+            "cpe": "cpe:2.3:h:mitsubishielectric:msz-ft25\\/35\\/50vgk-e1:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mitsubishielectric",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:mitsubishielectric:msz-ft25\\/35\\/50vgk-e1:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T14:16Z",
+                        "titles": [
+                            {
+                                "title": "Mitsubishi Electric MSZ-FT25/35/50VGK-E1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.mitsubishielectric.com/en/psirt/vulnerability/pdf/2022-010_en.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-33321"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

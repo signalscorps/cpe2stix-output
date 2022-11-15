@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--9ec306c9-591e-48ea-9707-b7e5e495c919",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9da33d6a-2f75-50cc-910d-0ed4026a2c20",
+            "name": "Mitsubishi Electric MSZ-AP25/35/42/50/60/71VGK-ER3",
+            "cpe": "cpe:2.3:h:mitsubishielectric:msz-ap25\\/35\\/42\\/50\\/60\\/71vgk-er3:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mitsubishielectric",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:mitsubishielectric:msz-ap25\\/35\\/42\\/50\\/60\\/71vgk-er3:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T14:16Z",
+                        "titles": [
+                            {
+                                "title": "Mitsubishi Electric MSZ-AP25/35/42/50/60/71VGK-ER3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.mitsubishielectric.com/en/psirt/vulnerability/pdf/2022-010_en.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-33321"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

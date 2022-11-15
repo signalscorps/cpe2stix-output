@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--8ae0c457-641a-4cda-84fb-5199fae0d257",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d3e2f593-3e48-597b-b6e5-bae431cd7314",
+            "name": "Mitsubishi Electric MSZ-EXA09/12VAK",
+            "cpe": "cpe:2.3:h:mitsubishielectric:msz-exa09\\/12vak:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mitsubishielectric",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:mitsubishielectric:msz-exa09\\/12vak:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T14:16Z",
+                        "titles": [
+                            {
+                                "title": "Mitsubishi Electric MSZ-EXA09/12VAK",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.mitsubishielectric.com/en/psirt/vulnerability/pdf/2022-010_en.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-33321"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

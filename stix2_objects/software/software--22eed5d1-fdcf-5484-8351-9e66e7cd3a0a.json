@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--22eed5d1-fdcf-5484-8351-9e66e7cd3a0a",
+    "name": "TIBCO EBX Add-ons 5.4.1",
+    "cpe": "cpe:2.3:a:tibco:ebx_add-ons:5.4.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "tibco",
+    "version": "5.4.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:tibco:ebx_add-ons:5.4.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-14T15:24Z",
+                "refs": [
+                    {
+                        "ref": "https://www.tibco.com/support/advisories/2022/09/tibco-security-advisory-september-21-2022-tibco-ebx-add-ons-cve-2022",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "TIBCO EBX Add-ons 5.4.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-30578"
+                ]
+            }
+        }
+    }
+}

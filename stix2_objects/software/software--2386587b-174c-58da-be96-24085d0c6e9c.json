@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--2386587b-174c-58da-be96-24085d0c6e9c",
+    "name": "Mitsubishi Electric MSZ-EZA09/12VAK",
+    "cpe": "cpe:2.3:h:mitsubishielectric:msz-eza09\\/12vak:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "mitsubishielectric",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:mitsubishielectric:msz-eza09\\/12vak:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-14T14:16Z",
+                "refs": [
+                    {
+                        "ref": "https://www.mitsubishielectric.com/en/psirt/vulnerability/pdf/2022-010_en.pdf",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Mitsubishi Electric MSZ-EZA09/12VAK"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-33321"
+                ]
+            }
+        }
+    }
+}

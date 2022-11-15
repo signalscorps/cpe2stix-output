@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--69087cc0-5b4b-4dc3-af45-206e4a5b7f94",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--428ec495-75a3-5c0d-b337-e31835b77deb",
+            "name": "Mitsubishi Electric S-MAC-905IF",
+            "cpe": "cpe:2.3:h:mitsubishielectric:s-mac-905if:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mitsubishielectric",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:mitsubishielectric:s-mac-905if:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T14:16Z",
+                        "titles": [
+                            {
+                                "title": "Mitsubishi Electric S-MAC-905IF",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.mitsubishielectric.com/en/psirt/vulnerability/pdf/2022-010_en.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-33321"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

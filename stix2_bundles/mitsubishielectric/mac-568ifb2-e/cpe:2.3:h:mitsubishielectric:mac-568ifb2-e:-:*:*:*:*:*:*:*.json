@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--f75a15cf-423f-477a-bcfc-140d28138463",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a76197da-da74-5a9d-b7bd-9fee2e8ad94a",
+            "name": "Mitsubishi Electric MAC-568IFB2-E",
+            "cpe": "cpe:2.3:h:mitsubishielectric:mac-568ifb2-e:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mitsubishielectric",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:mitsubishielectric:mac-568ifb2-e:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T14:16Z",
+                        "titles": [
+                            {
+                                "title": "Mitsubishi Electric MAC-568IFB2-E",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.mitsubishielectric.com/en/psirt/vulnerability/pdf/2022-010_en.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-33321"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

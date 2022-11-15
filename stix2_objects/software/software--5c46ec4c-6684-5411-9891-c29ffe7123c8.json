@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--5c46ec4c-6684-5411-9891-c29ffe7123c8",
+    "name": "Mitsubishi Electric MFZ-XT50/60VFK",
+    "cpe": "cpe:2.3:h:mitsubishielectric:mfz-xt50\\/60vfk:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "mitsubishielectric",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:mitsubishielectric:mfz-xt50\\/60vfk:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-14T14:16Z",
+                "refs": [
+                    {
+                        "ref": "https://www.mitsubishielectric.com/en/psirt/vulnerability/pdf/2022-010_en.pdf",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Mitsubishi Electric MFZ-XT50/60VFK"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-33321"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--f5b5cd26-af43-5f98-bf14-c6a74aa8c1b1",
+    "name": "THALES SafeNet Authentication Client",
+    "cpe": "cpe:2.3:a:thalesgroup:safenet_authentication_client:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "thalesgroup",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:thalesgroup:safenet_authentication_client:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-14T15:17Z",
+                "refs": [
+                    {
+                        "ref": "https://cpl.thalesgroup.com/access-management/security-applications/authentication-client-token-management",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://github.com/z00z00z00/Safenet_SAC_CVE-2021-42056",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "THALES SafeNet Authentication Client"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-42056"
+                ]
+            }
+        }
+    }
+}

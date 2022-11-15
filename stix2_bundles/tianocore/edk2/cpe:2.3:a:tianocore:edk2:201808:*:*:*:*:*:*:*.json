@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--40b30a89-f0b0-4054-8639-d108d18cf15c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--459bde20-b50a-5e07-b4bf-847a88ff996f",
+            "name": "TianoCore EDK II (EDK2) 201808",
+            "cpe": "cpe:2.3:a:tianocore:edk2:201808:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tianocore",
+            "version": "201808",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:tianocore:edk2:201808:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T15:22Z",
+                        "titles": [
+                            {
+                                "title": "TianoCore EDK II (EDK2) 201808",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://bugzilla.tianocore.org/show_bug.cgi?id=3499",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2014-8271",
+                            "CVE-2021-28210",
+                            "CVE-2021-38575",
+                            "CVE-2021-38576",
+                            "CVE-2021-38577",
+                            "CVE-2021-38578"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

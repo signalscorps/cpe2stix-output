@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--a11e1a8d-8da6-4348-ad5a-8f6488f4b365",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--165d9161-1c06-5825-8064-dc99749387b5",
+            "name": "Vela Server 0.14.0 Release Candidate 1",
+            "cpe": "cpe:2.3:a:go-vela:server:0.14.0:rc1:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "go-vela",
+            "version": "0.14.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:go-vela:server:0.14.0:rc1:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T16:13Z",
+                        "titles": [
+                            {
+                                "title": "Vela Server 0.14.0 Release Candidate 1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/go-vela/server/security/advisories/GHSA-5m7g-pj8w-7593",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/go-vela/server/releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

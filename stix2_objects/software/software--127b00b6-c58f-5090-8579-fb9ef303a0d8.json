@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--127b00b6-c58f-5090-8579-fb9ef303a0d8",
+    "name": "Thinkst Canarytokens",
+    "cpe": "cpe:2.3:a:thinkst:canarytokens:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "thinkst",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:thinkst:canarytokens:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-14T15:21Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/thinkst/canarytokens/security/advisories/GHSA-5675-3424-hpqr",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Thinkst Canarytokens"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2019-9768",
+                    "CVE-2022-31113"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--3a55a335-f5b8-57dc-b6bf-2868decc1911",
+    "name": "Eclipse Californium 2.7.2",
+    "cpe": "cpe:2.3:a:eclipse:californium:2.7.2:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "eclipse",
+    "version": "2.7.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:eclipse:californium:2.7.2:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-14T18:49Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/eclipse/californium/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://www.eclipse.org/californium/",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Eclipse Californium 2.7.2"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-2576"
+                ]
+            }
+        }
+    }
+}

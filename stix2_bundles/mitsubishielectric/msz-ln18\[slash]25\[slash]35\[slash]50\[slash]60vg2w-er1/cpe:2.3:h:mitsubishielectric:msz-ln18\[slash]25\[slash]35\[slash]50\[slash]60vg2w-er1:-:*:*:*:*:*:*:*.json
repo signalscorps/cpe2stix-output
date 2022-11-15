@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--454d2828-be41-4010-a8f0-6ad0bf956f5b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--464bf248-3364-59b3-b745-46ef393a09d9",
+            "name": "Mitsubishi Electric MSZ-LN18/25/35/50/60VG2W-ER1",
+            "cpe": "cpe:2.3:h:mitsubishielectric:msz-ln18\\/25\\/35\\/50\\/60vg2w-er1:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mitsubishielectric",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:mitsubishielectric:msz-ln18\\/25\\/35\\/50\\/60vg2w-er1:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T14:16Z",
+                        "titles": [
+                            {
+                                "title": "Mitsubishi Electric MSZ-LN18/25/35/50/60VG2W-ER1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.mitsubishielectric.com/en/psirt/vulnerability/pdf/2022-010_en.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-33321"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

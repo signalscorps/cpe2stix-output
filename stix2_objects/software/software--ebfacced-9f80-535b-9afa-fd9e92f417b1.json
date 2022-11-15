@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--ebfacced-9f80-535b-9afa-fd9e92f417b1",
+    "name": "ShopWind 3.4.3",
+    "cpe": "cpe:2.3:a:shopwind:shopwind:3.4.3:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "shopwind",
+    "version": "3.4.3",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:shopwind:shopwind:3.4.3:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-14T19:46Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/shopwind/yii-shopwind/issues/1",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/shopwind/yii-shopwind/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://www.shopwind.net/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "ShopWind 3.4.3"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-43321"
+                ]
+            }
+        }
+    }
+}

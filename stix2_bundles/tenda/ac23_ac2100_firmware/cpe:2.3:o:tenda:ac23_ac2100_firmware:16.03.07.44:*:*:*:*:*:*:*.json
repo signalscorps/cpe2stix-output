@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--319673fc-bb77-40f3-8c61-ce4f4639052d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b37df5da-9752-52ee-9a2d-0e09116460f3",
+            "name": "Tenda AC23 AC2100 Firmware 16.03.07.44",
+            "cpe": "cpe:2.3:o:tenda:ac23_ac2100_firmware:16.03.07.44:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tenda",
+            "version": "16.03.07.44",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:tenda:ac23_ac2100_firmware:16.03.07.44:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T16:36Z",
+                        "titles": [
+                            {
+                                "title": "Tenda AC23 AC2100 Firmware 16.03.07.44",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.tendacn.com/us/product/AC23.html",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/LuGakki/Vuln/blob/main/Tenda%20AC23.pdf",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.tenda.com.cn/download/detail-3359.html",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

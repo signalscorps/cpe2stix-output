@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--c3bc3a3d-9c3a-4771-ba67-b90415aebff4",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6705797f-d531-5856-a7da-6f81f897b288",
+            "name": "Contao 1.5.0 Managed Edition",
+            "cpe": "cpe:2.3:a:contao:contao:1.5.0:-:*:*:managed:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "contao",
+            "version": "1.5.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:contao:contao:1.5.0:-:*:*:managed:*:*:*",
+                        "lastModifiedDate": "2022-11-14T15:01Z",
+                        "titles": [
+                            {
+                                "title": "Contao 1.5.0 Managed Edition",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://vuldb.com/?id.195491",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2012-4383",
+                            "CVE-2022-26265"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

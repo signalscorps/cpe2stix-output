@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--10e7c846-9104-4caf-addc-861e2033fc49",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7202ddbf-6d08-547e-b3a1-0fdb0d554f20",
+            "name": "Cisco AsyncOS 12.5.4-005",
+            "cpe": "cpe:2.3:o:cisco:asyncos:12.5.4-005:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "12.5.4-005",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:cisco:asyncos:12.5.4-005:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T14:18Z",
+                        "titles": [
+                            {
+                                "title": "Cisco AsyncOS 12.5.4-005",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cnt-sec-infodiscl-BVKKnUG",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-3368",
+                            "CVE-2020-3546",
+                            "CVE-2020-3547",
+                            "CVE-2020-3568",
+                            "CVE-2021-1516",
+                            "CVE-2021-1534",
+                            "CVE-2021-34741",
+                            "CVE-2022-20653",
+                            "CVE-2022-20675",
+                            "CVE-2022-20781",
+                            "CVE-2022-20867",
+                            "CVE-2022-20868",
+                            "CVE-2022-20942"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

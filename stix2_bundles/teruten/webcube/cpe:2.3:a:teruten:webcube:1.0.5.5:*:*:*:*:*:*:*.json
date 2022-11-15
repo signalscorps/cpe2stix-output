@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--9acb439c-2365-4fd1-ba0f-a275bf490e05",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5b3c31fa-b9b4-5ea0-ba4a-d3d784b78a9d",
+            "name": "Teruten WebCube 1.0.5.5",
+            "cpe": "cpe:2.3:a:teruten:webcube:1.0.5.5:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "teruten",
+            "version": "1.0.5.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:teruten:webcube:1.0.5.5:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T15:15Z",
+                        "titles": [
+                            {
+                                "title": "Teruten WebCube 1.0.5.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.krcert.or.kr/krcert/secNoticeView.do?bulletin_writing_sequence=66876",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "http://www.teruten.com/kr/solution/screen_security.php",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23764"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--2f6c5fe1-d2cc-4d63-8771-03e4de3bf9bb",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--21801bff-c2ba-5be9-a9b5-aaf81558203d",
+            "name": "Intel Server Debug And Provisioning Tool (SDP Tool)",
+            "cpe": "cpe:2.3:a:intel:server_debug_and_provisioning_tool:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:intel:server_debug_and_provisioning_tool:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T19:44Z",
+                        "titles": [
+                            {
+                                "title": "Intel Server Debug And Provisioning Tool (SDP Tool)",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.intel.com/content/www/us/en/download/19092/intel-server-debug-and-provisioning-tool-intel-sdp-tool.html",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00710.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

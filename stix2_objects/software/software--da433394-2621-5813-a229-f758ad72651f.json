@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--da433394-2621-5813-a229-f758ad72651f",
+    "name": "Cisco RoomOS 10.20.1",
+    "cpe": "cpe:2.3:o:cisco:roomos:10.20.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "cisco",
+    "version": "10.20.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:cisco:roomos:10.20.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-14T14:22Z",
+                "refs": [
+                    {
+                        "ref": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwc21962",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-roomos-trav-beFvCcyu",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Cisco RoomOS 10.20.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2019-15288",
+                    "CVE-2019-15967",
+                    "CVE-2022-20764",
+                    "CVE-2022-20783",
+                    "CVE-2022-20794"
+                ]
+            }
+        }
+    }
+}

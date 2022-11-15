@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--8fe58f5c-fd8d-4c31-87aa-ac5c60ef7443",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0b75117a-026b-5e33-83d3-3bd73a2d6abc",
+            "name": "The Santa Cruz Operation, Inc SCO UNIX",
+            "cpe": "cpe:2.3:o:sco:sco_unix:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sco",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:sco:sco_unix:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T19:44Z",
+                        "titles": [
+                            {
+                                "title": "The Santa Cruz Operation, Inc SCO UNIX",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://en.wikipedia.org/wiki/Santa_Cruz_Operation",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.computerhope.com/jargon/s/sco-unix.htm",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "http://landing.sco.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-1999-0524"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

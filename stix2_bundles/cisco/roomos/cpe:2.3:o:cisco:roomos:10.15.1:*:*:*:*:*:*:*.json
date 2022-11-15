@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--275b11e3-110c-47e4-aa17-1b723e278123",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5bfec895-c911-5b9c-896a-580a0d2d7751",
+            "name": "Cisco RoomOS 10.15.1",
+            "cpe": "cpe:2.3:o:cisco:roomos:10.15.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "10.15.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:cisco:roomos:10.15.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T14:22Z",
+                        "titles": [
+                            {
+                                "title": "Cisco RoomOS 10.15.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb29733",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-roomos-trav-beFvCcyu",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-15288",
+                            "CVE-2019-15967",
+                            "CVE-2022-20764",
+                            "CVE-2022-20776",
+                            "CVE-2022-20783",
+                            "CVE-2022-20794"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

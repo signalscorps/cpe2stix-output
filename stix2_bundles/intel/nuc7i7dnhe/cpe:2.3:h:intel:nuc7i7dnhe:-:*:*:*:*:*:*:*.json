@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--ec555388-e334-44a0-a063-b37af33b6336",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4a49c947-f540-5ceb-a359-483bf0d11245",
+            "name": "Intel NUC7I7DNHE",
+            "cpe": "cpe:2.3:h:intel:nuc7i7dnhe:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:intel:nuc7i7dnhe:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T19:44Z",
+                        "titles": [
+                            {
+                                "title": "Intel NUC7I7DNHE",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.intel.com/content/dam/support/us/en/documents/mini-pcs/nuc-kits/NUC7i7DN_TechProdSpec.pdf",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00689.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-8742",
+                            "CVE-2022-24436"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

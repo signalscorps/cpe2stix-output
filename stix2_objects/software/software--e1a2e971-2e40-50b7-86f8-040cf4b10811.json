@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--e1a2e971-2e40-50b7-86f8-040cf4b10811",
+    "name": "Red Hat A-MQ Streams 2.0.1",
+    "cpe": "cpe:2.3:a:redhat:a-mq_streams:2.0.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "redhat",
+    "version": "2.0.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:redhat:a-mq_streams:2.0.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-14T15:06Z",
+                "refs": [
+                    {
+                        "ref": "https://access.redhat.com/security/cve/CVE-2021-4178",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://bugzilla.redhat.com/show_bug.cgi?id=2034388",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Red Hat A-MQ Streams 2.0.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-4178"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--4225b341-d41e-4117-a373-1afa1afdb2bb",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7f6e4631-b1d9-5170-889f-d95a1381e669",
+            "name": "Sysstat Project Sysstat 12.5.1",
+            "cpe": "cpe:2.3:a:sysstat_project:sysstat:12.5.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sysstat_project",
+            "version": "12.5.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sysstat_project:sysstat:12.5.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T18:52Z",
+                        "titles": [
+                            {
+                                "title": "Sysstat Project Sysstat 12.5.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/sysstat/sysstat/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/sysstat/sysstat/security/advisories/GHSA-q8r6-g56f-9w7x",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

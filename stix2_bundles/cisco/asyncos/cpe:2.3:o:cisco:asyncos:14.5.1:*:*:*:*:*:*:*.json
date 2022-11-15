@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--04fc3054-d7a4-4c13-bc7e-3e144e4a0039",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--984eafe7-046d-57ae-a735-2c2a3c587f5c",
+            "name": "Cisco AsyncOS 14.5.1",
+            "cpe": "cpe:2.3:o:cisco:asyncos:14.5.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "14.5.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:cisco:asyncos:14.5.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T14:18Z",
+                        "titles": [
+                            {
+                                "title": "Cisco AsyncOS 14.5.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esasmawsa-vulns-YRuSW5mD",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

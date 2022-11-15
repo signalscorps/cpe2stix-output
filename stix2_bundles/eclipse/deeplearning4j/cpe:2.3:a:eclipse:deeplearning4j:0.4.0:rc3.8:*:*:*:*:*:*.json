@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--17eed618-5006-4224-9d24-c70247d4e35a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--908cbcb6-4fb2-533a-b362-3912f9196f37",
+            "name": "Eclipse Deeplearning4j 0.4.0 Rc3.8",
+            "cpe": "cpe:2.3:a:eclipse:deeplearning4j:0.4.0:rc3.8:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "eclipse",
+            "version": "0.4.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:eclipse:deeplearning4j:0.4.0:rc3.8:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T16:27Z",
+                        "titles": [
+                            {
+                                "title": "Eclipse Deeplearning4j 0.4.0 Rc3.8",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/deeplearning4j/deeplearning4j/security/advisories/GHSA-rc39-g977-687w",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://projects.eclipse.org/projects/technology.deeplearning4j",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/deeplearning4j/deeplearning4j/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

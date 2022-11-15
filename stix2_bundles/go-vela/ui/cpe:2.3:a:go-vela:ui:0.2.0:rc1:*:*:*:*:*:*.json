@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--3c6dfaf0-e569-43ba-8b7a-e76108f48678",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6fd8ed84-9fa2-54ec-a458-38478477fae3",
+            "name": "Vela UI 0.2.0 Release Candidate 1",
+            "cpe": "cpe:2.3:a:go-vela:ui:0.2.0:rc1:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "go-vela",
+            "version": "0.2.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:go-vela:ui:0.2.0:rc1:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T16:15Z",
+                        "titles": [
+                            {
+                                "title": "Vela UI 0.2.0 Release Candidate 1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/go-vela/ui/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/go-vela/server/security/advisories/GHSA-5m7g-pj8w-7593",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

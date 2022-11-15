@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--72fcaea9-f6ac-42cf-a31a-b30f0914ce34",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d052594f-447c-5d42-a560-ce06b994fa44",
+            "name": "Cisco Wireless LAN Controller (WLC) Software 8.10.162.0",
+            "cpe": "cpe:2.3:o:cisco:wireless_lan_controller_software:8.10.162.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "8.10.162.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:cisco:wireless_lan_controller_software:8.10.162.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T14:22Z",
+                        "titles": [
+                            {
+                                "title": "Cisco Wireless LAN Controller (WLC) Software 8.10.162.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa40778",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-wlc-dos-mKGRrsCB",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-20769"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

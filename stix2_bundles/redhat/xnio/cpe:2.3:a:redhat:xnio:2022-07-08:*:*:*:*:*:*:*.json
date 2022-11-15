@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--37a75a7c-8b87-4bb7-8d19-899b45210110",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5808c888-8924-57d8-800e-58ef57adf8b2",
+            "name": "Red Hat XNIO 2022-07-08",
+            "cpe": "cpe:2.3:a:redhat:xnio:2022-07-08:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "redhat",
+            "version": "2022-07-08",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:redhat:xnio:2022-07-08:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T15:06Z",
+                        "titles": [
+                            {
+                                "title": "Red Hat XNIO 2022-07-08",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://access.redhat.com/security/cve/CVE-2022-0084",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/xnio/xnio/pull/291",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--4d77d473-6a8e-4c09-a969-b77ff788e841",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--352542b0-a9f3-5a30-bce6-0b8d3fb34e0e",
+            "name": "Vela Worker 0.4.0 Release Candidate 3",
+            "cpe": "cpe:2.3:a:go-vela:worker:0.4.0:rc3:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "go-vela",
+            "version": "0.4.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:go-vela:worker:0.4.0:rc3:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T16:17Z",
+                        "titles": [
+                            {
+                                "title": "Vela Worker 0.4.0 Release Candidate 3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/go-vela/server/security/advisories/GHSA-5m7g-pj8w-7593",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/go-vela/worker/releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

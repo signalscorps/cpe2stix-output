@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--a2404d23-70ac-4a75-b7fe-05d47fb29841",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4d778b1d-e57a-5a3e-8d2b-986e040cdece",
+            "name": "Tenda AC18 Firmware 15.03.05.19 Multi",
+            "cpe": "cpe:2.3:o:tenda:ac18_firmware:15.03.05.19_multi:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tenda",
+            "version": "15.03.05.19_multi",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:tenda:ac18_firmware:15.03.05.19_multi:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T16:36Z",
+                        "titles": [
+                            {
+                                "title": "Tenda AC18 Firmware 15.03.05.19 Multi",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/1160300418/Vuls/blob/main/Tenda/AC/Vul_NatStaticSetting.md",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--9e8e0416-97f4-48ed-9252-43b341f62670",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c044fd36-8da9-5543-b2db-ec615b1802f3",
+            "name": "SUSE Manager Server 4.2.2",
+            "cpe": "cpe:2.3:a:suse:manager_server:4.2.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "suse",
+            "version": "4.2.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:suse:manager_server:4.2.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T14:28Z",
+                        "titles": [
+                            {
+                                "title": "SUSE Manager Server 4.2.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.suse.com/releasenotes/x86_64/SUSE-MANAGER/4.2/index.html",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.suse.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-21952",
+                            "CVE-2022-31248"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

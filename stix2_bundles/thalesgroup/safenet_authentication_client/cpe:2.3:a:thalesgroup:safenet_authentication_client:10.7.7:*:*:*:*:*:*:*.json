@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--16ef6840-038e-4b3c-b7b6-56530fe86676",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8bf42bbe-80a3-5ba4-8764-3c03461487c5",
+            "name": "THALES SafeNet Authentication Client 10.7.7",
+            "cpe": "cpe:2.3:a:thalesgroup:safenet_authentication_client:10.7.7:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "thalesgroup",
+            "version": "10.7.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:thalesgroup:safenet_authentication_client:10.7.7:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T15:17Z",
+                        "titles": [
+                            {
+                                "title": "THALES SafeNet Authentication Client 10.7.7",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cpl.thalesgroup.com/access-management/security-applications/authentication-client-token-management",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/z00z00z00/Safenet_SAC_CVE-2021-42056",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-42056"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

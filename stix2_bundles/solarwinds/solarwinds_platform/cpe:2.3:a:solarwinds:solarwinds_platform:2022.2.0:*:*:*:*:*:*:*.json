@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--8049f437-468d-4d83-90ad-9b8f35d94b44",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--19c2560f-8858-57ad-9c87-79c3d29de646",
+            "name": "Solarwinds Platform 2022.2.0",
+            "cpe": "cpe:2.3:a:solarwinds:solarwinds_platform:2022.2.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "solarwinds",
+            "version": "2022.2.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:solarwinds:solarwinds_platform:2022.2.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T15:13Z",
+                        "titles": [
+                            {
+                                "title": "Solarwinds Platform 2022.2.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://documentation.solarwinds.com/en/success_center/orionplatform/content/release_notes/solarwinds_platform_2022-3_release_notes.htm#:~:text=Release%20date%3A%20May%2024%2C%202022%20These%20release%20notes,issues.%20New%20features%20and%20improvements%20in%20SolarWinds%20Platform",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.solarwinds.com/trust-center/security-advisories/cve-2022-36965",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-36965"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

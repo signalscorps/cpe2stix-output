@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--64de4084-2198-4307-96cd-096e56ab18ef",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--54d8e93d-471e-53d3-a943-06a445c5889f",
+            "name": "Tauri 0.10",
+            "cpe": "cpe:2.3:a:tauri:tauri:0.10:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tauri",
+            "version": "0.10",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:tauri:tauri:0.10:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T17:14Z",
+                        "titles": [
+                            {
+                                "title": "Tauri 0.10",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/tauri-apps/tauri/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://tauri.app/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-39215"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

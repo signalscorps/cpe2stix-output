@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--5d48e048-88ef-4681-bd40-86b9d90b8f6e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b8c30485-2edb-5cc1-a0c5-e4e296e8e87a",
+            "name": "Cisco Email Security Appliance Firmware 14.3.0-023",
+            "cpe": "cpe:2.3:o:cisco:email_security_appliance_firmware:14.3.0-023:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "14.3.0-023",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:cisco:email_security_appliance_firmware:14.3.0-023:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T14:19Z",
+                        "titles": [
+                            {
+                                "title": "Cisco Email Security Appliance Firmware 14.3.0-023",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ESA-HTTP-Inject-nvsycUmR",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

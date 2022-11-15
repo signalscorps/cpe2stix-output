@@ -1,0 +1,41 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--bcdbda5e-7baf-5301-b3f3-ba94511a38d2",
+    "name": "Cisco AsyncOS 14.2.0-217",
+    "cpe": "cpe:2.3:o:cisco:asyncos:14.2.0-217:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "cisco",
+    "version": "14.2.0-217",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:cisco:asyncos:14.2.0-217:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-14T14:18Z",
+                "refs": [
+                    {
+                        "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cnt-sec-infodiscl-BVKKnUG",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Cisco AsyncOS 14.2.0-217"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-20781",
+                    "CVE-2022-20867",
+                    "CVE-2022-20868",
+                    "CVE-2022-20942"
+                ]
+            }
+        }
+    }
+}

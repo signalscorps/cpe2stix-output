@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--af9a7aba-f3c2-4633-a3b4-dc06b3b51c04",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d3df9b88-3096-58f0-883d-0dd55f20a0c8",
+            "name": "TIBCO EBX 6.0.8",
+            "cpe": "cpe:2.3:a:tibco:ebx:6.0.8:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tibco",
+            "version": "6.0.8",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:tibco:ebx:6.0.8:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T15:24Z",
+                        "titles": [
+                            {
+                                "title": "TIBCO EBX 6.0.8",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.tibco.com/support/advisories/2022/09/tibco-security-advisory-september-21-2022-tibco-ebx-cve-2022-30577",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-30577"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

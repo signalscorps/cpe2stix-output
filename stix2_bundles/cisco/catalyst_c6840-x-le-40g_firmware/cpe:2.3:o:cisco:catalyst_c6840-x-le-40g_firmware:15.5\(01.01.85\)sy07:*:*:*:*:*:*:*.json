@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--309cd5d4-375d-465b-b34d-bd25496be9f3",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8cc55979-ba5f-54b4-bea9-06304ade16fb",
+            "name": "Cisco Catalyst C6840-X-LE-40G Firmware 15.5(01.01.85)SY07",
+            "cpe": "cpe:2.3:o:cisco:catalyst_c6840-x-le-40g_firmware:15.5\\(01.01.85\\)sy07:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "15.5\\(01.01.85\\)sy07",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:cisco:catalyst_c6840-x-le-40g_firmware:15.5\\(01.01.85\\)sy07:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T14:19Z",
+                        "titles": [
+                            {
+                                "title": "Cisco Catalyst C6840-X-LE-40G Firmware 15.5(01.01.85)SY07",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-VU855201-J3z8CKTX",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa06145",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-27853"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

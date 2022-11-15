@@ -1,0 +1,55 @@
+{
+    "type": "bundle",
+    "id": "bundle--0fe25abf-40de-4478-90ef-6252250f8bd0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c69a10d6-893c-5f86-91a2-e8a7224f454d",
+            "name": "Python 3.8.16",
+            "cpe": "cpe:2.3:a:python:python:3.8.16:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "python",
+            "version": "3.8.16",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:python:python:3.8.16:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T15:04Z",
+                        "titles": [
+                            {
+                                "title": "Python 3.8.16",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/45xxx/CVE-2022-45061.json",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/python/cpython/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/python/cpython/issues/98433",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2009-2940",
+                            "CVE-2009-3720",
+                            "CVE-2015-20107",
+                            "CVE-2020-29396"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

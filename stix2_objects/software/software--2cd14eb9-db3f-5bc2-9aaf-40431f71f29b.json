@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--2cd14eb9-db3f-5bc2-9aaf-40431f71f29b",
+    "name": "Connectwise",
+    "cpe": "cpe:2.3:a:connectwise:connectwise:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "connectwise",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:connectwise:connectwise:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-14T14:59Z",
+                "refs": [
+                    {
+                        "ref": "https://control.connectwise.com/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://www.gov.il/en/departments/faq/cve_advisories",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Connectwise"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-36781"
+                ]
+            }
+        }
+    }
+}

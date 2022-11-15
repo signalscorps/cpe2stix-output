@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--a03bc7da-5c17-5032-a516-3d6b13a3d544",
+    "name": "Mitsubishi Electric MAC-557IF-E1",
+    "cpe": "cpe:2.3:h:mitsubishielectric:mac-557if-e1:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "mitsubishielectric",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:mitsubishielectric:mac-557if-e1:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-14T14:16Z",
+                "refs": [
+                    {
+                        "ref": "https://www.mitsubishielectric.com/en/psirt/vulnerability/pdf/2022-010_en.pdf",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Mitsubishi Electric MAC-557IF-E1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-33321"
+                ]
+            }
+        }
+    }
+}

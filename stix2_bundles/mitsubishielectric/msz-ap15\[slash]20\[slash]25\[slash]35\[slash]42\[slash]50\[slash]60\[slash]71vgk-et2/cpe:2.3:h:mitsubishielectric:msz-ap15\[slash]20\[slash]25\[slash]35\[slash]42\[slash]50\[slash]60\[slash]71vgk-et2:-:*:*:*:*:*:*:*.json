@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--302dc3b7-a57c-49d1-b1be-811dfb5a84af",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--62c81762-eebf-505f-9bff-57c9921379e2",
+            "name": "Mitsubishi Electric MSZ-AP15/20/25/35/42/50/60/71VGK-ET2",
+            "cpe": "cpe:2.3:h:mitsubishielectric:msz-ap15\\/20\\/25\\/35\\/42\\/50\\/60\\/71vgk-et2:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mitsubishielectric",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:mitsubishielectric:msz-ap15\\/20\\/25\\/35\\/42\\/50\\/60\\/71vgk-et2:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T14:16Z",
+                        "titles": [
+                            {
+                                "title": "Mitsubishi Electric MSZ-AP15/20/25/35/42/50/60/71VGK-ET2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.mitsubishielectric.com/en/psirt/vulnerability/pdf/2022-010_en.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-33321"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--976f02ac-40db-5b21-9f91-de861167309b",
+    "name": "Python 3.9.16",
+    "cpe": "cpe:2.3:a:python:python:3.9.16:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "python",
+    "version": "3.9.16",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:python:python:3.9.16:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-14T15:04Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/45xxx/CVE-2022-45061.json",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/python/cpython/tags",
+                        "type": "Version"
+                    },
+                    {
+                        "ref": "https://github.com/python/cpython/issues/98433",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Python 3.9.16"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2009-2940",
+                    "CVE-2009-3720",
+                    "CVE-2015-20107",
+                    "CVE-2020-29396",
+                    "CVE-2021-32052",
+                    "CVE-2022-42919"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--9607ff3c-ad70-4c93-a401-46c8e950285d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--37f0c75b-9261-599f-8f21-7bdc3a1bb2f9",
+            "name": "Booking-WP-Plugin Bookly 1.1.7 for WordPress",
+            "cpe": "cpe:2.3:a:booking-wp-plugin:bookly:1.1.7:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "booking-wp-plugin",
+            "version": "1.1.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:booking-wp-plugin:bookly:1.1.7:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-14T14:53Z",
+                        "titles": [
+                            {
+                                "title": "Booking-WP-Plugin Bookly 1.1.7 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.booking-wp-plugin.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/bookly-responsive-appointment-booking-tool/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2018-6891"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

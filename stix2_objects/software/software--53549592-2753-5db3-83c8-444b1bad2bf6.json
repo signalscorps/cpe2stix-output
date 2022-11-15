@@ -1,0 +1,40 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--53549592-2753-5db3-83c8-444b1bad2bf6",
+    "name": "Tenda AC9 Firmware 15.03.2.13",
+    "cpe": "cpe:2.3:o:tenda:ac9_firmware:15.03.2.13:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "tenda",
+    "version": "15.03.2.13",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:tenda:ac9_firmware:15.03.2.13:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-14T16:36Z",
+                "refs": [
+                    {
+                        "ref": "https://www.cnblogs.com/Amalll/p/16606980.html",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Tenda AC9 Firmware 15.03.2.13"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2018-14557",
+                    "CVE-2018-14558",
+                    "CVE-2018-14559"
+                ]
+            }
+        }
+    }
+}

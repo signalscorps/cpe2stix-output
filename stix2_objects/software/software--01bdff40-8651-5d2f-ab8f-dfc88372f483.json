@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--01bdff40-8651-5d2f-ab8f-dfc88372f483",
+    "name": "THALES SafeNet Keysecure 8.12.4",
+    "cpe": "cpe:2.3:a:thalesgroup:safenet_keysecure:8.12.4:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "thalesgroup",
+    "version": "8.12.4",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:thalesgroup:safenet_keysecure:8.12.4:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-14T15:17Z",
+                "refs": [
+                    {
+                        "ref": "https://cpl.thalesgroup.com/resources/access-management/safenet-keysecure-k460-with-brocade-encryption-solutions-integration-guide",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://cpl.thalesgroup.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2021/42xxx/CVE-2021-42811.json",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "THALES SafeNet Keysecure 8.12.4"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-42811"
+                ]
+            }
+        }
+    }
+}

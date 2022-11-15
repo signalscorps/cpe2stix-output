@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--7e05fdf9-4a65-4a13-8c11-748369b23934",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6a1b5ab4-6084-5538-9b73-533658c9ec2e",
+            "name": "ownCloud 10.11.0 Release Candidate 1",
+            "cpe": "cpe:2.3:a:owncloud:owncloud:10.11.0:rc1:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "owncloud",
+            "version": "10.11.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:owncloud:owncloud:10.11.0:rc1:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T16:31Z",
+                        "titles": [
+                            {
+                                "title": "ownCloud 10.11.0 Release Candidate 1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/owncloud/core/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://owncloud.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

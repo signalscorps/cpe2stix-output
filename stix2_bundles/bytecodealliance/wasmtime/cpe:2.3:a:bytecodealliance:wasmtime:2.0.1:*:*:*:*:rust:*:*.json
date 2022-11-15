@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--a5f72bb5-d648-445e-bacd-0bf27f629378",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8eea6631-a461-5236-a57f-a6cc682f5e58",
+            "name": "Bytecode Alliance wasmtime 2.0.1 for Rust",
+            "cpe": "cpe:2.3:a:bytecodealliance:wasmtime:2.0.1:*:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "bytecodealliance",
+            "version": "2.0.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:bytecodealliance:wasmtime:2.0.1:*:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-11-14T14:11Z",
+                        "titles": [
+                            {
+                                "title": "Bytecode Alliance wasmtime 2.0.1 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/bytecodealliance/wasmtime/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/bytecodealliance/wasmtime/security/advisories/GHSA-h84q-m8rr-3v9q",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

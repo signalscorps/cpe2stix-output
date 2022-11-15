@@ -1,0 +1,54 @@
+{
+    "type": "bundle",
+    "id": "bundle--b8c77cab-bb0f-4f02-b9f2-490921bc5033",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--78bcda30-ee3c-512f-95b5-3abc2ca39ed4",
+            "name": "Intel NUC7I3DNHE",
+            "cpe": "cpe:2.3:h:intel:nuc7i3dnhe:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:intel:nuc7i3dnhe:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T19:44Z",
+                        "titles": [
+                            {
+                                "title": "Intel NUC7I3DNHE",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.intel.com/content/dam/support/us/en/documents/mini-pcs/nuc-kits/NUC7i3DN_TechProdSpec.pdf",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00689.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-14608",
+                            "CVE-2019-14609",
+                            "CVE-2019-14610",
+                            "CVE-2019-14611",
+                            "CVE-2019-14612",
+                            "CVE-2020-8742",
+                            "CVE-2022-24436"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--231a15ad-7dd3-55b4-a2e4-ba6e5e436c0c",
+    "name": "Cisco Catalyst C6832-X-LE Firmware 15.5(01.01.85)SY07",
+    "cpe": "cpe:2.3:o:cisco:catalyst_c6832-x-le_firmware:15.5\\(01.01.85\\)sy07:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "cisco",
+    "version": "15.5\\(01.01.85\\)sy07",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:cisco:catalyst_c6832-x-le_firmware:15.5\\(01.01.85\\)sy07:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-14T14:19Z",
+                "refs": [
+                    {
+                        "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-VU855201-J3z8CKTX",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa06145",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Cisco Catalyst C6832-X-LE Firmware 15.5(01.01.85)SY07"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-27853"
+                ]
+            }
+        }
+    }
+}

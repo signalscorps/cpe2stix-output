@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--8b94c74b-0fe5-428a-84b4-8821f1399798",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c693af76-1bb1-5866-9a6f-ae8efbe63932",
+            "name": "Varnish-software Varnish Cache Plus 6.0.10 R2",
+            "cpe": "cpe:2.3:a:varnish-software:varnish_cache_plus:6.0.10:r2:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "varnish-software",
+            "version": "6.0.10",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:varnish-software:varnish_cache_plus:6.0.10:r2:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T15:25Z",
+                        "titles": [
+                            {
+                                "title": "Varnish-software Varnish Cache Plus 6.0.10 R2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://docs.varnish-software.com/security/VSV00011/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45060"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

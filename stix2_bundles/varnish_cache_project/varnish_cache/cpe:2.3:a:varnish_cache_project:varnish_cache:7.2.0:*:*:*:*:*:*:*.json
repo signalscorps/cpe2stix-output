@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--b1697503-de31-4d4b-af8b-c3e629969722",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--33debce0-b275-5fbe-90b3-6c9dea647089",
+            "name": "Varnish Cache Project Varnish Cache 7.2.0",
+            "cpe": "cpe:2.3:a:varnish_cache_project:varnish_cache:7.2.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "varnish_cache_project",
+            "version": "7.2.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:varnish_cache_project:varnish_cache:7.2.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T15:25Z",
+                        "titles": [
+                            {
+                                "title": "Varnish Cache Project Varnish Cache 7.2.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://varnish-cache.org/security/VSV00010.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45059",
+                            "CVE-2022-45060"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

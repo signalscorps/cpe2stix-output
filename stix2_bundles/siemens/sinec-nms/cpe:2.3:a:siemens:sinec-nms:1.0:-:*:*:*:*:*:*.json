@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--734be6e4-3ae6-4a7c-a152-6e0cc1810e6a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--71c425f8-8302-56d3-bff1-3c37d76dcf5f",
+            "name": "Siemens SINEC-NMS 1.0",
+            "cpe": "cpe:2.3:a:siemens:sinec-nms:1.0:-:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "siemens",
+            "version": "1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:siemens:sinec-nms:1.0:-:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T15:10Z",
+                        "titles": [
+                            {
+                                "title": "Siemens SINEC-NMS 1.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.industry.siemens.com/cs/document/109802731/release-of-update-1-for-sinec-nms-v1-0-sp2?lc=en-at&dti=0",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-6575"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

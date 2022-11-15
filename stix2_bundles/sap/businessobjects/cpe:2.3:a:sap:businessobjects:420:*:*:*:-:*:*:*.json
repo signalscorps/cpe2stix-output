@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--67a85435-b998-4475-a9b1-917645c35b4e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--43ce49d0-c442-5d53-94b6-478c827df29b",
+            "name": "SAP BusinessObjects 420",
+            "cpe": "cpe:2.3:a:sap:businessobjects:420:*:*:*:-:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sap",
+            "version": "420",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sap:businessobjects:420:*:*:*:-:*:*:*",
+                        "lastModifiedDate": "2022-11-14T15:08Z",
+                        "titles": [
+                            {
+                                "title": "SAP BusinessObjects 420",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://help.sap.com/doc/ecb12fec6fdb101497906a7cb0e91070/4.2.4/en-US/sbo42sp4_webi_user_guide_en.pdf",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

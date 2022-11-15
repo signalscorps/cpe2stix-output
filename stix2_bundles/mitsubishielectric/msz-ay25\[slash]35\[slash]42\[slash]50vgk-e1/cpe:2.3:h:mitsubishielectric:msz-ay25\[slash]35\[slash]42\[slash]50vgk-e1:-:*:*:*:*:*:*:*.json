@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--53d6a8fb-a902-40e5-b2e7-e3d3bb7f9f78",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e84b482e-5ded-50ab-9f08-d9bf76462d1f",
+            "name": "Mitsubishi Electric MSZ-AY25/35/42/50VGK-E1",
+            "cpe": "cpe:2.3:h:mitsubishielectric:msz-ay25\\/35\\/42\\/50vgk-e1:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mitsubishielectric",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:mitsubishielectric:msz-ay25\\/35\\/42\\/50vgk-e1:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T14:16Z",
+                        "titles": [
+                            {
+                                "title": "Mitsubishi Electric MSZ-AY25/35/42/50VGK-E1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.mitsubishielectric.com/en/psirt/vulnerability/pdf/2022-010_en.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-33321"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

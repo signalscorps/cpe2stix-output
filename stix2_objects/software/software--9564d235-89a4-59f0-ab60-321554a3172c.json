@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--9564d235-89a4-59f0-ab60-321554a3172c",
+    "name": "Mitsubishi Electric MSZ-AP22/25/35/42/50/61/70/80VGKD-A1",
+    "cpe": "cpe:2.3:h:mitsubishielectric:msz-ap22\\/25\\/35\\/42\\/50\\/61\\/70\\/80vgkd-a1:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "mitsubishielectric",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:mitsubishielectric:msz-ap22\\/25\\/35\\/42\\/50\\/61\\/70\\/80vgkd-a1:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-14T14:16Z",
+                "refs": [
+                    {
+                        "ref": "https://www.mitsubishielectric.com/en/psirt/vulnerability/pdf/2022-010_en.pdf",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Mitsubishi Electric MSZ-AP22/25/35/42/50/61/70/80VGKD-A1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-33321"
+                ]
+            }
+        }
+    }
+}

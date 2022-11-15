@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--8c0c3b7e-e071-4d0b-b72b-ac437788415b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--501f6199-c5a6-595e-9eee-539c5ea24d6c",
+            "name": "MessagePack Project MessagePack 2.1.0 for Go",
+            "cpe": "cpe:2.3:a:messagepack_project:messagepack:2.1.0:*:*:*:*:go:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "messagepack_project",
+            "version": "2.1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:messagepack_project:messagepack:2.1.0:*:*:*:*:go:*:*",
+                        "lastModifiedDate": "2022-11-14T14:13Z",
+                        "titles": [
+                            {
+                                "title": "MessagePack Project MessagePack 2.1.0 for Go",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/shamaton/msgpack/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://pkg.go.dev/vuln/GO-2022-0972",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

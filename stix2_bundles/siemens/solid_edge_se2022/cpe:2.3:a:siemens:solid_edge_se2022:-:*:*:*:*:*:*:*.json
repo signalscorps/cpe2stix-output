@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--ba5cbe7f-f99c-4eff-8517-2253e06def2f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c84129ff-8984-5db8-a72a-e3b3a40374d7",
+            "name": "Siemens Solid Edge SE2022",
+            "cpe": "cpe:2.3:a:siemens:solid_edge_se2022:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "siemens",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:siemens:solid_edge_se2022:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-14T15:10Z",
+                        "titles": [
+                            {
+                                "title": "Siemens Solid Edge SE2022",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert-portal.siemens.com/productcert/pdf/ssa-258115.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--cad5b277-87cb-5bd3-ab53-9edc0b821220",
+    "name": "Wiesemann & Theis Com-Server Highspeed 100baseLX",
+    "cpe": "cpe:2.3:h:wut:com-server_highspeed_100baselx:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "wut",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:wut:com-server_highspeed_100baselx:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-15T15:17Z",
+                "refs": [
+                    {
+                        "ref": "https://cert.vde.com/de/advisories/VDE-2022-043/",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.wut.de/e-wwwww-ww-hpus-000.php",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Wiesemann & Theis Com-Server Highspeed 100baseLX"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-42786",
+                    "CVE-2022-42787"
+                ]
+            }
+        }
+    }
+}

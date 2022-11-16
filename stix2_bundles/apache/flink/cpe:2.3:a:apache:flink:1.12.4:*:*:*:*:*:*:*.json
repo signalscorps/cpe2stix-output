@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--61ebb671-2536-4a92-b4b9-0333927b0669",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ce15e5de-8354-52d0-91a5-4a03706be4e6",
+            "name": "Apache Software Foundation Flink 1.12.4",
+            "cpe": "cpe:2.3:a:apache:flink:1.12.4:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "apache",
+            "version": "1.12.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:apache:flink:1.12.4:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-15T15:28Z",
+                        "titles": [
+                            {
+                                "title": "Apache Software Foundation Flink 1.12.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/apache/flink/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--dadcc3ca-d4a3-4ecb-bc11-1398ab281cdf",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2688210e-c90c-5e0e-a4b8-52a4a39e34db",
+            "name": "browserify-shim Project browserify-shim 3.8.15 for Node.js",
+            "cpe": "cpe:2.3:a:browserify-shim_project:browserify-shim:3.8.15:*:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "browserify-shim_project",
+            "version": "3.8.15",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:browserify-shim_project:browserify-shim:3.8.15:*:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2022-11-15T18:52Z",
+                        "titles": [
+                            {
+                                "title": "browserify-shim Project browserify-shim 3.8.15 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.npmjs.com/package/browserify-shim",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/thlorenz/browserify-shim",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-37617",
+                            "CVE-2022-37621",
+                            "CVE-2022-37623"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

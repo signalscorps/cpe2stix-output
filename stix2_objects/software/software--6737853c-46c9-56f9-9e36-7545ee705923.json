@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--6737853c-46c9-56f9-9e36-7545ee705923",
+    "name": "EOLINK Goku Lite",
+    "cpe": "cpe:2.3:a:eolink:goku_lite:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "eolink",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:eolink:goku_lite:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-15T15:17Z",
+                "refs": [
+                    {
+                        "ref": "https://www.eolink.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/eolinker/goku_lite/tags",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "EOLINK Goku Lite"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3947",
+                    "CVE-2022-3948"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--ec9f7967-4fa1-4c49-8af0-6b3bd667327b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c66c1bca-c2a5-53e6-84cf-b544b8286d4c",
+            "name": "Wiesemann & Theis Com-Server Highspeed Office 4port",
+            "cpe": "cpe:2.3:h:wut:com-server_highspeed_office_4port:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wut",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:wut:com-server_highspeed_office_4port:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-15T15:17Z",
+                        "titles": [
+                            {
+                                "title": "Wiesemann & Theis Com-Server Highspeed Office 4port",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/de/advisories/VDE-2022-043/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.wut.de/e-wwwww-ww-hpus-000.php",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-42786",
+                            "CVE-2022-42787"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

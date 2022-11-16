@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--2189ff19-e5df-4821-a85e-4b0cb83b29cd",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--eb46a011-2623-5011-8c61-47a7b5ea12ed",
+            "name": "Glimmrtv FlexTV Beta",
+            "cpe": "cpe:2.3:a:glimmrtv:flextv:-:beta:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "glimmrtv",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:glimmrtv:flextv:-:beta:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-15T18:52Z",
+                        "titles": [
+                            {
+                                "title": "Glimmrtv FlexTV Beta",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/d8ahazard/FlexTV",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-40928"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--1448597f-7c0e-5516-95c8-4ef93473f6e3",
+    "name": "Haystack Software Arq Backup 7.19.5.0",
+    "cpe": "cpe:2.3:a:haystacksoftware:arq_backup:7.19.5.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "haystacksoftware",
+    "version": "7.19.5.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:haystacksoftware:arq_backup:7.19.5.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-15T18:56Z",
+                "refs": [
+                    {
+                        "ref": "https://www.arqbackup.com/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://www.arqbackup.com/download/arqbackup/arq7windows_release_notes.html",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Haystack Software Arq Backup 7.19.5.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-36617"
+                ]
+            }
+        }
+    }
+}

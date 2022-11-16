@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--67874e84-3fbe-53bb-a67b-19daedcff03c",
+    "name": "Microsoft Azure Real Time Operating System FileX 6.0.1",
+    "cpe": "cpe:2.3:o:microsoft:azure_rtos_filex:6.0.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "microsoft",
+    "version": "6.0.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:microsoft:azure_rtos_filex:6.0.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-15T15:17Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/azure-rtos/filex/tags",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Microsoft Azure Real Time Operating System FileX 6.0.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-39343"
+                ]
+            }
+        }
+    }
+}

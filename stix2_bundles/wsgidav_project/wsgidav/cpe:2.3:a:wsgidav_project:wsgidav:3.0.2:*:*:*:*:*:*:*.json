@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--bfa4f994-182a-4c93-9e3f-3a8d9ddd3738",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8681c8c1-2714-5219-9382-3ff135e770db",
+            "name": "WsgiDAV Project WsgiDAV 3.0.2",
+            "cpe": "cpe:2.3:a:wsgidav_project:wsgidav:3.0.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wsgidav_project",
+            "version": "3.0.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wsgidav_project:wsgidav:3.0.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-15T23:25Z",
+                        "titles": [
+                            {
+                                "title": "WsgiDAV Project WsgiDAV 3.0.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/mar10/wsgidav/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/mar10/wsgidav/security/advisories/GHSA-xx6g-jj35-pxjv",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

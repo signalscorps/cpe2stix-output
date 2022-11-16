@@ -1,0 +1,50 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--cd353e36-8a97-5052-8d6e-1f2600d3b343",
+    "name": "HoYoVerse Mhyprot2 1.0.0.0",
+    "cpe": "cpe:2.3:a:hoyoverse:mhyprot2:1.0.0.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "hoyoverse",
+    "version": "1.0.0.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:hoyoverse:mhyprot2:1.0.0.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-15T18:59Z",
+                "refs": [
+                    {
+                        "ref": "https://www.hoyoverse.com/en-us/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://www.trendmicro.com/en_us/research/22/h/ransomware-actor-abuses-genshin-impact-anti-cheat-driver-to-kill-antivirus.html",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.vice.com/en/article/y3p35w/hackers-are-using-anti-cheat-in-genshin-impact-to-ransom-victims",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2020/36xxx/CVE-2020-36603.json",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "HoYoVerse Mhyprot2 1.0.0.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-36603"
+                ]
+            }
+        }
+    }
+}

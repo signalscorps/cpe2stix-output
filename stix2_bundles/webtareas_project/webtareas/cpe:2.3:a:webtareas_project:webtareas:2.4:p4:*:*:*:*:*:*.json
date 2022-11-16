@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--509e19b2-41ef-4c85-bf71-fb57a635a5f8",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--78f7cdd8-feed-56fb-9f30-839c54f96fca",
+            "name": "webTareas Project webTareas 2.4 Patch 4",
+            "cpe": "cpe:2.3:a:webtareas_project:webtareas:2.4:p4:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "webtareas_project",
+            "version": "2.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:webtareas_project:webtareas:2.4:p4:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-15T23:25Z",
+                        "titles": [
+                            {
+                                "title": "webTareas Project webTareas 2.4 Patch 4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://sourceforge.net/projects/webtareas/files/",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://sourceforge.net/projects/webtareas/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-41916",
+                            "CVE-2021-41917",
+                            "CVE-2021-41918",
+                            "CVE-2021-41919",
+                            "CVE-2021-41920"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--09bbd8d5-227d-4037-b78f-977082c1f5b2",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0e516ffd-31e7-519b-ac3f-f8d9b5ae38a0",
+            "name": "Wiesemann & Theis Com-Server 20mA",
+            "cpe": "cpe:2.3:h:wut:com-server_20ma:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wut",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:wut:com-server_20ma:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-15T15:17Z",
+                        "titles": [
+                            {
+                                "title": "Wiesemann & Theis Com-Server 20mA",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/de/advisories/VDE-2022-043/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.wut.de/e-wwwww-ww-hpus-000.php",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-42786",
+                            "CVE-2022-42787"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

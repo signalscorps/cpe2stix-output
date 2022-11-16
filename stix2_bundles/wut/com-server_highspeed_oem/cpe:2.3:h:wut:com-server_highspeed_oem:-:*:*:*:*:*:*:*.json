@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--50f43ead-c380-44fc-9d20-481a74054f40",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ece7992f-c656-51dc-ba32-845b51b1e4d9",
+            "name": "Wiesemann & Theis Com-Server Highspeed OEM",
+            "cpe": "cpe:2.3:h:wut:com-server_highspeed_oem:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wut",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:wut:com-server_highspeed_oem:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-15T15:17Z",
+                        "titles": [
+                            {
+                                "title": "Wiesemann & Theis Com-Server Highspeed OEM",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/de/advisories/VDE-2022-043/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.wut.de/e-wwwww-ww-hpus-000.php",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-42786",
+                            "CVE-2022-42787"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

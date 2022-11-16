@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--d108d3bb-6456-43bf-b3ee-c4af97ad6d95",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7a61f532-1c3e-5a9e-bc61-91b57aac9c95",
+            "name": "Wiesemann & Theis AT-Modem-Emulator",
+            "cpe": "cpe:2.3:h:wut:at-modem-emulator:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wut",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:wut:at-modem-emulator:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-15T15:17Z",
+                        "titles": [
+                            {
+                                "title": "Wiesemann & Theis AT-Modem-Emulator",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/de/advisories/VDE-2022-043/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.wut.de/e-wwwww-ww-hpus-000.php",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-42786",
+                            "CVE-2022-42787"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

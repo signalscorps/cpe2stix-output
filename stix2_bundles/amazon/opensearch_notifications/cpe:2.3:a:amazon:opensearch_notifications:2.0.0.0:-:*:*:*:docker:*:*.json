@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--b12dcaa1-4e64-4999-9827-4a64e09735ea",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b609ae4d-842c-5473-8cdd-7bb8ef3df9a2",
+            "name": "Amazon OpenSearch Notifications 2.0.0.0 for Docker",
+            "cpe": "cpe:2.3:a:amazon:opensearch_notifications:2.0.0.0:-:*:*:*:docker:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "amazon",
+            "version": "2.0.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:amazon:opensearch_notifications:2.0.0.0:-:*:*:*:docker:*:*",
+                        "lastModifiedDate": "2022-11-15T17:34Z",
+                        "titles": [
+                            {
+                                "title": "Amazon OpenSearch Notifications 2.0.0.0 for Docker",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://opensearch.org/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/opensearch-project/notifications/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

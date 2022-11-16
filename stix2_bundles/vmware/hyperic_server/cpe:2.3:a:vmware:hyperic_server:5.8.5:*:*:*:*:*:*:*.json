@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--bbaf889b-69b7-4c13-8e1e-7797d72a7fad",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--52281a1d-94d7-58ec-b471-051296624976",
+            "name": "VMware Hyperic Server 5.8.5",
+            "cpe": "cpe:2.3:a:vmware:hyperic_server:5.8.5:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "vmware",
+            "version": "5.8.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:vmware:hyperic_server:5.8.5:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-15T13:25Z",
+                        "titles": [
+                            {
+                                "title": "VMware Hyperic Server 5.8.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://customerconnect.vmware.com/downloads/details?downloadGroup=VRHQ_586_SERVER1&productId=378",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--91b35b54-fe82-5fbb-91e5-a09ece5ac9a6",
+    "name": "Clinic's Patient Management System Project Clinic's Patient Management System 1.0",
+    "cpe": "cpe:2.3:a:clinic\\'s_patient_management_system_project:clinic\\'s_patient_management_system:1.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "clinic\\'s_patient_management_system_project",
+    "version": "1.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:clinic\\'s_patient_management_system_project:clinic\\'s_patient_management_system:1.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-15T18:42Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/FF9118/bug_report/blob/main/vendors/oretnom23/clinics-patient-management-system/RCE-1.md",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.sourcecodester.com/php-clinics-patient-management-system-source-code",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Clinic's Patient Management System Project Clinic's Patient Management System 1.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3120",
+                    "CVE-2022-3122",
+                    "CVE-2022-35117",
+                    "CVE-2022-36242",
+                    "CVE-2022-36251",
+                    "CVE-2022-36270",
+                    "CVE-2022-36609",
+                    "CVE-2022-36750",
+                    "CVE-2022-40471"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--c3dbb8d0-100d-55ef-a3f3-3f0a48db4daa",
+    "name": "F-secure Safe 19.0 for iPhone OS",
+    "cpe": "cpe:2.3:a:f-secure:safe:19.0:*:*:*:*:iphone_os:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "f-secure",
+    "version": "19.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:f-secure:safe:19.0:*:*:*:*:iphone_os:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-15T18:50Z",
+                "refs": [
+                    {
+                        "ref": "https://www.f-secure.com/en/home/support/security-advisories/cve-2022-38164",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "F-secure Safe 19.0 for iPhone OS"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-38163",
+                    "CVE-2022-38164"
+                ]
+            }
+        }
+    }
+}

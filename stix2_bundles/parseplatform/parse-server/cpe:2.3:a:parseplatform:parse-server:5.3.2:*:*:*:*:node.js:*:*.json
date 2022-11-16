@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--3edc94ab-4c85-4c02-a748-9c339c2776c1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e9b7fbbb-2517-571d-9433-cf1cb3c0d82a",
+            "name": "Parse Platform parse-server 5.3.2 for Node.js",
+            "cpe": "cpe:2.3:a:parseplatform:parse-server:5.3.2:*:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "parseplatform",
+            "version": "5.3.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:parseplatform:parse-server:5.3.2:*:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2022-11-15T15:17Z",
+                        "titles": [
+                            {
+                                "title": "Parse Platform parse-server 5.3.2 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/parse-community/parse-server/security/advisories/GHSA-xprv-wvh7-qqqx",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/parse-community/parse-server/releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41879"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

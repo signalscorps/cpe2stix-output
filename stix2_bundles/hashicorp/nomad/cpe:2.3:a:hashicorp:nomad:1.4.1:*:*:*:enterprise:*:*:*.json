@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--1454997f-e1ba-4456-abe2-f5ed4563af80",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--450dd10e-3265-5fa5-8c2f-24faef8b8849",
+            "name": "HashiCorp Nomad 1.4.1 Enterprise Edition",
+            "cpe": "cpe:2.3:a:hashicorp:nomad:1.4.1:*:*:*:enterprise:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hashicorp",
+            "version": "1.4.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:hashicorp:nomad:1.4.1:*:*:*:enterprise:*:*:*",
+                        "lastModifiedDate": "2022-11-15T15:47Z",
+                        "titles": [
+                            {
+                                "title": "HashiCorp Nomad 1.4.1 Enterprise Edition",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/hashicorp/nomad/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3866",
+                            "CVE-2022-3867"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

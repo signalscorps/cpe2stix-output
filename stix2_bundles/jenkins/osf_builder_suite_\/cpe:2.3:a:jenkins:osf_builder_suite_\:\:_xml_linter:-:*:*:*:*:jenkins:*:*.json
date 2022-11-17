@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--5950d599-0617-465c-ade1-552237e2d15c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--76a536d8-0ba3-54ea-9b45-44c42f8d9c3f",
+            "name": "Jenkins OSF Builder Suite :: XML Linter for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:osf_builder_suite_\\:\\:_xml_linter:-:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "\\",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:osf_builder_suite_\\:\\:_xml_linter:-:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-16T15:47Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins OSF Builder Suite :: XML Linter for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.jenkins.io/security/advisory/2022-11-15/#SECURITY-2937",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

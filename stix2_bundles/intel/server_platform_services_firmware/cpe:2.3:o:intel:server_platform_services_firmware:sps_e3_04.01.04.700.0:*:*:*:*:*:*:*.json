@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--8322ceee-8c0d-40e9-a7f6-370f7776f66b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0fa88487-166c-5eb3-9f46-381c6db57874",
+            "name": "Intel Server Platform Services Firmware SPS E3 04.01.04.700.0",
+            "cpe": "cpe:2.3:o:intel:server_platform_services_firmware:sps_e3_04.01.04.700.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "sps_e3_04.01.04.700.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:intel:server_platform_services_firmware:sps_e3_04.01.04.700.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-16T15:47Z",
+                        "titles": [
+                            {
+                                "title": "Intel Server Platform Services Firmware SPS E3 04.01.04.700.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00610.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2018-12192",
+                            "CVE-2018-12198",
+                            "CVE-2019-0099",
+                            "CVE-2019-11090",
+                            "CVE-2022-26074"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

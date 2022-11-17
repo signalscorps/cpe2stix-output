@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--335e0c9c-5dcb-4ff4-85c0-2e1975858879",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3d651c3b-427a-5a55-9a63-fc2e45486485",
+            "name": "PHOENIX CONTACT FL MGUARD PCI4000 VPN",
+            "cpe": "cpe:2.3:h:phoenixcontact:fl_mguard_pci4000_vpn:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "phoenixcontact",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:phoenixcontact:fl_mguard_pci4000_vpn:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-16T20:00Z",
+                        "titles": [
+                            {
+                                "title": "PHOENIX CONTACT FL MGUARD PCI4000 VPN",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.phoenixcontact.com/en-us/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-051/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3480"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

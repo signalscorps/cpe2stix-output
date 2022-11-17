@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--977b9731-c90b-4d77-a22a-4eec518061f1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--cdddc331-ed0e-50c1-920f-8c46099625ac",
+            "name": "Jenkins Delete Log for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:delete_log:-:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:delete_log:-:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-16T15:47Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Delete Log for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.jenkins.io/security/advisory/2022-11-15/#SECURITY-2920",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--6afd597c-602a-4875-bcf3-c52a2368e0b7",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f8e2a4b2-b8c6-55ad-95c7-aaeaec24e1cc",
+            "name": "Explosion spaCy 2.1.5 for Python",
+            "cpe": "cpe:2.3:a:explosion:spacy:2.1.5:*:*:*:*:python:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "explosion",
+            "version": "2.1.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:explosion:spacy:2.1.5:*:*:*:*:python:*:*",
+                        "lastModifiedDate": "2022-11-16T14:08Z",
+                        "titles": [
+                            {
+                                "title": "Explosion spaCy 2.1.5 for Python",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://pypi.org/project/spacy/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://spacy.io/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://explosion.ai/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/explosion/spaCy/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

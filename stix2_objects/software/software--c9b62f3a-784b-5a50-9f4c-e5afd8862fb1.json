@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--c9b62f3a-784b-5a50-9f4c-e5afd8862fb1",
+    "name": "Nodejs Node.js 16.17.0 Lts Edition",
+    "cpe": "cpe:2.3:a:nodejs:node.js:16.17.0:*:*:*:lts:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "nodejs",
+    "version": "16.17.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:nodejs:node.js:16.17.0:*:*:*:lts:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-16T14:15Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V16.md",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://nodejs.org/en/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Nodejs Node.js 16.17.0 Lts Edition"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-32212",
+                    "CVE-2022-32213"
+                ]
+            }
+        }
+    }
+}

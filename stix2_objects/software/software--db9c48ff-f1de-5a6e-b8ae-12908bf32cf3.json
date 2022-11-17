@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--db9c48ff-f1de-5a6e-b8ae-12908bf32cf3",
+    "name": "PHOENIX CONTACT TC MGUARD RS2000 3G VPN",
+    "cpe": "cpe:2.3:h:phoenixcontact:tc_mguard_rs2000_3g_vpn:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "phoenixcontact",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:phoenixcontact:tc_mguard_rs2000_3g_vpn:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-16T20:00Z",
+                "refs": [
+                    {
+                        "ref": "https://www.phoenixcontact.com/en-us/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://cert.vde.com/en/advisories/VDE-2022-051/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "PHOENIX CONTACT TC MGUARD RS2000 3G VPN"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3480"
+                ]
+            }
+        }
+    }
+}

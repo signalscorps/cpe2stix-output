@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--574591a4-84d5-4d07-b142-6942446dd594",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8593a517-8129-5f28-b121-bcfb82778d1f",
+            "name": "PHOENIX CONTACT FL MGUARD DELTA TX/TX",
+            "cpe": "cpe:2.3:h:phoenixcontact:fl_mguard_delta_tx\\/tx:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "phoenixcontact",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:phoenixcontact:fl_mguard_delta_tx\\/tx:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-16T20:00Z",
+                        "titles": [
+                            {
+                                "title": "PHOENIX CONTACT FL MGUARD DELTA TX/TX",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.phoenixcontact.com/en-us/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-051/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3480"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

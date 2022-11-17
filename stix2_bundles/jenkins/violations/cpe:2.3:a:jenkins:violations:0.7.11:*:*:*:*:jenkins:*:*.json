@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--0e2a37d9-ea2b-4f99-a07c-9e40010bab48",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--de4b4bb7-4079-5242-ba8f-9f3bea4333c6",
+            "name": "Jenkins Violations 0.7.11 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:violations:0.7.11:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "0.7.11",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:violations:0.7.11:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-16T15:47Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Violations 0.7.11 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.jenkins.io/security/advisory/2022-11-15/#SECURITY-766",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

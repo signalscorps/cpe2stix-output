@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--f4c86760-6fd9-4152-9bf9-ab1c3123cdb2",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2658e6a9-b7c8-5f1f-b4c0-6b4411bc8ba8",
+            "name": "Tasmota Project Tasmota",
+            "cpe": "cpe:2.3:a:tasmota_project:tasmota:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tasmota_project",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:tasmota_project:tasmota:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-16T15:47Z",
+                        "titles": [
+                            {
+                                "title": "Tasmota Project Tasmota",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/arendst/Tasmota/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/arendst/Tasmota/pull/16802/commits/066878da4d4762a9b6cb169fdf353e804d735cfd",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

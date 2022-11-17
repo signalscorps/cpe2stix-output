@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--774ed055-6fe2-4d70-a65d-4f820d2193c0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--774c25d6-0bd3-5e6b-bd10-73cda0401154",
+            "name": "PHOENIX CONTACT FL MGUARD RS2000 TX/TX VPN",
+            "cpe": "cpe:2.3:h:phoenixcontact:fl_mguard_rs2000_tx\\/tx_vpn:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "phoenixcontact",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:phoenixcontact:fl_mguard_rs2000_tx\\/tx_vpn:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-16T20:00Z",
+                        "titles": [
+                            {
+                                "title": "PHOENIX CONTACT FL MGUARD RS2000 TX/TX VPN",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.phoenixcontact.com/en-us/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-051/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3480"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--e31b342d-a36a-5141-99f7-e688f472b5cf",
+    "name": "Joinmastodon Mastodon 3.4.2",
+    "cpe": "cpe:2.3:a:joinmastodon:mastodon:3.4.2:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "joinmastodon",
+    "version": "3.4.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:joinmastodon:mastodon:3.4.2:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-16T13:56Z",
+                "refs": [
+                    {
+                        "ref": "https://joinmastodon.org/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/mastodon/mastodon/releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Joinmastodon Mastodon 3.4.2"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-0432",
+                    "CVE-2022-2166",
+                    "CVE-2022-24307",
+                    "CVE-2022-31263"
+                ]
+            }
+        }
+    }
+}

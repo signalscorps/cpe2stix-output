@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--f2c96d7f-d920-4e0b-b901-88b6322b81e8",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--951988ec-2151-500e-8580-0e24d4ff87de",
+            "name": "Jenkins Config Rotator 2.0.1 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:config_rotator:2.0.1:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "2.0.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:config_rotator:2.0.1:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-16T15:47Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Config Rotator 2.0.1 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.jenkins.io/security/advisory/2022-11-15/#SECURITY-2842",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

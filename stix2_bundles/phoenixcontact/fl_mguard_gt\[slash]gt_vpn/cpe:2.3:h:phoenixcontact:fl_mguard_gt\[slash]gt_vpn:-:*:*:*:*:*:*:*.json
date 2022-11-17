@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--bc4aa3c6-6717-4bc0-9e44-60983abc713b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9ddb6aee-4694-56cd-8af9-59927c5c6770",
+            "name": "PHOENIX CONTACT FL MGUARD GT/GT VPN",
+            "cpe": "cpe:2.3:h:phoenixcontact:fl_mguard_gt\\/gt_vpn:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "phoenixcontact",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:phoenixcontact:fl_mguard_gt\\/gt_vpn:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-16T20:00Z",
+                        "titles": [
+                            {
+                                "title": "PHOENIX CONTACT FL MGUARD GT/GT VPN",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.phoenixcontact.com/en-us/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-051/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3480"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

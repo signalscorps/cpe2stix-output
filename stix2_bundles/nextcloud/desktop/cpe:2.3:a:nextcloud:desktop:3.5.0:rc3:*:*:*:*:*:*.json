@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--2f663992-b558-40a0-88e9-3f86c55803db",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ce2629c6-5abf-5590-b802-7db5b03c43e2",
+            "name": "Nextcloud Desktop 3.5.0 Release Candidate 3",
+            "cpe": "cpe:2.3:a:nextcloud:desktop:3.5.0:rc3:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nextcloud",
+            "version": "3.5.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nextcloud:desktop:3.5.0:rc3:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-16T17:01Z",
+                        "titles": [
+                            {
+                                "title": "Nextcloud Desktop 3.5.0 Release Candidate 3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/nextcloud/desktop",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://nextcloud.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

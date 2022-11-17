@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--80ef381d-6bc2-4724-bd25-b1700ab758eb",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2d445778-a91c-59b3-ba92-9a364574e043",
+            "name": "Intel NUC 10 Performance Kit NUC10I3FNHN Firmware",
+            "cpe": "cpe:2.3:o:intel:nuc_10_performance_kit_nuc10i3fnhn_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:intel:nuc_10_performance_kit_nuc10i3fnhn_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-16T15:47Z",
+                        "titles": [
+                            {
+                                "title": "Intel NUC 10 Performance Kit NUC10I3FNHN Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.intel.com/content/www/us/en/download/19485/bios-update-fncml357.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-36789"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

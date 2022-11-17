@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--cc907c1a-7a9a-4929-918b-7635a621ccb7",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--25a0ffe8-0cdf-5c5c-92cc-20c9e11e49f3",
+            "name": "Intel NUC 11 Performance Kit NUC11PAHI70Z Firmware",
+            "cpe": "cpe:2.3:o:intel:nuc_11_performance_kit_nuc11pahi70z_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:intel:nuc_11_performance_kit_nuc11pahi70z_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-16T15:47Z",
+                        "titles": [
+                            {
+                                "title": "Intel NUC 11 Performance Kit NUC11PAHI70Z Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.intel.com/content/www/us/en/download/19694/bios-update-patgl357.html?",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-33176"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

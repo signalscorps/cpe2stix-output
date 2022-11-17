@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--680c6d5d-2836-46c1-844b-e15caa4ee243",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b9bbac8c-e6f0-54b3-b26a-d80f64447126",
+            "name": "Intel NUC KIT NUC5I3RYH Firmware",
+            "cpe": "cpe:2.3:o:intel:nuc_kit_nuc5i3ryh_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:intel:nuc_kit_nuc5i3ryh_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-16T15:47Z",
+                        "titles": [
+                            {
+                                "title": "Intel NUC KIT NUC5I3RYH Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.intel.com/content/www/us/en/download/18082/bios-update-rybdwi35.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-37345"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

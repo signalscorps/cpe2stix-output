@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--719344c6-7177-45c5-9a08-2a8d80c0ea7c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--261c873e-9007-5619-8ef0-60b17a7c8200",
+            "name": "Jenkins Pipeline Utility Steps 2.13.1 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:pipeline_utility_steps:2.13.1:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "2.13.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:pipeline_utility_steps:2.13.1:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-16T15:47Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Pipeline Utility Steps 2.13.1 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.jenkins.io/security/advisory/2022-11-15/#SECURITY-2949",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

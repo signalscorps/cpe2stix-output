@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--242d4bea-e0c0-477b-815d-196024155245",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e5dc9cc6-a16a-5dad-9b75-b11cf36bc2a1",
+            "name": "Jenkins Reverse Proxy Auth - for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:reverse_proxy_auth:-:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:reverse_proxy_auth:-:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-16T15:47Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Reverse Proxy Auth - for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.jenkins.io/security/advisory/2022-11-15/#SECURITY-2094",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2018-1000150"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

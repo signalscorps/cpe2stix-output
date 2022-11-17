@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--38b4f185-6885-42d1-9773-a04133d2e3e6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4ec75670-25b7-5f6c-a7b5-24002fab8c1f",
+            "name": "Apache Software Foundation SOAP",
+            "cpe": "cpe:2.3:a:apache:soap:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "apache",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:apache:soap:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-16T14:23Z",
+                        "titles": [
+                            {
+                                "title": "Apache Software Foundation SOAP",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "http://svn.apache.org/repos/asf/webservices/archive/soap/tags/",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://lists.apache.org/thread/g4l64s283njhnph2otx7q4gs2j952d31",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/45xxx/CVE-2022-45378.json",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://svn.apache.org/repos/asf/webservices/archive/soap/trunk/java/docs/intro.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45378"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

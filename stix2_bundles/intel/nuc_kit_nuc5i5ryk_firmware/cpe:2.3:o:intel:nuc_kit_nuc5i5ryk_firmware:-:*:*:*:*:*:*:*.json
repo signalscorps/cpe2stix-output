@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--8bfe2c2a-0ae8-44c7-98f4-27684f63ca11",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a1612ede-5d6e-5600-83d1-252cfb5fb7ec",
+            "name": "Intel NUC KIT NUC5I5RYK Firmware",
+            "cpe": "cpe:2.3:o:intel:nuc_kit_nuc5i5ryk_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:intel:nuc_kit_nuc5i5ryk_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-16T15:47Z",
+                        "titles": [
+                            {
+                                "title": "Intel NUC KIT NUC5I5RYK Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.intel.com/content/www/us/en/download/18082/bios-update-rybdwi35.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-37345"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

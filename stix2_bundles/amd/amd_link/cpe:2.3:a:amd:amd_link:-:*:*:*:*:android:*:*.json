@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--0852fefd-78de-4ef8-9a39-d1004995c54b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8d23d078-3cf0-518f-a7b5-325e1bffcb58",
+            "name": "Advanced Micro Devices (AMD) AMD Link for Android",
+            "cpe": "cpe:2.3:a:amd:amd_link:-:*:*:*:*:android:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "amd",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:amd:amd_link:-:*:*:*:*:android:*:*",
+                        "lastModifiedDate": "2022-11-16T20:00Z",
+                        "titles": [
+                            {
+                                "title": "Advanced Micro Devices (AMD) AMD Link for Android",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1047",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.amd.com/en/technologies/amd-link",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://play.google.com/store/apps/details?id=com.amd.link&hl=en_US&gl=US",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-27673"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

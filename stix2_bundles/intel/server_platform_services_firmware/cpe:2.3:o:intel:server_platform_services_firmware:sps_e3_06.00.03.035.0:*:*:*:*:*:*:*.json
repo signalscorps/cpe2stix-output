@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--af0bda71-baec-4538-af97-4b0befa49fa0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2216b647-bdfb-5fc6-b0a1-25422f5b6f89",
+            "name": "Intel Server Platform Services Firmware SPS E3 06.00.03.035.0",
+            "cpe": "cpe:2.3:o:intel:server_platform_services_firmware:sps_e3_06.00.03.035.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "sps_e3_06.00.03.035.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:intel:server_platform_services_firmware:sps_e3_06.00.03.035.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-16T15:47Z",
+                        "titles": [
+                            {
+                                "title": "Intel Server Platform Services Firmware SPS E3 06.00.03.035.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00610.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2018-12192",
+                            "CVE-2018-12198",
+                            "CVE-2019-11090"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

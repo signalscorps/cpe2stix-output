@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--9a6add9b-a947-4f57-8290-f4f9e39d78e3",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--aac72128-920c-56ff-9701-0092bceffa97",
+            "name": "Intel NUC 8 Rugged Board NUC8CCHBN",
+            "cpe": "cpe:2.3:h:intel:nuc_8_rugged_board_nuc8cchbn:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:intel:nuc_8_rugged_board_nuc8cchbn:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-16T15:47Z",
+                        "titles": [
+                            {
+                                "title": "Intel NUC 8 Rugged Board NUC8CCHBN",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.intel.com/content/www/us/en/products/sku/214633/intel-nuc-8-rugged-board-nuc8cchbn/downloads.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-24436"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

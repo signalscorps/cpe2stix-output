@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--50f73aa3-766d-5db9-af50-25ac34952354",
+    "name": "Sony PlayStation 4",
+    "cpe": "cpe:2.3:h:sony:playstation_4:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "sony",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:sony:playstation_4:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-16T14:26Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/3xxx/CVE-2022-3349.json",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://hackerone.com/reports/1340942",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Sony PlayStation 4"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3349"
+                ]
+            }
+        }
+    }
+}

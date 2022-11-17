@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--301fd383-f93e-5a28-acd9-bdfcce74b5a5",
+    "name": "LimeSurvey 5.4.4",
+    "cpe": "cpe:2.3:a:limesurvey:limesurvey:5.4.4:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "limesurvey",
+    "version": "5.4.4",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:limesurvey:limesurvey:5.4.4:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-16T17:47Z",
+                "refs": [
+                    {
+                        "ref": "https://brick-pamphlet-d24.notion.site/LimeSurvey-V5-4-4-background-update-php-SQL-injection-50e8fd6eba4644bb941b2c8d6fb7979a",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.limesurvey.org/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "LimeSurvey 5.4.4"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2012-4927",
+                    "CVE-2022-43279"
+                ]
+            }
+        }
+    }
+}

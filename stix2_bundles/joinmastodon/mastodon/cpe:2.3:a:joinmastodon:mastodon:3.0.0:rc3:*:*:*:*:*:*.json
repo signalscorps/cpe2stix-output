@@ -1,0 +1,51 @@
+{
+    "type": "bundle",
+    "id": "bundle--c8d7de67-53eb-4e8e-84f2-cc04c1ed692e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3cfce17c-6c52-5e0a-9bd7-cbc5b795fd22",
+            "name": "Joinmastodon Mastodon 3.0.0 Release Candidate 3",
+            "cpe": "cpe:2.3:a:joinmastodon:mastodon:3.0.0:rc3:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "joinmastodon",
+            "version": "3.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:joinmastodon:mastodon:3.0.0:rc3:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-16T13:56Z",
+                        "titles": [
+                            {
+                                "title": "Joinmastodon Mastodon 3.0.0 Release Candidate 3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://joinmastodon.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/mastodon/mastodon/releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-0432",
+                            "CVE-2022-2166",
+                            "CVE-2022-24307",
+                            "CVE-2022-31263"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

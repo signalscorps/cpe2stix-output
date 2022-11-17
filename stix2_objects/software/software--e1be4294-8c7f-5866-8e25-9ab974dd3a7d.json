@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--e1be4294-8c7f-5866-8e25-9ab974dd3a7d",
+    "name": "PHOENIX CONTACT FL MGUARD RS4000 TX/TX",
+    "cpe": "cpe:2.3:h:phoenixcontact:fl_mguard_rs4000_tx\\/tx:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "phoenixcontact",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:phoenixcontact:fl_mguard_rs4000_tx\\/tx:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-16T20:00Z",
+                "refs": [
+                    {
+                        "ref": "https://www.phoenixcontact.com/en-us/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://cert.vde.com/en/advisories/VDE-2022-051/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "PHOENIX CONTACT FL MGUARD RS4000 TX/TX"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3480"
+                ]
+            }
+        }
+    }
+}

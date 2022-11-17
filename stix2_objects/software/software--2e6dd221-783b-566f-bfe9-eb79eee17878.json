@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--2e6dd221-783b-566f-bfe9-eb79eee17878",
+    "name": "Arches Project Arches 7.1.0",
+    "cpe": "cpe:2.3:a:archesproject:arches:7.1.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "archesproject",
+    "version": "7.1.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:archesproject:arches:7.1.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-16T15:47Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/archesproject/arches/tags",
+                        "type": "Version"
+                    },
+                    {
+                        "ref": "http://archesproject.org/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Arches Project Arches 7.1.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-41892"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "type": "bundle",
+    "id": "bundle--988b80af-913f-4600-9714-9c12ccf77647",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--70ee40f4-735a-5a6d-b53e-056538c1ffc5",
+            "name": "Jenkins NS-ND Integration Performance Publisher for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:ns-nd_integration_performance_publisher:-:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:ns-nd_integration_performance_publisher:-:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-16T15:47Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins NS-ND Integration Performance Publisher for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.jenkins.io/security/advisory/2022-11-15/#SECURITY-2912",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34191",
+                            "CVE-2022-41227",
+                            "CVE-2022-41228",
+                            "CVE-2022-41229"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

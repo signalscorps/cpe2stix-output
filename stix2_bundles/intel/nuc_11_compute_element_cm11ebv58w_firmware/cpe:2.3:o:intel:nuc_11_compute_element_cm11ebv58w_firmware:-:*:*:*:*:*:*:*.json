@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--b7eda38c-2215-4c54-85b4-ee71e77ea5de",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--36b400e1-82f0-5b62-a65c-b998ceb0d2d7",
+            "name": "Intel NUC 11 Compute Element CM11EBv58W Firmware",
+            "cpe": "cpe:2.3:o:intel:nuc_11_compute_element_cm11ebv58w_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:intel:nuc_11_compute_element_cm11ebv58w_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-16T17:47Z",
+                        "titles": [
+                            {
+                                "title": "Intel NUC 11 Compute Element CM11EBv58W Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.intel.com/content/www/us/en/products/sku/212014/intel-nuc-11-compute-element-cm11ebv58w/specifications.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-38099"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

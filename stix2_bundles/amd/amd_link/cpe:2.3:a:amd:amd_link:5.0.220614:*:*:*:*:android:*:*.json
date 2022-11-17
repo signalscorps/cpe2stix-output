@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--3ba5073d-231d-4926-94d4-f162af868578",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d726a969-8466-5d71-ab0b-114a80214156",
+            "name": "Advanced Micro Devices (AMD) AMD Link 5.0.220614 for Android",
+            "cpe": "cpe:2.3:a:amd:amd_link:5.0.220614:*:*:*:*:android:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "amd",
+            "version": "5.0.220614",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:amd:amd_link:5.0.220614:*:*:*:*:android:*:*",
+                        "lastModifiedDate": "2022-11-16T20:00Z",
+                        "titles": [
+                            {
+                                "title": "Advanced Micro Devices (AMD) AMD Link 5.0.220614 for Android",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1047",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.amd.com/en/technologies/amd-link",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://play.google.com/store/apps/details?id=com.amd.link&hl=en_US&gl=US",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

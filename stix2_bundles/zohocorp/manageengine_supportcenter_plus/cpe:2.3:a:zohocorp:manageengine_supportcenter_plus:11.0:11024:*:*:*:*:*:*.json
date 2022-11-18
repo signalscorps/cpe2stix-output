@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--6634fcea-0b6b-473c-b778-bf0045cfc29e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--eccb7b2c-3405-51f3-8f92-754818fb810b",
+            "name": "Zoho Corporation Manageengine Supportcenter Plus 11.0 11024",
+            "cpe": "cpe:2.3:a:zohocorp:manageengine_supportcenter_plus:11.0:11024:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "zohocorp",
+            "version": "11.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:zohocorp:manageengine_supportcenter_plus:11.0:11024:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-17T17:14Z",
+                        "titles": [
+                            {
+                                "title": "Zoho Corporation Manageengine Supportcenter Plus 11.0 11024",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.manageengine.com/products/service-desk-msp/cve-2022-40773.html",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.manageengine.com/products/support-center/service-packs.html",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-44077",
+                            "CVE-2022-40773"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

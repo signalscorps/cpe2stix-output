@@ -1,0 +1,53 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--4612c5c8-b6f1-5338-ba06-49c596e777fa",
+    "name": "Dolibarr ERP CRM 14.0.3",
+    "cpe": "cpe:2.3:a:dolibarr:dolibarr_erp\\/crm:14.0.3:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "dolibarr",
+    "version": "14.0.3",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:dolibarr:dolibarr_erp\\/crm:14.0.3:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-17T17:21Z",
+                "refs": [
+                    {
+                        "ref": "https://www.dolibarr.org/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://sourceforge.net/projects/dolibarr/files/Dolibarr%20ERP-CRM/4.0.4/",
+                        "type": "Version"
+                    },
+                    {
+                        "ref": "https://github.com/Dolibarr/dolibarr/",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Dolibarr ERP CRM 14.0.3"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-0174",
+                    "CVE-2022-0224",
+                    "CVE-2022-0414",
+                    "CVE-2022-0731",
+                    "CVE-2022-0746",
+                    "CVE-2022-0819",
+                    "CVE-2022-2060",
+                    "CVE-2022-40871"
+                ]
+            }
+        }
+    }
+}

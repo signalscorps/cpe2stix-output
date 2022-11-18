@@ -1,0 +1,53 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--1a13b177-a48f-59fc-a7a2-4d27ca391f68",
+    "name": "Cisco Firepower Threat Defense 6.6.5.2",
+    "cpe": "cpe:2.3:a:cisco:firepower_threat_defense:6.6.5.2:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "cisco",
+    "version": "6.6.5.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:cisco:firepower_threat_defense:6.6.5.2:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-17T17:10Z",
+                "refs": [
+                    {
+                        "ref": "https://www.cve.org/CVERecord?id=CVE-2022-20854",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.cisco.com/c/en/us/products/security/firepower-management-center/index.html",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://www.cisco.com/c/en/us/support/security/firepower-ngfw/series.html",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Cisco Firepower Threat Defense 6.6.5.2"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2019-1978",
+                    "CVE-2019-1980",
+                    "CVE-2019-1981",
+                    "CVE-2021-1223",
+                    "CVE-2021-1224",
+                    "CVE-2022-20767",
+                    "CVE-2022-20795",
+                    "CVE-2022-20854"
+                ]
+            }
+        }
+    }
+}

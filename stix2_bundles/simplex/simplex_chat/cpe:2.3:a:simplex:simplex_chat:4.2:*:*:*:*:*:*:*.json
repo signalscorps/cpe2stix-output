@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--fcf710e3-0af8-483b-b2bb-a7f01ce5149c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--cc1c99a0-2b78-5ba5-823b-8604a13028af",
+            "name": "SimpleX Chat 4.2",
+            "cpe": "cpe:2.3:a:simplex:simplex_chat:4.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "simplex",
+            "version": "4.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:simplex:simplex_chat:4.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-17T15:51Z",
+                        "titles": [
+                            {
+                                "title": "SimpleX Chat 4.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

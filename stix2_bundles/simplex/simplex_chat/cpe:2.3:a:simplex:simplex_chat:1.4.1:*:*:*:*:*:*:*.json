@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--8536d210-dc16-4e1b-8f96-1000254582bb",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b45566f7-e387-565b-a2fb-ce346d2ad961",
+            "name": "SimpleX Chat 1.4.1",
+            "cpe": "cpe:2.3:a:simplex:simplex_chat:1.4.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "simplex",
+            "version": "1.4.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:simplex:simplex_chat:1.4.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-17T15:51Z",
+                        "titles": [
+                            {
+                                "title": "SimpleX Chat 1.4.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://simplex.chat/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/simplex-chat/simplex-chat/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45195"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

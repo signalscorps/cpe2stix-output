@@ -1,0 +1,47 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--ddcd53cb-c850-59c8-b146-442020b6cd66",
+    "name": "Cisco Firepower Management Center 7.0.2.1",
+    "cpe": "cpe:2.3:a:cisco:firepower_management_center:7.0.2.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "cisco",
+    "version": "7.0.2.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:cisco:firepower_management_center:7.0.2.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-17T17:10Z",
+                "refs": [
+                    {
+                        "ref": "https://www.cve.org/CVERecord?id=CVE-2022-20854",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.cisco.com/c/en/us/products/security/firepower-management-center/index.html",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://www.cisco.com/c/en/us/support/security/firepower-ngfw/series.html",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Cisco Firepower Management Center 7.0.2.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-20744",
+                    "CVE-2022-20854"
+                ]
+            }
+        }
+    }
+}

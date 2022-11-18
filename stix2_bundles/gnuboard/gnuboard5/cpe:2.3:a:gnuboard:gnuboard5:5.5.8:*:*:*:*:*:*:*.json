@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--0b37168e-03c2-4ec3-856d-76c5062f8614",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3bf32c0f-026e-5686-b506-3c803823654c",
+            "name": "gnuboard5 5.5.8",
+            "cpe": "cpe:2.3:a:gnuboard:gnuboard5:5.5.8:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "gnuboard",
+            "version": "5.5.8",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:gnuboard:gnuboard5:5.5.8:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-17T15:51Z",
+                        "titles": [
+                            {
+                                "title": "gnuboard5 5.5.8",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://gnuboard.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/gnuboard/gnuboard5",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3963"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

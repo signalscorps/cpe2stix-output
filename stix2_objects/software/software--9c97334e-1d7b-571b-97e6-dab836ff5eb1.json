@@ -1,0 +1,40 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--9c97334e-1d7b-571b-97e6-dab836ff5eb1",
+    "name": "Cisco Firepower Threat Defense (FTD) 7.2.0.1",
+    "cpe": "cpe:2.3:a:cisco:firepower_threat_defense:7.2.0.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "cisco",
+    "version": "7.2.0.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:cisco:firepower_threat_defense:7.2.0.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-17T17:10Z",
+                "refs": [
+                    {
+                        "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fw3100-secure-boot-5M8mUh26",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Cisco Firepower Threat Defense (FTD) 7.2.0.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2019-1978",
+                    "CVE-2019-1980",
+                    "CVE-2019-1981"
+                ]
+            }
+        }
+    }
+}

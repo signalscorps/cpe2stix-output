@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--5aa66428-d75c-4f26-a47b-ed78ad15d963",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0bc646e0-6cf8-54d1-8da0-a9b0024749ce",
+            "name": "Zoho Corporation Manageengine Access Manager Plus 4.3 Build4305",
+            "cpe": "cpe:2.3:a:zohocorp:manageengine_access_manager_plus:4.3:build4305:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "zohocorp",
+            "version": "4.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:zohocorp:manageengine_access_manager_plus:4.3:build4305:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-17T17:14Z",
+                        "titles": [
+                            {
+                                "title": "Zoho Corporation Manageengine Access Manager Plus 4.3 Build4305",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.manageengine.com/products/passwordmanagerpro/advisory/cve-2022-43671.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43671",
+                            "CVE-2022-43672"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

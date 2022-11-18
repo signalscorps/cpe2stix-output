@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--e3c5757d-d673-4d3a-bdeb-a9a966aa0430",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c12d8019-87ea-54f5-a9b1-5111bbcc30e5",
+            "name": "Cisco Adaptive Security Appliance (ASA) 9.17.1.13",
+            "cpe": "cpe:2.3:a:cisco:adaptive_security_appliance:9.17.1.13:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "9.17.1.13",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:cisco:adaptive_security_appliance:9.17.1.13:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-17T17:10Z",
+                        "titles": [
+                            {
+                                "title": "Cisco Adaptive Security Appliance (ASA) 9.17.1.13",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fw3100-secure-boot-5M8mUh26",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

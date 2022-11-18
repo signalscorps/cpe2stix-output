@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--29f7d469-1787-45bc-ad5d-23c1140b1010",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fe1cfd20-1272-5e16-b413-725e70cefe05",
+            "name": "TIBCO Spotfire Analyst 12.0.0",
+            "cpe": "cpe:2.3:a:tibco:spotfire_analyst:12.0.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tibco",
+            "version": "12.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:tibco:spotfire_analyst:12.0.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-17T14:14Z",
+                        "titles": [
+                            {
+                                "title": "TIBCO Spotfire Analyst 12.0.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.tibco.com/support/advisories/2022/11/tibco-security-advisory-november-15-2022-tibco-spotfire-cve-2022-41558",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

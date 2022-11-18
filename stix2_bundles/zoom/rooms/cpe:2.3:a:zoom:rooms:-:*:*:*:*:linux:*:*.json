@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--ba8fcf6f-dad0-4584-9731-d1a217672f04",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ee5c921b-0b9a-59d5-b432-fba733968ef7",
+            "name": "Zoom Rooms for Linux",
+            "cpe": "cpe:2.3:a:zoom:rooms:-:*:*:*:*:linux:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "zoom",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:zoom:rooms:-:*:*:*:*:linux:*:*",
+                        "lastModifiedDate": "2022-11-17T17:14Z",
+                        "titles": [
+                            {
+                                "title": "Zoom Rooms for Linux",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://explore.zoom.us/en/trust/security/security-bulletin/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-34409",
+                            "CVE-2022-28764"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

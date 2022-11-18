@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--f4e11a85-9e3d-4d03-bcad-07b8c778c730",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b0e603e0-fd8d-5109-8978-bbc7ba99f848",
+            "name": "TIBCO Spotfire Desktop 12.0.1",
+            "cpe": "cpe:2.3:a:tibco:spotfire_desktop:12.0.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tibco",
+            "version": "12.0.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:tibco:spotfire_desktop:12.0.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-17T14:14Z",
+                        "titles": [
+                            {
+                                "title": "TIBCO Spotfire Desktop 12.0.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.tibco.com/support/advisories/2022/11/tibco-security-advisory-november-15-2022-tibco-spotfire-cve-2022-41558",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "type": "bundle",
+    "id": "bundle--b3b6bbf1-f550-48d2-b4fb-2e97576139c8",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--dd95c492-f5b7-5d72-86c0-a6b727155938",
+            "name": "Dolibarr ERP CRM 3.3.0 Beta 1",
+            "cpe": "cpe:2.3:a:dolibarr:dolibarr_erp\\/crm:3.3.0:beta1:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "dolibarr",
+            "version": "3.3.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:dolibarr:dolibarr_erp\\/crm:3.3.0:beta1:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-17T17:21Z",
+                        "titles": [
+                            {
+                                "title": "Dolibarr ERP CRM 3.3.0 Beta 1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.dolibarr.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://sourceforge.net/projects/dolibarr/files/Dolibarr%20ERP-CRM/4.0.4/",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/Dolibarr/dolibarr/",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2017-18259",
+                            "CVE-2017-18260",
+                            "CVE-2017-9838",
+                            "CVE-2017-9839",
+                            "CVE-2022-0174",
+                            "CVE-2022-0224",
+                            "CVE-2022-0414",
+                            "CVE-2022-0731",
+                            "CVE-2022-0746",
+                            "CVE-2022-0819",
+                            "CVE-2022-2060",
+                            "CVE-2022-40871"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

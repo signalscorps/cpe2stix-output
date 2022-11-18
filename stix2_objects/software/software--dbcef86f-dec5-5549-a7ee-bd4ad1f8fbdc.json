@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--dbcef86f-dec5-5549-a7ee-bd4ad1f8fbdc",
+    "name": "Zoho Corporation Manageengine Pam360 5.7 Build5710",
+    "cpe": "cpe:2.3:a:zohocorp:manageengine_pam360:5.7:build5710:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "zohocorp",
+    "version": "5.7",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:zohocorp:manageengine_pam360:5.7:build5710:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-17T17:14Z",
+                "refs": [
+                    {
+                        "ref": "https://www.manageengine.com/products/passwordmanagerpro/advisory/cve-2022-43671.html",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.manageengine.com/privileged-access-management/minor-upgrades.html",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Zoho Corporation Manageengine Pam360 5.7 Build5710"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-43671",
+                    "CVE-2022-43672"
+                ]
+            }
+        }
+    }
+}

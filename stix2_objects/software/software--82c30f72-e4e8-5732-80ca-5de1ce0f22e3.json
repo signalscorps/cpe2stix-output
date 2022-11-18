@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--82c30f72-e4e8-5732-80ca-5de1ce0f22e3",
+    "name": "Zoom Rooms for Android",
+    "cpe": "cpe:2.3:a:zoom:rooms:-:*:*:*:*:android:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "zoom",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:zoom:rooms:-:*:*:*:*:android:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-17T17:14Z",
+                "refs": [
+                    {
+                        "ref": "https://explore.zoom.us/en/trust/security/security-bulletin/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Zoom Rooms for Android"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-34409",
+                    "CVE-2022-28764"
+                ]
+            }
+        }
+    }
+}

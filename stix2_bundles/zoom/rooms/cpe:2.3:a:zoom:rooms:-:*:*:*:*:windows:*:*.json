@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--e6e3636c-f9aa-4f8f-aecb-cd197a4e2d5d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--760593e2-7342-5968-aa7f-eba0f5416125",
+            "name": "Zoom Rooms for Windows",
+            "cpe": "cpe:2.3:a:zoom:rooms:-:*:*:*:*:windows:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "zoom",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:zoom:rooms:-:*:*:*:*:windows:*:*",
+                        "lastModifiedDate": "2022-11-17T17:14Z",
+                        "titles": [
+                            {
+                                "title": "Zoom Rooms for Windows",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://explore.zoom.us/en/trust/security/security-bulletin/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-34409",
+                            "CVE-2021-34411",
+                            "CVE-2022-22786",
+                            "CVE-2022-22788",
+                            "CVE-2022-28752",
+                            "CVE-2022-28764"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

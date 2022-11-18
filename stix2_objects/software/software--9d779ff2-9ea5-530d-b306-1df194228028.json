@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--9d779ff2-9ea5-530d-b306-1df194228028",
+    "name": "Zoom VDI Windows Meeting Clients",
+    "cpe": "cpe:2.3:a:zoom:vdi_windows_meeting_clients:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "zoom",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:zoom:vdi_windows_meeting_clients:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-17T17:14Z",
+                "refs": [
+                    {
+                        "ref": "https://explore.zoom.us/en/trust/security/security-bulletin/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Zoom VDI Windows Meeting Clients"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-22782",
+                    "CVE-2022-28764"
+                ]
+            }
+        }
+    }
+}

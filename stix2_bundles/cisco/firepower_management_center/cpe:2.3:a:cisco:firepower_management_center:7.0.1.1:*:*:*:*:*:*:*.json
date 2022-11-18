@@ -1,0 +1,58 @@
+{
+    "type": "bundle",
+    "id": "bundle--8076474b-b876-4cc5-8ba4-2ff1a6ef2549",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4f20895c-3d26-54ba-885e-62046523cdbb",
+            "name": "Cisco Firepower Management Center 7.0.1.1",
+            "cpe": "cpe:2.3:a:cisco:firepower_management_center:7.0.1.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "7.0.1.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:cisco:firepower_management_center:7.0.1.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-17T17:10Z",
+                        "titles": [
+                            {
+                                "title": "Cisco Firepower Management Center 7.0.1.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cve.org/CVERecord?id=CVE-2022-20854",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.cisco.com/c/en/us/products/security/firepower-management-center/index.html",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.cisco.com/c/en/us/support/security/firepower-ngfw/series.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-20627",
+                            "CVE-2022-20628",
+                            "CVE-2022-20629",
+                            "CVE-2022-20740",
+                            "CVE-2022-20743",
+                            "CVE-2022-20744",
+                            "CVE-2022-20854"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

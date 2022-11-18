@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--6f8b0b99-96e0-50e6-b326-dae351753cde",
+    "name": "SimpleX Chat 3.0.0",
+    "cpe": "cpe:2.3:a:simplex:simplex_chat:3.0.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "simplex",
+    "version": "3.0.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:simplex:simplex_chat:3.0.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-17T15:51Z",
+                "refs": [
+                    {
+                        "ref": "https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://simplex.chat/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/simplex-chat/simplex-chat/tags",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "SimpleX Chat 3.0.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-45195"
+                ]
+            }
+        }
+    }
+}

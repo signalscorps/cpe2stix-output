@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--7e1b903b-1f0e-5af0-ab52-4d11a5976d7a",
+    "name": "Zoom Rooms for iPhone OS",
+    "cpe": "cpe:2.3:a:zoom:rooms:-:*:*:*:*:iphone_os:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "zoom",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:zoom:rooms:-:*:*:*:*:iphone_os:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-17T17:14Z",
+                "refs": [
+                    {
+                        "ref": "https://explore.zoom.us/en/trust/security/security-bulletin/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Zoom Rooms for iPhone OS"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-34409",
+                    "CVE-2022-28764"
+                ]
+            }
+        }
+    }
+}

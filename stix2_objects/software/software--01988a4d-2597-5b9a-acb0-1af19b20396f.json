@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--01988a4d-2597-5b9a-acb0-1af19b20396f",
+    "name": "Palantir Foundry Build2",
+    "cpe": "cpe:2.3:a:palantir:foundry_build2:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "palantir",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:palantir:foundry_build2:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-17T17:10Z",
+                "refs": [
+                    {
+                        "ref": "https://www.cve.org/CVERecord?id=CVE-2022-27895",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/palantir/security-bulletins/blob/main/PLTRSEC-2022-06.md",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.palantir.com/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Palantir Foundry Build2"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-27895"
+                ]
+            }
+        }
+    }
+}

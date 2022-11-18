@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--0ab6864c-b111-5da7-8f1d-5bd8398b0391",
+    "name": "SimpleX SimpleXMQ 2.1.1",
+    "cpe": "cpe:2.3:a:simplex:simplexmq:2.1.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "simplex",
+    "version": "2.1.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:simplex:simplexmq:2.1.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-17T15:51Z",
+                "refs": [
+                    {
+                        "ref": "https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/simplex-chat/simplexmq/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://simplex.chat/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "SimpleX SimpleXMQ 2.1.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-45195"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--0ace9964-ea8e-4a26-856a-ecc5f35d886d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--84c692b0-6e8d-5290-b8ca-071d908345db",
+            "name": "Intel Celeron 2957U Firmware",
+            "cpe": "cpe:2.3:o:intel:celeron_2957u_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:intel:celeron_2957u_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:37Z",
+                        "titles": [
+                            {
+                                "title": "Intel Celeron 2957U Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://ark.intel.com/content/www/us/en/ark.html#@Processors",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-21198"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

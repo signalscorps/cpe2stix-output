@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--2d1d8dc2-a7e7-501c-983c-c02d5724cbc7",
+    "name": "IBM WebSphere Automation For IBM Cloud Pak For Watson AIOps 1.4.2",
+    "cpe": "cpe:2.3:a:ibm:websphere_automation_for_ibm_cloud_pak_for_watson_aiops:1.4.2:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "ibm",
+    "version": "1.4.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:ibm:websphere_automation_for_ibm_cloud_pak_for_watson_aiops:1.4.2:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-18T17:27Z",
+                "refs": [
+                    {
+                        "ref": "https://www.ibm.com/support/pages/node/6826727",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "IBM WebSphere Automation For IBM Cloud Pak For Watson AIOps 1.4.2"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-22493"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--437c9563-6598-439d-963e-35659e401a21",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d9461f00-7962-5da9-ba23-9fc8ce8d92cb",
+            "name": "Intel Team Blue",
+            "cpe": "cpe:2.3:a:intel:team_blue:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:intel:team_blue:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:31Z",
+                        "titles": [
+                            {
+                                "title": "Intel Team Blue",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00705.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-29507"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

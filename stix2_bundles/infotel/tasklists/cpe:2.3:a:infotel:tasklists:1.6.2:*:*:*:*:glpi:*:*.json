@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--d0bd8acc-c9e6-4c88-84c2-ad4941c68721",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--af57ef5f-4262-5780-a485-480a95114ef0",
+            "name": "Infotel Tasklists 1.6.2 for GLPI",
+            "cpe": "cpe:2.3:a:infotel:tasklists:1.6.2:*:*:*:*:glpi:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "infotel",
+            "version": "1.6.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:infotel:tasklists:1.6.2:*:*:*:*:glpi:*:*",
+                        "lastModifiedDate": "2022-11-18T18:58Z",
+                        "titles": [
+                            {
+                                "title": "Infotel Tasklists 1.6.2 for GLPI",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/InfotelGLPI/tasklists/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://blogglpi.infotel.com/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-39398"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

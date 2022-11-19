@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--746d5d3c-1d61-556a-8345-212ec90a1ede",
+    "name": "Palo Alto Networks PAN-OS 8.1.24",
+    "cpe": "cpe:2.3:o:paloaltonetworks:pan-os:8.1.24:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "paloaltonetworks",
+    "version": "8.1.24",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:paloaltonetworks:pan-os:8.1.24:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-18T17:31Z",
+                "refs": [
+                    {
+                        "ref": "https://security.paloaltonetworks.com/CVE-2022-0030",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Palo Alto Networks PAN-OS 8.1.24"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-2035"
+                ]
+            }
+        }
+    }
+}

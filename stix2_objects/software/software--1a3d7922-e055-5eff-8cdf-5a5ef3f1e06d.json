@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--1a3d7922-e055-5eff-8cdf-5a5ef3f1e06d",
+    "name": "IBM Maximo Application Suite 8.8",
+    "cpe": "cpe:2.3:a:ibm:maximo_application_suite:8.8:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "ibm",
+    "version": "8.8",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:ibm:maximo_application_suite:8.8:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-18T17:27Z",
+                "refs": [
+                    {
+                        "ref": "https://www.ibm.com/support/pages/node/6620059",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "IBM Maximo Application Suite 8.8"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-38924"
+                ]
+            }
+        }
+    }
+}

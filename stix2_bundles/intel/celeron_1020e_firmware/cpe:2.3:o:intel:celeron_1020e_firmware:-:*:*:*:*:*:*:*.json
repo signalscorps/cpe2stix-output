@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--f66beb41-3967-42e2-adf4-7c988b72b01f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d7b49c13-3bf4-5a6d-933c-b4a412a18cf5",
+            "name": "Intel Celeron 1020E Firmware",
+            "cpe": "cpe:2.3:o:intel:celeron_1020e_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:intel:celeron_1020e_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:37Z",
+                        "titles": [
+                            {
+                                "title": "Intel Celeron 1020E Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://ark.intel.com/content/www/us/en/ark.html#@Processors",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-21198"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

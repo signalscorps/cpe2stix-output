@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--8ad8509d-4d01-5b79-bbc6-8b49c0566d70",
+    "name": "IBM Partner Engagement Manager 6.2.1 Standard Edition",
+    "cpe": "cpe:2.3:a:ibm:partner_engagement_manager:6.2.1:*:*:*:standard:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "ibm",
+    "version": "6.2.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:ibm:partner_engagement_manager:6.2.1:*:*:*:standard:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-18T17:27Z",
+                "refs": [
+                    {
+                        "ref": "https://www.ibm.com/support/pages/node/6839751",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.ibm.com/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "IBM Partner Engagement Manager 6.2.1 Standard Edition"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-34354"
+                ]
+            }
+        }
+    }
+}

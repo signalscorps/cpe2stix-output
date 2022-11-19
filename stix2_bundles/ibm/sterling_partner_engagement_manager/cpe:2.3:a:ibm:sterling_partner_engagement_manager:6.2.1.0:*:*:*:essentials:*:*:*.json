@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--47ffc231-0ec6-442f-bca8-7e7d06947972",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b380b002-fd3f-57ad-8b08-ea8f7de1d4d3",
+            "name": "IBM Sterling Partner Engagement Manager 6.2.1.0 Essentials Edition",
+            "cpe": "cpe:2.3:a:ibm:sterling_partner_engagement_manager:6.2.1.0:*:*:*:essentials:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ibm",
+            "version": "6.2.1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ibm:sterling_partner_engagement_manager:6.2.1.0:*:*:*:essentials:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:27Z",
+                        "titles": [
+                            {
+                                "title": "IBM Sterling Partner Engagement Manager 6.2.1.0 Essentials Edition",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.ibm.com/support/pages/node/6695927",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34348"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

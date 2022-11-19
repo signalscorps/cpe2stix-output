@@ -1,0 +1,54 @@
+{
+    "type": "bundle",
+    "id": "bundle--55b016be-0dfb-4014-a0e7-a72a9d1984e3",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--90a4e85a-1672-5f04-b742-b176701b5289",
+            "name": "Cloudflare WARP Mobile Client 6.6 for iPhone OS",
+            "cpe": "cpe:2.3:a:cloudflare:warp_mobile_client:6.6:*:*:*:*:iphone_os:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cloudflare",
+            "version": "6.6",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:cloudflare:warp_mobile_client:6.6:*:*:*:*:iphone_os:*:*",
+                        "lastModifiedDate": "2022-11-18T18:58Z",
+                        "titles": [
+                            {
+                                "title": "Cloudflare WARP Mobile Client 6.6 for iPhone OS",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/cloudflare/advisories/security/advisories/GHSA-4463-5p9m-3c78",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://apps.apple.com/us/app/1-1-1-1-faster-internet/id1423538627",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://developers.cloudflare.com/warp-client/get-started/ios/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3321",
+                            "CVE-2022-3322",
+                            "CVE-2022-3337"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

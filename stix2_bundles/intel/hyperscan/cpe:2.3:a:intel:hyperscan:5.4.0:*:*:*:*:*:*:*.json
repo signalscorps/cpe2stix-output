@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--289bb101-d6ef-4862-8b2e-ac54660af0ca",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--381f0e3d-8604-5b4a-976b-324d22eb92c5",
+            "name": "Intel Hyperscan 5.4.0",
+            "cpe": "cpe:2.3:a:intel:hyperscan:5.4.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "5.4.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:intel:hyperscan:5.4.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:31Z",
+                        "titles": [
+                            {
+                                "title": "Intel Hyperscan 5.4.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00695.html",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/intel/hyperscan/releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

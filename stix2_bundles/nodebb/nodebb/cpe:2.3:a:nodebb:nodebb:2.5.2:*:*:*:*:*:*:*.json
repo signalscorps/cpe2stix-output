@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--07b6afb2-37f6-4c22-a9fd-d3d11a8f516f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--66d52c31-c3d4-549d-b43a-c6b3e07a2b87",
+            "name": "NodeBB 2.5.2",
+            "cpe": "cpe:2.3:a:nodebb:nodebb:2.5.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nodebb",
+            "version": "2.5.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nodebb:nodebb:2.5.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T18:58Z",
+                        "titles": [
+                            {
+                                "title": "NodeBB 2.5.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/NodeBB/NodeBB/releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3978"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

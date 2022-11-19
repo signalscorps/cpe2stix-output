@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--d5d86e96-99b8-44fd-a5da-3d811a639721",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9ac1de72-fe2e-56b3-8534-ac66b49721f8",
+            "name": "Intel Celeron B810 Firmware",
+            "cpe": "cpe:2.3:o:intel:celeron_b810_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:intel:celeron_b810_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:37Z",
+                        "titles": [
+                            {
+                                "title": "Intel Celeron B810 Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://ark.intel.com/content/www/us/en/ark.html#@Processors",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-21198"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

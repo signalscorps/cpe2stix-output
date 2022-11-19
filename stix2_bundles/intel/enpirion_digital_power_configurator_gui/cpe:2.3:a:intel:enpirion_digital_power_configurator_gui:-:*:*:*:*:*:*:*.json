@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--26e10909-fbf6-477b-a5a8-5b28ce1d405a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c78bc452-6847-58a6-9190-ba4edc0a4aed",
+            "name": "Intel Enpirion Digital Power Configurator GUI",
+            "cpe": "cpe:2.3:a:intel:enpirion_digital_power_configurator_gui:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:intel:enpirion_digital_power_configurator_gui:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:31Z",
+                        "titles": [
+                            {
+                                "title": "Intel Enpirion Digital Power Configurator GUI",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00672.html",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.intel.in/content/www/in/en/power/programmable/overview-of-the-intel-enpirion-digital-power-configurator-gui-video.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-25999"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

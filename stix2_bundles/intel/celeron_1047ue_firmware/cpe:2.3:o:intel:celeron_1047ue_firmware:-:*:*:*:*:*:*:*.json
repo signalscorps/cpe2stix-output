@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--486387a1-a9d0-40f1-8c58-e4b016cf9154",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fba77d19-a91b-5a40-9fa0-cdc443bf481e",
+            "name": "Intel Celeron 1047UE Firmware",
+            "cpe": "cpe:2.3:o:intel:celeron_1047ue_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:intel:celeron_1047ue_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:37Z",
+                        "titles": [
+                            {
+                                "title": "Intel Celeron 1047UE Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://ark.intel.com/content/www/us/en/ark.html#@Processors",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-21198"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--98d174ab-6d21-4aa8-818b-c8a80783f6c7",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--19c6a3ea-722d-57d3-a77f-69d51e96753f",
+            "name": "Intel Core i7-1270PE",
+            "cpe": "cpe:2.3:h:intel:core_i7-1270pe:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:intel:core_i7-1270pe:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:37Z",
+                        "titles": [
+                            {
+                                "title": "Intel Core i7-1270PE",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://ark.intel.com/content/www/us/en/ark.html#@Processors",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-21198",
+                            "CVE-2022-24436"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

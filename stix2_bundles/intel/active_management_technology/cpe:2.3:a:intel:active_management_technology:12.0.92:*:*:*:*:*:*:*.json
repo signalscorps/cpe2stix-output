@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--c3eb7242-2852-48cc-ab16-2b2f38cdbc47",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--98138c9b-6068-5cdf-b748-2d91d88853d4",
+            "name": "Intel Active Management Technology (AMT) 12.0.92",
+            "cpe": "cpe:2.3:a:intel:active_management_technology:12.0.92:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "12.0.92",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:intel:active_management_technology:12.0.92:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:31Z",
+                        "titles": [
+                            {
+                                "title": "Intel Active Management Technology (AMT) 12.0.92",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00610.html",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.intel.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-28697",
+                            "CVE-2022-30601",
+                            "CVE-2022-30944"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

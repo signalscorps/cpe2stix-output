@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--92811405-b2f1-4d0d-be0e-b6c90f1caf19",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--64c93c6f-7c92-5c66-a2ec-13360417bcab",
+            "name": "PHOENIX CONTACT FL MGUARD PCI4000 FIRMWARE",
+            "cpe": "cpe:2.3:o:phoenixcontact:fl_mguard_pci4000_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "phoenixcontact",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:phoenixcontact:fl_mguard_pci4000_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:31Z",
+                        "titles": [
+                            {
+                                "title": "PHOENIX CONTACT FL MGUARD PCI4000 FIRMWARE",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-051/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.phoenixcontact.com/en-us/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3480"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

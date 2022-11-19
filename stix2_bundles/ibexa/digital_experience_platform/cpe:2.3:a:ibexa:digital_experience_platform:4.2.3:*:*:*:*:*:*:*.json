@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--62620622-69a0-4ca8-843d-6c57832e5b2f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d1f9fb0a-a22c-5cdc-b0bc-9616d43a4219",
+            "name": "Ibexa Digital Experience Platform (DXP) 4.2.3",
+            "cpe": "cpe:2.3:a:ibexa:digital_experience_platform:4.2.3:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ibexa",
+            "version": "4.2.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ibexa:digital_experience_platform:4.2.3:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:27Z",
+                        "titles": [
+                            {
+                                "title": "Ibexa Digital Experience Platform (DXP) 4.2.3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/ezsystems/ezplatform-graphql/security/advisories/GHSA-c7pc-pgf6-mfh5",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.ibexa.co/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--bbbf54fb-22ce-4864-956d-04c9cb280c83",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--06545bd3-d418-54c9-b7f6-73a74fe9a568",
+            "name": "PHOENIX CONTACT FL MGUARD CENTERPORT VPN-1000 FIRMWARE",
+            "cpe": "cpe:2.3:o:phoenixcontact:fl_mguard_centerport_vpn-1000_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "phoenixcontact",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:phoenixcontact:fl_mguard_centerport_vpn-1000_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:31Z",
+                        "titles": [
+                            {
+                                "title": "PHOENIX CONTACT FL MGUARD CENTERPORT VPN-1000 FIRMWARE",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-051/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.phoenixcontact.com/en-us/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3480"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

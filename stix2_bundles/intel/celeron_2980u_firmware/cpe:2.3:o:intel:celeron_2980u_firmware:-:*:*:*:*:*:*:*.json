@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--9560d9c1-b348-46f5-8641-9a2f6feca8f5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--937e397d-77ea-5f46-a0a2-17c685a0c2ca",
+            "name": "Intel Celeron 2980U Firmware",
+            "cpe": "cpe:2.3:o:intel:celeron_2980u_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:intel:celeron_2980u_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:37Z",
+                        "titles": [
+                            {
+                                "title": "Intel Celeron 2980U Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://ark.intel.com/content/www/us/en/ark.html#@Processors",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-21198"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

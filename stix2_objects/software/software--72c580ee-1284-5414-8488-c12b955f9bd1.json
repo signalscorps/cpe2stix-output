@@ -1,0 +1,48 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--72c580ee-1284-5414-8488-c12b955f9bd1",
+    "name": "Cloudflare WARP Mobile Client 5.1 for iPhone OS",
+    "cpe": "cpe:2.3:a:cloudflare:warp_mobile_client:5.1:*:*:*:*:iphone_os:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "cloudflare",
+    "version": "5.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:cloudflare:warp_mobile_client:5.1:*:*:*:*:iphone_os:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-18T18:58Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/cloudflare/advisories/security/advisories/GHSA-4463-5p9m-3c78",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://apps.apple.com/us/app/1-1-1-1-faster-internet/id1423538627",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://developers.cloudflare.com/warp-client/get-started/ios/",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Cloudflare WARP Mobile Client 5.1 for iPhone OS"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3321",
+                    "CVE-2022-3322",
+                    "CVE-2022-3337"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--fb9a8a1d-f5a2-406a-8f0b-1a2470b50a34",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--47e4992f-bf50-5ca8-ba6c-f0c6a29ff841",
+            "name": "Liferay Digital Experience Platform 7.3.10 -",
+            "cpe": "cpe:2.3:a:liferay:digital_experience_platform:7.3.10:-:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "liferay",
+            "version": "7.3.10",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:liferay:digital_experience_platform:7.3.10:-:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:31Z",
+                        "titles": [
+                            {
+                                "title": "Liferay Digital Experience Platform 7.3.10 -",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://issues.liferay.com/browse/LPE-17518",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://issues.liferay.com/browse/LPE-17518?jql=project%20%3D%20LPE%20AND%20fixVersion%20%3D%20%227.4.13%20DXP%20U19%22",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-25146"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

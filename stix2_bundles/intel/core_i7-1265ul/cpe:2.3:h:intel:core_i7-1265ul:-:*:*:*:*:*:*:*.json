@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--90b48672-f472-4c19-bbcb-fb11fd994794",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--91817a17-1511-5f1b-8c6e-d73a688dcdc7",
+            "name": "Intel Core i7-1265UL",
+            "cpe": "cpe:2.3:h:intel:core_i7-1265ul:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:intel:core_i7-1265ul:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:37Z",
+                        "titles": [
+                            {
+                                "title": "Intel Core i7-1265UL",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://ark.intel.com/content/www/us/en/ark.html#@Processors",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-21198",
+                            "CVE-2022-24436"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--8f9778a9-20bf-4d40-bcb5-3ba1f3d0f4cf",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0078db77-c449-54f9-9478-1f6c510cb0f8",
+            "name": "Linux Foundation KubeVela 1.0.7",
+            "cpe": "cpe:2.3:a:linuxfoundation:kubevela:1.0.7:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "linuxfoundation",
+            "version": "1.0.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:linuxfoundation:kubevela:1.0.7:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T22:45Z",
+                        "titles": [
+                            {
+                                "title": "Linux Foundation KubeVela 1.0.7",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/kubevela/kubevela/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://kubevela.io/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.linuxfoundation.org/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-39383"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

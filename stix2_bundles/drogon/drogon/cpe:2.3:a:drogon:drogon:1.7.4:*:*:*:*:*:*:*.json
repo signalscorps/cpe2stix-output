@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--8403476d-3cd1-4952-93bc-52ecda8cd75f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--610d74dd-eecd-5cfe-8812-d75894db962d",
+            "name": "Drogon 1.7.4",
+            "cpe": "cpe:2.3:a:drogon:drogon:1.7.4:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "drogon",
+            "version": "1.7.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:drogon:drogon:1.7.4:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T18:58Z",
+                        "titles": [
+                            {
+                                "title": "Drogon 1.7.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/drogonframework/drogon/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://vuldb.com/?id.213464",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-25297",
+                            "CVE-2022-3959"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

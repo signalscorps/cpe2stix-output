@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--c16733eb-0d69-5d2e-8a26-7cbe4cb5f5ea",
+    "name": "Intel GameTechDev PresentMon 1.2.0",
+    "cpe": "cpe:2.3:a:intel:gametechdev_presentmon:1.2.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "intel",
+    "version": "1.2.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:intel:gametechdev_presentmon:1.2.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-18T17:31Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/GameTechDev/PresentMon/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00711.html",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Intel GameTechDev PresentMon 1.2.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-26086"
+                ]
+            }
+        }
+    }
+}

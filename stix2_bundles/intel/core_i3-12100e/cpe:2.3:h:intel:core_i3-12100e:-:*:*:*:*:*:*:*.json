@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--d7a26985-9e6d-4f5f-aa31-4db1702e9569",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--974f60a7-3fa4-56f8-a04d-2cbd45819a10",
+            "name": "Intel Core i3-12100E",
+            "cpe": "cpe:2.3:h:intel:core_i3-12100e:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:intel:core_i3-12100e:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:37Z",
+                        "titles": [
+                            {
+                                "title": "Intel Core i3-12100E",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://ark.intel.com/content/www/us/en/ark.html#@Processors",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-21198",
+                            "CVE-2022-24436"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

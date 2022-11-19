@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--e70596db-c5d4-4516-bb4d-6845860ca109",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fe722515-de5e-539a-a31f-d2ec83a75e9c",
+            "name": "Liferay Digital Experience Platform 7.4 Update 36",
+            "cpe": "cpe:2.3:a:liferay:digital_experience_platform:7.4:update36:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "liferay",
+            "version": "7.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:liferay:digital_experience_platform:7.4:update36:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:31Z",
+                        "titles": [
+                            {
+                                "title": "Liferay Digital Experience Platform 7.4 Update 36",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://issues.liferay.com/browse/LPE-17607",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-25146",
+                            "CVE-2022-42127"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

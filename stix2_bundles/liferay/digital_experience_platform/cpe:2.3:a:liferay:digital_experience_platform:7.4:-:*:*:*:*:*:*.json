@@ -1,0 +1,51 @@
+{
+    "type": "bundle",
+    "id": "bundle--2f584b99-6420-401f-9e18-82dedcbb15eb",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a94f3ff4-7c27-5052-98d8-7fcfe20cc5bb",
+            "name": "Liferay Digital Experience Platform 7.4 -",
+            "cpe": "cpe:2.3:a:liferay:digital_experience_platform:7.4:-:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "liferay",
+            "version": "7.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:liferay:digital_experience_platform:7.4:-:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:31Z",
+                        "titles": [
+                            {
+                                "title": "Liferay Digital Experience Platform 7.4 -",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://issues.liferay.com/browse/LPE-17593",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-25146",
+                            "CVE-2022-42123",
+                            "CVE-2022-42124",
+                            "CVE-2022-42126",
+                            "CVE-2022-42128",
+                            "CVE-2022-42129",
+                            "CVE-2022-42130",
+                            "CVE-2022-42132"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

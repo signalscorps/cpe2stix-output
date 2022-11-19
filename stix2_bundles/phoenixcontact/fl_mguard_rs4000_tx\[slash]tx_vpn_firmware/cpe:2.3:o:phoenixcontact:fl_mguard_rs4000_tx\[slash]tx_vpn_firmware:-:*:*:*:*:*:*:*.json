@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--7a8fb574-8ed3-4730-92ae-2c05e3f05c8b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d1cc7f61-fb17-5ae4-acfd-6cc2d306b91c",
+            "name": "PHOENIX CONTACT FL MGUARD RS4000 TX/TX VPN FIRMWARE",
+            "cpe": "cpe:2.3:o:phoenixcontact:fl_mguard_rs4000_tx\\/tx_vpn_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "phoenixcontact",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:phoenixcontact:fl_mguard_rs4000_tx\\/tx_vpn_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:31Z",
+                        "titles": [
+                            {
+                                "title": "PHOENIX CONTACT FL MGUARD RS4000 TX/TX VPN FIRMWARE",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-051/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.phoenixcontact.com/en-us/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3480"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

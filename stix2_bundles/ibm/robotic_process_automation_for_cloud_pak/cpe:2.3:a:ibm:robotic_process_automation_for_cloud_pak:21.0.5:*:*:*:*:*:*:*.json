@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--073c8f87-f7fd-47c4-8d4c-d843fa52a8dd",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c0d18147-7c06-5ce2-8c4a-41f8434a264b",
+            "name": "IBM Robotic Process Automation For Cloud Pak 21.0.5",
+            "cpe": "cpe:2.3:a:ibm:robotic_process_automation_for_cloud_pak:21.0.5:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ibm",
+            "version": "21.0.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ibm:robotic_process_automation_for_cloud_pak:21.0.5:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:27Z",
+                        "titles": [
+                            {
+                                "title": "IBM Robotic Process Automation For Cloud Pak 21.0.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.ibm.com/support/pages/node/6831787",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-42442",
+                            "CVE-2022-43574"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--40b18039-e148-593b-a0f5-2aa782694b1f",
+    "name": "PHOENIX CONTACT FL MGUARD RS2000 TX/TX-B FIRMWARE",
+    "cpe": "cpe:2.3:o:phoenixcontact:fl_mguard_rs2000_tx\\/tx-b_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "phoenixcontact",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:phoenixcontact:fl_mguard_rs2000_tx\\/tx-b_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-18T17:31Z",
+                "refs": [
+                    {
+                        "ref": "https://cert.vde.com/en/advisories/VDE-2022-051/",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.phoenixcontact.com/en-us/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "PHOENIX CONTACT FL MGUARD RS2000 TX/TX-B FIRMWARE"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3480"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--8fe0e2a8-ba1c-4ac1-baa7-c8f693d6b2d3",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--57362b2f-8c05-52f1-870c-1fe791d1ee70",
+            "name": "Intel Core i5-12600HE",
+            "cpe": "cpe:2.3:h:intel:core_i5-12600he:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:intel:core_i5-12600he:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:37Z",
+                        "titles": [
+                            {
+                                "title": "Intel Core i5-12600HE",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://ark.intel.com/content/www/us/en/ark.html#@Processors",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-21198",
+                            "CVE-2022-24436"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

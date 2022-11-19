@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--e5cd96e4-f907-52f3-b0aa-9d33742fd794",
+    "name": "Intel Datacenter Group Event for Android",
+    "cpe": "cpe:2.3:a:intel:datacenter_group_event:-:*:*:*:*:android:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "intel",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:intel:datacenter_group_event:-:*:*:*:*:android:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-18T17:31Z",
+                "refs": [
+                    {
+                        "ref": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00678.html",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Intel Datacenter Group Event for Android"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-25841"
+                ]
+            }
+        }
+    }
+}

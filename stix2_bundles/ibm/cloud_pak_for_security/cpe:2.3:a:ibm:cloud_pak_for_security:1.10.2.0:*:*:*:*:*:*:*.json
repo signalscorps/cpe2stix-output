@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--354d2a3a-975d-4c22-be5c-b0628be53485",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4f2694f6-efc8-5d91-b809-59d8e667dfcb",
+            "name": "IBM Cloud Pak For Security (CP4S) 1.10.2.0",
+            "cpe": "cpe:2.3:a:ibm:cloud_pak_for_security:1.10.2.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ibm",
+            "version": "1.10.2.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ibm:cloud_pak_for_security:1.10.2.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:27Z",
+                        "titles": [
+                            {
+                                "title": "IBM Cloud Pak For Security (CP4S) 1.10.2.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.ibm.com/support/pages/node/6833574",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.ibm.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-36776",
+                            "CVE-2022-38385",
+                            "CVE-2022-38387"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

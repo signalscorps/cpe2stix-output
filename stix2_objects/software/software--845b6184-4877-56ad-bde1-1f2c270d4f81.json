@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--845b6184-4877-56ad-bde1-1f2c270d4f81",
+    "name": "NagVis 1.9.32",
+    "cpe": "cpe:2.3:a:nagvis:nagvis:1.9.32:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "nagvis",
+    "version": "1.9.32",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:nagvis:nagvis:1.9.32:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-18T18:58Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/NagVis/nagvis/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "http://www.nagvis.org/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "NagVis 1.9.32"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3979"
+                ]
+            }
+        }
+    }
+}

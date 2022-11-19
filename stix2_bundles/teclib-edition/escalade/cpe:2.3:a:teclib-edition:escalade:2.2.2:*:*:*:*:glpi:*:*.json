@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--d1e40276-38ba-4b15-9b78-68a703073715",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4dee320d-ba62-56cf-af8a-c7f6594fdb06",
+            "name": "Teclib' Escalade 2.2.2 for GLPi",
+            "cpe": "cpe:2.3:a:teclib-edition:escalade:2.2.2:*:*:*:*:glpi:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "teclib-edition",
+            "version": "2.2.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:teclib-edition:escalade:2.2.2:*:*:*:*:glpi:*:*",
+                        "lastModifiedDate": "2022-11-18T19:06Z",
+                        "titles": [
+                            {
+                                "title": "Teclib' Escalade 2.2.2 for GLPi",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.teclib-edition.com/en/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/PluginsGLPI/escalade/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://plugins.glpi-project.org/#/plugin/escalade",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

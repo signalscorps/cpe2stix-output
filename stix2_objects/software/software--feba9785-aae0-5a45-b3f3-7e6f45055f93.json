@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--feba9785-aae0-5a45-b3f3-7e6f45055f93",
+    "name": "Intel VTune Profiler 2022.2.0 for Windows",
+    "cpe": "cpe:2.3:a:intel:vtune_profiler:2022.2.0:*:*:*:*:windows:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "intel",
+    "version": "2022.2.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:intel:vtune_profiler:2022.2.0:*:*:*:*:windows:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-18T17:31Z",
+                "refs": [
+                    {
+                        "ref": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00676.html",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler-download.html",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Intel VTune Profiler 2022.2.0 for Windows"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

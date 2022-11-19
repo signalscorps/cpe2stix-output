@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--d4619cba-507e-49ae-8ee2-aff144457dda",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--45cfbb49-abcb-51cb-a498-394b2d7095cb",
+            "name": "PHOENIX CONTACT FL MGUARD GT/GT FIRMWARE",
+            "cpe": "cpe:2.3:o:phoenixcontact:fl_mguard_gt\\/gt_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "phoenixcontact",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:phoenixcontact:fl_mguard_gt\\/gt_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:31Z",
+                        "titles": [
+                            {
+                                "title": "PHOENIX CONTACT FL MGUARD GT/GT FIRMWARE",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-051/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.phoenixcontact.com/en-us/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3480"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

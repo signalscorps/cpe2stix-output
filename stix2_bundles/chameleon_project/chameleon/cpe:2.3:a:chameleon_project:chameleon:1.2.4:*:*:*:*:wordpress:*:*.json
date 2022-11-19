@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--97ec7d51-0080-46f0-8021-6ef0304b3311",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--623f67ce-2ac6-5993-ac21-36ac2f5463aa",
+            "name": "Chameleon Project Chameleon 1.2.4 for WordPress",
+            "cpe": "cpe:2.3:a:chameleon_project:chameleon:1.2.4:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "chameleon_project",
+            "version": "1.2.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:chameleon_project:chameleon:1.2.4:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-18T22:45Z",
+                        "titles": [
+                            {
+                                "title": "Chameleon Project Chameleon 1.2.4 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/chameleon/wordpress-chameleon-plugin-1-4-3-auth-stored-cross-site-scripting-xss-vulnerability?_s_id=cve",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/chameleon/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-44736"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--0d3fbad5-139f-43b5-967e-6b6af3f67ddc",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--18f1c88a-1816-515e-9b34-4fecffcaabb2",
+            "name": "Intel Quartus Prime 22.1 Pro Edition",
+            "cpe": "cpe:2.3:a:intel:quartus_prime:22.1:*:*:*:pro:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "22.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:intel:quartus_prime:22.1:*:*:*:pro:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:31Z",
+                        "titles": [
+                            {
+                                "title": "Intel Quartus Prime 22.1 Pro Edition",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00659.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

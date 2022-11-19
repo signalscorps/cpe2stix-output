@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--bf820dac-3f17-48ce-82ff-828e1131d616",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e4d166ce-ed32-5311-a9bb-6e8e8563feef",
+            "name": "Thrive WooSwipe WooCommerce Gallery for WordPress",
+            "cpe": "cpe:2.3:a:thriveweb:wooswipe_woocommerce_gallery:-:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "thriveweb",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:thriveweb:wooswipe_woocommerce_gallery:-:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-18T22:45Z",
+                        "titles": [
+                            {
+                                "title": "Thrive WooSwipe WooCommerce Gallery for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.trac.wordpress.org/log/wooswipe/",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://thriveweb.com.au/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45066"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

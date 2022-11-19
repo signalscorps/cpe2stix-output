@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--3ce52ebe-e56d-40d2-808f-3d43ce015ee8",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c7decc7a-da32-547f-ab8d-f2790c608d6b",
+            "name": "IBM MQ Internet Pass-Thru 9.2 Continuous Delivery Edition",
+            "cpe": "cpe:2.3:a:ibm:mq_internet_pass-thru:9.2:*:*:*:continuous_delivery:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ibm",
+            "version": "9.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ibm:mq_internet_pass-thru:9.2:*:*:*:continuous_delivery:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:27Z",
+                        "titles": [
+                            {
+                                "title": "IBM MQ Internet Pass-Thru 9.2 Continuous Delivery Edition",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.ibm.com/support/pages/node/6838559",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.ibm.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-4766",
+                            "CVE-2022-35719"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

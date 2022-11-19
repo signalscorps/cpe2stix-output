@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--4a1d131c-cb03-4c6f-a86f-e6904aa362fb",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a050d1e4-243c-53ec-84c1-cb9cb20ab624",
+            "name": "Liferay Digital Experience Platform 7.4.13 Update 5",
+            "cpe": "cpe:2.3:a:liferay:digital_experience_platform:7.4.13:update5:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "liferay",
+            "version": "7.4.13",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:liferay:digital_experience_platform:7.4.13:update5:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T17:31Z",
+                        "titles": [
+                            {
+                                "title": "Liferay Digital Experience Platform 7.4.13 Update 5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://issues.liferay.com/browse/LPE-17518",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://issues.liferay.com/browse/LPE-17518?jql=project%20%3D%20LPE%20AND%20fixVersion%20%3D%20%227.4.13%20DXP%20U19%22",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

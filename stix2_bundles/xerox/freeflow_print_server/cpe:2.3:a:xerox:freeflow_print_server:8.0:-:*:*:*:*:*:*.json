@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--b55d486a-3541-4c46-b41a-12cce1e730fc",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0269d4de-b005-5616-8c49-90b87bfa1483",
+            "name": "Xerox FreeFlow Print Server 8.0",
+            "cpe": "cpe:2.3:a:xerox:freeflow_print_server:8.0:-:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "xerox",
+            "version": "8.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:xerox:freeflow_print_server:8.0:-:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-18T15:23Z",
+                        "titles": [
+                            {
+                                "title": "Xerox FreeFlow Print Server 8.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "http://download.support.xerox.com/pub/docs/700_DCP/userdocs/any-os/en_GB/702P00236_Whats_New_80_SP2.pdf",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "http://download.support.xerox.com/pub/docs/700_DCP/userdocs/any-os/en_GB/702P00236_Whats_New_80_SP2.pdf",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2012-0569",
+                            "CVE-2013-0407",
+                            "CVE-2013-0415"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

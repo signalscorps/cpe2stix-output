@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--64eaeb81-9b1f-5f43-b70f-7b1a88098c1e",
+    "name": "IBM Navigator Mobile 3.4.1.2 for Android",
+    "cpe": "cpe:2.3:a:ibm:navigator_mobile:3.4.1.2:*:*:*:*:android:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "ibm",
+    "version": "3.4.1.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:ibm:navigator_mobile:3.4.1.2:*:*:*:*:android:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-18T17:27Z",
+                "refs": [
+                    {
+                        "ref": "https://www.ibm.com/support/pages/node/6828469",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://play.google.com/store/apps/details?id=com.ibm.ecm.navigator",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "IBM Navigator Mobile 3.4.1.2 for Android"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-38388"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--bc3c26de-487b-5092-9181-fa8c48a330a9",
+    "name": "Linux Foundation KubeVela 0.3.3",
+    "cpe": "cpe:2.3:a:linuxfoundation:kubevela:0.3.3:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "linuxfoundation",
+    "version": "0.3.3",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:linuxfoundation:kubevela:0.3.3:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-18T22:45Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/kubevela/kubevela/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://kubevela.io/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://www.linuxfoundation.org/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Linux Foundation KubeVela 0.3.3"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-39383"
+                ]
+            }
+        }
+    }
+}

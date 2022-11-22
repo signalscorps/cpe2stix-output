@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--c356a8bc-7735-5321-9f84-ccbc42cf20b3",
+    "name": "miniOrange Google Authenticator 5.6.1 for WordPress",
+    "cpe": "cpe:2.3:a:miniorange:google_authenticator:5.6.1:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "miniorange",
+    "version": "5.6.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:miniorange:google_authenticator:5.6.1:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-21T17:31Z",
+                "refs": [
+                    {
+                        "ref": "https://wordpress.org/plugins/miniorange-2-factor-authentication/#developers",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "miniOrange Google Authenticator 5.6.1 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-42461"
+                ]
+            }
+        }
+    }
+}

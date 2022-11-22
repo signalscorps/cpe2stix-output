@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--6aab2c9c-dd94-4fc8-a81a-c83e7c0f23a5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3a62c141-563a-5482-9e81-8af13b14d8c0",
+            "name": "WatchTowerHQ WatchTower 3.3.7 for WordPress",
+            "cpe": "cpe:2.3:a:watchtowerhq:watchtower:3.3.7:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "watchtowerhq",
+            "version": "3.3.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:watchtowerhq:watchtower:3.3.7:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T13:59Z",
+                        "titles": [
+                            {
+                                "title": "WatchTowerHQ WatchTower 3.3.7 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.watchtowerhq.co/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/watchtowerhq/#developers",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-44583",
+                            "CVE-2022-44584"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

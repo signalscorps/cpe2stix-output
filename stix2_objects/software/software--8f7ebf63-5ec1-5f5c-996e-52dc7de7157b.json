@@ -1,0 +1,49 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--8f7ebf63-5ec1-5f5c-996e-52dc7de7157b",
+    "name": "F5 njs 0.7.4",
+    "cpe": "cpe:2.3:a:f5:njs:0.7.4:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "f5",
+    "version": "0.7.4",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:f5:njs:0.7.4:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-21T17:15Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/nginx/njs",
+                        "type": "Version"
+                    },
+                    {
+                        "ref": "http://nginx.org/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://www.f5.com/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "F5 njs 0.7.4"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-34027",
+                    "CVE-2022-34029",
+                    "CVE-2022-43284",
+                    "CVE-2022-43285"
+                ]
+            }
+        }
+    }
+}

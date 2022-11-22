@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--d8d2bc7d-54c4-49c6-9f0d-b7a5a3a02544",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d570a472-6105-55ab-ba74-6cd7bb4e1fc0",
+            "name": "YORDAM Library Automation System",
+            "cpe": "cpe:2.3:a:yordam:library_automation_system:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "yordam",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:yordam:library_automation_system:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-21T18:46Z",
+                        "titles": [
+                            {
+                                "title": "YORDAM Library Automation System",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.yordam.com/tr/urun-detayi/yordam-kutuphane-otomasyon-sistemi",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.usom.gov.tr/bildirim/tr-22-0637",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-45475",
+                            "CVE-2021-45476",
+                            "CVE-2022-2266"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

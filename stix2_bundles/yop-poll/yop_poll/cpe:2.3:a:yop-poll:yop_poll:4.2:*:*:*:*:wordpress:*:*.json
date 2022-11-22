@@ -1,0 +1,47 @@
+{
+    "type": "bundle",
+    "id": "bundle--677668de-8e37-43d1-ad65-bc812401a0fa",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--25cfd98c-57be-5ab8-9c66-5980c272faca",
+            "name": "yop-poll YOP Poll 4.2 for WordPress",
+            "cpe": "cpe:2.3:a:yop-poll:yop_poll:4.2:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "yop-poll",
+            "version": "4.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:yop-poll:yop_poll:4.2:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T18:46Z",
+                        "titles": [
+                            {
+                                "title": "yop-poll YOP Poll 4.2 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/yop-poll/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-24454",
+                            "CVE-2021-24833",
+                            "CVE-2021-24834",
+                            "CVE-2022-1600"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

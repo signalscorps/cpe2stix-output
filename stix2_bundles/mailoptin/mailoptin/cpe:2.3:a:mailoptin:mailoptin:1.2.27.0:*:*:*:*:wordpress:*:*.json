@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--ebfdc62e-f74c-40fd-8cf9-3231bf4a315a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c26c7843-fabb-5abf-a020-e690b85a85e6",
+            "name": "Mailoptin Mailoptin 1.2.27.0 for WordPress",
+            "cpe": "cpe:2.3:a:mailoptin:mailoptin:1.2.27.0:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mailoptin",
+            "version": "1.2.27.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:mailoptin:mailoptin:1.2.27.0:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T18:05Z",
+                        "titles": [
+                            {
+                                "title": "Mailoptin Mailoptin 1.2.27.0 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.svn.wordpress.org/mailoptin/trunk/changelog.txt",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-36340"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

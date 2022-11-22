@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--2c610416-3631-469c-a97a-9c39dab79a5c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4cf58c37-3bc0-544d-8b87-42037f4e0cc3",
+            "name": "Ezoic 2.8.10 for WordPress",
+            "cpe": "cpe:2.3:a:ezoic:ezoic:2.8.10:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ezoic",
+            "version": "2.8.10",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ezoic:ezoic:2.8.10:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T20:08Z",
+                        "titles": [
+                            {
+                                "title": "Ezoic 2.8.10 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/ezoic-integration/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.ezoic.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://plugins.trac.wordpress.org/browser/ezoic-integration/#tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

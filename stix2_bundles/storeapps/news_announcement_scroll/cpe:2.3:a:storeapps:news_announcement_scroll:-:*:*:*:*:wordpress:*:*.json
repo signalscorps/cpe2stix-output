@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--b6b69a4c-f57c-4616-a8f1-231829d81961",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4e5466bc-5f03-5f8d-b59b-dc5e7d4b6e9c",
+            "name": "StoreApps News Announcement Scroll for WordPress",
+            "cpe": "cpe:2.3:a:storeapps:news_announcement_scroll:-:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "storeapps",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:storeapps:news_announcement_scroll:-:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T20:14Z",
+                        "titles": [
+                            {
+                                "title": "StoreApps News Announcement Scroll for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.storeapps.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://plugins.svn.wordpress.org/news-announcement-scroll/trunk/changelog.txt",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/news-announcement-scroll/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-40694"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

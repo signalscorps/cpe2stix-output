@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--1be1296d-96f2-4db0-a9e7-02dcc9db78bb",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2c184ae5-7176-56c2-885e-53edd7a8bf45",
+            "name": "Cisco Umbrella Insights Virtual Appliance 2.5.4",
+            "cpe": "cpe:2.3:o:cisco:umbrella_insights_virtual_appliance:2.5.4:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "2.5.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:cisco:umbrella_insights_virtual_appliance:2.5.4:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-21T14:21Z",
+                        "titles": [
+                            {
+                                "title": "Cisco Umbrella Insights Virtual Appliance 2.5.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cve.org/CVERecord?id=CVE-2022-20922",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://support.umbrella.com/hc/en-us/sections/4404390294164-Virtual-Appliance-Release-Notes",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-20922"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

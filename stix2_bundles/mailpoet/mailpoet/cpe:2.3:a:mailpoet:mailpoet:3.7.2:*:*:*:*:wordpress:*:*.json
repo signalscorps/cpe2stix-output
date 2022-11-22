@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--bb81f181-5ef6-45c7-a3a6-4e2d89f22b4e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4e71c300-509a-5772-93ae-a71d7278ec27",
+            "name": "Mailpoet 3.7.2 for WordPress",
+            "cpe": "cpe:2.3:a:mailpoet:mailpoet:3.7.2:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mailpoet",
+            "version": "3.7.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:mailpoet:mailpoet:3.7.2:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T15:18Z",
+                        "titles": [
+                            {
+                                "title": "Mailpoet 3.7.2 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/mailpoet/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-11843"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

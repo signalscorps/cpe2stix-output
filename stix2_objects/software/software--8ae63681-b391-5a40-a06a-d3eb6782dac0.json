@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--8ae63681-b391-5a40-a06a-d3eb6782dac0",
+    "name": "Intel Wi-Fi 6E AX200 ",
+    "cpe": "cpe:2.3:h:intel:wi-fi_6e_ax200:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "intel",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:intel:wi-fi_6e_ax200:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-21T17:31Z",
+                "refs": [
+                    {
+                        "ref": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00687.html",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.intel.com/content/www/us/en/homepage.html",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Intel Wi-Fi 6E AX200 "
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-24436",
+                    "CVE-2022-28667"
+                ]
+            }
+        }
+    }
+}

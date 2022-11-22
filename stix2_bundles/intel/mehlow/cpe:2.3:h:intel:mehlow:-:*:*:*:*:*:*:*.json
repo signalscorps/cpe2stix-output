@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--8ff5b19b-5cf9-44e1-8438-ce63e13bac5b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7e8de668-e778-5462-9979-e243b9b03973",
+            "name": "Intel Mehlow",
+            "cpe": "cpe:2.3:h:intel:mehlow:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:intel:mehlow:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-21T17:31Z",
+                        "titles": [
+                            {
+                                "title": "Intel Mehlow",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.insyde.com/security-pledge/SA-2022060",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-24436"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

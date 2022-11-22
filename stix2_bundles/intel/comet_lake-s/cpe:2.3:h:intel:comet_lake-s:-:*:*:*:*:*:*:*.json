@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--95371a46-4d6c-4878-90d1-702776d1630c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f95d723e-bde9-55fb-8355-9f71c852c7ac",
+            "name": "Intel Comet Lake-S",
+            "cpe": "cpe:2.3:h:intel:comet_lake-s:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:intel:comet_lake-s:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-21T17:31Z",
+                        "titles": [
+                            {
+                                "title": "Intel Comet Lake-S",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.insyde.com/security-pledge/SA-2022060",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-24436"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

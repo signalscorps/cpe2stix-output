@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--27ac76f7-1823-49e5-834b-008bb4213414",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8f005055-ab2d-50bb-ba18-005c0903e638",
+            "name": "Cisco Meraki MX Security Appliance Firmware 16.6.7",
+            "cpe": "cpe:2.3:o:cisco:meraki_mx_security_appliance_firmware:16.6.7:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "16.6.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:cisco:meraki_mx_security_appliance_firmware:16.6.7:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-21T19:16Z",
+                        "titles": [
+                            {
+                                "title": "Cisco Meraki MX Security Appliance Firmware 16.6.7",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://community.meraki.com/t5/Security-SD-WAN/New-MX-16-16-stable-firmware-released-lots-of-fixes/m-p/141283",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort-smb-3nfhJtr",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

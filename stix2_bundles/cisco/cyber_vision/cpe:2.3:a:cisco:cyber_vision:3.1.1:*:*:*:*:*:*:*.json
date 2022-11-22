@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--f0d7e9f2-1ab0-4428-94de-b6b70e8dc7f8",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9224d068-062c-5e98-ac21-5358496efb3b",
+            "name": "Cisco Cyber Vision 3.1.1",
+            "cpe": "cpe:2.3:a:cisco:cyber_vision:3.1.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "3.1.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:cisco:cyber_vision:3.1.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-21T14:16Z",
+                        "titles": [
+                            {
+                                "title": "Cisco Cyber Vision 3.1.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cve.org/CVERecord?id=CVE-2022-20922",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.cisco.com/site/us/en/products/security/industrial-security/cyber-vision/index.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-20922"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

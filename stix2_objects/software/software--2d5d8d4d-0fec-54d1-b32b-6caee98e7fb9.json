@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--2d5d8d4d-0fec-54d1-b32b-6caee98e7fb9",
+    "name": "Aiphone GT-DMB-LVN FIRMWARE ",
+    "cpe": "cpe:2.3:o:aiphone:gt-dmb-lvn_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "aiphone",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:aiphone:gt-dmb-lvn_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-21T17:31Z",
+                "refs": [
+                    {
+                        "ref": "https://jvn.jp/en/jp/JVN75437943/index.html",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.aiphone.net/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Aiphone GT-DMB-LVN FIRMWARE "
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-40903"
+                ]
+            }
+        }
+    }
+}

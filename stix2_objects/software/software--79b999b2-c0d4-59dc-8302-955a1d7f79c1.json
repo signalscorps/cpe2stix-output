@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--79b999b2-c0d4-59dc-8302-955a1d7f79c1",
+    "name": "Constant Contact Creative Mail 1.6.2 for WordPress",
+    "cpe": "cpe:2.3:a:constantcontact:creative_mail:1.6.2:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "constantcontact",
+    "version": "1.6.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:constantcontact:creative_mail:1.6.2:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-21T13:06Z",
+                "refs": [
+                    {
+                        "ref": "https://wordpress.org/plugins/creative-mail-by-constant-contact/#developers",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://www.constantcontact.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://patchstack.com/database/vulnerability/creative-mail-by-constant-contact/wordpress-creative-mail-plugin-1-5-4-cross-site-request-forgery-csrf-vulnerability?_s_id=cve",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Constant Contact Creative Mail 1.6.2 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

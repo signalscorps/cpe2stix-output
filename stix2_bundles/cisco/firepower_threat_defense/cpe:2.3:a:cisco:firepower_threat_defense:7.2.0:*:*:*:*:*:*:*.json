@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--de7afbfe-5ccd-4ec3-b2c0-5cec016b8336",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a303b469-e4d2-5611-ba80-a937b85f8b98",
+            "name": "Cisco Firepower Threat Defense 7.2.0",
+            "cpe": "cpe:2.3:a:cisco:firepower_threat_defense:7.2.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "7.2.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:cisco:firepower_threat_defense:7.2.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-21T14:37Z",
+                        "titles": [
+                            {
+                                "title": "Cisco Firepower Threat Defense 7.2.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cve.org/CVERecord?id=CVE-2022-20922",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-1978",
+                            "CVE-2019-1980",
+                            "CVE-2019-1981",
+                            "CVE-2022-20866",
+                            "CVE-2022-20922"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

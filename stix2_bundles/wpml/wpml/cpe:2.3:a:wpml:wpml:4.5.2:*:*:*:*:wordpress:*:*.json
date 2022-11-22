@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--e3c71ecc-11fb-4af4-8bb0-e126ec252861",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--07cb62b7-706b-58b3-8838-c5316ef0cb60",
+            "name": "WPML 4.5.2 for WordPress",
+            "cpe": "cpe:2.3:a:wpml:wpml:4.5.2:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wpml",
+            "version": "4.5.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wpml:wpml:4.5.2:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T12:47Z",
+                        "titles": [
+                            {
+                                "title": "WPML 4.5.2 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wpml.org/category/changelog/",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "http://wpml.org/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-38461",
+                            "CVE-2022-38974"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

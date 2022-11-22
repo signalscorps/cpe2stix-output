@@ -1,0 +1,55 @@
+{
+    "type": "bundle",
+    "id": "bundle--2672adcb-379c-4d86-a0b6-0cf1702df2cc",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--16fbec3f-7baa-5bc1-acfc-83ea2c0ebabb",
+            "name": "yop-poll YOP Poll 6.0.7 for WordPress",
+            "cpe": "cpe:2.3:a:yop-poll:yop_poll:6.0.7:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "yop-poll",
+            "version": "6.0.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:yop-poll:yop_poll:6.0.7:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T18:46Z",
+                        "titles": [
+                            {
+                                "title": "yop-poll YOP Poll 6.0.7 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://yop-poll.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/yop-poll/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://wpscan.com/vulnerability/48ade7a5-5abb-4267-b9b6-13e31e1b3e91",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-24454",
+                            "CVE-2021-24833",
+                            "CVE-2021-24834",
+                            "CVE-2022-1600"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

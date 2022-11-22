@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--a1ac8290-d9eb-46bd-af82-9ce3e04012e2",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--df102323-fece-5f55-975e-33f1d360c76e",
+            "name": "Codepeople Appointment Booking Calendar 1.3.60 for WordPress",
+            "cpe": "cpe:2.3:a:codepeople:appointment_booking_calendar:1.3.60:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "codepeople",
+            "version": "1.3.60",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:codepeople:appointment_booking_calendar:1.3.60:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T15:57Z",
+                        "titles": [
+                            {
+                                "title": "Codepeople Appointment Booking Calendar 1.3.60 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://abc.dwbooster.com/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/appointment-booking-calendar/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43482"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

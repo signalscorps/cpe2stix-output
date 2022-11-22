@@ -1,0 +1,47 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--c34cacaf-6bf0-500e-89dc-1d942ab6a202",
+    "name": "gVectors wpForo Forum 2.0.7 for WordPress",
+    "cpe": "cpe:2.3:a:gvectors:wpforo_forum:2.0.7:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "gvectors",
+    "version": "2.0.7",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:gvectors:wpforo_forum:2.0.7:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-21T19:52Z",
+                "refs": [
+                    {
+                        "ref": "https://wordpress.org/plugins/wpforo/#developers",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://gvectors.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://plugins.trac.wordpress.org/browser/wpforo/#tags",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "gVectors wpForo Forum 2.0.7 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-40192",
+                    "CVE-2022-40200"
+                ]
+            }
+        }
+    }
+}

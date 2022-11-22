@@ -1,0 +1,47 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--e19bfd01-a829-52ff-8599-5c2ebbe2d361",
+    "name": "Ezoic 2.7.5 for WordPress",
+    "cpe": "cpe:2.3:a:ezoic:ezoic:2.7.5:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "ezoic",
+    "version": "2.7.5",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:ezoic:ezoic:2.7.5:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-21T20:08Z",
+                "refs": [
+                    {
+                        "ref": "https://wordpress.org/plugins/ezoic-integration/#developers",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://www.ezoic.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://plugins.trac.wordpress.org/browser/ezoic-integration/#tags",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Ezoic 2.7.5 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-41132",
+                    "CVE-2022-41315"
+                ]
+            }
+        }
+    }
+}

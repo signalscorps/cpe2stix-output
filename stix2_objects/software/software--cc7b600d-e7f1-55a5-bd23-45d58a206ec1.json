@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--cc7b600d-e7f1-55a5-bd23-45d58a206ec1",
+    "name": "Bund (Federal Ministry of the Interior and Community, Germany) BKG Professional NtripCaster 2.0.39",
+    "cpe": "cpe:2.3:a:bund:bkg_professional_ntripcaster:2.0.39:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "bund",
+    "version": "2.0.39",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:bund:bkg_professional_ntripcaster:2.0.39:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-21T19:16Z",
+                "refs": [
+                    {
+                        "ref": "https://igs.bkg.bund.de/ntrip/bkgcaster",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://cve.mahi.be/bkg_ntrip_udp/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Bund (Federal Ministry of the Interior and Community, Germany) BKG Professional NtripCaster 2.0.39"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-42982"
+                ]
+            }
+        }
+    }
+}

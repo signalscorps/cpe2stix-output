@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--408caac4-bdc8-5618-afca-ece8061439bb",
+    "name": "Cisco Adaptive Security Appliance (ASA) 9.16.2.13",
+    "cpe": "cpe:2.3:a:cisco:adaptive_security_appliance:9.16.2.13:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "cisco",
+    "version": "9.16.2.13",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:cisco:adaptive_security_appliance:9.16.2.13:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-21T14:37Z",
+                "refs": [
+                    {
+                        "ref": "https://www.cve.org/CVERecord?id=CVE-2022-20928",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.cisco.com/c/en/us/products/security/adaptive-security-appliance-asa-software/index.html",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Cisco Adaptive Security Appliance (ASA) 9.16.2.13"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-20795",
+                    "CVE-2022-20928"
+                ]
+            }
+        }
+    }
+}

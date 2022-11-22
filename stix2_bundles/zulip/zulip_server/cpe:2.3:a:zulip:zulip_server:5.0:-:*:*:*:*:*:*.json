@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--a9d6c9ab-00d3-4397-8c92-d1ed429e497e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a9e48d1e-28cf-5b52-b1a3-ef90894cef2b",
+            "name": "Zulip Server 5.0",
+            "cpe": "cpe:2.3:a:zulip:zulip_server:5.0:-:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "zulip",
+            "version": "5.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:zulip:zulip_server:5.0:-:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-21T14:39Z",
+                        "titles": [
+                            {
+                                "title": "Zulip Server 5.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/zulip/zulip/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://zulip.org/server.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-31134",
+                            "CVE-2022-41914"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

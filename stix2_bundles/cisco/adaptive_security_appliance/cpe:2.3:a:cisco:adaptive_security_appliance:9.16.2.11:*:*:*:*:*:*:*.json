@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--a32bbec8-cda2-411d-9dae-fa7e834e53e2",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3baa6582-4a3f-5afa-a794-f9e2dcd4da1c",
+            "name": "Cisco Adaptive Security Appliance (ASA) 9.16.2.11",
+            "cpe": "cpe:2.3:a:cisco:adaptive_security_appliance:9.16.2.11:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "9.16.2.11",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:cisco:adaptive_security_appliance:9.16.2.11:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-21T14:37Z",
+                        "titles": [
+                            {
+                                "title": "Cisco Adaptive Security Appliance (ASA) 9.16.2.11",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cve.org/CVERecord?id=CVE-2022-20928",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.cisco.com/c/en/us/products/security/adaptive-security-appliance-asa-software/index.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-20795",
+                            "CVE-2022-20928",
+                            "CVE-2022-20947"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

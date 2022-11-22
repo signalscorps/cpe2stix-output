@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--0a28e106-2724-4eb2-80ca-60e9709b6ea5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8085b53b-b542-5923-8394-352b0c112217",
+            "name": "Apache Software Foundation SSHD (Apache MINA SSHD) 2.9.0",
+            "cpe": "cpe:2.3:a:apache:sshd:2.9.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "apache",
+            "version": "2.9.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:apache:sshd:2.9.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-21T12:55Z",
+                        "titles": [
+                            {
+                                "title": "Apache Software Foundation SSHD (Apache MINA SSHD) 2.9.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://mina.apache.org/sshd-project/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/apache/mina-sshd",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://mina.apache.org/downloads-sshd.html",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45047"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

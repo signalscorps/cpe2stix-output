@@ -1,0 +1,47 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--3eaf0db7-62c4-5741-8288-bb4e06e65811",
+    "name": "Web Artesanal Mantenimiento Web (Web Maintenance) 0.1 for WordPress",
+    "cpe": "cpe:2.3:a:webartesanal:mantenimiento_web:0.1:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "webartesanal",
+    "version": "0.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:webartesanal:mantenimiento_web:0.1:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-21T13:09Z",
+                "refs": [
+                    {
+                        "ref": "https://wordpress.org/plugins/mantenimiento-web/#developers",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://webartesanal.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://patchstack.com/database/vulnerability/mantenimiento-web/wordpress-mantenimiento-web-plugin-0-13-cross-site-request-forgery-csrf-vulnerability-leading-to-stored-cross-site-scripting-xss?_s_id=cve",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Web Artesanal Mantenimiento Web (Web Maintenance) 0.1 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-38075",
+                    "CVE-2022-41980"
+                ]
+            }
+        }
+    }
+}

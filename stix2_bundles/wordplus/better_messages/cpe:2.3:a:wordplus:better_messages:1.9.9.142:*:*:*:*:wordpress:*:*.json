@@ -1,0 +1,51 @@
+{
+    "type": "bundle",
+    "id": "bundle--366013d7-d936-46e4-af67-1709a9f07048",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--862bfa05-8e82-5089-a932-1a286e2c8d49",
+            "name": "WordPlus Better Messages 1.9.9.142 for WordPress",
+            "cpe": "cpe:2.3:a:wordplus:better_messages:1.9.9.142:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wordplus",
+            "version": "1.9.9.142",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wordplus:better_messages:1.9.9.142:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T13:10Z",
+                        "titles": [
+                            {
+                                "title": "WordPlus Better Messages 1.9.9.142 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/bp-better-messages/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.wordplus.org/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-29454",
+                            "CVE-2022-33142",
+                            "CVE-2022-36389",
+                            "CVE-2022-41609"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--e33d6ffc-0f9b-49be-a1a9-81fae48bec3b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--62b95423-100e-59e3-829f-4b2e038fb257",
+            "name": "WordPlus Better Messages 1.9.10.40 for WordPress",
+            "cpe": "cpe:2.3:a:wordplus:better_messages:1.9.10.40:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wordplus",
+            "version": "1.9.10.40",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wordplus:better_messages:1.9.10.40:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T13:10Z",
+                        "titles": [
+                            {
+                                "title": "WordPlus Better Messages 1.9.10.40 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/bp-better-messages/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.wordplus.org/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-33142",
+                            "CVE-2022-41609"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

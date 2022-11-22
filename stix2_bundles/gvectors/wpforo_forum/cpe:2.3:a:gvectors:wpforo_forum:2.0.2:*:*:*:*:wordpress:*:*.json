@@ -1,0 +1,57 @@
+{
+    "type": "bundle",
+    "id": "bundle--fe9a6a17-ad3e-46a3-8ee5-174b93dcce12",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--774ab461-1c8e-5bb6-b301-41068ce4b493",
+            "name": "gVectors wpForo Forum 2.0.2 for WordPress",
+            "cpe": "cpe:2.3:a:gvectors:wpforo_forum:2.0.2:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "gvectors",
+            "version": "2.0.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:gvectors:wpforo_forum:2.0.2:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T19:52Z",
+                        "titles": [
+                            {
+                                "title": "gVectors wpForo Forum 2.0.2 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/wpforo/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://gvectors.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://plugins.trac.wordpress.org/browser/wpforo/#tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-38144",
+                            "CVE-2022-40192",
+                            "CVE-2022-40200",
+                            "CVE-2022-40205",
+                            "CVE-2022-40206",
+                            "CVE-2022-40632"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--bff5229c-f1e9-4603-8f33-0f7323c598b0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--10a4710d-3e18-5911-8a8a-6c9864894b18",
+            "name": "Intel Core i5-8550u",
+            "cpe": "cpe:2.3:h:intel:core_i5-8550u:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:intel:core_i5-8550u:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-21T17:31Z",
+                        "titles": [
+                            {
+                                "title": "Intel Core i5-8550u",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.intel.com/content/www/us/en/developer/topic-technology/software-security-guidance/processors-affected-consolidated-product-cpu-model.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-24436",
+                            "CVE-2022-29901"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

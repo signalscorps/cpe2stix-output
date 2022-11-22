@@ -1,0 +1,63 @@
+{
+    "type": "bundle",
+    "id": "bundle--b8a6d29f-712a-49ba-87ef-8cbc9f5506d1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7fef9e76-6fb1-5a6b-853d-c43c609e57ab",
+            "name": "Cisco Adaptive Security Appliance (ASA) 9.13.1.16",
+            "cpe": "cpe:2.3:a:cisco:adaptive_security_appliance:9.13.1.16:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "9.13.1.16",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:cisco:adaptive_security_appliance:9.13.1.16:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-21T14:37Z",
+                        "titles": [
+                            {
+                                "title": "Cisco Adaptive Security Appliance (ASA) 9.13.1.16",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cve.org/CVERecord?id=CVE-2022-20928",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.cisco.com/c/en/us/products/security/adaptive-security-appliance-asa-software/index.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-1445",
+                            "CVE-2021-1476",
+                            "CVE-2021-1488",
+                            "CVE-2021-1493",
+                            "CVE-2021-1501",
+                            "CVE-2021-1504",
+                            "CVE-2021-1573",
+                            "CVE-2021-34787",
+                            "CVE-2021-34790",
+                            "CVE-2021-34791",
+                            "CVE-2021-34793",
+                            "CVE-2021-40117",
+                            "CVE-2021-40118",
+                            "CVE-2022-20795",
+                            "CVE-2022-20928",
+                            "CVE-2022-20947"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

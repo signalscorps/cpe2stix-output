@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--6dd1fef3-3c72-47fe-8729-2a42ba29a5fc",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a4f9cfcb-6050-5691-af62-27ae76cd626d",
+            "name": "Benbodhi SVG Support 2.5.1 for WordPress",
+            "cpe": "cpe:2.3:a:benbodhi:svg_support:2.5.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "benbodhi",
+            "version": "2.5.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:benbodhi:svg_support:2.5.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T20:17Z",
+                        "titles": [
+                            {
+                                "title": "Benbodhi SVG Support 2.5.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/svg-support/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://benbodhi.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.wordfence.com/vulnerability-advisories-continued/#CVE-2022-4022",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-4022"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

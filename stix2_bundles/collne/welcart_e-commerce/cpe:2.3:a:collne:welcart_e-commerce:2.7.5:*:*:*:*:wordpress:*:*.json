@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--7fccb9ce-a5ec-4ce8-aefc-a407e2390eb9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c68e701b-2efd-5ff9-b6e6-9bd5f99614db",
+            "name": "Collne Welcart e-Commerce 2.7.5 for WordPress",
+            "cpe": "cpe:2.3:a:collne:welcart_e-commerce:2.7.5:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "collne",
+            "version": "2.7.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:collne:welcart_e-commerce:2.7.5:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T15:33Z",
+                        "titles": [
+                            {
+                                "title": "Collne Welcart e-Commerce 2.7.5 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/usc-e-shop/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.collne.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41840"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

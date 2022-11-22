@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--590db1a2-9d26-45ae-ba7c-0db8613620f7",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3f990a83-da83-5f14-adfe-ca2f5c6e4512",
+            "name": "Metagauss ProfileGrid 5.1.7 for WordPress",
+            "cpe": "cpe:2.3:a:metagauss:profilegrid:5.1.7:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "metagauss",
+            "version": "5.1.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:metagauss:profilegrid:5.1.7:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T20:08Z",
+                        "titles": [
+                            {
+                                "title": "Metagauss ProfileGrid 5.1.7 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://metagauss.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://profilegrid.co/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/profilegrid-user-profiles-groups-and-communities/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://plugins.trac.wordpress.org/browser/profilegrid-user-profiles-groups-and-communities/#tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

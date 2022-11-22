@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--f9f4b973-edd8-5a8b-a326-31ae7328db66",
+    "name": "Cisco Meraki MX Security Appliance Firmware",
+    "cpe": "cpe:2.3:o:cisco:meraki_mx_security_appliance_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "cisco",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:cisco:meraki_mx_security_appliance_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-21T19:16Z",
+                "refs": [
+                    {
+                        "ref": "https://community.meraki.com/t5/Security-SD-WAN/New-MX-16-16-stable-firmware-released-lots-of-fixes/m-p/141283",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort-smb-3nfhJtr",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Cisco Meraki MX Security Appliance Firmware"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

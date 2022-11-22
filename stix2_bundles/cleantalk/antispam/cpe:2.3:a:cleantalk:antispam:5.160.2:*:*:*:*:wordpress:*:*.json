@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--69b158af-6b0b-484a-bcd9-9538f51a517c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4d604f56-fccb-5831-8fc6-afc2f8860ea1",
+            "name": "Cleantalk Antispam 5.160.2 for WordPress",
+            "cpe": "cpe:2.3:a:cleantalk:antispam:5.160.2:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cleantalk",
+            "version": "5.160.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:cleantalk:antispam:5.160.2:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T17:38Z",
+                        "titles": [
+                            {
+                                "title": "Cleantalk Antispam 5.160.2 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/CleanTalk/wordpress-antispam/releases",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-28221",
+                            "CVE-2022-28222"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

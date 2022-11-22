@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--8f07b8f6-2ea8-45c6-b854-d2190bc52e53",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ac97827e-e222-5400-a198-c3ebdeafd812",
+            "name": "WP-Polls Project WP-Polls 2.75.6 for WordPress",
+            "cpe": "cpe:2.3:a:wp-polls_project:wp-polls:2.75.6:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wp-polls_project",
+            "version": "2.75.6",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wp-polls_project:wp-polls:2.75.6:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T13:12Z",
+                        "titles": [
+                            {
+                                "title": "WP-Polls Project WP-Polls 2.75.6 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/wp-polls/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-40130"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

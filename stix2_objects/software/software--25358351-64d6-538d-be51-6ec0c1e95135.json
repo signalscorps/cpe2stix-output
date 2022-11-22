@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--25358351-64d6-538d-be51-6ec0c1e95135",
+    "name": "Intel M50CYP",
+    "cpe": "cpe:2.3:h:intel:m50cyp:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "intel",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:intel:m50cyp:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-21T17:31Z",
+                "refs": [
+                    {
+                        "ref": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00708.html",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.intel.com/content/www/us/en/homepage.html",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Intel M50CYP"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-24436"
+                ]
+            }
+        }
+    }
+}

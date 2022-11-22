@@ -1,0 +1,47 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--ec5118e6-f61a-50a3-904f-5291d47b8215",
+    "name": "Clogica SEO Redirection Redirection 8.3 for WordPress",
+    "cpe": "cpe:2.3:a:clogica:seo_redirection:8.3:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "clogica",
+    "version": "8.3",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:clogica:seo_redirection:8.3:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-21T12:51Z",
+                "refs": [
+                    {
+                        "ref": "https://www.clogica.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://wpscan.com/vulnerability/c234700e-61dd-46a0-90fb-609e704269a9",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://wordpress.org/plugins/seo-redirection/#developers",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Clogica SEO Redirection Redirection 8.3 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-38704",
+                    "CVE-2022-40695"
+                ]
+            }
+        }
+    }
+}

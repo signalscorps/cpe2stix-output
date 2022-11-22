@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--1d5cf3a1-d320-5430-9afd-1ecf532b7c3a",
+    "name": "Cisco Firepower Management Center 7.0.5",
+    "cpe": "cpe:2.3:a:cisco:firepower_management_center:7.0.5:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "cisco",
+    "version": "7.0.5",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:cisco:firepower_management_center:7.0.5:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-21T14:37Z",
+                "refs": [
+                    {
+                        "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmcsfr-snmp-access-6gqgtJ4S",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Cisco Firepower Management Center 7.0.5"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-20744"
+                ]
+            }
+        }
+    }
+}

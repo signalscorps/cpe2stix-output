@@ -1,0 +1,51 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--3c6db68e-389b-50be-ac7a-a12664e84fc4",
+    "name": "Metagauss ProfileGrid 4.8.9 for WordPress",
+    "cpe": "cpe:2.3:a:metagauss:profilegrid:4.8.9:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "metagauss",
+    "version": "4.8.9",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:metagauss:profilegrid:4.8.9:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-21T20:01Z",
+                "refs": [
+                    {
+                        "ref": "https://metagauss.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://profilegrid.co/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://wordpress.org/plugins/profilegrid-user-profiles-groups-and-communities/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://plugins.trac.wordpress.org/browser/profilegrid-user-profiles-groups-and-communities/#tags",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Metagauss ProfileGrid 4.8.9 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3578",
+                    "CVE-2022-41791"
+                ]
+            }
+        }
+    }
+}

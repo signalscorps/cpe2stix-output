@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--3739ea5e-99f2-4113-9fff-9b039500220e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--784b6188-6fbd-5ade-972e-39798742ae20",
+            "name": "DWBooster Appointment Hour Booking 1.3.69 for WordPress",
+            "cpe": "cpe:2.3:a:dwbooster:appointment_hour_booking:1.3.69:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "dwbooster",
+            "version": "1.3.69",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:dwbooster:appointment_hour_booking:1.3.69:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T15:10Z",
+                        "titles": [
+                            {
+                                "title": "DWBooster Appointment Hour Booking 1.3.69 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/appointment-hour-booking/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://apphourbooking.dwbooster.com/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41692"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

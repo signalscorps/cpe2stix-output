@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--e56067d9-3b33-41c6-8651-e33606f5ae3f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--748a026d-653d-5afe-91f6-814c505c4a0e",
+            "name": "Cisco Umbrella Insights Virtual Appliance 1.5.6",
+            "cpe": "cpe:2.3:o:cisco:umbrella_insights_virtual_appliance:1.5.6:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "1.5.6",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:cisco:umbrella_insights_virtual_appliance:1.5.6:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-21T14:21Z",
+                        "titles": [
+                            {
+                                "title": "Cisco Umbrella Insights Virtual Appliance 1.5.6",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cve.org/CVERecord?id=CVE-2022-20922",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://support.umbrella.com/hc/en-us/sections/4404390294164-Virtual-Appliance-Release-Notes",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2017-12350",
+                            "CVE-2022-20922"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

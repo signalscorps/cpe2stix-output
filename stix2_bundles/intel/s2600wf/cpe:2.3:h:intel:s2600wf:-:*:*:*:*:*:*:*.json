@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--99511979-34e4-4bdb-b5bb-18b7dc18a3c1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b6b1a70a-42e0-533e-834e-19f4aebe98b1",
+            "name": "Intel S2600WF",
+            "cpe": "cpe:2.3:h:intel:s2600wf:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:intel:s2600wf:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-21T17:31Z",
+                        "titles": [
+                            {
+                                "title": "Intel S2600WF",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00708.html",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.intel.com/content/www/us/en/homepage.html",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-24436",
+                            "CVE-2022-30542"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

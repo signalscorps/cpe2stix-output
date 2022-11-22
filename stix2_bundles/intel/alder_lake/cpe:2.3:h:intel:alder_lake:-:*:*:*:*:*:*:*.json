@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--b0e54173-5f83-47a4-888a-c31ebbe123ca",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6431a3e1-4023-5897-b7ed-5509f98b57d7",
+            "name": "Intel Alder Lake",
+            "cpe": "cpe:2.3:h:intel:alder_lake:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "intel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:intel:alder_lake:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-21T17:31Z",
+                        "titles": [
+                            {
+                                "title": "Intel Alder Lake",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.insyde.com/security-pledge/SA-2022060",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-24436"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

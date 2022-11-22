@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--75871226-883d-4dc4-9623-0e7d725b9b90",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--31bcfa92-be10-5c7c-b1c8-ef4c6c0523ed",
+            "name": "Web Artesanal Mantenimiento Web (Web Maintenance) 0.5 for WordPress",
+            "cpe": "cpe:2.3:a:webartesanal:mantenimiento_web:0.5:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "webartesanal",
+            "version": "0.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:webartesanal:mantenimiento_web:0.5:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T13:09Z",
+                        "titles": [
+                            {
+                                "title": "Web Artesanal Mantenimiento Web (Web Maintenance) 0.5 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/mantenimiento-web/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://webartesanal.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/mantenimiento-web/wordpress-mantenimiento-web-plugin-0-13-cross-site-request-forgery-csrf-vulnerability-leading-to-stored-cross-site-scripting-xss?_s_id=cve",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-38075",
+                            "CVE-2022-41980"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

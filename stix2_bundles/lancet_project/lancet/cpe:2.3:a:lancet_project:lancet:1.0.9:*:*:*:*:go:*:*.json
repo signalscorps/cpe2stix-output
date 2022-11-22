@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--bd8b6145-67a7-4428-b2d5-84173b826b39",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--169afd58-4c0c-5b7a-ad5e-eac3710472e2",
+            "name": "Lancet Project Lancet 1.0.9 for Go",
+            "cpe": "cpe:2.3:a:lancet_project:lancet:1.0.9:*:*:*:*:go:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "lancet_project",
+            "version": "1.0.9",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:lancet_project:lancet:1.0.9:*:*:*:*:go:*:*",
+                        "lastModifiedDate": "2022-11-21T16:25Z",
+                        "titles": [
+                            {
+                                "title": "Lancet Project Lancet 1.0.9 for Go",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/duke-git/lancet",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://github.com/duke-git/lancet/releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--db4a020e-2545-4b42-b5c0-5971c10715fc",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9b3ad541-750f-5f68-ab41-e3d02f0f9321",
+            "name": "Synthesiagame Synthesia 0.8.2",
+            "cpe": "cpe:2.3:a:synthesiagame:synthesia:0.8.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "synthesiagame",
+            "version": "0.8.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:synthesiagame:synthesia:0.8.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-21T17:31Z",
+                        "titles": [
+                            {
+                                "title": "Synthesiagame Synthesia 0.8.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://synthesiagame.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://synthesiagame.com/news",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-33897"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

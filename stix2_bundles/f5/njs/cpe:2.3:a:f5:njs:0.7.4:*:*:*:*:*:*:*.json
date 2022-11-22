@@ -1,0 +1,55 @@
+{
+    "type": "bundle",
+    "id": "bundle--a017670a-6937-4bd5-943b-cb16b9e9c646",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8f7ebf63-5ec1-5f5c-996e-52dc7de7157b",
+            "name": "F5 njs 0.7.4",
+            "cpe": "cpe:2.3:a:f5:njs:0.7.4:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "f5",
+            "version": "0.7.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:f5:njs:0.7.4:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-21T17:15Z",
+                        "titles": [
+                            {
+                                "title": "F5 njs 0.7.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/nginx/njs",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "http://nginx.org/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.f5.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34027",
+                            "CVE-2022-34029",
+                            "CVE-2022-43284",
+                            "CVE-2022-43285"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

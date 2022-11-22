@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--15ee0164-77da-4aac-8983-688403107cf8",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5cb60f85-dcac-55fc-9e45-bcce661430d6",
+            "name": "Benbodhi SVG Support 2.5.2 for WordPress",
+            "cpe": "cpe:2.3:a:benbodhi:svg_support:2.5.2:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "benbodhi",
+            "version": "2.5.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:benbodhi:svg_support:2.5.2:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T20:17Z",
+                        "titles": [
+                            {
+                                "title": "Benbodhi SVG Support 2.5.2 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/svg-support/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://benbodhi.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.wordfence.com/vulnerability-advisories-continued/#CVE-2022-4022",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

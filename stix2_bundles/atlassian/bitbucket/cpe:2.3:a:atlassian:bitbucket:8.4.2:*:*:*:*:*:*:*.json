@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--900b4587-00db-496d-8665-f91848d546cf",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8e3598ba-4e4f-506e-b333-ca44e57d1b09",
+            "name": "Atlassian Bitbucket 8.4.2",
+            "cpe": "cpe:2.3:a:atlassian:bitbucket:8.4.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "atlassian",
+            "version": "8.4.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:atlassian:bitbucket:8.4.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-21T13:00Z",
+                        "titles": [
+                            {
+                                "title": "Atlassian Bitbucket 8.4.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://confluence.atlassian.com/bitbucketserver/bitbucket-data-center-and-server-8-4-release-notes-1155142476.html",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.atlassian.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

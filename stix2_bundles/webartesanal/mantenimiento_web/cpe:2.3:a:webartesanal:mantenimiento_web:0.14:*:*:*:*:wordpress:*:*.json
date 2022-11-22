@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--afd89337-c2f4-4b82-a63d-f5999ee7d977",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a61e71b0-6944-50ea-952d-b34a83a36c6e",
+            "name": "Web Artesanal Mantenimiento Web (Web Maintenance) 0.14 for WordPress",
+            "cpe": "cpe:2.3:a:webartesanal:mantenimiento_web:0.14:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "webartesanal",
+            "version": "0.14",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:webartesanal:mantenimiento_web:0.14:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T13:09Z",
+                        "titles": [
+                            {
+                                "title": "Web Artesanal Mantenimiento Web (Web Maintenance) 0.14 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/mantenimiento-web/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://webartesanal.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/mantenimiento-web/wordpress-mantenimiento-web-plugin-0-13-cross-site-request-forgery-csrf-vulnerability-leading-to-stored-cross-site-scripting-xss?_s_id=cve",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

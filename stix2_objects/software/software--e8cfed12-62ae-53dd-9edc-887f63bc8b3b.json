@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--e8cfed12-62ae-53dd-9edc-887f63bc8b3b",
+    "name": "Cisco Umbrella Insights Virtual Appliance 2.2",
+    "cpe": "cpe:2.3:o:cisco:umbrella_insights_virtual_appliance:2.2:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "cisco",
+    "version": "2.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:cisco:umbrella_insights_virtual_appliance:2.2:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-21T14:21Z",
+                "refs": [
+                    {
+                        "ref": "https://www.cve.org/CVERecord?id=CVE-2022-20922",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://support.umbrella.com/hc/en-us/sections/4404390294164-Virtual-Appliance-Release-Notes",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Cisco Umbrella Insights Virtual Appliance 2.2"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-20922"
+                ]
+            }
+        }
+    }
+}

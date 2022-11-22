@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--9383da36-2f39-4f55-bc3c-4f1ef50c21a2",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6267b891-e9cf-5fa9-b729-4007c5a50384",
+            "name": "Constant Contact Creative Mail 1.4.2 for WordPress",
+            "cpe": "cpe:2.3:a:constantcontact:creative_mail:1.4.2:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "constantcontact",
+            "version": "1.4.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:constantcontact:creative_mail:1.4.2:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-21T13:06Z",
+                        "titles": [
+                            {
+                                "title": "Constant Contact Creative Mail 1.4.2 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/creative-mail-by-constant-contact/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.constantcontact.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/creative-mail-by-constant-contact/wordpress-creative-mail-plugin-1-5-4-cross-site-request-forgery-csrf-vulnerability?_s_id=cve",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-40686",
+                            "CVE-2022-40687"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

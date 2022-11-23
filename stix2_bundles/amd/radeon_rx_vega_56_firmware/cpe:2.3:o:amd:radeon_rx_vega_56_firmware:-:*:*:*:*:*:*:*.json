@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--808d9e74-5b41-485a-a523-3719b8fc3946",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8e72c57a-5fd8-5e33-9f1a-6278583d885c",
+            "name": "Advanced Micro Devices (AMD) RADEON RX VEGA 56 Firmware",
+            "cpe": "cpe:2.3:o:amd:radeon_rx_vega_56_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "amd",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:amd:radeon_rx_vega_56_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-22T18:35Z",
+                        "titles": [
+                            {
+                                "title": "Advanced Micro Devices (AMD) RADEON RX VEGA 56 Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://en.wikipedia.org/wiki/Radeon_RX_Vega_series",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1029",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

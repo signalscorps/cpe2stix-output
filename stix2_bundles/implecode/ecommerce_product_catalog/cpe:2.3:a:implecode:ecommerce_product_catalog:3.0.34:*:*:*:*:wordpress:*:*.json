@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--0a38b446-2e49-4fa1-a60e-19ef12b4775b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--582aa5f1-a5ce-5a35-a9f5-2da13ceac99d",
+            "name": "Implecode eCommerce Product Catalog 3.0.34 for WordPress",
+            "cpe": "cpe:2.3:a:implecode:ecommerce_product_catalog:3.0.34:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "implecode",
+            "version": "3.0.34",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:implecode:ecommerce_product_catalog:3.0.34:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-22T15:52Z",
+                        "titles": [
+                            {
+                                "title": "Implecode eCommerce Product Catalog 3.0.34 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/ecommerce-product-catalog/",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/ecommerce-product-catalog/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://implecode.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-24875"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

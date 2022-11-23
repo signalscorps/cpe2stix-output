@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--72969618-97d7-4b19-b13d-9e69f1a6d6e4",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3b8fa5f8-a69a-54c7-818d-15598adcc836",
+            "name": "Advanced Micro Devices (AMD) RADEON RX 6500M",
+            "cpe": "cpe:2.3:h:amd:radeon_rx_6500m:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "amd",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:amd:radeon_rx_6500m:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-22T18:35Z",
+                        "titles": [
+                            {
+                                "title": "Advanced Micro Devices (AMD) RADEON RX 6500M",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://en.wikipedia.org/wiki/Radeon_RX_6000_series",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1029",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

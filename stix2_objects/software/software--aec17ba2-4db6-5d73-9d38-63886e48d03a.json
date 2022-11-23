@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--aec17ba2-4db6-5d73-9d38-63886e48d03a",
+    "name": "Webpsilon ULTIMATE TABLES 1.2 for WordPress",
+    "cpe": "cpe:2.3:a:webpsilon:ultimate_tables:1.2:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "webpsilon",
+    "version": "1.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:webpsilon:ultimate_tables:1.2:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-22T15:14Z",
+                "refs": [
+                    {
+                        "ref": "https://www.webpsilon.com/en/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://patchstack.com/database/vulnerability/ultimate-tables/wordpress-ultimate-tables-plugin-1-6-5-unauth-reflected-cross-site-scripting-xss-vulnerability?_s_id=cve",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://plugins.trac.wordpress.org/log/ultimate-tables?format=changelog&rev=2821756&limit=100&mode=stop_on_copy",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Webpsilon ULTIMATE TABLES 1.2 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-36357"
+                ]
+            }
+        }
+    }
+}

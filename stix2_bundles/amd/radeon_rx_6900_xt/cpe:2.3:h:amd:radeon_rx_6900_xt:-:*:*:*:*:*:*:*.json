@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--66ccea47-d2a9-434c-9c22-c1b2030ef45c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--dfd9de33-eed8-59c6-9347-1b3cccfd66a7",
+            "name": "Advanced Micro Devices (AMD) RADEON RX 6900 XT",
+            "cpe": "cpe:2.3:h:amd:radeon_rx_6900_xt:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "amd",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:amd:radeon_rx_6900_xt:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-22T18:35Z",
+                        "titles": [
+                            {
+                                "title": "Advanced Micro Devices (AMD) RADEON RX 6900 XT",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://en.wikipedia.org/wiki/Radeon_RX_6000_series",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1029",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

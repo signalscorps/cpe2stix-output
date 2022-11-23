@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--ac6995b9-b6be-4819-82e2-e41a36e04341",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3edc3941-7337-5848-b0e1-fb3220ff6472",
+            "name": "Aioseo All In One Seo 3.1 for WordPress",
+            "cpe": "cpe:2.3:a:aioseo:all_in_one_seo:3.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "aioseo",
+            "version": "3.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:aioseo:all_in_one_seo:3.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-22T19:50Z",
+                        "titles": [
+                            {
+                                "title": "Aioseo All In One Seo 3.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://aioseo.com/changelog/",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-24307",
+                            "CVE-2021-25036",
+                            "CVE-2021-25037",
+                            "CVE-2022-38093",
+                            "CVE-2022-42494"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

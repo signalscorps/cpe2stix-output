@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--66cd2d2b-7790-4cd7-94da-e91e0f4a7187",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--effc80f1-c30f-59cc-bfa8-c62911189e97",
+            "name": "Implecode eCommerce Product Catalog 3.0.8 for WordPress",
+            "cpe": "cpe:2.3:a:implecode:ecommerce_product_catalog:3.0.8:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "implecode",
+            "version": "3.0.8",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:implecode:ecommerce_product_catalog:3.0.8:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-22T15:52Z",
+                        "titles": [
+                            {
+                                "title": "Implecode eCommerce Product Catalog 3.0.8 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/ecommerce-product-catalog/",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/ecommerce-product-catalog/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://implecode.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-24875"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

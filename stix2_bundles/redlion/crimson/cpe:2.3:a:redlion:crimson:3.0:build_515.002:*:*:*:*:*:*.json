@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--ca243dd6-cc03-40e0-923e-fb04ac9fafb7",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c517c588-816f-5be5-a474-1f3d7cf7d34a",
+            "name": "Red Lion Crimson 3.0 Build 515.002",
+            "cpe": "cpe:2.3:a:redlion:crimson:3.0:build_515.002:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "redlion",
+            "version": "3.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:redlion:crimson:3.0:build_515.002:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-22T19:27Z",
+                        "titles": [
+                            {
+                                "title": "Red Lion Crimson 3.0 Build 515.002",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.redlion.net/red-lion-software/crimson/crimson-30/revision-history",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.redlion.net/red-lion-software/crimson",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-10978",
+                            "CVE-2019-10984",
+                            "CVE-2019-10990",
+                            "CVE-2019-10996",
+                            "CVE-2022-3090"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

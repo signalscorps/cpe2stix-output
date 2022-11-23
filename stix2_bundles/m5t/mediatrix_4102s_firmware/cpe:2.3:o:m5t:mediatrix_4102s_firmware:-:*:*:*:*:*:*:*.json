@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--3ba18bbf-5060-48f3-beba-a422cb0133b5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--980a2667-1936-5e50-9b3e-a806ee8c3811",
+            "name": "M5 Technologies Mediatrix 4102S Firmware",
+            "cpe": "cpe:2.3:o:m5t:mediatrix_4102s_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "m5t",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:m5t:mediatrix_4102s_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-22T17:45Z",
+                        "titles": [
+                            {
+                                "title": "M5 Technologies Mediatrix 4102S Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.m5t.com/products/mediatrix-access-devices/4100-voip-adaptors/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43096"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

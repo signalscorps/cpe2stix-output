@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--efd51c9b-2601-449c-91ef-6a82e6bd64b0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d1c2990d-d1fb-541b-abd5-04831be288af",
+            "name": "weDevs WP User Frontend 3.1.17 for WordPress",
+            "cpe": "cpe:2.3:a:wedevs:wp_user_frontend:3.1.17:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wedevs",
+            "version": "3.1.17",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wedevs:wp_user_frontend:3.1.17:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-22T17:38Z",
+                        "titles": [
+                            {
+                                "title": "weDevs WP User Frontend 3.1.17 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wpscan.com/vulnerability/9486744e-ab24-44e4-b06e-9e0b4be132e2",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/wp-user-frontend/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-25076"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--dcf11b70-dcc0-487b-af1c-c06561c0cf4c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--cb5eca05-32d4-5d12-9244-24fcb037d94b",
+            "name": "Red Lion Crimson 3.2 Build 3.2.0030.0",
+            "cpe": "cpe:2.3:a:redlion:crimson:3.2:build_3.2.0030.0:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "redlion",
+            "version": "3.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:redlion:crimson:3.2:build_3.2.0030.0:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-22T19:27Z",
+                        "titles": [
+                            {
+                                "title": "Red Lion Crimson 3.2 Build 3.2.0030.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.redlion.net/support/software-firmware/red-lion-software/crimson/crimson-32/revision-history",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.redlion.net/red-lion-software/crimson",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-10978",
+                            "CVE-2019-10984",
+                            "CVE-2019-10990",
+                            "CVE-2019-10996",
+                            "CVE-2022-3090"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

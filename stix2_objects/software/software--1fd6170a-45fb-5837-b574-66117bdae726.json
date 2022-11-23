@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--1fd6170a-45fb-5837-b574-66117bdae726",
+    "name": "weDevs WP User Frontend 3.2.0 for WordPress",
+    "cpe": "cpe:2.3:a:wedevs:wp_user_frontend:3.2.0:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "wedevs",
+    "version": "3.2.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:wedevs:wp_user_frontend:3.2.0:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-22T17:38Z",
+                "refs": [
+                    {
+                        "ref": "https://wpscan.com/vulnerability/9486744e-ab24-44e4-b06e-9e0b4be132e2",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://wordpress.org/plugins/wp-user-frontend/#developers",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "weDevs WP User Frontend 3.2.0 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-25076"
+                ]
+            }
+        }
+    }
+}

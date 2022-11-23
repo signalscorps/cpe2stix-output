@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--83027c7e-2de2-4dbc-b6dc-2a6bd2fc8625",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9bd5f1af-b03f-5c68-a839-28266c3a53ad",
+            "name": "Advanced Micro Devices (AMD) RADEON RX 6800S",
+            "cpe": "cpe:2.3:h:amd:radeon_rx_6800s:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "amd",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:amd:radeon_rx_6800s:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-22T18:35Z",
+                        "titles": [
+                            {
+                                "title": "Advanced Micro Devices (AMD) RADEON RX 6800S",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://en.wikipedia.org/wiki/Radeon_RX_6000_series",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1029",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--c032f946-c276-448c-9bad-f5ae30533ac6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c2a91bdc-3377-57bf-8961-b121765c6f1a",
+            "name": "Webpsilon ULTIMATE TABLES 1.3 for WordPress",
+            "cpe": "cpe:2.3:a:webpsilon:ultimate_tables:1.3:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "webpsilon",
+            "version": "1.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:webpsilon:ultimate_tables:1.3:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-22T15:14Z",
+                        "titles": [
+                            {
+                                "title": "Webpsilon ULTIMATE TABLES 1.3 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.webpsilon.com/en/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/ultimate-tables/wordpress-ultimate-tables-plugin-1-6-5-unauth-reflected-cross-site-scripting-xss-vulnerability?_s_id=cve",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://plugins.trac.wordpress.org/log/ultimate-tables?format=changelog&rev=2821756&limit=100&mode=stop_on_copy",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-36357"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

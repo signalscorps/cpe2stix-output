@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--6110186f-b2fd-4542-80b0-bbd7965552fc",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bc04a1ec-b03e-58dd-a6dd-5158b5343b54",
+            "name": "drachtio drachtio-server 0.8.14",
+            "cpe": "cpe:2.3:a:drachtio:drachtio-server:0.8.14:-:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "drachtio",
+            "version": "0.8.14",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:drachtio:drachtio-server:0.8.14:-:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-22T15:14Z",
+                        "titles": [
+                            {
+                                "title": "drachtio drachtio-server 0.8.14",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/drachtio/drachtio-server/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/drachtio/drachtio-server",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://drachtio.org/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

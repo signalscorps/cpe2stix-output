@@ -1,0 +1,47 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--52c50851-26e1-5e12-bed3-b0c9cc385e11",
+    "name": "drachtio drachtio-server 0.8.18 Release Candidate 2",
+    "cpe": "cpe:2.3:a:drachtio:drachtio-server:0.8.18:rc2:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "drachtio",
+    "version": "0.8.18",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:drachtio:drachtio-server:0.8.18:rc2:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-22T15:14Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/drachtio/drachtio-server/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://github.com/drachtio/drachtio-server",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://drachtio.org/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "drachtio drachtio-server 0.8.18 Release Candidate 2"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-45473",
+                    "CVE-2022-45474"
+                ]
+            }
+        }
+    }
+}

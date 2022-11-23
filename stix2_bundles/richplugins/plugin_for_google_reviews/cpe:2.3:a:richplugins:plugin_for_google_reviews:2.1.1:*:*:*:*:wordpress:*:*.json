@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--2adcd5e5-1b78-46e5-923b-be1df3265144",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ef24009d-b181-5080-acf9-d7da31fc177d",
+            "name": "RichPlugins Plugin For Google Reviews 2.1.1 for WordPress",
+            "cpe": "cpe:2.3:a:richplugins:plugin_for_google_reviews:2.1.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "richplugins",
+            "version": "2.1.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:richplugins:plugin_for_google_reviews:2.1.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-22T18:22Z",
+                        "titles": [
+                            {
+                                "title": "RichPlugins Plugin For Google Reviews 2.1.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/widget-google-reviews/wordpress-plugin-for-google-reviews-plugin-2-2-2-auth-broken-access-control-vulnerability?_s_id=cve",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/widget-google-reviews/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://richplugins.com/business-reviews-bundle-wordpress-plugin",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

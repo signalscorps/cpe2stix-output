@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--ded3132f-0205-4a31-973b-de9bff34070c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5c476b5c-fd5e-54f1-adf1-4c4dcb15c653",
+            "name": "WPBrigade LoginPress 1.6.1 for WordPress",
+            "cpe": "cpe:2.3:a:wpbrigade:loginpress:1.6.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wpbrigade",
+            "version": "1.6.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wpbrigade:loginpress:1.6.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-22T20:10Z",
+                        "titles": [
+                            {
+                                "title": "WPBrigade LoginPress 1.6.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wpbrigade.com",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/loginpress/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41839"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

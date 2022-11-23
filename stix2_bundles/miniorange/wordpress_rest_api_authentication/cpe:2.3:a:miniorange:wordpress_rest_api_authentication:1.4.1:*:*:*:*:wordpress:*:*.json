@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--2a29ed02-6c7c-4d85-be35-61279438f041",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4dd7eecb-4666-5a4a-9f23-d6576e14a5be",
+            "name": "miniOrange WordPress REST API Authentication 1.4.1 for WordPress",
+            "cpe": "cpe:2.3:a:miniorange:wordpress_rest_api_authentication:1.4.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "miniorange",
+            "version": "1.4.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:miniorange:wordpress_rest_api_authentication:1.4.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-22T20:10Z",
+                        "titles": [
+                            {
+                                "title": "miniOrange WordPress REST API Authentication 1.4.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/wp-rest-api-authentication/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://plugins.miniorange.com/wordpress-rest-api-authentication",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45073"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

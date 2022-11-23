@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--9fb5f7e8-000f-461c-bec8-c78f0ee5cb8a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--cbf9d5b5-8ca1-5550-bd74-f7456253fb88",
+            "name": "Code Atlantic Popup Maker 1.9.2 for WordPress",
+            "cpe": "cpe:2.3:a:code-atlantic:popup_maker:1.9.2:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "code-atlantic",
+            "version": "1.9.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:code-atlantic:popup_maker:1.9.2:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-22T20:03Z",
+                        "titles": [
+                            {
+                                "title": "Code Atlantic Popup Maker 1.9.2 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://code-atlantic.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/PopupMaker/Popup-Maker/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-1104"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--b6fe62a7-ecc2-4320-afca-e60450723c42",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7daa6ed7-619d-5023-8dde-00a69199de44",
+            "name": "VillaTheme S2W - Import Shopify to WooCommerce 1.0.3 for WordPress",
+            "cpe": "cpe:2.3:a:villatheme:s2w_-_import_shopify_to_woocommerce:1.0.3:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "villatheme",
+            "version": "1.0.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:villatheme:s2w_-_import_shopify_to_woocommerce:1.0.3:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-22T20:10Z",
+                        "titles": [
+                            {
+                                "title": "VillaTheme S2W - Import Shopify to WooCommerce 1.0.3 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/import-shopify-to-woocommerce/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://villatheme.com/extensions/s2w-import-shopify-to-woocommerce/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-44634"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

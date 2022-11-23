@@ -1,0 +1,62 @@
+{
+    "type": "bundle",
+    "id": "bundle--1fecea83-1795-478f-85e3-bdb1cd0851a0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5f427099-c154-5467-8300-1659ef2a437e",
+            "name": "Google TensorFlow 2.7.4",
+            "cpe": "cpe:2.3:a:google:tensorflow:2.7.4:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "google",
+            "version": "2.7.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:google:tensorflow:2.7.4:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-22T15:14Z",
+                        "titles": [
+                            {
+                                "title": "Google TensorFlow 2.7.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.tensorflow.org/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/tensorflow/tensorflow/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23592",
+                            "CVE-2022-23593",
+                            "CVE-2022-41880",
+                            "CVE-2022-41884",
+                            "CVE-2022-41886",
+                            "CVE-2022-41888",
+                            "CVE-2022-41889",
+                            "CVE-2022-41890",
+                            "CVE-2022-41891",
+                            "CVE-2022-41893",
+                            "CVE-2022-41894",
+                            "CVE-2022-41895",
+                            "CVE-2022-41896",
+                            "CVE-2022-41897",
+                            "CVE-2022-41898"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

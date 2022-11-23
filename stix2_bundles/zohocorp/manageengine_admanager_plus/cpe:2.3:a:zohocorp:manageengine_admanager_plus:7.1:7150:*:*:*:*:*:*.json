@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--08af3d18-d1b0-4ff2-8d65-ceb3bfb2f96a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--485d045a-abbb-5612-91a0-752f22bd6591",
+            "name": "ZohoCorp ManageEngine ADManager Plus 7.1 7150",
+            "cpe": "cpe:2.3:a:zohocorp:manageengine_admanager_plus:7.1:7150:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "zohocorp",
+            "version": "7.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:zohocorp:manageengine_admanager_plus:7.1:7150:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-22T19:27Z",
+                        "titles": [
+                            {
+                                "title": "ZohoCorp ManageEngine ADManager Plus 7.1 7150",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.manageengine.com/products/ad-manager/release-notes.html",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-42904"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

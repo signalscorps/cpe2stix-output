@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--b24f8b6c-7c74-4b7a-9462-2f2e577d8459",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a13331b5-3e0e-5d50-b3d9-55594f3168da",
+            "name": "Jenkins Sauce OnDemand 1.23 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:sauce_ondemand:1.23:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.23",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:sauce_ondemand:1.23:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T17:59Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Sauce OnDemand 1.23 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/sauce-ondemand/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34197"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

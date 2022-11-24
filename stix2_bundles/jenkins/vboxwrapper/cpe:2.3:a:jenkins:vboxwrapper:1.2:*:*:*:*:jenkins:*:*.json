@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--50136fc1-08b9-4e5a-b21e-4493dae43d4b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--aea983c9-053c-56ed-90dd-4b40dd542a58",
+            "name": "Jenkins vboxwrapper 1.2 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:vboxwrapper:1.2:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:vboxwrapper:1.2:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T13:43Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins vboxwrapper 1.2 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/vboxwrapper/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-30968"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

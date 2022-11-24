@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--82623fc0-1ff4-4d61-a794-b1810f396530",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--439abae2-9bb6-54c4-818d-4c4b7533bb48",
+            "name": "Cisco Firepower Extensible Operating System (FXOS) 1.1.1.147",
+            "cpe": "cpe:2.3:o:cisco:firepower_extensible_operating_system:1.1.1.147:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "1.1.1.147",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:cisco:firepower_extensible_operating_system:1.1.1.147:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-23T15:16Z",
+                        "titles": [
+                            {
+                                "title": "Cisco Firepower Extensible Operating System (FXOS) 1.1.1.147",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cisco.com/c/en/us/index.html",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/20xxx/CVE-2022-20934.json",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-3455",
+                            "CVE-2020-3459"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--dbfbc1d2-2336-427b-a2e8-9d9dae0729c3",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--84518012-fc62-5076-bac7-f86325ff13dc",
+            "name": "Jenkins S3 Explorer 1.0.8 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:s3_explorer:1.0.8:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.0.8",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:s3_explorer:1.0.8:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T02:23Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins S3 Explorer 1.0.8 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/s3explorer/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43426"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

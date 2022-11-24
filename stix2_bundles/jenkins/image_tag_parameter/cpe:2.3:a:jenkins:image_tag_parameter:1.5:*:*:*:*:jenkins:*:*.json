@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--47eed1d2-95dc-42aa-ae53-3b02dc430e4a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--737f05ea-7f96-5eee-aef3-b29fc999b0c5",
+            "name": "Jenkins Image Tag Parameter 1.5 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:image_tag_parameter:1.5:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:image_tag_parameter:1.5:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T16:15Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Image Tag Parameter 1.5 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/image-tag-parameter/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34189"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

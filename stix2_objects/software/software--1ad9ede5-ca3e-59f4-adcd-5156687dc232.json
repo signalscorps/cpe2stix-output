@@ -1,0 +1,40 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--1ad9ede5-ca3e-59f4-adcd-5156687dc232",
+    "name": "Jenkins XPath Configuration Viewer 1.0.8 for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:xpath_configuration_viewer:1.0.8:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "1.0.8",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:xpath_configuration_viewer:1.0.8:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T01:22Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/xpath-config-viewer/#releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins XPath Configuration Viewer 1.0.8 for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-34811",
+                    "CVE-2022-34812",
+                    "CVE-2022-34813"
+                ]
+            }
+        }
+    }
+}

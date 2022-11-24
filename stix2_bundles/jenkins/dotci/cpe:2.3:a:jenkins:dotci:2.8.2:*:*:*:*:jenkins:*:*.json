@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--da654ca3-9ebe-430a-8fd2-198fabbba971",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b2566bb8-bd8f-5359-8ece-09dbb565ed81",
+            "name": "Jenkins DotCI 2.8.2 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:dotci:2.8.2:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "2.8.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:dotci:2.8.2:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T18:53Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins DotCI 2.8.2 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/DotCi/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/groupon/DotCi/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41237",
+                            "CVE-2022-41238",
+                            "CVE-2022-41239"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

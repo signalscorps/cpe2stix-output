@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--10acd1c5-ae41-4879-864a-460c3fea87ef",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3676c7c8-7273-5061-aa78-06f48791e1e8",
+            "name": "Jenkins Mailer 1.31.1 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:mailer:1.31.1:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.31.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:mailer:1.31.1:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T01:46Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Mailer 1.31.1 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/mailer/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-2252",
+                            "CVE-2022-20613",
+                            "CVE-2022-20614"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

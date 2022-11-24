@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--7d1c9b2d-84d6-4cb6-9a52-8757f576a1e7",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a59ffa1c-b6c3-50ca-a748-5bd4c59f6e0b",
+            "name": "Jenkins JDK Parameter for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:jdk_parameter:-:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:jdk_parameter:-:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T13:27Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins JDK Parameter for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/JDK_Parameter_Plugin/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-30963"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

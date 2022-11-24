@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--0d05aa99-b7e6-4da7-91a9-e7cfcd4e7be8",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7dd78bc3-2948-5070-9372-a3d5d2aeb9b2",
+            "name": "Jenkins ElasTest 0.10 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:elastest:0.10:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "0.10",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:elastest:0.10:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T15:46Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins ElasTest 0.10 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/elastest/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-2272",
+                            "CVE-2020-2273",
+                            "CVE-2020-2274"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

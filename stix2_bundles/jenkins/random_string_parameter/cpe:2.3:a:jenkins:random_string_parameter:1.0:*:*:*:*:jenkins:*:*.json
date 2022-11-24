@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--c38cb3f9-57f6-40a3-96a9-2acf1759643d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--abbb3bc6-372e-57c5-bfae-8c1833068671",
+            "name": "Jenkins Random String Parameter 1.0 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:random_string_parameter:1.0:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:random_string_parameter:1.0:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T13:43Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Random String Parameter 1.0 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/random-string-parameter/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-30966"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

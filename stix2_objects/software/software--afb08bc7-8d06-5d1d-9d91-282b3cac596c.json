@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--afb08bc7-8d06-5d1d-9d91-282b3cac596c",
+    "name": "Jenkins Build Notifications 1.4.2 for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:build_notifications:1.4.2:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "1.4.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:build_notifications:1.4.2:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T00:51Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/build-notifications/#releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins Build Notifications 1.4.2 for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-34800",
+                    "CVE-2022-34801"
+                ]
+            }
+        }
+    }
+}

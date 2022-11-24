@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--5f15f8f6-c831-41cc-9429-8b53e7f17c94",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ddd4bafa-b684-5de9-8538-1d14a5ec4478",
+            "name": "Max Foundry Media Library Folders 2.33 for WordPress",
+            "cpe": "cpe:2.3:a:maxfoundry:media_library_folders:2.33:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "maxfoundry",
+            "version": "2.33",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:maxfoundry:media_library_folders:2.33:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-23T19:59Z",
+                        "titles": [
+                            {
+                                "title": "Max Foundry Media Library Folders 2.33 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/media-library-plus/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "http://maxfoundry.com/products",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41634"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

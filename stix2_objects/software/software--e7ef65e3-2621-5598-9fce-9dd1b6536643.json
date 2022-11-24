@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--e7ef65e3-2621-5598-9fce-9dd1b6536643",
+    "name": "Open Knowledge Foundation CKAN 2.9.6",
+    "cpe": "cpe:2.3:a:okfn:ckan:2.9.6:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "okfn",
+    "version": "2.9.6",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:okfn:ckan:2.9.6:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T17:46Z",
+                "refs": [
+                    {
+                        "ref": "https://ckan.org/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://okfn.org/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/ckan/ckan/tags",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Open Knowledge Foundation CKAN 2.9.6"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-43685"
+                ]
+            }
+        }
+    }
+}

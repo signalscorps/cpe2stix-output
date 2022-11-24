@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--4d172fd5-9c43-53bb-9d3b-0d2433e72927",
+    "name": "Jenkins CloudBees AWS Credentials 1.33 for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:cloudbees_aws_credentials:1.33:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "1.33",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:cloudbees_aws_credentials:1.33:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T13:51Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/aws-credentials/#releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins CloudBees AWS Credentials 1.33 for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-27198",
+                    "CVE-2022-27199"
+                ]
+            }
+        }
+    }
+}

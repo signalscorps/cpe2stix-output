@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--a1a541c8-0f09-4099-9ad3-412882b727bf",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--665371a0-3570-5469-ab72-5a1205956036",
+            "name": "Jenkins XebiaLabs XL Deploy 10.0.4 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:xebialabs_xl_deploy:10.0.4:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "10.0.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:xebialabs_xl_deploy:10.0.4:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T18:31Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins XebiaLabs XL Deploy 10.0.4 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/deployit-plugin/#releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/jenkinsci/xldeploy-plugin/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

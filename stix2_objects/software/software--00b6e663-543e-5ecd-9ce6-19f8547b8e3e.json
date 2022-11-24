@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--00b6e663-543e-5ecd-9ce6-19f8547b8e3e",
+    "name": "Jenkins extreme-feedback 1.0 for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:extreme-feedback:1.0:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "1.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:extreme-feedback:1.0:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T12:42Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/extreme-feedback/#releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins extreme-feedback 1.0 for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-41242"
+                ]
+            }
+        }
+    }
+}

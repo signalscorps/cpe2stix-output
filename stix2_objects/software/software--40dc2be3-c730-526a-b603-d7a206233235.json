@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--40dc2be3-c730-526a-b603-d7a206233235",
+    "name": "Jenkins Autocomplete Parameter for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:autocomplete_parameter:-:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:autocomplete_parameter:-:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T13:43Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/jenkinsci/autocomplete-parameter-plugin/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://plugins.jenkins.io/autocomplete-parameter/",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins Autocomplete Parameter for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-30961",
+                    "CVE-2022-30969"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--968022d5-b98f-57a3-a8a8-0a49ed589c63",
+    "name": "Silicon Labs Gecko Software Development Kit (SDK)",
+    "cpe": "cpe:2.3:a:silabs:gecko_software_development_kit:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "silabs",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:silabs:gecko_software_development_kit:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T16:41Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/SiliconLabs/gecko_sdk",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://github.com/SiliconLabs/gecko_sdk/tags",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Silicon Labs Gecko Software Development Kit (SDK)"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-24939"
+                ]
+            }
+        }
+    }
+}

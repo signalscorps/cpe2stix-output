@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--b72e3b1f-9864-56e4-a029-08a9e3e8d807",
+    "name": "Jenkins vRealize Orchestrator 2.0 for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:vrealize_orchestrator:2.0:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "2.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:vrealize_orchestrator:2.0:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T18:31Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/vmware-vrealize-orchestrator/#releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins vRealize Orchestrator 2.0 for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-34211",
+                    "CVE-2022-34212"
+                ]
+            }
+        }
+    }
+}

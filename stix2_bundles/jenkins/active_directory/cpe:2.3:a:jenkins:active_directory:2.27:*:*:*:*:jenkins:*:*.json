@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--b6171cd8-e4f4-4f75-ad5d-7e7f273de797",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bbfb9cd6-bd55-5197-a79e-b610c3c0a835",
+            "name": "Jenkins Active Directory 2.27 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:active_directory:2.27:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "2.27",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:active_directory:2.27:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T01:34Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Active Directory 2.27 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/active-directory/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--39481a24-456a-4b8d-af65-1795a51af464",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--09b65a5a-dddb-5f6a-ad71-5d6df10cef20",
+            "name": "Kiwi TCMS 3.8.18.10",
+            "cpe": "cpe:2.3:a:kiwitcms:kiwi_tcms:3.8.18.10:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "kiwitcms",
+            "version": "3.8.18.10",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:kiwitcms:kiwi_tcms:3.8.18.10:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-23T15:15Z",
+                        "titles": [
+                            {
+                                "title": "Kiwi TCMS 3.8.18.10",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/kiwitcms/Kiwi/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/kiwitcms/Kiwi",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://kiwitcms.org/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-4105"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--21f06c15-e2d9-5b76-952b-94bb137daaf5",
+    "name": "Wire 3.27.4223 for Windows",
+    "cpe": "cpe:2.3:a:wire:wire:3.27.4223:*:*:*:*:windows:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "wire",
+    "version": "3.27.4223",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:wire:wire:3.27.4223:*:*:*:*:windows:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T19:59Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/wireapp/wire-desktop/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://wire.com/en/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Wire 3.27.4223 for Windows"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-32755"
+                ]
+            }
+        }
+    }
+}

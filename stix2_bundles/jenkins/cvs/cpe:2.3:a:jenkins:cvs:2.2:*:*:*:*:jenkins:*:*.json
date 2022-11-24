@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--64e83f54-7b8d-4aca-91d0-b0e5b24693b5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--373000f0-e428-5021-945b-dee1202886f4",
+            "name": "Jenkins CVS 2.2 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:cvs:2.2:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "2.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:cvs:2.2:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T13:47Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins CVS 2.2 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/cvs/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-2324",
+                            "CVE-2022-29037"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

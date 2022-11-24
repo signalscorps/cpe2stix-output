@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--443a101d-e961-4aa0-acd5-9e84e927ed8c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bd2934f7-85bf-558f-b01a-0312cbec6a64",
+            "name": "Jenkins Failed Job Deactivator 1.1.1 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:failed_job_deactivator:1.1.1:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.1.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:failed_job_deactivator:1.1.1:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T01:04Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Failed Job Deactivator 1.1.1 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/failedJobDeactivator/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34817",
+                            "CVE-2022-34818"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

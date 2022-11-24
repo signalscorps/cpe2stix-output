@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--ae8bc7b5-d0f8-4764-b2a3-1ec78fd51561",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1192d1c8-d5f7-5652-8ba7-9b3217c2ad41",
+            "name": "Jenkins Environment Dashboard 1.0.6 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:environment_dashboard:1.0.6:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.0.6",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:environment_dashboard:1.0.6:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T15:46Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Environment Dashboard 1.0.6 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/environment-dashboard/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-27213"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

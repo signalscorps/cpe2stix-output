@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--6600ad5a-d3b5-40cd-9d05-26342e3269ac",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--de40b463-771a-51b4-9fa6-bb4ec490cf89",
+            "name": "Jenkins Azure AD 174.vc2d906355813 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:azure_ad:174.vc2d906355813:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "174.vc2d906355813",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:azure_ad:174.vc2d906355813:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T13:08Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Azure AD 174.vc2d906355813 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/azure-ad/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-21679"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

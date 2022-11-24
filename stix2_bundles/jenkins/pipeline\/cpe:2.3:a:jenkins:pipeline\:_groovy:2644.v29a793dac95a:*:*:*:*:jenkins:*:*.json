@@ -1,0 +1,47 @@
+{
+    "type": "bundle",
+    "id": "bundle--5757fe7e-40cc-4565-aa49-7df3618d0bf2",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6689c923-67b0-584a-8619-cc7d69207e02",
+            "name": "Jenkins Pipeline: Groovy 2644.v29a793dac95a for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:pipeline\\:_groovy:2644.v29a793dac95a:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "_groovy",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:pipeline\\:_groovy:2644.v29a793dac95a:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T13:27Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Pipeline: Groovy 2644.v29a793dac95a for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/workflow-cps/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-25173",
+                            "CVE-2022-25176",
+                            "CVE-2022-25180",
+                            "CVE-2022-30945"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--09d5f868-d320-499b-8a7a-a61e17d3b030",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--341f5bea-a29c-571b-b122-ab395a0e9cc9",
+            "name": "Agile Logix Store Locator 1.4 for WordPress",
+            "cpe": "cpe:2.3:a:agilelogix:store_locator:1.4:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "agilelogix",
+            "version": "1.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:agilelogix:store_locator:1.4:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-23T19:59Z",
+                        "titles": [
+                            {
+                                "title": "Agile Logix Store Locator 1.4 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/agile-store-locator/wordpress-store-locator-plugin-1-4-5-cross-site-scripting-xss-via-cross-site-request-forgery-csrf-vulnerability?_s_id=cve",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/agile-store-locator/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://agilestorelocator.com/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41615"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

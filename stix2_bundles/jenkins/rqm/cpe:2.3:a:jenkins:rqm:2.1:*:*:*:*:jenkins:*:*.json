@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--f4c193d8-ec41-49a6-9069-a6e8705859e0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--82dcacae-0ed7-5c25-9fb1-15483e2ae8ac",
+            "name": "Jenkins RQM 2.1 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:rqm:2.1:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "2.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:rqm:2.1:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T01:12Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins RQM 2.1 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/rqm-plugin/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34809",
+                            "CVE-2022-34810",
+                            "CVE-2022-41241"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

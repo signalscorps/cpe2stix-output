@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--ae4cbda6-9c2b-5405-a2f2-e72c3d84f290",
+    "name": "Jenkins Active Directory 2.22 for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:active_directory:2.22:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "2.22",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:active_directory:2.22:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T01:34Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/active-directory/#releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins Active Directory 2.22 for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-23105"
+                ]
+            }
+        }
+    }
+}

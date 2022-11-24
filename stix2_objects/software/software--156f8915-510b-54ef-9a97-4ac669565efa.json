@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--156f8915-510b-54ef-9a97-4ac669565efa",
+    "name": "Jenkins Script Security 1158.v7c1b 73a 69a 08 for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:script_security:1158.v7c1b_73a_69a_08:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "1158.v7c1b_73a_69a_08",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:script_security:1158.v7c1b_73a_69a_08:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T02:23Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/script-security/#releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins Script Security 1158.v7c1b 73a 69a 08 for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-30946",
+                    "CVE-2022-43401",
+                    "CVE-2022-43403",
+                    "CVE-2022-43404",
+                    "CVE-2022-45379"
+                ]
+            }
+        }
+    }
+}

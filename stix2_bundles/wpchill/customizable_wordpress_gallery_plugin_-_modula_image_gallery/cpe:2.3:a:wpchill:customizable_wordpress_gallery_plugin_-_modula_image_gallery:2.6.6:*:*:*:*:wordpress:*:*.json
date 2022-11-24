@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--6e6fbf1e-5f85-493b-8651-b0dadb27dd4b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f6d51d3e-b9f5-5f56-a851-fca86bb4aa1c",
+            "name": "WPChill Customizable Wordpress Gallery Plugin - Modula Image Gallery 2.6.6 for WordPress",
+            "cpe": "cpe:2.3:a:wpchill:customizable_wordpress_gallery_plugin_-_modula_image_gallery:2.6.6:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wpchill",
+            "version": "2.6.6",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wpchill:customizable_wordpress_gallery_plugin_-_modula_image_gallery:2.6.6:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-23T19:59Z",
+                        "titles": [
+                            {
+                                "title": "WPChill Customizable Wordpress Gallery Plugin - Modula Image Gallery 2.6.6 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/modula-best-grid-gallery/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://wpchill.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wp-modula.com/?utm_source=wpchill&utm_medium=products_section",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41135"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

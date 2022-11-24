@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--42847e52-56d6-4987-9bd2-338c3e896e11",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--edbf94fd-d68f-5a91-a887-bde3db044b23",
+            "name": "Jenkins Subversion 2.13.2 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:subversion:2.13.2:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "2.13.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:subversion:2.13.2:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T18:03Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Subversion 2.13.2 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/subversion/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-21698",
+                            "CVE-2022-29046",
+                            "CVE-2022-29048"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--d6fdba92-cdfa-459d-a910-80bac763be37",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ea383bd0-30b9-5b55-b6b5-a4e8150ce14f",
+            "name": "Jenkins Agent Server Parameter for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:agent_server_parameter:-:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:agent_server_parameter:-:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T01:57Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Agent Server Parameter for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/agent-server-parameter/#releases",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-25191",
+                            "CVE-2022-34183"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

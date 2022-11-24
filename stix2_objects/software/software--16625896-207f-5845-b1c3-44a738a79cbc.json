@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--16625896-207f-5845-b1c3-44a738a79cbc",
+    "name": "Jenkins Bitbucket Server Integration 1.0 Release Candidate 1 for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:bitbucket_server_integration:1.0:rc1:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "1.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:bitbucket_server_integration:1.0:rc1:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T00:46Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/jenkinsci/atlassian-bitbucket-server-integration-plugin/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://plugins.jenkins.io/atlassian-bitbucket-server-integration/#releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins Bitbucket Server Integration 1.0 Release Candidate 1 for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-28134"
+                ]
+            }
+        }
+    }
+}

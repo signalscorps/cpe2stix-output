@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--cb12348d-c4f3-4448-a46b-263722620070",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--407bb37c-b3b9-552d-9a73-ac836e29cb98",
+            "name": "Jenkins Matrix Project 1.19 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:matrix_project:1.19:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.19",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:matrix_project:1.19:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T01:46Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Matrix Project 1.19 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/matrix-project/#releases",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-20615"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

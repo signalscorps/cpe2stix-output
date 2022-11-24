@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--bd7e54ca-faf3-5cba-aac1-f927f7d79c76",
+    "name": "Jenkins VMware vRealize Automation 1.0 for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:vmware_vrealize_automation:1.0:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "1.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:vmware_vrealize_automation:1.0:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T18:27Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/vmware-vrealize-automation-plugin/#releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins VMware vRealize Automation 1.0 for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2019-1003068",
+                    "CVE-2022-27217"
+                ]
+            }
+        }
+    }
+}

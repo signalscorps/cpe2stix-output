@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--243cc878-ee1f-4718-bba6-d2baa3490d10",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--641dcebf-48c2-594f-9ffe-b97e40e7099b",
+            "name": "Jenkins Git Parameter 0.9.13 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:git_parameter:0.9.13:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "0.9.13",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:git_parameter:0.9.13:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T15:56Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Git Parameter 0.9.13 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/git-parameter/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-29040"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

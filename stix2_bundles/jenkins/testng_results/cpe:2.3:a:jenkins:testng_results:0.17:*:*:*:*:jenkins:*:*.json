@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--5e4fbdcd-9c19-4cca-870b-a135f3aaf622",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8d615133-506c-5f91-bc73-b358d6944952",
+            "name": "Jenkins TestNG Results 0.17 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:testng_results:0.17:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "0.17",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:testng_results:0.17:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T18:18Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins TestNG Results 0.17 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/testng-plugin/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34778"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

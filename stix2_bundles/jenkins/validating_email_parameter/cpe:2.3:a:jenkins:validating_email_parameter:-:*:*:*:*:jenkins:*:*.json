@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--64b4d868-97d6-42a0-950c-9ad948de122b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--66d9fa15-8583-564b-a937-6c6b3bf75289",
+            "name": "Jenkins Validating Email Parameter for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:validating_email_parameter:-:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:validating_email_parameter:-:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T01:22Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Validating Email Parameter for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/validating-email-parameter/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34791"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

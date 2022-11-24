@@ -1,0 +1,47 @@
+{
+    "type": "bundle",
+    "id": "bundle--0b7597fc-6616-4e74-b7fe-42cf9429922a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c47947aa-dbe6-5e2a-86d8-3f460257aadc",
+            "name": "Jenkins Script Security 1175.1179.vea f7532629e1 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:script_security:1175.1179.vea_f7532629e1:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1175.1179.vea_f7532629e1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:script_security:1175.1179.vea_f7532629e1:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T02:23Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Script Security 1175.1179.vea f7532629e1 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/script-security/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43401",
+                            "CVE-2022-43403",
+                            "CVE-2022-43404",
+                            "CVE-2022-45379"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

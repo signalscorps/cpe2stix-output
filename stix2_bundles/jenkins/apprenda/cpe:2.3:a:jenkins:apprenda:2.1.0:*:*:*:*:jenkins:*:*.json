@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--6c090e22-24ed-4e72-8409-30f639a2d021",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--816cd924-517c-51ff-a85d-cd93d33d40ff",
+            "name": "Jenkins Apprenda 2.1.0 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:apprenda:2.1.0:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "2.1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:apprenda:2.1.0:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T00:34Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Apprenda 2.1.0 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/apprenda/#releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/jenkinsci/apprenda-plugin/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41251"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

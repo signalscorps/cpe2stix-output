@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--a7fff391-a6f2-4f7a-a6e3-be5473ade625",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0a1f8fb9-c0e4-5c66-b131-4a3493b410aa",
+            "name": "Jenkins Jira 3.0.15 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:jira:3.0.15:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "3.0.15",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:jira:3.0.15:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T16:46Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Jira 3.0.15 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/jira/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-29041"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

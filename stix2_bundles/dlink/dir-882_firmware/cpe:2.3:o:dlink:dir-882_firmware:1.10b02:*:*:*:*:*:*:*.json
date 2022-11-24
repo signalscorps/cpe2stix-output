@@ -1,0 +1,55 @@
+{
+    "type": "bundle",
+    "id": "bundle--0c146c45-8393-440f-be47-aa885c984775",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4dc75d18-1f05-5239-a1d9-6196eb0a39c8",
+            "name": "D-Link DIR-882 Firmware 1.10B02",
+            "cpe": "cpe:2.3:o:dlink:dir-882_firmware:1.10b02:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "dlink",
+            "version": "1.10b02",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:dlink:dir-882_firmware:1.10b02:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-23T18:17Z",
+                        "titles": [
+                            {
+                                "title": "D-Link DIR-882 Firmware 1.10B02",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.dlink.com/ProductInfo.aspx?m=DIR-882-US",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/RobinWang825/IoT_vuln/tree/main/D-Link/DIR-882/2",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-8863",
+                            "CVE-2020-8864",
+                            "CVE-2021-44880",
+                            "CVE-2021-44881",
+                            "CVE-2021-45998",
+                            "CVE-2022-44804",
+                            "CVE-2022-44806",
+                            "CVE-2022-44807"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--5287af5e-4672-4a05-9051-97575f5a904d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4f3a85db-636c-5546-aa81-5c1b95eda556",
+            "name": "Jenkins Bitbucket Server Integration 2.1.0 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:bitbucket_server_integration:2.1.0:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "2.1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:bitbucket_server_integration:2.1.0:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T00:46Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Bitbucket Server Integration 2.1.0 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/jenkinsci/atlassian-bitbucket-server-integration-plugin/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://plugins.jenkins.io/atlassian-bitbucket-server-integration/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-28134"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

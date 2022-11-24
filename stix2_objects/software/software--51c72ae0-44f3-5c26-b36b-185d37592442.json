@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--51c72ae0-44f3-5c26-b36b-185d37592442",
+    "name": "Jenkins Deployment Dashboard 1.0.8 for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:deployment_dashboard:1.0.8:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "1.0.8",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:deployment_dashboard:1.0.8:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T00:56Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/ec2-deployment-dashboard/#releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins Deployment Dashboard 1.0.8 for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-34795",
+                    "CVE-2022-34796",
+                    "CVE-2022-34797",
+                    "CVE-2022-34798",
+                    "CVE-2022-34799"
+                ]
+            }
+        }
+    }
+}

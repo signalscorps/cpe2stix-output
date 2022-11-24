@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--d35617e1-32e0-4b73-b20a-af0f81ae8d3c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5bf787c0-c119-56ff-973f-a4a8bd4994cb",
+            "name": "LG Smart Share",
+            "cpe": "cpe:2.3:a:lg:smart_share:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "lg",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:lg:smart_share:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-23T15:22Z",
+                        "titles": [
+                            {
+                                "title": "LG Smart Share",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.lg.com/us/support/help-library/smart-share-for-windows-installation-setup-and-use-pc-software-CT10000020-20150131526101",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45422"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

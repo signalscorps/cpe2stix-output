@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--ad26ac26-bf93-484a-9c5d-3300f0de667b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--339469d2-31c8-529f-a5fe-5facbf301175",
+            "name": "Jenkins S3 Publisher 0.12.0 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:s3_publisher:0.12.0:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "0.12.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:s3_publisher:0.12.0:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T17:15Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins S3 Publisher 0.12.0 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/s3/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

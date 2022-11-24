@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--bcc72beb-e340-48e8-a7d2-8b33318e2e63",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--03b75f12-fa03-5812-9e13-f0d5caf60675",
+            "name": "Jenkins Configuration as Code 1.55 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:configuration_as_code:1.55:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.55",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:configuration_as_code:1.55:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T01:27Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Configuration as Code 1.55 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/configuration-as-code/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23106"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

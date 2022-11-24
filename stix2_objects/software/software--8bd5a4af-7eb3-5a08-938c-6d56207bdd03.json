@@ -1,0 +1,41 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--8bd5a4af-7eb3-5a08-938c-6d56207bdd03",
+    "name": "Jenkins Repository Connector 2.0.0 for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:repository_connector:2.0.0:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "2.0.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:repository_connector:2.0.0:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T13:01Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/repository-connector/#releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins Repository Connector 2.0.0 for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-21618",
+                    "CVE-2022-34195",
+                    "CVE-2022-36903",
+                    "CVE-2022-36904"
+                ]
+            }
+        }
+    }
+}

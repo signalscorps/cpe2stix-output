@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--643b9552-5b12-4a4c-a9c0-bbe9d31286fa",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--077a0521-d30f-575a-900e-bbf65a5248d1",
+            "name": "Jenkins Promoted Builds (simple) 1.9 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:promoted_builds_\\(simple\\):1.9:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.9",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:promoted_builds_\\(simple\\):1.9:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T01:57Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Promoted Builds (simple) 1.9 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/promoted-builds-simple/#releases",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-25202"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

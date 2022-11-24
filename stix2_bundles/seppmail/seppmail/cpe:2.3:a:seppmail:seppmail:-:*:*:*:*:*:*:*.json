@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--214f0abf-0e22-4ec4-b219-a6d04a2c6c51",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0470e533-89e6-515c-96fd-8e20fdcf2dd9",
+            "name": "SEPPmail",
+            "cpe": "cpe:2.3:a:seppmail:seppmail:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "seppmail",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:seppmail:seppmail:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-23T15:22Z",
+                        "titles": [
+                            {
+                                "title": "SEPPmail",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.pentagrid.ch/en/blog/multiple-vulnerabilities-in-seppmail/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.seppmail.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

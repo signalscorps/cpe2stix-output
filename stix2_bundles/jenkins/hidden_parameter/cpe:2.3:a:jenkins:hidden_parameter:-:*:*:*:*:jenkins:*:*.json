@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--3e5bb7d7-3f1f-42c5-a80e-42b547113ebe",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0c128127-9eb5-5804-b2a9-fdb85ef30c9c",
+            "name": "Jenkins Hidden Parameter for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:hidden_parameter:-:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:hidden_parameter:-:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T16:15Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Hidden Parameter for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/hidden-parameter/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34188"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

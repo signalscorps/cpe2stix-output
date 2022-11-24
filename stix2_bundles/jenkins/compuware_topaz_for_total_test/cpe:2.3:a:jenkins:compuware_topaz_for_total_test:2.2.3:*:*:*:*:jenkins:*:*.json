@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--c1d1ef12-1c28-43b7-885c-b573707d954e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3486ddb0-1991-5652-aeb2-5ea7b91773ff",
+            "name": "Jenkins Compuware Topaz for Total Test 2.2.3 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:compuware_topaz_for_total_test:2.2.3:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "2.2.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:compuware_topaz_for_total_test:2.2.3:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T02:02Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Compuware Topaz for Total Test 2.2.3 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/compuware-topaz-for-total-test/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43430"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

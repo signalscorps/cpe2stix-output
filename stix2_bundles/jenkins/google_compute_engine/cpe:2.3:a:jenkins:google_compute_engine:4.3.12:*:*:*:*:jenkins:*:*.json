@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--07b629d0-b925-41be-a3a5-5b7b889968b5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e14ae010-3749-5547-9238-037995430b39",
+            "name": "Jenkins Google Compute Engine 4.3.12 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:google_compute_engine:4.3.12:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "4.3.12",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:google_compute_engine:4.3.12:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T15:56Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Google Compute Engine 4.3.12 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/google-compute-engine/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--db025fc9-4281-549d-9beb-803eccbac97b",
+    "name": "Jenkins Locked Files Report for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:locked_files_report:-:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:locked_files_report:-:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T16:51Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/locked-files-report/#releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins Locked Files Report for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-2271"
+                ]
+            }
+        }
+    }
+}

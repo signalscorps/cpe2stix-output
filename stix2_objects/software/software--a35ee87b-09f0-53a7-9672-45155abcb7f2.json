@@ -1,0 +1,40 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--a35ee87b-09f0-53a7-9672-45155abcb7f2",
+    "name": "Jenkins Scriptler for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:scriptler:-:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:scriptler:-:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T18:03Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/scriptler/#releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins Scriptler for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-21667",
+                    "CVE-2021-21668",
+                    "CVE-2021-21700"
+                ]
+            }
+        }
+    }
+}

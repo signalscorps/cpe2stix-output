@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--9495c35f-8d27-5497-9082-3985e30826bb",
+    "name": "Jenkins Mask Passwords 3.0 for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:mask_passwords:3.0:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "3.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:mask_passwords:3.0:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T16:56Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/mask-passwords/#releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins Mask Passwords 3.0 for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-29043"
+                ]
+            }
+        }
+    }
+}

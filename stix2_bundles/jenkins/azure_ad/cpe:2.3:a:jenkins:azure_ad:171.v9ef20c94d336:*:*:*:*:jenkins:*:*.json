@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--cb76db51-b749-43ae-b0bf-012b8e5d3a8e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5dfe5b67-a8af-544c-8a07-99c76f8f26d0",
+            "name": "Jenkins Azure AD 171.v9ef20c94d336 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:azure_ad:171.v9ef20c94d336:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "171.v9ef20c94d336",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:azure_ad:171.v9ef20c94d336:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T13:08Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Azure AD 171.v9ef20c94d336 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/azure-ad/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-21679"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

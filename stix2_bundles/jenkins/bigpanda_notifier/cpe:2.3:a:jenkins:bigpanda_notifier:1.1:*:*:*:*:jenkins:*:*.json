@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--b791bfb1-eb5a-4c86-b3d1-302bb54011f1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ab18145f-ad95-5c55-982d-415b3ce43b1e",
+            "name": "Jenkins BigPanda Notifier 1.1 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:bigpanda_notifier:1.1:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:bigpanda_notifier:1.1:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T00:49Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins BigPanda Notifier 1.1 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/bigpanda-jenkins/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://plugins.jenkins.io/bigpanda-jenkins/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41247",
+                            "CVE-2022-41248"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

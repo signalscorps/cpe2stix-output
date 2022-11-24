@@ -1,0 +1,45 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--8d6cc587-ef59-5e6d-9540-836e8cc8806f",
+    "name": "Jenkins cons3rt for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:cons3rt:-:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:cons3rt:-:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T13:43Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/cons3rt/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://github.com/jenkinsci/cons3rt-plugin/tags",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins cons3rt for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-41252",
+                    "CVE-2022-41253",
+                    "CVE-2022-41254",
+                    "CVE-2022-41255"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--3a385492-f598-5d34-98af-0604e3a92bd2",
+    "name": "Jenkins rhnpush-plugin 0.4 for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:rhnpush-plugin:0.4:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "0.4",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:rhnpush-plugin:0.4:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T13:01Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/rhnpush-plugin/#releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins rhnpush-plugin 0.4 for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-36892"
+                ]
+            }
+        }
+    }
+}

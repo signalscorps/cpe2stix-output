@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--4047d7ca-d61d-4b3e-8bf4-7a3e34e9d56f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--83c782cc-5f30-5719-8b3d-dfd3fa98f7e4",
+            "name": "Jenkins Cisco Spark 1.1.0 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:cisco_spark:1.1.0:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:cisco_spark:1.1.0:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T00:53Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Cisco Spark 1.1.0 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/cisco-spark/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34808"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

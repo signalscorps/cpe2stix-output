@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--1db67355-f4e5-4967-adaa-27a60fef2dbe",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e346f18d-0d0d-5d82-af78-9e47252e5003",
+            "name": "Maggioli Group Appalti & Contratti 9.12.2",
+            "cpe": "cpe:2.3:a:maggioli:appalti_\\&_contratti:9.12.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "maggioli",
+            "version": "9.12.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:maggioli:appalti_\\&_contratti:9.12.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-23T17:46Z",
+                        "titles": [
+                            {
+                                "title": "Maggioli Group Appalti & Contratti 9.12.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.maggioli.com/en-us",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.maggioli.com/it-it/soluzioni/software/appalti-contratti-public-procurement-lifecycle-management",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://members.backbox.org/maggioli-appalti-contratti-multiple-vulnerabilities/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-44784",
+                            "CVE-2022-44785",
+                            "CVE-2022-44786",
+                            "CVE-2022-44787",
+                            "CVE-2022-44788"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

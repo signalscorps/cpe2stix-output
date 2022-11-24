@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--c464de33-6169-46de-b88e-59fb9203c8f8",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--22d2c283-60f5-5d5a-bbaf-f584c114109c",
+            "name": "Jenkins Pipeline: Input Step 2.3 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:pipeline\\:_input_step:2.3:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "_input_step",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:pipeline\\:_input_step:2.3:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T02:13Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Pipeline: Input Step 2.3 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/pipeline-input-step/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34177"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

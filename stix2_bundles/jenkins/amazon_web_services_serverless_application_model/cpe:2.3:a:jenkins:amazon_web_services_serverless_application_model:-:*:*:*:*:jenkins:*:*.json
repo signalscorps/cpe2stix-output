@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--93c719f9-74a9-4e8f-b9ca-d5021e5f3e0a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7a507e13-5fc3-58b6-ad7d-fc85af88eb39",
+            "name": "Jenkins Amazon Web Services Serverless Application Model (AWS SAM) for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:amazon_web_services_serverless_application_model:-:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:amazon_web_services_serverless_application_model:-:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T13:27Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Amazon Web Services Serverless Application Model (AWS SAM) for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/aws-sam/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-2180"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--130a0db5-a621-4f1c-8d48-0deed8deffc5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d70dac2d-dab4-51b6-b7aa-6482b8f7add5",
+            "name": "Jenkins Maven Metadata 2.1 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:maven_metadata:2.1:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "2.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:maven_metadata:2.1:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T12:56Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Maven Metadata 2.1 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/maven-metadata-plugin/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34190"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

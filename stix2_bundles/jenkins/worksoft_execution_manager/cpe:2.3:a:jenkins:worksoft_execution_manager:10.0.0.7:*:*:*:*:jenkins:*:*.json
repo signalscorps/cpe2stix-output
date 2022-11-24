@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--4fdd9560-1ace-4c46-b7e4-9870d2a0af0e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--263b3837-e6a1-528c-b365-ba11f2ffcf3a",
+            "name": "Jenkins Worksoft Execution Manager 10.0.0.7 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:worksoft_execution_manager:10.0.0.7:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "10.0.0.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:worksoft_execution_manager:10.0.0.7:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T12:48Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Worksoft Execution Manager 10.0.0.7 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/ws-execution-manager/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41245",
+                            "CVE-2022-41246"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

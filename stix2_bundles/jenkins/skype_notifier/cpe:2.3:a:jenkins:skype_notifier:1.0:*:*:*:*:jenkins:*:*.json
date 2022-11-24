@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--5c8727c9-0822-4594-a39c-26bbbfd3c811",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e40b9c91-55b3-5850-aa69-2a8db951644c",
+            "name": "Jenkins Skype Notifier 1.0 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:skype_notifier:1.0:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:skype_notifier:1.0:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T01:22Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Skype Notifier 1.0 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/skype-notifier/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34805"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

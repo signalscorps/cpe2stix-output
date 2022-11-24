@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--cd1c764e-b245-4819-897b-7d1d1f71dd85",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--12730e30-0fee-5b64-8d8b-fd0b4a93e3cb",
+            "name": "Jenkins XebiaLabs XL Deploy 10.0.1 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:xebialabs_xl_deploy:10.0.1:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "10.0.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:xebialabs_xl_deploy:10.0.1:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T18:31Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins XebiaLabs XL Deploy 10.0.1 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/deployit-plugin/#releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/jenkinsci/xldeploy-plugin/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-21662",
+                            "CVE-2021-21664",
+                            "CVE-2021-21665"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

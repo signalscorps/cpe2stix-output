@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--33144fc3-d12d-4b93-a63a-6e2b0160fbca",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--df8f0b40-1952-55ff-90d8-b79a4601604f",
+            "name": "Jenkins OpenId Connect Authentication 1.8 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:openid_connect_authentication:1.8:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.8",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:openid_connect_authentication:1.8:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T17:09Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins OpenId Connect Authentication 1.8 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/oic-auth/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

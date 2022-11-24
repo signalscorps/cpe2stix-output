@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--9eb9fa66-62d3-4270-af55-49099b8729f3",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5b4241bf-30cd-5a12-84b8-f842ad5e8012",
+            "name": "Jenkins Copy data to Workspace for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:copy_data_to_workspace:-:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:copy_data_to_workspace:-:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T13:43Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Copy data to Workspace for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/copy-data-to-workspace-plugin/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-2275"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

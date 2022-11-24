@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--30ef41e2-1ca2-4945-a776-4a180ade7797",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e7fcc647-222e-5e9b-bf46-db2b96fc7b49",
+            "name": "Jenkins S3 Publisher 0.11.6 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:s3_publisher:0.11.6:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "0.11.6",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:s3_publisher:0.11.6:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T17:15Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins S3 Publisher 0.11.6 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/s3/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-21650",
+                            "CVE-2021-21651"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

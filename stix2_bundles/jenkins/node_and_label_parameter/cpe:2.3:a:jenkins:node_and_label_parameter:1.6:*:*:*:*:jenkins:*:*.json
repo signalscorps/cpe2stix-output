@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--4063fab6-18ee-4731-87da-e413026987fd",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--542b4a05-52c8-5a42-8cbc-ff0b74173b08",
+            "name": "Jenkins Node and Label Parameter 1.6 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:node_and_label_parameter:1.6:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.6",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:node_and_label_parameter:1.6:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T16:58Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Node and Label Parameter 1.6 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/nodelabelparameter/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-29044"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

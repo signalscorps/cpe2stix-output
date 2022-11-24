@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--87d7e849-1036-4853-9a45-1fe197ddad89",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--96b07510-e24e-5831-a4ea-2083bf854378",
+            "name": "Jenkins List Git Branches Parameter 0.0.9 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:list_git_branches_parameter:0.0.9:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "0.0.9",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:list_git_branches_parameter:0.0.9:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T16:51Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins List Git Branches Parameter 0.0.9 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/list-git-branches-parameter/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-27212"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

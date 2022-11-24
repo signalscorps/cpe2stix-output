@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--53ec2b42-e1db-5695-9cbb-38384e2af45a",
+    "name": "Jenkins Copr 0.2 for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:copr:0.2:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "0.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:copr:0.2:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T13:43Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/copr/#releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins Copr 0.2 for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-2177"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--3bfcb067-ecc2-4883-823b-3e305dc90eec",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f1a9d264-aef5-581b-8f80-940c58048290",
+            "name": "Jenkins External Monitor Job Type 1.5 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:external_monitor_job_type:1.5:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:external_monitor_job_type:1.5:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T12:56Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins External Monitor Job Type 1.5 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/external-monitor-job/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-36886"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

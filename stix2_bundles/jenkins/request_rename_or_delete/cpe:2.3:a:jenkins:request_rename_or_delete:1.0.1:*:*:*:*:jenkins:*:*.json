@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--032444e2-85a7-4a44-bbe1-4a1b62ede33b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9a3dd6b0-4912-5f23-99f0-570744b2ece6",
+            "name": "Jenkins Request Rename Or Delete 1.0.1 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:request_rename_or_delete:1.0.1:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.0.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:request_rename_or_delete:1.0.1:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T01:09Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Request Rename Or Delete 1.0.1 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/rrod/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34814",
+                            "CVE-2022-34815"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--d4557e97-fdbc-4267-8c9c-09b2d03b255d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3d6a045f-895e-588f-8319-0c7f4279534f",
+            "name": "Jenkins Groovy 442.v817e6d937d6c for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:groovy:442.v817e6d937d6c:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "442.v817e6d937d6c",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:groovy:442.v817e6d937d6c:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T16:10Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Groovy 442.v817e6d937d6c for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/groovy/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43402"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

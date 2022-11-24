@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--7879aa3d-1fef-4eaa-99ca-97fe0132adee",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5de9659b-90b7-517a-8fc6-de2f4a7d4ffd",
+            "name": "Jenkins Favorite 2.1.0 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:favorite:2.1.0:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "2.1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:favorite:2.1.0:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T15:50Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Favorite 2.1.0 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/favorite/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2017-1000244",
+                            "CVE-2022-27196"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

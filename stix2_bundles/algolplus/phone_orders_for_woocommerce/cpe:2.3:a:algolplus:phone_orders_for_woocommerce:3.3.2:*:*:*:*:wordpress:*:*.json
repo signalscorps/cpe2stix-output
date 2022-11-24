@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--6ce69961-ce40-4420-b41a-419a8d46db5e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a816e376-e98f-5c00-97e7-50dc9ab0faa4",
+            "name": "Algol+ Phone Orders For WooCommerce 3.3.2 for WordPress",
+            "cpe": "cpe:2.3:a:algolplus:phone_orders_for_woocommerce:3.3.2:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "algolplus",
+            "version": "3.3.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:algolplus:phone_orders_for_woocommerce:3.3.2:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-23T17:48Z",
+                        "titles": [
+                            {
+                                "title": "Algol+ Phone Orders For WooCommerce 3.3.2 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/phone-orders-for-woocommerce/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://algolplus.com/plugins/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://algolplus.com/plugins/downloads-phone-orders-woocommerce-pro-changelog-page/",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41655"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

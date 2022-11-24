@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--4c86d61b-aa21-4a1c-aa9e-fbedb3fd95a6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--af97d824-ad7c-58a7-b8cb-0832425f3f28",
+            "name": "Jenkins Gerrit Trigger 2.33.0 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:gerrit_trigger:2.33.0:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "2.33.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:gerrit_trigger:2.33.0:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T15:53Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Gerrit Trigger 2.33.0 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/gerrit-trigger/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-29039"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

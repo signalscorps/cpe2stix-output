@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--1134f29e-5af9-5abf-84e9-7e4e9a65e0ad",
+    "name": "Kiwi TCMS 4.0.0",
+    "cpe": "cpe:2.3:a:kiwitcms:kiwi_tcms:4.0.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "kiwitcms",
+    "version": "4.0.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:kiwitcms:kiwi_tcms:4.0.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T15:15Z",
+                "refs": [
+                    {
+                        "ref": "https://kiwitcms.org/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/kiwitcms/Kiwi",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://github.com/kiwitcms/Kiwi/releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Kiwi TCMS 4.0.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-4105"
+                ]
+            }
+        }
+    }
+}

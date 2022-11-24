@@ -1,0 +1,45 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--fd565f88-c47d-5065-898a-0b9bf84c7293",
+    "name": "Jenkins XebiaLabs XL Deploy 7.5.5 for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:xebialabs_xl_deploy:7.5.5:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "7.5.5",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:xebialabs_xl_deploy:7.5.5:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T18:31Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/deployit-plugin/#releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://github.com/jenkinsci/xldeploy-plugin/tags",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins XebiaLabs XL Deploy 7.5.5 for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-21662",
+                    "CVE-2021-21663",
+                    "CVE-2021-21664",
+                    "CVE-2021-21665"
+                ]
+            }
+        }
+    }
+}

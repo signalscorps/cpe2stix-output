@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--12be965b-9fa0-5faa-ae27-12c77f327b40",
+    "name": "Accessibility Project Accessibility 1.0.1 for WordPress",
+    "cpe": "cpe:2.3:a:accessibility_project:accessibility:1.0.1:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "accessibility_project",
+    "version": "1.0.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:accessibility_project:accessibility:1.0.1:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T19:59Z",
+                "refs": [
+                    {
+                        "ref": "https://wordpress.org/plugins/accessibility/#developers",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://patchstack.com/database/vulnerability/accessibility/wordpress-accessibility-plugin-1-0-1-auth-stored-cross-site-scripting-xss-vulnerability?_s_id=cve",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Accessibility Project Accessibility 1.0.1 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-41643"
+                ]
+            }
+        }
+    }
+}

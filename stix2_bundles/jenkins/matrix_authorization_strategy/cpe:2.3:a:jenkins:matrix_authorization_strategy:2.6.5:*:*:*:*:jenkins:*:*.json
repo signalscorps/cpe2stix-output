@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--74ca3b65-b222-4394-90aa-ecd2dd89af64",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ea21c46e-d84a-53d0-bada-ff4dd909e81c",
+            "name": "Jenkins Matrix Authorization Strategy 2.6.5 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:matrix_authorization_strategy:2.6.5:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "2.6.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:matrix_authorization_strategy:2.6.5:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T16:56Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Matrix Authorization Strategy 2.6.5 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/matrix-auth/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-21623"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--3b332046-f16f-4cca-bf80-6a0f675aa6b1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--23d6a30a-b43d-534d-a201-fc92e04c7441",
+            "name": "Jenkins Docker Commons 1.11 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:docker_commons:1.11:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.11",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:docker_commons:1.11:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T01:34Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Docker Commons 1.11 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/docker-commons/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-20617"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

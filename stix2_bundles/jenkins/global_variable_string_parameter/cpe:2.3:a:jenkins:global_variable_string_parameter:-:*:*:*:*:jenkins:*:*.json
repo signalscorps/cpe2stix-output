@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--89b9bd62-eeba-494a-b5d6-b5330da683f9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--34c6f900-273f-542e-b7ea-1f3248cc6095",
+            "name": "Jenkins Global Variable String Parameter for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:global_variable_string_parameter:-:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:global_variable_string_parameter:-:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T13:27Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Global Variable String Parameter for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/global-variable-string-parameter/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-30962"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

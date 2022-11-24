@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--badafcfd-1ec9-47f9-8e0d-4874107f7485",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5f993aea-a800-5d84-a4bb-c653d59125da",
+            "name": "Jenkins Warnings Next Generation 9.5.1 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:warnings_next_generation:9.5.1:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "9.5.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:warnings_next_generation:9.5.1:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T01:49Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Warnings Next Generation 9.5.1 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/warnings-ng/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23107"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

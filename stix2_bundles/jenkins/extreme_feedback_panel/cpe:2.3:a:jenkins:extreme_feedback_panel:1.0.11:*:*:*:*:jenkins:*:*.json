@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--383cc0c5-0cf3-48cc-ae16-7d74240ae8fa",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--eba1ed16-04d5-5d08-ade1-244af6734657",
+            "name": "Jenkins eXtreme Feedback Panel 1.0.11 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:extreme_feedback_panel:1.0.11:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.0.11",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:extreme_feedback_panel:1.0.11:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T00:59Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins eXtreme Feedback Panel 1.0.11 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/xfpanel/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34790"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

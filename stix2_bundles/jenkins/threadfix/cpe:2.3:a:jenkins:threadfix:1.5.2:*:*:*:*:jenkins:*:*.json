@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--a050f587-51a6-4079-857e-7f949fa8504e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bdf77497-ebb9-536e-bf69-cedb4d837983",
+            "name": "Jenkins ThreadFix 1.5.2 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:threadfix:1.5.2:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.5.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:threadfix:1.5.2:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T18:27Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins ThreadFix 1.5.2 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/threadfix/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34209",
+                            "CVE-2022-34210"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--7eb44c50-3ba8-5e8d-8d64-4f5179c5bc37",
+    "name": "D-Link DIR-878 Firmware 1.02B05",
+    "cpe": "cpe:2.3:o:dlink:dir-878_firmware:1.02b05:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "dlink",
+    "version": "1.02b05",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:dlink:dir-878_firmware:1.02b05:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T18:17Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/RobinWang825/IoT_vuln/blob/main/D-Link/DIR-878/1/readme.md",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://support.dlink.com/ProductInfo.aspx?m=DIR-878",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "D-Link DIR-878 Firmware 1.02B05"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-8863",
+                    "CVE-2020-8864",
+                    "CVE-2021-30072",
+                    "CVE-2021-44880",
+                    "CVE-2021-44882",
+                    "CVE-2022-26670",
+                    "CVE-2022-44202",
+                    "CVE-2022-44801"
+                ]
+            }
+        }
+    }
+}

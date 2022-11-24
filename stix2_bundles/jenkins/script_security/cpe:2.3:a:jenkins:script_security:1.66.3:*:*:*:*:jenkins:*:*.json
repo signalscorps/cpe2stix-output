@@ -1,0 +1,54 @@
+{
+    "type": "bundle",
+    "id": "bundle--9947aa34-7978-450b-a72e-f7cd34a3bfe3",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7f133a92-1d62-5fcc-a4e4-c437cad98116",
+            "name": "Jenkins Script Security 1.66.3 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:script_security:1.66.3:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.66.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:script_security:1.66.3:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T02:23Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Script Security 1.66.3 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/script-security/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-16538",
+                            "CVE-2020-2110",
+                            "CVE-2020-2134",
+                            "CVE-2020-2135",
+                            "CVE-2020-2190",
+                            "CVE-2020-2279",
+                            "CVE-2022-30946",
+                            "CVE-2022-43401",
+                            "CVE-2022-43403",
+                            "CVE-2022-43404",
+                            "CVE-2022-45379"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

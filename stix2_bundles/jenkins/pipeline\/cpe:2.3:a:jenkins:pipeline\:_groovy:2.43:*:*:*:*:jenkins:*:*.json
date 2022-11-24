@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--d4e38220-31d2-48ac-b5b9-a5367f080263",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--08b42c4c-2e2d-5e8c-ad68-602d87da12d1",
+            "name": "Jenkins Pipeline: Groovy 2.43 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:pipeline\\:_groovy:2.43:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "_groovy",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:pipeline\\:_groovy:2.43:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T13:27Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Pipeline: Groovy 2.43 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/workflow-cps/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2018-1000866",
+                            "CVE-2019-1003001",
+                            "CVE-2019-1003030",
+                            "CVE-2019-1003041",
+                            "CVE-2020-2109",
+                            "CVE-2022-25173",
+                            "CVE-2022-25176",
+                            "CVE-2022-25180",
+                            "CVE-2022-30945"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

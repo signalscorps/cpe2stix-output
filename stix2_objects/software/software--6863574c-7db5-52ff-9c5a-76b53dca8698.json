@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--6863574c-7db5-52ff-9c5a-76b53dca8698",
+    "name": "Jenkins Xray - Test Management For Jira 2.1.1 for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:xray_-_test_management_for_jira:2.1.1:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "2.1.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:xray_-_test_management_for_jira:2.1.1:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T18:35Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/xray-connector/#releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://github.com/jenkinsci/xray-connector-plugin/tags",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins Xray - Test Management For Jira 2.1.1 for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-21653"
+                ]
+            }
+        }
+    }
+}

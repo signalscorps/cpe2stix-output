@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--81ebbbb4-e7fb-43ab-b6eb-cfafd0fd9629",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f2495c57-98fd-5926-8bb1-7e78a09454a5",
+            "name": "Jenkins Gem Publisher for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:gem_publisher:-:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:gem_publisher:-:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T15:50Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Gem Publisher for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/gem-publisher/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-10426"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

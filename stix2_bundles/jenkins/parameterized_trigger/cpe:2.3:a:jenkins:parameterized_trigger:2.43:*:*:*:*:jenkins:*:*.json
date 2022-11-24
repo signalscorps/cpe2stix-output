@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--ae8ca909-9a1f-4984-8314-78d2dd828803",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a2fa742c-b1b8-5f92-84f3-e96d1d4affdd",
+            "name": "Jenkins Parameterized Trigger 2.43 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:parameterized_trigger:2.43:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "2.43",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:parameterized_trigger:2.43:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T17:09Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Parameterized Trigger 2.43 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/parameterized-trigger/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

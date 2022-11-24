@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--0f9aca33-19aa-49b3-8fd7-eee26e131ed9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6e2775cd-6ed7-575d-8a6b-921ab3e0d679",
+            "name": "Agile Logix Store Locator 1.4.6 for WordPress",
+            "cpe": "cpe:2.3:a:agilelogix:store_locator:1.4.6:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "agilelogix",
+            "version": "1.4.6",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:agilelogix:store_locator:1.4.6:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-23T19:59Z",
+                        "titles": [
+                            {
+                                "title": "Agile Logix Store Locator 1.4.6 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/agile-store-locator/wordpress-store-locator-plugin-1-4-5-cross-site-scripting-xss-via-cross-site-request-forgery-csrf-vulnerability?_s_id=cve",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://agilestorelocator.com/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

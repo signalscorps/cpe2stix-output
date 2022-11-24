@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--6f5b5498-97a6-5181-8e21-7e53dd1d6b0e",
+    "name": "Jenkins Jianliao Notification for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:jianliao_notification:-:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:jianliao_notification:-:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T16:46Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/jianliao/#releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins Jianliao Notification for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-34205",
+                    "CVE-2022-34206"
+                ]
+            }
+        }
+    }
+}

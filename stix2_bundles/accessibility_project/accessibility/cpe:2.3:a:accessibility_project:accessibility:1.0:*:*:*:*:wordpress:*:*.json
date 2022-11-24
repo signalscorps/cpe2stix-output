@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--31c77afb-08c1-4a3f-ad5d-006fd9679c05",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d238ee22-30af-5ee7-8ce1-2c93a2808a07",
+            "name": "Accessibility Project Accessibility 1.0 for WordPress",
+            "cpe": "cpe:2.3:a:accessibility_project:accessibility:1.0:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "accessibility_project",
+            "version": "1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:accessibility_project:accessibility:1.0:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-23T19:59Z",
+                        "titles": [
+                            {
+                                "title": "Accessibility Project Accessibility 1.0 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/accessibility/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/accessibility/wordpress-accessibility-plugin-1-0-1-auth-stored-cross-site-scripting-xss-vulnerability?_s_id=cve",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41643"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

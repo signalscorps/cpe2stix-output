@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--edd71c08-fa5a-5139-9a36-abaff5967f91",
+    "name": "Jenkins SmallTest 1.0.1 for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:smalltest:1.0.1:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "1.0.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:smalltest:1.0.1:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-23T12:48Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/smalltest/#releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins SmallTest 1.0.1 for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-41243"
+                ]
+            }
+        }
+    }
+}

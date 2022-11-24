@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--78b49f80-7c55-4095-a415-2f5a81a2e62c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e2f0124a-48a5-541d-b0a7-69c9e95375a0",
+            "name": "Jenkins Compuware Common Configuration 1.0.5 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:compuware_common_configuration:1.0.5:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "1.0.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:compuware_common_configuration:1.0.5:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T12:42Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins Compuware Common Configuration 1.0.5 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/compuware-common-configuration/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41226"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

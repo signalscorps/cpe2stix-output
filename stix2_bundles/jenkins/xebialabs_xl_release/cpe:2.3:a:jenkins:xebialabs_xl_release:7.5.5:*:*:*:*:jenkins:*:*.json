@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--14b2f838-5a69-48b1-a82a-2ac447951c24",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--98a3d8b9-5994-5824-a86b-6a9ce97249ce",
+            "name": "Jenkins XebiaLabs XL Release 7.5.5 for Jenkins",
+            "cpe": "cpe:2.3:a:jenkins:xebialabs_xl_release:7.5.5:*:*:*:*:jenkins:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jenkins",
+            "version": "7.5.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jenkins:xebialabs_xl_release:7.5.5:*:*:*:*:jenkins:*:*",
+                        "lastModifiedDate": "2022-11-23T01:22Z",
+                        "titles": [
+                            {
+                                "title": "Jenkins XebiaLabs XL Release 7.5.5 for Jenkins",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.jenkins.io/xlrelease-plugin/#releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34779",
+                            "CVE-2022-34780",
+                            "CVE-2022-34781"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

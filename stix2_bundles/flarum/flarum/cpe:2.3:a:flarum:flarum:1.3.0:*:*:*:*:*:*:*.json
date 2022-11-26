@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--7231045e-a203-4462-badd-97a61ef46ba1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--52774e96-d6e8-5d94-bf45-70a6291fb6a5",
+            "name": "Flarum 1.3.0",
+            "cpe": "cpe:2.3:a:flarum:flarum:1.3.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "flarum",
+            "version": "1.3.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:flarum:flarum:1.3.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-25T16:04Z",
+                        "titles": [
+                            {
+                                "title": "Flarum 1.3.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/flarum/core/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://flarum.org/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

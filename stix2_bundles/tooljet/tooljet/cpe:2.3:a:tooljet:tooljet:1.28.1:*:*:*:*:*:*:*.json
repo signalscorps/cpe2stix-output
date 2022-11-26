@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--37e5f64f-818f-4f92-a758-4951f78c6ef0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d913d0c6-a798-5d73-a4f4-c375357d5711",
+            "name": "ToolJet 1.28.1",
+            "cpe": "cpe:2.3:a:tooljet:tooljet:1.28.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tooljet",
+            "version": "1.28.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:tooljet:tooljet:1.28.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-25T15:22Z",
+                        "titles": [
+                            {
+                                "title": "ToolJet 1.28.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.tooljet.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/ToolJet/ToolJet/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3348"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

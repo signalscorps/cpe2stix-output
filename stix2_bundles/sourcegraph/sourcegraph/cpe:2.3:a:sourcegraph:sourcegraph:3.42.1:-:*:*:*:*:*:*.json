@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--e28bfc37-3dc2-4409-93fa-432fe5a02188",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f4f958a3-73a0-53b8-988a-25b9bf3c1614",
+            "name": "Sourcegraph 3.42.1",
+            "cpe": "cpe:2.3:a:sourcegraph:sourcegraph:3.42.1:-:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sourcegraph",
+            "version": "3.42.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sourcegraph:sourcegraph:3.42.1:-:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-25T16:00Z",
+                        "titles": [
+                            {
+                                "title": "Sourcegraph 3.42.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://sourcegraph.com/search",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/sourcegraph/sourcegraph/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/sourcegraph/sourcegraph",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41942",
+                            "CVE-2022-41943"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

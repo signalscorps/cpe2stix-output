@@ -1,0 +1,54 @@
+{
+    "type": "bundle",
+    "id": "bundle--7b3f709b-3ab9-4cc4-8361-a610ab5c83bb",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fe11b353-12b9-53fd-8200-f6b062593c65",
+            "name": "op5 Monitor",
+            "cpe": "cpe:2.3:a:op5:monitor:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "op5",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:op5:monitor:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-25T16:06Z",
+                        "titles": [
+                            {
+                                "title": "op5 Monitor",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/hosakauk/exploits/blob/master/itrs_op5_monitor_xss.pdf",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "http://www.op5.com/explore-op5-monitor/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2008-5027",
+                            "CVE-2008-5028",
+                            "CVE-2012-0261",
+                            "CVE-2012-0262",
+                            "CVE-2012-0263",
+                            "CVE-2012-0264",
+                            "CVE-2013-6141"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

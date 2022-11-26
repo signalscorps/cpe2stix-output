@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--3e1b05f4-2bb4-411e-867a-9b1c3868bce0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f3799f67-a91c-543a-b7b0-58eb88c8daa0",
+            "name": "Sourcegraph 4.1.0",
+            "cpe": "cpe:2.3:a:sourcegraph:sourcegraph:4.1.0:-:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sourcegraph",
+            "version": "4.1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sourcegraph:sourcegraph:4.1.0:-:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-25T16:00Z",
+                        "titles": [
+                            {
+                                "title": "Sourcegraph 4.1.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://sourcegraph.com/search",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/sourcegraph/sourcegraph/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/sourcegraph/sourcegraph",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

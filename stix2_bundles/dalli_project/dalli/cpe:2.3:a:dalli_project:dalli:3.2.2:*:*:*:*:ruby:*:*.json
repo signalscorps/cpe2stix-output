@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--b5202505-95e0-4db0-95c0-d2f04e65b763",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ee8a2ad5-0b58-53e0-ac1c-9b00aeeedb20",
+            "name": "Dalli Project Dalli 3.2.2 for Ruby",
+            "cpe": "cpe:2.3:a:dalli_project:dalli:3.2.2:*:*:*:*:ruby:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "dalli_project",
+            "version": "3.2.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:dalli_project:dalli:3.2.2:*:*:*:*:ruby:*:*",
+                        "lastModifiedDate": "2022-11-25T16:05Z",
+                        "titles": [
+                            {
+                                "title": "Dalli Project Dalli 3.2.2 for Ruby",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/petergoldstein/dalli/issues/932",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/petergoldstein/dalli/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-4064"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

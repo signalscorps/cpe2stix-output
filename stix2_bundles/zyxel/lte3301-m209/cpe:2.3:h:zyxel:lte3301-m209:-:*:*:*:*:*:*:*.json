@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--a882e1b6-2a9f-430e-b91d-0bd56f4ba96b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fa677f28-9cf0-5fe5-9e36-6673ed044c4a",
+            "name": "Zyxel LTE3301-M209",
+            "cpe": "cpe:2.3:h:zyxel:lte3301-m209:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "zyxel",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:zyxel:lte3301-m209:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-25T15:22Z",
+                        "titles": [
+                            {
+                                "title": "Zyxel LTE3301-M209",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.zyxel.com/global/en/support/download?model=lte3301-m209&type=firmware",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-40602"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

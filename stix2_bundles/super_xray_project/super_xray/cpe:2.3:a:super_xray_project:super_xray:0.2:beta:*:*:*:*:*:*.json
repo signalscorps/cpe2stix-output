@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--54e856ff-6f97-414d-8bf1-a51e600b4ba3",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--313854a7-0aad-5818-acc8-042500820163",
+            "name": "Super Xray Project Super Xray 0.2 Beta",
+            "cpe": "cpe:2.3:a:super_xray_project:super_xray:0.2:beta:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "super_xray_project",
+            "version": "0.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:super_xray_project:super_xray:0.2:beta:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-25T16:00Z",
+                        "titles": [
+                            {
+                                "title": "Super Xray Project Super Xray 0.2 Beta",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/4ra1n/super-xray/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/4ra1n/super-xray",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41950"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

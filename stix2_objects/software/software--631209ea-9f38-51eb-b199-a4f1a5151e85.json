@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--631209ea-9f38-51eb-b199-a4f1a5151e85",
+    "name": "op5 Monitor 8.3.2",
+    "cpe": "cpe:2.3:a:op5:monitor:8.3.2:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "op5",
+    "version": "8.3.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:op5:monitor:8.3.2:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-25T16:06Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/hosakauk/exploits/blob/master/itrs_op5_monitor_xss.pdf",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "http://www.op5.com/explore-op5-monitor/",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "op5 Monitor 8.3.2"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-40272"
+                ]
+            }
+        }
+    }
+}

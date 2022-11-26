@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--2c1e097a-e5e8-4cc9-ba76-47f6c6a1a149",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6d96b3b0-b124-57ee-b8b4-00b165267193",
+            "name": "Sandhills Development Easy Digital Downloads 3.0.4 for WordPress",
+            "cpe": "cpe:2.3:a:sandhillsdev:easy_digital_downloads:3.0.4:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sandhillsdev",
+            "version": "3.0.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sandhillsdev:easy_digital_downloads:3.0.4:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-25T13:16Z",
+                        "titles": [
+                            {
+                                "title": "Sandhills Development Easy Digital Downloads 3.0.4 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/easy-digital-downloads/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://easydigitaldownloads.com/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://sandhillsdev.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3600"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--90404b9b-bf41-5bc7-a8e2-7ba27c40cc7f",
+    "name": "Mitel MiVoice Connect 19.3 Service Pack 1",
+    "cpe": "cpe:2.3:a:mitel:mivoice_connect:19.3:sp1:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "mitel",
+    "version": "19.3",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:mitel:mivoice_connect:19.3:sp1:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-25T15:22Z",
+                "refs": [
+                    {
+                        "ref": "https://www.mitel.com/-/media/mitel/file/pdf/support/security-advisories/security-bulletin_22-0007-001-v2.pdf",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-22-0007",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Mitel MiVoice Connect 19.3 Service Pack 1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2018-9101",
+                    "CVE-2018-9102",
+                    "CVE-2018-9103",
+                    "CVE-2018-9104",
+                    "CVE-2020-12456",
+                    "CVE-2020-12679",
+                    "CVE-2022-29499"
+                ]
+            }
+        }
+    }
+}

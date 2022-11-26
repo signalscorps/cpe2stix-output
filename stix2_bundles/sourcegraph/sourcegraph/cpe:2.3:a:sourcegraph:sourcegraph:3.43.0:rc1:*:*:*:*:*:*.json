@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--129d4c07-2f08-4ff5-a578-0e73a4a2a727",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f1cbcf5e-3442-5710-aca3-13f66e054c0e",
+            "name": "Sourcegraph 3.43.0 Release Candidate 1",
+            "cpe": "cpe:2.3:a:sourcegraph:sourcegraph:3.43.0:rc1:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sourcegraph",
+            "version": "3.43.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sourcegraph:sourcegraph:3.43.0:rc1:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-25T16:00Z",
+                        "titles": [
+                            {
+                                "title": "Sourcegraph 3.43.0 Release Candidate 1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://sourcegraph.com/search",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/sourcegraph/sourcegraph/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/sourcegraph/sourcegraph",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41942",
+                            "CVE-2022-41943"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

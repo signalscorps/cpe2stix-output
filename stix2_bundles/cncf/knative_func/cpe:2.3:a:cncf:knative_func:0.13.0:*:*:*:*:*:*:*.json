@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--102944c6-7735-4a02-aede-44e85f19c7ff",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f5f092e4-f17d-57f4-a56b-9a9ff407f3b6",
+            "name": "Cloud Native Computing Foundation Knative Func 0.13.0",
+            "cpe": "cpe:2.3:a:cncf:knative_func:0.13.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cncf",
+            "version": "0.13.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:cncf:knative_func:0.13.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-27T13:22Z",
+                        "titles": [
+                            {
+                                "title": "Cloud Native Computing Foundation Knative Func 0.13.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/knative/func/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://knative.dev/docs/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.cncf.io/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41939"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--6d21937f-9452-4bac-aed6-e90252cf69fc",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--cf53d23c-db9f-5236-92ca-2280caf8ea2a",
+            "name": "Codenotary Immudb 1.2.3",
+            "cpe": "cpe:2.3:a:codenotary:immudb:1.2.3:-:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "codenotary",
+            "version": "1.2.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:codenotary:immudb:1.2.3:-:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-27T13:21Z",
+                        "titles": [
+                            {
+                                "title": "Codenotary Immudb 1.2.3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/codenotary/immudb",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://codenotary.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/codenotary/immudb/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-36111",
+                            "CVE-2022-39199"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

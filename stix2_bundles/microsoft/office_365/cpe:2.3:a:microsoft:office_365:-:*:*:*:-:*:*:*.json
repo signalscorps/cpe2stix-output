@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--625c5421-db97-49db-a7d9-3eabf8888ea9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ebc9e187-7feb-566a-89fa-ecf11e032e6e",
+            "name": "Microsoft Office 365",
+            "cpe": "cpe:2.3:a:microsoft:office_365:-:*:*:*:-:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "microsoft",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:microsoft:office_365:-:*:*:*:-:*:*:*",
+                        "lastModifiedDate": "2022-11-27T13:33Z",
+                        "titles": [
+                            {
+                                "title": "Microsoft Office 365",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.microsoft.com/en-us/microsoft-365/microsoft-office",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2018-8597"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

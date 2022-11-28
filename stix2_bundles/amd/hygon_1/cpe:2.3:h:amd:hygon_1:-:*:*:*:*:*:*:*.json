@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--13015ea4-bcc2-4668-897a-efcc0f724108",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8dbcfe0a-4bf2-5b59-9a5c-c8368b88a3d7",
+            "name": "Advanced Micro Devices (AMD) Hygon 1",
+            "cpe": "cpe:2.3:h:amd:hygon_1:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "amd",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:amd:hygon_1:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-27T13:25Z",
+                        "titles": [
+                            {
+                                "title": "Advanced Micro Devices (AMD) Hygon 1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.insyde.com/security-pledge/SA-2022060",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-29277"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

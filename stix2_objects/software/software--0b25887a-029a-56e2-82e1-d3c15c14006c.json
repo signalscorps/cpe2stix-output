@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--0b25887a-029a-56e2-82e1-d3c15c14006c",
+    "name": "Advanced Micro Devices (AMD) Snowy Owl V3000",
+    "cpe": "cpe:2.3:h:amd:snowy_owl_v3000:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "amd",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:amd:snowy_owl_v3000:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-27T13:25Z",
+                "refs": [
+                    {
+                        "ref": "https://www.insyde.com/security-pledge/SA-2022060",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Advanced Micro Devices (AMD) Snowy Owl V3000"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-29277"
+                ]
+            }
+        }
+    }
+}

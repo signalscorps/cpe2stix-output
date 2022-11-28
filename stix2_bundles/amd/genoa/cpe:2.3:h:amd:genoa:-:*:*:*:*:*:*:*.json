@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--e5eef6be-e4b8-4358-8939-43a964e353a4",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--dc7233fa-43d2-5abc-82ac-d1a44eb529f7",
+            "name": "Advanced Micro Devices (AMD) Genoa",
+            "cpe": "cpe:2.3:h:amd:genoa:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "amd",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:amd:genoa:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-27T13:25Z",
+                        "titles": [
+                            {
+                                "title": "Advanced Micro Devices (AMD) Genoa",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.insyde.com/security-pledge/SA-2022060",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-29277"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--a4bd4842-b0d5-4e1f-bbd3-3007d67cb16d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f498b894-52f3-5590-a308-cd241381e84a",
+            "name": "Microsoft .NET Framework 6.7.2",
+            "cpe": "cpe:2.3:a:microsoft:.net_framework:6.7.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "microsoft",
+            "version": "6.7.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:microsoft:.net_framework:6.7.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-27T13:33Z",
+                        "titles": [
+                            {
+                                "title": "Microsoft .NET Framework 6.7.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-41064",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41064"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

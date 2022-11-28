@@ -1,0 +1,47 @@
+{
+    "type": "bundle",
+    "id": "bundle--369a1ea9-54c6-4e5f-9877-91c838e94624",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--90b0c388-e7e4-51af-b2a6-62835d72f234",
+            "name": "Microsoft Publisher 2016 on x64",
+            "cpe": "cpe:2.3:a:microsoft:publisher:2016:*:*:*:*:*:x64:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "microsoft",
+            "version": "2016",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:microsoft:publisher:2016:*:*:*:*:*:x64:*",
+                        "lastModifiedDate": "2022-11-27T13:33Z",
+                        "titles": [
+                            {
+                                "title": "Microsoft Publisher 2016 on x64",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-29107",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2008-0104",
+                            "CVE-2015-2503",
+                            "CVE-2020-0760",
+                            "CVE-2022-29107"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

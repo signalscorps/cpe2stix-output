@@ -1,0 +1,58 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--a2484c8d-bd7b-5bb8-8806-5f8abadee2bd",
+    "name": "Microsoft Office Long Term Servicing Channel (LTSC) 2021 on x86",
+    "cpe": "cpe:2.3:a:microsoft:office_long_term_servicing_channel:2021:*:*:*:*:*:x86:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "microsoft",
+    "version": "2021",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:microsoft:office_long_term_servicing_channel:2021:*:*:*:*:*:x86:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-27T13:33Z",
+                "refs": [
+                    {
+                        "ref": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-33632",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Microsoft Office Long Term Servicing Channel (LTSC) 2021 on x86"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-40471",
+                    "CVE-2021-40472",
+                    "CVE-2021-40473",
+                    "CVE-2021-40474",
+                    "CVE-2021-40479",
+                    "CVE-2021-40480",
+                    "CVE-2021-40481",
+                    "CVE-2021-40485",
+                    "CVE-2021-41368",
+                    "CVE-2022-21988",
+                    "CVE-2022-22716",
+                    "CVE-2022-23252",
+                    "CVE-2022-30174",
+                    "CVE-2022-33631",
+                    "CVE-2022-33632",
+                    "CVE-2022-34717",
+                    "CVE-2022-37962",
+                    "CVE-2022-37963",
+                    "CVE-2022-38001",
+                    "CVE-2022-38010",
+                    "CVE-2022-38049"
+                ]
+            }
+        }
+    }
+}

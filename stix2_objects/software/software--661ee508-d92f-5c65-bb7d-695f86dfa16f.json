@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--661ee508-d92f-5c65-bb7d-695f86dfa16f",
+    "name": "Microsoft Azure ARC-Enabled Kubernetes 1.5.8",
+    "cpe": "cpe:2.3:a:microsoft:azure_arc-enabled_kubernetes:1.5.8:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "microsoft",
+    "version": "1.5.8",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:microsoft:azure_arc-enabled_kubernetes:1.5.8:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-27T13:33Z",
+                "refs": [
+                    {
+                        "ref": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-37968",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Microsoft Azure ARC-Enabled Kubernetes 1.5.8"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-37968"
+                ]
+            }
+        }
+    }
+}

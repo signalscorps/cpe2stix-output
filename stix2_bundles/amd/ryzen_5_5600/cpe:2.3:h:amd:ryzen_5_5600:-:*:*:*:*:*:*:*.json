@@ -1,0 +1,51 @@
+{
+    "type": "bundle",
+    "id": "bundle--198cbd07-3f39-45be-94b3-3831fce8563b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d25c1fed-12d7-5945-ab3b-15eea7ea608f",
+            "name": "Advanced Micro Devices (AMD) Ryzen 5 5600 -",
+            "cpe": "cpe:2.3:h:amd:ryzen_5_5600:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "amd",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:amd:ryzen_5_5600:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-27T13:25Z",
+                        "titles": [
+                            {
+                                "title": "Advanced Micro Devices (AMD) Ryzen 5 5600 -",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.amd.com/en/products/cpu/amd-ryzen-5-5600",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-12930",
+                            "CVE-2020-12931",
+                            "CVE-2021-26373",
+                            "CVE-2021-26375",
+                            "CVE-2021-26376",
+                            "CVE-2021-26378",
+                            "CVE-2021-26388",
+                            "CVE-2021-26392"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

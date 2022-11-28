@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--f28a070b-7962-5418-8d2e-bdb8a86bb0bf",
+    "name": "ARM Utgard GPU Kernel Driver r12P0",
+    "cpe": "cpe:2.3:a:arm:utgard_gpu_kernel_driver:r12p0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "arm",
+    "version": "r12p0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:arm:utgard_gpu_kernel_driver:r12p0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-27T13:21Z",
+                "refs": [
+                    {
+                        "ref": "https://developer.arm.com/downloads/-/mali-drivers/utgard-kernel",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://developer.arm.com/Arm%20Security%20Center/Mali%20GPU%20Driver%20Vulnerabilities",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "ARM Utgard GPU Kernel Driver r12P0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-34830"
+                ]
+            }
+        }
+    }
+}

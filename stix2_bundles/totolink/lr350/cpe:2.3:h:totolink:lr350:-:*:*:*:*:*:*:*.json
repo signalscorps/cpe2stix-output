@@ -1,0 +1,58 @@
+{
+    "type": "bundle",
+    "id": "bundle--04e3b0f4-9a50-47bd-8e66-f39b874a619e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6489c12b-bd8a-5b1c-a42d-fa570ed39398",
+            "name": "TOTOLINK LR350",
+            "cpe": "cpe:2.3:h:totolink:lr350:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "totolink",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:totolink:lr350:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-27T13:21Z",
+                        "titles": [
+                            {
+                                "title": "TOTOLINK LR350",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.totolink.net/home/menu/newstpl/menu_newstpl/products/id/231.html",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://brief-nymphea-813.notion.site/LR350-command-injection-UploadFirmwareFile-f006f70e9e6540529d262a8d34154d24",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-44249",
+                            "CVE-2022-44250",
+                            "CVE-2022-44251",
+                            "CVE-2022-44252",
+                            "CVE-2022-44253",
+                            "CVE-2022-44254",
+                            "CVE-2022-44255",
+                            "CVE-2022-44257",
+                            "CVE-2022-44258",
+                            "CVE-2022-44259",
+                            "CVE-2022-44260"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

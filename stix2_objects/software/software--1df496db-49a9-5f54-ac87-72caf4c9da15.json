@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--1df496db-49a9-5f54-ac87-72caf4c9da15",
+    "name": "Advanced Micro Devices (AMD) Milan Embedded Edition",
+    "cpe": "cpe:2.3:h:amd:milan:-:*:*:*:embedded:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "amd",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:amd:milan:-:*:*:*:embedded:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-27T13:25Z",
+                "refs": [
+                    {
+                        "ref": "https://www.insyde.com/security-pledge/SA-2022060",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Advanced Micro Devices (AMD) Milan Embedded Edition"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-29277"
+                ]
+            }
+        }
+    }
+}

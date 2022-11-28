@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--0f0d3f74-1ef0-4290-8df2-702e6c3a1e30",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ad982648-4d5d-5b40-8cb8-626a83558da2",
+            "name": "Microsoft Azure Guest Configuration",
+            "cpe": "cpe:2.3:a:microsoft:azure_guest_configuration:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "microsoft",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:microsoft:azure_guest_configuration:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-27T13:33Z",
+                        "titles": [
+                            {
+                                "title": "Microsoft Azure Guest Configuration",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-38007",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-38007"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

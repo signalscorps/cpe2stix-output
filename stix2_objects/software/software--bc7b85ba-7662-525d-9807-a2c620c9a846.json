@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--bc7b85ba-7662-525d-9807-a2c620c9a846",
+    "name": "Microsoft Windows Subsystem for Linux (WSL)",
+    "cpe": "cpe:2.3:a:microsoft:windows_subsystem_for_linux:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "microsoft",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:microsoft:windows_subsystem_for_linux:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-27T13:33Z",
+                "refs": [
+                    {
+                        "ref": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-38014",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/microsoft/WSL2-Linux-Kernel",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Microsoft Windows Subsystem for Linux (WSL)"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-38014"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--3d95e74f-3f38-436a-a733-d7135f107301",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5f7a9e4d-00e9-5a18-a533-e1c4e61336c1",
+            "name": "Microsoft Skype For Business 2019 Cumulative Update 6",
+            "cpe": "cpe:2.3:a:microsoft:skype_for_business:2019:cumulative_update_6:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "microsoft",
+            "version": "2019",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:microsoft:skype_for_business:2019:cumulative_update_6:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-27T13:33Z",
+                        "titles": [
+                            {
+                                "title": "Microsoft Skype For Business 2019 Cumulative Update 6",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-33633",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-33633"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

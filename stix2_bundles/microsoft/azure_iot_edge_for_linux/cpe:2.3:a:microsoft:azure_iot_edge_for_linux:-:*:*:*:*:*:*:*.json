@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--5e23ba0e-f360-43ec-9506-00e8945793ef",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ab4bc2cd-41a7-58ed-a168-71e78c0d99c4",
+            "name": "Microsoft Azure IoT Edge for Linux",
+            "cpe": "cpe:2.3:a:microsoft:azure_iot_edge_for_linux:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "microsoft",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:microsoft:azure_iot_edge_for_linux:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-27T13:33Z",
+                        "titles": [
+                            {
+                                "title": "Microsoft Azure IoT Edge for Linux",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-38014",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/Azure/iotedge-eflow",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-38014"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

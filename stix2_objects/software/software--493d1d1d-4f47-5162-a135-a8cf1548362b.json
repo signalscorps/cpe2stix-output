@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--493d1d1d-4f47-5162-a135-a8cf1548362b",
+    "name": "Advanced Micro Devices (AMD) Hygon 3",
+    "cpe": "cpe:2.3:h:amd:hygon_3:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "amd",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:amd:hygon_3:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-27T13:25Z",
+                "refs": [
+                    {
+                        "ref": "https://www.insyde.com/security-pledge/SA-2022060",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Advanced Micro Devices (AMD) Hygon 3"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-29277"
+                ]
+            }
+        }
+    }
+}

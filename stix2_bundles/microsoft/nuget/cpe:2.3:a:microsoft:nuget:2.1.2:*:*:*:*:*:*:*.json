@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--04190dc4-72b3-48a1-ba55-0242bcecce1b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1dfa8973-4c2c-513c-ad4e-d51d07b2275b",
+            "name": "Microsoft NuGet 2.1.2",
+            "cpe": "cpe:2.3:a:microsoft:nuget:2.1.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "microsoft",
+            "version": "2.1.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:microsoft:nuget:2.1.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-27T13:33Z",
+                        "titles": [
+                            {
+                                "title": "Microsoft NuGet 2.1.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-41064",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-30184",
+                            "CVE-2022-41064"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

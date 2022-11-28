@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--1dfda945-3a92-5529-bd40-837af89208d3",
+    "name": "Microsoft Expression Blend 4 Service Pack 3",
+    "cpe": "cpe:2.3:a:microsoft:expression_blend:4:sp3:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "microsoft",
+    "version": "4",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:microsoft:expression_blend:4:sp3:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-27T13:33Z",
+                "refs": [
+                    {
+                        "ref": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2018-8172",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Microsoft Expression Blend 4 Service Pack 3"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2018-8172"
+                ]
+            }
+        }
+    }
+}

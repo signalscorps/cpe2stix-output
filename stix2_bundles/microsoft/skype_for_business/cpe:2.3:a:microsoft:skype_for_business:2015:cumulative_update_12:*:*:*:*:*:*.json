@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--5ce7b769-7b55-4f15-b6da-2bef29e09ccd",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--416f3915-eb42-5864-b4ee-4c880dae119d",
+            "name": "Microsoft Skype For Business 2015 Cumulative Update 12",
+            "cpe": "cpe:2.3:a:microsoft:skype_for_business:2015:cumulative_update_12:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "microsoft",
+            "version": "2015",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:microsoft:skype_for_business:2015:cumulative_update_12:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-27T13:33Z",
+                        "titles": [
+                            {
+                                "title": "Microsoft Skype For Business 2015 Cumulative Update 12",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-33633",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-33633"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

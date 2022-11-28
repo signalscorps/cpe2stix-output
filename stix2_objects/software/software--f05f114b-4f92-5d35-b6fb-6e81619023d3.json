@@ -1,0 +1,47 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--f05f114b-4f92-5d35-b6fb-6e81619023d3",
+    "name": "Codenotary Immudb 1.0.5",
+    "cpe": "cpe:2.3:a:codenotary:immudb:1.0.5:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "codenotary",
+    "version": "1.0.5",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:codenotary:immudb:1.0.5:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-27T13:21Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/codenotary/immudb",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://codenotary.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/codenotary/immudb/tags",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Codenotary Immudb 1.0.5"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-36111",
+                    "CVE-2022-39199"
+                ]
+            }
+        }
+    }
+}

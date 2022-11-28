@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--69be3679-37c0-49c2-9256-f04a0c15a945",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0668f5a4-87ef-511e-b329-93fda6dc2f99",
+            "name": "Maarch RM 2.8.2",
+            "cpe": "cpe:2.3:a:maarch:maarch_rm:2.8.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "maarch",
+            "version": "2.8.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:maarch:maarch_rm:2.8.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-27T13:21Z",
+                        "titles": [
+                            {
+                                "title": "Maarch RM 2.8.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://maarch.com/maarch-rm/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://labs.maarch.org/maarch/maarchRM/-/blob/master/CHANGELOG.md",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-37772",
+                            "CVE-2022-37773",
+                            "CVE-2022-37774"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

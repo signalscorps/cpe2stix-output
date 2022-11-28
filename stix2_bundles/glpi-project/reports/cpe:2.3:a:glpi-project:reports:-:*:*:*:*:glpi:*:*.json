@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--64bb15bc-3674-4ee9-b44a-0ea58c246c1b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--39fc4e72-8d12-5a46-ab5d-3c2214e0d297",
+            "name": "GLPi-project Reports for GLPI",
+            "cpe": "cpe:2.3:a:glpi-project:reports:-:*:*:*:*:glpi:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "glpi-project",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:glpi-project:reports:-:*:*:*:*:glpi:*:*",
+                        "lastModifiedDate": "2022-11-27T13:23Z",
+                        "titles": [
+                            {
+                                "title": "GLPi-project Reports for GLPI",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.glpi-project.org/#/plugin/reports",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://github.com/yllen/reports/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-39181"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

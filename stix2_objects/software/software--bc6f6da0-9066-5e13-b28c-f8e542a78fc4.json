@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--bc6f6da0-9066-5e13-b28c-f8e542a78fc4",
+    "name": "Advanced Micro Devices (AMD) Rome",
+    "cpe": "cpe:2.3:h:amd:rome:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "amd",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:amd:rome:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-27T13:25Z",
+                "refs": [
+                    {
+                        "ref": "https://www.insyde.com/security-pledge/SA-2022060",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Advanced Micro Devices (AMD) Rome"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-29277"
+                ]
+            }
+        }
+    }
+}

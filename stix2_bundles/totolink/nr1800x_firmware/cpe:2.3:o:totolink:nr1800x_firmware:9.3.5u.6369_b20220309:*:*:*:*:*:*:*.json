@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--a1b3dea0-fb07-4ca3-b7b9-42061ecf42ee",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a8f40481-717f-5b79-b26d-411635e37ef8",
+            "name": "TOTOLINK NR1800X Firmware 9.3.5u.6369 B20220309",
+            "cpe": "cpe:2.3:o:totolink:nr1800x_firmware:9.3.5u.6369_b20220309:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "totolink",
+            "version": "9.3.5u.6369_b20220309",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:totolink:nr1800x_firmware:9.3.5u.6369_b20220309:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-27T13:21Z",
+                        "titles": [
+                            {
+                                "title": "TOTOLINK NR1800X Firmware 9.3.5u.6369 B20220309",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://brief-nymphea-813.notion.site/LR350-bof-setLanguageCfg-ddd638b9bb2d4c72b8dba5125c293141",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.totolink.net/home/menu/newstpl/menu_newstpl/products/id/225.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-44256"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

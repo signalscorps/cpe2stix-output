@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--84ff70ac-a01b-4fa4-b384-553f1a2120ea",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--52d54d63-e158-5783-8def-b8a85e50bdbf",
+            "name": "Vim 9.0.0900",
+            "cpe": "cpe:2.3:a:vim:vim:9.0.0900:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "vim",
+            "version": "9.0.0900",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:vim:vim:9.0.0900:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-28T20:06Z",
+                        "titles": [
+                            {
+                                "title": "Vim 9.0.0900",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/vim/vim/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://www.vim.org/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--1196eca0-8239-4d17-9916-ffb4e7842e8d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--028930da-60b0-5a73-970c-d4ff304e5bc2",
+            "name": "NVIDIA GPU Display Driver 430.64 for Windows",
+            "cpe": "cpe:2.3:a:nvidia:gpu_display_driver:430.64:*:*:*:*:windows:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nvidia",
+            "version": "430.64",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nvidia:gpu_display_driver:430.64:*:*:*:*:windows:*:*",
+                        "lastModifiedDate": "2022-11-28T18:10Z",
+                        "titles": [
+                            {
+                                "title": "NVIDIA GPU Display Driver 430.64 for Windows",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.nvidia.com/en-us/drivers/rtx-enterprise-and-quadro-driver-branch-history/",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

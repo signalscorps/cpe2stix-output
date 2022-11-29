@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--053e0698-96d8-5197-80c8-d7c39981e0b4",
+    "name": "Backdrop CMS 1.16.0",
+    "cpe": "cpe:2.3:a:backdropcms:backdrop_cms:1.16.0:-:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "backdropcms",
+    "version": "1.16.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:backdropcms:backdrop_cms:1.16.0:-:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-28T12:53Z",
+                "refs": [
+                    {
+                        "ref": "https://backdropcms.org/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/backdrop/backdrop/releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Backdrop CMS 1.16.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-34530"
+                ]
+            }
+        }
+    }
+}

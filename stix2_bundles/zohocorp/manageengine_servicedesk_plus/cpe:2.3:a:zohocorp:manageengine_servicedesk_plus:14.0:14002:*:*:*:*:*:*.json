@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--df2657f3-483c-454f-8a50-6b641828a18b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--da3b390f-61c4-545e-b9ed-0dc1270e50d8",
+            "name": "Zoho Corp ManageEngine ServiceDesk Plus 14.0 14002",
+            "cpe": "cpe:2.3:a:zohocorp:manageengine_servicedesk_plus:14.0:14002:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "zohocorp",
+            "version": "14.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:zohocorp:manageengine_servicedesk_plus:14.0:14002:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-28T13:46Z",
+                        "titles": [
+                            {
+                                "title": "Zoho Corp ManageEngine ServiceDesk Plus 14.0 14002",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.manageengine.com/products/service-desk/on-premises/readme.html#readme140",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2018-5799",
+                            "CVE-2019-15045",
+                            "CVE-2019-15046"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

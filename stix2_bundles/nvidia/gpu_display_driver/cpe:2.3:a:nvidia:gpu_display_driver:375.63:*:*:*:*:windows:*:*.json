@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--fd9f9841-040a-44c6-996d-d2a83c23a7ac",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2aa66d77-3be4-5957-b86c-8bbc94b59de2",
+            "name": "NVIDIA GPU Display Driver 375.63 for Windows",
+            "cpe": "cpe:2.3:a:nvidia:gpu_display_driver:375.63:*:*:*:*:windows:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nvidia",
+            "version": "375.63",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nvidia:gpu_display_driver:375.63:*:*:*:*:windows:*:*",
+                        "lastModifiedDate": "2022-11-28T18:10Z",
+                        "titles": [
+                            {
+                                "title": "NVIDIA GPU Display Driver 375.63 for Windows",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.nvidia.com/en-us/drivers/rtx-enterprise-and-quadro-driver-branch-history/",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

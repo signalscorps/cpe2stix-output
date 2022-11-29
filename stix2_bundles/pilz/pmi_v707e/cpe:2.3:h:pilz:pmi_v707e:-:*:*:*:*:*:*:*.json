@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--4412c3bd-a48c-4bc8-a9ba-348c0f20164d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bd4fa32a-4078-5d3b-ade4-1bb522407e3d",
+            "name": "Pilz PMI V707E",
+            "cpe": "cpe:2.3:h:pilz:pmi_v707e:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "pilz",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:pilz:pmi_v707e:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-28T15:01Z",
+                        "titles": [
+                            {
+                                "title": "Pilz PMI V707E",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-033/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.pilz.com/en-US/eshop/Operating-and-monitoring/Operator-terminals/PMIvisu-Visualisation-system/PMIvisu/c/0010400216713480FH",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.pilz.com/en-US/eshop/Operating-and-monitoring/Operator-terminals/PMIvisu-Visualisation-system/PMIvisu/PMI-v707e/p/266707",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

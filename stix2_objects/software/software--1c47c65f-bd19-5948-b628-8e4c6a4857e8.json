@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--1c47c65f-bd19-5948-b628-8e4c6a4857e8",
+    "name": "Pilz PMI V807 Firmware",
+    "cpe": "cpe:2.3:o:pilz:pmi_v807_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "pilz",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:pilz:pmi_v807_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-28T15:01Z",
+                "refs": [
+                    {
+                        "ref": "https://cert.vde.com/en/advisories/VDE-2022-033/",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.pilz.com/en-US/eshop/Operating-and-monitoring/Operator-terminals/PMIvisu-Visualisation-system/PMIvisu/c/0010400216713480FH",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://www.pilz.com/en-US/eshop/Operating-and-monitoring/Operator-terminals/PMIvisu-Visualisation-system/PMIvisu/PMI-v807/p/266807",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Pilz PMI V807 Firmware"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

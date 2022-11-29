@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--6dc71e10-0774-5237-b34c-a88d3556bc68",
+    "name": "NVIDIA GPU Display Driver 419.17 for Windows",
+    "cpe": "cpe:2.3:a:nvidia:gpu_display_driver:419.17:*:*:*:*:windows:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "nvidia",
+    "version": "419.17",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:nvidia:gpu_display_driver:419.17:*:*:*:*:windows:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-28T18:10Z",
+                "refs": [
+                    {
+                        "ref": "https://www.nvidia.com/en-us/drivers/rtx-enterprise-and-quadro-driver-branch-history/",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "NVIDIA GPU Display Driver 419.17 for Windows"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2019-5676",
+                    "CVE-2020-5966",
+                    "CVE-2021-1075",
+                    "CVE-2021-1076",
+                    "CVE-2021-1078"
+                ]
+            }
+        }
+    }
+}

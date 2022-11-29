@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--63386222-3a7d-53a0-a9e2-c0be857f9a07",
+    "name": "Fishbowl Inventory Fishbowl",
+    "cpe": "cpe:2.3:a:fishbowlinventory:fishbowl:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "fishbowlinventory",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:fishbowlinventory:fishbowl:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-28T12:37Z",
+                "refs": [
+                    {
+                        "ref": "https://www.fishbowlinventory.com/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://www.whiteoaksecurity.com/blog/fishbowl-disclosure-cve-2022-29805/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Fishbowl Inventory Fishbowl"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-29805"
+                ]
+            }
+        }
+    }
+}

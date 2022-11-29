@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--b8c989cc-c73f-49ca-be39-2b65f8b53200",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--95b9fbaa-5d31-516d-ab4f-995c3de3c419",
+            "name": "Pilz PMI V815 Firmware 1.6.102",
+            "cpe": "cpe:2.3:o:pilz:pmi_v815_firmware:1.6.102:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "pilz",
+            "version": "1.6.102",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:pilz:pmi_v815_firmware:1.6.102:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-28T15:01Z",
+                        "titles": [
+                            {
+                                "title": "Pilz PMI V815 Firmware 1.6.102",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-033/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.pilz.com/en-US/eshop/Operating-and-monitoring/Operator-terminals/PMIvisu-Visualisation-system/PMIvisu/c/0010400216713480FH",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.pilz.com/en-US/eshop/Operating-and-monitoring/Operator-terminals/PMIvisu-Visualisation-system/PMIvisu/PMI-v815/p/266815",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

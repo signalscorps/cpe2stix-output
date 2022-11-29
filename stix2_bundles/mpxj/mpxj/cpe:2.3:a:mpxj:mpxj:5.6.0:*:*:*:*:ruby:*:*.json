@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--e27889fd-249c-40bd-a769-652b51984999",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b3794b18-7751-5df6-8cc4-7e066164c474",
+            "name": "MPXJ 5.6.0 for Ruby",
+            "cpe": "cpe:2.3:a:mpxj:mpxj:5.6.0:*:*:*:*:ruby:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mpxj",
+            "version": "5.6.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:mpxj:mpxj:5.6.0:*:*:*:*:ruby:*:*",
+                        "lastModifiedDate": "2022-11-28T18:22Z",
+                        "titles": [
+                            {
+                                "title": "MPXJ 5.6.0 for Ruby",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.mpxj.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://rubygems.org/gems/mpxj/versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-25020",
+                            "CVE-2020-35460"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

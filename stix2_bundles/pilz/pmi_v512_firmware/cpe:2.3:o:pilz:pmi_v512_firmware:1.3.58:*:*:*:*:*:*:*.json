@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--7bd1d155-e317-48e7-8707-e225e39434f3",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--36b4bf94-e217-5d9e-8411-774528049272",
+            "name": "Pilz PMI V512 Firmware 1.3.58",
+            "cpe": "cpe:2.3:o:pilz:pmi_v512_firmware:1.3.58:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "pilz",
+            "version": "1.3.58",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:pilz:pmi_v512_firmware:1.3.58:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-28T15:01Z",
+                        "titles": [
+                            {
+                                "title": "Pilz PMI V512 Firmware 1.3.58",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-033/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://plc-trade.com/mpn/pmi-v512/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.pilz.com/en-US/eshop/Operating-and-monitoring/Operator-terminals/PMIvisu-Visualisation-system/PMIvisu/c/0010400216713480FH",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--e903896a-7cf6-4b79-9a34-eafb18b44d81",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--77ba0d1b-3311-540b-9c8a-f75103bd428c",
+            "name": "Pilz PMI V507 Firmware",
+            "cpe": "cpe:2.3:o:pilz:pmi_v507_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "pilz",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:pilz:pmi_v507_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-28T15:01Z",
+                        "titles": [
+                            {
+                                "title": "Pilz PMI V507 Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-033/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://plc-trade.com/mpn/pmi-v507/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.pilz.com/en-US/eshop/Operating-and-monitoring/Operator-terminals/PMIvisu-Visualisation-system/PMIvisu/c/0010400216713480FH",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

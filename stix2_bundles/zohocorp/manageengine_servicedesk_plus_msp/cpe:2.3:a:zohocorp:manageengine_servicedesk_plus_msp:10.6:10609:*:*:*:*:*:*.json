@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--fff91f85-4113-48e4-9fbc-96560239f55b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e5b885be-0552-50e4-8c7c-24156ad4ad62",
+            "name": "Zoho Corp ManageEngine ServiceDesk Plus MSP 10.6 10609",
+            "cpe": "cpe:2.3:a:zohocorp:manageengine_servicedesk_plus_msp:10.6:10609:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "zohocorp",
+            "version": "10.6",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:zohocorp:manageengine_servicedesk_plus_msp:10.6:10609:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-28T13:46Z",
+                        "titles": [
+                            {
+                                "title": "Zoho Corp ManageEngine ServiceDesk Plus MSP 10.6 10609",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.manageengine.com/products/service-desk-msp/readme.html",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-40770"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

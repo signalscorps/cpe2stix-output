@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--d13421cd-b9cb-4402-9f3a-26a1af3526f3",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f815f656-25ec-5965-acfc-ed17f76f5246",
+            "name": "MaraDNS 2.0.11",
+            "cpe": "cpe:2.3:a:maradns:maradns:2.0.11:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "maradns",
+            "version": "2.0.11",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:maradns:maradns:2.0.11:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-28T11:34Z",
+                        "titles": [
+                            {
+                                "title": "MaraDNS 2.0.11",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://maradns.samiam.org/changelog.html",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-30256"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

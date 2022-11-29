@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--2c68d547-053d-4cc7-87da-2bd647a9a42c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--61ce22c6-cf52-5cd1-9f0c-8228dc1ab72e",
+            "name": "CERT/CC VINCE (Vulnerability Information and Coordination Environment) 1.50.6",
+            "cpe": "cpe:2.3:a:cert:vince:1.50.6:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cert",
+            "version": "1.50.6",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:cert:vince:1.50.6:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-28T12:28Z",
+                        "titles": [
+                            {
+                                "title": "CERT/CC VINCE (Vulnerability Information and Coordination Environment) 1.50.6",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://kb.cert.org/vince/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/CERTCC/VINCE/issues/65",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/CERTCC/VINCE/blob/main/CHANGELOG.md",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

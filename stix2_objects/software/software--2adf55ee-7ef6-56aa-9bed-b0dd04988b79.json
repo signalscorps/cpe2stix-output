@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--2adf55ee-7ef6-56aa-9bed-b0dd04988b79",
+    "name": "Visztpeter Integration For Szamlazz.hu & WooCommerce 5.6.3.1 for WordPress",
+    "cpe": "cpe:2.3:a:visztpeter:integration_for_szamlazz.hu_\\&_woocommerce:5.6.3.1:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "visztpeter",
+    "version": "5.6.3.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:visztpeter:integration_for_szamlazz.hu_\\&_woocommerce:5.6.3.1:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-28T11:38Z",
+                "refs": [
+                    {
+                        "ref": "https://wordpress.org/plugins/integration-for-szamlazzhu-woocommerce/#developers",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://patchstack.com/database/vulnerability/integration-for-szamlazzhu-woocommerce/wordpress-integration-for-szamlazz-hu-woocommerce-plugin-5-6-3-2-multiple-cross-site-request-forgery-csrf-vulnerabilities?_s_id=cve",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://visztpeter.me/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Visztpeter Integration For Szamlazz.hu & WooCommerce 5.6.3.1 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-41685"
+                ]
+            }
+        }
+    }
+}

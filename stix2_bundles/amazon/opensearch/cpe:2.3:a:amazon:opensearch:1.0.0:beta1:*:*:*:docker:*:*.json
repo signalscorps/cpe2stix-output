@@ -1,0 +1,57 @@
+{
+    "type": "bundle",
+    "id": "bundle--699829e5-fe24-4154-89fe-955422a387c6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--48d04c82-c35c-5279-9591-0effc3b06437",
+            "name": "Amazon OpenSearch 1.0.0 Beta 1 for Docker",
+            "cpe": "cpe:2.3:a:amazon:opensearch:1.0.0:beta1:*:*:*:docker:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "amazon",
+            "version": "1.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:amazon:opensearch:1.0.0:beta1:*:*:*:docker:*:*",
+                        "lastModifiedDate": "2022-11-28T19:16Z",
+                        "titles": [
+                            {
+                                "title": "Amazon OpenSearch 1.0.0 Beta 1 for Docker",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://opensearch.org/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://aws.amazon.com/opensearch-service/the-elk-stack/what-is-opensearch/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://hub.docker.com/r/opensearchproject/opensearch/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/opensearch-project/security/security/advisories/GHSA-wmx7-x4jp-9jgg",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41917",
+                            "CVE-2022-41918"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

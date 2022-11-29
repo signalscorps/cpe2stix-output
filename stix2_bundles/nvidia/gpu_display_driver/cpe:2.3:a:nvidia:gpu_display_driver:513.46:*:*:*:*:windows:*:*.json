@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--5d03c59f-8e15-4efc-a540-3f31b9263709",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f665b69d-3f0c-5296-a134-1cadfb2ed7c4",
+            "name": "NVIDIA GPU Display Driver 513.46 for Windows",
+            "cpe": "cpe:2.3:a:nvidia:gpu_display_driver:513.46:*:*:*:*:windows:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nvidia",
+            "version": "513.46",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nvidia:gpu_display_driver:513.46:*:*:*:*:windows:*:*",
+                        "lastModifiedDate": "2022-11-28T18:10Z",
+                        "titles": [
+                            {
+                                "title": "NVIDIA GPU Display Driver 513.46 for Windows",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.nvidia.com/en-us/drivers/rtx-enterprise-and-quadro-driver-branch-history/",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

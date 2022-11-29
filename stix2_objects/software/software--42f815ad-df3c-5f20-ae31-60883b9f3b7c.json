@@ -1,0 +1,51 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--42f815ad-df3c-5f20-ae31-60883b9f3b7c",
+    "name": "Amazon OpenSearch 1.3.5 for Docker",
+    "cpe": "cpe:2.3:a:amazon:opensearch:1.3.5:*:*:*:*:docker:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "amazon",
+    "version": "1.3.5",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:amazon:opensearch:1.3.5:*:*:*:*:docker:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-28T19:16Z",
+                "refs": [
+                    {
+                        "ref": "https://opensearch.org/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://aws.amazon.com/opensearch-service/the-elk-stack/what-is-opensearch/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://hub.docker.com/r/opensearchproject/opensearch/tags",
+                        "type": "Version"
+                    },
+                    {
+                        "ref": "https://github.com/opensearch-project/security/security/advisories/GHSA-wmx7-x4jp-9jgg",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Amazon OpenSearch 1.3.5 for Docker"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-41917",
+                    "CVE-2022-41918"
+                ]
+            }
+        }
+    }
+}

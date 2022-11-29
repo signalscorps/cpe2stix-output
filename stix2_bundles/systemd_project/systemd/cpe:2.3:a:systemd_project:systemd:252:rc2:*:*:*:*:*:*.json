@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--66300435-dcb9-4377-a425-78b7d587a414",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6d596646-6d63-54f2-a053-fb8d7c12b2d3",
+            "name": "systemd Project systemd 252 Release Candidate 2",
+            "cpe": "cpe:2.3:a:systemd_project:systemd:252:rc2:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "systemd_project",
+            "version": "252",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:systemd_project:systemd:252:rc2:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-28T14:35Z",
+                        "titles": [
+                            {
+                                "title": "systemd Project systemd 252 Release Candidate 2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/systemd/systemd",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://github.com/systemd/systemd/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

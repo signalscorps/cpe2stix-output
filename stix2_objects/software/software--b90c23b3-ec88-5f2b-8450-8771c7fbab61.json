@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--b90c23b3-ec88-5f2b-8450-8771c7fbab61",
+    "name": "NVIDIA GPU Display Driver 392.37 for Windows",
+    "cpe": "cpe:2.3:a:nvidia:gpu_display_driver:392.37:*:*:*:*:windows:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "nvidia",
+    "version": "392.37",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:nvidia:gpu_display_driver:392.37:*:*:*:*:windows:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-28T18:10Z",
+                "refs": [
+                    {
+                        "ref": "https://www.nvidia.com/en-us/drivers/rtx-enterprise-and-quadro-driver-branch-history/",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "NVIDIA GPU Display Driver 392.37 for Windows"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-5966",
+                    "CVE-2021-1074",
+                    "CVE-2021-1078",
+                    "CVE-2021-1115",
+                    "CVE-2021-1116",
+                    "CVE-2021-1117"
+                ]
+            }
+        }
+    }
+}

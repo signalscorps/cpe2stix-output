@@ -1,0 +1,54 @@
+{
+    "type": "bundle",
+    "id": "bundle--bf7b4771-62c3-48ce-ab13-6c42e0dad72d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a03b77eb-9169-539a-b849-5e6d0077d74d",
+            "name": "CERT/CC VINCE (Vulnerability Information and Coordination Environment) 1.50.2",
+            "cpe": "cpe:2.3:a:cert:vince:1.50.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cert",
+            "version": "1.50.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:cert:vince:1.50.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-28T12:28Z",
+                        "titles": [
+                            {
+                                "title": "CERT/CC VINCE (Vulnerability Information and Coordination Environment) 1.50.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://kb.cert.org/vince/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/CERTCC/VINCE/issues/65",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/CERTCC/VINCE/blob/main/CHANGELOG.md",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-40238",
+                            "CVE-2022-40248",
+                            "CVE-2022-40257"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

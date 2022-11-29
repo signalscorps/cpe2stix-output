@@ -1,0 +1,61 @@
+{
+    "type": "bundle",
+    "id": "bundle--f0cafadd-0db2-4120-82e6-671a6245c3aa",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3f0b56f2-3622-5d77-bf48-9ba7276e8a2c",
+            "name": "MPXJ 7.0.2",
+            "cpe": "cpe:2.3:a:mpxj:mpxj:7.0.2:*:*:*:*:-:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mpxj",
+            "version": "7.0.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:mpxj:mpxj:7.0.2:*:*:*:*:-:*:*",
+                        "lastModifiedDate": "2022-11-28T18:20Z",
+                        "titles": [
+                            {
+                                "title": "MPXJ 7.0.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/joniles/mpxj/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "http://www.mpxj.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/joniles/mpxj",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/joniles/mpxj",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.mpxj.org/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-25020",
+                            "CVE-2020-35460"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

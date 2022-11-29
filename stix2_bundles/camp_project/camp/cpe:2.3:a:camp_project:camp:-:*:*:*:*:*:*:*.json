@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--c19cb88d-b7c2-4a5c-9e00-820dca7ecf39",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--084662a5-323c-51c0-85d6-e75dce2d3d96",
+            "name": "Camp Project Camp",
+            "cpe": "cpe:2.3:a:camp_project:camp:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "camp_project",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:camp_project:camp:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-28T12:23Z",
+                        "titles": [
+                            {
+                                "title": "Camp Project Camp",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/patrickfuller/camp/commit/bf6af5c2e5cf713e4050c11c52dd4c55e89880b1",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://medium.com/@elias.hohl/authentication-bypass-vulnerability-in-camp-a-raspberry-pi-camera-server-477e5d270904",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/patrickfuller/camp",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-37109"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

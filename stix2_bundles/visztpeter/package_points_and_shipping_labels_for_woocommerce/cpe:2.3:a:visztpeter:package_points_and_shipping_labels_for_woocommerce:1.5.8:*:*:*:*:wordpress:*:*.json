@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--2ab0735a-da2f-4c88-aa97-20c9a0a770b8",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--acca1238-58d6-5d2a-8bd5-9df6ee135d49",
+            "name": "Visztpeter Package Points And Shipping Labels For WooCommerce 1.5.8 for WordPress",
+            "cpe": "cpe:2.3:a:visztpeter:package_points_and_shipping_labels_for_woocommerce:1.5.8:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "visztpeter",
+            "version": "1.5.8",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:visztpeter:package_points_and_shipping_labels_for_woocommerce:1.5.8:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-28T11:38Z",
+                        "titles": [
+                            {
+                                "title": "Visztpeter Package Points And Shipping Labels For WooCommerce 1.5.8 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://visztpeter.me/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/hungarian-pickup-points-for-woocommerce/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/hungarian-pickup-points-for-woocommerce/wordpress-csomagpontok-es-szallitasi-cimkek-woocommerce-hez-plugin-1-9-0-2-multiple-cross-site-request-forgery-csrf-vulnerabilities?_s_id=cve",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41685"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

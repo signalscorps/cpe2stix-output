@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--35ccbc06-a215-4f80-bd43-d8d553b16f7b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ebee1b2e-a68a-53d1-bc48-e8ee91cc09d6",
+            "name": "Apache Software Foundation Apache-airflow-providers-apache-hive (Apache Airflow Hive Provider) 3.0.0",
+            "cpe": "cpe:2.3:a:apache:apache-airflow-providers-apache-hive:3.0.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "apache",
+            "version": "3.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:apache:apache-airflow-providers-apache-hive:3.0.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-28T17:36Z",
+                        "titles": [
+                            {
+                                "title": "Apache Software Foundation Apache-airflow-providers-apache-hive (Apache Airflow Hive Provider) 3.0.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://airflow.apache.org/docs/apache-airflow-providers-apache-hive/stable/index.html",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://lists.apache.org/thread/wwo3qp0z8gv54yzn7hr04wy4n8gb0vhl",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41131"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

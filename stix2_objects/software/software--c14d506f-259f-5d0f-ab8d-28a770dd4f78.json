@@ -1,0 +1,45 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--c14d506f-259f-5d0f-ab8d-28a770dd4f78",
+    "name": "Wind River VxWorks 6.9.4.12 Rolling Cumulative Patch Layer 3",
+    "cpe": "cpe:2.3:o:windriver:vxworks:6.9.4.12:rolling_cumulative_patch_layer3:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "windriver",
+    "version": "6.9.4.12",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:windriver:vxworks:6.9.4.12:rolling_cumulative_patch_layer3:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-28T18:24Z",
+                "refs": [
+                    {
+                        "ref": "https://support2.windriver.com/index.php?page=cve&on=view&id=CVE-2020-28895",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://support2.windriver.com/index.php?page=cve&on=view&id=CVE-2022-38767",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Wind River VxWorks 6.9.4.12 Rolling Cumulative Patch Layer 3"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2010-2965",
+                    "CVE-2016-20009",
+                    "CVE-2020-11440",
+                    "CVE-2021-43268"
+                ]
+            }
+        }
+    }
+}

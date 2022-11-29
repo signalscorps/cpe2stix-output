@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--9f66d728-6d68-40d6-a8bd-8cec014f13cb",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--17ff9eae-7d87-5e2b-8014-1ebb382ee8ca",
+            "name": "Fishbowl Inventory Fishbowl 2021.11",
+            "cpe": "cpe:2.3:a:fishbowlinventory:fishbowl:2021.11:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "fishbowlinventory",
+            "version": "2021.11",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:fishbowlinventory:fishbowl:2021.11:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-28T12:40Z",
+                        "titles": [
+                            {
+                                "title": "Fishbowl Inventory Fishbowl 2021.11",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.fishbowlinventory.com/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://help.fishbowlinventory.com/s/article/Release-Notes",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-29805"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

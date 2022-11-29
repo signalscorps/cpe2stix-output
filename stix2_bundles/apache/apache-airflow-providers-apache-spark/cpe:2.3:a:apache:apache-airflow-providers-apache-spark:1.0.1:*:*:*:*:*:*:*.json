@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--a0bb056a-7747-407d-b2dd-4d603270d09a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2c78a0ed-8347-5e04-9833-65f115987040",
+            "name": "Apache Software Foundation Apache-airflow-providers-apache-spark (Apache Airflow Spark Provider) 1.0.1",
+            "cpe": "cpe:2.3:a:apache:apache-airflow-providers-apache-spark:1.0.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "apache",
+            "version": "1.0.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:apache:apache-airflow-providers-apache-spark:1.0.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-28T17:36Z",
+                        "titles": [
+                            {
+                                "title": "Apache Software Foundation Apache-airflow-providers-apache-spark (Apache Airflow Spark Provider) 1.0.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://airflow.apache.org/docs/apache-airflow-providers-apache-spark/stable/index.html",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://lists.apache.org/thread/0tmdlnmjs5t4gsx5fy73tb6zd3jztq45",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-40954"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

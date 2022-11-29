@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--80e7ed6a-3479-48a1-9017-edbb91f7198f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4d06719b-4109-5f12-b0d2-f5fc6e878a47",
+            "name": "Mitsubishi Electric MX OPC UA Module Configurator-R",
+            "cpe": "cpe:2.3:a:mitsubishielectric:mx_opc_ua_module_configurator-r:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mitsubishielectric",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:mitsubishielectric:mx_opc_ua_module_configurator-r:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-28T18:24Z",
+                        "titles": [
+                            {
+                                "title": "Mitsubishi Electric MX OPC UA Module Configurator-R",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.mitsubishielectric.com/en/psirt/vulnerability/pdf/2022-015_en.pdf",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://dl.mitsubishielectric.com/dl/fa/document/manual/plc/bcn-p5999-0785/bcnp59990785b.pdf",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-25164"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

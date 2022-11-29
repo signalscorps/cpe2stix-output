@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--a44350d0-16c9-43c3-ae00-8ae9a913d682",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--df3537b0-7a0c-5242-99cd-c7c1032a3c35",
+            "name": "MailerLite Signup forms 1.5.7 for WordPress",
+            "cpe": "cpe:2.3:a:mailerlite:mailerlite_signup_forms:1.5.7:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mailerlite",
+            "version": "1.5.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:mailerlite:mailerlite_signup_forms:1.5.7:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-28T19:52Z",
+                        "titles": [
+                            {
+                                "title": "MailerLite Signup forms 1.5.7 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.mailerlite.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/official-mailerlite-sign-up-forms/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-33201"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

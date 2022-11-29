@@ -1,0 +1,44 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--45206f45-7dae-56f8-8748-305eb2d981f1",
+    "name": "NVIDIA GPU Display Driver 461.92 for Windows",
+    "cpe": "cpe:2.3:a:nvidia:gpu_display_driver:461.92:*:*:*:*:windows:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "nvidia",
+    "version": "461.92",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:nvidia:gpu_display_driver:461.92:*:*:*:*:windows:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-28T18:10Z",
+                "refs": [
+                    {
+                        "ref": "https://www.nvidia.com/en-us/drivers/rtx-enterprise-and-quadro-driver-branch-history/",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "NVIDIA GPU Display Driver 461.92 for Windows"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-1075",
+                    "CVE-2021-1076",
+                    "CVE-2021-1077",
+                    "CVE-2021-1078",
+                    "CVE-2021-1115",
+                    "CVE-2021-1116",
+                    "CVE-2021-1117"
+                ]
+            }
+        }
+    }
+}

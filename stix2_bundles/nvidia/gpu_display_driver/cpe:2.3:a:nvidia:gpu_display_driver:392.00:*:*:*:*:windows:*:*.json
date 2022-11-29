@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--f66eddb8-40c2-4412-ae07-553f3b42b60c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--df9f779c-4cb0-55c5-9dd8-16e4f5b76a5a",
+            "name": "NVIDIA GPU Display Driver 392.00 for Windows",
+            "cpe": "cpe:2.3:a:nvidia:gpu_display_driver:392.00:*:*:*:*:windows:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nvidia",
+            "version": "392.00",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nvidia:gpu_display_driver:392.00:*:*:*:*:windows:*:*",
+                        "lastModifiedDate": "2022-11-28T18:10Z",
+                        "titles": [
+                            {
+                                "title": "NVIDIA GPU Display Driver 392.00 for Windows",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.nvidia.com/en-us/drivers/rtx-enterprise-and-quadro-driver-branch-history/",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-5966",
+                            "CVE-2021-1074",
+                            "CVE-2021-1078",
+                            "CVE-2021-1115",
+                            "CVE-2021-1116",
+                            "CVE-2021-1117"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

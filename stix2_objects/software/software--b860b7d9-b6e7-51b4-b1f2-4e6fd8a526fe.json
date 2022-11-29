@@ -1,0 +1,49 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--b860b7d9-b6e7-51b4-b1f2-4e6fd8a526fe",
+    "name": "systemd Project systemd 242",
+    "cpe": "cpe:2.3:a:systemd_project:systemd:242:-:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "systemd_project",
+    "version": "242",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:systemd_project:systemd:242:-:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-28T19:08Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/systemd/systemd",
+                        "type": "Project"
+                    },
+                    {
+                        "ref": "https://github.com/systemd/systemd/tags",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "systemd Project systemd 242"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2018-20839",
+                    "CVE-2018-21029",
+                    "CVE-2019-20386",
+                    "CVE-2020-13776",
+                    "CVE-2020-1712",
+                    "CVE-2021-33910",
+                    "CVE-2021-3997",
+                    "CVE-2022-3821"
+                ]
+            }
+        }
+    }
+}

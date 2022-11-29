@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--ff9a312b-7918-47c0-8c0f-2c26216fd6ea",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2c3f3e0b-df55-5289-ab7e-2ae802f9f5b4",
+            "name": "Visztpeter Integration For Szamlazz.hu & WooCommerce 4.8.1 for WordPress",
+            "cpe": "cpe:2.3:a:visztpeter:integration_for_szamlazz.hu_\\&_woocommerce:4.8.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "visztpeter",
+            "version": "4.8.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:visztpeter:integration_for_szamlazz.hu_\\&_woocommerce:4.8.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-28T11:38Z",
+                        "titles": [
+                            {
+                                "title": "Visztpeter Integration For Szamlazz.hu & WooCommerce 4.8.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/integration-for-szamlazzhu-woocommerce/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/integration-for-szamlazzhu-woocommerce/wordpress-integration-for-szamlazz-hu-woocommerce-plugin-5-6-3-2-multiple-cross-site-request-forgery-csrf-vulnerabilities?_s_id=cve",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://visztpeter.me/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41685"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

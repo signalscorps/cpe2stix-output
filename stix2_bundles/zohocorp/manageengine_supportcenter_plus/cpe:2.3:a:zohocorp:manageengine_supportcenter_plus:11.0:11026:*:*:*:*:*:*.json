@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--33c8718b-865e-45ab-8752-c8a68a2181fc",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3b9f2e32-6be3-5ab5-90f7-900f8414ca64",
+            "name": "Zoho Corporation ManageEngine SupportCenter Plus 11.0 11026",
+            "cpe": "cpe:2.3:a:zohocorp:manageengine_supportcenter_plus:11.0:11026:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "zohocorp",
+            "version": "11.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:zohocorp:manageengine_supportcenter_plus:11.0:11026:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-28T13:46Z",
+                        "titles": [
+                            {
+                                "title": "Zoho Corporation ManageEngine SupportCenter Plus 11.0 11026",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.manageengine.com/products/support-center/readme.html",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-44077"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

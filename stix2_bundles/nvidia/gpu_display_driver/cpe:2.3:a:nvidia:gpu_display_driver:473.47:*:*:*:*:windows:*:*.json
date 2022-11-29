@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--62879e98-43e7-481c-9570-aa3ddebb48c4",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--79b97d18-3c2b-5b00-9203-531b5e317253",
+            "name": "NVIDIA GPU Display Driver 473.47 for Windows",
+            "cpe": "cpe:2.3:a:nvidia:gpu_display_driver:473.47:*:*:*:*:windows:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nvidia",
+            "version": "473.47",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nvidia:gpu_display_driver:473.47:*:*:*:*:windows:*:*",
+                        "lastModifiedDate": "2022-11-28T18:10Z",
+                        "titles": [
+                            {
+                                "title": "NVIDIA GPU Display Driver 473.47 for Windows",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.nvidia.com/en-us/drivers/rtx-enterprise-and-quadro-driver-branch-history/",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-31606",
+                            "CVE-2022-31612"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

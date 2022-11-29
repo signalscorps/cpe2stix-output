@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--d12e0bc0-10c5-48be-9ee9-82c91a9056f4",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--254637d8-6877-59b8-bda7-659eecfbf449",
+            "name": "Pilz PASvisu 1.10.0",
+            "cpe": "cpe:2.3:a:pilz:pasvisu:1.10.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "pilz",
+            "version": "1.10.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:pilz:pasvisu:1.10.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-28T15:01Z",
+                        "titles": [
+                            {
+                                "title": "Pilz PASvisu 1.10.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.pilz.com/en-US/products/software/visualisation-software/pasvisu-hmi-software",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-033/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

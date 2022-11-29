@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--df0a912f-7ef3-501b-9d5f-926fa7e6b926",
+    "name": "Apache Software Foundation Apache-airflow-providers-apache-hive (Apache Airflow Hive Provider) 1.0.2",
+    "cpe": "cpe:2.3:a:apache:apache-airflow-providers-apache-hive:1.0.2:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "apache",
+    "version": "1.0.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:apache:apache-airflow-providers-apache-hive:1.0.2:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-28T17:36Z",
+                "refs": [
+                    {
+                        "ref": "https://airflow.apache.org/docs/apache-airflow-providers-apache-hive/stable/index.html",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://lists.apache.org/thread/wwo3qp0z8gv54yzn7hr04wy4n8gb0vhl",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Apache Software Foundation Apache-airflow-providers-apache-hive (Apache Airflow Hive Provider) 1.0.2"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-41131"
+                ]
+            }
+        }
+    }
+}

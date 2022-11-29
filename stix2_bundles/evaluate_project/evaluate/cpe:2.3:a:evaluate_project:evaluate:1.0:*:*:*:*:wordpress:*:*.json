@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--efba9f8e-ba95-4720-8a3e-a928a23a513c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e77a0f04-31bf-52f2-ab33-3dffcce4a890",
+            "name": "Evaluate Project Evaluate 1.0 for WordPress",
+            "cpe": "cpe:2.3:a:evaluate_project:evaluate:1.0:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "evaluate_project",
+            "version": "1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:evaluate_project:evaluate:1.0:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-28T12:32Z",
+                        "titles": [
+                            {
+                                "title": "Evaluate Project Evaluate 1.0 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wpscan.com/vulnerability/8e88a5b9-6f1d-40de-99fc-8e1e66646c2b",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/evaluate/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3753"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

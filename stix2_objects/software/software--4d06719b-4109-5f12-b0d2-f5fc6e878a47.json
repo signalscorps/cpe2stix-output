@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--4d06719b-4109-5f12-b0d2-f5fc6e878a47",
+    "name": "Mitsubishi Electric MX OPC UA Module Configurator-R",
+    "cpe": "cpe:2.3:a:mitsubishielectric:mx_opc_ua_module_configurator-r:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "mitsubishielectric",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:mitsubishielectric:mx_opc_ua_module_configurator-r:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-28T18:24Z",
+                "refs": [
+                    {
+                        "ref": "https://www.mitsubishielectric.com/en/psirt/vulnerability/pdf/2022-015_en.pdf",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://dl.mitsubishielectric.com/dl/fa/document/manual/plc/bcn-p5999-0785/bcnp59990785b.pdf",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Mitsubishi Electric MX OPC UA Module Configurator-R"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-25164"
+                ]
+            }
+        }
+    }
+}

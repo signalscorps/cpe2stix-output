@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--168f1e04-05b0-5e74-8cfe-c277be5c40cf",
+    "name": "qs Project qs 6.9.2 for Node.js",
+    "cpe": "cpe:2.3:a:qs_project:qs:6.9.2:*:*:*:*:node.js:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "qs_project",
+    "version": "6.9.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:qs_project:qs:6.9.2:*:*:*:*:node.js:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-28T18:24Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/ljharb/qs",
+                        "type": "Project"
+                    },
+                    {
+                        "ref": "https://www.npmjs.com/package/qs?activeTab=versions",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "qs Project qs 6.9.2 for Node.js"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-24999"
+                ]
+            }
+        }
+    }
+}

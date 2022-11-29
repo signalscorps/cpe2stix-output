@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--8499e605-0940-59e2-88b7-ca455f75792f",
+    "name": "Ferry Project Ferry",
+    "cpe": "cpe:2.3:a:ferry_project:ferry:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "ferry_project",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:ferry_project:ferry:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-28T12:22Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/lanyulei/ferry/tags",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Ferry Project Ferry"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3939",
+                    "CVE-2022-3940"
+                ]
+            }
+        }
+    }
+}

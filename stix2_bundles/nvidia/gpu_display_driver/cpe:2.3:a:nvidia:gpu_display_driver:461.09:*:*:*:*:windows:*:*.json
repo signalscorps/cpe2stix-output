@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--5164da6a-6003-4929-9a5d-0bdffad792fd",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--195fc438-666b-5946-a252-4bed78c7729b",
+            "name": "NVIDIA GPU Display Driver 461.09 for Windows",
+            "cpe": "cpe:2.3:a:nvidia:gpu_display_driver:461.09:*:*:*:*:windows:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nvidia",
+            "version": "461.09",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nvidia:gpu_display_driver:461.09:*:*:*:*:windows:*:*",
+                        "lastModifiedDate": "2022-11-28T18:10Z",
+                        "titles": [
+                            {
+                                "title": "NVIDIA GPU Display Driver 461.09 for Windows",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.nvidia.com/en-us/drivers/rtx-enterprise-and-quadro-driver-branch-history/",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-1075",
+                            "CVE-2021-1076",
+                            "CVE-2021-1077",
+                            "CVE-2021-1078",
+                            "CVE-2021-1115",
+                            "CVE-2021-1116",
+                            "CVE-2021-1117"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

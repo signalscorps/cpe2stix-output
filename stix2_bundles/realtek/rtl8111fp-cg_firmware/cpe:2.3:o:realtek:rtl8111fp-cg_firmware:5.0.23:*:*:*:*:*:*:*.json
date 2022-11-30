@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--e7dfdfaa-6ba9-4aa4-9a4d-e6103338f292",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--25e193bf-5801-539e-97da-edf0fa59b13a",
+            "name": "Realtek RTL8111FP-CG Firmware 5.0.23",
+            "cpe": "cpe:2.3:o:realtek:rtl8111fp-cg_firmware:5.0.23:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "realtek",
+            "version": "5.0.23",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:realtek:rtl8111fp-cg_firmware:5.0.23:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-29T15:48Z",
+                        "titles": [
+                            {
+                                "title": "Realtek RTL8111FP-CG Firmware 5.0.23",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.twcert.org.tw/tw/cp-132-6739-5098c-1.html",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.realtek.com/en/products/communications-network-ics/item/rtl8111fp-cg",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-32966"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

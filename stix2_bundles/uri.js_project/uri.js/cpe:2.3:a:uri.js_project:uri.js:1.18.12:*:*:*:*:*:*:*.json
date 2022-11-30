@@ -1,0 +1,55 @@
+{
+    "type": "bundle",
+    "id": "bundle--26a0e6b3-9b2e-4a80-8b4b-193a050d4621",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f90c0d5b-cc32-524c-ab87-7270a6affd21",
+            "name": "URI.js Project URI.js 1.18.12",
+            "cpe": "cpe:2.3:a:uri.js_project:uri.js:1.18.12:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "uri.js_project",
+            "version": "1.18.12",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:uri.js_project:uri.js:1.18.12:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-29T14:42Z",
+                        "titles": [
+                            {
+                                "title": "URI.js Project URI.js 1.18.12",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/medialize/URI.js/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://huntr.dev/bounties/1625558772840-medialize/URI.js/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-26291",
+                            "CVE-2021-27516",
+                            "CVE-2021-3647",
+                            "CVE-2022-0613",
+                            "CVE-2022-0868",
+                            "CVE-2022-1233",
+                            "CVE-2022-1243",
+                            "CVE-2022-24723"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

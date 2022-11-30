@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--b371a5c9-4412-4898-9d3b-6f91c367ada7",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f82dcb85-9184-5787-a14e-70db7a54d246",
+            "name": "URI.js Project URI.js 1.19.7",
+            "cpe": "cpe:2.3:a:uri.js_project:uri.js:1.19.7:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "uri.js_project",
+            "version": "1.19.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:uri.js_project:uri.js:1.19.7:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-29T14:42Z",
+                        "titles": [
+                            {
+                                "title": "URI.js Project URI.js 1.19.7",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/medialize/URI.js/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://huntr.dev/bounties/1625558772840-medialize/URI.js/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-0613",
+                            "CVE-2022-0868",
+                            "CVE-2022-1233",
+                            "CVE-2022-1243",
+                            "CVE-2022-24723"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

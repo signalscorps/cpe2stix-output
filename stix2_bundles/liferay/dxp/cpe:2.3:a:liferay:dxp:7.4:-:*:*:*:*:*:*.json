@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--674a6b15-7d3c-48ba-8c4d-72486522e38b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--efe88d98-3abf-5e1a-9eb1-cabd6a11b5fc",
+            "name": "Liferay DXP 7.4",
+            "cpe": "cpe:2.3:a:liferay:dxp:7.4:-:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "liferay",
+            "version": "7.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:liferay:dxp:7.4:-:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-29T14:20Z",
+                        "titles": [
+                            {
+                                "title": "Liferay DXP 7.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://learn.liferay.com/dxp/latest/en/getting-started/whats-new-74.html",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-42120"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

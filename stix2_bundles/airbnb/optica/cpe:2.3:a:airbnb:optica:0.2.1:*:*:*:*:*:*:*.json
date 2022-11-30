@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--d3c8c18f-f6df-487f-a0f2-b4f92ab750dd",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3e332341-9698-541d-896d-4e5b091a8faf",
+            "name": "Airbnb Optica 0.2.1",
+            "cpe": "cpe:2.3:a:airbnb:optica:0.2.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "airbnb",
+            "version": "0.2.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:airbnb:optica:0.2.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-29T15:50Z",
+                        "titles": [
+                            {
+                                "title": "Airbnb Optica 0.2.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/airbnb/optica/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/airbnb/optica/security/advisories/GHSA-cf87-4h6x-phh6",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

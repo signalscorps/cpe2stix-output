@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--b26161fb-274c-4de9-8c4d-7e370d6b0c05",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fa20c51c-54ed-5b6a-a68a-e93a29246ae7",
+            "name": "Realtek RTL8111EP-CG",
+            "cpe": "cpe:2.3:h:realtek:rtl8111ep-cg:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "realtek",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:realtek:rtl8111ep-cg:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-29T15:48Z",
+                        "titles": [
+                            {
+                                "title": "Realtek RTL8111EP-CG",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.twcert.org.tw/tw/cp-132-6740-ba9bd-1.html",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.realtek.com/en/products/communications-network-ics/item/rtl8111ep-cg",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-32967"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

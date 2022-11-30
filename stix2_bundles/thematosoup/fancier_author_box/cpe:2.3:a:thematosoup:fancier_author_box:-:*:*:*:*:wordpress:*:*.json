@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--a9f9ee74-e989-4a2b-b893-63e5073ab265",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--00f9fb74-532a-5c52-bef9-8b055bb53873",
+            "name": "ThematoSoup Fancier Author Box for WordPress",
+            "cpe": "cpe:2.3:a:thematosoup:fancier_author_box:-:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "thematosoup",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:thematosoup:fancier_author_box:-:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-29T18:49Z",
+                        "titles": [
+                            {
+                                "title": "ThematoSoup Fancier Author Box for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://thematosoup.com/plugins/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/fancier-author-box/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://plugins.trac.wordpress.org/browser/fancier-author-box/#tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3833"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

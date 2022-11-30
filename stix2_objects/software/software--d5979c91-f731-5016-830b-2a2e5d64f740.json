@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--d5979c91-f731-5016-830b-2a2e5d64f740",
+    "name": "The Linux Foundation PyTorch for Python",
+    "cpe": "cpe:2.3:a:linuxfoundation:pytorch:-:*:*:*:*:python:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "linuxfoundation",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:linuxfoundation:pytorch:-:*:*:*:*:python:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-29T14:18Z",
+                "refs": [
+                    {
+                        "ref": "https://pytorch.org/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://github.com/pytorch/pytorch",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://pytorch.org/blog/PyTorchfoundation/",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "The Linux Foundation PyTorch for Python"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-45907"
+                ]
+            }
+        }
+    }
+}

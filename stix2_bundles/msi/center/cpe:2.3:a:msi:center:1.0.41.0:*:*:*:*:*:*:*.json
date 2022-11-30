@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--9839329f-eb55-416d-b2f9-22dae85c9c57",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0b1619e2-08bc-545a-a965-ba8a482fd0c2",
+            "name": "MSI Center 1.0.41.0",
+            "cpe": "cpe:2.3:a:msi:center:1.0.41.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "msi",
+            "version": "1.0.41.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:msi:center:1.0.41.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-29T14:18Z",
+                        "titles": [
+                            {
+                                "title": "MSI Center 1.0.41.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.msi.com/Landing/MSI-Center",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-31877"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

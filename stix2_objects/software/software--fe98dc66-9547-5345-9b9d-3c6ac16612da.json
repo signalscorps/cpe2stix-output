@@ -1,0 +1,44 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--fe98dc66-9547-5345-9b9d-3c6ac16612da",
+    "name": "WP User Merger Project WP User Merger 1.4.4 for WordPress",
+    "cpe": "cpe:2.3:a:wp_user_merger_project:wp_user_merger:1.4.4:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "wp_user_merger_project",
+    "version": "1.4.4",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:wp_user_merger_project:wp_user_merger:1.4.4:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-29T19:03Z",
+                "refs": [
+                    {
+                        "ref": "https://wordpress.org/plugins/wp-user-merger/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://wordpress.org/plugins/wp-user-merger/#developers",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "WP User Merger Project WP User Merger 1.4.4 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3848",
+                    "CVE-2022-3849",
+                    "CVE-2022-3865"
+                ]
+            }
+        }
+    }
+}

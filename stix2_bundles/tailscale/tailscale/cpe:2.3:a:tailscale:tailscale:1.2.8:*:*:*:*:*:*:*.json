@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--7941c8c4-7eb0-4a43-9fdb-0dcc5e311ec1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--23d8ea7d-815e-502c-bfdc-f0901ec61199",
+            "name": "Tailscale 1.2.8",
+            "cpe": "cpe:2.3:a:tailscale:tailscale:1.2.8:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tailscale",
+            "version": "1.2.8",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:tailscale:tailscale:1.2.8:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-29T17:02Z",
+                        "titles": [
+                            {
+                                "title": "Tailscale 1.2.8",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/tailscale/tailscale/security/advisories/GHSA-qccm-wmcq-pwr6",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/tailscale/tailscale/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://tailscale.com/changelog/",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

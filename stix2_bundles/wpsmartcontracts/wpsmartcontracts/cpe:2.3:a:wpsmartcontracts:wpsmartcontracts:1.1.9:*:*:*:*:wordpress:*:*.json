@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--1993e690-0174-4c0d-ac9d-3f6c268abbef",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ad0b2c2a-88ed-5885-b9ea-ad490de2f63d",
+            "name": "WPSmartContracts 1.1.9 for WordPress",
+            "cpe": "cpe:2.3:a:wpsmartcontracts:wpsmartcontracts:1.1.9:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wpsmartcontracts",
+            "version": "1.1.9",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wpsmartcontracts:wpsmartcontracts:1.1.9:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-29T18:39Z",
+                        "titles": [
+                            {
+                                "title": "WPSmartContracts 1.1.9 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wpsmartcontracts.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/wp-smart-contracts/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/wp-smart-contracts/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3768"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

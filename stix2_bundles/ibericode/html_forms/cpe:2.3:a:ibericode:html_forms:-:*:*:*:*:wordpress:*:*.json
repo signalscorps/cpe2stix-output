@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--58c66b5d-7bb4-4861-85dd-d1769a1634cd",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--671bd35f-ee8b-5127-934b-c74b7e2cbf86",
+            "name": "ibericode HTML Forms for WordPress",
+            "cpe": "cpe:2.3:a:ibericode:html_forms:-:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ibericode",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ibericode:html_forms:-:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-29T16:20Z",
+                        "titles": [
+                            {
+                                "title": "ibericode HTML Forms for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/ibericode/html-forms/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/html-forms/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.htmlformsplugin.com/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://ibericode.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3689"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

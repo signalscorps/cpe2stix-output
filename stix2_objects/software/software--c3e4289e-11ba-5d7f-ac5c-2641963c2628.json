@@ -1,0 +1,49 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--c3e4289e-11ba-5d7f-ac5c-2641963c2628",
+    "name": "URI.js Project URI.js 1.19.1",
+    "cpe": "cpe:2.3:a:uri.js_project:uri.js:1.19.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "uri.js_project",
+    "version": "1.19.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:uri.js_project:uri.js:1.19.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-29T14:42Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/medialize/URI.js/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://huntr.dev/bounties/1625558772840-medialize/URI.js/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "URI.js Project URI.js 1.19.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-26291",
+                    "CVE-2021-27516",
+                    "CVE-2021-3647",
+                    "CVE-2022-0613",
+                    "CVE-2022-0868",
+                    "CVE-2022-1233",
+                    "CVE-2022-1243",
+                    "CVE-2022-24723"
+                ]
+            }
+        }
+    }
+}

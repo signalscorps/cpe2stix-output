@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--074aa351-a7fd-59cc-9e5a-7234c7783027",
+    "name": "reCAPTCHA Project reCAPTCHA 1.5 for WordPress",
+    "cpe": "cpe:2.3:a:recaptcha_project:recaptcha:1.5:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "recaptcha_project",
+    "version": "1.5",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:recaptcha_project:recaptcha:1.5:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-29T19:11Z",
+                "refs": [
+                    {
+                        "ref": "https://wordpress.org/plugins/login-form-recaptcha/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://plugins.trac.wordpress.org/browser/login-form-recaptcha/#tags",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "reCAPTCHA Project reCAPTCHA 1.5 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3831"
+                ]
+            }
+        }
+    }
+}

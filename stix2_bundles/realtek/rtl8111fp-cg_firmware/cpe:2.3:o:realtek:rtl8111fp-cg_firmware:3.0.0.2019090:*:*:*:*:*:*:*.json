@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--090b55d7-e2be-4b10-8f50-053a3ef9752e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--cd0455b7-38ef-58c7-a897-6812573cbd09",
+            "name": "Realtek RTL8111FP-CG Firmware 3.0.0.2019090",
+            "cpe": "cpe:2.3:o:realtek:rtl8111fp-cg_firmware:3.0.0.2019090:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "realtek",
+            "version": "3.0.0.2019090",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:realtek:rtl8111fp-cg_firmware:3.0.0.2019090:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-29T15:48Z",
+                        "titles": [
+                            {
+                                "title": "Realtek RTL8111FP-CG Firmware 3.0.0.2019090",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.realtek.com/en/products/communications-network-ics/item/rtl8111fp-cg",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.twcert.org.tw/tw/cp-132-6740-ba9bd-1.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-32966",
+                            "CVE-2022-32967"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

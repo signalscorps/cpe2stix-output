@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--afe27f37-1a35-4ece-b0fa-e059434483f1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1f7e0d92-0f21-5386-8320-7a27d5f33694",
+            "name": "WP User Merger Project WP User Merger 1.3.2 for WordPress",
+            "cpe": "cpe:2.3:a:wp_user_merger_project:wp_user_merger:1.3.2:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wp_user_merger_project",
+            "version": "1.3.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wp_user_merger_project:wp_user_merger:1.3.2:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-29T19:03Z",
+                        "titles": [
+                            {
+                                "title": "WP User Merger Project WP User Merger 1.3.2 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/wp-user-merger/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/wp-user-merger/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3848",
+                            "CVE-2022-3849",
+                            "CVE-2022-3865"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

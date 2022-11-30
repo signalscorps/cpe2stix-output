@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--1782c819-6e40-498b-b2c5-89d1b56c388c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e825a3b5-7f50-541b-8258-15eb253b5051",
+            "name": "UJ Software OWM Weather 5.1 for WordPress",
+            "cpe": "cpe:2.3:a:ujsoftware:owm_weather:5.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ujsoftware",
+            "version": "5.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ujsoftware:owm_weather:5.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-29T18:39Z",
+                        "titles": [
+                            {
+                                "title": "UJ Software OWM Weather 5.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/owm-weather/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://ujsoftware.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3769"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

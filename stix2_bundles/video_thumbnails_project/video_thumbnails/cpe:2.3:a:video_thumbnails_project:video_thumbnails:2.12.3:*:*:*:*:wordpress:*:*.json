@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--0a3566f0-8874-4c51-9e0b-940a51d0f0ca",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e56a0947-40ee-503d-8495-816bf112d1cf",
+            "name": "Video Thumbnails Project Video Thumbnails 2.12.3 for WordPress",
+            "cpe": "cpe:2.3:a:video_thumbnails_project:video_thumbnails:2.12.3:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "video_thumbnails_project",
+            "version": "2.12.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:video_thumbnails_project:video_thumbnails:2.12.3:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-29T19:11Z",
+                        "titles": [
+                            {
+                                "title": "Video Thumbnails Project Video Thumbnails 2.12.3 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/video-thumbnails/#description",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://wpscan.com/vulnerability/4188ed01-b64b-4aba-a215-e8dc5b308486",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3828"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

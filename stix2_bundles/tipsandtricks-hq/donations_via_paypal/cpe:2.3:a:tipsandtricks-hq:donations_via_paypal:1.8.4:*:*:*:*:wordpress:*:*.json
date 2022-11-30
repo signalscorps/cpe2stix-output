@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--c348ec4d-2ca4-4e58-8b17-651d86cb9087",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6102deb6-aabf-5fe5-ba7c-5a976d534270",
+            "name": "Tips and Tricks HQ Donations via PayPal 1.8.4 for WordPress",
+            "cpe": "cpe:2.3:a:tipsandtricks-hq:donations_via_paypal:1.8.4:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tipsandtricks-hq",
+            "version": "1.8.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:tipsandtricks-hq:donations_via_paypal:1.8.4:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-29T18:39Z",
+                        "titles": [
+                            {
+                                "title": "Tips and Tricks HQ Donations via PayPal 1.8.4 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.tipsandtricks-hq.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/paypal-donations/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3822"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

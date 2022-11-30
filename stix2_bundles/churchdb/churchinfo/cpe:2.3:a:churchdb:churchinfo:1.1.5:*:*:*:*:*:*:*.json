@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--e59e8957-622d-4681-b651-810e635bd30d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--41ced245-6ede-5d59-adbd-7759d2870857",
+            "name": "Churchdb Churchinfo 1.1.5",
+            "cpe": "cpe:2.3:a:churchdb:churchinfo:1.1.5:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "churchdb",
+            "version": "1.1.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:churchdb:churchinfo:1.1.5:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-29T17:38Z",
+                        "titles": [
+                            {
+                                "title": "Churchdb Churchinfo 1.1.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/rapid7/metasploit-framework/pull/17257",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://sourceforge.net/projects/churchinfo/files/churchinfo/",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "http://www.churchdb.org/",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

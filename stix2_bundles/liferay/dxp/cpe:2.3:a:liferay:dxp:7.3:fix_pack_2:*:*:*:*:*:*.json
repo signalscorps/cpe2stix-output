@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--3d9392e4-0c3b-46ba-8b48-6cc00039a323",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8196bd15-56d5-5605-88fb-e2bf63fc79e1",
+            "name": "Liferay DXP 7.3 Fix Pack 2",
+            "cpe": "cpe:2.3:a:liferay:dxp:7.3:fix_pack_2:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "liferay",
+            "version": "7.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:liferay:dxp:7.3:fix_pack_2:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-29T14:20Z",
+                        "titles": [
+                            {
+                                "title": "Liferay DXP 7.3 Fix Pack 2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://issues.liferay.com/browse/LPE-17520",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-42114",
+                            "CVE-2022-42117",
+                            "CVE-2022-42122"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

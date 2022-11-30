@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--2a87dc17-aa84-5ee5-a56a-efb1ed34a314",
+    "name": "Realtek RTL8111FP-CG Firmware 5.0.10",
+    "cpe": "cpe:2.3:o:realtek:rtl8111fp-cg_firmware:5.0.10:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "realtek",
+    "version": "5.0.10",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:realtek:rtl8111fp-cg_firmware:5.0.10:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-29T15:48Z",
+                "refs": [
+                    {
+                        "ref": "https://www.realtek.com/en/products/communications-network-ics/item/rtl8111fp-cg",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://www.twcert.org.tw/tw/cp-132-6740-ba9bd-1.html",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Realtek RTL8111FP-CG Firmware 5.0.10"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-32966",
+                    "CVE-2022-32967"
+                ]
+            }
+        }
+    }
+}

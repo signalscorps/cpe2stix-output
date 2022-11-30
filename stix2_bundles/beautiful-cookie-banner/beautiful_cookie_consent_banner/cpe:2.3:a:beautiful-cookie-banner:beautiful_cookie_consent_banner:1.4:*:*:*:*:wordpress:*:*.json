@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--7f40f73c-33a2-4526-b3cf-40035a37fa8a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4361bb99-54c8-55c8-a887-9eaac0f20da6",
+            "name": "Beautiful Cookie Banner Beautiful Cookie Consent Banner 1.4 for WordPress",
+            "cpe": "cpe:2.3:a:beautiful-cookie-banner:beautiful_cookie_consent_banner:1.4:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "beautiful-cookie-banner",
+            "version": "1.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:beautiful-cookie-banner:beautiful_cookie_consent_banner:1.4:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-29T18:39Z",
+                        "titles": [
+                            {
+                                "title": "Beautiful Cookie Banner Beautiful Cookie Consent Banner 1.4 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://beautiful-cookie-banner.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/beautiful-and-responsive-cookie-consent/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3823"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

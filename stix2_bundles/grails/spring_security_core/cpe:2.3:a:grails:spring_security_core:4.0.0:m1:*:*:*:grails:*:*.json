@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--5f4487ee-2679-4209-9b8e-e4e95a232428",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bfda2e29-ecb0-574b-862d-c4b7528cdad6",
+            "name": "Grails Spring Security Core 4.0.0 M1 for Grails",
+            "cpe": "cpe:2.3:a:grails:spring_security_core:4.0.0:m1:*:*:*:grails:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "grails",
+            "version": "4.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:grails:spring_security_core:4.0.0:m1:*:*:*:grails:*:*",
+                        "lastModifiedDate": "2022-11-29T18:00Z",
+                        "titles": [
+                            {
+                                "title": "Grails Spring Security Core 4.0.0 M1 for Grails",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/grails/grails-spring-security-core/security/advisories/GHSA-frqg-vvxg-jqqh",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/grails/grails-spring-security-core/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://plugins.grails.org/plugin/grails/spring-security-core",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://grails.org/index.html",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

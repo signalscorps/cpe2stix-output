@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--27ea0604-4a32-5e9c-a685-fcd2c6cbf21b",
+    "name": "Tailscale 1.26.0",
+    "cpe": "cpe:2.3:a:tailscale:tailscale:1.26.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "tailscale",
+    "version": "1.26.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:tailscale:tailscale:1.26.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-29T17:02Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/tailscale/tailscale/security/advisories/GHSA-qccm-wmcq-pwr6",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/tailscale/tailscale/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://tailscale.com/changelog/",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Tailscale 1.26.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

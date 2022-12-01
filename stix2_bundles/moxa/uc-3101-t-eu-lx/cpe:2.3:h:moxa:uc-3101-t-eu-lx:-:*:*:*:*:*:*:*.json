@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--4c3c6114-625e-49f3-b708-bd89dca6e0c6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6b8df67a-f2a5-5383-a224-c9a7b184e528",
+            "name": "Moxa UC-3101-T-EU-LX",
+            "cpe": "cpe:2.3:h:moxa:uc-3101-t-eu-lx:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "moxa",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:moxa:uc-3101-t-eu-lx:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-30T18:19Z",
+                        "titles": [
+                            {
+                                "title": "Moxa UC-3101-T-EU-LX",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.moxa.com/en/support/product-support/security-advisory/moxa-arm-based-computer-improper-privilege-management-vulnerability",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.moxa.com/en/products/industrial-computing/arm-based-computers",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

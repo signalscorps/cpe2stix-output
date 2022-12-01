@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--3f5cec8a-18eb-4e21-9cd5-f38b075b4cf7",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--137695f8-39e0-5840-95de-3a60bb2c0fa7",
+            "name": "FusionAuth 1.41.2",
+            "cpe": "cpe:2.3:a:fusionauth:fusionauth:1.41.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "fusionauth",
+            "version": "1.41.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:fusionauth:fusionauth:1.41.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-30T20:11Z",
+                        "titles": [
+                            {
+                                "title": "FusionAuth 1.41.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://fusionauth.io/docs/v1/tech/release-notes",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/FusionAuth/fusionauth-issues/issues/1983",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

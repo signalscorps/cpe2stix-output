@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--e50d3261-3391-4959-809e-634bde3498eb",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0e9de24b-81a6-5653-8ac1-4c8195fc21cc",
+            "name": "Moxa UC-5111-LX Firmware",
+            "cpe": "cpe:2.3:o:moxa:uc-5111-lx_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "moxa",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:moxa:uc-5111-lx_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-30T18:19Z",
+                        "titles": [
+                            {
+                                "title": "Moxa UC-5111-LX Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.moxa.com/en/support/product-support/security-advisory/moxa-arm-based-computer-improper-privilege-management-vulnerability",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.moxa.com/en/products/industrial-computing/arm-based-computers",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

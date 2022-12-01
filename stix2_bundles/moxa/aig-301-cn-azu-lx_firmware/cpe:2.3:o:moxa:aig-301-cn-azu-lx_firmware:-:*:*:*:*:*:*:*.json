@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--ffa4b5a3-90c8-4457-ab8d-b3f6df964b21",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2cf1b947-eade-55c1-89a3-410bbe5c11f9",
+            "name": "Moxa AIG-301-CN-AZU-LX Firmware",
+            "cpe": "cpe:2.3:o:moxa:aig-301-cn-azu-lx_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "moxa",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:moxa:aig-301-cn-azu-lx_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-30T18:19Z",
+                        "titles": [
+                            {
+                                "title": "Moxa AIG-301-CN-AZU-LX Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.moxa.com/en/support/product-support/security-advisory/moxa-arm-based-computer-improper-privilege-management-vulnerability",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.moxa.com/en/products/industrial-computing/arm-based-computers",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

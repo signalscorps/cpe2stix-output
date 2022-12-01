@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--fe5a0417-8b0b-4ade-a9e1-16696521b792",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e3abc82a-8a10-5734-b727-9e8d1c1832cd",
+            "name": "Discourse 2.9.0 Beta 12",
+            "cpe": "cpe:2.3:a:discourse:discourse:2.9.0:beta12:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "discourse",
+            "version": "2.9.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:discourse:discourse:2.9.0:beta12:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-30T15:44Z",
+                        "titles": [
+                            {
+                                "title": "Discourse 2.9.0 Beta 12",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.discourse.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/discourse/discourse",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-41082"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--b41bc52e-ac97-5a55-ac64-ab7e7f66da34",
+    "name": "Free amigos Manage Notification E-mails 1.8.0 for WordPress",
+    "cpe": "cpe:2.3:a:freeamigos:manage_notification_e-mails:1.8.0:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "freeamigos",
+    "version": "1.8.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:freeamigos:manage_notification_e-mails:1.8.0:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-11-30T18:06Z",
+                "refs": [
+                    {
+                        "ref": "https://patchstack.com/database/vulnerability/manage-notification-emails/wordpress-manage-notification-e-mails-plugin-1-8-2-cross-site-request-forgery-csrf-vulnerability?_s_id=cve",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://wordpress.org/plugins/manage-notification-emails/#developers",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://www.freeamigos.nl/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Free amigos Manage Notification E-mails 1.8.0 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

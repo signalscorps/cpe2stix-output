@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--1bcacd8b-98e7-4e00-a468-46476cf9d60a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--82451d0f-8830-5e62-ada4-bc840b79e6a9",
+            "name": "APSystems ECU-C Firmware V3.11.4",
+            "cpe": "cpe:2.3:o:apsystems:ecu-c_firmware:v3.11.4:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "apsystems",
+            "version": "v3.11.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:apsystems:ecu-c_firmware:v3.11.4:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-11-30T19:34Z",
+                        "titles": [
+                            {
+                                "title": "APSystems ECU-C Firmware V3.11.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://usa.apsystems.com/wp-content/uploads/2018/04/US-12-17-rev-1_APsystems-ECU-C-User-manual_Rev1.3_2017-09-21-2.pdf",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.invertersupply.com/index.php?main_page=product_info&products_id=194787",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://cyber-guy.gitbook.io/cyber-guys-blog/pocs/cve-2022-44037",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

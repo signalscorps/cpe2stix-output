@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--e0b26633-75a9-4173-ac17-afa3a8f9cc41",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--abfd13f6-31b3-58cc-b3bf-35107b4e7f0b",
+            "name": "Ultimate Member 2.4.2 for WordPress",
+            "cpe": "cpe:2.3:a:ultimatemember:ultimate_member:2.4.2:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ultimatemember",
+            "version": "2.4.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ultimatemember:ultimate_member:2.4.2:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-30T11:45Z",
+                        "titles": [
+                            {
+                                "title": "Ultimate Member 2.4.2 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/ultimate-member/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-10270",
+                            "CVE-2019-10271",
+                            "CVE-2022-3966"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

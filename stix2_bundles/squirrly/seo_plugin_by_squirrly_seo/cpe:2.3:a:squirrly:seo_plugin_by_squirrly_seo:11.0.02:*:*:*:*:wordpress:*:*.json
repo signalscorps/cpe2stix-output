@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--8edd36c6-461c-4428-ab26-60ef4679ff68",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f773353e-6245-5c7f-a8df-bf259dae6592",
+            "name": "Squirrly SEO Plugin By Squirrly SEO 11.0.02 for WordPress",
+            "cpe": "cpe:2.3:a:squirrly:seo_plugin_by_squirrly_seo:11.0.02:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "squirrly",
+            "version": "11.0.02",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:squirrly:seo_plugin_by_squirrly_seo:11.0.02:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-30T18:33Z",
+                        "titles": [
+                            {
+                                "title": "Squirrly SEO Plugin By Squirrly SEO 11.0.02 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/squirrly-seo/wordpress-seo-plugin-by-squirrly-seo-plugin-12-1-10-auth-arbitrary-file-upload-vulnerability?_s_id=cve",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/squirrly-seo/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://plugin.squirrly.co/squirrly-seo-smart-strategy/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

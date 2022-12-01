@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--c48e701c-f91f-4fff-be81-112581de4509",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4a6da145-f95f-57d1-8fc2-0b359ba4160e",
+            "name": "Simple:Press 6.0.5 for WordPress",
+            "cpe": "cpe:2.3:a:simple-press:simple\\:press:6.0.5:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "simple-press",
+            "version": "press",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:simple-press:simple\\:press:6.0.5:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-30T16:53Z",
+                        "titles": [
+                            {
+                                "title": "Simple:Press 6.0.5 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/simplepress/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://simple-press.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

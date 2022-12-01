@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--26c91223-423b-4ca3-a528-a4d7d0b0be07",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--82eb872b-c53c-5767-99c7-10e8062291df",
+            "name": "Free amigos Manage Notification E-mails 1.6.1 for WordPress",
+            "cpe": "cpe:2.3:a:freeamigos:manage_notification_e-mails:1.6.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "freeamigos",
+            "version": "1.6.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:freeamigos:manage_notification_e-mails:1.6.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-11-30T18:06Z",
+                        "titles": [
+                            {
+                                "title": "Free amigos Manage Notification E-mails 1.6.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/manage-notification-emails/wordpress-manage-notification-e-mails-plugin-1-8-2-cross-site-request-forgery-csrf-vulnerability?_s_id=cve",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/manage-notification-emails/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.freeamigos.nl/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

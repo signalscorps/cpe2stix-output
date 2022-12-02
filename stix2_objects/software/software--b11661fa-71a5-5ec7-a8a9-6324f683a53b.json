@@ -1,0 +1,52 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--b11661fa-71a5-5ec7-a8a9-6324f683a53b",
+    "name": "Ivanti Avalanche 6.3.2 for Windows",
+    "cpe": "cpe:2.3:a:ivanti:avalanche:6.3.2:*:*:*:*:windows:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "ivanti",
+    "version": "6.3.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:ivanti:avalanche:6.3.2:*:*:*:*:windows:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-01T19:43Z",
+                "refs": [
+                    {
+                        "ref": "https://help.ivanti.com/wl/help/en_us/ava/6.1/avalanche/console/managementconsole.htm",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://ssd-disclosure.com/ssd-advisory-ivanti-avalanche-directory-traversal/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Ivanti Avalanche 6.3.2 for Windows"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-30497",
+                    "CVE-2021-42124",
+                    "CVE-2021-42125",
+                    "CVE-2021-42126",
+                    "CVE-2021-42127",
+                    "CVE-2021-42128",
+                    "CVE-2021-42129",
+                    "CVE-2021-42130",
+                    "CVE-2021-42131",
+                    "CVE-2021-42132",
+                    "CVE-2021-42133"
+                ]
+            }
+        }
+    }
+}

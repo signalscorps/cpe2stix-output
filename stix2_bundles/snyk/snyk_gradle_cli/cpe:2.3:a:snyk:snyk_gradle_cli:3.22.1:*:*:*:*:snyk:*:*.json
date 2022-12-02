@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--8a17cc2b-7bf8-4d8d-87f1-a1561f88fa0a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--117df925-9348-57b7-8d2d-ab9e9cf7d348",
+            "name": "Snyk Gradle CLI 3.22.1 for Snyk",
+            "cpe": "cpe:2.3:a:snyk:snyk_gradle_cli:3.22.1:*:*:*:*:snyk:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "snyk",
+            "version": "3.22.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:snyk:snyk_gradle_cli:3.22.1:*:*:*:*:snyk:*:*",
+                        "lastModifiedDate": "2022-12-01T18:28Z",
+                        "titles": [
+                            {
+                                "title": "Snyk Gradle CLI 3.22.1 for Snyk",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://snyk.io/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-gradle-plugin",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-gradle-plugin/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

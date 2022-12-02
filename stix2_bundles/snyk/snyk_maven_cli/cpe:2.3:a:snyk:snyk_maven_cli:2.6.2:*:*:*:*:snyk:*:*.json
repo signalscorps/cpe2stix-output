@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--648a491b-c621-43f2-a8e5-d627b258b142",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8c915947-4463-5ee4-a22a-4bee6ba68023",
+            "name": "Snyk Maven CLI 2.6.2 for Snyk",
+            "cpe": "cpe:2.3:a:snyk:snyk_maven_cli:2.6.2:*:*:*:*:snyk:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "snyk",
+            "version": "2.6.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:snyk:snyk_maven_cli:2.6.2:*:*:*:*:snyk:*:*",
+                        "lastModifiedDate": "2022-12-01T18:28Z",
+                        "titles": [
+                            {
+                                "title": "Snyk Maven CLI 2.6.2 for Snyk",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://snyk.io/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-mvn-plugin",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-mvn-plugin/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

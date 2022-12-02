@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--a3093bad-e2b0-4c03-859e-39ec131e87da",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f6bc684d-dfa0-5a81-82b0-f1774b629469",
+            "name": "Sony Playstation 4 Firmware ",
+            "cpe": "cpe:2.3:o:sony:playstation_4_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sony",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:sony:playstation_4_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-01T16:32Z",
+                        "titles": [
+                            {
+                                "title": "Sony Playstation 4 Firmware ",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/3xxx/CVE-2022-3349.json",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://hackerone.com/reports/1340942",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3349"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--a625a788-ba42-4ab0-846e-c22771777bf1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--06bd3e92-e838-5bcd-897a-ed934d278c7f",
+            "name": "Insyde InsydeH2O 05.52.23",
+            "cpe": "cpe:2.3:a:insyde:insydeh2o:05.52.23:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "insyde",
+            "version": "05.52.23",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:insyde:insydeh2o:05.52.23:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-01T16:52Z",
+                        "titles": [
+                            {
+                                "title": "Insyde InsydeH2O 05.52.23",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.insyde.com/security-pledge/SA-2022057",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-35408",
+                            "CVE-2022-35893",
+                            "CVE-2022-35894",
+                            "CVE-2022-35895",
+                            "CVE-2022-36448"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

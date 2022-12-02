@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--74a036dc-54db-4ba6-b0ac-80c04a047dfb",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5c76045a-2da5-5b7c-90af-67b7fc0891ee",
+            "name": "samtools HTSJDK 1.136",
+            "cpe": "cpe:2.3:a:samtools:htsjdk:1.136:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "samtools",
+            "version": "1.136",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:samtools:htsjdk:1.136:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-01T17:38Z",
+                        "titles": [
+                            {
+                                "title": "samtools HTSJDK 1.136",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/samtools/htsjdk/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "http://samtools.github.io/htsjdk/",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-21126"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--4c82f197-3156-4471-8f4b-7e59bfbb1818",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5966a228-524e-5ae8-8bb6-3a07337e822e",
+            "name": "Snyk Python CLI 1.5.1 for Snyk",
+            "cpe": "cpe:2.3:a:snyk:snyk_python_cli:1.5.1:*:*:*:*:snyk:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "snyk",
+            "version": "1.5.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:snyk:snyk_python_cli:1.5.1:*:*:*:*:snyk:*:*",
+                        "lastModifiedDate": "2022-12-01T18:37Z",
+                        "titles": [
+                            {
+                                "title": "Snyk Python CLI 1.5.1 for Snyk",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://snyk.io/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-python-plugin",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-python-plugin/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

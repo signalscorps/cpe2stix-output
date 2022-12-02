@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--b78cb24d-7cbf-488a-8b74-77c0192e2110",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--75aa0ce9-2bd5-5b92-b856-31b9b174105b",
+            "name": "Snyk sbt CLI 2.4.2 for Snyk",
+            "cpe": "cpe:2.3:a:snyk:snyk_sbt_cli:2.4.2:*:*:*:*:snyk:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "snyk",
+            "version": "2.4.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:snyk:snyk_sbt_cli:2.4.2:*:*:*:*:snyk:*:*",
+                        "lastModifiedDate": "2022-12-01T18:37Z",
+                        "titles": [
+                            {
+                                "title": "Snyk sbt CLI 2.4.2 for Snyk",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://snyk.io/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-sbt-plugin",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-sbt-plugin/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

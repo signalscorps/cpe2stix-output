@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--5dd9a3ac-2479-435c-844f-13557045b93b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d6b4d93a-ffd7-5bbc-a124-fb225da936bf",
+            "name": "Snyk Security 1.1.23 for Visual Studio",
+            "cpe": "cpe:2.3:a:snyk:snyk_security:1.1.23:*:*:*:*:visual_studio:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "snyk",
+            "version": "1.1.23",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:snyk:snyk_security:1.1.23:*:*:*:*:visual_studio:*:*",
+                        "lastModifiedDate": "2022-12-01T18:28Z",
+                        "titles": [
+                            {
+                                "title": "Snyk Security 1.1.23 for Visual Studio",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://snyk.io/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-visual-studio-plugin/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-visual-studio-plugin",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://marketplace.visualstudio.com/items?itemName=snyk-security.snyk-vulnerability-scanner-vs-2022",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

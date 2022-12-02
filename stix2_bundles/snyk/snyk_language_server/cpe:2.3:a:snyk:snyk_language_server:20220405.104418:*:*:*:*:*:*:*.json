@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--fb138aac-7947-417e-a8ab-bd820b4ff658",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e89f99ec-b5f5-55d4-85b2-6c1a7ae3b12c",
+            "name": "Snyk Language Server (Snyk LS) 20220405.104418",
+            "cpe": "cpe:2.3:a:snyk:snyk_language_server:20220405.104418:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "snyk",
+            "version": "20220405.104418",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:snyk:snyk_language_server:20220405.104418:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-01T18:28Z",
+                        "titles": [
+                            {
+                                "title": "Snyk Language Server (Snyk LS) 20220405.104418",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://snyk.io/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-ls/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-ls",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

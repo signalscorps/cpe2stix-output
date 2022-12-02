@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--79acefe4-c98b-4dbf-8032-f04b7ee0d9a1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f665d700-98c4-563b-810e-a22163261c5c",
+            "name": "Guitar-pro Guitar Pro - for iPhone OS",
+            "cpe": "cpe:2.3:a:guitar-pro:guitar_pro:-:*:*:*:*:iphone_os:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "guitar-pro",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:guitar-pro:guitar_pro:-:*:*:*:*:iphone_os:*:*",
+                        "lastModifiedDate": "2022-12-01T16:34Z",
+                        "titles": [
+                            {
+                                "title": "Guitar-pro Guitar Pro - for iPhone OS",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.guitar-pro.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.pizzapower.me/2022/10/11/guitar-pro-directory-traversal-and-filename-xss/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43263",
+                            "CVE-2022-43264"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

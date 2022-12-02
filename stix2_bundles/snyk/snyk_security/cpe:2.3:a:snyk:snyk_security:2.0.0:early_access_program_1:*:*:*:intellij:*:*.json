@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--e701112f-5fc1-4364-8c50-7cd1d0869937",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--579cf6a4-2b95-5b71-8c91-ba97d605e1e9",
+            "name": "Snyk Security 2.0.0 Early Access Program 1 for IntelliJ",
+            "cpe": "cpe:2.3:a:snyk:snyk_security:2.0.0:early_access_program_1:*:*:*:intellij:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "snyk",
+            "version": "2.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:snyk:snyk_security:2.0.0:early_access_program_1:*:*:*:intellij:*:*",
+                        "lastModifiedDate": "2022-12-01T18:28Z",
+                        "titles": [
+                            {
+                                "title": "Snyk Security 2.0.0 Early Access Program 1 for IntelliJ",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://snyk.io/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-intellij-plugin",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://plugins.jetbrains.com/plugin/10972-snyk-security--code-open-source-container-iac-configurations",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-intellij-plugin/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

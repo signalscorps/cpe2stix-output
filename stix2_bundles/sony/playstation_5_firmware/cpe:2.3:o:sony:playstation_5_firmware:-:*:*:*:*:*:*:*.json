@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--e3c60c0f-3115-4ad1-abb6-d1ee5ba8c584",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d97c1029-1db1-5573-9b41-cb6324737c44",
+            "name": "Sony Playstation 5 Firmware ",
+            "cpe": "cpe:2.3:o:sony:playstation_5_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sony",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:sony:playstation_5_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-01T16:32Z",
+                        "titles": [
+                            {
+                                "title": "Sony Playstation 5 Firmware ",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/3xxx/CVE-2022-3349.json",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://hackerone.com/reports/1340942",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3349"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

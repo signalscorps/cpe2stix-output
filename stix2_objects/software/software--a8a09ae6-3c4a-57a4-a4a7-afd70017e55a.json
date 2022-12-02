@@ -1,0 +1,54 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--a8a09ae6-3c4a-57a4-a4a7-afd70017e55a",
+    "name": "Jpeg Libjpeg 1.63",
+    "cpe": "cpe:2.3:a:jpeg:libjpeg:1.63:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jpeg",
+    "version": "1.63",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jpeg:libjpeg:1.63:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-01T19:49Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/31xxx/CVE-2022-31796.json",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/thorfdbg/libjpeg/issues/71",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://jpeg.org/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jpeg Libjpeg 1.63"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-39514",
+                    "CVE-2021-39515",
+                    "CVE-2021-39516",
+                    "CVE-2021-39517",
+                    "CVE-2021-39518",
+                    "CVE-2021-39519",
+                    "CVE-2021-39520",
+                    "CVE-2022-31796",
+                    "CVE-2022-32978"
+                ]
+            }
+        }
+    }
+}

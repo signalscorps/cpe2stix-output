@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--75459ae3-bdfb-4fc9-9c2d-0cd436ac5d57",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c9b8e3c2-7fd2-5b76-b49a-92757a11deaf",
+            "name": "Snyk Docker CLI 1.6.0 for Snyk",
+            "cpe": "cpe:2.3:a:snyk:snyk_docker_cli:1.6.0:*:*:*:*:snyk:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "snyk",
+            "version": "1.6.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:snyk:snyk_docker_cli:1.6.0:*:*:*:*:snyk:*:*",
+                        "lastModifiedDate": "2022-12-01T18:37Z",
+                        "titles": [
+                            {
+                                "title": "Snyk Docker CLI 1.6.0 for Snyk",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://snyk.io/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-docker-plugin",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-docker-plugin/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

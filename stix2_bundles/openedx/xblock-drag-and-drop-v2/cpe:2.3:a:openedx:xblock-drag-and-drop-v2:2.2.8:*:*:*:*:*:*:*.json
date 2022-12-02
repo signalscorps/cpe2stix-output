@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--939456c9-8911-4f91-ad62-dcec19575b82",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4cbd2d8e-ede6-5e48-b256-aae188a1413c",
+            "name": "OpenEDX Drag and Drop XBlock v2 2.2.8",
+            "cpe": "cpe:2.3:a:openedx:xblock-drag-and-drop-v2:2.2.8:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "openedx",
+            "version": "2.2.8",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:openedx:xblock-drag-and-drop-v2:2.2.8:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-01T01:28Z",
+                        "titles": [
+                            {
+                                "title": "OpenEDX Drag and Drop XBlock v2 2.2.8",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/openedx/xblock-drag-and-drop-v2/security/advisories/GHSA-qv6c-367r-3w6q",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/openedx/xblock-drag-and-drop-v2/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://openedx.org/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-46147"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

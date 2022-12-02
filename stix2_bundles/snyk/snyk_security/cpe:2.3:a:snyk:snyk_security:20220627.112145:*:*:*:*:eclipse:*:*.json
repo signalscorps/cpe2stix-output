@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--007dbf1c-4f85-46da-9b9c-29787c86ab14",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d721606c-c17d-554d-a516-71e0c8efd512",
+            "name": "Snyk Security 20220627.112145 for Eclipse",
+            "cpe": "cpe:2.3:a:snyk:snyk_security:20220627.112145:*:*:*:*:eclipse:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "snyk",
+            "version": "20220627.112145",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:snyk:snyk_security:20220627.112145:*:*:*:*:eclipse:*:*",
+                        "lastModifiedDate": "2022-12-01T18:29Z",
+                        "titles": [
+                            {
+                                "title": "Snyk Security 20220627.112145 for Eclipse",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://snyk.io/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-eclipse-plugin/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-eclipse-plugin",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://marketplace.eclipse.org/content/snyk-vuln-scanner",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

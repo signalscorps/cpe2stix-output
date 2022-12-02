@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--19f3f05f-2967-5472-9cb8-bab4cd67ec8f",
+    "name": "OpenEDX Drag and Drop XBlock v2 2.2.1",
+    "cpe": "cpe:2.3:a:openedx:xblock-drag-and-drop-v2:2.2.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "openedx",
+    "version": "2.2.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:openedx:xblock-drag-and-drop-v2:2.2.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-01T01:28Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/openedx/xblock-drag-and-drop-v2/security/advisories/GHSA-qv6c-367r-3w6q",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/openedx/xblock-drag-and-drop-v2/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://openedx.org/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "OpenEDX Drag and Drop XBlock v2 2.2.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-46147"
+                ]
+            }
+        }
+    }
+}

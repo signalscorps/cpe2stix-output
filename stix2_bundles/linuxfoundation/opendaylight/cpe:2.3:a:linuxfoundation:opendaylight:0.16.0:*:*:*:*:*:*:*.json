@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--0c5182f1-140d-434f-b832-9987d34989c9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--328b1e01-e80b-5887-95e3-942a12822045",
+            "name": "The Linux Foundation OpenDaylight 0.16.0",
+            "cpe": "cpe:2.3:a:linuxfoundation:opendaylight:0.16.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "linuxfoundation",
+            "version": "0.16.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:linuxfoundation:opendaylight:0.16.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-01T15:06Z",
+                        "titles": [
+                            {
+                                "title": "The Linux Foundation OpenDaylight 0.16.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://jira.opendaylight.org/browse/AAA-239",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.opendaylight.org/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45930",
+                            "CVE-2022-45931",
+                            "CVE-2022-45932"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

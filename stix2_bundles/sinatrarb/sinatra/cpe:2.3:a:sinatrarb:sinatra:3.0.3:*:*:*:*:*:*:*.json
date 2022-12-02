@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--45f91a5b-98d8-4b4f-bf38-954223d641d9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--78183cf9-8358-5a67-b80e-3a70a53e17f7",
+            "name": "Sinatrarb Sinatra 3.0.3",
+            "cpe": "cpe:2.3:a:sinatrarb:sinatra:3.0.3:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sinatrarb",
+            "version": "3.0.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sinatrarb:sinatra:3.0.3:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-01T14:39Z",
+                        "titles": [
+                            {
+                                "title": "Sinatrarb Sinatra 3.0.3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/sinatra/sinatra/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://sinatrarb.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45442"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

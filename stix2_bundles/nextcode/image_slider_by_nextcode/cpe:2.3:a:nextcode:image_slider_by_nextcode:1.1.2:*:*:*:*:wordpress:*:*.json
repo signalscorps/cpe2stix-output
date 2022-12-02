@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--cebb4616-b339-4137-ac19-b422e2a4a16a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a5723b29-6528-55fa-bdc8-59dd0bae6db4",
+            "name": "NextCode Image Slider By NextCode 1.1.2 for WordPress",
+            "cpe": "cpe:2.3:a:nextcode:image_slider_by_nextcode:1.1.2:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nextcode",
+            "version": "1.1.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nextcode:image_slider_by_nextcode:1.1.2:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-01T20:12Z",
+                        "titles": [
+                            {
+                                "title": "NextCode Image Slider By NextCode 1.1.2 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/baslider/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/baslider/wordpress-image-slider-by-nextcode-plugin-1-1-2-multiple-cross-site-request-forgery-csrf-vulnerabilities",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-29437",
+                            "CVE-2022-29438",
+                            "CVE-2022-29439"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--08ff23e4-9cc3-4438-a43e-9fd8d81b6b84",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fd603739-6894-53a8-8f62-f5d46b67c757",
+            "name": "Snyk Hex CLI 1.1.2 for Snyk",
+            "cpe": "cpe:2.3:a:snyk:snyk_hex_cli:1.1.2:*:*:*:*:snyk:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "snyk",
+            "version": "1.1.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:snyk:snyk_hex_cli:1.1.2:*:*:*:*:snyk:*:*",
+                        "lastModifiedDate": "2022-12-01T18:37Z",
+                        "titles": [
+                            {
+                                "title": "Snyk Hex CLI 1.1.2 for Snyk",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/snyk/snyk-hex-plugin",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-hex-plugin/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://snyk.io/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

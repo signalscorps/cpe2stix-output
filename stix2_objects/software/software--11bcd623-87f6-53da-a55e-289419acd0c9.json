@@ -1,0 +1,50 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--11bcd623-87f6-53da-a55e-289419acd0c9",
+    "name": "Snyk Security 0.1 Beta for Eclipse",
+    "cpe": "cpe:2.3:a:snyk:snyk_security:0.1:beta:*:*:*:eclipse:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "snyk",
+    "version": "0.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:snyk:snyk_security:0.1:beta:*:*:*:eclipse:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-01T18:28Z",
+                "refs": [
+                    {
+                        "ref": "https://snyk.io/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/snyk/snyk-eclipse-plugin/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://github.com/snyk/snyk-eclipse-plugin",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://marketplace.eclipse.org/content/snyk-vuln-scanner",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Snyk Security 0.1 Beta for Eclipse"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

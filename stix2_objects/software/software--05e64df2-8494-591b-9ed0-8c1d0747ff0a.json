@@ -1,0 +1,49 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--05e64df2-8494-591b-9ed0-8c1d0747ff0a",
+    "name": "Naver Cloud Explorer",
+    "cpe": "cpe:2.3:a:naver:cloud_explorer:-:-:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "naver",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:naver:cloud_explorer:-:-:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-01T20:04Z",
+                "refs": [
+                    {
+                        "ref": "https://www.ncloud.com/product/networking",
+                        "type": "Project"
+                    },
+                    {
+                        "ref": "https://www.naver.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://cve.naver.com/detail/cve-2022-24077.html",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Naver Cloud Explorer"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2019-13156",
+                    "CVE-2020-9751",
+                    "CVE-2020-9752",
+                    "CVE-2022-24077"
+                ]
+            }
+        }
+    }
+}

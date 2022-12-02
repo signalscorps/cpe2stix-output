@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--fb948e0a-9dd9-43e5-97f1-f94210785d88",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7e17da5c-2f44-51b2-98f0-4d0bc9048d3d",
+            "name": "Onion Project Onion 0.4",
+            "cpe": "cpe:2.3:a:onion_project:onion:0.4:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "onion_project",
+            "version": "0.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:onion_project:onion:0.4:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-01T12:40Z",
+                        "titles": [
+                            {
+                                "title": "Onion Project Onion 0.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/davidmoreno/onion/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-4066"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

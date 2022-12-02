@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--e5c00161-55f3-4ee3-81ab-ba325371614a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--27e3bb14-b74c-5996-adbb-839450e9ccac",
+            "name": "NetSarang Xshell 7",
+            "cpe": "cpe:2.3:a:netsarang:xshell:7:-:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "netsarang",
+            "version": "7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:netsarang:xshell:7:-:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-01T20:06Z",
+                        "titles": [
+                            {
+                                "title": "NetSarang Xshell 7",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.netsarang.com/en/xshell-update-history/",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-42095",
+                            "CVE-2022-27966"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

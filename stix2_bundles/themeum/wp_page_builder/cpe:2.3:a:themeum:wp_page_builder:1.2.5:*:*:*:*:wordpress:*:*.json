@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--d8a46689-da30-4f1c-98fd-07f6228d19f8",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--cd38e555-8d9a-5712-97a7-4d772af9245d",
+            "name": "themeum WP Page Builder 1.2.5 for WordPress",
+            "cpe": "cpe:2.3:a:themeum:wp_page_builder:1.2.5:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "themeum",
+            "version": "1.2.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:themeum:wp_page_builder:1.2.5:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-01T12:40Z",
+                        "titles": [
+                            {
+                                "title": "themeum WP Page Builder 1.2.5 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/wp-pagebuilder/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.themeum.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-40963"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

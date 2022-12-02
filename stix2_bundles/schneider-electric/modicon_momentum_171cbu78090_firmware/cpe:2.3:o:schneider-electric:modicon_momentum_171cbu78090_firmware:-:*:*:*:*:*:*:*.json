@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--43c9a128-b37b-46cd-bb1b-bb9f92656117",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e924c0f2-a697-59c9-bae2-96a9b3d15d92",
+            "name": "Schneider Electric Modicon Momentum 171CBU78090 Firmware",
+            "cpe": "cpe:2.3:o:schneider-electric:modicon_momentum_171cbu78090_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "schneider-electric",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:schneider-electric:modicon_momentum_171cbu78090_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-01T15:34Z",
+                        "titles": [
+                            {
+                                "title": "Schneider Electric Modicon Momentum 171CBU78090 Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://download.schneider-electric.com/files?p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2022-221-02_Modicon_Controllers_Security_Notification_V2.0.pdf&p_Doc_Ref=SEVD-2022-221-02&_ga=2.234997185.1387498704.1669746404-833222936.1669746404",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-37301"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

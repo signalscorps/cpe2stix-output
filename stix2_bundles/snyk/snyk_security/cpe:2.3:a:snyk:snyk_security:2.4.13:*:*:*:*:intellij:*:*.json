@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--34306ed0-f8b4-42dd-9904-51b66d2f11a6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bdbae4c3-e360-5da7-a9da-9a374c014a68",
+            "name": "Snyk Security 2.4.13 for IntelliJ",
+            "cpe": "cpe:2.3:a:snyk:snyk_security:2.4.13:*:*:*:*:intellij:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "snyk",
+            "version": "2.4.13",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:snyk:snyk_security:2.4.13:*:*:*:*:intellij:*:*",
+                        "lastModifiedDate": "2022-12-01T18:29Z",
+                        "titles": [
+                            {
+                                "title": "Snyk Security 2.4.13 for IntelliJ",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://snyk.io/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-intellij-plugin",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://plugins.jetbrains.com/plugin/10972-snyk-security--code-open-source-container-iac-configurations",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/snyk-intellij-plugin/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

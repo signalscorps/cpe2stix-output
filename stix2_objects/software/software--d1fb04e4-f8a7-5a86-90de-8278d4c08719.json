@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--d1fb04e4-f8a7-5a86-90de-8278d4c08719",
+    "name": "Schneider Electric Modicon Premium TSXP57 2634M Firmware",
+    "cpe": "cpe:2.3:o:schneider-electric:modicon_premium_tsxp57_2634m_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "schneider-electric",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:schneider-electric:modicon_premium_tsxp57_2634m_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-01T15:34Z",
+                "refs": [
+                    {
+                        "ref": "https://download.schneider-electric.com/files?p_enDocType=Security+and+Safety+Notice&p_File_Name=SEVD-2022-221-02_Modicon_Controllers_Security_Notification_V2.0.pdf&p_Doc_Ref=SEVD-2022-221-02&_ga=2.234997185.1387498704.1669746404-833222936.1669746404",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Schneider Electric Modicon Premium TSXP57 2634M Firmware"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-37301"
+                ]
+            }
+        }
+    }
+}

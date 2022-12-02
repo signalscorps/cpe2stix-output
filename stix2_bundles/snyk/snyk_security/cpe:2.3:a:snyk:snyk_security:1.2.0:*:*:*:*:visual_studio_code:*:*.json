@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--82dd169c-d857-41b1-8171-70f7ea6837a0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2481a373-8784-52bf-beca-7a292d7184e5",
+            "name": "Snyk Security 1.2.0 for Visual Studio Code",
+            "cpe": "cpe:2.3:a:snyk:snyk_security:1.2.0:*:*:*:*:visual_studio_code:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "snyk",
+            "version": "1.2.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:snyk:snyk_security:1.2.0:*:*:*:*:visual_studio_code:*:*",
+                        "lastModifiedDate": "2022-12-01T18:28Z",
+                        "titles": [
+                            {
+                                "title": "Snyk Security 1.2.0 for Visual Studio Code",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/snyk/vscode-extension/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/snyk/vscode-extension",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://marketplace.visualstudio.com/items?itemName=snyk-security.snyk-vulnerability-scanner",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

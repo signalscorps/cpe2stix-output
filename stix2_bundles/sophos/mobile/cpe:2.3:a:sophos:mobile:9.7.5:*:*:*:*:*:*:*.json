@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--43c8538a-d1ed-4547-be30-c971d73167c5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4421dde9-ffd8-5232-978c-73379ad917f1",
+            "name": "Sophos Mobile 9.7.5",
+            "cpe": "cpe:2.3:a:sophos:mobile:9.7.5:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sophos",
+            "version": "9.7.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sophos:mobile:9.7.5:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-01T15:03Z",
+                        "titles": [
+                            {
+                                "title": "Sophos Mobile 9.7.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.sophos.com/en-us/security-advisories/sophos-sa-20221116-smc-xee",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-9363"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

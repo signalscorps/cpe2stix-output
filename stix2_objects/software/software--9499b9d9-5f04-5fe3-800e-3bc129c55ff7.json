@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--9499b9d9-5f04-5fe3-800e-3bc129c55ff7",
+    "name": "Sophos Mobile 5.0.0",
+    "cpe": "cpe:2.3:a:sophos:mobile:5.0.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "sophos",
+    "version": "5.0.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:sophos:mobile:5.0.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-01T15:03Z",
+                "refs": [
+                    {
+                        "ref": "https://www.sophos.com/en-us/security-advisories/sophos-sa-20221116-smc-xee",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Sophos Mobile 5.0.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-9363",
+                    "CVE-2022-3980"
+                ]
+            }
+        }
+    }
+}

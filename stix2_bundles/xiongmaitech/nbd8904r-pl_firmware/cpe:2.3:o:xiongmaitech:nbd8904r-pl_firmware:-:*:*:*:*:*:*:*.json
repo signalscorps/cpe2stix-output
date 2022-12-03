@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--fd776daa-5c8b-4889-bb2f-f1c398c1e71b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--13c995d7-216d-560d-bb4a-ed22caa08eca",
+            "name": "Xiongmaitech NBD8904R-PL Firmware",
+            "cpe": "cpe:2.3:o:xiongmaitech:nbd8904r-pl_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "xiongmaitech",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:xiongmaitech:nbd8904r-pl_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-02T20:23Z",
+                        "titles": [
+                            {
+                                "title": "Xiongmaitech NBD8904R-PL Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://vulncheck.com/blog/xiongmai-iot-exploitation",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.xiongmaitech.com/en/index.php/product/product-list/4/0/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

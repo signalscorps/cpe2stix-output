@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--a28a543c-47fb-456e-8b6a-0fc8a771d233",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ed9ea34a-6d32-5c61-a1ff-ee94592f70c5",
+            "name": "Cap'n Proto 0.9.2",
+            "cpe": "cpe:2.3:a:capnproto:capnproto:0.9.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "capnproto",
+            "version": "0.9.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:capnproto:capnproto:0.9.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-02T14:59Z",
+                        "titles": [
+                            {
+                                "title": "Cap'n Proto 0.9.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/capnproto/capnproto/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://capnproto.org/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

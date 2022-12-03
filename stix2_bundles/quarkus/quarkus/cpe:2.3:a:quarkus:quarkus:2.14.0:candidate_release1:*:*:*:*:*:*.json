@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--49086688-0db7-47a0-93b3-c414e625aec5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2bf5bb52-24e8-5cf1-9d67-093a2d3a47df",
+            "name": "Quarkus 2.14.0 Candidate Release 1",
+            "cpe": "cpe:2.3:a:quarkus:quarkus:2.14.0:candidate_release1:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "quarkus",
+            "version": "2.14.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:quarkus:quarkus:2.14.0:candidate_release1:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-02T12:42Z",
+                        "titles": [
+                            {
+                                "title": "Quarkus 2.14.0 Candidate Release 1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/quarkusio/quarkus",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://quarkus.io/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-4116"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

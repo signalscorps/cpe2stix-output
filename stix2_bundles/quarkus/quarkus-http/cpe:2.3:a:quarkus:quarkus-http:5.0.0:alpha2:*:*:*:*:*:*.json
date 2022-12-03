@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--ee4b1704-91b9-41cf-882b-4a149de7b021",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--210a5aba-213b-50a3-a9c9-2129d4be8d3a",
+            "name": "Quarkus HTTP 5.0.0 Alpha 2",
+            "cpe": "cpe:2.3:a:quarkus:quarkus-http:5.0.0:alpha2:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "quarkus",
+            "version": "5.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:quarkus:quarkus-http:5.0.0:alpha2:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-02T12:45Z",
+                        "titles": [
+                            {
+                                "title": "Quarkus HTTP 5.0.0 Alpha 2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/quarkusio/quarkus-http",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://quarkus.io/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

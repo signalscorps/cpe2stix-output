@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--5d30e327-f240-4168-980b-1d13ff558de7",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a0ef3e32-b863-5dda-9681-44e054f9a6ec",
+            "name": "gVectors wpDiscuz 7.4.2 for WordPress",
+            "cpe": "cpe:2.3:a:gvectors:wpdiscuz:7.4.2:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "gvectors",
+            "version": "7.4.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:gvectors:wpdiscuz:7.4.2:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-02T18:22Z",
+                        "titles": [
+                            {
+                                "title": "gVectors wpDiscuz 7.4.2 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://gvectors.com/wpdiscuz/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/wpdiscuz/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43492"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

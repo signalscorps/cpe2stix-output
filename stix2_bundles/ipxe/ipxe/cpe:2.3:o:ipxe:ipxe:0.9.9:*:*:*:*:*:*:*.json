@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--cbf7709f-08cf-47cc-b24a-2a021e636061",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d5aee60e-968e-5a4e-b84b-c6ba510da304",
+            "name": "iPXE 0.9.9",
+            "cpe": "cpe:2.3:o:ipxe:ipxe:0.9.9:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ipxe",
+            "version": "0.9.9",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:ipxe:ipxe:0.9.9:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-02T15:57Z",
+                        "titles": [
+                            {
+                                "title": "iPXE 0.9.9",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://ipxe.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/ipxe/ipxe/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

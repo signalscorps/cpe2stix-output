@@ -1,0 +1,62 @@
+{
+    "type": "bundle",
+    "id": "bundle--742873c4-b82b-468f-899d-e9842f6d13a4",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5ba219f2-1503-5bdb-9102-c1dee31c4337",
+            "name": "OpenBSD OpenBSD 6.9",
+            "cpe": "cpe:2.3:o:openbsd:openbsd:6.9:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "openbsd",
+            "version": "6.9",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:openbsd:openbsd:6.9:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-05T20:36Z",
+                        "titles": [
+                            {
+                                "title": "OpenBSD OpenBSD 6.9",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.openbsd.org/69.html",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-1999-0482",
+                            "CVE-1999-0483",
+                            "CVE-1999-0484",
+                            "CVE-1999-1225",
+                            "CVE-2000-0995",
+                            "CVE-2000-0996",
+                            "CVE-2001-0670",
+                            "CVE-2002-0381",
+                            "CVE-2002-0701",
+                            "CVE-2004-0414",
+                            "CVE-2004-0416",
+                            "CVE-2004-0417",
+                            "CVE-2004-0418",
+                            "CVE-2004-0492",
+                            "CVE-2006-6397",
+                            "CVE-2006-6730",
+                            "CVE-2007-4305",
+                            "CVE-2008-4609",
+                            "CVE-2022-27882"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

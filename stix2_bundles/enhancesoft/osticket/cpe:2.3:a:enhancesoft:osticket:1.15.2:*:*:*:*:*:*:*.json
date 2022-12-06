@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--b3939529-839f-4603-87e3-d98497c08524",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ca6e2e30-663a-574d-9b59-15bfeca9f576",
+            "name": "Enhancesoft osTicket 1.15.2",
+            "cpe": "cpe:2.3:a:enhancesoft:osticket:1.15.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "enhancesoft",
+            "version": "1.15.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:enhancesoft:osticket:1.15.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-05T15:08Z",
+                        "titles": [
+                            {
+                                "title": "Enhancesoft osTicket 1.15.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/osTicket/osTicket/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://enhancesoft.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://osticket.com/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-42235",
+                            "CVE-2022-4271"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

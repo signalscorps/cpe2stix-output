@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--cb855740-5769-437a-b8cb-11b941d6631b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f06157b0-1d2b-5ffe-839a-da4302dc6cc2",
+            "name": "Kiboko Labs Chained Quiz 1.3.2.4 for WordPress",
+            "cpe": "cpe:2.3:a:kibokolabs:chained_quiz:1.3.2.4:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "kibokolabs",
+            "version": "1.3.2.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:kibokolabs:chained_quiz:1.3.2.4:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-05T13:21Z",
+                        "titles": [
+                            {
+                                "title": "Kiboko Labs Chained Quiz 1.3.2.4 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wpscan.com/plugin/chained-quiz",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://kibokolabs.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-4218",
+                            "CVE-2022-4219",
+                            "CVE-2022-4220"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

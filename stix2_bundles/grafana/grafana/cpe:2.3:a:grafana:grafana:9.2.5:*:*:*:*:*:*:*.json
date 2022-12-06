@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--d4b2cfce-3d40-4ed1-b5cc-0b29d81e761a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ea0d157e-d491-5362-8c52-b1f52ec982c5",
+            "name": "Grafana 9.2.5",
+            "cpe": "cpe:2.3:a:grafana:grafana:9.2.5:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "grafana",
+            "version": "9.2.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:grafana:grafana:9.2.5:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-05T20:47Z",
+                        "titles": [
+                            {
+                                "title": "Grafana 9.2.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://grafana.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/grafana/grafana/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

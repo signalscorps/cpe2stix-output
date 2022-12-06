@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--4904a219-6977-4c04-9fdb-9040ceec3b7b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--cba9e9e9-9d8d-5940-b026-f84bb473b673",
+            "name": "NXP I.MX RT1020 Firmware",
+            "cpe": "cpe:2.3:o:nxp:i.mx_rt1020_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nxp",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:nxp:i.mx_rt1020_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-05T20:36Z",
+                        "titles": [
+                            {
+                                "title": "NXP I.MX RT1020 Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://research.nccgroup.com/2022/11/17/cve-2022-45163/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.nxp.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45163"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

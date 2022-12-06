@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--44ff5795-8bd6-4ec0-9845-8e806ae607c6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--583dedcd-1450-5c9c-8879-ba3c1301d801",
+            "name": "CyberChimps iFeature Slider 1.2 for Wordpress",
+            "cpe": "cpe:2.3:a:cyberchimps:ifeature_slider:1.2:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cyberchimps",
+            "version": "1.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:cyberchimps:ifeature_slider:1.2:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-05T20:04Z",
+                        "titles": [
+                            {
+                                "title": "CyberChimps iFeature Slider 1.2 for Wordpress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/ifeature-slider/#description",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://cyberchimps.com/plugins/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/ifeature-slider/wordpress-ifeature-slider-plugin-1-2-auth-stored-cross-site-scripting-xss-vulnerability?_s_id=cve",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45375"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

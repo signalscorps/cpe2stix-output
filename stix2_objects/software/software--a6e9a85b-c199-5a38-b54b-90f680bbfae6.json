@@ -1,0 +1,40 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--a6e9a85b-c199-5a38-b54b-90f680bbfae6",
+    "name": "GNU Libtasn1 4.10",
+    "cpe": "cpe:2.3:a:gnu:libtasn1:4.10:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "gnu",
+    "version": "4.10",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:gnu:libtasn1:4.10:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-05T23:48Z",
+                "refs": [
+                    {
+                        "ref": "http://ftp.gnu.org/gnu/libtasn1/",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "GNU Libtasn1 4.10"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2017-10790",
+                    "CVE-2018-6003",
+                    "CVE-2021-46848"
+                ]
+            }
+        }
+    }
+}

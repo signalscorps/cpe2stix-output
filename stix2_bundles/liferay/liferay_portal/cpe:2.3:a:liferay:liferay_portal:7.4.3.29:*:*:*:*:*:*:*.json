@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--89001c99-d265-411c-a9b2-1c06d401dd2f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--72b76efd-a7a0-59d8-9ac5-4b281b307f02",
+            "name": "Liferay Portal 7.4.3.29",
+            "cpe": "cpe:2.3:a:liferay:liferay_portal:7.4.3.29:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "liferay",
+            "version": "7.4.3.29",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:liferay:liferay_portal:7.4.3.29:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-05T20:30Z",
+                        "titles": [
+                            {
+                                "title": "Liferay Portal 7.4.3.29",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://portal.liferay.dev/learn/security/known-vulnerabilities/-/asset_publisher/HbL5mxmVrnXW/content/cve-2022-42123",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-38512",
+                            "CVE-2022-39975",
+                            "CVE-2022-42114",
+                            "CVE-2022-42115",
+                            "CVE-2022-42125",
+                            "CVE-2022-42127"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

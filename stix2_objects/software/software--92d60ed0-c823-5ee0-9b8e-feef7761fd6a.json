@@ -1,0 +1,47 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--92d60ed0-c823-5ee0-9b8e-feef7761fd6a",
+    "name": "Enhancesoft osTicket 1.14.7",
+    "cpe": "cpe:2.3:a:enhancesoft:osticket:1.14.7:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "enhancesoft",
+    "version": "1.14.7",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:enhancesoft:osticket:1.14.7:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-05T15:08Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/osTicket/osTicket/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://enhancesoft.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://osticket.com/",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Enhancesoft osTicket 1.14.7"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-42235",
+                    "CVE-2022-4271"
+                ]
+            }
+        }
+    }
+}

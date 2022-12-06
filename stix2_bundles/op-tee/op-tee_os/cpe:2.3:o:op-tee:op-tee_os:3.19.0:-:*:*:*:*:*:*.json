@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--abd630eb-1053-469e-9085-7a952c136d60",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ca41cc33-cc73-53dd-aac0-8dfef0b18f02",
+            "name": "OP-TEE Open Portable Trusted Execution Environment (OPTEE) OS 3.19.0",
+            "cpe": "cpe:2.3:o:op-tee:op-tee_os:3.19.0:-:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "op-tee",
+            "version": "3.19.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:op-tee:op-tee_os:3.19.0:-:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-05T20:36Z",
+                        "titles": [
+                            {
+                                "title": "OP-TEE Open Portable Trusted Execution Environment (OPTEE) OS 3.19.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/OP-TEE/optee_os/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://www.op-tee.org/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

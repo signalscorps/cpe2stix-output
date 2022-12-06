@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--b8dbe49e-49c7-46cd-baee-c3dda41b8744",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--54ceed42-2597-5457-a89c-f2dfca4a4548",
+            "name": "Horner Automation RCC972 (Remote Compact Controller 972)",
+            "cpe": "cpe:2.3:h:hornerautomation:rcc972:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hornerautomation",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:hornerautomation:rcc972:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-05T19:02Z",
+                        "titles": [
+                            {
+                                "title": "Horner Automation RCC972 (Remote Compact Controller 972)",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cisa.gov/uscert/ics/advisories/icsa-22-335-02",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://hornerautomation.com/product/rcc972/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

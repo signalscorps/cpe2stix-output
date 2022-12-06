@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--742a6c0f-2d8e-5102-89ef-8fec9e404d09",
+    "name": "Grafana 8.5.15",
+    "cpe": "cpe:2.3:a:grafana:grafana:8.5.15:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "grafana",
+    "version": "8.5.15",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:grafana:grafana:8.5.15:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-05T20:33Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/grafana/grafana/security/advisories/GHSA-3p62-42x7-gxg5",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://grafana.com/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Grafana 8.5.15"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

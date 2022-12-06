@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--da8657b9-1e1e-4b1e-b309-09703aa6f8ec",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7aa04f62-ca2d-561c-9fab-a6e8157ef573",
+            "name": "openSUSE Leap Micro 5.2",
+            "cpe": "cpe:2.3:o:opensuse:leap_micro:5.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "opensuse",
+            "version": "5.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:opensuse:leap_micro:5.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-05T20:36Z",
+                        "titles": [
+                            {
+                                "title": "openSUSE Leap Micro 5.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://get.opensuse.org/leapmicro/5.2/",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-31252"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

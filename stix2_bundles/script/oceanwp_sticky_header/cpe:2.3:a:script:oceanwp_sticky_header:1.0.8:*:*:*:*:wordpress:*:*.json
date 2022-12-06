@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--26edfe47-d647-4a86-95fd-b8bae1a7c39b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a8fc782a-6c6a-5d07-af2b-1c7fe67c7951",
+            "name": "Script Oceanwp Sticky Header 1.0.8 for WordPress",
+            "cpe": "cpe:2.3:a:script:oceanwp_sticky_header:1.0.8:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "script",
+            "version": "1.0.8",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:script:oceanwp_sticky_header:1.0.8:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-05T19:02Z",
+                        "titles": [
+                            {
+                                "title": "Script Oceanwp Sticky Header 1.0.8 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.script.co.il/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/sticky-header-oceanwp/#developers",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/sticky-header-oceanwp/wordpress-oceanwp-sticky-header-plugin-1-0-8-cross-site-request-forgery-csrf-vulnerability?_s_id=cve",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

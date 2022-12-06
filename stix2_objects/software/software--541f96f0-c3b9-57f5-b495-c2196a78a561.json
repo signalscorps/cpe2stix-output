@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--541f96f0-c3b9-57f5-b495-c2196a78a561",
+    "name": "Broadcom Symantec Endpoint Protection (SEP) 14.3.5 for Windows",
+    "cpe": "cpe:2.3:a:broadcom:symantec_endpoint_protection:14.3.5:*:*:*:*:windows:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "broadcom",
+    "version": "14.3.5",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:broadcom:symantec_endpoint_protection:14.3.5:*:*:*:*:windows:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-05T20:36Z",
+                "refs": [
+                    {
+                        "ref": "https://techdocs.broadcom.com/us/en/symantec-security-software/endpoint-security-and-management/endpoint-protection/all/release-notes/Whats-new-for-Symantec-Endpoint-Protection-14-3-RU6.html",
+                        "type": "Version"
+                    },
+                    {
+                        "ref": "https://vuldb.com/?id.214639",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Broadcom Symantec Endpoint Protection (SEP) 14.3.5 for Windows"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-37016",
+                    "CVE-2022-37017"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--d23d395e-5022-4bd0-a3ac-1ab234b39af3",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--89ff7912-3d61-5ec2-9a7d-7017b3ec729b",
+            "name": "Formalms Forma LMS 3.1.0",
+            "cpe": "cpe:2.3:a:formalms:formalms:3.1.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "formalms",
+            "version": "3.1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:formalms:formalms:3.1.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-05T20:22Z",
+                        "titles": [
+                            {
+                                "title": "Formalms Forma LMS 3.1.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.incibe-cert.es/en/early-warning/security-advisories/multiple-vulnerabilities-forma-lms",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://formalms.org/download/all-downloads.html",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41679",
+                            "CVE-2022-41680",
+                            "CVE-2022-41681",
+                            "CVE-2022-42923",
+                            "CVE-2022-42924",
+                            "CVE-2022-42925"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

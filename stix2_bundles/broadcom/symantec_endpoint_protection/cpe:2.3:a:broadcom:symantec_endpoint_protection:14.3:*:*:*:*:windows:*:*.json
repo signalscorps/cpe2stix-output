@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--c421f5a2-bf83-48c9-82b0-07e18ed5c263",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a8e50842-61a3-5cb5-bc79-357ae59ed2e4",
+            "name": "Broadcom Symantec Endpoint Protection (SEP) 14.3 for Windows",
+            "cpe": "cpe:2.3:a:broadcom:symantec_endpoint_protection:14.3:*:*:*:*:windows:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "broadcom",
+            "version": "14.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:broadcom:symantec_endpoint_protection:14.3:*:*:*:*:windows:*:*",
+                        "lastModifiedDate": "2022-12-05T20:36Z",
+                        "titles": [
+                            {
+                                "title": "Broadcom Symantec Endpoint Protection (SEP) 14.3 for Windows",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://techdocs.broadcom.com/us/en/symantec-security-software/endpoint-security-and-management/endpoint-protection/all/release-notes/Whats-new-for-Symantec-Endpoint-Protection-14-3-RU6.html",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://vuldb.com/?id.214639",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-37016",
+                            "CVE-2022-37017"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

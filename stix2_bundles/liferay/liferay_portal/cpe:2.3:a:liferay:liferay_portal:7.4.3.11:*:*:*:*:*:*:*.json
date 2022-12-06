@@ -1,0 +1,55 @@
+{
+    "type": "bundle",
+    "id": "bundle--4f3dad5c-0101-433e-9b42-2d77a33426ae",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--48b1914d-a1b1-55b1-ab44-30e3f92f00df",
+            "name": "Liferay Portal 7.4.3.11",
+            "cpe": "cpe:2.3:a:liferay:liferay_portal:7.4.3.11:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "liferay",
+            "version": "7.4.3.11",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:liferay:liferay_portal:7.4.3.11:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-05T20:30Z",
+                        "titles": [
+                            {
+                                "title": "Liferay Portal 7.4.3.11",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://portal.liferay.dev/learn/security/known-vulnerabilities/-/asset_publisher/HbL5mxmVrnXW/content/cve-2022-42123",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-38901",
+                            "CVE-2022-39975",
+                            "CVE-2022-42112",
+                            "CVE-2022-42114",
+                            "CVE-2022-42115",
+                            "CVE-2022-42116",
+                            "CVE-2022-42117",
+                            "CVE-2022-42120",
+                            "CVE-2022-42123",
+                            "CVE-2022-42125",
+                            "CVE-2022-42126",
+                            "CVE-2022-42127"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

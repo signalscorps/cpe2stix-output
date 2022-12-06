@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--6cb6607a-5501-447c-a8d7-7cd2ea0e1ae7",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--238f9347-4d4b-5e2d-ba75-9186c6517b36",
+            "name": "Moxa UC-5112-T-LX Firmware 1.2",
+            "cpe": "cpe:2.3:o:moxa:uc-5112-t-lx_firmware:1.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "moxa",
+            "version": "1.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:moxa:uc-5112-t-lx_firmware:1.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-05T20:36Z",
+                        "titles": [
+                            {
+                                "title": "Moxa UC-5112-T-LX Firmware 1.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cisa.gov/uscert/ics/advisories/icsa-22-333-04",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.moxa.com/en/products/industrial-computing/arm-based-computers/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3088"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--4df06ef8-02da-561c-b730-ac90810bd789",
+    "name": "Script Oceanwp Sticky Header for WordPress",
+    "cpe": "cpe:2.3:a:script:oceanwp_sticky_header:-:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "script",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:script:oceanwp_sticky_header:-:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-05T19:02Z",
+                "refs": [
+                    {
+                        "ref": "https://www.script.co.il/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://wordpress.org/plugins/sticky-header-oceanwp/#developers",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://patchstack.com/database/vulnerability/sticky-header-oceanwp/wordpress-oceanwp-sticky-header-plugin-1-0-8-cross-site-request-forgery-csrf-vulnerability?_s_id=cve",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Script Oceanwp Sticky Header for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

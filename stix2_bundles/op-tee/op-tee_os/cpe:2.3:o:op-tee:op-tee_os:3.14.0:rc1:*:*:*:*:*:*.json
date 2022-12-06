@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--d43f2344-a487-4c1a-99e6-d831ff035682",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7d1967ca-c661-558b-a19c-53d62ea1a740",
+            "name": "OP-TEE Open Portable Trusted Execution Environment (OPTEE) OS 3.14.0 Release Candidate 1",
+            "cpe": "cpe:2.3:o:op-tee:op-tee_os:3.14.0:rc1:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "op-tee",
+            "version": "3.14.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:op-tee:op-tee_os:3.14.0:rc1:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-05T20:36Z",
+                        "titles": [
+                            {
+                                "title": "OP-TEE Open Portable Trusted Execution Environment (OPTEE) OS 3.14.0 Release Candidate 1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/OP-TEE/optee_os/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://www.op-tee.org/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-46152"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

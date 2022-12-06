@@ -1,0 +1,55 @@
+{
+    "type": "bundle",
+    "id": "bundle--6e9f7293-4e43-4294-80f1-2732803293a1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--61b6281f-8c49-5f30-a0b3-678b6e6d4994",
+            "name": "Grafana 8.3.11",
+            "cpe": "cpe:2.3:a:grafana:grafana:8.3.11:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "grafana",
+            "version": "8.3.11",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:grafana:grafana:8.3.11:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-05T20:47Z",
+                        "titles": [
+                            {
+                                "title": "Grafana 8.3.11",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://grafana.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/grafana/grafana/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-31123",
+                            "CVE-2022-31130",
+                            "CVE-2022-35957",
+                            "CVE-2022-36062",
+                            "CVE-2022-39201",
+                            "CVE-2022-39229",
+                            "CVE-2022-39306",
+                            "CVE-2022-39307"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

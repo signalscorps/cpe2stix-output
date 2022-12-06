@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--07c9174d-f231-4c3e-914e-37a4d34e2f23",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1655b3dc-809a-5dab-840d-5657b7eb578c",
+            "name": "openSUSE Leap 15.4",
+            "cpe": "cpe:2.3:o:opensuse:leap:15.4:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "opensuse",
+            "version": "15.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:opensuse:leap:15.4:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-05T20:36Z",
+                        "titles": [
+                            {
+                                "title": "openSUSE Leap 15.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://get.opensuse.org/leap/15.4/",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-31252"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

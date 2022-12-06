@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--4eca1a48-8748-44b5-b24c-e0e3bf950589",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d084e107-937a-5ba4-8c90-870a2048b89b",
+            "name": "Moxa UC-8112A-ME-T-LX Firmware 1.0",
+            "cpe": "cpe:2.3:o:moxa:uc-8112a-me-t-lx_firmware:1.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "moxa",
+            "version": "1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:moxa:uc-8112a-me-t-lx_firmware:1.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-05T20:36Z",
+                        "titles": [
+                            {
+                                "title": "Moxa UC-8112A-ME-T-LX Firmware 1.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cisa.gov/uscert/ics/advisories/icsa-22-333-04",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.moxa.com/en/products/industrial-computing/arm-based-computers/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3088"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

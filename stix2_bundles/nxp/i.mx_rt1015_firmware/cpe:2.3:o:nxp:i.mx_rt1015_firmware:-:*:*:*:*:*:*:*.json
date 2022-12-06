@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--aa93958a-1e97-443d-898a-e2eecf607ade",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--32c08332-7e8a-5aad-9737-4c60e6e42756",
+            "name": "NXP I.MX RT1015 Firmware",
+            "cpe": "cpe:2.3:o:nxp:i.mx_rt1015_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nxp",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:nxp:i.mx_rt1015_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-05T20:36Z",
+                        "titles": [
+                            {
+                                "title": "NXP I.MX RT1015 Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://research.nccgroup.com/2022/11/17/cve-2022-45163/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.nxp.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45163"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

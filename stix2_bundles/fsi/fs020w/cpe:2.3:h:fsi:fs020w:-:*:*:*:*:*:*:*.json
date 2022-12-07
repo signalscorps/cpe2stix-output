@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--db512f1e-82b3-49fd-830c-e6b70304dc3b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d7e57cb9-2433-5cdf-9527-05fa8e743601",
+            "name": "FUJISOFT FS020W",
+            "cpe": "cpe:2.3:h:fsi:fs020w:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "fsi",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:fsi:fs020w:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T16:17Z",
+                        "titles": [
+                            {
+                                "title": "FUJISOFT FS020W",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.fsi.co.jp/mobile/plusF/products/FS020W_cf.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43470"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

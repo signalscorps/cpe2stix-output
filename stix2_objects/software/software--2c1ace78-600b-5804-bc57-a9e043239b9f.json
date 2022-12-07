@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--2c1ace78-600b-5804-bc57-a9e043239b9f",
+    "name": "Festo Operator Unit CDPX-X-A-W-4 Firmware",
+    "cpe": "cpe:2.3:o:festo:operator_unit_cdpx-x-a-w-4_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "festo",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:festo:operator_unit_cdpx-x-a-w-4_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T15:36Z",
+                "refs": [
+                    {
+                        "ref": "https://cert.vde.com/en/advisories/VDE-2022-041/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Festo Operator Unit CDPX-X-A-W-4 Firmware"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3270"
+                ]
+            }
+        }
+    }
+}

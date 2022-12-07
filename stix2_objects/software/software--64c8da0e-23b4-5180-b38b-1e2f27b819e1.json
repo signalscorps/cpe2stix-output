@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--64c8da0e-23b4-5180-b38b-1e2f27b819e1",
+    "name": "Festo CAMERA SYSTEM CHB-C-N Firmware",
+    "cpe": "cpe:2.3:o:festo:camera_system_chb-c-n_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "festo",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:festo:camera_system_chb-c-n_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T15:36Z",
+                "refs": [
+                    {
+                        "ref": "https://cert.vde.com/en/advisories/VDE-2022-041/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Festo CAMERA SYSTEM CHB-C-N Firmware"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3270"
+                ]
+            }
+        }
+    }
+}

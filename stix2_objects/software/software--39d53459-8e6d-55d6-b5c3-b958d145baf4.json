@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--39d53459-8e6d-55d6-b5c3-b958d145baf4",
+    "name": "AIPHONE GT-DMB-N",
+    "cpe": "cpe:2.3:h:aiphone:gt-dmb-n:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "aiphone",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:aiphone:gt-dmb-n:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T13:50Z",
+                "refs": [
+                    {
+                        "ref": "https://jvn.jp/en/jp/JVN75437943/index.html",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.aiphone.net/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "AIPHONE GT-DMB-N"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-40903"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--6d3ae607-e0a9-43a0-b6e0-4ec4e73e9c2c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ae19c5c5-e83c-5c6a-932d-3ddcad7c16b5",
+            "name": "Festo Servo Drive CMMT-ST-C8-1C-PN-S0",
+            "cpe": "cpe:2.3:h:festo:servo_drive_cmmt-st-c8-1c-pn-s0:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "festo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:festo:servo_drive_cmmt-st-c8-1c-pn-s0:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T15:36Z",
+                        "titles": [
+                            {
+                                "title": "Festo Servo Drive CMMT-ST-C8-1C-PN-S0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-041/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.festo.com/us/en/p/servo-drive-id_CMMT_AS/?q=&page=0",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3270"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

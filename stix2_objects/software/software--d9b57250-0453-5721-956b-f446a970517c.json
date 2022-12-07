@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--d9b57250-0453-5721-956b-f446a970517c",
+    "name": "Festo Compact Vision System SBOC-C Firmware",
+    "cpe": "cpe:2.3:o:festo:compact_vision_system_sboc-c_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "festo",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:festo:compact_vision_system_sboc-c_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T15:36Z",
+                "refs": [
+                    {
+                        "ref": "https://cert.vde.com/en/advisories/VDE-2022-041/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Festo Compact Vision System SBOC-C Firmware"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3270"
+                ]
+            }
+        }
+    }
+}

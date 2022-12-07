@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--cd3e4486-0fe8-46b7-b68a-b4caf494b679",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e9b40012-40bb-50bf-9fa8-cb3d2f03bb42",
+            "name": "Kujirahand Nadesiko3 3.0.39",
+            "cpe": "cpe:2.3:a:kujirahand:nadesiko3:3.0.39:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "kujirahand",
+            "version": "3.0.39",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:kujirahand:nadesiko3:3.0.39:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T20:07Z",
+                        "titles": [
+                            {
+                                "title": "Kujirahand Nadesiko3 3.0.39",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/kujirahand/nadesiko3/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://jvn.jp/en/jp/JVN56968681/index.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41642"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

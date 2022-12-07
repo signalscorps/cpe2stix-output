@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--9a732a72-224e-5855-9424-e3b6921e6d52",
+    "name": "D-Link DSL-2750B",
+    "cpe": "cpe:2.3:h:dlink:dsl-2750b:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "dlink",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:dlink:dsl-2750b:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T14:04Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2016/20xxx/CVE-2016-20017.json",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://seclists.org/fulldisclosure/2016/Feb/53",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10088",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "D-Link DSL-2750B"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2016-20017"
+                ]
+            }
+        }
+    }
+}

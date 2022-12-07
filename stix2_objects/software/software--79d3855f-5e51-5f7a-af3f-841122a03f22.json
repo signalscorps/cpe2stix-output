@@ -1,0 +1,49 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--79d3855f-5e51-5f7a-af3f-841122a03f22",
+    "name": "OpenRazer Project OpenRazer 2.3.0 for Linux",
+    "cpe": "cpe:2.3:a:openrazer_project:openrazer:2.3.0:*:*:*:*:linux:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "openrazer_project",
+    "version": "2.3.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:openrazer_project:openrazer:2.3.0:*:*:*:*:linux:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T15:36Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/openrazer/openrazer/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://github.com/openrazer/openrazer",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://openrazer.github.io/",
+                        "type": "Project"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "OpenRazer Project OpenRazer 2.3.0 for Linux"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-23467",
+                    "CVE-2022-29021",
+                    "CVE-2022-29022",
+                    "CVE-2022-29023"
+                ]
+            }
+        }
+    }
+}

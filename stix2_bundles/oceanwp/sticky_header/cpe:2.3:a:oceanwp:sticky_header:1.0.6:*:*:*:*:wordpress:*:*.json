@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--598d85bb-f57a-4cec-bb17-2539ed5ad2a5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6fd7720e-6e83-59ec-aed7-3af072ec5aab",
+            "name": "OceanWP Sticky Header 1.0.6 for WordPress",
+            "cpe": "cpe:2.3:a:oceanwp:sticky_header:1.0.6:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "oceanwp",
+            "version": "1.0.6",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:oceanwp:sticky_header:1.0.6:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-06T14:47Z",
+                        "titles": [
+                            {
+                                "title": "OceanWP Sticky Header 1.0.6 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://oceanwp.org/extension/ocean-sticky-header/",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-35730"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

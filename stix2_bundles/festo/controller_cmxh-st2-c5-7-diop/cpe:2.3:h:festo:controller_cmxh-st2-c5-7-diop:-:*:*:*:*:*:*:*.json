@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--b0a1a576-b2d4-4f2a-b54a-4b14ab4abc33",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c8f6cf06-11b4-5c08-bb91-da1a9aeca54d",
+            "name": "Festo Controller CMXH-ST2-C5-7-DIOP",
+            "cpe": "cpe:2.3:h:festo:controller_cmxh-st2-c5-7-diop:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "festo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:festo:controller_cmxh-st2-c5-7-diop:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T15:36Z",
+                        "titles": [
+                            {
+                                "title": "Festo Controller CMXH-ST2-C5-7-DIOP",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-041/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3270"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

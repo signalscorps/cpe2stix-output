@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--53211972-8023-4768-a07a-22b32aabb9c7",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--479869f3-6100-5001-bbdd-d7f2466a823e",
+            "name": "Acer Aspire A115-21 ",
+            "cpe": "cpe:2.3:h:acer:aspire_a115-21:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "acer",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:acer:aspire_a115-21:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T13:54Z",
+                        "titles": [
+                            {
+                                "title": "Acer Aspire A115-21 ",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://community.acer.com/en/kb/articles/15520-security-vulnerability-regarding-vulnerability-that-may-allow-changes-to-secure-boot-settings",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.acer.com/ac/en/US/content/home",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-4020"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

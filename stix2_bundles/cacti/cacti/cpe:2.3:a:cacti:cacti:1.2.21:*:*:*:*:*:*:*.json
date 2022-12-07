@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--ac3bf32e-1ef6-4f4f-9bde-a8cc9871102b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--eee6eb23-4a38-5219-9ae1-fff207ae54dd",
+            "name": "Cacti 1.2.21",
+            "cpe": "cpe:2.3:a:cacti:cacti:1.2.21:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cacti",
+            "version": "1.2.21",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:cacti:cacti:1.2.21:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T16:17Z",
+                        "titles": [
+                            {
+                                "title": "Cacti 1.2.21",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cacti.net/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/Cacti/cacti/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-46169"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

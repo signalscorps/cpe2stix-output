@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--8166e6b5-84f0-430d-ad3f-0a2193b8d465",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--41a96496-1694-5416-831d-c3c167d35bad",
+            "name": "Festo Control Block CPX-CEC-C1-V3",
+            "cpe": "cpe:2.3:h:festo:control_block_cpx-cec-c1-v3:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "festo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:festo:control_block_cpx-cec-c1-v3:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T15:36Z",
+                        "titles": [
+                            {
+                                "title": "Festo Control Block CPX-CEC-C1-V3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-041/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3270"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

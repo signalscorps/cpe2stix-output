@@ -1,0 +1,44 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--731cb22a-df8a-5af6-9512-a6f2611e19e3",
+    "name": "Kyocera TASKalfa 205c",
+    "cpe": "cpe:2.3:h:kyocera:taskalfa_205c:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "kyocera",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:kyocera:taskalfa_205c:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T15:20Z",
+                "refs": [
+                    {
+                        "ref": "https://global.kyocera.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://www.kyoceradocumentsolutions.co.jp/support/information/info_20221101.html",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Kyocera TASKalfa 205c"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-41798",
+                    "CVE-2022-41807",
+                    "CVE-2022-41830"
+                ]
+            }
+        }
+    }
+}

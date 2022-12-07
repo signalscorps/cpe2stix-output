@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--f9d1fabc-c4ea-4b07-ace1-6fc9b798f592",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--63b9d441-a846-5471-92c9-e8b1db615cb3",
+            "name": "Festo Servo CMMT-AS-C7-11A-P3-EC-S1 Firmware",
+            "cpe": "cpe:2.3:o:festo:servo_cmmt-as-c7-11a-p3-ec-s1_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "festo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:festo:servo_cmmt-as-c7-11a-p3-ec-s1_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T15:36Z",
+                        "titles": [
+                            {
+                                "title": "Festo Servo CMMT-AS-C7-11A-P3-EC-S1 Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-041/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.festo.com/us/en/p/servo-drive-id_CMMT_AS/?q=&page=0",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3270"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

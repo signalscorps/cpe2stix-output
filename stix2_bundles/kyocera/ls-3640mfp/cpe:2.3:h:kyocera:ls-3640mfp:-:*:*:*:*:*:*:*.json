@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--e5477c16-a94b-4267-ae96-b5f96a9d9961",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--45c17f40-06e0-588d-9db2-6d963d39e1a5",
+            "name": "Kyocera LS-3640MFP",
+            "cpe": "cpe:2.3:h:kyocera:ls-3640mfp:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "kyocera",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:kyocera:ls-3640mfp:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T15:20Z",
+                        "titles": [
+                            {
+                                "title": "Kyocera LS-3640MFP",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://global.kyocera.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.kyoceradocumentsolutions.co.jp/support/information/info_20221101.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41798",
+                            "CVE-2022-41807",
+                            "CVE-2022-41830"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

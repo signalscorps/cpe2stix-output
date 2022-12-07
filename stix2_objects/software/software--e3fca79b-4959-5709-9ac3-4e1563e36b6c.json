@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--e3fca79b-4959-5709-9ac3-4e1563e36b6c",
+    "name": "Festo Operator Unit CDPX-X-A-S-10",
+    "cpe": "cpe:2.3:h:festo:operator_unit_cdpx-x-a-s-10:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "festo",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:festo:operator_unit_cdpx-x-a-s-10:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T15:36Z",
+                "refs": [
+                    {
+                        "ref": "https://cert.vde.com/en/advisories/VDE-2022-041/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Festo Operator Unit CDPX-X-A-S-10"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3270"
+                ]
+            }
+        }
+    }
+}

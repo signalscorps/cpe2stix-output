@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--14eef64f-6e8e-5b6a-9eca-2fcd62d0c4a7",
+    "name": "Festo Servo CMMT-AS-C4-3A-PN-S1",
+    "cpe": "cpe:2.3:h:festo:servo_cmmt-as-c4-3a-pn-s1:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "festo",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:festo:servo_cmmt-as-c4-3a-pn-s1:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T15:36Z",
+                "refs": [
+                    {
+                        "ref": "https://cert.vde.com/en/advisories/VDE-2022-041/",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.festo.com/us/en/p/servo-drive-id_CMMT_AS/?q=&page=0",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Festo Servo CMMT-AS-C4-3A-PN-S1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3270"
+                ]
+            }
+        }
+    }
+}

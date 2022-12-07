@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--10617563-d404-4006-8b7b-c6873146f53b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--74380d4a-0e38-5857-999f-22aef3f0edcb",
+            "name": "fs-path Project fs-path 0.0.3 for Node.js",
+            "cpe": "cpe:2.3:a:fs-path_project:fs-path:0.0.3:*:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "fs-path_project",
+            "version": "0.0.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:fs-path_project:fs-path:0.0.3:*:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2022-12-06T16:30Z",
+                        "titles": [
+                            {
+                                "title": "fs-path Project fs-path 0.0.3 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.npmjs.com/package/fs-path?activeTab=versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-8298"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

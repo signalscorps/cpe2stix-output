@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--bbdddab3-f9f0-4f8f-96b8-600482c5b377",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ad1cd4e8-4cd7-5db3-a283-d4bf5af39a71",
+            "name": "Festo Controller CECC-D-BA",
+            "cpe": "cpe:2.3:h:festo:controller_cecc-d-ba:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "festo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:festo:controller_cecc-d-ba:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T15:36Z",
+                        "titles": [
+                            {
+                                "title": "Festo Controller CECC-D-BA",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-041/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3270"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--adb030c0-456e-42b5-9444-42cc0a1d3dd7",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--15360c32-104e-5bf7-955a-0f95049eca34",
+            "name": "Festo Cpx-cmxx -",
+            "cpe": "cpe:2.3:h:festo:cpx-cmxx:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "festo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:festo:cpx-cmxx:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T15:36Z",
+                        "titles": [
+                            {
+                                "title": "Festo Cpx-cmxx -",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-036/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.festo.com/cat/en-gb_gb/data/doc_ENUS/PDF/US/CPX-CMXX_ENUS.PDF",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3079"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

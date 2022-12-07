@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--2c64d9b5-6933-461f-aa6d-636f2e75c041",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1d618d78-1147-55ba-bcf1-7325edee089e",
+            "name": "Kyocera TASKalfa 306i",
+            "cpe": "cpe:2.3:h:kyocera:taskalfa_306i:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "kyocera",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:kyocera:taskalfa_306i:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T15:20Z",
+                        "titles": [
+                            {
+                                "title": "Kyocera TASKalfa 306i",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://global.kyocera.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.kyoceradocumentsolutions.co.jp/support/information/info_20221101.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41798",
+                            "CVE-2022-41807",
+                            "CVE-2022-41830"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

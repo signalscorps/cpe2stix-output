@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--b2de76bc-f8ec-5266-bd96-419b0fa7f5c7",
+    "name": "CrowdStrike Falcon 6.44.15806",
+    "cpe": "cpe:2.3:a:crowdstrike:falcon:6.44.15806:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "crowdstrike",
+    "version": "6.44.15806",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:crowdstrike:falcon:6.44.15806:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T16:17Z",
+                "refs": [
+                    {
+                        "ref": "https://www.crowdstrike.com/falcon-platform/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-44721",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "CrowdStrike Falcon 6.44.15806"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-44721"
+                ]
+            }
+        }
+    }
+}

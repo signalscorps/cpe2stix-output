@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--53fd97e0-c0ed-418a-ac30-5eacc91c8efd",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1fb6165b-c877-5e85-93d2-c2ebc01872ec",
+            "name": "Apache Software Foundation Camel 3.12.0",
+            "cpe": "cpe:2.3:a:apache:camel:3.12.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "apache",
+            "version": "3.12.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:apache:camel:3.12.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T13:17Z",
+                        "titles": [
+                            {
+                                "title": "Apache Software Foundation Camel 3.12.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/apache/camel/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://camel.apache.org/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45046"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

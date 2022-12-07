@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--bbfdfe32-cf1e-413e-9741-b43edaa9fc6c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0812a275-c9da-5e3b-929c-af659a463a56",
+            "name": "Kyocera ECOSYS P2135DN",
+            "cpe": "cpe:2.3:h:kyocera:ecosys_p2135dn:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "kyocera",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:kyocera:ecosys_p2135dn:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T15:20Z",
+                        "titles": [
+                            {
+                                "title": "Kyocera ECOSYS P2135DN",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://global.kyocera.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.kyoceradocumentsolutions.co.jp/support/information/info_20221101.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41798",
+                            "CVE-2022-41807",
+                            "CVE-2022-41830"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

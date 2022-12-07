@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--105ebeea-a27a-4359-8d9d-5db2b4cf4d87",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--068f9429-3d66-50a7-9022-9e8bac0a8a94",
+            "name": "Sudo Project Sudo 1.9.7",
+            "cpe": "cpe:2.3:a:sudo_project:sudo:1.9.7:-:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sudo_project",
+            "version": "1.9.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sudo_project:sudo:1.9.7:-:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T15:20Z",
+                        "titles": [
+                            {
+                                "title": "Sudo Project Sudo 1.9.7",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/sudo-project/sudo/",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43995"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

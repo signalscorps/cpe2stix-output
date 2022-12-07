@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--62f5a9e7-c6c7-4ca7-b1bd-fe1875c04a34",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--573a1e53-f90a-52f7-935b-4dc6595e1a4d",
+            "name": "Premio Chaty 2.9 for WordPress",
+            "cpe": "cpe:2.3:a:premio:chaty:2.9:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "premio",
+            "version": "2.9",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:premio:chaty:2.9:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-06T12:03Z",
+                        "titles": [
+                            {
+                                "title": "Premio Chaty 2.9 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/chaty/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://premio.io/downloads/chaty/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3858"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--35db0764-6ac0-4fc9-be57-e614ffb2e1eb",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6ef561aa-5b4a-545f-a372-de3d1db12b0a",
+            "name": "Kyocera ECOSYS P6026CDN",
+            "cpe": "cpe:2.3:h:kyocera:ecosys_p6026cdn:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "kyocera",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:kyocera:ecosys_p6026cdn:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T15:20Z",
+                        "titles": [
+                            {
+                                "title": "Kyocera ECOSYS P6026CDN",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://global.kyocera.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.kyoceradocumentsolutions.co.jp/support/information/info_20221101.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41798",
+                            "CVE-2022-41807",
+                            "CVE-2022-41830"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

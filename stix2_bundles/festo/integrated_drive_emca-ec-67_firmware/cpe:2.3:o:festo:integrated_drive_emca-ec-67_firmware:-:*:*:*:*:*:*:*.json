@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--5b05cbd3-8d7e-4f16-aa2b-6f1dfb32d275",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--eee82fa4-b886-509f-8cdc-1a8f6e7aabdb",
+            "name": "Festo Integrated Drive EMCA-EC-67 Firmware",
+            "cpe": "cpe:2.3:o:festo:integrated_drive_emca-ec-67_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "festo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:festo:integrated_drive_emca-ec-67_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T15:36Z",
+                        "titles": [
+                            {
+                                "title": "Festo Integrated Drive EMCA-EC-67 Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-041/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.festo.com/tw/en/p/integrated-drive-id_EMCA/?q=~:sortByCoreRangeAndSp2020~%3ACC_Bus_protocol_actuation_C_FP_GLOBAL~%3ACC_Bus_protocol_actuation.EP~%3ACC_Nominal_operating_voltage_C_FP_GLOBAL~%3ACC_Nominal_operating_voltage.1~%3ACC_Measuring_unit_C_FP_GLOBAL~%3ACC_Measuring_unit.E~%3ACC_El",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3270"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

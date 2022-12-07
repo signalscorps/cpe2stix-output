@@ -1,0 +1,44 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--8866ed6c-60ee-556c-a067-a2313a87102a",
+    "name": "Kyocera LS-C8650DN",
+    "cpe": "cpe:2.3:h:kyocera:ls-c8650dn:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "kyocera",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:kyocera:ls-c8650dn:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T15:20Z",
+                "refs": [
+                    {
+                        "ref": "https://global.kyocera.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://www.kyoceradocumentsolutions.co.jp/support/information/info_20221101.html",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Kyocera LS-C8650DN"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-41798",
+                    "CVE-2022-41807",
+                    "CVE-2022-41830"
+                ]
+            }
+        }
+    }
+}

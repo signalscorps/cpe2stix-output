@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--e31eb6ba-2706-4584-a6e3-8873230f1b07",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--21c92d92-120f-59f4-a9df-3f7940e0ef8f",
+            "name": "node-fetch Project node-fetch 1.2.1 for Node.js",
+            "cpe": "cpe:2.3:a:node-fetch_project:node-fetch:1.2.1:*:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "node-fetch_project",
+            "version": "1.2.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:node-fetch_project:node-fetch:1.2.1:*:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2022-12-06T19:13Z",
+                        "titles": [
+                            {
+                                "title": "node-fetch Project node-fetch 1.2.1 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/node-fetch/node-fetch",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://www.npmjs.com/package/node-fetch?activeTab=versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-15168",
+                            "CVE-2022-0235"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

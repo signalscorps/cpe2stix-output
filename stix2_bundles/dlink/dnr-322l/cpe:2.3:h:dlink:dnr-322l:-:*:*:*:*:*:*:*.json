@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--a575d216-932c-4685-9246-54139e3c5b63",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ddd62ccb-3aa8-50ba-a273-86c25a369e6a",
+            "name": "D-Link DNR-322L",
+            "cpe": "cpe:2.3:h:dlink:dnr-322l:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "dlink",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:dlink:dnr-322l:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T14:04Z",
+                        "titles": [
+                            {
+                                "title": "D-Link DNR-322L",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://gitlab.com/lu-ka/cve-2022-40799",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.dlink.com/en/products/dnr-322l-mydlink-2-bay-network-video-recorder",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-40799"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

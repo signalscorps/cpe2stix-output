@@ -1,0 +1,45 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--f01e76a3-e129-54f2-b703-311cb85ec4fd",
+    "name": "IBM UrbanCode Deploy 7.2.0.0",
+    "cpe": "cpe:2.3:a:ibm:urbancode_deploy:7.2.0.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "ibm",
+    "version": "7.2.0.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:ibm:urbancode_deploy:7.2.0.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T15:08Z",
+                "refs": [
+                    {
+                        "ref": "https://www.ibm.com/support/pages/node/6831907",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.ibm.com/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "IBM UrbanCode Deploy 7.2.0.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-29711",
+                    "CVE-2022-22315",
+                    "CVE-2022-35716",
+                    "CVE-2022-40751"
+                ]
+            }
+        }
+    }
+}

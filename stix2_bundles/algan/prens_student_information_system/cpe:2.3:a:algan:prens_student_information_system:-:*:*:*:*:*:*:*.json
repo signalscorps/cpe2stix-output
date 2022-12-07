@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--d12a6eef-fdbf-4ad9-9650-f597e259eacf",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1da44390-09c7-52f5-9f93-554a5194b115",
+            "name": "Algan Group Prens Student Information System",
+            "cpe": "cpe:2.3:a:algan:prens_student_information_system:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "algan",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:algan:prens_student_information_system:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T16:17Z",
+                        "titles": [
+                            {
+                                "title": "Algan Group Prens Student Information System",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.usom.gov.tr/bildirim/tr-22-0708",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.algan.com.tr/prens.html",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.algan.com.tr/index.html",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-2807",
+                            "CVE-2022-2808"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

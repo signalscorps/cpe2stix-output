@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--1ebae2b3-91e0-49cb-a324-316f3503f85a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e1e7c9e0-439b-5663-8763-e1c64fd74634",
+            "name": "Festo Control Block CPX-CEC-S1-V3 Firmware",
+            "cpe": "cpe:2.3:o:festo:control_block_cpx-cec-s1-v3_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "festo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:festo:control_block_cpx-cec-s1-v3_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T15:36Z",
+                        "titles": [
+                            {
+                                "title": "Festo Control Block CPX-CEC-S1-V3 Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-041/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3270"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

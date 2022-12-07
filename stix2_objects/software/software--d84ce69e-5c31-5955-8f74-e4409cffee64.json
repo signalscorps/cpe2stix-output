@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--d84ce69e-5c31-5955-8f74-e4409cffee64",
+    "name": "Muhammara Project Muhammara 3.3.0 for Node.js",
+    "cpe": "cpe:2.3:a:muhammara_project:muhammara:3.3.0:*:*:*:*:node.js:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "muhammara_project",
+    "version": "3.3.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:muhammara_project:muhammara:3.3.0:*:*:*:*:node.js:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T19:06Z",
+                "refs": [
+                    {
+                        "ref": "https://www.npmjs.com/package/muhammara",
+                        "type": "Project"
+                    },
+                    {
+                        "ref": "https://github.com/julianhille/MuhammaraJS/releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Muhammara Project Muhammara 3.3.0 for Node.js"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-25892"
+                ]
+            }
+        }
+    }
+}

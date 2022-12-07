@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--523b4a32-b287-480e-9d44-b4048f04baa6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--04bfeee9-9be2-5ded-a884-cc3abde3a124",
+            "name": "Festo Compact Vision System SBOI-M Firmware",
+            "cpe": "cpe:2.3:o:festo:compact_vision_system_sboi-m_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "festo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:festo:compact_vision_system_sboi-m_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T15:36Z",
+                        "titles": [
+                            {
+                                "title": "Festo Compact Vision System SBOI-M Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-041/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.festo.com/net/SupportPortal/Files/10452/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3270"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

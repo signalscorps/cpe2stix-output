@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--cb695655-508a-45eb-83d9-d18a3414e89d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2af71841-8101-58da-adcf-da171c85efd2",
+            "name": "FUJISOFT FS040U",
+            "cpe": "cpe:2.3:h:fsi:fs040u:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "fsi",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:fsi:fs040u:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T16:17Z",
+                        "titles": [
+                            {
+                                "title": "FUJISOFT FS040U",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.fsi.co.jp/mobile/plusF/products/FS040U/index.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43442",
+                            "CVE-2022-43470"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

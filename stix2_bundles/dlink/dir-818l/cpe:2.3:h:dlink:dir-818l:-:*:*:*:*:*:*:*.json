@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--2ba9f9e3-fcf0-4011-9057-0f0da276c506",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0174f528-ae60-5124-9e68-addc2c45712c",
+            "name": "D-Link DIR-818L",
+            "cpe": "cpe:2.3:h:dlink:dir-818l:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "dlink",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:dlink:dir-818l:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T14:04Z",
+                        "titles": [
+                            {
+                                "title": "D-Link DIR-818L",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.dlink.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/1759134370/iot/blob/main/DIR-818L.md",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-35619",
+                            "CVE-2022-35620"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

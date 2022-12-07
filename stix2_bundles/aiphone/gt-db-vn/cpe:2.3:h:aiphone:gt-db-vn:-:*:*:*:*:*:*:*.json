@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--ae8b2e01-25c4-41d4-bd89-e301a68bfca0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ef5dbecf-6c01-51aa-a380-e997213478d5",
+            "name": "AIPHONE GT-DB-VN",
+            "cpe": "cpe:2.3:h:aiphone:gt-db-vn:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "aiphone",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:aiphone:gt-db-vn:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T13:50Z",
+                        "titles": [
+                            {
+                                "title": "AIPHONE GT-DB-VN",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://jvn.jp/en/jp/JVN75437943/index.html",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.aiphone.net/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-40903"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

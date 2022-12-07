@@ -1,0 +1,54 @@
+{
+    "type": "bundle",
+    "id": "bundle--56e50982-d53e-480c-812c-a48a97220a75",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1877de38-a88f-5993-a1dd-36ef1500f2be",
+            "name": "ZoneMinder 1.34.20",
+            "cpe": "cpe:2.3:a:zoneminder:zoneminder:1.34.20:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "zoneminder",
+            "version": "1.34.20",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:zoneminder:zoneminder:1.34.20:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T16:13Z",
+                        "titles": [
+                            {
+                                "title": "ZoneMinder 1.34.20",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://zoneminder.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/ZoneMinder/zoneminder/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-25729",
+                            "CVE-2022-29806",
+                            "CVE-2022-30769",
+                            "CVE-2022-39285",
+                            "CVE-2022-39289",
+                            "CVE-2022-39290",
+                            "CVE-2022-39291"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

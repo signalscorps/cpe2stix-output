@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--46381514-abdc-4ecc-8ed1-8622b2ef6501",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e0b4ba27-e67e-5653-8af5-b7b8894f8dbf",
+            "name": "Hexo 0.3.0 for Node.js",
+            "cpe": "cpe:2.3:a:hexo:hexo:0.3.0:*:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hexo",
+            "version": "0.3.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:hexo:hexo:0.3.0:*:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2022-12-06T16:55Z",
+                        "titles": [
+                            {
+                                "title": "Hexo 0.3.0 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://hexo.io/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.npmjs.com/package/hexo?activeTab=versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-25987"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

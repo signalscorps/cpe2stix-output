@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--2355ffd4-0174-41c7-88f8-050f67cd42c2",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ae06d6d5-ea1e-5390-9198-c80d531c6220",
+            "name": "D-Link DIR820LA1 ",
+            "cpe": "cpe:2.3:h:dlink:dir820la1:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "dlink",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:dlink:dir820la1:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T14:04Z",
+                        "titles": [
+                            {
+                                "title": "D-Link DIR820LA1 ",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.dlink.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/1759134370/iot/blob/main/DIR-820L.md",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34973",
+                            "CVE-2022-34974"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

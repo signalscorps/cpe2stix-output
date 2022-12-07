@@ -1,0 +1,44 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--2af47330-a342-5ccc-b523-30f97566e7c3",
+    "name": "Kyocera LS-3140MFP",
+    "cpe": "cpe:2.3:h:kyocera:ls-3140mfp:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "kyocera",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:kyocera:ls-3140mfp:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T15:20Z",
+                "refs": [
+                    {
+                        "ref": "https://global.kyocera.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://www.kyoceradocumentsolutions.co.jp/support/information/info_20221101.html",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Kyocera LS-3140MFP"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-41798",
+                    "CVE-2022-41807",
+                    "CVE-2022-41830"
+                ]
+            }
+        }
+    }
+}

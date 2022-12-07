@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--b93f0f24-2936-5e21-ab04-d2cc2417612d",
+    "name": "Acer Extensa EX215-21 ",
+    "cpe": "cpe:2.3:h:acer:extensa_ex215-21:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "acer",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:acer:extensa_ex215-21:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T13:54Z",
+                "refs": [
+                    {
+                        "ref": "https://community.acer.com/en/kb/articles/15520-security-vulnerability-regarding-vulnerability-that-may-allow-changes-to-secure-boot-settings",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.acer.com/ac/en/US/content/home",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Acer Extensa EX215-21 "
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-4020"
+                ]
+            }
+        }
+    }
+}

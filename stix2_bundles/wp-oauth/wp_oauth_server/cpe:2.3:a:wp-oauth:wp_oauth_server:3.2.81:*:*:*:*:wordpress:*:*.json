@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--0f21090d-e7d8-4168-b459-075afa935cc3",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5fd00549-6285-5876-a2e5-9f03e470b9d5",
+            "name": "WP OAuth WP OAuth Server 3.2.81 for WordPress",
+            "cpe": "cpe:2.3:a:wp-oauth:wp_oauth_server:3.2.81:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wp-oauth",
+            "version": "3.2.81",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wp-oauth:wp_oauth_server:3.2.81:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-06T14:13Z",
+                        "titles": [
+                            {
+                                "title": "WP OAuth WP OAuth Server 3.2.81 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wp-oauth.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/oauth2-provider/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3892",
+                            "CVE-2022-3926"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

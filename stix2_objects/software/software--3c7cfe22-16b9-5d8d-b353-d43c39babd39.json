@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--3c7cfe22-16b9-5d8d-b353-d43c39babd39",
+    "name": "WP OAuth WP OAuth Server 3.1.96 for WordPress",
+    "cpe": "cpe:2.3:a:wp-oauth:wp_oauth_server:3.1.96:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "wp-oauth",
+    "version": "3.1.96",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:wp-oauth:wp_oauth_server:3.1.96:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T14:13Z",
+                "refs": [
+                    {
+                        "ref": "https://wp-oauth.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://wordpress.org/plugins/oauth2-provider/#developers",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "WP OAuth WP OAuth Server 3.1.96 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3892",
+                    "CVE-2022-3926"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--f9ac823c-6e63-4c37-a028-cdd317ea51b0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a64b6161-13ef-547e-9f39-d36b8f7db5c3",
+            "name": "Anthologize Project Anthologize 0.7.8 for WordPress",
+            "cpe": "cpe:2.3:a:anthologize_project:anthologize:0.7.8:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "anthologize_project",
+            "version": "0.7.8",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:anthologize_project:anthologize:0.7.8:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-06T15:55Z",
+                        "titles": [
+                            {
+                                "title": "Anthologize Project Anthologize 0.7.8 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/anthologize/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://patchstack.com/database/vulnerability/anthologize/wordpress-anthologize-plugin-0-8-0-auth-stored-cross-site-scripting-xss-vulnerability?_s_id=cve",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-44591"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

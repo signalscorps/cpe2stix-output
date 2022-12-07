@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--1709bfe0-75de-50dd-9da8-642f136c22f3",
+    "name": "Frourio 0.18.0 for Node.js",
+    "cpe": "cpe:2.3:a:frourio:frourio:0.18.0:*:*:*:*:node.js:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "frourio",
+    "version": "0.18.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:frourio:frourio:0.18.0:*:*:*:*:node.js:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T15:29Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/frouriojs/frourio/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://frourio.com/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://www.npmjs.com/package/frourio?activeTab=versions",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Frourio 0.18.0 for Node.js"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-23623"
+                ]
+            }
+        }
+    }
+}

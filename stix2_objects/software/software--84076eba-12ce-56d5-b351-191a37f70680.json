@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--84076eba-12ce-56d5-b351-191a37f70680",
+    "name": "Festo Cpx-cec-c1 -",
+    "cpe": "cpe:2.3:h:festo:cpx-cec-c1:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "festo",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:festo:cpx-cec-c1:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T15:36Z",
+                "refs": [
+                    {
+                        "ref": "https://cert.vde.com/en/advisories/VDE-2022-036/",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.festo.com/us/en/a/567347/?q=~:sortByFacetValues-asc~:CC_Series_C_FP_07-03-03~:CC_Series.CPX",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Festo Cpx-cec-c1 -"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3079"
+                ]
+            }
+        }
+    }
+}

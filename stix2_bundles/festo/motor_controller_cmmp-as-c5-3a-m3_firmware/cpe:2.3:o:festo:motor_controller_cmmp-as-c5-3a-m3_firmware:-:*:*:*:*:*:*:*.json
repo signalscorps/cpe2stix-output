@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--e07a8a9d-e8e2-4229-a9e2-d82105717ac6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e7dde4c9-095d-58db-ba0b-31dc69157b12",
+            "name": "Festo Motor Controller CMMP-AS-C5-3A-M3 Firmware",
+            "cpe": "cpe:2.3:o:festo:motor_controller_cmmp-as-c5-3a-m3_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "festo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:festo:motor_controller_cmmp-as-c5-3a-m3_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T15:36Z",
+                        "titles": [
+                            {
+                                "title": "Festo Motor Controller CMMP-AS-C5-3A-M3 Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-041/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.festo.com/us/en/p/motor-controller-id_CMMP_AS/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3270"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

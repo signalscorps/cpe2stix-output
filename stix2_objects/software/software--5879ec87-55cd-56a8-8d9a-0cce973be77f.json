@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--5879ec87-55cd-56a8-8d9a-0cce973be77f",
+    "name": "Anthologize Project Anthologize 0.8.1 for WordPress",
+    "cpe": "cpe:2.3:a:anthologize_project:anthologize:0.8.1:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "anthologize_project",
+    "version": "0.8.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:anthologize_project:anthologize:0.8.1:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T15:55Z",
+                "refs": [
+                    {
+                        "ref": "https://wordpress.org/plugins/anthologize/#developers",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://patchstack.com/database/vulnerability/anthologize/wordpress-anthologize-plugin-0-8-0-auth-stored-cross-site-scripting-xss-vulnerability?_s_id=cve",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Anthologize Project Anthologize 0.8.1 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

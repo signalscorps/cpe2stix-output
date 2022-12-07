@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--9e16bc08-5bd2-451f-8fc3-4ed17a973f00",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--63e44ec5-7600-5dbd-b056-78cb980f7d94",
+            "name": "Frourio 0.16.0 for Node.js",
+            "cpe": "cpe:2.3:a:frourio:frourio:0.16.0:*:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "frourio",
+            "version": "0.16.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:frourio:frourio:0.16.0:*:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2022-12-06T15:29Z",
+                        "titles": [
+                            {
+                                "title": "Frourio 0.16.0 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/frouriojs/frourio/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://frourio.com/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.npmjs.com/package/frourio?activeTab=versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23623"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

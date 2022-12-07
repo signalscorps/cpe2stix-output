@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--968062f5-6b66-4507-8f4f-1c1c664d2bd3",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--619cda91-09ab-5fce-afe1-254ea4cbec92",
+            "name": "Google Chrome 108.0.5359.94",
+            "cpe": "cpe:2.3:a:google:chrome:108.0.5359.94:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "google",
+            "version": "108.0.5359.94",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:google:chrome:108.0.5359.94:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T15:10Z",
+                        "titles": [
+                            {
+                                "title": "Google Chrome 108.0.5359.94",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://chromereleases.googleblog.com/2022/12/stable-channel-update-for-desktop.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2012-2647",
+                            "CVE-2012-4929",
+                            "CVE-2012-4930",
+                            "CVE-2013-6662",
+                            "CVE-2015-8960"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--fbf6cbb9-7d94-4160-9258-01d388369e69",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8d2a1514-a216-5be6-9421-399e70bdbbae",
+            "name": "FUJISOFT FS030W Firmware",
+            "cpe": "cpe:2.3:o:fsi:fs030w_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "fsi",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:fsi:fs030w_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T16:17Z",
+                        "titles": [
+                            {
+                                "title": "FUJISOFT FS030W Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.fsi.co.jp/mobile/plusF/products/FS030W/index.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43470"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

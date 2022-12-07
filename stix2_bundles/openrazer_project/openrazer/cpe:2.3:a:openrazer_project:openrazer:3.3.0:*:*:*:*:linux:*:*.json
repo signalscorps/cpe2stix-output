@@ -1,0 +1,54 @@
+{
+    "type": "bundle",
+    "id": "bundle--e0496bbe-7f6a-4e76-8795-790e32a98dec",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--96466634-c3af-51ac-8062-febe770a5068",
+            "name": "OpenRazer Project OpenRazer 3.3.0 for Linux",
+            "cpe": "cpe:2.3:a:openrazer_project:openrazer:3.3.0:*:*:*:*:linux:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "openrazer_project",
+            "version": "3.3.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:openrazer_project:openrazer:3.3.0:*:*:*:*:linux:*:*",
+                        "lastModifiedDate": "2022-12-06T15:36Z",
+                        "titles": [
+                            {
+                                "title": "OpenRazer Project OpenRazer 3.3.0 for Linux",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/openrazer/openrazer/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/openrazer/openrazer",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://openrazer.github.io/",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23467",
+                            "CVE-2022-29021",
+                            "CVE-2022-29022"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

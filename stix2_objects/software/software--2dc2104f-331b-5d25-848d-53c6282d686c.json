@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--2dc2104f-331b-5d25-848d-53c6282d686c",
+    "name": "D-Link DSL-224",
+    "cpe": "cpe:2.3:h:dlink:dsl-224:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "dlink",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:dlink:dsl-224:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T14:04Z",
+                "refs": [
+                    {
+                        "ref": "https://www.gov.il/en/departments/faq/cve_advisories",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.dlink.lt/en/products/3/2407.html",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "D-Link DSL-224"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-36786"
+                ]
+            }
+        }
+    }
+}

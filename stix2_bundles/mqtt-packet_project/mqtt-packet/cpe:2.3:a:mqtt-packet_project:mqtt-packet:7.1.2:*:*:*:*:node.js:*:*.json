@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--29e53e0a-d575-4368-8bcf-fb8e29639215",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--618ea268-df46-53e4-abf8-6a89dfba1a27",
+            "name": "mqtt-packet Project mqtt-packet 7.1.2 for Node.js",
+            "cpe": "cpe:2.3:a:mqtt-packet_project:mqtt-packet:7.1.2:*:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mqtt-packet_project",
+            "version": "7.1.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:mqtt-packet_project:mqtt-packet:7.1.2:*:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2022-12-06T18:59Z",
+                        "titles": [
+                            {
+                                "title": "mqtt-packet Project mqtt-packet 7.1.2 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/mqttjs/mqtt-packet/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.npmjs.com/package/mqtt-packet?activeTab=versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

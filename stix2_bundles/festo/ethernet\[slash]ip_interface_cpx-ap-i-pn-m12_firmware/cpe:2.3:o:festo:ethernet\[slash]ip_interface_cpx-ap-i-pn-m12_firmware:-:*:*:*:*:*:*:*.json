@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--cc0edd21-399b-4db2-b144-fde3814dba35",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--efe717a6-a103-50b7-b894-ec83e0df11ed",
+            "name": "Festo Ethernet/IP Interface CPX-AP-I-PN-M12 Firmware",
+            "cpe": "cpe:2.3:o:festo:ethernet\\/ip_interface_cpx-ap-i-pn-m12_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "festo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:festo:ethernet\\/ip_interface_cpx-ap-i-pn-m12_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T15:36Z",
+                        "titles": [
+                            {
+                                "title": "Festo Ethernet/IP Interface CPX-AP-I-PN-M12 Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-041/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3270"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

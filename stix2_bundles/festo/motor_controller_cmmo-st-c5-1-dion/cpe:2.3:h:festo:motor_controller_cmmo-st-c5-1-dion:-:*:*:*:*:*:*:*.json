@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--d79cb3f5-f7be-4971-b1ff-b9010cb9b56d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a053e89c-7313-5f5e-8f3a-2d62521b2021",
+            "name": "Festo Motor Controller CMMO-ST-C5-1-DION",
+            "cpe": "cpe:2.3:h:festo:motor_controller_cmmo-st-c5-1-dion:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "festo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:festo:motor_controller_cmmo-st-c5-1-dion:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-06T15:36Z",
+                        "titles": [
+                            {
+                                "title": "Festo Motor Controller CMMO-ST-C5-1-DION",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-041/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3270"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

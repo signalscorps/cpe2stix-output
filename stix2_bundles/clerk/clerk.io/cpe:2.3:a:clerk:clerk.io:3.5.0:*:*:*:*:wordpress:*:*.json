@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--5b620dbe-bb5a-4e75-b6c8-c9f8c683e5cf",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c92c7089-4db3-5bfc-8771-6911957e4d1e",
+            "name": "Clerk Clerk.io 3.5.0 for WordPress",
+            "cpe": "cpe:2.3:a:clerk:clerk.io:3.5.0:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "clerk",
+            "version": "3.5.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:clerk:clerk.io:3.5.0:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-06T14:59Z",
+                        "titles": [
+                            {
+                                "title": "Clerk Clerk.io 3.5.0 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/clerkio/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://clerk.io/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3907"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

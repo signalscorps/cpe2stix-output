@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--7a704ed3-1630-5e77-b86e-044fe1bfe96f",
+    "name": "Acer Aspire A315-22 ",
+    "cpe": "cpe:2.3:h:acer:aspire_a315-22:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "acer",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:acer:aspire_a315-22:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-06T13:54Z",
+                "refs": [
+                    {
+                        "ref": "https://community.acer.com/en/kb/articles/15520-security-vulnerability-regarding-vulnerability-that-may-allow-changes-to-secure-boot-settings",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.acer.com/ac/en/US/content/home",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Acer Aspire A315-22 "
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-4020"
+                ]
+            }
+        }
+    }
+}

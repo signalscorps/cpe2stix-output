@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--b9a1194e-23c6-43a5-83cb-792061d64040",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3d725905-e3e0-5451-bf46-87ff591db9e3",
+            "name": "SwiftTerm Project SwiftTerm 1.0.1",
+            "cpe": "cpe:2.3:a:swiftterm_project:swiftterm:1.0.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "swiftterm_project",
+            "version": "1.0.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:swiftterm_project:swiftterm:1.0.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-07T16:59Z",
+                        "titles": [
+                            {
+                                "title": "SwiftTerm Project SwiftTerm 1.0.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/migueldeicaza/SwiftTerm/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/migueldeicaza/SwiftTerm/security/advisories/GHSA-jq43-q8mx-r7mq",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23465"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

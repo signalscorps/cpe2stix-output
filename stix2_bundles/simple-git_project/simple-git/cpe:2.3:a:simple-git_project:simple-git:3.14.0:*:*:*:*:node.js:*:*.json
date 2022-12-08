@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--e648d415-ea34-4257-bcb5-5f39e1b7f52b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4289b339-ed27-5819-abbb-d0d9952817d9",
+            "name": "Simple-git Project Simple-git 3.14.0 for Node.js",
+            "cpe": "cpe:2.3:a:simple-git_project:simple-git:3.14.0:*:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "simple-git_project",
+            "version": "3.14.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:simple-git_project:simple-git:3.14.0:*:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2022-12-07T17:42Z",
+                        "titles": [
+                            {
+                                "title": "Simple-git Project Simple-git 3.14.0 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.npmjs.com/package/simple-git",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-25912"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

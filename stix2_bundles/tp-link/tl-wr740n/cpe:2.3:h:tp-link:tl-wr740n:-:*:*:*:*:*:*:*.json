@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--5f381a0e-2419-49bb-884e-e991236c6149",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9d231e6f-5a10-51e1-b3fa-9b27d4d23dcb",
+            "name": "TP-Link TL-WR740N",
+            "cpe": "cpe:2.3:h:tp-link:tl-wr740n:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tp-link",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:tp-link:tl-wr740n:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-07T19:46Z",
+                        "titles": [
+                            {
+                                "title": "TP-Link TL-WR740N",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.tp-link.com/us/support/download/tl-wr740n/v1/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://vuldb.com/?id.214812",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-4296"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

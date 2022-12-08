@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--ee9fb2ff-0b5e-4c5e-a01e-79ca2a550f29",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c1a268e9-9ccf-511c-b789-1033a350654d",
+            "name": "SeaGate STCG2000300",
+            "cpe": "cpe:2.3:h:seagate:stcg2000300:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "seagate",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:seagate:stcg2000300:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-07T19:36Z",
+                        "titles": [
+                            {
+                                "title": "SeaGate STCG2000300",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.seagate.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.cve.org/CVERecord?id=CVE-2020-6627",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-6627"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

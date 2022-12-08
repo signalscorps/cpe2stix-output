@@ -1,0 +1,48 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--6ebf7808-5ce7-53dd-b2c0-ecd96af4db26",
+    "name": "Ami MegaRAC SP-X 13",
+    "cpe": "cpe:2.3:o:ami:megarac_sp-x:13:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "ami",
+    "version": "13",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:ami:megarac_sp-x:13:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-07T16:13Z",
+                "refs": [
+                    {
+                        "ref": "https://www.ami.com/megarac/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://9443417.fs1.hubspotusercontent-na1.net/hubfs/9443417/Data_Sheets/Firmware_Solutions/MegaRAC_SP-X_Data_Sheet_PUB.pdf",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://cve.report/CVE-2022-2827",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Ami MegaRAC SP-X 13"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-2827",
+                    "CVE-2022-40242",
+                    "CVE-2022-40259"
+                ]
+            }
+        }
+    }
+}

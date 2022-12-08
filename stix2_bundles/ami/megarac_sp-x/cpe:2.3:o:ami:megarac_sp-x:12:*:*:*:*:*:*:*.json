@@ -1,0 +1,54 @@
+{
+    "type": "bundle",
+    "id": "bundle--1bfbe154-f9fe-4b82-8e76-d40a9e5d7181",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2d85122c-1e76-5ab9-a6a2-b8333d7a8a04",
+            "name": "Ami MegaRAC SP-X 12",
+            "cpe": "cpe:2.3:o:ami:megarac_sp-x:12:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ami",
+            "version": "12",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:ami:megarac_sp-x:12:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-07T16:13Z",
+                        "titles": [
+                            {
+                                "title": "Ami MegaRAC SP-X 12",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.ami.com/megarac/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://9443417.fs1.hubspotusercontent-na1.net/hubfs/9443417/Data_Sheets/Firmware_Solutions/MegaRAC_SP-X_Data_Sheet_PUB.pdf",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://cve.report/CVE-2022-2827",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-2827",
+                            "CVE-2022-40242",
+                            "CVE-2022-40259"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

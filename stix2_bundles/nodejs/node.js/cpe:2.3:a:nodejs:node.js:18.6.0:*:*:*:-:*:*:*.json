@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--a2ff70ef-107e-47b9-96f7-3a0c1f0b5747",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--58be1ca6-de3f-53eb-8da6-56a683854477",
+            "name": "Nodejs Node.js 18.6.0",
+            "cpe": "cpe:2.3:a:nodejs:node.js:18.6.0:*:*:*:-:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nodejs",
+            "version": "18.6.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nodejs:node.js:18.6.0:*:*:*:-:*:*:*",
+                        "lastModifiedDate": "2022-12-07T14:41Z",
+                        "titles": [
+                            {
+                                "title": "Nodejs Node.js 18.6.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V18.md",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://nodejs.org/en/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-43803",
+                            "CVE-2022-32213",
+                            "CVE-2022-36046"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

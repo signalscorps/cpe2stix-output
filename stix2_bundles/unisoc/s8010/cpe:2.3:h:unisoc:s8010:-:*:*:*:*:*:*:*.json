@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--d2fa405f-0a2a-4fca-a208-cc0af68aefc1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--77d1e8ce-a5cb-503c-9f7c-92772768693a",
+            "name": "Unisoc S8010",
+            "cpe": "cpe:2.3:h:unisoc:s8010:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "unisoc",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:unisoc:s8010:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-07T19:46Z",
+                        "titles": [
+                            {
+                                "title": "Unisoc S8010",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.unisoc.com/en_us/secy/announcementDetail/1599588060988411006",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-42765"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

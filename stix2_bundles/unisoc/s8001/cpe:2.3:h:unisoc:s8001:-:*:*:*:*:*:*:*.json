@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--55adae33-5945-4fa5-9557-08d87402742f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--13e1bd1e-4679-5baa-80b2-b2c5a538673b",
+            "name": "Unisoc S8001 ",
+            "cpe": "cpe:2.3:h:unisoc:s8001:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "unisoc",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:unisoc:s8001:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-07T19:46Z",
+                        "titles": [
+                            {
+                                "title": "Unisoc S8001 ",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.unisoc.com/en_us/secy/announcementDetail/1599588060988411006",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-42773"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

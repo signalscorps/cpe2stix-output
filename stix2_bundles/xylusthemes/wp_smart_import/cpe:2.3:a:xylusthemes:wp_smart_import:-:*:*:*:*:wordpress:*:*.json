@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--fc394dec-c79a-46d4-aba8-cf40395b7916",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a0260860-9545-57b5-b025-1cface83692c",
+            "name": "Xylus Themes WP Smart Import for WordPress",
+            "cpe": "cpe:2.3:a:xylusthemes:wp_smart_import:-:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "xylusthemes",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:xylusthemes:wp_smart_import:-:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-07T18:37Z",
+                        "titles": [
+                            {
+                                "title": "Xylus Themes WP Smart Import for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/wp-smart-import/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://xylusthemes.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-40209"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

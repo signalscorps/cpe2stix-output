@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--44ec857a-1f48-483a-bcf8-f08a74f7d95c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e26ea168-3898-576d-8762-6399bf60914b",
+            "name": "activerecord Project Active Record 3.0.0 Release Candidate for Ruby",
+            "cpe": "cpe:2.3:a:activerecord_project:activerecord:3.0.0:rc:*:*:*:ruby:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "activerecord_project",
+            "version": "3.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:activerecord_project:activerecord:3.0.0:rc:*:*:*:ruby:*:*",
+                        "lastModifiedDate": "2022-12-07T18:17Z",
+                        "titles": [
+                            {
+                                "title": "activerecord Project Active Record 3.0.0 Release Candidate for Ruby",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/rails/rails/blob/v6.0.6/activerecord/CHANGELOG.md",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://guides.rubyonrails.org/active_record_basics.html#what-is-active-record-questionmark",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://rubygems.org/gems/activerecord/versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

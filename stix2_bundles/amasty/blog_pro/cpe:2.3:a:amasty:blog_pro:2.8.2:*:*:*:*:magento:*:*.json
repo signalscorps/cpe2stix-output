@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--782c83a6-dffa-4227-8acf-e17000ef3052",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f0afd07a-12fa-51a8-a43e-54e74d5aca07",
+            "name": "Amasty Blog Pro 2.8.2 for Magento",
+            "cpe": "cpe:2.3:a:amasty:blog_pro:2.8.2:*:*:*:*:magento:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "amasty",
+            "version": "2.8.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:amasty:blog_pro:2.8.2:*:*:*:*:magento:*:*",
+                        "lastModifiedDate": "2022-12-07T16:58Z",
+                        "titles": [
+                            {
+                                "title": "Amasty Blog Pro 2.8.2 for Magento",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://amasty.com/blog-pro-for-magento-2.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-36432"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

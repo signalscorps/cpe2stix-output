@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--3afcedde-fbbd-5737-830b-481f744adbb7",
+    "name": "SeaGate STCG2000300 Firmware",
+    "cpe": "cpe:2.3:o:seagate:stcg2000300_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "seagate",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:seagate:stcg2000300_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-07T19:36Z",
+                "refs": [
+                    {
+                        "ref": "https://www.seagate.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://www.cve.org/CVERecord?id=CVE-2020-6627",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "SeaGate STCG2000300 Firmware"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-6627"
+                ]
+            }
+        }
+    }
+}

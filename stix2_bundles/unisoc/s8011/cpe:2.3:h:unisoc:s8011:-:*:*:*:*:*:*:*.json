@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--e92dc05f-eacd-43c8-aec8-0aed9fd89ac7",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f1e3c61d-1d6d-5635-acb6-5f3992a99420",
+            "name": "Unisoc S8011",
+            "cpe": "cpe:2.3:h:unisoc:s8011:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "unisoc",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:unisoc:s8011:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-07T19:46Z",
+                        "titles": [
+                            {
+                                "title": "Unisoc S8011",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.unisoc.com/en_us/secy/announcementDetail/1599588060988411006",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-42766"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

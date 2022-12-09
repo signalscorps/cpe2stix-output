@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--23d56968-7d30-4e4a-9ed4-ed21a71b4d12",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5dc873c4-d8ed-58ad-9b1c-f696c9138c41",
+            "name": "Kodcloud KodExplorer 3.43",
+            "cpe": "cpe:2.3:a:kodcloud:kodexplorer:3.43:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "kodcloud",
+            "version": "3.43",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:kodcloud:kodexplorer:3.43:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-08T16:52Z",
+                        "titles": [
+                            {
+                                "title": "Kodcloud KodExplorer 3.43",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/kalcaddle/KodExplorer/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "http://kodcloud.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-46154"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

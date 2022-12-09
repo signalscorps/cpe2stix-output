@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--ab4a54a2-39d2-480d-8455-acd3c406bce6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4bc041a2-c607-505b-af62-b788e5b48ac4",
+            "name": "Passeo Project Passeo 1.0.1 for Python",
+            "cpe": "cpe:2.3:a:passeo_project:passeo:1.0.1:*:*:*:*:python:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "passeo_project",
+            "version": "1.0.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:passeo_project:passeo:1.0.1:*:*:*:*:python:*:*",
+                        "lastModifiedDate": "2022-12-08T18:23Z",
+                        "titles": [
+                            {
+                                "title": "Passeo Project Passeo 1.0.1 for Python",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://pypi.org/project/passeo/",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://github.com/ArjunSharda/Passeo",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://github.com/ArjunSharda/Passeo/releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23472"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

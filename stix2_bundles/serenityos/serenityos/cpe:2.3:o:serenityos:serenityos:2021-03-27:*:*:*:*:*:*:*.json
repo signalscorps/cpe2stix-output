@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--b649f2c0-580c-4205-8767-b5e8ca81eb64",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--95bd9b31-e2eb-5dd7-b02a-e31ca39fff32",
+            "name": "SerenityOS 2021-03-27",
+            "cpe": "cpe:2.3:o:serenityos:serenityos:2021-03-27:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "serenityos",
+            "version": "2021-03-27",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:serenityos:serenityos:2021-03-27:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-08T18:55Z",
+                        "titles": [
+                            {
+                                "title": "SerenityOS 2021-03-27",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/SerenityOS/serenity",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "http://www.serenityos.org/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-31272"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

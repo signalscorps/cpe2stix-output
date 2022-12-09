@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--a22a4db8-491d-5eff-8a50-88926aaab634",
+    "name": "VideoLAN VLC Media Player 3.0.17.3",
+    "cpe": "cpe:2.3:a:videolan:vlc_media_player:3.0.17.3:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "videolan",
+    "version": "3.0.17.3",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:videolan:vlc_media_player:3.0.17.3:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-08T18:23Z",
+                "refs": [
+                    {
+                        "ref": "https://code.videolan.org/videolan/vlc/-/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://www.videolan.org/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://code.videolan.org/videolan/vlc/-/tree/master",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "VideoLAN VLC Media Player 3.0.17.3"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-41325"
+                ]
+            }
+        }
+    }
+}

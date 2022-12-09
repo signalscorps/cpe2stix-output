@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--ae8d5eb4-bacc-42d6-866c-4dc5f161fcc3",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9859ee18-8cd9-5674-ab3b-5ffefd49b396",
+            "name": "VideoLAN VLC Media Player 3.0.17.4",
+            "cpe": "cpe:2.3:a:videolan:vlc_media_player:3.0.17.4:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "videolan",
+            "version": "3.0.17.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:videolan:vlc_media_player:3.0.17.4:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-08T18:23Z",
+                        "titles": [
+                            {
+                                "title": "VideoLAN VLC Media Player 3.0.17.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://code.videolan.org/videolan/vlc/-/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.videolan.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://code.videolan.org/videolan/vlc/-/tree/master",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41325"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

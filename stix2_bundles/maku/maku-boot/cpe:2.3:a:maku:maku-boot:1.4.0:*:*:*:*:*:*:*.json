@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--fea77e05-4a5a-4069-8e0a-c371e085150f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0e155c34-d2f4-5094-baa0-3d3d6fd0a1cd",
+            "name": "MAKU Maku-boot 1.4.0",
+            "cpe": "cpe:2.3:a:maku:maku-boot:1.4.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "maku",
+            "version": "1.4.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:maku:maku-boot:1.4.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-08T18:23Z",
+                        "titles": [
+                            {
+                                "title": "MAKU Maku-boot 1.4.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://gitee.com/makunet/maku-boot/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://gitee.com/makunet/maku-boot",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://maku.net/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-4322"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

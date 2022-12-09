@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--7a6db277-ce90-48ad-adf7-db11c9c047d7",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7083959f-cd86-5888-a71a-dd9b42b7b0a5",
+            "name": "Kwoksys Information Server 2.9.5 Service Pack 26",
+            "cpe": "cpe:2.3:a:kwoksys:information_server:2.9.5:sp26:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "kwoksys",
+            "version": "2.9.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:kwoksys:information_server:2.9.5:sp26:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-08T18:23Z",
+                        "titles": [
+                            {
+                                "title": "Kwoksys Information Server 2.9.5 Service Pack 26",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "http://www.kwoksys.com/wiki/index.php?title=Release_Notes",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://sourceforge.net/projects/kwok/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45326"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

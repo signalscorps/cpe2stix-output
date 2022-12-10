@@ -1,0 +1,47 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--d5f8bdb8-8cee-5bab-8c83-029337acf65c",
+    "name": "PaddlePaddle 0.10.0",
+    "cpe": "cpe:2.3:a:paddlepaddle:paddlepaddle:0.10.0:-:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "paddlepaddle",
+    "version": "0.10.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:paddlepaddle:paddlepaddle:0.10.0:-:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-09T18:15Z",
+                "refs": [
+                    {
+                        "ref": "https://www.paddlepaddle.org.cn/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/PaddlePaddle/Paddle/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://github.com/PaddlePaddle/Paddle",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "PaddlePaddle 0.10.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-45908",
+                    "CVE-2022-46741"
+                ]
+            }
+        }
+    }
+}

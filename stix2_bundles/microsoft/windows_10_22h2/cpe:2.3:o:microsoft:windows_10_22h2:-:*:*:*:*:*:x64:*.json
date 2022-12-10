@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--99c22812-26e3-41fd-86be-c37cb3698c08",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--11f92b52-5bcd-50d2-853a-c2534df27ecd",
+            "name": "Microsoft Windows 10 22h2 on X64",
+            "cpe": "cpe:2.3:o:microsoft:windows_10_22h2:-:*:*:*:*:*:x64:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "microsoft",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:microsoft:windows_10_22h2:-:*:*:*:*:*:x64:*",
+                        "lastModifiedDate": "2022-12-09T18:15Z",
+                        "titles": [
+                            {
+                                "title": "Microsoft Windows 10 22h2 on X64",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://learn.microsoft.com/en-us/windows/release-health/release-information",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

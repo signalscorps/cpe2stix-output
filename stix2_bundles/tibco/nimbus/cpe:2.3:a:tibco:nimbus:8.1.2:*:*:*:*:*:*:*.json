@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--f753cbbf-0d3c-41f3-9551-919776a50cdc",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9f7480f4-5192-5d22-869d-e864078f7f8f",
+            "name": "TIBCO Nimbus 8.1.2",
+            "cpe": "cpe:2.3:a:tibco:nimbus:8.1.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tibco",
+            "version": "8.1.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:tibco:nimbus:8.1.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-09T18:15Z",
+                        "titles": [
+                            {
+                                "title": "TIBCO Nimbus 8.1.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://docs.tibco.com/products/tibco-nimbus-10-6-0",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-35499"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

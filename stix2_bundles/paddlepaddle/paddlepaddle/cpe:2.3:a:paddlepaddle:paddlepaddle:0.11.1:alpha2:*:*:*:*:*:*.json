@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--638a0473-af47-4cf2-8df5-1918f1dc91a2",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--448cb965-369c-5253-90cc-9e3f3d3121fb",
+            "name": "PaddlePaddle 0.11.1 Alpha 2",
+            "cpe": "cpe:2.3:a:paddlepaddle:paddlepaddle:0.11.1:alpha2:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "paddlepaddle",
+            "version": "0.11.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:paddlepaddle:paddlepaddle:0.11.1:alpha2:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-09T18:15Z",
+                        "titles": [
+                            {
+                                "title": "PaddlePaddle 0.11.1 Alpha 2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.paddlepaddle.org.cn/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/PaddlePaddle/Paddle/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/PaddlePaddle/Paddle",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45908",
+                            "CVE-2022-46741"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

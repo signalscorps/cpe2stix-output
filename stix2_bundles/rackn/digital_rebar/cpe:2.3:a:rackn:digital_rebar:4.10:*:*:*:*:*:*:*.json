@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--5ffc55a9-ad62-463f-a5a4-bbbb795958f8",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fc2b2b21-e31c-5189-bcd0-011a348f2d23",
+            "name": "RackN Digital Rebar 4.10",
+            "cpe": "cpe:2.3:a:rackn:digital_rebar:4.10:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "rackn",
+            "version": "4.10",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:rackn:digital_rebar:4.10:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-09T18:15Z",
+                        "titles": [
+                            {
+                                "title": "RackN Digital Rebar 4.10",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://docs.rackn.io/en/latest/doc/release.html",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://rackn.com/products/rebar/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://rackn.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-46382",
+                            "CVE-2022-46383"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

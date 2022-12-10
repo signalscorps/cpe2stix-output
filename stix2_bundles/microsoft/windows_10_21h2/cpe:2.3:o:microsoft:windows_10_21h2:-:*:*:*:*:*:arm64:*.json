@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--8d086e9a-aa50-4a13-a6b3-fd2123ffca5b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6f3c1774-6d4c-5eb7-8975-c562f3d45c2f",
+            "name": "Microsoft Windows 10 21h2 on ARM64",
+            "cpe": "cpe:2.3:o:microsoft:windows_10_21h2:-:*:*:*:*:*:arm64:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "microsoft",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:microsoft:windows_10_21h2:-:*:*:*:*:*:arm64:*",
+                        "lastModifiedDate": "2022-12-09T18:15Z",
+                        "titles": [
+                            {
+                                "title": "Microsoft Windows 10 21h2 on ARM64",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://learn.microsoft.com/en-us/windows/release-health/release-information",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--e72e5418-ba5c-4912-ad87-b46b8a0485b9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3a3be19f-d036-5873-912d-2caed4e68771",
+            "name": "IBM Content Navigator 3.0.11",
+            "cpe": "cpe:2.3:a:ibm:content_navigator:3.0.11:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ibm",
+            "version": "3.0.11",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ibm:content_navigator:3.0.11:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-09T14:05Z",
+                        "titles": [
+                            {
+                                "title": "IBM Content Navigator 3.0.11",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.ibm.com/support/pages/node/6844453",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.ibm.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43581"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

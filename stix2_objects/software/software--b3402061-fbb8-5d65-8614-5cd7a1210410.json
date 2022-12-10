@@ -1,0 +1,47 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--b3402061-fbb8-5d65-8614-5cd7a1210410",
+    "name": "RackN Digital Rebar 4.10.8",
+    "cpe": "cpe:2.3:a:rackn:digital_rebar:4.10.8:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "rackn",
+    "version": "4.10.8",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:rackn:digital_rebar:4.10.8:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-09T18:15Z",
+                "refs": [
+                    {
+                        "ref": "https://docs.rackn.io/en/latest/doc/release.html",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://rackn.com/products/rebar/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://rackn.com/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "RackN Digital Rebar 4.10.8"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-46382",
+                    "CVE-2022-46383"
+                ]
+            }
+        }
+    }
+}

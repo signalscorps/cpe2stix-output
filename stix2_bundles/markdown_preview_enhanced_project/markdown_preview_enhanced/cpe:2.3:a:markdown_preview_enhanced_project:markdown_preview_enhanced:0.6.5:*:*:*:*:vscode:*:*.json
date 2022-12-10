@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--fad89c59-c12c-4b39-befe-c967965f8b19",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--821cca13-ad55-5973-b0ac-439f65b533dc",
+            "name": "Markdown Preview Enhanced Project Markdown Preview Enhanced 0.6.5 for VSCode",
+            "cpe": "cpe:2.3:a:markdown_preview_enhanced_project:markdown_preview_enhanced:0.6.5:*:*:*:*:vscode:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "markdown_preview_enhanced_project",
+            "version": "0.6.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:markdown_preview_enhanced_project:markdown_preview_enhanced:0.6.5:*:*:*:*:vscode:*:*",
+                        "lastModifiedDate": "2022-12-09T18:15Z",
+                        "titles": [
+                            {
+                                "title": "Markdown Preview Enhanced Project Markdown Preview Enhanced 0.6.5 for VSCode",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/shd101wyy/vscode-markdown-preview-enhanced/issues/640",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/shd101wyy/vscode-markdown-preview-enhanced/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://shd101wyy.github.io/markdown-preview-enhanced/#/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45025",
+                            "CVE-2022-45026"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

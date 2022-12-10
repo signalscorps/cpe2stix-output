@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--8fde8cca-dc33-4c03-9139-76bcb50f7c27",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--528fcc66-7ae0-522c-8b9a-66ab7385160d",
+            "name": "py7zr Project py7zr 0.8.0 for Python",
+            "cpe": "cpe:2.3:a:py7zr_project:py7zr:0.8.0:-:*:*:*:python:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "py7zr_project",
+            "version": "0.8.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:py7zr_project:py7zr:0.8.0:-:*:*:*:python:*:*",
+                        "lastModifiedDate": "2022-12-09T14:48Z",
+                        "titles": [
+                            {
+                                "title": "py7zr Project py7zr 0.8.0 for Python",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://pypi.org/project/py7zr/#history",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://pypi.org/project/py7zr/",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-44900"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

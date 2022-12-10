@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--dbe85c5d-f151-590b-99a7-db1b4134c10d",
+    "name": "Rack Project Rack 2.1.4.1",
+    "cpe": "cpe:2.3:a:rack_project:rack:2.1.4.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "rack_project",
+    "version": "2.1.4.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:rack_project:rack:2.1.4.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-09T18:15Z",
+                "refs": [
+                    {
+                        "ref": "https://discuss.rubyonrails.org/t/cve-2022-30122-denial-of-service-vulnerability-in-rack-multipart-parsing/80729",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Rack Project Rack 2.1.4.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-8161"
+                ]
+            }
+        }
+    }
+}

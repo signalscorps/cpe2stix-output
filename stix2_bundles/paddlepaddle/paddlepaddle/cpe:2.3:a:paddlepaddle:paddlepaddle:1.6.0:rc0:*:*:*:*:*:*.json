@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--a6dbbf4d-0d7a-44bc-8131-1c2ec4d4788f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5b3c79ae-be3e-5fbf-be59-345d559a46ff",
+            "name": "PaddlePaddle 1.6.0 Release Candidate 0",
+            "cpe": "cpe:2.3:a:paddlepaddle:paddlepaddle:1.6.0:rc0:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "paddlepaddle",
+            "version": "1.6.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:paddlepaddle:paddlepaddle:1.6.0:rc0:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-09T18:15Z",
+                        "titles": [
+                            {
+                                "title": "PaddlePaddle 1.6.0 Release Candidate 0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.paddlepaddle.org.cn/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/PaddlePaddle/Paddle/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/PaddlePaddle/Paddle",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45908",
+                            "CVE-2022-46741"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

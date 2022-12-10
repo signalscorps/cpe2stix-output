@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--fd192781-dc1c-4c80-87b3-1579413442c5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4eac4bc7-1ac8-5264-990b-6942d9e00ae8",
+            "name": "Teler Project Teler 2.0.0 Release Candidate 3",
+            "cpe": "cpe:2.3:a:teler_project:teler:2.0.0:rc3:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "teler_project",
+            "version": "2.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:teler_project:teler:2.0.0:rc3:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-09T18:15Z",
+                        "titles": [
+                            {
+                                "title": "Teler Project Teler 2.0.0 Release Candidate 3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/kitabisa/teler/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/kitabisa/teler",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23466"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

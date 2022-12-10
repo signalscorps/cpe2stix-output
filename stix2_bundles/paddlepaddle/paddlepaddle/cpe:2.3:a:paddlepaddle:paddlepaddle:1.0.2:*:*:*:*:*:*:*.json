@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--66691da6-6610-412b-acf6-fa311a5e1c81",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c89bd09c-02ea-59bb-a29b-017a474664cc",
+            "name": "PaddlePaddle 1.0.2",
+            "cpe": "cpe:2.3:a:paddlepaddle:paddlepaddle:1.0.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "paddlepaddle",
+            "version": "1.0.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:paddlepaddle:paddlepaddle:1.0.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-09T18:15Z",
+                        "titles": [
+                            {
+                                "title": "PaddlePaddle 1.0.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.paddlepaddle.org.cn/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/PaddlePaddle/Paddle/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/PaddlePaddle/Paddle",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45908",
+                            "CVE-2022-46741"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--30af8801-1b4d-4533-b922-2be20a919b48",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--cfb2a6e5-d7f1-590a-9c47-9872b54d2b5a",
+            "name": "Pdfmake Project Pdfmake 0.2.2",
+            "cpe": "cpe:2.3:a:pdfmake_project:pdfmake:0.2.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "pdfmake_project",
+            "version": "0.2.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:pdfmake_project:pdfmake:0.2.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-09T18:15Z",
+                        "titles": [
+                            {
+                                "title": "Pdfmake Project Pdfmake 0.2.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/bpampuch/pdfmake/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "http://pdfmake.org/",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://github.com/bpampuch/pdfmake",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-46161"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

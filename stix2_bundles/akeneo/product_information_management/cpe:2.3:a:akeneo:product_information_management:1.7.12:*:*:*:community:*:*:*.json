@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--ba08096c-087a-411f-baf6-cd6ddfd75a44",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fa5f7bee-5a82-5ce4-a8cf-8f27c13440eb",
+            "name": "Akeneo Product Information Management (PIM) 1.7.12 Community Edition",
+            "cpe": "cpe:2.3:a:akeneo:product_information_management:1.7.12:*:*:*:community:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "akeneo",
+            "version": "1.7.12",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:akeneo:product_information_management:1.7.12:*:*:*:community:*:*:*",
+                        "lastModifiedDate": "2022-12-12T15:02Z",
+                        "titles": [
+                            {
+                                "title": "Akeneo Product Information Management (PIM) 1.7.12 Community Edition",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/akeneo/pim-community-dev",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.akeneo.com/akeneo-pim-community-edition/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.akeneo.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/akeneo/pim-community-dev/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

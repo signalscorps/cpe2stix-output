@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--8b73fbdf-4c73-4577-971a-ff2d241f41a1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--208a4d43-2a47-510e-9212-0482d99c3718",
+            "name": "Akeneo Product Information Management (PIM) 4.0.107 Community Edition",
+            "cpe": "cpe:2.3:a:akeneo:product_information_management:4.0.107:*:*:*:community:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "akeneo",
+            "version": "4.0.107",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:akeneo:product_information_management:4.0.107:*:*:*:community:*:*:*",
+                        "lastModifiedDate": "2022-12-12T15:02Z",
+                        "titles": [
+                            {
+                                "title": "Akeneo Product Information Management (PIM) 4.0.107 Community Edition",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/akeneo/pim-community-dev",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.akeneo.com/akeneo-pim-community-edition/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.akeneo.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/akeneo/pim-community-dev/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

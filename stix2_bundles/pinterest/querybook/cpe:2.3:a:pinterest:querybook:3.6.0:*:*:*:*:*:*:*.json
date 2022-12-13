@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--63fea834-3634-477d-bfd3-7dff9c574a88",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fda0a2ca-e97e-5f86-b5ff-83eee2c39f92",
+            "name": "Pinterest Querybook 3.6.0",
+            "cpe": "cpe:2.3:a:pinterest:querybook:3.6.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "pinterest",
+            "version": "3.6.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:pinterest:querybook:3.6.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T14:50Z",
+                        "titles": [
+                            {
+                                "title": "Pinterest Querybook 3.6.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.pinterest.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.querybook.org/docs/changelog",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/pinterest/querybook/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-46151"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

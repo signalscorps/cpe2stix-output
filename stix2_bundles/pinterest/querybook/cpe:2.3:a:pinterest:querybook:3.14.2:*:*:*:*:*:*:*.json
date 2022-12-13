@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--abad6652-d54a-444c-86cc-f071f73f241a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4e2b610c-0480-5df4-8f44-f191c945e560",
+            "name": "Pinterest Querybook 3.14.2",
+            "cpe": "cpe:2.3:a:pinterest:querybook:3.14.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "pinterest",
+            "version": "3.14.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:pinterest:querybook:3.14.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T14:50Z",
+                        "titles": [
+                            {
+                                "title": "Pinterest Querybook 3.14.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.pinterest.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.querybook.org/docs/changelog",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/pinterest/querybook/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://www.querybook.org/docs/changelog/security_advisories",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

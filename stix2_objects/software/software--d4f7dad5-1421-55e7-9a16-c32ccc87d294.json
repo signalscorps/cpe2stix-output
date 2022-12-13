@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--d4f7dad5-1421-55e7-9a16-c32ccc87d294",
+    "name": "LabStack Echo 2.0.2 for Go",
+    "cpe": "cpe:2.3:a:labstack:echo:2.0.2:*:*:*:*:go:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "labstack",
+    "version": "2.0.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:labstack:echo:2.0.2:*:*:*:*:go:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-12T14:50Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/labstack/echo/pull/1718",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/labstack/echo/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://echo.labstack.com/",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "LabStack Echo 2.0.2 for Go"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-36565"
+                ]
+            }
+        }
+    }
+}

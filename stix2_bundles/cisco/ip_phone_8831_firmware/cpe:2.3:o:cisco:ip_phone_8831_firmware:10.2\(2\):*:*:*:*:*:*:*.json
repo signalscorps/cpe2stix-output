@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--bd8691f8-1aff-432c-807b-8d0e2309baeb",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6d4eaa82-22f3-5622-b40c-7d97debb1776",
+            "name": "Cisco IP Phone 8831 Firmware 10.2(2)",
+            "cpe": "cpe:2.3:o:cisco:ip_phone_8831_firmware:10.2\\(2\\):*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "10.2\\(2\\)",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:cisco:ip_phone_8831_firmware:10.2\\(2\\):*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T18:25Z",
+                        "titles": [
+                            {
+                                "title": "Cisco IP Phone 8831 Firmware 10.2(2)",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ipp-oobwrite-8cMF5r7U#fs",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.cve.org/CVERecord?id=CVE-2022-20968",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8800-series/index.html#~models",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-16008",
+                            "CVE-2021-34711"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

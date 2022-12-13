@@ -1,0 +1,50 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--b1883a7b-3d6e-5063-a2ef-6ab20e5676e8",
+    "name": "Protocol Labs libp2p 0.19.4 for Node.js",
+    "cpe": "cpe:2.3:a:protocol:libp2p:0.19.4:*:*:*:*:node.js:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "protocol",
+    "version": "0.19.4",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:protocol:libp2p:0.19.4:*:*:*:*:node.js:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-12T13:19Z",
+                "refs": [
+                    {
+                        "ref": "https://protocol.ai/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://libp2p.io/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://www.npmjs.com/package/libp2p?activeTab=readme",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://github.com/libp2p/js-libp2p/tags",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Protocol Labs libp2p 0.19.4 for Node.js"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-23487"
+                ]
+            }
+        }
+    }
+}

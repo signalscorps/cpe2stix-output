@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--9ac238d4-dd82-40de-bf85-dfb47299ef30",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2cc2b1c7-5836-5b89-8e00-872828bb4fb2",
+            "name": "FreshRSS 1.15.3",
+            "cpe": "cpe:2.3:a:freshrss:freshrss:1.15.3:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "freshrss",
+            "version": "1.15.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:freshrss:freshrss:1.15.3:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T20:41Z",
+                        "titles": [
+                            {
+                                "title": "FreshRSS 1.15.3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/FreshRSS/FreshRSS/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://freshrss.org/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

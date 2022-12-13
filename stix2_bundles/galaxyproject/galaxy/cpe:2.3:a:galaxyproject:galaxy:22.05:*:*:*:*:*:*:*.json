@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--c374f3b9-7c72-4040-ad66-d70406284564",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0ca03f90-0258-5378-bb08-aacf91c71679",
+            "name": "Galaxyproject Galaxy 22.05",
+            "cpe": "cpe:2.3:a:galaxyproject:galaxy:22.05:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "galaxyproject",
+            "version": "22.05",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:galaxyproject:galaxy:22.05:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T14:50Z",
+                        "titles": [
+                            {
+                                "title": "Galaxyproject Galaxy 22.05",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/galaxyproject/galaxy",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://galaxyproject.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/galaxyproject/galaxy/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23470"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

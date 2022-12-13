@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--a4c48d94-fe06-4777-abad-7559cbb3471f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a18e1988-7d82-5153-a621-3fb75db707f0",
+            "name": "Cisco IP Phone 8832 Firmware 14.0(1)",
+            "cpe": "cpe:2.3:o:cisco:ip_phone_8832_firmware:14.0\\(1\\):*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "14.0\\(1\\)",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:cisco:ip_phone_8832_firmware:14.0\\(1\\):*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T18:25Z",
+                        "titles": [
+                            {
+                                "title": "Cisco IP Phone 8832 Firmware 14.0(1)",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ipp-oobwrite-8cMF5r7U#fs",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.cve.org/CVERecord?id=CVE-2022-20968",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8800-series/index.html#~models",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

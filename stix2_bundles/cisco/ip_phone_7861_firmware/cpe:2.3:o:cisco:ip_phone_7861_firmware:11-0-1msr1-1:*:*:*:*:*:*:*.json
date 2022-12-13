@@ -1,0 +1,57 @@
+{
+    "type": "bundle",
+    "id": "bundle--5602a559-133f-48ae-91ed-339db4f19372",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--25344108-d1f4-5704-8664-70d1c9d9cbdd",
+            "name": "Cisco IP Phone 7861 Firmware 11-0-1MSR1-1",
+            "cpe": "cpe:2.3:o:cisco:ip_phone_7861_firmware:11-0-1msr1-1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "11-0-1msr1-1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:cisco:ip_phone_7861_firmware:11-0-1msr1-1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T18:25Z",
+                        "titles": [
+                            {
+                                "title": "Cisco IP Phone 7861 Firmware 11-0-1MSR1-1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-7800-series/models-comparison.html",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ipp-oobwrite-8cMF5r7U#fs",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.cve.org/CVERecord?id=CVE-2022-20968",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-16008",
+                            "CVE-2019-1684",
+                            "CVE-2020-3111",
+                            "CVE-2021-34711",
+                            "CVE-2022-20660",
+                            "CVE-2022-20774"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

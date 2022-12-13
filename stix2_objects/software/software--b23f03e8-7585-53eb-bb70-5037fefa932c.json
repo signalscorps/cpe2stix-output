@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--b23f03e8-7585-53eb-bb70-5037fefa932c",
+    "name": "Hitachi JP1/Automatic Operation 10-11",
+    "cpe": "cpe:2.3:a:hitachi:jp1\\/automatic_operation:10-11:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "hitachi",
+    "version": "10-11",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:hitachi:jp1\\/automatic_operation:10-11:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-12T14:50Z",
+                "refs": [
+                    {
+                        "ref": "https://www.hitachi.co.jp/Prod/comp/soft1/global/security/info/vuls/hitachi-sec-2022-140/index.html",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.hitachi.com/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Hitachi JP1/Automatic Operation 10-11"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-34881"
+                ]
+            }
+        }
+    }
+}

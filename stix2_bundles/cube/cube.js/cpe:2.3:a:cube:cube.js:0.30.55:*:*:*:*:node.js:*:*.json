@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--35b23882-fd0b-4606-a631-37e23724d7ad",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c1cf5013-b76a-5459-a546-5d39a6ed3f22",
+            "name": "Cube Cube.js 0.30.55 for Node.js",
+            "cpe": "cpe:2.3:a:cube:cube.js:0.30.55:*:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cube",
+            "version": "0.30.55",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:cube:cube.js:0.30.55:*:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2022-12-12T20:32Z",
+                        "titles": [
+                            {
+                                "title": "Cube Cube.js 0.30.55 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/cube-js/cube.js/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://cube.dev/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.npmjs.com/package/@cubejs-backend/api-gateway?activeTab=versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

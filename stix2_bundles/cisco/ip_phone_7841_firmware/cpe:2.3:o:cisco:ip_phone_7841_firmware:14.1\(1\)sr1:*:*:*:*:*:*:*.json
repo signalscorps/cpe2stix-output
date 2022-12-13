@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--17a0e764-a8f0-4bac-8fa6-772e4d834802",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bd95dc72-a96b-5b16-b1f8-ca2e3a618060",
+            "name": "Cisco IP Phone 7841 Firmware 14.1(1)SR1",
+            "cpe": "cpe:2.3:o:cisco:ip_phone_7841_firmware:14.1\\(1\\)sr1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "14.1\\(1\\)sr1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:cisco:ip_phone_7841_firmware:14.1\\(1\\)sr1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T18:24Z",
+                        "titles": [
+                            {
+                                "title": "Cisco IP Phone 7841 Firmware 14.1(1)SR1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-7800-series/models-comparison.html",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ipp-oobwrite-8cMF5r7U#fs",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.cve.org/CVERecord?id=CVE-2022-20968",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

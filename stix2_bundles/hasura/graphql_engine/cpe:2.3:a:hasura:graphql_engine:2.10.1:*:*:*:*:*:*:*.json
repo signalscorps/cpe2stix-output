@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--a878553b-e21b-4ee6-a58d-8b2c879f8bd3",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e2ac4c8d-e454-5717-87a8-cfe325a073da",
+            "name": "Hasura GraphQL Engine 2.10.1",
+            "cpe": "cpe:2.3:a:hasura:graphql_engine:2.10.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hasura",
+            "version": "2.10.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:hasura:graphql_engine:2.10.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T14:50Z",
+                        "titles": [
+                            {
+                                "title": "Hasura GraphQL Engine 2.10.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/hasura/graphql-engine/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://hasura.io/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/hasura/graphql-engine",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-46792"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

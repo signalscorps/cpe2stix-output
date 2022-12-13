@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--fafbf2cb-a6f2-44b2-b41f-423f850e9b8b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bff99a4a-d1ed-5e3f-ad75-fe5ebd3b313a",
+            "name": "Protocol Go-merkledag 0.2.4",
+            "cpe": "cpe:2.3:a:protocol:go-merkledag:0.2.4:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "protocol",
+            "version": "0.2.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:protocol:go-merkledag:0.2.4:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T17:33Z",
+                        "titles": [
+                            {
+                                "title": "Protocol Go-merkledag 0.2.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://protocol.ai/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/ipfs/go-merkledag/security/advisories/GHSA-x39j-h85h-3f46",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/ipfs/go-merkledag/releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

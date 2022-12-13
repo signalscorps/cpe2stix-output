@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--4d13b5f5-cf5a-4322-879b-aacaf01a6ba2",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7e1b8a2e-3fa3-5968-868f-65d61ed346ad",
+            "name": "Protocol Labs libp2p 0.39.5 for Node.js",
+            "cpe": "cpe:2.3:a:protocol:libp2p:0.39.5:*:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "protocol",
+            "version": "0.39.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:protocol:libp2p:0.39.5:*:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2022-12-12T13:19Z",
+                        "titles": [
+                            {
+                                "title": "Protocol Labs libp2p 0.39.5 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://protocol.ai/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://libp2p.io/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.npmjs.com/package/libp2p?activeTab=readme",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/libp2p/js-libp2p/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--46a5efdc-7c95-40a7-93a3-c9ba35c6862b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--69d8e5c8-baa0-54c0-8630-4b947744423b",
+            "name": "LabStack Echo 1.3 for Go",
+            "cpe": "cpe:2.3:a:labstack:echo:1.3:*:*:*:*:go:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "labstack",
+            "version": "1.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:labstack:echo:1.3:*:*:*:*:go:*:*",
+                        "lastModifiedDate": "2022-12-12T14:50Z",
+                        "titles": [
+                            {
+                                "title": "LabStack Echo 1.3 for Go",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/labstack/echo/pull/1718",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/labstack/echo/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://echo.labstack.com/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-36565"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

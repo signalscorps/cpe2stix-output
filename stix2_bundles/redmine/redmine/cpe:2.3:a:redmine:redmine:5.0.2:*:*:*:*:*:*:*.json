@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--cece3e5d-fa8f-429d-9490-c23afc9b3d6d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d248b425-f080-5661-9ba5-8690a98630bd",
+            "name": "Redmine 5.0.2",
+            "cpe": "cpe:2.3:a:redmine:redmine:5.0.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "redmine",
+            "version": "5.0.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:redmine:redmine:5.0.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T18:47Z",
+                        "titles": [
+                            {
+                                "title": "Redmine 5.0.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.redmine.org/projects/redmine/wiki/Changelog_5_0",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-44030",
+                            "CVE-2022-44031",
+                            "CVE-2022-44637"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

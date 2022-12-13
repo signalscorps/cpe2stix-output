@@ -1,0 +1,49 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--f6644001-72d7-5bef-ad67-eec57f3dcea8",
+    "name": "Cisco IP Phone 8865 Firmware 12.8(1)SR1",
+    "cpe": "cpe:2.3:o:cisco:ip_phone_8865_firmware:12.8\\(1\\)sr1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "cisco",
+    "version": "12.8\\(1\\)sr1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:cisco:ip_phone_8865_firmware:12.8\\(1\\)sr1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-12T18:25Z",
+                "refs": [
+                    {
+                        "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ipp-oobwrite-8cMF5r7U#fs",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.cve.org/CVERecord?id=CVE-2022-20968",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8800-series/index.html#~models",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Cisco IP Phone 8865 Firmware 12.8(1)SR1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-26141",
+                    "CVE-2021-33478",
+                    "CVE-2021-34711",
+                    "CVE-2022-20660"
+                ]
+            }
+        }
+    }
+}

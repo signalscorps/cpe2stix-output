@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--506ee502-75d0-4423-baa3-7f699fe813ea",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1f00ff64-049c-536e-9526-ce79906c5aae",
+            "name": "Protocol Labs libp2p 0.42.2 for Rust",
+            "cpe": "cpe:2.3:a:protocol:libp2p:0.42.2:*:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "protocol",
+            "version": "0.42.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:protocol:libp2p:0.42.2:*:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-12-12T13:19Z",
+                        "titles": [
+                            {
+                                "title": "Protocol Labs libp2p 0.42.2 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://protocol.ai/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://libp2p.io/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://crates.io/crates/libp2p/versions",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/libp2p/rust-libp2p",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23486"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

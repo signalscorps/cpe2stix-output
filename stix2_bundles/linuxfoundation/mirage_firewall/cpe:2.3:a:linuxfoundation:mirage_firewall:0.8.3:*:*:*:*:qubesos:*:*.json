@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--3087e8e0-27dd-4265-8bbf-21435d074de2",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--296f6054-7ef8-5082-8d6f-d707093e08aa",
+            "name": "Linux Foundation Mirage Firewall 0.8.3 for QubesOS",
+            "cpe": "cpe:2.3:a:linuxfoundation:mirage_firewall:0.8.3:*:*:*:*:qubesos:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "linuxfoundation",
+            "version": "0.8.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:linuxfoundation:mirage_firewall:0.8.3:*:*:*:*:qubesos:*:*",
+                        "lastModifiedDate": "2022-12-12T16:19Z",
+                        "titles": [
+                            {
+                                "title": "Linux Foundation Mirage Firewall 0.8.3 for QubesOS",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/mirage/qubes-mirage-firewall/issues/166",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://mirage.io/",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://github.com/mirage/qubes-mirage-firewall/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-46770"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--c9fd8097-55ab-46fd-86e5-b01f0b97881f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e6241a66-6d3e-5d34-8cd3-0e3d7d5acb99",
+            "name": "Ivanti Connect Secure 21.9 R1",
+            "cpe": "cpe:2.3:a:ivanti:connect_secure:21.9:r1:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ivanti",
+            "version": "21.9",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ivanti:connect_secure:21.9:r1:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T16:19Z",
+                        "titles": [
+                            {
+                                "title": "Ivanti Connect Secure 21.9 R1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.ivanti.com/support/product-documentation?psredirect",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-35254",
+                            "CVE-2022-35258"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

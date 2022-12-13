@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--15511e14-1864-4dcf-8bbb-fd52115b1f66",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bd6cbd2e-4fa5-5753-b8c7-47e0d3d44874",
+            "name": "Linux Foundation Mirage Firewall for QubesOS",
+            "cpe": "cpe:2.3:a:linuxfoundation:mirage_firewall:-:*:*:*:*:qubesos:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "linuxfoundation",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:linuxfoundation:mirage_firewall:-:*:*:*:*:qubesos:*:*",
+                        "lastModifiedDate": "2022-12-12T16:19Z",
+                        "titles": [
+                            {
+                                "title": "Linux Foundation Mirage Firewall for QubesOS",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/mirage/qubes-mirage-firewall/issues/166",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://mirage.io/",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://github.com/mirage/qubes-mirage-firewall/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

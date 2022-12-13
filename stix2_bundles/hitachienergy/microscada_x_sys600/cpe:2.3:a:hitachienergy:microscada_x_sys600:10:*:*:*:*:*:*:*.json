@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--f9fa871f-4a60-45d4-9ad3-139a5ddb8e2f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--91f5b93b-02f6-5a96-99cb-550d776865c1",
+            "name": "Hitachi Energy MicroSCADA X SYS600 10",
+            "cpe": "cpe:2.3:a:hitachienergy:microscada_x_sys600:10:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hitachienergy",
+            "version": "10",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:hitachienergy:microscada_x_sys600:10:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T14:50Z",
+                        "titles": [
+                            {
+                                "title": "Hitachi Energy MicroSCADA X SYS600 10",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://search.abb.com/library/Download.aspx?DocumentID=8DBD000123&LanguageCode=en&DocumentPartId=&Action=Launch&elqaid=4293&elqat=1",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3388"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

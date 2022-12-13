@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--3d782940-ca6a-5c51-8295-7354669de203",
+    "name": "Podman Project Podman 1.4.2",
+    "cpe": "cpe:2.3:a:podman_project:podman:1.4.2:-:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "podman_project",
+    "version": "1.4.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:podman_project:podman:1.4.2:-:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-12T16:19Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/containers/podman/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://bugzilla.redhat.com/show_bug.cgi?id=2144989",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Podman Project Podman 1.4.2"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-14370",
+                    "CVE-2021-20188",
+                    "CVE-2022-1227",
+                    "CVE-2022-27649",
+                    "CVE-2022-2989"
+                ]
+            }
+        }
+    }
+}

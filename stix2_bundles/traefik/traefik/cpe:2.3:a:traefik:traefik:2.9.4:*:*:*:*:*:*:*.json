@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--710cb62b-2b78-4153-9b5c-e07240d237ce",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fc27d1b8-bb7f-5534-9502-36e37afeb2c6",
+            "name": "Traefik Labs Traefik 2.9.4",
+            "cpe": "cpe:2.3:a:traefik:traefik:2.9.4:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "traefik",
+            "version": "2.9.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:traefik:traefik:2.9.4:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T17:51Z",
+                        "titles": [
+                            {
+                                "title": "Traefik Labs Traefik 2.9.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/traefik/traefik/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/traefik/traefik/security/advisories/GHSA-h2ph-vhm7-g4hp",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://traefik.io/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23469",
+                            "CVE-2022-46153"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--c8c86371-fd7c-48f6-80da-16da836bedd1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2bf89d0c-72dc-5b42-9f54-659af392cb20",
+            "name": "Hitachi Energy Sam600ioconnectivitypackage 1.1.0",
+            "cpe": "cpe:2.3:a:hitachienergy:sam600ioconnectivitypackage:1.1.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hitachienergy",
+            "version": "1.1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:hitachienergy:sam600ioconnectivitypackage:1.1.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T14:50Z",
+                        "titles": [
+                            {
+                                "title": "Hitachi Energy Sam600ioconnectivitypackage 1.1.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://search.abb.com/library/Download.aspx?DocumentID=8DBD000120&LanguageCode=en&DocumentPartId=&Action=Launch",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-2513"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

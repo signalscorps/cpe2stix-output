@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--b26ae8e8-124f-440f-ab4c-20e575a67b8c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c8bcfe9d-920d-5b3b-825f-c31c7e9e2270",
+            "name": "Cisco IP Phone 7832 Firmware 14.0(1)",
+            "cpe": "cpe:2.3:o:cisco:ip_phone_7832_firmware:14.0\\(1\\):*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "14.0\\(1\\)",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:cisco:ip_phone_7832_firmware:14.0\\(1\\):*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T18:24Z",
+                        "titles": [
+                            {
+                                "title": "Cisco IP Phone 7832 Firmware 14.0(1)",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-7800-series/models-comparison.html",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ipp-oobwrite-8cMF5r7U#fs",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.cve.org/CVERecord?id=CVE-2022-20968",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-34711"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

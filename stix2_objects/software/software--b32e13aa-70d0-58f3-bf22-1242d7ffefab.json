@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--b32e13aa-70d0-58f3-bf22-1242d7ffefab",
+    "name": "Tiny TinyMCE 5.10.5",
+    "cpe": "cpe:2.3:a:tiny:tinymce:5.10.5:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "tiny",
+    "version": "5.10.5",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:tiny:tinymce:5.10.5:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-12T17:49Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/tinymce/tinymce",
+                        "type": "Version"
+                    },
+                    {
+                        "ref": "https://www.tiny.cloud/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/tinymce/tinymce/security/advisories/GHSA-gg8r-xjwq-4w92",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Tiny TinyMCE 5.10.5"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-23494"
+                ]
+            }
+        }
+    }
+}

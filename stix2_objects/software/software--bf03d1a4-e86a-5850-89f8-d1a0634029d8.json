@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--bf03d1a4-e86a-5850-89f8-d1a0634029d8",
+    "name": "Hitachi Energy MicroSCADA Pro SYS600 9.3",
+    "cpe": "cpe:2.3:a:hitachienergy:microscada_pro_sys600:9.3:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "hitachienergy",
+    "version": "9.3",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:hitachienergy:microscada_pro_sys600:9.3:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-12T14:50Z",
+                "refs": [
+                    {
+                        "ref": "https://search.abb.com/library/Download.aspx?DocumentID=8DBD000123&LanguageCode=en&DocumentPartId=&Action=Launch&elqaid=4293&elqat=1",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Hitachi Energy MicroSCADA Pro SYS600 9.3"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3388"
+                ]
+            }
+        }
+    }
+}

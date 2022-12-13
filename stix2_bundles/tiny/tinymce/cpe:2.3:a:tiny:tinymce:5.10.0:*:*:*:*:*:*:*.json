@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--56c27dee-a91a-4993-a709-735398306a95",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7d332f8a-9a9d-5e75-8f18-f9b2298a9b03",
+            "name": "Tiny TinyMCE 5.10.0",
+            "cpe": "cpe:2.3:a:tiny:tinymce:5.10.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tiny",
+            "version": "5.10.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:tiny:tinymce:5.10.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T17:49Z",
+                        "titles": [
+                            {
+                                "title": "Tiny TinyMCE 5.10.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/tinymce/tinymce",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://www.tiny.cloud/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/tinymce/tinymce/security/advisories/GHSA-gg8r-xjwq-4w92",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23494"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

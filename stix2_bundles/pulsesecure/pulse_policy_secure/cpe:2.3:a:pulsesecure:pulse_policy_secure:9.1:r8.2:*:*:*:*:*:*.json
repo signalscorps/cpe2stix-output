@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--20922680-4322-4365-b90f-f5f8c4838285",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5912e84f-520d-5c08-8b80-6f1f4024f196",
+            "name": "Pulse Secure Pulse Policy Secure 9.1 R8.2",
+            "cpe": "cpe:2.3:a:pulsesecure:pulse_policy_secure:9.1:r8.2:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "pulsesecure",
+            "version": "9.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:pulsesecure:pulse_policy_secure:9.1:r8.2:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T16:19Z",
+                        "titles": [
+                            {
+                                "title": "Pulse Secure Pulse Policy Secure 9.1 R8.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.ivanti.com/support/product-documentation?psredirect",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-11580",
+                            "CVE-2022-35254",
+                            "CVE-2022-35258"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--5abcdbc7-5199-4f27-8239-a1a62bae0753",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3c944abc-8342-5d5f-b739-3f5b020f1c70",
+            "name": "Protocol Labs libp2p 0.2.1 for Go",
+            "cpe": "cpe:2.3:a:protocol:libp2p:0.2.1:*:*:*:*:go:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "protocol",
+            "version": "0.2.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:protocol:libp2p:0.2.1:*:*:*:*:go:*:*",
+                        "lastModifiedDate": "2022-12-12T13:19Z",
+                        "titles": [
+                            {
+                                "title": "Protocol Labs libp2p 0.2.1 for Go",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://protocol.ai/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://libp2p.io/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://pkg.go.dev/github.com/libp2p/go-libp2p",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/libp2p/go-libp2p/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23492"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

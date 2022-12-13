@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--be751b1c-f1a8-4bc9-9f39-4952b639ce20",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8af5ba6e-6a7d-54a7-9f6e-adc022ae3253",
+            "name": "Protocol Labs libp2p 0.10.2 for Node.js",
+            "cpe": "cpe:2.3:a:protocol:libp2p:0.10.2:*:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "protocol",
+            "version": "0.10.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:protocol:libp2p:0.10.2:*:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2022-12-12T13:19Z",
+                        "titles": [
+                            {
+                                "title": "Protocol Labs libp2p 0.10.2 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://protocol.ai/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://libp2p.io/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.npmjs.com/package/libp2p?activeTab=readme",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/libp2p/js-libp2p/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23487"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--c716750d-8e48-583f-af09-3bcce5b94792",
+    "name": "Pinterest Querybook 3.1.0",
+    "cpe": "cpe:2.3:a:pinterest:querybook:3.1.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "pinterest",
+    "version": "3.1.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:pinterest:querybook:3.1.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-12T14:50Z",
+                "refs": [
+                    {
+                        "ref": "https://www.pinterest.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://www.querybook.org/docs/changelog",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://github.com/pinterest/querybook/tags",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Pinterest Querybook 3.1.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-46151"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--9a9d2ade-a070-5e30-b604-4c2271d2b297",
+    "name": "Protocol Go-merkledag 0.3.0",
+    "cpe": "cpe:2.3:a:protocol:go-merkledag:0.3.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "protocol",
+    "version": "0.3.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:protocol:go-merkledag:0.3.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-12T17:33Z",
+                "refs": [
+                    {
+                        "ref": "https://protocol.ai/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/ipfs/go-merkledag/security/advisories/GHSA-x39j-h85h-3f46",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/ipfs/go-merkledag/releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Protocol Go-merkledag 0.3.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

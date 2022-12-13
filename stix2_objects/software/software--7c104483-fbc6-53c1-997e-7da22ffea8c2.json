@@ -1,0 +1,47 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--7c104483-fbc6-53c1-997e-7da22ffea8c2",
+    "name": "Traefik Labs Traefik 2.9.2",
+    "cpe": "cpe:2.3:a:traefik:traefik:2.9.2:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "traefik",
+    "version": "2.9.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:traefik:traefik:2.9.2:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-12T17:51Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/traefik/traefik/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://github.com/traefik/traefik/security/advisories/GHSA-h2ph-vhm7-g4hp",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://traefik.io/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Traefik Labs Traefik 2.9.2"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-23469",
+                    "CVE-2022-46153"
+                ]
+            }
+        }
+    }
+}

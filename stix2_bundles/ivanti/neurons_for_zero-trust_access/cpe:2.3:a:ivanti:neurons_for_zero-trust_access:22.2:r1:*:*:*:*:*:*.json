@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--37411b24-7513-4215-af33-535be17c10d9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--36e5cdd9-f184-5723-bfd4-5a1723ffb741",
+            "name": "Ivanti Neurons For Zero-trust Access 22.2 R1",
+            "cpe": "cpe:2.3:a:ivanti:neurons_for_zero-trust_access:22.2:r1:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ivanti",
+            "version": "22.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ivanti:neurons_for_zero-trust_access:22.2:r1:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T16:19Z",
+                        "titles": [
+                            {
+                                "title": "Ivanti Neurons For Zero-trust Access 22.2 R1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.ivanti.com/support/product-documentation?psredirect",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-35254",
+                            "CVE-2022-35258"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

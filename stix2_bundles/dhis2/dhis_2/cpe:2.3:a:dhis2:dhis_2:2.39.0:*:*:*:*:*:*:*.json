@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--f982e589-90ec-4bfe-8807-b1640185e91d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--aa1b7799-b55b-5be3-8c15-48ee6edce60c",
+            "name": "DHIS 2 (District Health Information Software 2) 2.39.0",
+            "cpe": "cpe:2.3:a:dhis2:dhis_2:2.39.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "dhis2",
+            "version": "2.39.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:dhis2:dhis_2:2.39.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T18:28Z",
+                        "titles": [
+                            {
+                                "title": "DHIS 2 (District Health Information Software 2) 2.39.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/dhis2/dhis2-core/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://dhis2.org/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41947",
+                            "CVE-2022-41948",
+                            "CVE-2022-41949"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

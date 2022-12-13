@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--2b95e7bb-9870-46d9-a542-60f91b01ba2f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9013f80e-2bdc-5906-956c-4a96c5210b94",
+            "name": "LabStack Echo 4.1.15 for Go",
+            "cpe": "cpe:2.3:a:labstack:echo:4.1.15:*:*:*:*:go:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "labstack",
+            "version": "4.1.15",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:labstack:echo:4.1.15:*:*:*:*:go:*:*",
+                        "lastModifiedDate": "2022-12-12T14:50Z",
+                        "titles": [
+                            {
+                                "title": "LabStack Echo 4.1.15 for Go",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/labstack/echo/pull/1718",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/labstack/echo/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://echo.labstack.com/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-36565"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

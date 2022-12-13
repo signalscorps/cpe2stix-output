@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--ed81dae3-73d7-46e2-8fc4-aa939affc499",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6eeafbc2-8295-5f7a-96b2-50322c242570",
+            "name": "Hitachi Energy 650connectivitypackage 2.3.0",
+            "cpe": "cpe:2.3:a:hitachienergy:650connectivitypackage:2.3.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hitachienergy",
+            "version": "2.3.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:hitachienergy:650connectivitypackage:2.3.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T14:50Z",
+                        "titles": [
+                            {
+                                "title": "Hitachi Energy 650connectivitypackage 2.3.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://search.abb.com/library/Download.aspx?DocumentID=8DBD000120&LanguageCode=en&DocumentPartId=&Action=Launch",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-2513"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--e141607f-b3e8-570f-b84c-2479b4fd3b1f",
+    "name": "Galaxyproject Galaxy 22.01",
+    "cpe": "cpe:2.3:a:galaxyproject:galaxy:22.01:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "galaxyproject",
+    "version": "22.01",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:galaxyproject:galaxy:22.01:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-12T14:50Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/galaxyproject/galaxy",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://galaxyproject.org/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/galaxyproject/galaxy/tags",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Galaxyproject Galaxy 22.01"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-23470"
+                ]
+            }
+        }
+    }
+}

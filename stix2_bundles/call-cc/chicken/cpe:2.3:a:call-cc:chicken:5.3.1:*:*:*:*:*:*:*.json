@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--f0662c2f-3b91-48ba-84d8-9306774be157",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c56da84a-5bcb-5265-88d9-5880bbd3fde4",
+            "name": "call-cc CHICKEN 5.3.1",
+            "cpe": "cpe:2.3:a:call-cc:chicken:5.3.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "call-cc",
+            "version": "5.3.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:call-cc:chicken:5.3.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-12T19:20Z",
+                        "titles": [
+                            {
+                                "title": "call-cc CHICKEN 5.3.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://code.call-cc.org/cgi-bin/gitweb.cgi?p=chicken-core.git;a=tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

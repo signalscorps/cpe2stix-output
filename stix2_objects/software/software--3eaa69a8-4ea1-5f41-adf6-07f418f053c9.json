@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--3eaa69a8-4ea1-5f41-adf6-07f418f053c9",
+    "name": "DaloRADIUS 1.1-3",
+    "cpe": "cpe:2.3:a:daloradius:daloradius:1.1-3:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "daloradius",
+    "version": "1.1-3",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:daloradius:daloradius:1.1-3:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-12T16:19Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/lirantal/daloradius/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://www.daloradius.com/index.html",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "DaloRADIUS 1.1-3"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-23475"
+                ]
+            }
+        }
+    }
+}

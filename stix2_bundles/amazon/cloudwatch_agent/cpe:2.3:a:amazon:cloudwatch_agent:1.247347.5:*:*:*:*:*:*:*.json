@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--c59d0173-438e-42cc-ba7a-f548d8428baa",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--06e7f33c-1775-5da8-a052-21cdfa57003f",
+            "name": "Amazon CloudWatch Agent 1.247347.5",
+            "cpe": "cpe:2.3:a:amazon:cloudwatch_agent:1.247347.5:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "amazon",
+            "version": "1.247347.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:amazon:cloudwatch_agent:1.247347.5:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-13T15:42Z",
+                        "titles": [
+                            {
+                                "title": "Amazon CloudWatch Agent 1.247347.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/aws/amazon-cloudwatch-agent",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/aws/amazon-cloudwatch-agent/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23511"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

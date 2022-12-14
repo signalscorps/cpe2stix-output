@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--12144e80-6144-52ea-a401-1524410a4d1f",
+    "name": "WP CSV Exporter Project WP CSV Exporter 1.3.1 for WordPress",
+    "cpe": "cpe:2.3:a:wp_csv_exporter_project:wp_csv_exporter:1.3.1:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "wp_csv_exporter_project",
+    "version": "1.3.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:wp_csv_exporter_project:wp_csv_exporter:1.3.1:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-13T14:06Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.trac.wordpress.org/browser/wp-csv-exporter/#tags",
+                        "type": "Version"
+                    },
+                    {
+                        "ref": "https://wpscan.com/vulnerability/6503da78-a2bf-4b4c-b56d-21c8c55b076e",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://wordpress.org/plugins/wp-csv-exporter/",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "WP CSV Exporter Project WP CSV Exporter 1.3.1 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3249"
+                ]
+            }
+        }
+    }
+}

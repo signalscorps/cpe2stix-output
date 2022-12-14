@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--041e7a6f-6928-5b2c-a9b6-60e8a53e449e",
+    "name": "Medtronic MMT-1351",
+    "cpe": "cpe:2.3:h:medtronic:mmt-1351:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "medtronic",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:medtronic:mmt-1351:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-13T15:42Z",
+                "refs": [
+                    {
+                        "ref": "https://global.medtronic.com/xg-en/product-security/security-bulletins/minimed-600-series-communication-issue.html",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Medtronic MMT-1351"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-32537"
+                ]
+            }
+        }
+    }
+}

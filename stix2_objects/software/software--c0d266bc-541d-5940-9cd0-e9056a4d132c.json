@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--c0d266bc-541d-5940-9cd0-e9056a4d132c",
+    "name": "AntiHacker Project AntiHacker 2.42 for WordPress",
+    "cpe": "cpe:2.3:a:antihacker_project:antihacker:2.42:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "antihacker_project",
+    "version": "2.42",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:antihacker_project:antihacker:2.42:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-13T14:10Z",
+                "refs": [
+                    {
+                        "ref": "https://wpscan.com/vulnerability/24743c72-310f-41e9-aac9-e05b2bb1a14e",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://wordpress.org/plugins/antihacker/#developers",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://plugins.trac.wordpress.org/browser/antihacker/#tags",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "AntiHacker Project AntiHacker 2.42 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

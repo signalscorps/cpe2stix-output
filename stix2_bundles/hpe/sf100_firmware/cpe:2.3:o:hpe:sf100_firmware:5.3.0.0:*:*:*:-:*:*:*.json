@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--100780d3-d8bb-4bde-b9d1-da1ca24c9919",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--52d55bec-e2de-5632-9d07-1ec35bade720",
+            "name": "HPE SF100 Firmware 5.3.0.0",
+            "cpe": "cpe:2.3:o:hpe:sf100_firmware:5.3.0.0:*:*:*:-:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hpe",
+            "version": "5.3.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:hpe:sf100_firmware:5.3.0.0:*:*:*:-:*:*:*",
+                        "lastModifiedDate": "2022-12-13T17:50Z",
+                        "titles": [
+                            {
+                                "title": "HPE SF100 Firmware 5.3.0.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=emr_na-hpesbst04359en_us",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://support.hpe.com/hpesc/public/docDisplay?docId=a00017031en_us&docLocale=en_US&page=GUID-11B90558-B6AA-4714-939E-E09732E17481.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-37929"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

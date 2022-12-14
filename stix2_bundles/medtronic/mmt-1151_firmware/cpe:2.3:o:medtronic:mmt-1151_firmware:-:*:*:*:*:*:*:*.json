@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--1e21a04e-a788-4e19-b0c7-6b4602a52722",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f43d4bba-6845-581a-86f7-d6a4dfbc6df8",
+            "name": "Medtronic MMT-1151 Firmware",
+            "cpe": "cpe:2.3:o:medtronic:mmt-1151_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "medtronic",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:medtronic:mmt-1151_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-13T15:42Z",
+                        "titles": [
+                            {
+                                "title": "Medtronic MMT-1151 Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://global.medtronic.com/xg-en/product-security/security-bulletins/minimed-600-series-communication-issue.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-32537"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

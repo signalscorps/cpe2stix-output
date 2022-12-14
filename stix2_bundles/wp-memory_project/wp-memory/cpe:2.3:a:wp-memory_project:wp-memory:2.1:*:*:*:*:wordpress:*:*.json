@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--2ab6a1eb-77b4-4da1-acf5-de8778e759bf",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e1070898-a5d9-5ed7-b3dc-9ca6d71a2a6b",
+            "name": "WP-Memory Project WP-Memory 2.1 for WordPress",
+            "cpe": "cpe:2.3:a:wp-memory_project:wp-memory:2.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wp-memory_project",
+            "version": "2.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wp-memory_project:wp-memory:2.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-13T14:22Z",
+                        "titles": [
+                            {
+                                "title": "WP-Memory Project WP-Memory 2.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wpscan.com/vulnerability/a39c643f-eaa4-4c71-b75d-2c4fe34ac875",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/wp-memory/",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://plugins.trac.wordpress.org/browser/wp-memory/#tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

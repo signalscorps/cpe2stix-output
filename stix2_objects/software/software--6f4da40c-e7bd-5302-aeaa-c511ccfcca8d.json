@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--6f4da40c-e7bd-5302-aeaa-c511ccfcca8d",
+    "name": "Google protobuf-java 3.21.0",
+    "cpe": "cpe:2.3:a:google:protobuf-java:3.21.0:-:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "google",
+    "version": "3.21.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:google:protobuf-java:3.21.0:-:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-13T20:33Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/protocolbuffers/protobuf/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://github.com/protocolbuffers/protobuf/security/advisories/GHSA-h4h5-3hr4-j3g2",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Google protobuf-java 3.21.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3171"
+                ]
+            }
+        }
+    }
+}

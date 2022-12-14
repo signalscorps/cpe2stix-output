@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--1d6919a6-b33a-464a-8a5e-c42c3a5322f9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--13384e1b-f179-5381-b183-e51c47dfd245",
+            "name": "Medtronic MiniMed 630G MMT-1754",
+            "cpe": "cpe:2.3:h:medtronic:minimed_630g_mmt-1754:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "medtronic",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:medtronic:minimed_630g_mmt-1754:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-13T15:42Z",
+                        "titles": [
+                            {
+                                "title": "Medtronic MiniMed 630G MMT-1754",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://global.medtronic.com/xg-en/product-security/security-bulletins/minimed-600-series-communication-issue.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-32537"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--985547ae-565b-4b6f-8797-76f082e01c14",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8cd5aae2-3136-5251-ba0c-9b15dbf481ae",
+            "name": "Medtronic MMT-7306 Firmware",
+            "cpe": "cpe:2.3:o:medtronic:mmt-7306_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "medtronic",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:medtronic:mmt-7306_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-13T15:42Z",
+                        "titles": [
+                            {
+                                "title": "Medtronic MMT-7306 Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://global.medtronic.com/xg-en/product-security/security-bulletins/minimed-600-series-communication-issue.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-32537"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

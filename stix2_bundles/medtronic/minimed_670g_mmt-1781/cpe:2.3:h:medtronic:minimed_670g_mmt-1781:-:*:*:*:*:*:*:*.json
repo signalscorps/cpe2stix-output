@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--dc7067d7-d924-4931-baa5-8307fd0ded74",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6804f8be-fe3a-5f3b-828b-fc8d5cb9d478",
+            "name": "Medtronic MiniMed 670G MMT-1781",
+            "cpe": "cpe:2.3:h:medtronic:minimed_670g_mmt-1781:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "medtronic",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:medtronic:minimed_670g_mmt-1781:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-13T15:42Z",
+                        "titles": [
+                            {
+                                "title": "Medtronic MiniMed 670G MMT-1781",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://global.medtronic.com/xg-en/product-security/security-bulletins/minimed-600-series-communication-issue.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-32537"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

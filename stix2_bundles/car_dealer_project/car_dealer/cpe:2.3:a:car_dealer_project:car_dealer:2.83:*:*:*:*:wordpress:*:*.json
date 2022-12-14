@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--8066a2ce-659b-419a-b6fb-7780cec5c939",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--97538199-47bd-5305-b38c-7fbe6eace061",
+            "name": "Car Dealer Project Car Dealer 2.83 for WordPress",
+            "cpe": "cpe:2.3:a:car_dealer_project:car_dealer:2.83:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "car_dealer_project",
+            "version": "2.83",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:car_dealer_project:car_dealer:2.83:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-13T14:18Z",
+                        "titles": [
+                            {
+                                "title": "Car Dealer Project Car Dealer 2.83 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wpscan.com/vulnerability/0db1762e-1401-4006-88ed-d09a4bc6585b",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/cardealer/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

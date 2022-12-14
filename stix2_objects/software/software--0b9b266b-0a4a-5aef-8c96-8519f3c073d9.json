@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--0b9b266b-0a4a-5aef-8c96-8519f3c073d9",
+    "name": "Medtronic Guardian Link 2 Transmitter MMT-7730 Firmware",
+    "cpe": "cpe:2.3:o:medtronic:guardian_link_2_transmitter_mmt-7730_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "medtronic",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:medtronic:guardian_link_2_transmitter_mmt-7730_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-13T15:42Z",
+                "refs": [
+                    {
+                        "ref": "https://global.medtronic.com/xg-en/product-security/security-bulletins/minimed-600-series-communication-issue.html",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Medtronic Guardian Link 2 Transmitter MMT-7730 Firmware"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-32537"
+                ]
+            }
+        }
+    }
+}

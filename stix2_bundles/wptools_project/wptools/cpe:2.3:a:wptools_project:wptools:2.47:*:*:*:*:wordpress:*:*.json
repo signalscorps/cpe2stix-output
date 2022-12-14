@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--c11d7a9e-e354-4001-8522-0a53b9419c4f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6f7412a6-40d8-54b6-a4a0-384b6b317f3d",
+            "name": "WPTools Project WPTools 2.47 for WordPress",
+            "cpe": "cpe:2.3:a:wptools_project:wptools:2.47:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wptools_project",
+            "version": "2.47",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wptools_project:wptools:2.47:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-13T14:33Z",
+                        "titles": [
+                            {
+                                "title": "WPTools Project WPTools 2.47 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wpscan.com/vulnerability/c2a9cf01-051a-429a-82ca-280885114b5a",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/wptools/",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://plugins.trac.wordpress.org/browser/wptools/#tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--08460285-65fd-4369-b68d-9fc0db7aae90",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--58c647bd-0fd3-537b-9f79-192957fb1250",
+            "name": "HPE HF20 Firmware 5.2.1.900 Long Term Support Release Edition",
+            "cpe": "cpe:2.3:o:hpe:hf20_firmware:5.2.1.900:*:*:*:ltsr:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hpe",
+            "version": "5.2.1.900",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:hpe:hf20_firmware:5.2.1.900:*:*:*:ltsr:*:*:*",
+                        "lastModifiedDate": "2022-12-13T17:50Z",
+                        "titles": [
+                            {
+                                "title": "HPE HF20 Firmware 5.2.1.900 Long Term Support Release Edition",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=emr_na-hpesbst04359en_us",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://buy.hpe.com/us/en/storage/disk-storage-systems/nimble-storage-arrays/nimble-storage-adaptive-flash-arrays/hpe-nimble-storage-adaptive-flash-arrays/p/1009969132",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

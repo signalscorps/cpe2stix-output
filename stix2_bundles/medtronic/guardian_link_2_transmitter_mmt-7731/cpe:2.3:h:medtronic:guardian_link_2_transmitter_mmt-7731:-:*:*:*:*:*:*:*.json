@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--d6384d06-6a08-4fb5-9962-ff4e02d738a4",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--524ded37-55e8-5bdd-a9b6-b8d1471a43a4",
+            "name": "Medtronic Guardian Link 2 Transmitter MMT-7731",
+            "cpe": "cpe:2.3:h:medtronic:guardian_link_2_transmitter_mmt-7731:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "medtronic",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:medtronic:guardian_link_2_transmitter_mmt-7731:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-13T15:42Z",
+                        "titles": [
+                            {
+                                "title": "Medtronic Guardian Link 2 Transmitter MMT-7731",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://global.medtronic.com/xg-en/product-security/security-bulletins/minimed-600-series-communication-issue.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-32537"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

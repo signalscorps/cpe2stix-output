@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--6c4b25df-1fcc-49bf-a47f-a33ccab2ffa5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--dd072e17-bdd4-56ed-ac0e-941c75939374",
+            "name": "WP CSV Exporter Project WP CSV Exporter 1.0.0 for WordPress",
+            "cpe": "cpe:2.3:a:wp_csv_exporter_project:wp_csv_exporter:1.0.0:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wp_csv_exporter_project",
+            "version": "1.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wp_csv_exporter_project:wp_csv_exporter:1.0.0:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-13T14:06Z",
+                        "titles": [
+                            {
+                                "title": "WP CSV Exporter Project WP CSV Exporter 1.0.0 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://plugins.trac.wordpress.org/browser/wp-csv-exporter/#tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://wpscan.com/vulnerability/6503da78-a2bf-4b4c-b56d-21c8c55b076e",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/wp-csv-exporter/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3249"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

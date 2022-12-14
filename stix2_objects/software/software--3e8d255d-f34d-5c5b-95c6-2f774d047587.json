@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--3e8d255d-f34d-5c5b-95c6-2f774d047587",
+    "name": "Medtronic MiniMed 670G MMT-1782 Firmware",
+    "cpe": "cpe:2.3:o:medtronic:minimed_670g_mmt-1782_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "medtronic",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:medtronic:minimed_670g_mmt-1782_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-13T15:42Z",
+                "refs": [
+                    {
+                        "ref": "https://global.medtronic.com/xg-en/product-security/security-bulletins/minimed-600-series-communication-issue.html",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Medtronic MiniMed 670G MMT-1782 Firmware"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-32537"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--6e57380a-6759-4d60-89dd-b738e7550cb8",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--70032679-1378-58e0-86e9-5f4e4434d3e7",
+            "name": "HPE HF40",
+            "cpe": "cpe:2.3:h:hpe:hf40:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hpe",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:hpe:hf40:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-13T17:50Z",
+                        "titles": [
+                            {
+                                "title": "HPE HF40",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=emr_na-hpesbst04359en_us",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://buy.hpe.com/us/en/storage/disk-storage-systems/nimble-storage-arrays/nimble-storage-adaptive-flash-arrays/hpe-nimble-storage-adaptive-flash-arrays/p/1009969132",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-37929"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

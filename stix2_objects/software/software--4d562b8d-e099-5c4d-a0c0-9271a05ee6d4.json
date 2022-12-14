@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--4d562b8d-e099-5c4d-a0c0-9271a05ee6d4",
+    "name": "Medtronic MiniMed 620G MMT-1750 Firmware",
+    "cpe": "cpe:2.3:o:medtronic:minimed_620g_mmt-1750_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "medtronic",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:medtronic:minimed_620g_mmt-1750_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-13T15:42Z",
+                "refs": [
+                    {
+                        "ref": "https://global.medtronic.com/xg-en/product-security/security-bulletins/minimed-600-series-communication-issue.html",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Medtronic MiniMed 620G MMT-1750 Firmware"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-32537"
+                ]
+            }
+        }
+    }
+}

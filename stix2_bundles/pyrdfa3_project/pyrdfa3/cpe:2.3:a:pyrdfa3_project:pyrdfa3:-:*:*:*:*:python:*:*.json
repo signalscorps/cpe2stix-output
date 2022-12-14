@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--1d831182-6b3b-421d-af38-e9528562fd8e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e845a457-089b-54bb-9394-439de36a780e",
+            "name": "pyRDFA3 Project pyRDFA3 for Python",
+            "cpe": "cpe:2.3:a:pyrdfa3_project:pyrdfa3:-:*:*:*:*:python:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "pyrdfa3_project",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:pyrdfa3_project:pyrdfa3:-:*:*:*:*:python:*:*",
+                        "lastModifiedDate": "2022-12-13T15:42Z",
+                        "titles": [
+                            {
+                                "title": "pyRDFA3 Project pyRDFA3 for Python",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/RDFLib/pyrdfa3",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://pypi.org/project/pyRdfa3/",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-4396"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

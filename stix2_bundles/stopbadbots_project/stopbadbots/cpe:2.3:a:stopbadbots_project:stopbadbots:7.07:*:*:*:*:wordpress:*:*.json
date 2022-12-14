@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--31dbe78c-8ee2-4382-adfa-d83bd089b63e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2db1e136-cd78-5816-b22c-cbd257b6c216",
+            "name": "StopBadBots Project StopBadBots 7.07 for WordPress",
+            "cpe": "cpe:2.3:a:stopbadbots_project:stopbadbots:7.07:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "stopbadbots_project",
+            "version": "7.07",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:stopbadbots_project:stopbadbots:7.07:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-13T14:24Z",
+                        "titles": [
+                            {
+                                "title": "StopBadBots Project StopBadBots 7.07 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wpscan.com/vulnerability/8695b157-abac-4aa6-a022-e3ae41c03544",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/stopbadbots/",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://plugins.trac.wordpress.org/browser/stopbadbots/#tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

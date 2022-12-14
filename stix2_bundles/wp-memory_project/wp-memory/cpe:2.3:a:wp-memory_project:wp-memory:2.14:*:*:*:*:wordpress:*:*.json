@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--6301fc0f-57c0-498b-a055-d775dae2c45e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e24050e0-d961-54f6-9e6a-09c415c92081",
+            "name": "WP-Memory Project WP-Memory 2.14 for WordPress",
+            "cpe": "cpe:2.3:a:wp-memory_project:wp-memory:2.14:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wp-memory_project",
+            "version": "2.14",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wp-memory_project:wp-memory:2.14:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-13T14:22Z",
+                        "titles": [
+                            {
+                                "title": "WP-Memory Project WP-Memory 2.14 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wpscan.com/vulnerability/a39c643f-eaa4-4c71-b75d-2c4fe34ac875",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/wp-memory/",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://plugins.trac.wordpress.org/browser/wp-memory/#tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

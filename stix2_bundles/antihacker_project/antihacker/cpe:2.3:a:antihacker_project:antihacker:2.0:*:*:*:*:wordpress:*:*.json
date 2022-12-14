@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--db5eaeaa-a3d4-49ad-b993-8c4775c6c1f8",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1652ef19-023a-51e2-9fcd-91e8ed69a98e",
+            "name": "AntiHacker Project AntiHacker 2.0 for WordPress",
+            "cpe": "cpe:2.3:a:antihacker_project:antihacker:2.0:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "antihacker_project",
+            "version": "2.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:antihacker_project:antihacker:2.0:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-13T14:10Z",
+                        "titles": [
+                            {
+                                "title": "AntiHacker Project AntiHacker 2.0 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wpscan.com/vulnerability/24743c72-310f-41e9-aac9-e05b2bb1a14e",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/antihacker/#developers",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://plugins.trac.wordpress.org/browser/antihacker/#tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

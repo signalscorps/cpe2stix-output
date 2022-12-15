@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--6c5e53b6-e727-4cda-8969-10b3b9d76ae2",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--20baa878-8bd3-53d3-9aeb-53f8647205d3",
+            "name": "HP Command Center",
+            "cpe": "cpe:2.3:a:hp:command_center:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hp",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:hp:command_center:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-14T22:29Z",
+                        "titles": [
+                            {
+                                "title": "HP Command Center",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.hp.com/us-en/document/ish_5481136-5481162-16/hpsbgn03761",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://apps.microsoft.com/store/detail/hp-command-center/9P92N00QV14J?hl=en-us&gl=us",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--c0e5ab20-9f59-4a9e-93a1-c21a615b524e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bd0e75c6-687a-5882-b2c8-66ebf009170a",
+            "name": "Siemens Teamcenter Visualization 14.1",
+            "cpe": "cpe:2.3:a:siemens:teamcenter_visualization:14.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "siemens",
+            "version": "14.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:siemens:teamcenter_visualization:14.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-14T15:17Z",
+                        "titles": [
+                            {
+                                "title": "Siemens Teamcenter Visualization 14.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert-portal.siemens.com/productcert/pdf/ssa-700053.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-39136",
+                            "CVE-2022-41660",
+                            "CVE-2022-41661",
+                            "CVE-2022-41662",
+                            "CVE-2022-41663",
+                            "CVE-2022-41664"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--0dffb1ea-6673-4f88-ab57-8db30ffd1052",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8c703b1f-88cf-58b7-b853-ecdd62d72363",
+            "name": "HP Notebook 17-x0xx",
+            "cpe": "cpe:2.3:h:hp:notebook_17-x0xx:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hp",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:hp:notebook_17-x0xx:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-14T22:29Z",
+                        "titles": [
+                            {
+                                "title": "HP Notebook 17-x0xx",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.hp.com/us-en/document/ish_6189329-6189528-16/hpsbhf03791",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

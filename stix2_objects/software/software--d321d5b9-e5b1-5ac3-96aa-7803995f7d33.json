@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--d321d5b9-e5b1-5ac3-96aa-7803995f7d33",
+    "name": "HP PageWide 352DW J6U57A Firmware",
+    "cpe": "cpe:2.3:o:hp:pagewide_352dw_j6u57a_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "hp",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:hp:pagewide_352dw_j6u57a_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-14T20:30Z",
+                "refs": [
+                    {
+                        "ref": "https://support.hp.com/us-en/document/ish_6720386-6720411-16/hpsbpi03807",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "HP PageWide 352DW J6U57A Firmware"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2019-16240",
+                    "CVE-2022-24291",
+                    "CVE-2022-24292",
+                    "CVE-2022-24293",
+                    "CVE-2022-2794"
+                ]
+            }
+        }
+    }
+}

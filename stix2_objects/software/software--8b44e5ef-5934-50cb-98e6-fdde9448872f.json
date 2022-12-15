@@ -1,0 +1,56 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--8b44e5ef-5934-50cb-98e6-fdde9448872f",
+    "name": "Citrix Application Delivery Controller (ADC) Firmware 12.1-55.291 Federal Information Processing Standard (FIPS) Edition",
+    "cpe": "cpe:2.3:o:citrix:application_delivery_controller_firmware:12.1-55.291:*:*:*:fips:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "citrix",
+    "version": "12.1-55.291",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:citrix:application_delivery_controller_firmware:12.1-55.291:*:*:*:fips:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-14T17:44Z",
+                "refs": [
+                    {
+                        "ref": "https://support.citrix.com/article/CTX474995/citrix-adc-and-citrix-gateway-security-bulletin-for-cve202227518",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Citrix Application Delivery Controller (ADC) Firmware 12.1-55.291 Federal Information Processing Standard (FIPS) Edition"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-8190",
+                    "CVE-2020-8191",
+                    "CVE-2020-8193",
+                    "CVE-2020-8194",
+                    "CVE-2020-8195",
+                    "CVE-2020-8196",
+                    "CVE-2020-8197",
+                    "CVE-2020-8198",
+                    "CVE-2020-8245",
+                    "CVE-2020-8246",
+                    "CVE-2020-8247",
+                    "CVE-2020-8299",
+                    "CVE-2020-8300",
+                    "CVE-2021-22919",
+                    "CVE-2021-22927",
+                    "CVE-2021-22955",
+                    "CVE-2021-22956",
+                    "CVE-2022-27509",
+                    "CVE-2022-27518"
+                ]
+            }
+        }
+    }
+}

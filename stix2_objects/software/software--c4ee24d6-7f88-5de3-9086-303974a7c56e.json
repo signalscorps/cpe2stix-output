@@ -1,0 +1,44 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--c4ee24d6-7f88-5de3-9086-303974a7c56e",
+    "name": "Wiesemann & Theis Com-Server Highspeed Compact Firmware",
+    "cpe": "cpe:2.3:o:wut:com-server_highspeed_compact_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "wut",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:wut:com-server_highspeed_compact_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-14T17:44Z",
+                "refs": [
+                    {
+                        "ref": "https://cert.vde.com/en/advisories/VDE-2022-057/",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.wut.de/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Wiesemann & Theis Com-Server Highspeed Compact Firmware"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-42785",
+                    "CVE-2022-42786",
+                    "CVE-2022-42787"
+                ]
+            }
+        }
+    }
+}

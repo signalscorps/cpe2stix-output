@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--fc125943-f26a-4a55-bde9-0eabb5b7ceed",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8d769f14-b163-5b44-9bd1-9ef666a69cce",
+            "name": "HPE Flexnetwork 5130 Ei Firmware 7.10.r3507p02",
+            "cpe": "cpe:2.3:o:hpe:flexnetwork_5130_ei_firmware:7.10.r3507p02:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hpe",
+            "version": "7.10.r3507p02",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:hpe:flexnetwork_5130_ei_firmware:7.10.r3507p02:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-14T20:30Z",
+                        "titles": [
+                            {
+                                "title": "HPE Flexnetwork 5130 Ei Firmware 7.10.r3507p02",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=emr_na-hpesbnw04265en_us",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://buy.hpe.com/us/en/networking/networking-switches/hpe-flexnetwork-5130-ei-switch-series/p/7399420#:~:text=Access%20Layer%20Switches-,The%20HPE%20FlexNetwork%205130%20EI%20Switch%20Series%20delivers%20flexibility%2C%20scalability,Energy%20Efficient%20Ethernet%20power%20savings.",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-28624"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

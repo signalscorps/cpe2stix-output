@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--39d5d590-dae3-4353-a660-cd784de44df8",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4b2938f0-1337-5349-a4f4-4f8644898486",
+            "name": "HP PageWide Managed P55250DW J6U55A Firmware",
+            "cpe": "cpe:2.3:o:hp:pagewide_managed_p55250dw_j6u55a_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hp",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:hp:pagewide_managed_p55250dw_j6u55a_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-14T20:30Z",
+                        "titles": [
+                            {
+                                "title": "HP PageWide Managed P55250DW J6U55A Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.hp.com/us-en/document/ish_6720386-6720411-16/hpsbpi03807",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-16240",
+                            "CVE-2022-24291",
+                            "CVE-2022-24292",
+                            "CVE-2022-24293",
+                            "CVE-2022-2794"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

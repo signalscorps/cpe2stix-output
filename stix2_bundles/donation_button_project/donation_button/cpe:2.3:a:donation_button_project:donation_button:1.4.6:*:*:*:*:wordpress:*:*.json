@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--601fc44b-6c60-42f4-bec3-81bd69d6865c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9cd55bb5-3e58-55d6-af9c-ab557c1334cf",
+            "name": "Donation Button Project Donation Button 1.4.6 for WordPress",
+            "cpe": "cpe:2.3:a:donation_button_project:donation_button:1.4.6:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "donation_button_project",
+            "version": "1.4.6",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:donation_button_project:donation_button:1.4.6:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-14T20:30Z",
+                        "titles": [
+                            {
+                                "title": "Donation Button Project Donation Button 1.4.6 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wpscan.com/vulnerability/6a3bcfb3-3ede-459d-969f-b7b30dafd098",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://plugins.trac.wordpress.org/log/donation-button/",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

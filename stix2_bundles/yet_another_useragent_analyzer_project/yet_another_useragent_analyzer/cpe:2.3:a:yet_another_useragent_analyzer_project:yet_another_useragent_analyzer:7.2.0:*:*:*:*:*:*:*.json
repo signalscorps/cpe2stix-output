@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--9b47a747-424f-443f-93c4-4674f2cc9c5b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1760e1b4-8b39-50d8-b41c-c58ecdb63d9e",
+            "name": "Yet Another UserAgent Analyzer Project Yet Another UserAgent Analyzer (yauaa) 7.2.0",
+            "cpe": "cpe:2.3:a:yet_another_useragent_analyzer_project:yet_another_useragent_analyzer:7.2.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "yet_another_useragent_analyzer_project",
+            "version": "7.2.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:yet_another_useragent_analyzer_project:yet_another_useragent_analyzer:7.2.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-14T20:30Z",
+                        "titles": [
+                            {
+                                "title": "Yet Another UserAgent Analyzer Project Yet Another UserAgent Analyzer (yauaa) 7.2.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/nielsbasjes/yauaa/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/nielsbasjes/yauaa/security/advisories/GHSA-c4pm-63cg-9j7h",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23496"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

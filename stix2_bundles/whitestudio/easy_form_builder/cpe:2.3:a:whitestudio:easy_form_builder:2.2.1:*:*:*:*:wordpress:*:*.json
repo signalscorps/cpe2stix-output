@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--abbc7897-6370-4c78-ac56-3b47e23160e5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f8c9df1e-53ae-54c8-94e4-cf770f06fdf1",
+            "name": "Whitestudio Easy Form Builder 2.2.1 for WordPress",
+            "cpe": "cpe:2.3:a:whitestudio:easy_form_builder:2.2.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "whitestudio",
+            "version": "2.2.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:whitestudio:easy_form_builder:2.2.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-14T20:30Z",
+                        "titles": [
+                            {
+                                "title": "Whitestudio Easy Form Builder 2.2.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wpscan.com/vulnerability/fee8652d-cd50-4cb0-b94d-2d124f56af1a",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/easy-form-builder/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://whitestudio.team/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3906"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--37a019b1-bff9-4bcb-ab47-3be1f94b876a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b3005842-04bc-5795-96c3-cb3187fb479c",
+            "name": "Wiesemann & Theis Com-Server Highspeed Office 4port Firmware",
+            "cpe": "cpe:2.3:o:wut:com-server_highspeed_office_4port_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wut",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:wut:com-server_highspeed_office_4port_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-14T17:44Z",
+                        "titles": [
+                            {
+                                "title": "Wiesemann & Theis Com-Server Highspeed Office 4port Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-057/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.wut.de/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-42785",
+                            "CVE-2022-42786",
+                            "CVE-2022-42787"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--5acd8079-9ab1-4d21-acd5-964ccfebb593",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--eb23c9a8-b7ce-5a1a-9072-0e1e2b067d83",
+            "name": "Wiesemann & Theis Com-Server ++ Firmware",
+            "cpe": "cpe:2.3:o:wut:com-server_\\+\\+_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wut",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:wut:com-server_\\+\\+_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-14T17:44Z",
+                        "titles": [
+                            {
+                                "title": "Wiesemann & Theis Com-Server ++ Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-057/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.wut.de/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-42785",
+                            "CVE-2022-42786",
+                            "CVE-2022-42787"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

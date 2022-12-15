@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--dbecd3d2-101d-4550-94c4-526c8313c34a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3c07eb4c-c0ec-5eac-9683-60b2fc5777fc",
+            "name": "Yet Another UserAgent Analyzer Project Yet Another UserAgent Analyzer (yauaa) 4.5",
+            "cpe": "cpe:2.3:a:yet_another_useragent_analyzer_project:yet_another_useragent_analyzer:4.5:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "yet_another_useragent_analyzer_project",
+            "version": "4.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:yet_another_useragent_analyzer_project:yet_another_useragent_analyzer:4.5:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-14T20:30Z",
+                        "titles": [
+                            {
+                                "title": "Yet Another UserAgent Analyzer Project Yet Another UserAgent Analyzer (yauaa) 4.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/nielsbasjes/yauaa/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/nielsbasjes/yauaa/security/advisories/GHSA-c4pm-63cg-9j7h",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

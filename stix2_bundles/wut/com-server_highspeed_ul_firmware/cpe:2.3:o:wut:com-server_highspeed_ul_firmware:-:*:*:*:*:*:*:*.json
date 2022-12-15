@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--69754164-3bff-42c1-8d6d-f96d61ef5d5d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--305ff5b0-3b29-5df9-873d-81a28afe29ee",
+            "name": "Wiesemann & Theis Com-Server Highspeed UL Firmware",
+            "cpe": "cpe:2.3:o:wut:com-server_highspeed_ul_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wut",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:wut:com-server_highspeed_ul_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-14T17:44Z",
+                        "titles": [
+                            {
+                                "title": "Wiesemann & Theis Com-Server Highspeed UL Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-057/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.wut.de/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-42785",
+                            "CVE-2022-42786",
+                            "CVE-2022-42787"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

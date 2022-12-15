@@ -1,0 +1,58 @@
+{
+    "type": "bundle",
+    "id": "bundle--d5f8ccee-d28a-4771-a358-45b4e821fe5d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c1a7d5c0-80e7-5bb9-91ec-21d7269db77d",
+            "name": "HPE Integrated Lights-out 5 Firmware",
+            "cpe": "cpe:2.3:o:hpe:integrated_lights-out_5_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hpe",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:hpe:integrated_lights-out_5_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-14T20:30Z",
+                        "titles": [
+                            {
+                                "title": "HPE Integrated Lights-out 5 Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=emr_na-hpesbhf04333en_us",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-28626",
+                            "CVE-2022-28627",
+                            "CVE-2022-28628",
+                            "CVE-2022-28629",
+                            "CVE-2022-28630",
+                            "CVE-2022-28631",
+                            "CVE-2022-28632",
+                            "CVE-2022-28633",
+                            "CVE-2022-28634",
+                            "CVE-2022-28635",
+                            "CVE-2022-28636",
+                            "CVE-2022-28637",
+                            "CVE-2022-28638",
+                            "CVE-2022-28639",
+                            "CVE-2022-28640"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

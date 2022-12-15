@@ -1,0 +1,47 @@
+{
+    "type": "bundle",
+    "id": "bundle--560b21bd-6bac-4d9d-89b8-e6ff1318e8f0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--de0ab0e7-ea4f-55b2-a5d3-8dddcefe0b3d",
+            "name": "HPE Integrated Lights-out 5 Firmware 2.71",
+            "cpe": "cpe:2.3:o:hpe:integrated_lights-out_5_firmware:2.71:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hpe",
+            "version": "2.71",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:hpe:integrated_lights-out_5_firmware:2.71:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-14T20:30Z",
+                        "titles": [
+                            {
+                                "title": "HPE Integrated Lights-out 5 Firmware 2.71",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=emr_na-hpesbhf04333en_us",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-28637",
+                            "CVE-2022-28638",
+                            "CVE-2022-28639",
+                            "CVE-2022-28640"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

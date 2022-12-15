@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--8c41a58b-8273-496b-b892-315988e343bb",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d1357768-c9c5-5b97-8f8d-d50f984c5bac",
+            "name": "Whitestudio Easy Form Builder 3.4.2 for WordPress",
+            "cpe": "cpe:2.3:a:whitestudio:easy_form_builder:3.4.2:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "whitestudio",
+            "version": "3.4.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:whitestudio:easy_form_builder:3.4.2:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-14T20:30Z",
+                        "titles": [
+                            {
+                                "title": "Whitestudio Easy Form Builder 3.4.2 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wpscan.com/vulnerability/fee8652d-cd50-4cb0-b94d-2d124f56af1a",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/easy-form-builder/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://whitestudio.team/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

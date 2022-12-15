@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--b6a47df6-16fd-4547-965c-b1d37a8bbf20",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2d392caa-5bd2-5db1-901f-70e205c1cc8f",
+            "name": "HPE Flexfabric 5945 Firmware 7.10.r6635",
+            "cpe": "cpe:2.3:o:hpe:flexfabric_5945_firmware:7.10.r6635:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hpe",
+            "version": "7.10.r6635",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:hpe:flexfabric_5945_firmware:7.10.r6635:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-14T20:30Z",
+                        "titles": [
+                            {
+                                "title": "HPE Flexfabric 5945 Firmware 7.10.r6635",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=emr_na-hpesbnw04265en_us",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://buy.hpe.com/us/en/networking/networking-switches/hpe-flexfabric-5945-switch-series/p/1010907030",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-28624"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

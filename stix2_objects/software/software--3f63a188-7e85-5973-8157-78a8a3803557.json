@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--3f63a188-7e85-5973-8157-78a8a3803557",
+    "name": "HP NonStop NetBatch Plus T9189I01",
+    "cpe": "cpe:2.3:a:hp:nonstop_netbatch-plus:t9189l01:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "hp",
+    "version": "t9189l01",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:hp:nonstop_netbatch-plus:t9189l01:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-14T22:29Z",
+                "refs": [
+                    {
+                        "ref": "https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=hpesbns04388en_us",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.hpe.com/psnow/doc/c02128574?jumpid=in_hpesitesearch",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "HP NonStop NetBatch Plus T9189I01"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-37931"
+                ]
+            }
+        }
+    }
+}

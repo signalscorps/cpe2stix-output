@@ -1,0 +1,44 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--588bd303-cb1a-5c8a-98f0-47ded226b5a1",
+    "name": "Jenkins Checkmarx for Jenkins",
+    "cpe": "cpe:2.3:a:jenkins:checkmarx:-:*:*:*:*:jenkins:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jenkins",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jenkins:checkmarx:-:*:*:*:*:jenkins:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-14T20:30Z",
+                "refs": [
+                    {
+                        "ref": "https://plugins.jenkins.io/checkmarx/#releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://www.jenkins.io/security/advisory/2022-12-07/#SECURITY-2869",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jenkins Checkmarx for Jenkins"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-25200",
+                    "CVE-2022-25201",
+                    "CVE-2022-46684"
+                ]
+            }
+        }
+    }
+}

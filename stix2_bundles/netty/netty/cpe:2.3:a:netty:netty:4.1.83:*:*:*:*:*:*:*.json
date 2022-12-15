@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--28e87093-2e9b-4b09-90d1-5f11a9a3ed03",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b05fc09d-ee1f-5769-9386-2cf395881f45",
+            "name": "Netty 4.1.83",
+            "cpe": "cpe:2.3:a:netty:netty:4.1.83:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "netty",
+            "version": "4.1.83",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:netty:netty:4.1.83:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-14T20:30Z",
+                        "titles": [
+                            {
+                                "title": "Netty 4.1.83",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/netty/netty/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://netty.io/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

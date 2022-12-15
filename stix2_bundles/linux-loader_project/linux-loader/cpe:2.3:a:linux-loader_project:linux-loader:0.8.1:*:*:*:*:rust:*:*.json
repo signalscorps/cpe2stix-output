@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--e7be9ea7-39aa-4f6a-a4be-522d153c0679",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6b201107-3b91-5a9c-8629-8b807fa501eb",
+            "name": "Linux-loader Project Linux-loader 0.8.1 for Rust",
+            "cpe": "cpe:2.3:a:linux-loader_project:linux-loader:0.8.1:*:*:*:*:rust:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "linux-loader_project",
+            "version": "0.8.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:linux-loader_project:linux-loader:0.8.1:*:*:*:*:rust:*:*",
+                        "lastModifiedDate": "2022-12-14T20:30Z",
+                        "titles": [
+                            {
+                                "title": "Linux-loader Project Linux-loader 0.8.1 for Rust",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://crates.io/crates/linux-loader",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://github.com/rust-vmm/linux-loader/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

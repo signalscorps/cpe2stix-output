@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--07f5f035-124f-4d50-979e-afaa5fa46a03",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4632ec7f-8757-5bae-936e-9b2432d1bd9b",
+            "name": "HP Support Assistant 9.11",
+            "cpe": "cpe:2.3:a:hp:support_assistant:9.11:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hp",
+            "version": "9.11",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:hp:support_assistant:9.11:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-14T22:29Z",
+                        "titles": [
+                            {
+                                "title": "HP Support Assistant 9.11",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.hp.com/us-en/document/ish_6788123-6788147-16/hpsbhf03809",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2017-2744"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

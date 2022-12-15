@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--7d6c2f6f-4b5d-4e46-90f5-3392786b563c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c9d18c30-bff5-5c88-b85b-3d8061292e0f",
+            "name": "Wiesemann & Theis Com-Server Highspeed PoE 3x Isolated Firmware",
+            "cpe": "cpe:2.3:o:wut:com-server_highspeed_poe_3x_isolated_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wut",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:wut:com-server_highspeed_poe_3x_isolated_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-14T17:44Z",
+                        "titles": [
+                            {
+                                "title": "Wiesemann & Theis Com-Server Highspeed PoE 3x Isolated Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-057/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.wut.de/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-42785",
+                            "CVE-2022-42786",
+                            "CVE-2022-42787"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

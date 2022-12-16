@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--e9c9fedf-78ca-4ba0-ba1e-45b3a20a4eaf",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e7adc799-d678-520c-abe3-d149ecefa085",
+            "name": "Yonyou U8+ 13.0",
+            "cpe": "cpe:2.3:a:yonyou:u8\\+:13.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "yonyou",
+            "version": "13.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:yonyou:u8\\+:13.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T17:55Z",
+                        "titles": [
+                            {
+                                "title": "Yonyou U8+ 13.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "http://yonyou.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/k0xx11/Vulscve/blob/master/yonyouu8-xss.md",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-26263"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--cfc814f9-1222-43b9-a3c0-104468600468",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5aee4aa8-e033-5923-98ed-aa05eff6e855",
+            "name": "Github Readme Stats Project Github Readme Stats 1.0",
+            "cpe": "cpe:2.3:a:github_readme_stats_project:github_readme_stats:1.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "github_readme_stats_project",
+            "version": "1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:github_readme_stats_project:github_readme_stats:1.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T16:37Z",
+                        "titles": [
+                            {
+                                "title": "Github Readme Stats Project Github Readme Stats 1.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-23986"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

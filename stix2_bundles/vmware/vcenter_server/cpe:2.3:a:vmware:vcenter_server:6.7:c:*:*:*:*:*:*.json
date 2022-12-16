@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--579e7baf-4e24-4f61-87fd-a7c141aa7fa7",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--111b20ad-c4c9-5525-ad99-eb8974aa14d1",
+            "name": "VMware vCenter Server 6.7 c",
+            "cpe": "cpe:2.3:a:vmware:vcenter_server:6.7:c:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "vmware",
+            "version": "6.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:vmware:vcenter_server:6.7:c:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T14:36Z",
+                        "titles": [
+                            {
+                                "title": "VMware vCenter Server 6.7 c",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://docs.vmware.com/en/VMware-vSphere/6.7/rn/vsphere-vcenter-server-67u3s-release-notes.html",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-5531",
+                            "CVE-2019-5532",
+                            "CVE-2019-5534",
+                            "CVE-2021-21991",
+                            "CVE-2022-31697"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

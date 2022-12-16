@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--ad3f8f5a-4e57-5fd1-a626-7e613be16425",
+    "name": "Cisco ASR 1000-ESP100-X",
+    "cpe": "cpe:2.3:h:cisco:asr_1000-esp100-x:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "cisco",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:cisco:asr_1000-esp100-x:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-15T18:05Z",
+                "refs": [
+                    {
+                        "ref": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/asr-1000-series-embedded-services-ds.html",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Cisco ASR 1000-ESP100-X"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-20837"
+                ]
+            }
+        }
+    }
+}

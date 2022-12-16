@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--a6b4d177-ec19-4713-8848-ce7c71df5cbc",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e9e80191-455c-5e8e-b97a-b3f987c74e7b",
+            "name": "Axiomatic Systems Bento4 2022-10-08",
+            "cpe": "cpe:2.3:a:axiosys:bento4:2022-10-08:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "axiosys",
+            "version": "2022-10-08",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:axiosys:bento4:2022-10-08:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T16:35Z",
+                        "titles": [
+                            {
+                                "title": "Axiomatic Systems Bento4 2022-10-08",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/axiomatic-systems/Bento4/issues/812",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/axiomatic-systems/Bento4/issues/812",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3974"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--3c3fd138-0d38-5519-8b37-6d8aab38af51",
+    "name": "Tenda AC6 Firmware 15.03.05.19",
+    "cpe": "cpe:2.3:o:tenda:ac6_firmware:15.03.05.19:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "tenda",
+    "version": "15.03.05.19",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:tenda:ac6_firmware:15.03.05.19:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-15T20:22Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/iceyjchen/VulnerabilityProjectRecords/blob/main/fromSysToolRestoreSet/fromSysToolRestoreSet.md",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.tendacn.com/product/AC6.html",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Tenda AC6 Firmware 15.03.05.19"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-45640",
+                    "CVE-2022-45641",
+                    "CVE-2022-45673",
+                    "CVE-2022-45674"
+                ]
+            }
+        }
+    }
+}

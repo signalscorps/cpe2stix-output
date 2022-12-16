@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--b477192b-9509-492f-9b50-d439946bcf79",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fd87a317-af32-5878-8395-75a27323c60b",
+            "name": "BD BodyGuard Duo 999-903 Firmware",
+            "cpe": "cpe:2.3:o:bd:bodyguard_duo_999-903_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "bd",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:bd:bodyguard_duo_999-903_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T20:15Z",
+                        "titles": [
+                            {
+                                "title": "BD BodyGuard Duo 999-903 Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.bd.com/en-us/about-bd/cybersecurity/bulletin/bd-bodyguard-pumps-rs-232-interface-vulnerability",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.bd.com/documents/international/catalogs/infusion/IF_Global-ambulatory-infusion-issue-4-CF04250_CT_EN.pdf",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43557"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

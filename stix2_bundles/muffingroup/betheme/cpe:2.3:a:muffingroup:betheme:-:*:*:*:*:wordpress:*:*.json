@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--22e72049-1655-42e1-b26a-cd076e937d67",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0706a981-fb45-574e-b529-c053f0fd74dd",
+            "name": "Muffin Group BeTheme for WordPress",
+            "cpe": "cpe:2.3:a:muffingroup:betheme:-:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "muffingroup",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:muffingroup:betheme:-:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-15T16:39Z",
+                        "titles": [
+                            {
+                                "title": "Muffin Group BeTheme for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.wordfence.com/vulnerability-advisories-continued/#CVE-2022-3861",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://muffingroup.com/betheme/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3861",
+                            "CVE-2022-45077",
+                            "CVE-2022-45363"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

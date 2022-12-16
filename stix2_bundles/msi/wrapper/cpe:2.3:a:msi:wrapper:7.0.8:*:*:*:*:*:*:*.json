@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--64c14d06-f59b-41e7-8331-d33eec3d13b2",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2f588e21-0e59-5ddb-a6cb-27c2e75a1ee7",
+            "name": "MSI Wrapper 7.0.8",
+            "cpe": "cpe:2.3:a:msi:wrapper:7.0.8:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "msi",
+            "version": "7.0.8",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:msi:wrapper:7.0.8:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T20:08Z",
+                        "titles": [
+                            {
+                                "title": "MSI Wrapper 7.0.8",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.exemsi.com/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.exemsi.com/version-history/",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-32415"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

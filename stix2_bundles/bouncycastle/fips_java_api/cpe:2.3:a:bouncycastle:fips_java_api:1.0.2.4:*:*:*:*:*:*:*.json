@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--dd87ed40-1bb6-43fc-bc0e-14423b6815a1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e6a50614-b2b3-5069-9ae9-e866ed0f2138",
+            "name": "Bouncy Castle FIPS Java API 1.0.2.4",
+            "cpe": "cpe:2.3:a:bouncycastle:fips_java_api:1.0.2.4:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "bouncycastle",
+            "version": "1.0.2.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:bouncycastle:fips_java_api:1.0.2.4:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T16:36Z",
+                        "titles": [
+                            {
+                                "title": "Bouncy Castle FIPS Java API 1.0.2.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.bouncycastle.org/latest_releases.html",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/bcgit/bc-java/wiki/CVE-2022-45146",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

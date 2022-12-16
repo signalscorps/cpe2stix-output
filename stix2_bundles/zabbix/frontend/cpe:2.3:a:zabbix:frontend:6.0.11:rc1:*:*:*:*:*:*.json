@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--05c247f8-550d-4c4e-a7a3-23e252836d63",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--62c5ae9e-c60f-5bd4-b606-cce58cb15f8d",
+            "name": "Zabbix Frontend 6.0.11 Release Candidate 1",
+            "cpe": "cpe:2.3:a:zabbix:frontend:6.0.11:rc1:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "zabbix",
+            "version": "6.0.11",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:zabbix:frontend:6.0.11:rc1:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T17:55Z",
+                        "titles": [
+                            {
+                                "title": "Zabbix Frontend 6.0.11 Release Candidate 1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/43xxx/CVE-2022-43515.json",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.zabbix.com/release_notes",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43515"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

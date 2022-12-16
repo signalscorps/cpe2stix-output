@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--0350a5f1-cf33-5fc9-8353-3b7ea63f005d",
+    "name": "EZVIZ CS-DB1C-A0-1E2W2FR",
+    "cpe": "cpe:2.3:h:ezviz:cs-db1c-a0-1e2w2fr:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "ezviz",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:ezviz:cs-db1c-a0-1e2w2fr:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-15T18:06Z",
+                "refs": [
+                    {
+                        "ref": "https://www.ezviz.com/us/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://www.bitdefender.com/blog/labs/vulnerabilities-identified-in-ezviz-smart-cams",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "EZVIZ CS-DB1C-A0-1E2W2FR"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-2471"
+                ]
+            }
+        }
+    }
+}

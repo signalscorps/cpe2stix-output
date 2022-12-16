@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--701d3bb0-9590-4dae-9dfe-49f5ab3dfa5a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--30d8b8d8-5af8-5fb5-89ec-51ea52d97451",
+            "name": "SAP Commerce Webservices 2.0 2011",
+            "cpe": "cpe:2.3:a:sap:commerce_webservices_2.0:2011:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sap",
+            "version": "2011",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sap:commerce_webservices_2.0:2011:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T16:44Z",
+                        "titles": [
+                            {
+                                "title": "SAP Commerce Webservices 2.0 2011",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://help.sap.com/doc/ccb4ef164f2341eeacbf9a1b2791eba8/1905/en-US/financialWebservices.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41266"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

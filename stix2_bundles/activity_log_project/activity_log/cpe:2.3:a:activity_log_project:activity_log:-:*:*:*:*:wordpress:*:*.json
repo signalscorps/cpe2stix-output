@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--17737ac8-0b48-4bcf-9f2f-b57d1eab398b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e229cfc6-dc9c-5359-ac02-90443188dd0e",
+            "name": "Activity Log Project Activity Log for WordPress",
+            "cpe": "cpe:2.3:a:activity_log_project:activity_log:-:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "activity_log_project",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:activity_log_project:activity_log:-:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-15T16:34Z",
+                        "titles": [
+                            {
+                                "title": "Activity Log Project Activity Log for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://vuldb.com/?id.213448",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/aryo-activity-log/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2016-10890",
+                            "CVE-2016-10891",
+                            "CVE-2018-8729",
+                            "CVE-2022-27858",
+                            "CVE-2022-3941"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

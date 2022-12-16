@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--c9ede9ec-81fe-423d-9603-a1f759685779",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--75922799-bda4-5864-9e92-130c2bca7be6",
+            "name": "HPE OFFICECONNECT 1920S 8G PPOE+",
+            "cpe": "cpe:2.3:h:hpe:officeconnect_1920s_8g_ppoe\\+:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hpe",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:hpe:officeconnect_1920s_8g_ppoe\\+:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T20:12Z",
+                        "titles": [
+                            {
+                                "title": "HPE OFFICECONNECT 1920S 8G PPOE+",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=emr_na-hpesbnw04383en_us",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-37932"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

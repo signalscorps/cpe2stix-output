@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--e86bbf19-e4b6-41f5-8bd3-a3043e5e6237",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--785853d0-3925-5f45-b9d7-fa3b4f7a43c2",
+            "name": "Cisco Duo Two-Factor Authentication for MacOS",
+            "cpe": "cpe:2.3:a:cisco:duo:-:*:*:*:*:macos:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:cisco:duo:-:*:*:*:*:macos:*:*",
+                        "lastModifiedDate": "2022-12-15T16:36Z",
+                        "titles": [
+                            {
+                                "title": "Cisco Duo Two-Factor Authentication for MacOS",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-duo-macOS-bypass-uKZNpXE6",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://duo.com/docs/macos",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-20662"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

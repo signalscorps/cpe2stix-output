@@ -1,0 +1,55 @@
+{
+    "type": "bundle",
+    "id": "bundle--c6b571b6-ce6b-4df7-a3b0-93bcb30be868",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--44f70f42-6b27-59fc-8d29-9df0b4415066",
+            "name": "GPAC 2.1-DEV-rev490-g68064e101-master",
+            "cpe": "cpe:2.3:a:gpac:gpac:2.1-dev-rev490-g68064e101-master:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "gpac",
+            "version": "2.1-dev-rev490-g68064e101-master",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:gpac:gpac:2.1-dev-rev490-g68064e101-master:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T16:38Z",
+                        "titles": [
+                            {
+                                "title": "GPAC 2.1-DEV-rev490-g68064e101-master",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://vuldb.com/?id.214518",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-23930",
+                            "CVE-2021-32269",
+                            "CVE-2021-32270",
+                            "CVE-2021-32271",
+                            "CVE-2022-1795",
+                            "CVE-2022-29339",
+                            "CVE-2022-29340",
+                            "CVE-2022-3178",
+                            "CVE-2022-36191",
+                            "CVE-2022-38530",
+                            "CVE-2022-3957",
+                            "CVE-2022-4202"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

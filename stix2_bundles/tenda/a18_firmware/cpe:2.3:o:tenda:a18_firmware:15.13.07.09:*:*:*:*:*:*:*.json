@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--ce3cb97c-50b6-49d4-9bc2-5ff143663c3e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bc2548f1-cbea-5ca9-a967-c59963943162",
+            "name": "Tenda A18 Firmware 15.13.07.09",
+            "cpe": "cpe:2.3:o:tenda:a18_firmware:15.13.07.09:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tenda",
+            "version": "15.13.07.09",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:tenda:a18_firmware:15.13.07.09:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T20:22Z",
+                        "titles": [
+                            {
+                                "title": "Tenda A18 Firmware 15.13.07.09",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.tenda.com.cn/download/detail-2760.html",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.tenda.com.cn/default.html",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-44931",
+                            "CVE-2022-44932"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

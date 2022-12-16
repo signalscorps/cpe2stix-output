@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--d385f05b-b1a8-4d58-8f50-6223d9825ea8",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6f9c9a16-5ff3-5096-863d-109cb18bf4e4",
+            "name": "BD BodyGuard 323 Colorvision Firmware",
+            "cpe": "cpe:2.3:o:bd:bodyguard_323_colorvision_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "bd",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:bd:bodyguard_323_colorvision_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T20:15Z",
+                        "titles": [
+                            {
+                                "title": "BD BodyGuard 323 Colorvision Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.bd.com/en-us/about-bd/cybersecurity/bulletin/bd-bodyguard-pumps-rs-232-interface-vulnerability",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.bd.com/en-mena/our-products/infusion/infusion-devices/cme-ambulatory-infusion-systems/bodyguard-colorvision-pumps/bodyguard-323-colorvision-pump",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43557"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

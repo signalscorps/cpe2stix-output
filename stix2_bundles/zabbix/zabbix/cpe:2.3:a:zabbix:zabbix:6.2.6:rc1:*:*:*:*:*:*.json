@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--3a17694e-6d04-4ff8-9314-bd356cb8f755",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5914bf8f-5586-58a9-87a7-af89d6cf2f02",
+            "name": "Zabbix 6.2.6 Release Candidate 1",
+            "cpe": "cpe:2.3:a:zabbix:zabbix:6.2.6:rc1:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "zabbix",
+            "version": "6.2.6",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:zabbix:zabbix:6.2.6:rc1:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T17:55Z",
+                        "titles": [
+                            {
+                                "title": "Zabbix 6.2.6 Release Candidate 1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.zabbix.com/browse/ZBX-22002",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.zabbix.com/cn/rn/rn6.0.12",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43516"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

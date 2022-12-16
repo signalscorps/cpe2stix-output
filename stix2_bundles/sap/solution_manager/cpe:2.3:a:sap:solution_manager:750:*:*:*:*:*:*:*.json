@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--8214dfe8-04e6-44ec-8872-3576fb88a1ce",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bf9c3267-4bdf-563e-baa4-ba3cf2b741b5",
+            "name": "SAP Solution Manager 750",
+            "cpe": "cpe:2.3:a:sap:solution_manager:750:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sap",
+            "version": "750",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sap:solution_manager:750:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T16:44Z",
+                        "titles": [
+                            {
+                                "title": "SAP Solution Manager 750",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41275"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

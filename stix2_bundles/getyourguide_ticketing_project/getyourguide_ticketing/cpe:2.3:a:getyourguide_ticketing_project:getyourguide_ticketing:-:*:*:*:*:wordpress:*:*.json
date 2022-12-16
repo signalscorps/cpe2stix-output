@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--8f36b0e1-9ca2-4a1d-9ca6-4fa0632e6a34",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--43eba402-96d9-5b09-ac64-1f262399e830",
+            "name": "GetYourGuide Ticketing Project GetYourGuide Ticketing for WordPress",
+            "cpe": "cpe:2.3:a:getyourguide_ticketing_project:getyourguide_ticketing:-:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "getyourguide_ticketing_project",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:getyourguide_ticketing_project:getyourguide_ticketing:-:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-15T15:48Z",
+                        "titles": [
+                            {
+                                "title": "GetYourGuide Ticketing Project GetYourGuide Ticketing for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/getyourguide-ticketing/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://wpscan.com/vulnerability/b893cac2-6511-4e2a-9eff-baf0f3cc9d7e",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3609"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

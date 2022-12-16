@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--97514350-3209-41f4-9ebd-fa3dd9ac4eea",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e31e3189-398f-50ba-80c8-3b9357919710",
+            "name": "Jettison Project Jettison 1.0 Beta 1",
+            "cpe": "cpe:2.3:a:jettison_project:jettison:1.0:beta1:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jettison_project",
+            "version": "1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jettison_project:jettison:1.0:beta1:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T15:48Z",
+                        "titles": [
+                            {
+                                "title": "Jettison Project Jettison 1.0 Beta 1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/jettison-json/jettison/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/jettison-json/jettison/issues/54",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-40149",
+                            "CVE-2022-40150"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

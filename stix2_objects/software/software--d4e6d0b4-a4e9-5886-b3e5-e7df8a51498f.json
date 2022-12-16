@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--d4e6d0b4-a4e9-5886-b3e5-e7df8a51498f",
+    "name": "Updraft Plus All-In-One Security (AIOS) 5.0.5 for WordPress",
+    "cpe": "cpe:2.3:a:updraftplus:all-in-one_security:5.0.5:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "updraftplus",
+    "version": "5.0.5",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:updraftplus:all-in-one_security:5.0.5:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-15T16:13Z",
+                "refs": [
+                    {
+                        "ref": "https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/#developers",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://aiosplugin.com/",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Updraft Plus All-In-One Security (AIOS) 5.0.5 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-4097"
+                ]
+            }
+        }
+    }
+}

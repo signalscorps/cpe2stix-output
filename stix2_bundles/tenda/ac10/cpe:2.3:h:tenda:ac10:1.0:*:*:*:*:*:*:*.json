@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--2bba20d6-106a-474d-8afa-4942e05f9f99",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d2084deb-aca2-581e-89c5-916421729989",
+            "name": "Tenda AC10 1.0",
+            "cpe": "cpe:2.3:h:tenda:ac10:1.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tenda",
+            "version": "1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:tenda:ac10:1.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T20:13Z",
+                        "titles": [
+                            {
+                                "title": "Tenda AC10 1.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/winmt/CVE/blob/main/Tenda%20AC10/README.md",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.tenda.cn/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-32054"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--b274158b-5ea2-55dd-917e-187f9528fb63",
+    "name": "Tenda i21 Firmware 1.0.0.14(4656)",
+    "cpe": "cpe:2.3:o:tenda:i21_firmware:1.0.0.14\\(4656\\):*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "tenda",
+    "version": "1.0.0.14\\(4656\\)",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:tenda:i21_firmware:1.0.0.14\\(4656\\):*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-15T20:22Z",
+                "refs": [
+                    {
+                        "ref": "https://exchange.xforce.ibmcloud.com/vulnerabilities/241322",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.tendacn.com/product/i21.html",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Tenda i21 Firmware 1.0.0.14(4656)"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-44362",
+                    "CVE-2022-44363",
+                    "CVE-2022-44365",
+                    "CVE-2022-44366",
+                    "CVE-2022-44367"
+                ]
+            }
+        }
+    }
+}

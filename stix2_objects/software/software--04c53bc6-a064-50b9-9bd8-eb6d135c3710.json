@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--04c53bc6-a064-50b9-9bd8-eb6d135c3710",
+    "name": "BD BodyGuard 999-603",
+    "cpe": "cpe:2.3:h:bd:bodyguard_999-603:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "bd",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:bd:bodyguard_999-603:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-15T17:56Z",
+                "refs": [
+                    {
+                        "ref": "https://www.bd.com/en-us/about-bd/cybersecurity/bulletin/bd-bodyguard-pumps-rs-232-interface-vulnerability",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.bd.com/documents/international/catalogs/infusion/IF_Global-ambulatory-infusion-issue-4-CF04250_CT_EN.pdf",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "BD BodyGuard 999-603"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-43557"
+                ]
+            }
+        }
+    }
+}

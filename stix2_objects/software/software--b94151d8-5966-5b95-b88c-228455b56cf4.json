@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--b94151d8-5966-5b95-b88c-228455b56cf4",
+    "name": "pb-cms Project pb-cms 2.0",
+    "cpe": "cpe:2.3:a:pb-cms_project:pb-cms:2.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "pb-cms_project",
+    "version": "2.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:pb-cms_project:pb-cms:2.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-15T16:40Z",
+                "refs": [
+                    {
+                        "ref": "https://gitee.com/LinZhaoguan/pb-cms/tags",
+                        "type": "Version"
+                    },
+                    {
+                        "ref": "https://vuldb.com/?id.215113",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "pb-cms Project pb-cms 2.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-4353",
+                    "CVE-2022-4354"
+                ]
+            }
+        }
+    }
+}

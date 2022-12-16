@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--987acaa4-2155-5286-a03f-ab34d570f908",
+    "name": "HPE OFFICECONNECT 1920S 8G",
+    "cpe": "cpe:2.3:h:hpe:officeconnect_1920s_8g:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "hpe",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:hpe:officeconnect_1920s_8g:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-15T20:12Z",
+                "refs": [
+                    {
+                        "ref": "https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=emr_na-hpesbnw04383en_us",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "HPE OFFICECONNECT 1920S 8G"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-37932"
+                ]
+            }
+        }
+    }
+}

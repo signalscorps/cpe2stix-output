@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--76de03af-2e41-5cca-9c1c-5d2aed002c24",
+    "name": "HPE OFFICECONNECT 1850 2XGT/SPF+",
+    "cpe": "cpe:2.3:h:hpe:officeconnect_1850_2xgt\\/spf\\+:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "hpe",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:hpe:officeconnect_1850_2xgt\\/spf\\+:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-15T20:12Z",
+                "refs": [
+                    {
+                        "ref": "https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=emr_na-hpesbnw04383en_us",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "HPE OFFICECONNECT 1850 2XGT/SPF+"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-37932"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--b96dfe1f-3f25-5e05-9bf0-4b5c7bf98486",
+    "name": "EZVIZ CS-C6N-B0-1G2WF",
+    "cpe": "cpe:2.3:h:ezviz:cs-c6n-b0-1g2wf:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "ezviz",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:ezviz:cs-c6n-b0-1g2wf:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-15T18:06Z",
+                "refs": [
+                    {
+                        "ref": "https://www.ezviz.com/us/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://www.bitdefender.com/blog/labs/vulnerabilities-identified-in-ezviz-smart-cams",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "EZVIZ CS-C6N-B0-1G2WF"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-2471"
+                ]
+            }
+        }
+    }
+}

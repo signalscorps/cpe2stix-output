@@ -1,0 +1,51 @@
+{
+    "type": "bundle",
+    "id": "bundle--cebeaa24-eaba-42f2-8e5c-f555b9999eaf",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0e2aff6f-c124-5a14-9740-7edeec322df7",
+            "name": "Cisco ATA 191 Multiplatform Edition",
+            "cpe": "cpe:2.3:h:cisco:ata_191:-:*:*:*:multiplatform:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:cisco:ata_191:-:*:*:*:multiplatform:*:*:*",
+                        "lastModifiedDate": "2022-12-15T18:05Z",
+                        "titles": [
+                            {
+                                "title": "Cisco ATA 191 Multiplatform Edition",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ata19x-multivuln-GEZYVvs",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-34710",
+                            "CVE-2021-34735",
+                            "CVE-2022-20686",
+                            "CVE-2022-20687",
+                            "CVE-2022-20688",
+                            "CVE-2022-20689",
+                            "CVE-2022-20690",
+                            "CVE-2022-20691"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--461e9d45-9eab-4c32-b21f-9da42fa2db17",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3ccf511d-72d8-5d1a-9f5a-00fc286b7e29",
+            "name": "Microsoft Windows 11 22h2 10.0.22621.674 on X64",
+            "cpe": "cpe:2.3:o:microsoft:windows_11_22h2:10.0.22621.674:*:*:*:*:*:x64:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "microsoft",
+            "version": "10.0.22621.674",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:microsoft:windows_11_22h2:10.0.22621.674:*:*:*:*:*:x64:*",
+                        "lastModifiedDate": "2022-12-15T20:18Z",
+                        "titles": [
+                            {
+                                "title": "Microsoft Windows 11 22h2 10.0.22621.674 on X64",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2022-33635",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://learn.microsoft.com/en-us/windows/release-health/windows11-release-information",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

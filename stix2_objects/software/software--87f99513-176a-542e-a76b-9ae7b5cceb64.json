@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--87f99513-176a-542e-a76b-9ae7b5cceb64",
+    "name": "Livemesh Addons for Elementor 7.2.2 for WordPress",
+    "cpe": "cpe:2.3:a:livemeshelementor:addons_for_elementor:7.2.2:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "livemeshelementor",
+    "version": "7.2.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:livemeshelementor:addons_for_elementor:7.2.2:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-15T15:48Z",
+                "refs": [
+                    {
+                        "ref": "https://livemeshelementor.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://wpscan.com/vulnerability/3db9a8f5-3335-4b8d-a067-091cbfed1efc",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://wordpress.org/plugins/addons-for-elementor/#developers",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Livemesh Addons for Elementor 7.2.2 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3862"
+                ]
+            }
+        }
+    }
+}

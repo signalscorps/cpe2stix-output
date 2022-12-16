@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--c341554c-6bc5-4903-8995-d95ed23ed630",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--77d38170-6020-51a7-8046-4f974b27c8b6",
+            "name": "Cisco ASR 1000-ESP200-X",
+            "cpe": "cpe:2.3:h:cisco:asr_1000-esp200-x:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:cisco:asr_1000-esp200-x:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T18:05Z",
+                        "titles": [
+                            {
+                                "title": "Cisco ASR 1000-ESP200-X",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/asr-1000-series-embedded-services-ds.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-20837"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--1c60c4e3-bf28-4987-ad73-f2c112e6c815",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8d095bf5-9dd7-5287-858d-46299cb69c8f",
+            "name": "Yokogawa Rental & Lease Corporation Passage Drive For Box 1.0.0",
+            "cpe": "cpe:2.3:a:yrl:passage_drive_for_box:1.0.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "yrl",
+            "version": "1.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:yrl:passage_drive_for_box:1.0.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T17:55Z",
+                        "titles": [
+                            {
+                                "title": "Yokogawa Rental & Lease Corporation Passage Drive For Box 1.0.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.yrl.com/fwp_support/info/a1hrbt0000002037.html",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.yrl.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34866"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

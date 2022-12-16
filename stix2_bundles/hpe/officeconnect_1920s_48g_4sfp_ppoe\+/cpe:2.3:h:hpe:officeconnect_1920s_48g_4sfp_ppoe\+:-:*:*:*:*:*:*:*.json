@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--88407aeb-84bf-4b5f-ac2f-352ef85c27fe",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6e4c496b-60f1-5ef4-961f-16e0e4d7dd61",
+            "name": "HPE OFFICECONNECT 1920S 48G 4SFP PPOE+",
+            "cpe": "cpe:2.3:h:hpe:officeconnect_1920s_48g_4sfp_ppoe\\+:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hpe",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:hpe:officeconnect_1920s_48g_4sfp_ppoe\\+:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T20:12Z",
+                        "titles": [
+                            {
+                                "title": "HPE OFFICECONNECT 1920S 48G 4SFP PPOE+",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=emr_na-hpesbnw04383en_us",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-37932"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--9e4b0885-19b1-4773-8924-22ee089deeba",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f5688191-5450-5c17-a987-b37d6a52ad77",
+            "name": "Tenda AC1200 V-W15EV2",
+            "cpe": "cpe:2.3:h:tenda:ac1200_v-w15ev2:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tenda",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:tenda:ac1200_v-w15ev2:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T20:13Z",
+                        "titles": [
+                            {
+                                "title": "Tenda AC1200 V-W15EV2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://boschko.ca/tenda_ac1200_router/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-40843",
+                            "CVE-2022-40844",
+                            "CVE-2022-40845",
+                            "CVE-2022-40846",
+                            "CVE-2022-40847",
+                            "CVE-2022-41395",
+                            "CVE-2022-41396",
+                            "CVE-2022-42053",
+                            "CVE-2022-42058",
+                            "CVE-2022-42060"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

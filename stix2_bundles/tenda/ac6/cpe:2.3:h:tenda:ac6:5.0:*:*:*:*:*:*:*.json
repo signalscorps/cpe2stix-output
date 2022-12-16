@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--b4e14c75-ddbe-4afe-8787-7f11a0c8c03c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--db15ebcf-c602-561c-968a-11beb097542b",
+            "name": "Tenda AC6 5.0",
+            "cpe": "cpe:2.3:h:tenda:ac6:5.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tenda",
+            "version": "5.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:tenda:ac6:5.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T20:13Z",
+                        "titles": [
+                            {
+                                "title": "Tenda AC6 5.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/advisories/GHSA-j2ch-2mcc-vpwr",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.tendacn.com/us/product/ac6.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

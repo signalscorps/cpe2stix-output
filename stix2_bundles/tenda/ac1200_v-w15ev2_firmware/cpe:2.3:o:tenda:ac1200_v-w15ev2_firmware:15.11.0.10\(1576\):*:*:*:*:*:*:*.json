@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--c07c23f9-726e-4f5d-8b23-cf92d3d61f5d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7057c851-4a91-5786-9a33-f659060879ba",
+            "name": "Tenda AC1200 V-W15EV2 Firmware 15.11.0.10(1576)",
+            "cpe": "cpe:2.3:o:tenda:ac1200_v-w15ev2_firmware:15.11.0.10\\(1576\\):*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tenda",
+            "version": "15.11.0.10\\(1576\\)",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:tenda:ac1200_v-w15ev2_firmware:15.11.0.10\\(1576\\):*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T20:22Z",
+                        "titles": [
+                            {
+                                "title": "Tenda AC1200 V-W15EV2 Firmware 15.11.0.10(1576)",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://boschko.ca/tenda_ac1200_router/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-40843",
+                            "CVE-2022-40844",
+                            "CVE-2022-40845",
+                            "CVE-2022-40846",
+                            "CVE-2022-40847",
+                            "CVE-2022-41395",
+                            "CVE-2022-41396",
+                            "CVE-2022-42053",
+                            "CVE-2022-42058",
+                            "CVE-2022-42060"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

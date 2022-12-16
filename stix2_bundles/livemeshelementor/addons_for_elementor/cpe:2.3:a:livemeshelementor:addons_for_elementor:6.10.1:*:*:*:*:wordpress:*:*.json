@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--6b91ba63-1b42-4285-8dd1-739075ff541b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0af0ab9b-7d65-54bc-9898-a0f4ca8ff8f2",
+            "name": "Livemesh Addons for Elementor 6.10.1 for WordPress",
+            "cpe": "cpe:2.3:a:livemeshelementor:addons_for_elementor:6.10.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "livemeshelementor",
+            "version": "6.10.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:livemeshelementor:addons_for_elementor:6.10.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-15T15:48Z",
+                        "titles": [
+                            {
+                                "title": "Livemesh Addons for Elementor 6.10.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://livemeshelementor.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wpscan.com/vulnerability/3db9a8f5-3335-4b8d-a067-091cbfed1efc",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/addons-for-elementor/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3862"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

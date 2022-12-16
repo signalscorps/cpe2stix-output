@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--b9ca679d-6ec3-4510-b25d-3de3253e6786",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fedbb218-4ccb-50f2-b34c-6c1e02e1964d",
+            "name": "HPE OFFICECONNECT 1850 24G 2XGT",
+            "cpe": "cpe:2.3:h:hpe:officeconnect_1850_24g_2xgt:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hpe",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:hpe:officeconnect_1850_24g_2xgt:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T20:12Z",
+                        "titles": [
+                            {
+                                "title": "HPE OFFICECONNECT 1850 24G 2XGT",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=emr_na-hpesbnw04383en_us",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-37932"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

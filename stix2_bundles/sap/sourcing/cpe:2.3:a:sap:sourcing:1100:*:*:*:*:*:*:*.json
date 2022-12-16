@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--6d337db2-3b07-4f40-b9b1-419637768899",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4b8ee5bd-eecf-5002-b041-6a1cb7f33f55",
+            "name": "SAP Sourcing 1100",
+            "cpe": "cpe:2.3:a:sap:sourcing:1100:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sap",
+            "version": "1100",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sap:sourcing:1100:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T16:44Z",
+                        "titles": [
+                            {
+                                "title": "SAP Sourcing 1100",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41273"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

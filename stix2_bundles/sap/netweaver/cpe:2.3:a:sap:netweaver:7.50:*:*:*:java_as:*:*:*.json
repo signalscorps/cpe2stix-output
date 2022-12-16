@@ -1,0 +1,57 @@
+{
+    "type": "bundle",
+    "id": "bundle--bb9ef250-1dc0-45ae-aafd-20699a40db0b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ead760f1-dbff-54e9-9e27-f9a502aa03a8",
+            "name": "SAP NetWeaver 7.50 JAVA Application Server",
+            "cpe": "cpe:2.3:a:sap:netweaver:7.50:*:*:*:java_as:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sap",
+            "version": "7.50",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sap:netweaver:7.50:*:*:*:java_as:*:*:*",
+                        "lastModifiedDate": "2022-12-15T16:44Z",
+                        "titles": [
+                            {
+                                "title": "SAP NetWeaver 7.50 JAVA Application Server",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/41xxx/CVE-2022-41262.json",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2008-3358",
+                            "CVE-2010-2904",
+                            "CVE-2011-4707",
+                            "CVE-2014-8587",
+                            "CVE-2017-5372",
+                            "CVE-2018-2464",
+                            "CVE-2018-2470",
+                            "CVE-2018-2477",
+                            "CVE-2019-0351",
+                            "CVE-2020-6203",
+                            "CVE-2020-6285",
+                            "CVE-2021-21481",
+                            "CVE-2021-38163",
+                            "CVE-2022-28217"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

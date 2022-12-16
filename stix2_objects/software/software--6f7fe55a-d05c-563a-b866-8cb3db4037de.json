@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--6f7fe55a-d05c-563a-b866-8cb3db4037de",
+    "name": "SAP Netweaver Developer Studio 7.50",
+    "cpe": "cpe:2.3:a:sap:netweaver_developer_studio:7.50:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "sap",
+    "version": "7.50",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:sap:netweaver_developer_studio:7.50:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-15T16:44Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/advisories/GHSA-8xq7-w42c-cmm8",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://wiki.scn.sap.com/wiki/display/Java/NWDS+Download+Links",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "SAP Netweaver Developer Studio 7.50"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-29615"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--4607b289-6102-5ea0-bc19-e6231ae8b6a1",
+    "name": "BD BodyGuard T 999-103 Firmware",
+    "cpe": "cpe:2.3:o:bd:bodyguard_t_999-103_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "bd",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:bd:bodyguard_t_999-103_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-15T20:15Z",
+                "refs": [
+                    {
+                        "ref": "https://www.bd.com/en-us/about-bd/cybersecurity/bulletin/bd-bodyguard-pumps-rs-232-interface-vulnerability",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.bd.com/documents/international/catalogs/infusion/IF_Global-ambulatory-infusion-issue-4-CF04250_CT_EN.pdf",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "BD BodyGuard T 999-103 Firmware"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-43557"
+                ]
+            }
+        }
+    }
+}

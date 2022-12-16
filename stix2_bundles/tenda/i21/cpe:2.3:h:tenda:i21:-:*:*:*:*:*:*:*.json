@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--7d1930e3-13cc-4fa7-b758-2674ace05150",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--99c0e0fb-bdf9-5180-982a-adf6d52816a0",
+            "name": "Tenda i21",
+            "cpe": "cpe:2.3:h:tenda:i21:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tenda",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:tenda:i21:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T20:13Z",
+                        "titles": [
+                            {
+                                "title": "Tenda i21",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://exchange.xforce.ibmcloud.com/vulnerabilities/241322",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.tendacn.com/product/i21.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-44362",
+                            "CVE-2022-44363",
+                            "CVE-2022-44365",
+                            "CVE-2022-44366",
+                            "CVE-2022-44367"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

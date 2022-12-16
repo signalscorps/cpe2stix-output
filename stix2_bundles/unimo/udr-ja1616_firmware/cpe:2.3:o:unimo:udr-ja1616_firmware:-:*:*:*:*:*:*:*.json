@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--a6beb86b-4338-480d-96eb-8229e4822e13",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d832183f-b429-5195-8c94-5ca659ee5ae8",
+            "name": "Unimo UDR-JA1616 Firmware",
+            "cpe": "cpe:2.3:o:unimo:udr-ja1616_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "unimo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:unimo:udr-ja1616_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T20:22Z",
+                        "titles": [
+                            {
+                                "title": "Unimo UDR-JA1616 Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://jvn.jp/en/vu/JVNVU94514762/index.html",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "http://www.unimo.co.jp/product_info/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43464",
+                            "CVE-2022-44606",
+                            "CVE-2022-44620"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

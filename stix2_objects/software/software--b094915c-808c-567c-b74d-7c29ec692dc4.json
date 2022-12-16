@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--b094915c-808c-567c-b74d-7c29ec692dc4",
+    "name": "ytdl-sync Project ytdl-sync",
+    "cpe": "cpe:2.3:a:ytdl-sync_project:ytdl-sync:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "ytdl-sync_project",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:ytdl-sync_project:ytdl-sync:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-15T17:55Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/31xxx/CVE-2022-31536.json",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/jaygarza1982/ytdl-sync/issues/1",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/jaygarza1982/ytdl-sync",
+                        "type": "Project"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "ytdl-sync Project ytdl-sync"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-31536"
+                ]
+            }
+        }
+    }
+}

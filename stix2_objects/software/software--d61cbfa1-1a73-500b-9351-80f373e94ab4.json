@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--d61cbfa1-1a73-500b-9351-80f373e94ab4",
+    "name": "BD BodyGuard Pain Manager 999-803",
+    "cpe": "cpe:2.3:h:bd:bodyguard_pain_manager_999-803:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "bd",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:bd:bodyguard_pain_manager_999-803:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-15T17:56Z",
+                "refs": [
+                    {
+                        "ref": "https://www.bd.com/en-us/about-bd/cybersecurity/bulletin/bd-bodyguard-pumps-rs-232-interface-vulnerability",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.bd.com/documents/international/catalogs/infusion/IF_Global-ambulatory-infusion-issue-4-CF04250_CT_EN.pdf",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "BD BodyGuard Pain Manager 999-803"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-43557"
+                ]
+            }
+        }
+    }
+}

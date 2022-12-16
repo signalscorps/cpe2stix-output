@@ -1,0 +1,44 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--dbdedff7-445d-5074-a5f0-e8aa2f067f5f",
+    "name": "Unimo UDR-JA1616",
+    "cpe": "cpe:2.3:h:unimo:udr-ja1616:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "unimo",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:unimo:udr-ja1616:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-15T18:15Z",
+                "refs": [
+                    {
+                        "ref": "https://jvn.jp/en/vu/JVNVU94514762/index.html",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "http://www.unimo.co.jp/product_info/",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Unimo UDR-JA1616"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-43464",
+                    "CVE-2022-44606",
+                    "CVE-2022-44620"
+                ]
+            }
+        }
+    }
+}

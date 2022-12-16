@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--ca4f2ee8-4a22-41ce-a17d-57c3b979622e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b104d07b-6555-53b4-a773-adc49d924471",
+            "name": "Tenda AC23 AC2100",
+            "cpe": "cpe:2.3:h:tenda:ac23_ac2100:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tenda",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:tenda:ac23_ac2100:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T20:13Z",
+                        "titles": [
+                            {
+                                "title": "Tenda AC23 AC2100",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.tendacn.com/us/product/AC23.html",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/LuGakki/Vuln/blob/main/Tenda%20AC23.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

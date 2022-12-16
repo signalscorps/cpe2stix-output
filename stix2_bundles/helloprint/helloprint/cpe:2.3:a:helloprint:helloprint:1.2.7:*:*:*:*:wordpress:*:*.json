@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--2071e131-496d-406e-a166-d61c9ca04be4",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b26584a6-0289-5c9b-a241-412dbb19a67a",
+            "name": "Helloprint 1.2.7 for WordPress",
+            "cpe": "cpe:2.3:a:helloprint:helloprint:1.2.7:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "helloprint",
+            "version": "1.2.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:helloprint:helloprint:1.2.7:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-15T15:48Z",
+                        "titles": [
+                            {
+                                "title": "Helloprint 1.2.7 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wpscan.com/vulnerability/c44802a0-8cbe-4386-9523-3b6cb44c6505",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/helloprint/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.helloprint.com/company",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3908"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--0be419c6-bc10-423d-b17f-5390c543cf10",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--74e63306-a4f2-5ed6-8f01-2ec85e55d96f",
+            "name": "Secu SecuSTATION Firmware 2.5.5.3116-s50-rxa-b20180502a",
+            "cpe": "cpe:2.3:o:secu:secustation_firmware:2.5.5.3116-s50-rxa-b20180502a:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "secu",
+            "version": "2.5.5.3116-s50-rxa-b20180502a",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:secu:secustation_firmware:2.5.5.3116-s50-rxa-b20180502a:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T20:22Z",
+                        "titles": [
+                            {
+                                "title": "Secu SecuSTATION Firmware 2.5.5.3116-s50-rxa-b20180502a",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cdsbz.gitbook.io/untitled/secustion-camera-vulnerability-recurrence",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://secu.jp/index.html",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-40939"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

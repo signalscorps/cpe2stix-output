@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--66021fb3-2427-47c6-a8c1-02e438e6cd1a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--aeca574b-ed0a-5a5d-b504-d6c90efe1b0d",
+            "name": "LogRhythm 7.4.9",
+            "cpe": "cpe:2.3:a:logrhythm:logrhythm:7.4.9:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "logrhythm",
+            "version": "7.4.9",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:logrhythm:logrhythm:7.4.9:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T20:07Z",
+                        "titles": [
+                            {
+                                "title": "LogRhythm 7.4.9",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://medium.com/@idema16/how-i-found-a-cve-in-logrhythm-cve-2021-41943-61cef1797cb",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://docs.logrhythm.com/docs/enterprise/logrhythm-release-notes/7-5-0-ga-release-notes",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-41943"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

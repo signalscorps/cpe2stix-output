@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--e2742957-57f8-41f4-9857-ed21db08bfc5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c7c10c77-24fb-57b8-85d6-1de7e8921ac0",
+            "name": "BD BodyGuard Pain Manager 999-803 Firmware",
+            "cpe": "cpe:2.3:o:bd:bodyguard_pain_manager_999-803_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "bd",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:bd:bodyguard_pain_manager_999-803_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T20:15Z",
+                        "titles": [
+                            {
+                                "title": "BD BodyGuard Pain Manager 999-803 Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.bd.com/en-us/about-bd/cybersecurity/bulletin/bd-bodyguard-pumps-rs-232-interface-vulnerability",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.bd.com/documents/international/catalogs/infusion/IF_Global-ambulatory-infusion-issue-4-CF04250_CT_EN.pdf",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-43557"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

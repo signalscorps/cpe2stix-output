@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--563ce27e-f2f0-5988-a62c-c284f50b0ab0",
+    "name": "Helloprint for WordPress",
+    "cpe": "cpe:2.3:a:helloprint:helloprint:-:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "helloprint",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:helloprint:helloprint:-:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-15T15:48Z",
+                "refs": [
+                    {
+                        "ref": "https://wpscan.com/vulnerability/c44802a0-8cbe-4386-9523-3b6cb44c6505",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://wordpress.org/plugins/helloprint/#developers",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://www.helloprint.com/company",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Helloprint for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3908"
+                ]
+            }
+        }
+    }
+}

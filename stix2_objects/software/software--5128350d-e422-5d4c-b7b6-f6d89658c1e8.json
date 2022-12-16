@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--5128350d-e422-5d4c-b7b6-f6d89658c1e8",
+    "name": "HPE OFFICECONNECT 1820 J9981A",
+    "cpe": "cpe:2.3:h:hpe:officeconnect_1820_j9981a:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "hpe",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:hpe:officeconnect_1820_j9981a:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-15T20:12Z",
+                "refs": [
+                    {
+                        "ref": "https://support.hpe.com/hpesc/public/docDisplay?docLocale=en_US&docId=emr_na-hpesbnw04383en_us",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "HPE OFFICECONNECT 1820 J9981A"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-37932"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--483d0c51-dbaa-4ab1-9f6b-e312b0ef4557",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9c85498e-3c38-5001-886e-fa7a380c1cea",
+            "name": "IBM Db2U 4.5",
+            "cpe": "cpe:2.3:a:ibm:db2u:4.5:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ibm",
+            "version": "4.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ibm:db2u:4.5:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T16:40Z",
+                        "titles": [
+                            {
+                                "title": "IBM Db2U 4.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.ibm.com/support/pages/node/6843071",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41297"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--6d94689b-42da-4ff1-9b38-717d7bab2414",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--860b28f0-7a02-5739-bbe5-9aaa792e4133",
+            "name": "SICK RFU630-04103",
+            "cpe": "cpe:2.3:h:sick:rfu630-04103:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sick",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:sick:rfu630-04103:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T15:40Z",
+                        "titles": [
+                            {
+                                "title": "SICK RFU630-04103",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.sick.com/medias/sca-2022-0015.pdf?context=bWFzdGVyfGNvbnRlbnR8MTIwMzMyfGFwcGxpY2F0aW9uL3BkZnxjb250ZW50L2hmZS9oZWYvMTMwMDEwMTIzNzk2NzgucGRmfGUwNzA1MmJlNjFiNDI1M2FkMjQ5ODFhZGY3Nzg3Yjk0ZjkwMDA3NWJlODI0MWRmZWE2NzE5OWYyNWIyN2Q4ZDU",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.sick.com/us/en/identification-solutions/rfid/rfu63x/c/g218148",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-46833"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

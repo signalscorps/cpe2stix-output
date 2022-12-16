@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--0bbf87ff-1701-4650-b751-fb72b6cd19c7",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4110f029-d663-5fa3-8caf-a940eac21fd2",
+            "name": "GitHub Enterprise Server 3.7.1",
+            "cpe": "cpe:2.3:a:github:enterprise_server:3.7.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "github",
+            "version": "3.7.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:github:enterprise_server:3.7.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T16:37Z",
+                        "titles": [
+                            {
+                                "title": "GitHub Enterprise Server 3.7.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://docs.github.com/en/enterprise-server@3.7/admin/release-notes#3.7.1",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

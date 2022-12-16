@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--7a4fa1f6-7887-5c9e-97d9-fe4dd23f6b17",
+    "name": "SAP Basis 7.91",
+    "cpe": "cpe:2.3:a:sap:basis:7.91:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "sap",
+    "version": "7.91",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:sap:basis:7.91:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-15T16:43Z",
+                "refs": [
+                    {
+                        "ref": "https://www.sap.com/documents/2022/02/fa865ea4-167e-0010-bca6-c68f7e60039b.html",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "SAP Basis 7.91"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-41264"
+                ]
+            }
+        }
+    }
+}

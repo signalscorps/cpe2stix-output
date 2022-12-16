@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--fb3e1963-7362-4592-af5f-1fb05bf625d6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1fa96524-d37f-58bb-ba2a-1d41e0de4475",
+            "name": "Muffin Group BeTheme 26.6.1 for WordPress",
+            "cpe": "cpe:2.3:a:muffingroup:betheme:26.6.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "muffingroup",
+            "version": "26.6.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:muffingroup:betheme:26.6.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2022-12-15T16:39Z",
+                        "titles": [
+                            {
+                                "title": "Muffin Group BeTheme 26.6.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.muffingroup.com/changelog/",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://muffingroup.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45363"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

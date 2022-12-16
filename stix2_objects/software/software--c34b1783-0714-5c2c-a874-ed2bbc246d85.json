@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--c34b1783-0714-5c2c-a874-ed2bbc246d85",
+    "name": "Rapid SCADA 5.8.4",
+    "cpe": "cpe:2.3:a:rapidscada:rapid_scada:5.8.4:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "rapidscada",
+    "version": "5.8.4",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:rapidscada:rapid_scada:5.8.4:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2022-12-15T16:41Z",
+                "refs": [
+                    {
+                        "ref": "https://rapidscada.org/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://rapidscada.org/download-all-files/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://rapidscada.org/product/documentation/",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Rapid SCADA 5.8.4"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-44153"
+                ]
+            }
+        }
+    }
+}

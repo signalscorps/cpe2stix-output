@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--89c51f1d-516f-4e71-9d64-c256b2f54625",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d355790e-a02a-57ad-869d-f8f8666d66bb",
+            "name": "EZVIZ CS-C3W-A0-3H4WFRL",
+            "cpe": "cpe:2.3:h:ezviz:cs-c3w-a0-3h4wfrl:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ezviz",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:ezviz:cs-c3w-a0-3h4wfrl:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2022-12-15T18:06Z",
+                        "titles": [
+                            {
+                                "title": "EZVIZ CS-C3W-A0-3H4WFRL",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.ezviz.com/us/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.bitdefender.com/blog/labs/vulnerabilities-identified-in-ezviz-smart-cams",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-2471"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

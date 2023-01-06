@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--f92a9d31-dae7-4c89-85cd-8b7017632d3b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8f90a1a6-ed83-54f9-973d-bb34bdda366a",
+            "name": "Amazon Elastic File System Container Storage Interface Driver 1.4.5 for Go",
+            "cpe": "cpe:2.3:a:amazon:elastic_file_system_container_storage_interface_driver:1.4.5:*:*:*:*:go:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "amazon",
+            "version": "1.4.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:amazon:elastic_file_system_container_storage_interface_driver:1.4.5:*:*:*:*:go:*:*",
+                        "lastModifiedDate": "2023-01-05T14:30Z",
+                        "titles": [
+                            {
+                                "title": "Amazon Elastic File System Container Storage Interface Driver 1.4.5 for Go",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/aws/efs-utils/security/advisories/GHSA-4fv8-w65m-3932",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/kubernetes-sigs/aws-efs-csi-driver/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/kubernetes-sigs/aws-efs-csi-driver/blob/master/go.mod",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

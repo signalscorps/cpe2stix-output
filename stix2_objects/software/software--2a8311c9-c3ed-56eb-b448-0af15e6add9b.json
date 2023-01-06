@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--2a8311c9-c3ed-56eb-b448-0af15e6add9b",
+    "name": "Emerson Se4019p0 Simplex H1 4-port Plus Fieldbus I/o Interface With Terminalblock Firmware -",
+    "cpe": "cpe:2.3:o:emerson:se4019p0_simplex_h1_4-port_plus_fieldbus_i\\/o_interface_with_terminalblock_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "emerson",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:emerson:se4019p0_simplex_h1_4-port_plus_fieldbus_i\\/o_interface_with_terminalblock_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-05T14:49Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/30xxx/CVE-2022-30260.json",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.cisa.gov/uscert/ics/advisories/icsa-22-181-03",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Emerson Se4019p0 Simplex H1 4-port Plus Fieldbus I/o Interface With Terminalblock Firmware -"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-29962",
+                    "CVE-2022-29963",
+                    "CVE-2022-29964",
+                    "CVE-2022-29965",
+                    "CVE-2022-30260"
+                ]
+            }
+        }
+    }
+}

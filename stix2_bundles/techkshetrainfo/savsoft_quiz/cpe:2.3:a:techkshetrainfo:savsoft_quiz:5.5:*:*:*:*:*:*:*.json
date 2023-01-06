@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--d89e14ab-cb15-4b70-838b-3ae2dd31f320",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c08684f4-5554-5b60-91ce-211fd94fd88e",
+            "name": "Techkshetrainfo Savsoft Quiz 5.5",
+            "cpe": "cpe:2.3:a:techkshetrainfo:savsoft_quiz:5.5:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "techkshetrainfo",
+            "version": "5.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:techkshetrainfo:savsoft_quiz:5.5:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-05T19:29Z",
+                        "titles": [
+                            {
+                                "title": "Techkshetrainfo Savsoft Quiz 5.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.exploit-db.com/exploits/48785",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://savsoftquiz.com/web/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.techkshetrainfo.com/home/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-24609"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

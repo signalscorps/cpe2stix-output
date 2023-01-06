@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--b780153c-1107-4597-b23a-5ae7a3c39cbe",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2af19cf7-4e82-5693-b01a-3c438b09855a",
+            "name": "Ad Inserter Project Ad Inserter 2.7.4 for WordPress",
+            "cpe": "cpe:2.3:a:ad_inserter_project:ad_inserter:2.7.4:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ad_inserter_project",
+            "version": "2.7.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ad_inserter_project:ad_inserter:2.7.4:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2023-01-05T13:58Z",
+                        "titles": [
+                            {
+                                "title": "Ad Inserter Project Ad Inserter 2.7.4 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/ad-inserter/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-0288"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--a59f5498-a17d-40e6-9de0-3a4e0df10de6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--32585954-7241-5409-8d76-9123e40128ce",
+            "name": "Authentik 0.0.5 Alpha",
+            "cpe": "cpe:2.3:a:goauthentik:authentik:0.0.5:alpha:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "goauthentik",
+            "version": "0.0.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:goauthentik:authentik:0.0.5:alpha:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-05T16:25Z",
+                        "titles": [
+                            {
+                                "title": "Authentik 0.0.5 Alpha",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/goauthentik/authentik/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/goauthentik/authentik/security/advisories/GHSA-9qwp-jf7p-vr7h",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-46145"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

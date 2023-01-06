@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--4483069a-05b6-5017-86ab-319e7f749ee4",
+    "name": "Gotify Server 2.0.12",
+    "cpe": "cpe:2.3:a:gotify:server:2.0.12:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "gotify",
+    "version": "2.0.12",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:gotify:server:2.0.12:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-05T16:25Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/gotify/server/security/advisories/GHSA-xv6x-456v-24xh",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/gotify/server/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://gotify.net/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Gotify Server 2.0.12"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

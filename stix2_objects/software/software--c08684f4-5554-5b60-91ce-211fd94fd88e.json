@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--c08684f4-5554-5b60-91ce-211fd94fd88e",
+    "name": "Techkshetrainfo Savsoft Quiz 5.5",
+    "cpe": "cpe:2.3:a:techkshetrainfo:savsoft_quiz:5.5:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "techkshetrainfo",
+    "version": "5.5",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:techkshetrainfo:savsoft_quiz:5.5:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-05T19:29Z",
+                "refs": [
+                    {
+                        "ref": "https://www.exploit-db.com/exploits/48785",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://savsoftquiz.com/web/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://www.techkshetrainfo.com/home/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Techkshetrainfo Savsoft Quiz 5.5"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-24609"
+                ]
+            }
+        }
+    }
+}

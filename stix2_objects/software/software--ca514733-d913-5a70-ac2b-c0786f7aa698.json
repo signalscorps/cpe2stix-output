@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--ca514733-d913-5a70-ac2b-c0786f7aa698",
+    "name": "Kwayyinfotech Kwayy HTML Sitemap 1.0.8 for WordPress",
+    "cpe": "cpe:2.3:a:kwayyinfotech:kwayy_html_sitemap:1.0.8:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "kwayyinfotech",
+    "version": "1.0.8",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:kwayyinfotech:kwayy_html_sitemap:1.0.8:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-05T15:20Z",
+                "refs": [
+                    {
+                        "ref": "https://wordpress.org/plugins/kwayy-html-sitemap/#developers",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "http://www.kwayyinfotech.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://wpscan.com/vulnerability/514ffd28-f2c2-4c95-87b5-d05ce0746f89",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Kwayyinfotech Kwayy HTML Sitemap 1.0.8 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3835"
+                ]
+            }
+        }
+    }
+}

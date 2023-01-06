@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--dffeff39-a98c-4dcd-a782-e134d6e401ac",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8225830c-d65d-50a7-a326-30530230075d",
+            "name": "Amazon efs-utils 1.32.1",
+            "cpe": "cpe:2.3:a:amazon:efs-utils:1.32.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "amazon",
+            "version": "1.32.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:amazon:efs-utils:1.32.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-05T14:30Z",
+                        "titles": [
+                            {
+                                "title": "Amazon efs-utils 1.32.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/aws/efs-utils/security/advisories/GHSA-4fv8-w65m-3932",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/aws/efs-utils/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

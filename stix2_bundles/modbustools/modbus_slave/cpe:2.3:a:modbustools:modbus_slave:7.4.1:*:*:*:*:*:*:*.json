@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--39680aa3-b35d-4446-9c5d-0c2dc3864396",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8ffdab0d-592c-54c2-9a43-8f239a188040",
+            "name": "modbus tools Modbus Slave 7.4.1",
+            "cpe": "cpe:2.3:a:modbustools:modbus_slave:7.4.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "modbustools",
+            "version": "7.4.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:modbustools:modbus_slave:7.4.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-05T17:44Z",
+                        "titles": [
+                            {
+                                "title": "modbus tools Modbus Slave 7.4.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.modbustools.com/ModSlaveChangeLog.txt",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.modbustools.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-1068"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

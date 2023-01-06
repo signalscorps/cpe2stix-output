@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--d9a885cb-1501-4dc5-94c4-9b3d9e4a8851",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5929d0cf-0e95-5353-a70a-dd0ae169b2cb",
+            "name": "Emerson Se4801t0x Redundant Wireless I/o Card Firmware -",
+            "cpe": "cpe:2.3:o:emerson:se4801t0x_redundant_wireless_i\\/o_card_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "emerson",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:emerson:se4801t0x_redundant_wireless_i\\/o_card_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-05T14:49Z",
+                        "titles": [
+                            {
+                                "title": "Emerson Se4801t0x Redundant Wireless I/o Card Firmware -",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/30xxx/CVE-2022-30260.json",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.cisa.gov/uscert/ics/advisories/icsa-22-181-03",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-29962",
+                            "CVE-2022-29963",
+                            "CVE-2022-29964",
+                            "CVE-2022-29965",
+                            "CVE-2022-30260"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

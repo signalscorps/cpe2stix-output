@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--a17a33b0-68af-51cf-98d9-16227a6fb4af",
+    "name": "Emerson Se4002s1t2b6 High Side 40-pin Mass I/o Terminal Block Firmware -",
+    "cpe": "cpe:2.3:o:emerson:se4002s1t2b6_high_side_40-pin_mass_i\\/o_terminal_block_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "emerson",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:emerson:se4002s1t2b6_high_side_40-pin_mass_i\\/o_terminal_block_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-05T14:49Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/30xxx/CVE-2022-30260.json",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.cisa.gov/uscert/ics/advisories/icsa-22-181-03",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Emerson Se4002s1t2b6 High Side 40-pin Mass I/o Terminal Block Firmware -"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-29962",
+                    "CVE-2022-29963",
+                    "CVE-2022-29964",
+                    "CVE-2022-29965",
+                    "CVE-2022-30260"
+                ]
+            }
+        }
+    }
+}

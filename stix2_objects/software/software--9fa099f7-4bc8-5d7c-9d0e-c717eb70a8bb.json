@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--9fa099f7-4bc8-5d7c-9d0e-c717eb70a8bb",
+    "name": "Authentik 0.1.11 Beta",
+    "cpe": "cpe:2.3:a:goauthentik:authentik:0.1.11:beta:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "goauthentik",
+    "version": "0.1.11",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:goauthentik:authentik:0.1.11:beta:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-05T16:25Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/goauthentik/authentik/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://github.com/goauthentik/authentik/security/advisories/GHSA-9qwp-jf7p-vr7h",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Authentik 0.1.11 Beta"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-46145"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--8d2e02d2-9135-5d90-9e99-c7e82888ad99",
+    "name": "Emerson Se4017p0 H1 I/o Interface Card And Terminl Block Firmware -",
+    "cpe": "cpe:2.3:o:emerson:se4017p0_h1_i\\/o_interface_card_and_terminl_block_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "emerson",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:emerson:se4017p0_h1_i\\/o_interface_card_and_terminl_block_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-05T14:49Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/30xxx/CVE-2022-30260.json",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.cisa.gov/uscert/ics/advisories/icsa-22-181-03",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Emerson Se4017p0 H1 I/o Interface Card And Terminl Block Firmware -"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-29962",
+                    "CVE-2022-29963",
+                    "CVE-2022-29964",
+                    "CVE-2022-29965",
+                    "CVE-2022-30260"
+                ]
+            }
+        }
+    }
+}

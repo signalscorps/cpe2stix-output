@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--00dadf35-3a08-5227-8021-267ac974a00e",
+    "name": "Emerson Ve4104 Ethernet/ip Control Tag Integration For Ethernet Connected I/o (eioc) Firmware -",
+    "cpe": "cpe:2.3:o:emerson:ve4104_ethernet\\/ip_control_tag_integration_for_ethernet_connected_i\\/o_\\(eioc\\)_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "emerson",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:emerson:ve4104_ethernet\\/ip_control_tag_integration_for_ethernet_connected_i\\/o_\\(eioc\\)_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-05T14:49Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/30xxx/CVE-2022-30260.json",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.cisa.gov/uscert/ics/advisories/icsa-22-181-03",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Emerson Ve4104 Ethernet/ip Control Tag Integration For Ethernet Connected I/o (eioc) Firmware -"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-29962",
+                    "CVE-2022-29963",
+                    "CVE-2022-29964",
+                    "CVE-2022-29965",
+                    "CVE-2022-30260"
+                ]
+            }
+        }
+    }
+}

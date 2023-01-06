@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--202ef9ea-7ce2-4213-b2d6-676eb69cfe39",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d3cf012d-5931-5473-b7ca-5fb8b5b06729",
+            "name": "Kwayyinfotech Kwayy HTML Sitemap 3.1 for WordPress",
+            "cpe": "cpe:2.3:a:kwayyinfotech:kwayy_html_sitemap:3.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "kwayyinfotech",
+            "version": "3.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:kwayyinfotech:kwayy_html_sitemap:3.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2023-01-05T15:20Z",
+                        "titles": [
+                            {
+                                "title": "Kwayyinfotech Kwayy HTML Sitemap 3.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/kwayy-html-sitemap/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "http://www.kwayyinfotech.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wpscan.com/vulnerability/514ffd28-f2c2-4c95-87b5-d05ce0746f89",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3835"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

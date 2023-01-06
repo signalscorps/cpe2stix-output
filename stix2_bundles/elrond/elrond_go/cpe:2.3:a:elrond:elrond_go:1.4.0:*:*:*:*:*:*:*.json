@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--5f9b4ed3-3443-4709-b889-a0103f400cfa",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c23c11ee-21e9-54fd-9ae6-52284dc53b70",
+            "name": "Elrond Go 1.4.0",
+            "cpe": "cpe:2.3:a:elrond:elrond_go:1.4.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "elrond",
+            "version": "1.4.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:elrond:elrond_go:1.4.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-05T14:40Z",
+                        "titles": [
+                            {
+                                "title": "Elrond Go 1.4.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/multiversx/mx-chain-go/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/multiversx/mx-chain-go/security/advisories/GHSA-p228-4mrh-ww7r",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "type": "bundle",
+    "id": "bundle--9e93c31a-826f-4e20-a842-d4c4bd1a6fe4",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9dd91271-3365-59e8-a6e1-c3417aebcebd",
+            "name": "Emerson Ve4107 Iec 61850 Mms Interface For Ethernet Connected I/o (eioc) Firmware 14.3",
+            "cpe": "cpe:2.3:o:emerson:ve4107_iec_61850_mms_interface_for_ethernet_connected_i\\/o_\\(eioc\\)_firmware:14.3:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "emerson",
+            "version": "14.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:emerson:ve4107_iec_61850_mms_interface_for_ethernet_connected_i\\/o_\\(eioc\\)_firmware:14.3:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-05T14:49Z",
+                        "titles": [
+                            {
+                                "title": "Emerson Ve4107 Iec 61850 Mms Interface For Ethernet Connected I/o (eioc) Firmware 14.3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/30xxx/CVE-2022-30260.json",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.cisa.gov/uscert/ics/advisories/icsa-22-181-03",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-29962",
+                            "CVE-2022-29963",
+                            "CVE-2022-29964",
+                            "CVE-2022-29965"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

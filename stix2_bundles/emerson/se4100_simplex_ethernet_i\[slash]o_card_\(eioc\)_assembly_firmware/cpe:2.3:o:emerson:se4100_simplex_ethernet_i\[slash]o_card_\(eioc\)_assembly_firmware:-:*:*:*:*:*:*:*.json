@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--e63fdfd6-c837-423d-bf66-ba52b6202b39",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--15eb7082-7e62-5f74-90c0-f538b11ced47",
+            "name": "Emerson Se4100 Simplex Ethernet I/o Card (eioc) Assembly Firmware -",
+            "cpe": "cpe:2.3:o:emerson:se4100_simplex_ethernet_i\\/o_card_\\(eioc\\)_assembly_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "emerson",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:emerson:se4100_simplex_ethernet_i\\/o_card_\\(eioc\\)_assembly_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-05T14:49Z",
+                        "titles": [
+                            {
+                                "title": "Emerson Se4100 Simplex Ethernet I/o Card (eioc) Assembly Firmware -",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/30xxx/CVE-2022-30260.json",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.cisa.gov/uscert/ics/advisories/icsa-22-181-03",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-29962",
+                            "CVE-2022-29963",
+                            "CVE-2022-29964",
+                            "CVE-2022-29965",
+                            "CVE-2022-30260"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

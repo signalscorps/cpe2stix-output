@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--6ec0a028-7ea4-47ae-af4f-e101517a6e39",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--53d1a1fd-3c16-5ac3-b5b3-1be897c6575f",
+            "name": "Gotify Server 2.0.3",
+            "cpe": "cpe:2.3:a:gotify:server:2.0.3:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "gotify",
+            "version": "2.0.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:gotify:server:2.0.3:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-05T16:25Z",
+                        "titles": [
+                            {
+                                "title": "Gotify Server 2.0.3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/gotify/server/security/advisories/GHSA-xv6x-456v-24xh",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/gotify/server/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://gotify.net/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "type": "bundle",
+    "id": "bundle--0c3ae709-c2ec-4d9e-83b2-82599ce1b3eb",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bfe103ca-653b-5936-a715-fcd895134fc1",
+            "name": "Emerson Se4037p1 Redundant H1 I/o Card With Integrated Power And Terminal Block Firmware 14.3",
+            "cpe": "cpe:2.3:o:emerson:se4037p1_redundant_h1_i\\/o_card_with_integrated_power_and_terminal_block_firmware:14.3:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "emerson",
+            "version": "14.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:emerson:se4037p1_redundant_h1_i\\/o_card_with_integrated_power_and_terminal_block_firmware:14.3:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-05T14:49Z",
+                        "titles": [
+                            {
+                                "title": "Emerson Se4037p1 Redundant H1 I/o Card With Integrated Power And Terminal Block Firmware 14.3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/30xxx/CVE-2022-30260.json",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.cisa.gov/uscert/ics/advisories/icsa-22-181-03",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-29962",
+                            "CVE-2022-29963",
+                            "CVE-2022-29964",
+                            "CVE-2022-29965"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

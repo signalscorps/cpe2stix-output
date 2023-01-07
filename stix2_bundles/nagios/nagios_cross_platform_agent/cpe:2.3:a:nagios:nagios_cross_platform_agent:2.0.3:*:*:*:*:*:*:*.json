@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--533f8a87-50af-4eec-9291-8808208fd4b0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--89c6252e-cf80-5528-b082-4fba5350b242",
+            "name": "Nagios Cross Platform Agent (NCPA) 2.0.3",
+            "cpe": "cpe:2.3:a:nagios:nagios_cross_platform_agent:2.0.3:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nagios",
+            "version": "2.0.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nagios:nagios_cross_platform_agent:2.0.3:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-06T15:12Z",
+                        "titles": [
+                            {
+                                "title": "Nagios Cross Platform Agent (NCPA) 2.0.3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/NagiosEnterprises/ncpa/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://vuldb.com/?id.216874",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://support.nagios.com/kb/article/ncpa-using-ncpa-for-passive-checks-763.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-4285"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

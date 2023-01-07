@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--d5d83f5f-d6f0-4626-a67f-dd847f853552",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ca58ab8c-7d1d-5676-9cee-6d48352976b1",
+            "name": "Healthit Code-validator-api 1.0.8",
+            "cpe": "cpe:2.3:a:healthit:code-validator-api:1.0.8:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "healthit",
+            "version": "1.0.8",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:healthit:code-validator-api:1.0.8:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-06T15:12Z",
+                        "titles": [
+                            {
+                                "title": "Healthit Code-validator-api 1.0.8",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/onc-healthit/code-validator-api/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.healthit.gov/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://vuldb.com/?id.217018",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-4295"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

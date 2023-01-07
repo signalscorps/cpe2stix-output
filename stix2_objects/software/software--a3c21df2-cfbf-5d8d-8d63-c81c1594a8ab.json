@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--a3c21df2-cfbf-5d8d-8d63-c81c1594a8ab",
+    "name": "Nagios Cross Platform Agent (NCPA) 2.1.8",
+    "cpe": "cpe:2.3:a:nagios:nagios_cross_platform_agent:2.1.8:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "nagios",
+    "version": "2.1.8",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:nagios:nagios_cross_platform_agent:2.1.8:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-06T15:12Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/NagiosEnterprises/ncpa/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://vuldb.com/?id.216874",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://support.nagios.com/kb/article/ncpa-using-ncpa-for-passive-checks-763.html",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Nagios Cross Platform Agent (NCPA) 2.1.8"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-4285"
+                ]
+            }
+        }
+    }
+}

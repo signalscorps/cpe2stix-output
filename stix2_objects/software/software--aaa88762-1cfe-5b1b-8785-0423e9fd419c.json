@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--aaa88762-1cfe-5b1b-8785-0423e9fd419c",
+    "name": "Linuxserver Heimdall Application Dashboard 1.4.1",
+    "cpe": "cpe:2.3:a:linuxserver:heimdall_application_dashboard:1.4.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "linuxserver",
+    "version": "1.4.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:linuxserver:heimdall_application_dashboard:1.4.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-06T20:18Z",
+                "refs": [
+                    {
+                        "ref": "https://heimdall.site/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://docs.linuxserver.io/images/docker-heimdall",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://github.com/linuxserver/Heimdall/tags?after=v2.4.11",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Linuxserver Heimdall Application Dashboard 1.4.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-47968"
+                ]
+            }
+        }
+    }
+}

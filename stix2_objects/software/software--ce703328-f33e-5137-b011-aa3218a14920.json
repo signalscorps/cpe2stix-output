@@ -1,0 +1,47 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--ce703328-f33e-5137-b011-aa3218a14920",
+    "name": "Telegram Web K Alpha 0.6.1",
+    "cpe": "cpe:2.3:a:telegram:web_k_alpha:0.6.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "telegram",
+    "version": "0.6.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:telegram:web_k_alpha:0.6.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-06T14:07Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/morethanwords/tweb/commit/11d2fe01363889f20c8baa2217ed4aad445c5551",
+                        "type": "Project"
+                    },
+                    {
+                        "ref": "https://github.com/morethanwords/tweb",
+                        "type": "Project"
+                    },
+                    {
+                        "ref": "https://web.telegram.org/k/",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Telegram Web K Alpha 0.6.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-37596",
+                    "CVE-2021-40532"
+                ]
+            }
+        }
+    }
+}

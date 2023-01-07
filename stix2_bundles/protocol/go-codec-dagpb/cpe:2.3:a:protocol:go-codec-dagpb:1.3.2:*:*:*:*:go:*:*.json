@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--51d929bd-78af-442a-8f06-3cc2397b5e83",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fcb2e6f2-ba34-5f17-8abb-c54e50342120",
+            "name": "Protocol Labs DAG-PB 1.3.2 for Go",
+            "cpe": "cpe:2.3:a:protocol:go-codec-dagpb:1.3.2:*:*:*:*:go:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "protocol",
+            "version": "1.3.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:protocol:go-codec-dagpb:1.3.2:*:*:*:*:go:*:*",
+                        "lastModifiedDate": "2023-01-06T15:12Z",
+                        "titles": [
+                            {
+                                "title": "Protocol Labs DAG-PB 1.3.2 for Go",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/ipld/go-codec-dagpb/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://ipld.io/docs/codecs/known/dag-pb/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

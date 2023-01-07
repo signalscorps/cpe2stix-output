@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--1b9c6ec3-cfb9-4226-83d9-7507cc0342c4",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8f293081-8458-5ab3-a72f-905258667398",
+            "name": "Hazelcast Hazelcast 5.0.3 - Edition",
+            "cpe": "cpe:2.3:a:hazelcast:hazelcast:5.0.3:*:*:*:-:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hazelcast",
+            "version": "5.0.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:hazelcast:hazelcast:5.0.3:*:*:*:-:*:*:*",
+                        "lastModifiedDate": "2023-01-06T15:12Z",
+                        "titles": [
+                            {
+                                "title": "Hazelcast Hazelcast 5.0.3 - Edition",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/hazelcast/hazelcast/security/advisories/GHSA-c5hg-mr8r-f6jp",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

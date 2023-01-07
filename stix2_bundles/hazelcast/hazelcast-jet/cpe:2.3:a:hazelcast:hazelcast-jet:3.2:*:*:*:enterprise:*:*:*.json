@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--43bf4aef-02a7-43b3-9dbd-79f69b267af7",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6d183855-6cbc-533d-8aa5-422bee44c138",
+            "name": "Hazelcast Hazelcast-jet 3.2 Enterprise Edition",
+            "cpe": "cpe:2.3:a:hazelcast:hazelcast-jet:3.2:*:*:*:enterprise:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hazelcast",
+            "version": "3.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:hazelcast:hazelcast-jet:3.2:*:*:*:enterprise:*:*:*",
+                        "lastModifiedDate": "2023-01-06T15:12Z",
+                        "titles": [
+                            {
+                                "title": "Hazelcast Hazelcast-jet 3.2 Enterprise Edition",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/hazelcast/hazelcast/security/advisories/GHSA-c5hg-mr8r-f6jp",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/hazelcast/hazelcast-jet/releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

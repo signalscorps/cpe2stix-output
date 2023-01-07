@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--dda9721c-5e08-5898-b9e4-4bce7955c585",
+    "name": "Protocol Labs DAG-PB for Go",
+    "cpe": "cpe:2.3:a:protocol:go-codec-dagpb:-:*:*:*:*:go:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "protocol",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:protocol:go-codec-dagpb:-:*:*:*:*:go:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-06T15:12Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/ipld/go-codec-dagpb/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://ipld.io/docs/codecs/known/dag-pb/",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Protocol Labs DAG-PB for Go"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-2584"
+                ]
+            }
+        }
+    }
+}

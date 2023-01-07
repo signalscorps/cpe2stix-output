@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--dfaaf97f-25eb-491b-a6d3-679763f425af",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4653f226-523a-57d7-b9cb-7e5b22b32ee0",
+            "name": "KBase Metrics",
+            "cpe": "cpe:2.3:a:kbase:metrics:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "kbase",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:kbase:metrics:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-06T16:59Z",
+                        "titles": [
+                            {
+                                "title": "KBase Metrics",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.kbase.us/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/kbase/metrics",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-4860"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

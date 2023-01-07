@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--b28d1a74-b587-410a-bd41-63055b502397",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9e181022-b358-56fc-92b5-94ef712da02b",
+            "name": "NVIDIA Jetson AGX Xavier 64GB",
+            "cpe": "cpe:2.3:h:nvidia:jetson_agx_xavier_64gb:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nvidia",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:nvidia:jetson_agx_xavier_64gb:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-06T16:59Z",
+                        "titles": [
+                            {
+                                "title": "NVIDIA Jetson AGX Xavier 64GB",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://developer.nvidia.com/embedded/jetson-modules",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--e37db1c1-736f-4678-81a2-d8c97eb04601",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--83d2336f-7bad-5eac-9300-32c2a35a98a9",
+            "name": "University of Notre Dame Sipity 2021.5",
+            "cpe": "cpe:2.3:a:nd:sipity:2021.5:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nd",
+            "version": "2021.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nd:sipity:2021.5:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-06T16:59Z",
+                        "titles": [
+                            {
+                                "title": "University of Notre Dame Sipity 2021.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/ndlib/sipity",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.library.nd.edu/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/ndlib/sipity/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

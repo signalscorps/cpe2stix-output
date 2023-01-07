@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--4dd9d248-d9f7-480d-8255-8bd338182e6c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7803d6aa-58dd-5a08-8845-e25a83eecf73",
+            "name": "Zenoss Dashboard for Zenoss",
+            "cpe": "cpe:2.3:a:zenoss:dashboard:-:*:*:*:*:zenoss:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "zenoss",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:zenoss:dashboard:-:*:*:*:*:zenoss:*:*",
+                        "lastModifiedDate": "2023-01-06T14:58Z",
+                        "titles": [
+                            {
+                                "title": "Zenoss Dashboard for Zenoss",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/zenoss/ZenPacks.zenoss.Dashboard/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://www.zenoss.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/zenoss/ZenPacks.zenoss.Dashboard/pull/130",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.zenoss.com/product/zenpacks/dashboard",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

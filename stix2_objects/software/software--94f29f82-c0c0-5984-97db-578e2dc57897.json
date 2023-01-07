@@ -1,0 +1,52 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--94f29f82-c0c0-5984-97db-578e2dc57897",
+    "name": "thekelleys dnsmasq 2.86",
+    "cpe": "cpe:2.3:a:thekelleys:dnsmasq:2.86:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "thekelleys",
+    "version": "2.86",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:thekelleys:dnsmasq:2.86:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-06T20:18Z",
+                "refs": [
+                    {
+                        "ref": "http://www.thekelleys.org.uk/dnsmasq/CHANGELOG",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://github.com/InfrastructureServices/dnsmasq/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2021/45xxx/CVE-2021-45957.json",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "thekelleys dnsmasq 2.86"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-45951",
+                    "CVE-2021-45952",
+                    "CVE-2021-45953",
+                    "CVE-2021-45954",
+                    "CVE-2021-45955",
+                    "CVE-2021-45956",
+                    "CVE-2021-45957"
+                ]
+            }
+        }
+    }
+}

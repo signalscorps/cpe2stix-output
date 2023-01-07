@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--db647f37-b48e-4265-9f18-d1202e0764f9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a81ce344-b37b-5a6c-8c48-5faf1afe5386",
+            "name": "Linagora Twake 2021.q2.505",
+            "cpe": "cpe:2.3:a:linagora:twake:2021.q2.505:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "linagora",
+            "version": "2021.q2.505",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:linagora:twake:2021.q2.505:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-06T15:12Z",
+                        "titles": [
+                            {
+                                "title": "Linagora Twake 2021.q2.505",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://huntr.dev/bounties/bfd935f4-2d1d-4d3f-8b59-522abe7dd065/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/linagora/Twake/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://linagora.com/fr/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2023-0028"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

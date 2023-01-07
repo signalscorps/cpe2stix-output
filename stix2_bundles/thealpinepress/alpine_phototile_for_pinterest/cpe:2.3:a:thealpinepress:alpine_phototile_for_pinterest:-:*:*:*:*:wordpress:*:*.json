@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--69881ca4-5907-4f9b-b269-3e2f684723b4",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0b1d6611-6e00-5c6a-b160-11b9e4761225",
+            "name": "The Alpine Press Alpine PhotoTile for Pinterest for WordPress",
+            "cpe": "cpe:2.3:a:thealpinepress:alpine_phototile_for_pinterest:-:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "thealpinepress",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:thealpinepress:alpine_phototile_for_pinterest:-:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2023-01-06T20:18Z",
+                        "titles": [
+                            {
+                                "title": "The Alpine Press Alpine PhotoTile for Pinterest for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://thealpinepress.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/alpine-photo-tile-for-pinterest/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://plugins.trac.wordpress.org/log/alpine-photo-tile-for-pinterest/",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-36347"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

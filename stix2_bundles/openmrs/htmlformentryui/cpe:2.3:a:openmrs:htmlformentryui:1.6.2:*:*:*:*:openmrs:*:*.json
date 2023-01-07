@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--ebae691b-974f-4a07-aadc-b58eb5646824",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--88c39203-5658-5380-ba03-aee53da79182",
+            "name": "OpenMRS HTML Form Entry UI Framework Integration Module 1.6.2 for OpenMRS",
+            "cpe": "cpe:2.3:a:openmrs:htmlformentryui:1.6.2:*:*:*:*:openmrs:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "openmrs",
+            "version": "1.6.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:openmrs:htmlformentryui:1.6.2:*:*:*:*:openmrs:*:*",
+                        "lastModifiedDate": "2023-01-06T15:12Z",
+                        "titles": [
+                            {
+                                "title": "OpenMRS HTML Form Entry UI Framework Integration Module 1.6.2 for OpenMRS",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://openmrs.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://vuldb.com/?id.216873",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/openmrs/openmrs-module-htmlformentryui/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-4284"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

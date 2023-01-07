@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--3c05169f-dcb2-4f7d-be2c-c149959b6f9c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4dd7eb74-1595-5182-98e4-9953e9a3128a",
+            "name": "Linuxserver Heimdall Application Dashboard 2.1.13",
+            "cpe": "cpe:2.3:a:linuxserver:heimdall_application_dashboard:2.1.13:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "linuxserver",
+            "version": "2.1.13",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:linuxserver:heimdall_application_dashboard:2.1.13:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-06T20:18Z",
+                        "titles": [
+                            {
+                                "title": "Linuxserver Heimdall Application Dashboard 2.1.13",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://heimdall.site/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://docs.linuxserver.io/images/docker-heimdall",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/linuxserver/Heimdall/tags?after=v2.4.11",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-47968"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

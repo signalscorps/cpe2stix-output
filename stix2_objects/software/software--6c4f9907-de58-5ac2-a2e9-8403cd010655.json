@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--6c4f9907-de58-5ac2-a2e9-8403cd010655",
+    "name": "Hazelcast Hazelcast 4.2.0 Enterprise Edition",
+    "cpe": "cpe:2.3:a:hazelcast:hazelcast:4.2.0:*:*:*:enterprise:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "hazelcast",
+    "version": "4.2.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:hazelcast:hazelcast:4.2.0:*:*:*:enterprise:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-06T15:12Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/hazelcast/hazelcast/security/advisories/GHSA-c5hg-mr8r-f6jp",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Hazelcast Hazelcast 4.2.0 Enterprise Edition"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

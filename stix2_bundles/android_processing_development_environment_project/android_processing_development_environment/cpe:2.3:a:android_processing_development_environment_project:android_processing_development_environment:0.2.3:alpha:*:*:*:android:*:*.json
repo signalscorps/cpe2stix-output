@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--3b386023-90bf-457c-807c-fd3abe552260",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--06558b8b-9a68-5d80-bb48-4b0cb71e9c36",
+            "name": "Android Processing Development Environment (APDE) Project Android Processing Development Environment (APDE) 0.2.3 Alpha for Android",
+            "cpe": "cpe:2.3:a:android_processing_development_environment_project:android_processing_development_environment:0.2.3:alpha:*:*:*:android:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "android_processing_development_environment_project",
+            "version": "0.2.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:android_processing_development_environment_project:android_processing_development_environment:0.2.3:alpha:*:*:*:android:*:*",
+                        "lastModifiedDate": "2023-01-06T16:33Z",
+                        "titles": [
+                            {
+                                "title": "Android Processing Development Environment (APDE) Project Android Processing Development Environment (APDE) 0.2.3 Alpha for Android",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://vuldb.com/?id.216747",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/Calsign/APDE/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/Calsign/APDE",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-36628"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

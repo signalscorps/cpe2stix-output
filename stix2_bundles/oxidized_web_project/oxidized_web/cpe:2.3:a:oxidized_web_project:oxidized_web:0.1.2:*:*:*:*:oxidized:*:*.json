@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--de655f9a-baa3-4eb3-9b1c-36da005a09d8",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5b796974-6b2a-5caf-9c48-8298981b5cbd",
+            "name": "Oxidized Web Project Oxidized Web 0.1.2 for Oxidized",
+            "cpe": "cpe:2.3:a:oxidized_web_project:oxidized_web:0.1.2:*:*:*:*:oxidized:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "oxidized_web_project",
+            "version": "0.1.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:oxidized_web_project:oxidized_web:0.1.2:*:*:*:*:oxidized:*:*",
+                        "lastModifiedDate": "2023-01-06T15:12Z",
+                        "titles": [
+                            {
+                                "title": "Oxidized Web Project Oxidized Web 0.1.2 for Oxidized",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/ytti/oxidized-web",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://github.com/ytti/oxidized-web/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-25088"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

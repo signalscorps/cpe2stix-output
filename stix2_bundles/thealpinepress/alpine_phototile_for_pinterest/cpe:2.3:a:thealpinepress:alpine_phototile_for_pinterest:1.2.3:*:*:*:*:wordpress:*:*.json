@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--b8675300-4dae-48b4-83b3-cc2db990b087",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--07d6af8a-21ed-5aea-b018-923823bd52d6",
+            "name": "The Alpine Press Alpine PhotoTile for Pinterest 1.2.3 for WordPress",
+            "cpe": "cpe:2.3:a:thealpinepress:alpine_phototile_for_pinterest:1.2.3:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "thealpinepress",
+            "version": "1.2.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:thealpinepress:alpine_phototile_for_pinterest:1.2.3:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2023-01-06T20:18Z",
+                        "titles": [
+                            {
+                                "title": "The Alpine Press Alpine PhotoTile for Pinterest 1.2.3 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://thealpinepress.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/alpine-photo-tile-for-pinterest/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://plugins.trac.wordpress.org/log/alpine-photo-tile-for-pinterest/",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-36347"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

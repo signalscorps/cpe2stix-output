@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--9944d508-e4d9-54ea-971e-4affd40f246c",
+    "name": "Thinkific Uploader 1.0.0 for WordPress",
+    "cpe": "cpe:2.3:a:thinkific:thinkific_uploader:1.0.0:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "thinkific",
+    "version": "1.0.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:thinkific:thinkific_uploader:1.0.0:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-06T14:28Z",
+                "refs": [
+                    {
+                        "ref": "https://wordpress.org/plugins/thinkific-uploader/#description",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://www.thinkific.com/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Thinkific Uploader 1.0.0 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-2426"
+                ]
+            }
+        }
+    }
+}

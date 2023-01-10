@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--a925ba10-afa1-52d0-8893-168b11160b11",
+    "name": "OpenHarmony 1.1.0 LTS Edition",
+    "cpe": "cpe:2.3:a:openharmony:openharmony:1.1.0:*:*:*:lts:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "openharmony",
+    "version": "1.1.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:openharmony:openharmony:1.1.0:*:*:*:lts:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T21:16Z",
+                "refs": [
+                    {
+                        "ref": "https://gitee.com/openharmony/security/blob/master/en/security-disclosure/2022/2022-12.md",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "OpenHarmony 1.1.0 LTS Edition"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-41802"
+                ]
+            }
+        }
+    }
+}

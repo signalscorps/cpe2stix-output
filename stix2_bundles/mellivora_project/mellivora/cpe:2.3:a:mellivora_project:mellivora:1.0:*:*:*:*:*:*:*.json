@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--48ac045a-35cc-4228-a0f1-ac9beb612701",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ff90635c-0ab0-56c9-af8d-2e1bdac68213",
+            "name": "Mellivora Project Mellivora 1.0",
+            "cpe": "cpe:2.3:a:mellivora_project:mellivora:1.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "mellivora_project",
+            "version": "1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:mellivora_project:mellivora:1.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T21:09Z",
+                        "titles": [
+                            {
+                                "title": "Mellivora Project Mellivora 1.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/Nakiami/mellivora/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://vuldb.com/?id.216955",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-25092"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

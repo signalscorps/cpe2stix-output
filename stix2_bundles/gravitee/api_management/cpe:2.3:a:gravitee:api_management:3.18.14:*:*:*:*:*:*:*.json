@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--5a215cdc-2734-4b02-97cf-7b011c9129aa",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--99e35fa5-ff37-5ddb-b217-18cc8a38e11f",
+            "name": "Gravitee API Management 3.18.14",
+            "cpe": "cpe:2.3:a:gravitee:api_management:3.18.14:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "gravitee",
+            "version": "3.18.14",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:gravitee:api_management:3.18.14:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T14:31Z",
+                        "titles": [
+                            {
+                                "title": "Gravitee API Management 3.18.14",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.gravitee.io/platform/api-management",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/gravitee-io/gravitee-api-management/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/gravitee-io/gravitee-api-management",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

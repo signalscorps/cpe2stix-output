@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--889a8eed-ab71-4cdf-a06a-8e12762f88f0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--631fdc83-b618-57e4-bf51-a80c8353437c",
+            "name": "MyApnea 6.0.0 Beta 1",
+            "cpe": "cpe:2.3:a:myapnea:myapnea:6.0.0:beta1:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "myapnea",
+            "version": "6.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:myapnea:myapnea:6.0.0:beta1:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T17:21Z",
+                        "titles": [
+                            {
+                                "title": "MyApnea 6.0.0 Beta 1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://exchange.xforce.ibmcloud.com/vulnerabilities/243096",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/myapnea/myapnea.org/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://myapnea.org/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-4731"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

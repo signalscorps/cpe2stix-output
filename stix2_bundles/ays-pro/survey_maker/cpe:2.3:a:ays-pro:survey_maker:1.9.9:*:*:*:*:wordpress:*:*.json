@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--6e7a8974-11d6-45f3-ba6d-f833eb1c1b07",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ce859cd6-bb01-5160-bd30-2e52b116a91c",
+            "name": "AYS Pro Survey Maker 1.9.9 for WordPress",
+            "cpe": "cpe:2.3:a:ays-pro:survey_maker:1.9.9:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ays-pro",
+            "version": "1.9.9",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ays-pro:survey_maker:1.9.9:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2023-01-09T12:17Z",
+                        "titles": [
+                            {
+                                "title": "AYS Pro Survey Maker 1.9.9 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://ays-pro.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/survey-maker/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/survey-maker/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-26256",
+                            "CVE-2023-0038"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--0fcca3c2-8d2a-4194-b143-920ca0dcecd5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0b2db1f3-ddd7-5343-8dd3-96efacbf6a73",
+            "name": "FFmpeg 2022-11-12",
+            "cpe": "cpe:2.3:a:ffmpeg:ffmpeg:2022-11-12:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ffmpeg",
+            "version": "2022-11-12",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ffmpeg:ffmpeg:2022-11-12:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T19:32Z",
+                        "titles": [
+                            {
+                                "title": "FFmpeg 2022-11-12",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://git.ffmpeg.org/gitweb/ffmpeg.git/commit/13c13109759090b7f7182480d075e13b36ed8edd",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

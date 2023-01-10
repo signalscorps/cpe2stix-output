@@ -1,0 +1,55 @@
+{
+    "type": "bundle",
+    "id": "bundle--eee5fe94-8cac-437d-812c-6f08509187df",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8409e606-5b4f-5c1b-8350-43f037fbf55c",
+            "name": "PrimeKey EJBCA 3.9.7 Enterprise Edition",
+            "cpe": "cpe:2.3:a:primekey:ejbca:3.9.7:*:*:*:enterprise:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "primekey",
+            "version": "3.9.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:primekey:ejbca:3.9.7:*:*:*:enterprise:*:*:*",
+                        "lastModifiedDate": "2023-01-09T12:47Z",
+                        "titles": [
+                            {
+                                "title": "PrimeKey EJBCA 3.9.7 Enterprise Edition",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://doc.primekey.com/ejbca/ejbca-release-information/ejbca-release-notes/ejbca-release-notes-summary",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-11626",
+                            "CVE-2020-11627",
+                            "CVE-2020-11628",
+                            "CVE-2020-11629",
+                            "CVE-2020-11630",
+                            "CVE-2020-11631",
+                            "CVE-2020-28942",
+                            "CVE-2021-40086",
+                            "CVE-2021-40087",
+                            "CVE-2021-40088",
+                            "CVE-2021-40089",
+                            "CVE-2022-34831"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

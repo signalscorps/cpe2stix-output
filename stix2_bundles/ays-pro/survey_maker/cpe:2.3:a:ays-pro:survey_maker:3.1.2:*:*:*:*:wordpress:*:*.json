@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--ba2647ca-91c3-4b1f-9beb-d9c03824ecba",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fca8f631-08dd-555d-9b2d-5b70291bb1e2",
+            "name": "AYS Pro Survey Maker 3.1.2 for WordPress",
+            "cpe": "cpe:2.3:a:ays-pro:survey_maker:3.1.2:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ays-pro",
+            "version": "3.1.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ays-pro:survey_maker:3.1.2:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2023-01-09T12:17Z",
+                        "titles": [
+                            {
+                                "title": "AYS Pro Survey Maker 3.1.2 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://ays-pro.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/survey-maker/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/survey-maker/#developers",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2023-0038"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

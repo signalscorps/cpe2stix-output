@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--44a47d46-dcee-4591-b569-ec8729ee606b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2d9c7785-4858-5279-b8e1-c5e35bb69cf8",
+            "name": "Devolutions Remote Desktop Manager 2022.1",
+            "cpe": "cpe:2.3:a:devolutions:remote_desktop_manager:2022.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "devolutions",
+            "version": "2022.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:devolutions:remote_desktop_manager:2022.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T15:26Z",
+                        "titles": [
+                            {
+                                "title": "Devolutions Remote Desktop Manager 2022.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://devolutions.net/security/advisories/DEVO-2022-0002",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-1342",
+                            "CVE-2022-2221",
+                            "CVE-2022-3182",
+                            "CVE-2022-33995",
+                            "CVE-2022-3780",
+                            "CVE-2022-3781",
+                            "CVE-2022-4287"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

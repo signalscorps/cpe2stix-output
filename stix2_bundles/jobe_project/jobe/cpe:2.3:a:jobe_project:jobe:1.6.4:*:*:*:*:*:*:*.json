@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--4bec7cd8-e33c-4e83-8296-6b789b7188ee",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--34abc63c-01af-5eba-8685-433afe97ffdf",
+            "name": "Jobe Project Jobe (Job Engine) 1.6.4",
+            "cpe": "cpe:2.3:a:jobe_project:jobe:1.6.4:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "jobe_project",
+            "version": "1.6.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:jobe_project:jobe:1.6.4:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T15:22Z",
+                        "titles": [
+                            {
+                                "title": "Jobe Project Jobe (Job Engine) 1.6.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/trampgeek/jobe/commit/694da5013dbecc8d30dd83e2a83e78faadf93771",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/trampgeek/jobe/issues/46",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/trampgeek/jobe/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-4297"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

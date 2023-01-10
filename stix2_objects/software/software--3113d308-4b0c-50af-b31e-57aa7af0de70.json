@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--3113d308-4b0c-50af-b31e-57aa7af0de70",
+    "name": "Gorillatoolkit Handlers 1.2.1 for Go",
+    "cpe": "cpe:2.3:a:gorillatoolkit:handlers:1.2.1:*:*:*:*:go:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "gorillatoolkit",
+    "version": "1.2.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:gorillatoolkit:handlers:1.2.1:*:*:*:*:go:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T17:21Z",
+                "refs": [
+                    {
+                        "ref": "https://www.gorillatoolkit.org/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/gorilla/handlers/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://pkg.go.dev/vuln/GO-2020-0020",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Gorillatoolkit Handlers 1.2.1 for Go"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2017-20146"
+                ]
+            }
+        }
+    }
+}

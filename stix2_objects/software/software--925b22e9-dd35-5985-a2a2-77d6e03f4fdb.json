@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--925b22e9-dd35-5985-a2a2-77d6e03f4fdb",
+    "name": "Jobe Project Jobe (Job Engine)",
+    "cpe": "cpe:2.3:a:jobe_project:jobe:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "jobe_project",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:jobe_project:jobe:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T15:22Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/trampgeek/jobe/commit/694da5013dbecc8d30dd83e2a83e78faadf93771",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/trampgeek/jobe/issues/46",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/trampgeek/jobe/tags",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Jobe Project Jobe (Job Engine)"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-4297"
+                ]
+            }
+        }
+    }
+}

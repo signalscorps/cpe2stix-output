@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--b013943c-c239-426e-90ac-bbfdf152b516",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--cc0f111b-60e2-5ac4-958a-a701ed36401a",
+            "name": "PrimeKey EJBCA 7.8.2 Enterprise Edition",
+            "cpe": "cpe:2.3:a:primekey:ejbca:7.8.2:*:*:*:enterprise:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "primekey",
+            "version": "7.8.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:primekey:ejbca:7.8.2:*:*:*:enterprise:*:*:*",
+                        "lastModifiedDate": "2023-01-09T12:47Z",
+                        "titles": [
+                            {
+                                "title": "PrimeKey EJBCA 7.8.2 Enterprise Edition",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://doc.primekey.com/ejbca/ejbca-release-information/ejbca-release-notes/ejbca-release-notes-summary",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-34831"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

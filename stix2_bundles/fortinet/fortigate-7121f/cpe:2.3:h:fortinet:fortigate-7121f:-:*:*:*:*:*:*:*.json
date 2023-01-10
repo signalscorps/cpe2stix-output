@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--4be12fc3-8995-4206-b8e3-f32d65f222f0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--94312bd3-291b-5174-b05c-714c1f4530b2",
+            "name": "Fortinet FortiGate-7121F",
+            "cpe": "cpe:2.3:h:fortinet:fortigate-7121f:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "fortinet",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:fortinet:fortigate-7121f:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T14:31Z",
+                        "titles": [
+                            {
+                                "title": "Fortinet FortiGate-7121F",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://docs.fortinet.com/document/fortigate-7000/7.0.5/fortigate-7000f-handbook/220286/fortigate-7000f-overview",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-42475"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

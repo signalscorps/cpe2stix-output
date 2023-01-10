@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--e782b3e3-ad6b-5bd6-b1fe-b8319bf8c8bf",
+    "name": "Devolutions Remote Desktop Manager 2022.3.13",
+    "cpe": "cpe:2.3:a:devolutions:remote_desktop_manager:2022.3.13:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "devolutions",
+    "version": "2022.3.13",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:devolutions:remote_desktop_manager:2022.3.13:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T15:26Z",
+                "refs": [
+                    {
+                        "ref": "https://devolutions.net/security/advisories/DEVO-2022-0010",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Devolutions Remote Desktop Manager 2022.3.13"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3641",
+                    "CVE-2022-4287"
+                ]
+            }
+        }
+    }
+}

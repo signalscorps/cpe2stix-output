@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--9ed5d6e2-7c5c-597c-8ebe-98081aa25c9b",
+    "name": "DigitalOcean golang-nanoauth for Go",
+    "cpe": "cpe:2.3:a:digitalocean:golang-nanoauth:-:*:*:*:*:go:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "digitalocean",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:digitalocean:golang-nanoauth:-:*:*:*:*:go:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T18:53Z",
+                "refs": [
+                    {
+                        "ref": "https://pkg.go.dev/vuln/GO-2020-0004",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.digitalocean.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/nanobox-io/golang-nanoauth/pull/5",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "DigitalOcean golang-nanoauth for Go"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

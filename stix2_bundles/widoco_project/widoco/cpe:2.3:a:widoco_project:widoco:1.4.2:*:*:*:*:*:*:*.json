@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--99ef3d96-23ab-4421-9532-f6a5261db854",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3226cfa1-a59c-5202-971c-96aeda953c2e",
+            "name": "WIDOCO Project WIzard for DOCumenting Ontologies (WIDOCO) 1.4.2",
+            "cpe": "cpe:2.3:a:widoco_project:widoco:1.4.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "widoco_project",
+            "version": "1.4.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:widoco_project:widoco:1.4.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T12:51Z",
+                        "titles": [
+                            {
+                                "title": "WIDOCO Project WIzard for DOCumenting Ontologies (WIDOCO) 1.4.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/dgarijo/Widoco",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://github.com/dgarijo/Widoco/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-4772"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

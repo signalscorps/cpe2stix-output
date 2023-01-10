@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--565c25c5-207f-47b0-94bb-f54cde2b9daa",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0ea7b671-25da-5b0f-8ee6-fe0c8b0c8a60",
+            "name": "Flitto express-param 0.8.1",
+            "cpe": "cpe:2.3:a:flitto:express-param:0.8.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "flitto",
+            "version": "0.8.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:flitto:express-param:0.8.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T12:20Z",
+                        "titles": [
+                            {
+                                "title": "Flitto express-param 0.8.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/flitto/express-param/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.flitto.com/language/translation/text",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2017-20160"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--98f25d3f-5a0f-46a9-9bc4-497756dd8276",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4556fcb2-837f-5eeb-b38c-e1dea6612924",
+            "name": "Tim Campus Confession Wall Project Tim Campus Confession Wall",
+            "cpe": "cpe:2.3:a:tim_campus_confession_wall_project:tim_campus_confession_wall:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tim_campus_confession_wall_project",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:tim_campus_confession_wall_project:tim_campus_confession_wall:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T20:26Z",
+                        "titles": [
+                            {
+                                "title": "Tim Campus Confession Wall Project Tim Campus Confession Wall",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/whiex/-Tim-Campus-Confession-Wall/blob/main/Tim%20Campus%20Confession%20Wall%20SQL%20injection%20exists.docx",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://vuldb.com/?id.212611",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://asj.lanzoui.com/i0nTFvu2m9e?w",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3789"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

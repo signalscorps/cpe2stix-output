@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--46ae9190-4d0b-44c0-b0c4-e1cb0f1231ba",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--82fa106e-e23a-5912-bb82-1c5a9324e51f",
+            "name": "pysrp Project pysrp 1.0.16",
+            "cpe": "cpe:2.3:a:pysrp_project:pysrp:1.0.16:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "pysrp_project",
+            "version": "1.0.16",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:pysrp_project:pysrp:1.0.16:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T18:00Z",
+                        "titles": [
+                            {
+                                "title": "pysrp Project pysrp 1.0.16",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/cocagne/pysrp/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://vuldb.com/?id.216875",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-4286"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

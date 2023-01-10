@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--b4bce16c-f9fa-54b5-aa08-48aa59f9ab26",
+    "name": "MyApnea 24.0.0 Release Candidate",
+    "cpe": "cpe:2.3:a:myapnea:myapnea:24.0.0:rc:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "myapnea",
+    "version": "24.0.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:myapnea:myapnea:24.0.0:rc:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T17:21Z",
+                "refs": [
+                    {
+                        "ref": "https://exchange.xforce.ibmcloud.com/vulnerabilities/243096",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/myapnea/myapnea.org/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://myapnea.org/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "MyApnea 24.0.0 Release Candidate"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-4731"
+                ]
+            }
+        }
+    }
+}

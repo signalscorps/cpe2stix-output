@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--d6cc21fe-42ac-4bca-bf56-88f2b5e1c44a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--549e74a0-768d-5257-b691-9101f328746f",
+            "name": "Trillium Notes Project Trillum Notes 0.48.6",
+            "cpe": "cpe:2.3:a:trillium_notes_project:trillum_notes:0.48.6:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "trillium_notes_project",
+            "version": "0.48.6",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:trillium_notes_project:trillum_notes:0.48.6:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T21:12Z",
+                        "titles": [
+                            {
+                                "title": "Trillium Notes Project Trillum Notes 0.48.6",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://gist.github.com/choco-bot/a7da3defb2af7325043b8b92204ca410",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/zadam/trilium/issues/2340",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-43745"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

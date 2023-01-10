@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--5fa249fd-1199-4ed9-ae46-32e68ea9b06b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5378f386-6f32-5536-bbd5-0ff381a5ba6d",
+            "name": "NFLPick-Em NFL Pick-Em 2.3.1",
+            "cpe": "cpe:2.3:a:nflpick-em:nflpick-em:2.3.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nflpick-em",
+            "version": "2.3.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nflpick-em:nflpick-em:2.3.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T17:17Z",
+                        "titles": [
+                            {
+                                "title": "NFLPick-Em NFL Pick-Em 2.3.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/ummmmm/nflpick-em.com/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://www.nflpick-em.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://vuldb.com/?id.217270",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--6d0d6641-492a-4704-a714-c3167a8ad544",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--776bc316-688a-53f3-938a-1269df540dc3",
+            "name": "Fortinet FortiGate-6501F",
+            "cpe": "cpe:2.3:h:fortinet:fortigate-6501f:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "fortinet",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:fortinet:fortigate-6501f:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T14:31Z",
+                        "titles": [
+                            {
+                                "title": "Fortinet FortiGate-6501F",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://docs.fortinet.com/document/fortigate-6000/hardware/fortigate-6000f-system-guide/160306/fortigate-6000f-hardware-description",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-42475"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

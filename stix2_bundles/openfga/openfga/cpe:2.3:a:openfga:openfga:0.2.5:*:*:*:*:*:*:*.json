@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--30a39e84-38f4-4940-b108-bb102091acfc",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--679183a9-4fb6-59c8-9c3d-117e32cc54e1",
+            "name": "OpenFGA 0.2.5",
+            "cpe": "cpe:2.3:a:openfga:openfga:0.2.5:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "openfga",
+            "version": "0.2.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:openfga:openfga:0.2.5:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T21:12Z",
+                        "titles": [
+                            {
+                                "title": "OpenFGA 0.2.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/openfga/openfga",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://openfga.dev/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/openfga/openfga/releases",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23542"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

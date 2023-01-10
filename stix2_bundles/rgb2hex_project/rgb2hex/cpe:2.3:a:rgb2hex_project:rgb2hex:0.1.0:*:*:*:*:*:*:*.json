@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--c49bafb8-c10a-4dcd-9f39-7df4a7ee5a23",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--17d5e2c1-0228-56cf-b1a2-b98e405a4b43",
+            "name": "rgb2hex Project rgb2hex 0.1.0",
+            "cpe": "cpe:2.3:a:rgb2hex_project:rgb2hex:0.1.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "rgb2hex_project",
+            "version": "0.1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:rgb2hex_project:rgb2hex:0.1.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T15:01Z",
+                        "titles": [
+                            {
+                                "title": "rgb2hex Project rgb2hex 0.1.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/christian-bromann/rgb2hex/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://vuldb.com/?id.217151",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2018-25061"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

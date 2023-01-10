@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--605e83b6-bd38-4116-a04a-735435519e5b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4f7c6d25-0929-5aed-aaf8-17ee63f5e1c5",
+            "name": "Gorillatoolkit Handlers 1.4.1 for Go",
+            "cpe": "cpe:2.3:a:gorillatoolkit:handlers:1.4.1:*:*:*:*:go:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "gorillatoolkit",
+            "version": "1.4.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:gorillatoolkit:handlers:1.4.1:*:*:*:*:go:*:*",
+                        "lastModifiedDate": "2023-01-09T17:21Z",
+                        "titles": [
+                            {
+                                "title": "Gorillatoolkit Handlers 1.4.1 for Go",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.gorillatoolkit.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/gorilla/handlers/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://pkg.go.dev/vuln/GO-2020-0020",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

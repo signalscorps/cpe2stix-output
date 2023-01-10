@@ -1,0 +1,44 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--aca0cc54-4e8e-57ea-8392-78ae9ead8f37",
+    "name": "OpenMRS Reference Application 2.2",
+    "cpe": "cpe:2.3:a:openmrs:reference_application:2.2:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "openmrs",
+    "version": "2.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:openmrs:reference_application:2.2:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T21:19Z",
+                "refs": [
+                    {
+                        "ref": "http://openmrs.org/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/openmrs/openmrs-module-referenceapplication/tags",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "OpenMRS Reference Application 2.2"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-4288",
+                    "CVE-2021-4289",
+                    "CVE-2021-43094"
+                ]
+            }
+        }
+    }
+}

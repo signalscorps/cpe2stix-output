@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--6c3b7464-d4bb-4697-846b-98e557397598",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--83f837bb-16c8-5423-a678-2595b78e4322",
+            "name": "Tribal Systems Zenario",
+            "cpe": "cpe:2.3:a:tribalsystems:zenario:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tribalsystems",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:tribalsystems:zenario:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T21:06Z",
+                        "titles": [
+                            {
+                                "title": "Tribal Systems Zenario",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/TribalSystems/Zenario",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://tribalsystems.uk/en-gb/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-36608"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

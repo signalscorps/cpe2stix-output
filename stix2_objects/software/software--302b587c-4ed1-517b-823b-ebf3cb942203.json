@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--302b587c-4ed1-517b-823b-ebf3cb942203",
+    "name": "Libksba Project Libksba 1.5.0",
+    "cpe": "cpe:2.3:a:libksba_project:libksba:1.5.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "libksba_project",
+    "version": "1.5.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:libksba_project:libksba:1.5.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T17:12Z",
+                "refs": [
+                    {
+                        "ref": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=libksba.git;a=tags",
+                        "type": "Version"
+                    },
+                    {
+                        "ref": "https://dev.gnupg.org/T6284",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Libksba Project Libksba 1.5.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-47629"
+                ]
+            }
+        }
+    }
+}

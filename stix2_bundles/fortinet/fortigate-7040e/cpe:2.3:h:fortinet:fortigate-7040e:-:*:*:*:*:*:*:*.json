@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--b6759204-af68-4c88-a4da-61070180a57a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c0a06e6c-0bc7-562d-aa7c-920ebbcddfe3",
+            "name": "Fortinet FortiGate-7040E",
+            "cpe": "cpe:2.3:h:fortinet:fortigate-7040e:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "fortinet",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:fortinet:fortigate-7040e:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T14:31Z",
+                        "titles": [
+                            {
+                                "title": "Fortinet FortiGate-7040E",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://docs.fortinet.com/document/fortigate-7000/7.0.5/fortigate-7000e-handbook/315189/fortigate-7000e-overview",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-42475"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

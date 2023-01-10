@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--80e39141-1b01-44e9-814d-0cf8735b5e01",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1e9b6462-01b2-5e4b-80f0-36e4eac2c236",
+            "name": "Golf Project Golf for Go",
+            "cpe": "cpe:2.3:a:golf_project:golf:-:*:*:*:*:go:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "golf_project",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:golf_project:golf:-:*:*:*:*:go:*:*",
+                        "lastModifiedDate": "2023-01-09T17:21Z",
+                        "titles": [
+                            {
+                                "title": "Golf Project Golf for Go",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/dinever/golf/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/dinever/golf/pull/24",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://pkg.go.dev/vuln/GO-2020-0045",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2016-15005"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

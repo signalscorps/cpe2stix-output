@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--ff9b3b34-ac4d-4117-b29b-98c0aba4f6ea",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--db8de42c-8237-5950-afd6-031a23eaea15",
+            "name": "Revel 0.16.0 for Go",
+            "cpe": "cpe:2.3:a:revel:revel:0.16.0:*:*:*:*:go:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "revel",
+            "version": "0.16.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:revel:revel:0.16.0:*:*:*:*:go:*:*",
+                        "lastModifiedDate": "2023-01-09T17:21Z",
+                        "titles": [
+                            {
+                                "title": "Revel 0.16.0 for Go",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/revel/revel/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/revel/revel/issues/1424",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://pkg.go.dev/vuln/GO-2020-0003",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-36568"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

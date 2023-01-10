@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--6f82cab2-6ad3-48fe-b35a-aec555cb4530",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--13f3ece8-ecf8-5425-b282-e78f674cdef0",
+            "name": "DHT Project DHT for Go",
+            "cpe": "cpe:2.3:a:dht_project:dht:-:*:*:*:*:go:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "dht_project",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:dht_project:dht:-:*:*:*:*:go:*:*",
+                        "lastModifiedDate": "2023-01-09T17:26Z",
+                        "titles": [
+                            {
+                                "title": "DHT Project DHT for Go",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/shiyanhui/dht",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://pkg.go.dev/vuln/GO-2020-0040",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/shiyanhui/dht/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-36562"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

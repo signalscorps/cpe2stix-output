@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--9e406bad-f79e-4ff4-89af-aabd58fbc4f9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0f027cbf-0ddd-5e2b-80af-011ff3f930f8",
+            "name": "voidtools Everything 1.2.1.355",
+            "cpe": "cpe:2.3:a:voidtools:everything:1.2.1.355:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "voidtools",
+            "version": "1.2.1.355",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:voidtools:everything:1.2.1.355:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T20:06Z",
+                        "titles": [
+                            {
+                                "title": "voidtools Everything 1.2.1.355",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.voidtools.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.voidtools.com/support/everything/previous_versions/",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-24567",
+                            "CVE-2021-20784"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

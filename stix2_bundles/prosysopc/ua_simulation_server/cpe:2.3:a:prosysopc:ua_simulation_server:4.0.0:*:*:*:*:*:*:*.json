@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--6d5101ac-7777-4c9f-aade-da6d7c87c9e3",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c78d0af1-fc91-5336-91c6-e00e9024d2b5",
+            "name": "Prosys OPC UA Simulation Server 4.0.0",
+            "cpe": "cpe:2.3:a:prosysopc:ua_simulation_server:4.0.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "prosysopc",
+            "version": "4.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:prosysopc:ua_simulation_server:4.0.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T14:31Z",
+                        "titles": [
+                            {
+                                "title": "Prosys OPC UA Simulation Server 4.0.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.prosysopc.com/products/opc-ua-simulation-server/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://downloads.prosysopc.com/opcua/simulationserver/Prosys_OPC_UA_Simulation_Server_4_Release_Notes.html",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

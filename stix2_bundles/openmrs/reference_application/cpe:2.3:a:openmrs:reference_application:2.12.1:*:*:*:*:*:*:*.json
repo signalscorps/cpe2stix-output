@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--44bc76f7-0523-490d-abf5-ce76756e1e8a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fa8694f8-b998-5201-aa3e-283627c0d21b",
+            "name": "OpenMRS Reference Application 2.12.1",
+            "cpe": "cpe:2.3:a:openmrs:reference_application:2.12.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "openmrs",
+            "version": "2.12.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:openmrs:reference_application:2.12.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T21:19Z",
+                        "titles": [
+                            {
+                                "title": "OpenMRS Reference Application 2.12.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "http://openmrs.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/openmrs/openmrs-module-referenceapplication/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

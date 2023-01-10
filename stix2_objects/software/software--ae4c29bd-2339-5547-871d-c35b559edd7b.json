@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--ae4c29bd-2339-5547-871d-c35b559edd7b",
+    "name": "JSON Web Token Project JSON Web Token 1.0.0 for Go",
+    "cpe": "cpe:2.3:a:json_web_token_project:json_web_token:1.0.0:*:*:*:*:go:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "json_web_token_project",
+    "version": "1.0.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:json_web_token_project:json_web_token:1.0.0:*:*:*:*:go:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T17:21Z",
+                "refs": [
+                    {
+                        "ref": "https://pkg.go.dev/vuln/GO-2020-0023",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/robbert229/jwt/tags",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "JSON Web Token Project JSON Web Token 1.0.0 for Go"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

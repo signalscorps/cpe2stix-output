@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--89417772-52a1-4ff8-8bfd-b00c61dd7143",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--69ae369f-55fb-5297-ab1e-1e57e9a2c25e",
+            "name": "DigitalOcean golang-nanoauth 2019-03-18 for Go",
+            "cpe": "cpe:2.3:a:digitalocean:golang-nanoauth:2019-03-18:*:*:*:*:go:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "digitalocean",
+            "version": "2019-03-18",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:digitalocean:golang-nanoauth:2019-03-18:*:*:*:*:go:*:*",
+                        "lastModifiedDate": "2023-01-09T18:53Z",
+                        "titles": [
+                            {
+                                "title": "DigitalOcean golang-nanoauth 2019-03-18 for Go",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/nanobox-io/golang-nanoauth/commits/master",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/nanobox-io/golang-nanoauth",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.digitalocean.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-36569"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

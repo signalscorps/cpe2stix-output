@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--b66fc522-8274-4e14-94b2-c040f48633f9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6b73ef7e-c0e4-54db-8c6a-e2ff6c3329af",
+            "name": "nsupdate nsupdate.info 0.9.0",
+            "cpe": "cpe:2.3:a:nsupdate:nsupdate.info:0.9.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nsupdate",
+            "version": "0.9.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nsupdate:nsupdate.info:0.9.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T17:20Z",
+                        "titles": [
+                            {
+                                "title": "nsupdate nsupdate.info 0.9.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/nsupdate-info/nsupdate.info/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/nsupdate-info/nsupdate.info/pull/410",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-25091"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

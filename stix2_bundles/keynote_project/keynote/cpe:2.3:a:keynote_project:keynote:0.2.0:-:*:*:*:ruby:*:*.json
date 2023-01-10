@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--1e646223-f860-4bbf-9bdc-e7d34acf056c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8f3a2f56-3544-5740-b859-3b92a6099544",
+            "name": "Keynote Project Keynote 0.2.0 for Ruby",
+            "cpe": "cpe:2.3:a:keynote_project:keynote:0.2.0:-:*:*:*:ruby:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "keynote_project",
+            "version": "0.2.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:keynote_project:keynote:0.2.0:-:*:*:*:ruby:*:*",
+                        "lastModifiedDate": "2023-01-09T12:32Z",
+                        "titles": [
+                            {
+                                "title": "Keynote Project Keynote 0.2.0 for Ruby",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/rf-/keynote/commit/05be4356b0a6ca7de48da926a9b997beb5ffeb4a",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/rf-/keynote/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://rubygems.org/gems/keynote",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2017-20159"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

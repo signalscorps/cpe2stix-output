@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--7ac622fe-d820-4059-a637-c97e9ff12435",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c051af39-61c5-5314-b49f-227116373f8f",
+            "name": "Revel 0.17 for Go",
+            "cpe": "cpe:2.3:a:revel:revel:0.17:*:*:*:*:go:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "revel",
+            "version": "0.17",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:revel:revel:0.17:*:*:*:*:go:*:*",
+                        "lastModifiedDate": "2023-01-09T17:21Z",
+                        "titles": [
+                            {
+                                "title": "Revel 0.17 for Go",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/revel/revel/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/revel/revel/issues/1424",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://pkg.go.dev/vuln/GO-2020-0003",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-36568"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

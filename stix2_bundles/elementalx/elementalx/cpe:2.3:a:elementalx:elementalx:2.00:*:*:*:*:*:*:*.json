@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--a2fefa00-8626-406b-837e-a6b357f2446b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fb575342-7b78-51c6-9852-b25f30ad6a72",
+            "name": "ElementalX 2.00",
+            "cpe": "cpe:2.3:a:elementalx:elementalx:2.00:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "elementalx",
+            "version": "2.00",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:elementalx:elementalx:2.00:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T12:24Z",
+                        "titles": [
+                            {
+                                "title": "ElementalX 2.00",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://elementalx.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/flar2/ElementalX-N9/branches",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://vuldb.com/?id.217152",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2018-25062"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

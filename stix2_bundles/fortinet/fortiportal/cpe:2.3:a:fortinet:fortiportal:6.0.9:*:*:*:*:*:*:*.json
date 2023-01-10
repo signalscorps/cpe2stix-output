@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--a8a95992-393f-4149-8942-4cc1ffc4722e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e6a649d8-6680-5a39-b996-dd9c4fc1cc15",
+            "name": "Fortinet FortiPortal 6.0.9",
+            "cpe": "cpe:2.3:a:fortinet:fortiportal:6.0.9:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "fortinet",
+            "version": "6.0.9",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:fortinet:fortiportal:6.0.9:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T17:09Z",
+                        "titles": [
+                            {
+                                "title": "Fortinet FortiPortal 6.0.9",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.fortiguard.com/psirt/FG-IR-22-313",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.fortiguard.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-41336"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

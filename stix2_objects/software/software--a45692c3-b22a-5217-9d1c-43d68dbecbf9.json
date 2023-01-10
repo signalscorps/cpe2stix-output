@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--a45692c3-b22a-5217-9d1c-43d68dbecbf9",
+    "name": "Go-unzip Project Go-unzip for Go",
+    "cpe": "cpe:2.3:a:go-unzip_project:go-unzip:-:*:*:*:*:go:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "go-unzip_project",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:go-unzip_project:go-unzip:-:*:*:*:*:go:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T17:21Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/artdarek/go-unzip/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://pkg.go.dev/vuln/GO-2020-0034",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Go-unzip Project Go-unzip for Go"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-36560"
+                ]
+            }
+        }
+    }
+}

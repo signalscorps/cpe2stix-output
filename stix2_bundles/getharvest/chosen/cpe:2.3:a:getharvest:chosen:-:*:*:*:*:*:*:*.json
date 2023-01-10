@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--cfed1a65-7385-4890-beaf-08c42cc24e21",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f631112e-5637-5dc4-bff8-63e94766fef1",
+            "name": "Harvest Chosen",
+            "cpe": "cpe:2.3:a:getharvest:chosen:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "getharvest",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:getharvest:chosen:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T17:21Z",
+                        "titles": [
+                            {
+                                "title": "Harvest Chosen",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://vuldb.com/?id.216956",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/harvesthq/chosen/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.getharvest.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2018-25050"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

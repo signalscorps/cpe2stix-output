@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--a02efea3-88e1-48dc-882a-d586dce56e85",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--7c1f3bd0-5a3e-5573-ade6-12d16aacb422",
+            "name": "Slixmpp Project Slixmpp 1.5.0",
+            "cpe": "cpe:2.3:a:slixmpp_project:slixmpp:1.5.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "slixmpp_project",
+            "version": "1.5.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:slixmpp_project:slixmpp:1.5.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T17:21Z",
+                        "titles": [
+                            {
+                                "title": "Slixmpp Project Slixmpp 1.5.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/poezio/slixmpp/releases",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-45197"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

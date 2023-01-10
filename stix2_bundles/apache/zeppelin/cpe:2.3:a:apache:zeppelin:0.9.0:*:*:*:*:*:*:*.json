@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--00991ac7-c2d0-4ef3-94ab-eba2244ba461",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d09516ab-658a-5701-8b62-4930b3655f96",
+            "name": "Apache Software Foundation Zeppelin 0.9.0",
+            "cpe": "cpe:2.3:a:apache:zeppelin:0.9.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "apache",
+            "version": "0.9.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:apache:zeppelin:0.9.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T13:12Z",
+                        "titles": [
+                            {
+                                "title": "Apache Software Foundation Zeppelin 0.9.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://lists.apache.org/thread/bxs056g3xlsofz0jb3wny9dw4llwptd2",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://zeppelin.apache.org/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-10095",
+                            "CVE-2020-13929",
+                            "CVE-2021-28655"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--344b431f-dc84-4059-9de9-7392299973c0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ece71eec-02d4-5b6f-b586-4fb247a9bd0c",
+            "name": "DigitalOcean golang-nanoauth 2016-06-10 for Go",
+            "cpe": "cpe:2.3:a:digitalocean:golang-nanoauth:2016-06-10:*:*:*:*:go:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "digitalocean",
+            "version": "2016-06-10",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:digitalocean:golang-nanoauth:2016-06-10:*:*:*:*:go:*:*",
+                        "lastModifiedDate": "2023-01-09T18:53Z",
+                        "titles": [
+                            {
+                                "title": "DigitalOcean golang-nanoauth 2016-06-10 for Go",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/nanobox-io/golang-nanoauth/commits/master",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/nanobox-io/golang-nanoauth",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.digitalocean.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

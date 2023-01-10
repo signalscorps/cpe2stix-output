@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--c0e764b0-a0a0-4502-9de4-84ae5a04afaa",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5ad48adb-b18e-5272-a69d-11459465dfa9",
+            "name": "Innologi Appointment Scheduler 3.0.2 for Typo3",
+            "cpe": "cpe:2.3:a:innologi:appointment_scheduler:3.0.2:*:*:*:*:typo3:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "innologi",
+            "version": "3.0.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:innologi:appointment_scheduler:3.0.2:*:*:*:*:typo3:*:*",
+                        "lastModifiedDate": "2023-01-09T14:31Z",
+                        "titles": [
+                            {
+                                "title": "Innologi Appointment Scheduler 3.0.2 for Typo3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://extensions.typo3.org/extension/appointments",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/innologi/typo3-appointments",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/innologi/typo3-appointments/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://www.innologi.nl/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

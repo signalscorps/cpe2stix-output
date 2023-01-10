@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--16c32a82-25fb-4336-a91c-e92f63eee50e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f79871f1-b228-5f58-b540-1b911d93d16f",
+            "name": "Nosurf Project Nosurf 1.1.1 for Go",
+            "cpe": "cpe:2.3:a:nosurf_project:nosurf:1.1.1:*:*:*:*:go:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nosurf_project",
+            "version": "1.1.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nosurf_project:nosurf:1.1.1:*:*:*:*:go:*:*",
+                        "lastModifiedDate": "2023-01-09T17:21Z",
+                        "titles": [
+                            {
+                                "title": "Nosurf Project Nosurf 1.1.1 for Go",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/justinas/nosurf/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://pkg.go.dev/vuln/GO-2020-0049",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

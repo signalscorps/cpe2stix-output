@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--eacfc14a-13d8-4d61-8d66-5d652f36a451",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c5613247-4669-5c4f-9a7e-d1024cb8442e",
+            "name": "Harvest Chosen 1.4.2",
+            "cpe": "cpe:2.3:a:getharvest:chosen:1.4.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "getharvest",
+            "version": "1.4.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:getharvest:chosen:1.4.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T17:21Z",
+                        "titles": [
+                            {
+                                "title": "Harvest Chosen 1.4.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://vuldb.com/?id.216956",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/harvesthq/chosen/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.getharvest.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2018-25050"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

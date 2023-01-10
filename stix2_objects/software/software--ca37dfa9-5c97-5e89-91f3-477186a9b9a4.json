@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--ca37dfa9-5c97-5e89-91f3-477186a9b9a4",
+    "name": "Golf Project Golf 0.1.1 for Go",
+    "cpe": "cpe:2.3:a:golf_project:golf:0.1.1:*:*:*:*:go:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "golf_project",
+    "version": "0.1.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:golf_project:golf:0.1.1:*:*:*:*:go:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T17:21Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/dinever/golf/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://github.com/dinever/golf/pull/24",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://pkg.go.dev/vuln/GO-2020-0045",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Golf Project Golf 0.1.1 for Go"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2016-15005"
+                ]
+            }
+        }
+    }
+}

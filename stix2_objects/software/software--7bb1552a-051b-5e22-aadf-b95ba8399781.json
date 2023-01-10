@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--7bb1552a-051b-5e22-aadf-b95ba8399781",
+    "name": "PrimeKey EJBCA Community Edition",
+    "cpe": "cpe:2.3:a:primekey:ejbca:-:*:*:*:community:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "primekey",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:primekey:ejbca:-:*:*:*:community:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T12:47Z",
+                "refs": [
+                    {
+                        "ref": "https://doc.primekey.com/ejbca/ejbca-release-information/ejbca-release-notes/ejbca-change-log-summary",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "PrimeKey EJBCA Community Edition"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-34831"
+                ]
+            }
+        }
+    }
+}

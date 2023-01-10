@@ -1,0 +1,50 @@
+{
+    "type": "bundle",
+    "id": "bundle--329fadc4-bd1a-4904-9f50-abf19f36f89b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--44e6098e-f9de-56a7-be85-6604df885cb2",
+            "name": "Transposh WordPress Translation 1.0.8.1 for WordPress",
+            "cpe": "cpe:2.3:a:transposh:transposh_wordpress_translation:1.0.8.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "transposh",
+            "version": "1.0.8.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:transposh:transposh_wordpress_translation:1.0.8.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2023-01-09T20:59Z",
+                        "titles": [
+                            {
+                                "title": "Transposh WordPress Translation 1.0.8.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://transposh.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/transposh-translation-filter-for-wordpress/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-2461",
+                            "CVE-2022-2462",
+                            "CVE-2022-2536"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

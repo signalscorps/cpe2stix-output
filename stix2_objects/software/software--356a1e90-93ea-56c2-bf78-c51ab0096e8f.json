@@ -1,0 +1,41 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--356a1e90-93ea-56c2-bf78-c51ab0096e8f",
+    "name": "FFmpeg 5.1",
+    "cpe": "cpe:2.3:a:ffmpeg:ffmpeg:5.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "ffmpeg",
+    "version": "5.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:ffmpeg:ffmpeg:5.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T19:32Z",
+                "refs": [
+                    {
+                        "ref": "https://git.ffmpeg.org/gitweb/ffmpeg.git",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "FFmpeg 5.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-38291",
+                    "CVE-2022-2566",
+                    "CVE-2022-3964",
+                    "CVE-2022-3965"
+                ]
+            }
+        }
+    }
+}

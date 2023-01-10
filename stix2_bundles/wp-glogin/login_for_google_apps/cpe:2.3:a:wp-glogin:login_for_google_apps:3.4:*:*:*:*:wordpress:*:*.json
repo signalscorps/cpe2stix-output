@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--ab225704-73f7-42bf-b9c2-2d77d335e4f8",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--30fce1e9-4527-53aa-b554-3237ee25dec2",
+            "name": "Wp-glogin Login for Google Apps 3.4 for WordPress",
+            "cpe": "cpe:2.3:a:wp-glogin:login_for_google_apps:3.4:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wp-glogin",
+            "version": "3.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wp-glogin:login_for_google_apps:3.4:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2023-01-09T17:21Z",
+                        "titles": [
+                            {
+                                "title": "Wp-glogin Login for Google Apps 3.4 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wordpress.org/plugins/google-apps-login/#developers",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://wp-glogin.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wpscan.com/vulnerability/71414436-ef54-4ce6-94e2-62e68d1a371d",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3840"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

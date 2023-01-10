@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--1cb01ad2-27e8-529a-a5e5-f118bc5bc841",
+    "name": "PrimeKey EJBCA 7.6 Enterprise Edition",
+    "cpe": "cpe:2.3:a:primekey:ejbca:7.6:*:*:*:enterprise:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "primekey",
+    "version": "7.6",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:primekey:ejbca:7.6:*:*:*:enterprise:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T12:47Z",
+                "refs": [
+                    {
+                        "ref": "https://doc.primekey.com/ejbca/ejbca-release-information/ejbca-release-notes/ejbca-release-notes-summary",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "PrimeKey EJBCA 7.6 Enterprise Edition"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-40086",
+                    "CVE-2021-40087",
+                    "CVE-2021-40088",
+                    "CVE-2021-40089",
+                    "CVE-2022-34831"
+                ]
+            }
+        }
+    }
+}

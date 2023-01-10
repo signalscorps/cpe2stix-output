@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--552ce91d-a442-5d47-8172-6185d08b2d4a",
+    "name": "Keynote Project Keynote 0.1.1 for Ruby",
+    "cpe": "cpe:2.3:a:keynote_project:keynote:0.1.1:*:*:*:*:ruby:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "keynote_project",
+    "version": "0.1.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:keynote_project:keynote:0.1.1:*:*:*:*:ruby:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T12:32Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/rf-/keynote/commit/05be4356b0a6ca7de48da926a9b997beb5ffeb4a",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/rf-/keynote/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://rubygems.org/gems/keynote",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Keynote Project Keynote 0.1.1 for Ruby"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2017-20159"
+                ]
+            }
+        }
+    }
+}

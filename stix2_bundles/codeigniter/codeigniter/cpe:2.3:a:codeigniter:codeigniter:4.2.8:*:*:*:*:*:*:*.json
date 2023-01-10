@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--d66a2cab-c332-444b-87f4-bc724f12a235",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2a5ccc63-c924-5e61-b8b5-a1e49db97288",
+            "name": "CodeIgniter 4.2.8",
+            "cpe": "cpe:2.3:a:codeigniter:codeigniter:4.2.8:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "codeigniter",
+            "version": "4.2.8",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:codeigniter:codeigniter:4.2.8:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T15:07Z",
+                        "titles": [
+                            {
+                                "title": "CodeIgniter 4.2.8",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.codeigniter.com/userguide2/changelog.html",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/codeigniter4/CodeIgniter4/security/advisories/GHSA-ghw3-5qvm-3mqc",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23556",
+                            "CVE-2022-46170"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

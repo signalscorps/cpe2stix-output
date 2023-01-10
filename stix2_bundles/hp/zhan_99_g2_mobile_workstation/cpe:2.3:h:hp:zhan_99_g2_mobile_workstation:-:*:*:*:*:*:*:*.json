@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--96b84fef-580b-48f1-bc7d-f08a262ed944",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1c7241a8-22f0-5b78-a275-15ab6e76da93",
+            "name": "HP ZHAN 99 G2 Mobile Workstation",
+            "cpe": "cpe:2.3:h:hp:zhan_99_g2_mobile_workstation:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hp",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:hp:zhan_99_g2_mobile_workstation:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T14:23Z",
+                        "titles": [
+                            {
+                                "title": "HP ZHAN 99 G2 Mobile Workstation",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.hp.com/us-en/document/ish_5481136-5481162-16/hpsbgn03761",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-3919"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

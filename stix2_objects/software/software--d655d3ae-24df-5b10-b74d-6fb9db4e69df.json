@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--d655d3ae-24df-5b10-b74d-6fb9db4e69df",
+    "name": "DigitalOcean golang-nanoauth 2019-03-11 for Go",
+    "cpe": "cpe:2.3:a:digitalocean:golang-nanoauth:2019-03-11:*:*:*:*:go:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "digitalocean",
+    "version": "2019-03-11",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:digitalocean:golang-nanoauth:2019-03-11:*:*:*:*:go:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T18:53Z",
+                "refs": [
+                    {
+                        "ref": "https://www.digitalocean.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/nanobox-io/golang-nanoauth",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://github.com/nanobox-io/golang-nanoauth/commits/master",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "DigitalOcean golang-nanoauth 2019-03-11 for Go"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-36569"
+                ]
+            }
+        }
+    }
+}

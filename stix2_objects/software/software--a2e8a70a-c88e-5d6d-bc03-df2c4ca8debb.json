@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--a2e8a70a-c88e-5d6d-bc03-df2c4ca8debb",
+    "name": "Harvest Chosen 1.8.1",
+    "cpe": "cpe:2.3:a:getharvest:chosen:1.8.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "getharvest",
+    "version": "1.8.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:getharvest:chosen:1.8.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T17:21Z",
+                "refs": [
+                    {
+                        "ref": "https://vuldb.com/?id.216956",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/harvesthq/chosen/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://www.getharvest.com/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Harvest Chosen 1.8.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2018-25050"
+                ]
+            }
+        }
+    }
+}

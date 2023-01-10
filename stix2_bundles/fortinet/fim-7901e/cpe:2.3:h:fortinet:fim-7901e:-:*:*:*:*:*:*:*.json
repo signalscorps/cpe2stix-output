@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--80de228f-c4ef-42f0-a663-ae7bb2103140",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e4bff9b7-0aaa-5d8f-9a30-6676fca070bc",
+            "name": "Fortinet FIM-7901E",
+            "cpe": "cpe:2.3:h:fortinet:fim-7901e:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "fortinet",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:fortinet:fim-7901e:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T14:31Z",
+                        "titles": [
+                            {
+                                "title": "Fortinet FIM-7901E",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://docs.fortinet.com/document/fortigate-7000/7.0.5/fortigate-7000e-handbook/315189/fortigate-7000e-overview",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-42475"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

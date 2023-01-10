@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--4ad60eb5-fad3-5883-982b-8373f5750563",
+    "name": "Fortinet FortiWeb 7.0.1",
+    "cpe": "cpe:2.3:a:fortinet:fortiweb:7.0.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "fortinet",
+    "version": "7.0.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:fortinet:fortiweb:7.0.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T20:18Z",
+                "refs": [
+                    {
+                        "ref": "https://www.fortiguard.com/psirt/FG-IR-22-250",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.fortiguard.com/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Fortinet FortiWeb 7.0.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-42471"
+                ]
+            }
+        }
+    }
+}

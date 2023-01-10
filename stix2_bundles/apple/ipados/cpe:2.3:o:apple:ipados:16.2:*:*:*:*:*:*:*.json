@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--23cc4f8c-65f0-4b0d-98e2-7b85eecaaa19",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e6ee004b-e5c3-53e3-8533-e4bc49968d75",
+            "name": "Apple iPad OS 16.2",
+            "cpe": "cpe:2.3:o:apple:ipados:16.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "apple",
+            "version": "16.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:apple:ipados:16.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T16:41Z",
+                        "titles": [
+                            {
+                                "title": "Apple iPad OS 16.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.apple.com/en-us/HT213530",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://exchange.xforce.ibmcloud.com/vulnerabilities/242415",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

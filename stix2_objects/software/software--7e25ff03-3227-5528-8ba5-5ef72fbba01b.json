@@ -1,0 +1,40 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--7e25ff03-3227-5528-8ba5-5ef72fbba01b",
+    "name": "Trend Micro Security 2022",
+    "cpe": "cpe:2.3:a:trendmicro:security:2022:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "trendmicro",
+    "version": "2022",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:trendmicro:security:2022:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T21:01Z",
+                "refs": [
+                    {
+                        "ref": "https://helpcenter.trendmicro.com/en-us/article/tmka-11022",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Trend Micro Security 2022"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-30702",
+                    "CVE-2022-30703",
+                    "CVE-2022-35234"
+                ]
+            }
+        }
+    }
+}

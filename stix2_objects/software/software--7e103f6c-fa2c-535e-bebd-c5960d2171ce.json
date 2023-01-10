@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--7e103f6c-fa2c-535e-bebd-c5960d2171ce",
+    "name": "Wp-glogin Login for Google Apps 3.4.1 for WordPress",
+    "cpe": "cpe:2.3:a:wp-glogin:login_for_google_apps:3.4.1:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "wp-glogin",
+    "version": "3.4.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:wp-glogin:login_for_google_apps:3.4.1:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T17:21Z",
+                "refs": [
+                    {
+                        "ref": "https://wordpress.org/plugins/google-apps-login/#developers",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://wp-glogin.com/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://wpscan.com/vulnerability/71414436-ef54-4ce6-94e2-62e68d1a371d",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Wp-glogin Login for Google Apps 3.4.1 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3840"
+                ]
+            }
+        }
+    }
+}

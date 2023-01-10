@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--2c2ec80f-a8c7-5833-8e5e-516607a12c01",
+    "name": "Apache Software Foundation Tomcat 8.5.83",
+    "cpe": "cpe:2.3:a:apache:tomcat:8.5.83:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "apache",
+    "version": "8.5.83",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:apache:tomcat:8.5.83:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T17:27Z",
+                "refs": [
+                    {
+                        "ref": "https://lists.apache.org/thread/yqkd183xrw3wqvnpcg3osbcryq85fkzj",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Apache Software Foundation Tomcat 8.5.83"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-8022",
+                    "CVE-2022-45143"
+                ]
+            }
+        }
+    }
+}

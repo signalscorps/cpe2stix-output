@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--7cf71d4b-543f-4ed9-ae58-d6a77b3d994c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--dc6ac4d5-0724-5eed-acaa-41fd29f4f943",
+            "name": "ntpd Driver Project ntpd Driver",
+            "cpe": "cpe:2.3:a:ntpd_driver_project:ntpd_driver:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ntpd_driver_project",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ntpd_driver_project:ntpd_driver:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T17:24Z",
+                        "titles": [
+                            {
+                                "title": "ntpd Driver Project ntpd Driver",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/vooon/ntpd_driver/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/vooon/ntpd_driver/issues/9",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-48198"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

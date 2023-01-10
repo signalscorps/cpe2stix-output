@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--8f1776c8-d5c9-4d69-bb4e-4e6522df628a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e318ba34-e1af-5637-966a-5cb3ca114dcc",
+            "name": "Keynote Project Keynote 1.0.0 for Ruby",
+            "cpe": "cpe:2.3:a:keynote_project:keynote:1.0.0:*:*:*:*:ruby:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "keynote_project",
+            "version": "1.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:keynote_project:keynote:1.0.0:*:*:*:*:ruby:*:*",
+                        "lastModifiedDate": "2023-01-09T12:32Z",
+                        "titles": [
+                            {
+                                "title": "Keynote Project Keynote 1.0.0 for Ruby",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/rf-/keynote/commit/05be4356b0a6ca7de48da926a9b997beb5ffeb4a",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/rf-/keynote/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://rubygems.org/gems/keynote",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

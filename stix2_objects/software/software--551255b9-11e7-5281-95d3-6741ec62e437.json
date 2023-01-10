@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--551255b9-11e7-5281-95d3-6741ec62e437",
+    "name": "Linux Containers LXC 4.0.12",
+    "cpe": "cpe:2.3:a:linuxcontainers:lxc:4.0.12:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "linuxcontainers",
+    "version": "4.0.12",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:linuxcontainers:lxc:4.0.12:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T16:31Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/lxc/lxc/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://linuxcontainers.org/lxc/documentation/",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Linux Containers LXC 4.0.12"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-47952"
+                ]
+            }
+        }
+    }
+}

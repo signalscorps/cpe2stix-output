@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--cd7c4893-5fc2-4b24-8cb8-fc39d44a2b5d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bd8f805a-752f-5e34-962a-57a152f87659",
+            "name": "moodle-block sitenews Project moodle-block sitenews",
+            "cpe": "cpe:2.3:a:moodle-block_sitenews_project:moodle-block_sitenews:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "moodle-block_sitenews_project",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:moodle-block_sitenews_project:moodle-block_sitenews:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T17:15Z",
+                        "titles": [
+                            {
+                                "title": "moodle-block sitenews Project moodle-block sitenews",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/eberhardt/moodle-block_sitenews/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://vuldb.com/?id.216879",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-36633"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

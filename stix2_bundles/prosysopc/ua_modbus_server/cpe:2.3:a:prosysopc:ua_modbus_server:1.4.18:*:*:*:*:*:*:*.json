@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--802615b8-52af-4907-a934-877771dfae26",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--db107dff-d23b-5296-aecc-7920306cfdc4",
+            "name": "Prosys OPC UA Modbus Server 1.4.18",
+            "cpe": "cpe:2.3:a:prosysopc:ua_modbus_server:1.4.18:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "prosysopc",
+            "version": "1.4.18",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:prosysopc:ua_modbus_server:1.4.18:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T14:31Z",
+                        "titles": [
+                            {
+                                "title": "Prosys OPC UA Modbus Server 1.4.18",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.prosysopc.com/products/opc-ua-modbus-server/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.prosysopc.com/blog/user-password-edit-exploit/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--cdc2d1a7-2d5a-599f-9588-00085286dfa7",
+    "name": "The Linux Foundation Spinnaker 1.24.6",
+    "cpe": "cpe:2.3:a:linuxfoundation:spinnaker:1.24.6:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "linuxfoundation",
+    "version": "1.24.6",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:linuxfoundation:spinnaker:1.24.6:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T14:31Z",
+                "refs": [
+                    {
+                        "ref": "https://spinnaker.io/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://spinnaker.io/docs/releases/versions/",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "The Linux Foundation Spinnaker 1.24.6"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-39143",
+                    "CVE-2021-43832"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--2b663dfa-7483-568b-a0dc-5f8391789645",
+    "name": "Trend Micro HouseCall 1.62.1.1133",
+    "cpe": "cpe:2.3:a:trendmicro:housecall:1.62.1.1133:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "trendmicro",
+    "version": "1.62.1.1133",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:trendmicro:housecall:1.62.1.1133:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-09T21:01Z",
+                "refs": [
+                    {
+                        "ref": "https://helpcenter.trendmicro.com/en-us/article/tmka-11092",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.trendmicro.com/en_us/business.html",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Trend Micro HouseCall 1.62.1.1133"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-38764"
+                ]
+            }
+        }
+    }
+}

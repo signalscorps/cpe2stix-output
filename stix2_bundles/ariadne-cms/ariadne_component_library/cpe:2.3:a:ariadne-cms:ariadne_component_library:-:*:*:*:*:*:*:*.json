@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--ff5818b4-1c02-4898-9945-61f644bc0158",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f276b0e9-eadf-5e22-93db-7a7e702bc4b3",
+            "name": "Ariadne CMS Ariadne Component Library",
+            "cpe": "cpe:2.3:a:ariadne-cms:ariadne_component_library:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ariadne-cms",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ariadne-cms:ariadne_component_library:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T13:09Z",
+                        "titles": [
+                            {
+                                "title": "Ariadne CMS Ariadne Component Library",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/Ariadne-CMS/arc-web/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.ariadne-cms.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://vuldb.com/?id.217140",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2017-20157"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

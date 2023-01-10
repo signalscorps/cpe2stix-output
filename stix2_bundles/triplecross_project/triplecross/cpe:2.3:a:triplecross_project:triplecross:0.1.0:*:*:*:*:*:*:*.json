@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--40b6ba0f-0eec-45ce-942c-59767b59a38f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--f40f3ff6-3876-5e73-9e4f-00c3d2bbee09",
+            "name": "Triplecross Project Triplecross 0.1.0",
+            "cpe": "cpe:2.3:a:triplecross_project:triplecross:0.1.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "triplecross_project",
+            "version": "0.1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:triplecross_project:triplecross:0.1.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-09T21:16Z",
+                        "titles": [
+                            {
+                                "title": "Triplecross Project Triplecross 0.1.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/h3xduck/TripleCross/issues/40",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/h3xduck/TripleCross/releases/tag/v0.1.0",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-35505",
+                            "CVE-2022-35506"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

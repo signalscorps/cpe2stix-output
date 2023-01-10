@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--7e2109df-6042-442b-9d1c-1b4f076a77c0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--70af2c3a-d15a-5fe7-aeb6-03757b46781f",
+            "name": "PgHero Project PgHero 3.0.0 for Ruby",
+            "cpe": "cpe:2.3:a:pghero_project:pghero:3.0.0:*:*:*:*:ruby:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "pghero_project",
+            "version": "3.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:pghero_project:pghero:3.0.0:*:*:*:*:ruby:*:*",
+                        "lastModifiedDate": "2023-01-09T20:45Z",
+                        "titles": [
+                            {
+                                "title": "PgHero Project PgHero 3.0.0 for Ruby",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/ankane/pghero/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/ankane/pghero/issues/439",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://rubygems.org/gems/pghero/versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

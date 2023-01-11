@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--f25e491d-3ca8-4955-a352-f4f9d9419854",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--40c8264d-f786-5905-8355-22ce41dee8d4",
+            "name": "Backblaze B2 SDK Python 0.1.8",
+            "cpe": "cpe:2.3:a:backblaze:b2-sdk-python:0.1.8:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "backblaze",
+            "version": "0.1.8",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:backblaze:b2-sdk-python:0.1.8:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T21:10Z",
+                        "titles": [
+                            {
+                                "title": "Backblaze B2 SDK Python 0.1.8",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.backblaze.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/Backblaze/b2-sdk-python",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://pypi.org/project/b2sdk/#history",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

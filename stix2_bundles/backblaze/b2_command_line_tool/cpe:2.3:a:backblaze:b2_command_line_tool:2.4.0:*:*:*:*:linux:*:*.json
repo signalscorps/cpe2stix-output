@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--2cfe5e6d-1eaa-49a8-92a6-a35d79a25e2e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5b1cbe05-cc9f-5475-aa63-76d13e9b55cd",
+            "name": "Backblaze B2 Command Line Tool 2.4.0 for Linux",
+            "cpe": "cpe:2.3:a:backblaze:b2_command_line_tool:2.4.0:*:*:*:*:linux:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "backblaze",
+            "version": "2.4.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:backblaze:b2_command_line_tool:2.4.0:*:*:*:*:linux:*:*",
+                        "lastModifiedDate": "2023-01-10T20:57Z",
+                        "titles": [
+                            {
+                                "title": "Backblaze B2 Command Line Tool 2.4.0 for Linux",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/Backblaze/B2_Command_Line_Tool",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.backblaze.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23653"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

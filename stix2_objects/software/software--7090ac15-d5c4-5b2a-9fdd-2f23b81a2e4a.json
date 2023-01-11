@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--7090ac15-d5c4-5b2a-9fdd-2f23b81a2e4a",
+    "name": "Uploading SVG, WEBP And ICO Files Project Uploading SVG, WEBP And ICO Files 1.0.1 for WordPress",
+    "cpe": "cpe:2.3:a:uploading_svg\\,_webp_and_ico_files_project:uploading_svg\\,_webp_and_ico_files:1.0.1:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "uploading_svg\\,_webp_and_ico_files_project",
+    "version": "1.0.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:uploading_svg\\,_webp_and_ico_files_project:uploading_svg\\,_webp_and_ico_files:1.0.1:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-10T18:31Z",
+                "refs": [
+                    {
+                        "ref": "https://wordpress.org/plugins/uploading-svgwebp-and-ico-files/#developers",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://patchstack.com/database/vulnerability/uploading-svgwebp-and-ico-files/wordpress-uploading-svg-webp-and-ico-files-plugin-1-0-0-authenticated-arbitrary-file-upload-vulnerability",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Uploading SVG, WEBP And ICO Files Project Uploading SVG, WEBP And ICO Files 1.0.1 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-34648",
+                    "CVE-2022-36285"
+                ]
+            }
+        }
+    }
+}

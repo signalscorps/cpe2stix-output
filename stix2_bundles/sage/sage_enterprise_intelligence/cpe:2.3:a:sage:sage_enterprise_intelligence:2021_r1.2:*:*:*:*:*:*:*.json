@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--d2390969-9a80-4157-b16d-8ce242b8b37c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--70b11d8d-d24e-5dc0-88b6-9fed5e99b2ef",
+            "name": "Sage Enterprise Intelligence 2021 R1.2",
+            "cpe": "cpe:2.3:a:sage:sage_enterprise_intelligence:2021_r1.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sage",
+            "version": "2021_r1.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sage:sage_enterprise_intelligence:2021_r1.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T00:59Z",
+                        "titles": [
+                            {
+                                "title": "Sage Enterprise Intelligence 2021 R1.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://onlinehelp.sageenterpriseintelligence.com/Latest/en/Release-Notes/release-notes.htm",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://www.synacktiv.com/sites/default/files/2022-12/sage_sei_multiple_xss.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

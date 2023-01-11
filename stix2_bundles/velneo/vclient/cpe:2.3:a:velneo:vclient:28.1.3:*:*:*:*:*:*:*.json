@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--a63a7a66-954b-4d51-bbf4-5dd4ed86e682",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--985b9268-aac6-5294-a2e9-64637d9a5a09",
+            "name": "Velneo vClient 28.1.3",
+            "cpe": "cpe:2.3:a:velneo:vclient:28.1.3:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "velneo",
+            "version": "28.1.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:velneo:vclient:28.1.3:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T19:45Z",
+                        "titles": [
+                            {
+                                "title": "Velneo vClient 28.1.3",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.incibe-cert.es/en/early-warning/security-advisories/velneo-vclient-improper-authentication",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://velneo.es/publicacion-de-incidencia-de-seguridad-en-cve-cve-2021-45035/",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-45035",
+                            "CVE-2021-45036"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

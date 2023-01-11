@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--03a1a618-6aec-45fd-a01a-f96e105658b6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2588e922-0d19-5cba-8f86-610f195fd5ce",
+            "name": "The Linux Foundation Cortex 1.14.0",
+            "cpe": "cpe:2.3:a:linuxfoundation:cortex:1.14.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "linuxfoundation",
+            "version": "1.14.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:linuxfoundation:cortex:1.14.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T00:26Z",
+                        "titles": [
+                            {
+                                "title": "The Linux Foundation Cortex 1.14.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/cortexproject/cortex/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://cortexmetrics.io/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/cortexproject/cortex/security/advisories/GHSA-cq2g-pw6q-hf7j",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-23536"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

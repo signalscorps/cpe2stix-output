@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--f58303ea-3824-4206-b546-05c581d72302",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e799e8d6-889f-5f98-bf35-a74951538cd5",
+            "name": "FIT2CLOUD KubePi 1.0.0",
+            "cpe": "cpe:2.3:a:fit2cloud:kubepi:1.0.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "fit2cloud",
+            "version": "1.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:fit2cloud:kubepi:1.0.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T18:37Z",
+                        "titles": [
+                            {
+                                "title": "FIT2CLOUD KubePi 1.0.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/KubeOperator/KubePi/security/advisories/GHSA-vjhf-8vqx-vqpq",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/KubeOperator/KubePi/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://kubeoperator.io/docs/kubepi/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.fit2cloud.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2023-22463"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

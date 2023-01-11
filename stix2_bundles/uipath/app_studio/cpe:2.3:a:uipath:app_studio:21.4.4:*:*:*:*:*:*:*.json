@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--514e164f-b8e8-46c6-8673-aaed7b217f89",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b43ba407-4683-56b3-ae13-85cd99a0d389",
+            "name": "UiPath App Studio 21.4.4",
+            "cpe": "cpe:2.3:a:uipath:app_studio:21.4.4:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "uipath",
+            "version": "21.4.4",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:uipath:app_studio:21.4.4:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T18:23Z",
+                        "titles": [
+                            {
+                                "title": "UiPath App Studio 21.4.4",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://docs.uipath.com/studio/v2021.4/docs/release-notes-2021-4-4",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-44043"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

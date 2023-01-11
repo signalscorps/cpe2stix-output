@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--5dc18502-9309-4e82-bc81-2dd80c34df09",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--598e18cf-f9be-5fb0-83af-1ed4b681fed4",
+            "name": "Varktech Pricing Deals for WooCommerce 2.0.2.02 for WordPress",
+            "cpe": "cpe:2.3:a:varktech:pricing_deals_for_woocommerce:2.0.2.02:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "varktech",
+            "version": "2.0.2.02",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:varktech:pricing_deals_for_woocommerce:2.0.2.02:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2023-01-10T18:38Z",
+                        "titles": [
+                            {
+                                "title": "Varktech Pricing Deals for WooCommerce 2.0.2.02 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.varktech.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/pricing-deals-for-woocommerce/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-1057"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

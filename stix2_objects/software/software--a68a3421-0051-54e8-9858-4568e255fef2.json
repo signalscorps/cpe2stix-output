@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--a68a3421-0051-54e8-9858-4568e255fef2",
+    "name": "CS-Cart 4.3.10 Japanese Edition",
+    "cpe": "cpe:2.3:a:cs-cart:cs-cart:4.3.10:*:*:*:japanese:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "cs-cart",
+    "version": "4.3.10",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:cs-cart:cs-cart:4.3.10:*:*:*:japanese:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-10T15:27Z",
+                "refs": [
+                    {
+                        "ref": "http://cs-cart.jp/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "http://tips.cs-cart.jp/fix-csrf-20170406.html",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "CS-Cart 4.3.10 Japanese Edition"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2017-15673"
+                ]
+            }
+        }
+    }
+}

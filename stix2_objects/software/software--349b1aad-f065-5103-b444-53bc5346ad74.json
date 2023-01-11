@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--349b1aad-f065-5103-b444-53bc5346ad74",
+    "name": "VPRJ Project VPRJ",
+    "cpe": "cpe:2.3:a:vprj_project:vprj:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "vprj_project",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:vprj_project:vprj:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-10T19:51Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/31xxx/CVE-2022-31563.json",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/whmacmac/vprj/issues/2",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "VPRJ Project VPRJ"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-31563"
+                ]
+            }
+        }
+    }
+}

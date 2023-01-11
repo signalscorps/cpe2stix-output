@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--08ad1439-d24b-4b48-b5da-90e7976b3ad9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a53203ec-2a2c-50fd-a65b-c74dd68e154e",
+            "name": "Sterc Google Analytics Dashboard for MODX 1.0.5",
+            "cpe": "cpe:2.3:a:sterc:google_analytics_dashboard_for_modx:1.0.5:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sterc",
+            "version": "1.0.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sterc:google_analytics_dashboard_for_modx:1.0.5:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T01:09Z",
+                        "titles": [
+                            {
+                                "title": "Sterc Google Analytics Dashboard for MODX 1.0.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2017/20xxx/CVE-2017-20155.json",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/Sterc/Analytics-dashboard-widget/issues/11",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://sterc.com/en/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2017-20155"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

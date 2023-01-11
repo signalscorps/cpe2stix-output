@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--0063f68b-39c4-5015-ade4-ce8fe3c49a42",
+    "name": "Trumpf Job Order Interface",
+    "cpe": "cpe:2.3:a:trumpf:job_order_interface:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "trumpf",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:trumpf:job_order_interface:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-10T14:21Z",
+                "refs": [
+                    {
+                        "ref": "https://cert.vde.com/en/advisories/VDE-2022-023/",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.trumpf.com/de_INT/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Trumpf Job Order Interface"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-2052"
+                ]
+            }
+        }
+    }
+}

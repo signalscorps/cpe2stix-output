@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--8e898104-1a0f-4f4f-a768-fc0f032fa18e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--0ebdcfc5-db52-51b3-92d1-7e11e5a13b16",
+            "name": "Varlink Varlink 1.5.1",
+            "cpe": "cpe:2.3:a:varlink:varlink:1.5.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "varlink",
+            "version": "1.5.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:varlink:varlink:1.5.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T19:43Z",
+                        "titles": [
+                            {
+                                "title": "Varlink Varlink 1.5.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://varlink.org/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.exploit-db.com/exploits/47500",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-25067"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

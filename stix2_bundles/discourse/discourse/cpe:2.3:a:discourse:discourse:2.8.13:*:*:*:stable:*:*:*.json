@@ -1,0 +1,54 @@
+{
+    "type": "bundle",
+    "id": "bundle--a436bd25-d44c-454b-8ca4-50f1867f0d4a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--92bd3004-1a79-50de-a56f-b9fdd66d1c08",
+            "name": "Discourse 2.8.13 Stable Branch",
+            "cpe": "cpe:2.3:a:discourse:discourse:2.8.13:*:*:*:stable:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "discourse",
+            "version": "2.8.13",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:discourse:discourse:2.8.13:*:*:*:stable:*:*:*",
+                        "lastModifiedDate": "2023-01-10T16:55Z",
+                        "titles": [
+                            {
+                                "title": "Discourse 2.8.13 Stable Branch",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.discourse.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/discourse/discourse",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/discourse/discourse/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-41082",
+                            "CVE-2022-41921",
+                            "CVE-2022-46159"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

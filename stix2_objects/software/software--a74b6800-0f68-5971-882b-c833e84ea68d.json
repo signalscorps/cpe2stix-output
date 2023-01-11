@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--a74b6800-0f68-5971-882b-c833e84ea68d",
+    "name": "Tyco C-cure Web Client",
+    "cpe": "cpe:2.3:a:tyco:c-cure_web_client:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "tyco",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:tyco:c-cure_web_client:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-10T18:12Z",
+                "refs": [
+                    {
+                        "ref": "https://www.cisa.gov/uscert/ics/advisories/icsa-20-282-01",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.swhouse.com/products/ccure-9000-web-based-client.aspx",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Tyco C-cure Web Client"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-9048"
+                ]
+            }
+        }
+    }
+}

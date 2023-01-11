@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--f67fc140-c2ac-47fc-b00f-15929246b026",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--9bd1818b-ec08-5a17-a81e-393a710d8e2a",
+            "name": "Unisys Data Exchange Management Studio 6.0.IC1",
+            "cpe": "cpe:2.3:a:unisys:data_exchange_management_studio:6.0.ic1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "unisys",
+            "version": "6.0.ic1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:unisys:data_exchange_management_studio:6.0.ic1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T18:26Z",
+                        "titles": [
+                            {
+                                "title": "Unisys Data Exchange Management Studio 6.0.IC1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://public.support.unisys.com/common/public/vulnerability/NVD_Detail_Rpt.aspx?ID=69",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://public.support.unisys.com/dataexchangeic_5.0/index.jsp?topic=%2Fb_de_install_ic_mcp%2Fhtml%2Fchapter-000003401.htm",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-32555"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "type": "bundle",
+    "id": "bundle--16a1a0de-13ae-42a7-be00-14bcee638c24",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d865e614-47f5-5004-9b77-6dc02aa84596",
+            "name": "Discourse 2.9.0 Beta 11 Beta Branch",
+            "cpe": "cpe:2.3:a:discourse:discourse:2.9.0:beta11:*:*:beta:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "discourse",
+            "version": "2.9.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:discourse:discourse:2.9.0:beta11:*:*:beta:*:*:*",
+                        "lastModifiedDate": "2023-01-10T17:04Z",
+                        "titles": [
+                            {
+                                "title": "Discourse 2.9.0 Beta 11 Beta Branch",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.discourse.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/discourse/discourse",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/discourse/discourse/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-41082",
+                            "CVE-2022-41921",
+                            "CVE-2022-41944",
+                            "CVE-2022-46148",
+                            "CVE-2022-46150",
+                            "CVE-2022-46159"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

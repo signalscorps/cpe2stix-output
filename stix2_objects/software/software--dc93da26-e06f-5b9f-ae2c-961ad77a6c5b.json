@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--dc93da26-e06f-5b9f-ae2c-961ad77a6c5b",
+    "name": "Discourse 3.0.0 Beta 16 Beta Branch",
+    "cpe": "cpe:2.3:a:discourse:discourse:3.0.0:beta16:*:*:beta:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "discourse",
+    "version": "3.0.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:discourse:discourse:3.0.0:beta16:*:*:beta:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-10T17:04Z",
+                "refs": [
+                    {
+                        "ref": "https://www.discourse.org/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://github.com/discourse/discourse",
+                        "type": "Version"
+                    },
+                    {
+                        "ref": "https://github.com/discourse/discourse/tags",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Discourse 3.0.0 Beta 16 Beta Branch"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-41082"
+                ]
+            }
+        }
+    }
+}

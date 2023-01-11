@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--1b573d94-9f20-4bc1-833e-682941c57919",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--19bc41a5-d929-5503-9d17-bde0bd923e3f",
+            "name": "pyLoad",
+            "cpe": "cpe:2.3:a:pyload:pyload:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "pyload",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:pyload:pyload:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T18:41Z",
+                        "titles": [
+                            {
+                                "title": "pyLoad",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://pyload.net/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/pyload/pyload/tags",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--a8b93779-7a0b-448a-aa7a-9fa4c1b0b93b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fc8b10b9-fd03-5527-a8f2-ff0d8e43bc04",
+            "name": "OpenACS 4.5",
+            "cpe": "cpe:2.3:a:openacs:openacs:4.5:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "openacs",
+            "version": "4.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:openacs:openacs:4.5:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T18:07Z",
+                        "titles": [
+                            {
+                                "title": "OpenACS 4.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://openacs.org/doc/release-notes",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://openacs.org/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

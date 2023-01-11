@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--9498b20a-2c1e-46a4-88f0-fd3cdef11465",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d12b1c57-6ad1-5354-9ab2-0d72d72ab522",
+            "name": "Keter Project Keter 0.2.0",
+            "cpe": "cpe:2.3:a:keter_project:keter:0.2.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "keter_project",
+            "version": "0.2.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:keter_project:keter:0.2.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T18:04Z",
+                        "titles": [
+                            {
+                                "title": "Keter Project Keter 0.2.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/snoyberg/keter/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/snoyberg/keter/pull/246",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

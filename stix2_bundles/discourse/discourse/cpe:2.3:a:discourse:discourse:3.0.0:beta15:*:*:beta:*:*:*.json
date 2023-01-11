@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--b62cd8cc-d6a3-40b7-a569-d6b0caf1c775",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--df3ad492-35ef-53f5-bcb5-b8cbcb1cfdcc",
+            "name": "Discourse 3.0.0 Beta 15 Beta Branch",
+            "cpe": "cpe:2.3:a:discourse:discourse:3.0.0:beta15:*:*:beta:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "discourse",
+            "version": "3.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:discourse:discourse:3.0.0:beta15:*:*:beta:*:*:*",
+                        "lastModifiedDate": "2023-01-10T17:04Z",
+                        "titles": [
+                            {
+                                "title": "Discourse 3.0.0 Beta 15 Beta Branch",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.discourse.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/discourse/discourse",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/discourse/discourse/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-41082"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--f83b640b-01f7-4fde-a89a-9d4febd2b433",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--235ce79e-d4e0-5004-93ee-6411b1cca461",
+            "name": "VideoServer Project VideoServer",
+            "cpe": "cpe:2.3:a:videoserver_project:videoserver:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "videoserver_project",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:videoserver_project:videoserver:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T19:48Z",
+                        "titles": [
+                            {
+                                "title": "VideoServer Project VideoServer",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/31xxx/CVE-2022-31582.json",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/shaolo1/VideoServer/issues/1",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-31582"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

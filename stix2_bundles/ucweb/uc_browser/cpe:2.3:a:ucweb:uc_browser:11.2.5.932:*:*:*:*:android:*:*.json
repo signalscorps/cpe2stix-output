@@ -1,0 +1,55 @@
+{
+    "type": "bundle",
+    "id": "bundle--f0a48ff3-64fd-41d9-916f-0414185408e0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--60717230-a2e1-5626-802a-d77180903339",
+            "name": "UCWEB UC Browser 11.2.5.932 for Android",
+            "cpe": "cpe:2.3:a:ucweb:uc_browser:11.2.5.932:*:*:*:*:android:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ucweb",
+            "version": "11.2.5.932",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ucweb:uc_browser:11.2.5.932:*:*:*:*:android:*:*",
+                        "lastModifiedDate": "2023-01-10T18:17Z",
+                        "titles": [
+                            {
+                                "title": "UCWEB UC Browser 11.2.5.932 for Android",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://seclists.org/fulldisclosure/2017/Mar/36",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.ucweb.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://play.google.com/store/apps/details?id=com.UCMobile.intl&hl=en_US&gl=US",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2017-20041",
+                            "CVE-2019-10251",
+                            "CVE-2020-7363",
+                            "CVE-2020-7364"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

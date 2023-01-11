@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--9a7e71ed-728f-42a5-819f-3e3ed5572c0e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d5cf1bc9-31bf-5e86-99b8-f5e52eab3bdb",
+            "name": "uTorrent Web",
+            "cpe": "cpe:2.3:a:utorrent:web:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "utorrent",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:utorrent:web:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T18:35Z",
+                        "titles": [
+                            {
+                                "title": "uTorrent Web",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://vuldb.com/?id.113803",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.utorrent.com/web/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2018-25040",
+                            "CVE-2018-25041"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

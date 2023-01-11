@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--174f0490-4a36-5d4a-9a53-0c09381e309e",
+    "name": "UiPath Assistant 21.4.4",
+    "cpe": "cpe:2.3:a:uipath:assistant:21.4.4:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "uipath",
+    "version": "21.4.4",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:uipath:assistant:21.4.4:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-10T18:23Z",
+                "refs": [
+                    {
+                        "ref": "https://docs.uipath.com/robot/docs/uipath-assistant",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://github.com/advisories/GHSA-vvrp-5qgw-cc82",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "UiPath Assistant 21.4.4"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-44041",
+                    "CVE-2021-44042"
+                ]
+            }
+        }
+    }
+}

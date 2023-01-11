@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--36e50225-39c1-402a-ab01-4fc4b238e3ad",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a5e79c8f-dac3-5ad3-bc52-cf8aa9f0305a",
+            "name": "VISAM VBASE 11.7.0.2",
+            "cpe": "cpe:2.3:a:visam:vbase:11.7.0.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "visam",
+            "version": "11.7.0.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:visam:vbase:11.7.0.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T19:58Z",
+                        "titles": [
+                            {
+                                "title": "VISAM VBASE 11.7.0.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.tenable.com/security/research/tra-2022-31",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.vbase.net/en/download.php",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.visam.de/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-3217"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

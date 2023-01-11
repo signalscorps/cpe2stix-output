@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--f1aae87a-cae5-482a-bfb3-6d0db5cf7675",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--1a925e98-a2dd-5568-b34e-683f1d4d1cff",
+            "name": "SumoCoders FrameworkUserBundle 1.2.2",
+            "cpe": "cpe:2.3:a:sumocoders:frameworkuserbundle:1.2.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "sumocoders",
+            "version": "1.2.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:sumocoders:frameworkuserbundle:1.2.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T19:13Z",
+                        "titles": [
+                            {
+                                "title": "SumoCoders FrameworkUserBundle 1.2.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/sumocoders/FrameworkUserBundle/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://sumocoders.be/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://vuldb.com/?id.217268",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2015-10012"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

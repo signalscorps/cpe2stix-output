@@ -1,0 +1,71 @@
+{
+    "type": "bundle",
+    "id": "bundle--3fa19d12-f074-42a0-b4ed-ec31af77d1c2",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bacea95b-f127-574a-9b7b-b98e95a24cc2",
+            "name": "Discourse 2.9.0 Beta 3 Beta Branch",
+            "cpe": "cpe:2.3:a:discourse:discourse:2.9.0:beta3:*:*:beta:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "discourse",
+            "version": "2.9.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:discourse:discourse:2.9.0:beta3:*:*:beta:*:*:*",
+                        "lastModifiedDate": "2023-01-10T17:04Z",
+                        "titles": [
+                            {
+                                "title": "Discourse 2.9.0 Beta 3 Beta Branch",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.discourse.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://github.com/discourse/discourse",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/discourse/discourse/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-41082",
+                            "CVE-2022-24804",
+                            "CVE-2022-24824",
+                            "CVE-2022-24850",
+                            "CVE-2022-31025",
+                            "CVE-2022-31060",
+                            "CVE-2022-31096",
+                            "CVE-2022-31184",
+                            "CVE-2022-36066",
+                            "CVE-2022-36068",
+                            "CVE-2022-39226",
+                            "CVE-2022-39241",
+                            "CVE-2022-39356",
+                            "CVE-2022-39378",
+                            "CVE-2022-39385",
+                            "CVE-2022-41921",
+                            "CVE-2022-41944",
+                            "CVE-2022-46148",
+                            "CVE-2022-46150",
+                            "CVE-2022-46159"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

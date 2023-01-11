@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--6f030306-a6cd-4fd7-bf81-a9c08b1acd37",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8f86845b-6c4d-51e4-9342-538f633c056d",
+            "name": "Vercel ms 0.6.0 for Node.js",
+            "cpe": "cpe:2.3:a:vercel:ms:0.6.0:*:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "vercel",
+            "version": "0.6.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:vercel:ms:0.6.0:*:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2023-01-10T19:18Z",
+                        "titles": [
+                            {
+                                "title": "Vercel ms 0.6.0 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://vercel.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.npmjs.com/package/ms",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/vercel/ms",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

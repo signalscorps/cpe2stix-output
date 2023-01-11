@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--175bb1bb-219a-56f1-961a-5ce2944ca517",
+    "name": "Phoenixcoin Project Phoenixcoin 0.6.5.0",
+    "cpe": "cpe:2.3:a:phoenixcoin_project:phoenixcoin:0.6.5.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "phoenixcoin_project",
+    "version": "0.6.5.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:phoenixcoin_project:phoenixcoin:0.6.5.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-10T00:39Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/ghostlander/Phoenixcoin/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://vuldb.com/?id.217068",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Phoenixcoin Project Phoenixcoin 0.6.5.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2017-20154"
+                ]
+            }
+        }
+    }
+}

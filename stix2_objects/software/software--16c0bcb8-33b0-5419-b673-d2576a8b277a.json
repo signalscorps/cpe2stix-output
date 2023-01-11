@@ -1,0 +1,50 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--16c0bcb8-33b0-5419-b673-d2576a8b277a",
+    "name": "FIT2CLOUD KubePi 1.2.0",
+    "cpe": "cpe:2.3:a:fit2cloud:kubepi:1.2.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "fit2cloud",
+    "version": "1.2.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:fit2cloud:kubepi:1.2.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-10T18:37Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/KubeOperator/KubePi/security/advisories/GHSA-vjhf-8vqx-vqpq",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/KubeOperator/KubePi/tags",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://kubeoperator.io/docs/kubepi/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://www.fit2cloud.com/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "FIT2CLOUD KubePi 1.2.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2023-22463"
+                ]
+            }
+        }
+    }
+}

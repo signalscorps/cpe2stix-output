@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--87c7eb4a-d835-40ca-a7bd-70a913783619",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--071dd89f-30c5-526f-ae25-c0de3364028a",
+            "name": "Protocol Labs go-ipld-prime 0.14.3 for Go",
+            "cpe": "cpe:2.3:a:protocol:go-ipld-prime:0.14.3:*:*:*:*:go:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "protocol",
+            "version": "0.14.3",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:protocol:go-ipld-prime:0.14.3:*:*:*:*:go:*:*",
+                        "lastModifiedDate": "2023-01-10T18:19Z",
+                        "titles": [
+                            {
+                                "title": "Protocol Labs go-ipld-prime 0.14.3 for Go",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/ipld/go-ipld-prime/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/ipld/go-ipld-prime/security/advisories/GHSA-c653-6hhg-9x92",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://protocol.ai/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://ipld.io/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2023-22460"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

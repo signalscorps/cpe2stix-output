@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--43505538-6774-5a1f-b277-b3777af7ca00",
+    "name": "The Linux Foundation Cortex 1.13.1",
+    "cpe": "cpe:2.3:a:linuxfoundation:cortex:1.13.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "linuxfoundation",
+    "version": "1.13.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:linuxfoundation:cortex:1.13.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-10T00:26Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/cortexproject/cortex/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://cortexmetrics.io/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://github.com/cortexproject/cortex/security/advisories/GHSA-cq2g-pw6q-hf7j",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "The Linux Foundation Cortex 1.13.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-23536"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--6be56527-4690-53ae-b854-abb20d0b17f9",
+    "name": "Ubiquiti Desktop 0.55.1.2 for Windows",
+    "cpe": "cpe:2.3:a:ui:desktop:0.55.1.2:*:*:*:*:windows:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "ui",
+    "version": "0.55.1.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:ui:desktop:0.55.1.2:*:*:*:*:windows:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-10T18:13Z",
+                "refs": [
+                    {
+                        "ref": "https://community.ui.com/releases/Security-Advisory-Bulletin-025-025/7fc92851-054d-46d3-bdb0-fbb8f7023fed",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Ubiquiti Desktop 0.55.1.2 for Windows"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-35257"
+                ]
+            }
+        }
+    }
+}

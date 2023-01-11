@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--3fdb4242-a727-4cd0-801e-38210aec039d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--943de413-8f8d-51ce-9f3a-73cda6f97255",
+            "name": "VitalPBX VitalPBX",
+            "cpe": "cpe:2.3:a:vitalpbx:vitalpbx:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "vitalpbx",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:vitalpbx:vitalpbx:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T19:49Z",
+                        "titles": [
+                            {
+                                "title": "VitalPBX VitalPBX",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.arsouyes.org/blog/2022/2022-06-30-VitalPBX-0day",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://vitalpbx.com/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-29330"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

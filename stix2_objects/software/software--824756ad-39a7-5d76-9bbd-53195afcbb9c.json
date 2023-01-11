@@ -1,0 +1,41 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--824756ad-39a7-5d76-9bbd-53195afcbb9c",
+    "name": "Visam Vbase Web-remote 11.6.0.6",
+    "cpe": "cpe:2.3:a:visam:vbase_web-remote:11.6.0.6:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "visam",
+    "version": "11.6.0.6",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:visam:vbase_web-remote:11.6.0.6:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-10T19:58Z",
+                "refs": [
+                    {
+                        "ref": "https://www.cisa.gov/uscert/ics/advisories/icsa-21-308-01",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Visam Vbase Web-remote 11.6.0.6"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-10601",
+                    "CVE-2021-38417",
+                    "CVE-2021-42535",
+                    "CVE-2021-42537"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--4c5a2328-a8d0-410b-8c96-ecd22fa46e2e",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fb9d7fea-b26c-5c32-9a87-16f377d59321",
+            "name": "Trumpf Oseon",
+            "cpe": "cpe:2.3:a:trumpf:oseon:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "trumpf",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:trumpf:oseon:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T18:11Z",
+                        "titles": [
+                            {
+                                "title": "Trumpf Oseon",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://cert.vde.com/en/advisories/VDE-2022-023/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.trumpf.com/de_INT/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.trumpf.com/de_INT/produkte/software/oseon-fertigungssteuerung-fuer-die-blechbearbeitung/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-2052"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

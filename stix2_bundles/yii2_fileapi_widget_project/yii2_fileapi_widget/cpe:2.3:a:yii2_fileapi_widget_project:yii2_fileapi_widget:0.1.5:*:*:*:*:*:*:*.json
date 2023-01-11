@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--d7b711fa-34fd-4518-b55b-71df2dd0d53f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--a9247b7b-9e73-552a-b986-835b20393109",
+            "name": "Yii2 FileAPI Widget Project Yii2 FileAPI Widget 0.1.5",
+            "cpe": "cpe:2.3:a:yii2_fileapi_widget_project:yii2_fileapi_widget:0.1.5:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "yii2_fileapi_widget_project",
+            "version": "0.1.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:yii2_fileapi_widget_project:yii2_fileapi_widget:0.1.5:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T19:23Z",
+                        "titles": [
+                            {
+                                "title": "Yii2 FileAPI Widget Project Yii2 FileAPI Widget 0.1.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/vova07/yii2-fileapi-widget/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://vuldb.com/?ctiid.217141",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2017-20158"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

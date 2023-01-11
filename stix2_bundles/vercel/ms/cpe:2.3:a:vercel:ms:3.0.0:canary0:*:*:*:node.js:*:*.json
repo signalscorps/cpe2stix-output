@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--2afb481b-454a-44b5-9174-0e9fa0979bf6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--52886429-d24d-5141-8099-2b040cbea5dd",
+            "name": "Vercel ms 3.0.0 Canary 0 for Node.js",
+            "cpe": "cpe:2.3:a:vercel:ms:3.0.0:canary0:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "vercel",
+            "version": "3.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:vercel:ms:3.0.0:canary0:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2023-01-10T19:18Z",
+                        "titles": [
+                            {
+                                "title": "Vercel ms 3.0.0 Canary 0 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://vercel.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.npmjs.com/package/ms",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/vercel/ms",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

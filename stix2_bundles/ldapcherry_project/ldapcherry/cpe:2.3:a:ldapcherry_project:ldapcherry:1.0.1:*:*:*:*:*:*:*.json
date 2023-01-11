@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--f20bceb5-1763-4da4-b2ff-355493d6cf2a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--5a16ce5e-c4ed-5bc5-896f-a8081fe8d0c0",
+            "name": "LdapCherry Project LdapCherry 1.0.1",
+            "cpe": "cpe:2.3:a:ldapcherry_project:ldapcherry:1.0.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "ldapcherry_project",
+            "version": "1.0.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:ldapcherry_project:ldapcherry:1.0.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T18:06Z",
+                        "titles": [
+                            {
+                                "title": "LdapCherry Project LdapCherry 1.0.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/kakwa/ldapcherry",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://github.com/kakwa/ldapcherry/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

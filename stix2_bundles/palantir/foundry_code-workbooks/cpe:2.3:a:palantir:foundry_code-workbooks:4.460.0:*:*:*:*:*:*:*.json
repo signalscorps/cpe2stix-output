@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--ef6d6c83-4836-49bd-9ba7-1ae5b2e46db4",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6bdcec7e-ebbc-5996-a726-0823c9ddf0cd",
+            "name": "Palantir Foundry Code-Workbooks 4.460.0",
+            "cpe": "cpe:2.3:a:palantir:foundry_code-workbooks:4.460.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "palantir",
+            "version": "4.460.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:palantir:foundry_code-workbooks:4.460.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-10T00:33Z",
+                        "titles": [
+                            {
+                                "title": "Palantir Foundry Code-Workbooks 4.460.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/palantir/security-bulletins/blob/main/PLTRSEC-2022-08.md",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.palantir.com/docs/foundry/code-workbook/environment-profiles/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-27896"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

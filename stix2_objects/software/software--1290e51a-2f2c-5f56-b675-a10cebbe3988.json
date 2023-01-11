@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--1290e51a-2f2c-5f56-b675-a10cebbe3988",
+    "name": "Sterc Google Analytics Dashboard for MODX 1.0.3",
+    "cpe": "cpe:2.3:a:sterc:google_analytics_dashboard_for_modx:1.0.3:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "sterc",
+    "version": "1.0.3",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:sterc:google_analytics_dashboard_for_modx:1.0.3:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-10T01:09Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/CVEProject/cvelist/blob/master/2017/20xxx/CVE-2017-20155.json",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/Sterc/Analytics-dashboard-widget/issues/11",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://sterc.com/en/",
+                        "type": "Vendor"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Sterc Google Analytics Dashboard for MODX 1.0.3"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2017-20155"
+                ]
+            }
+        }
+    }
+}

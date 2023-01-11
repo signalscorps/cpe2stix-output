@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--7d9d2213-433e-5fa3-845a-cef9333c21c3",
+    "name": "Uniwill SparkIO.sys 1.0",
+    "cpe": "cpe:2.3:a:uniwill:sparkio.sys:1.0:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "uniwill",
+    "version": "1.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:uniwill:sparkio.sys:1.0:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-10T18:30Z",
+                "refs": [
+                    {
+                        "ref": "https://exchange.xforce.ibmcloud.com/vulnerabilities/232852",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.uniwill.com.tw/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://gist.github.com/alfarom256/220cb75816ca2b5556e7fc8d8d2803a0",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Uniwill SparkIO.sys 1.0"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-37415"
+                ]
+            }
+        }
+    }
+}

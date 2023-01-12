@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--e074f877-506d-57e9-ae63-ee701c6e0842",
+    "name": "exec-local-bin Project exec-local-bin 1.1.0 for Node.js",
+    "cpe": "cpe:2.3:a:exec-local-bin_project:exec-local-bin:1.1.0:*:*:*:*:node.js:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "exec-local-bin_project",
+    "version": "1.1.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:exec-local-bin_project:exec-local-bin:1.1.0:*:*:*:*:node.js:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-11T16:17Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/saeedseyfi/exec-local-bin/tags",
+                        "type": "Version"
+                    },
+                    {
+                        "ref": "https://security.snyk.io/vuln/SNYK-JS-EXECLOCALBIN-3157956",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.npmjs.com/package/exec-local-bin?activeTab=versions",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "exec-local-bin Project exec-local-bin 1.1.0 for Node.js"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

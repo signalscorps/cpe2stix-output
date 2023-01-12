@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--1e75e029-73b4-4f67-a144-64867064da1c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--c8d9c4ee-01c5-566d-aba6-42de8d20cf06",
+            "name": "Typelevel http4s 0.23.8",
+            "cpe": "cpe:2.3:a:typelevel:http4s:0.23.8:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "typelevel",
+            "version": "0.23.8",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:typelevel:http4s:0.23.8:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-11T16:12Z",
+                        "titles": [
+                            {
+                                "title": "Typelevel http4s 0.23.8",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://http4s.org/changelog.html",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://http4s.org/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://typelevel.org/",
+                                "type": "Vendor"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2023-22465"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

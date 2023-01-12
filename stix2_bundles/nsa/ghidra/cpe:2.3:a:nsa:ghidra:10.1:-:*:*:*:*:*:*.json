@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--0f949ad4-fb6a-44b2-8811-ee6a43ed346d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--8576a2f3-2a31-5b29-ab28-621cac8db6c7",
+            "name": "National Security Agency (NSA) Ghidra 10.1",
+            "cpe": "cpe:2.3:a:nsa:ghidra:10.1:-:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nsa",
+            "version": "10.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nsa:ghidra:10.1:-:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-11T16:08Z",
+                        "titles": [
+                            {
+                                "title": "National Security Agency (NSA) Ghidra 10.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/NationalSecurityAgency/ghidra/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/NationalSecurityAgency/ghidra/issues/4869",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://ghidra-sre.org/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

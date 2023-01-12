@@ -1,0 +1,39 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--6ecdfcf2-9e43-5e91-8777-81e798731ca6",
+    "name": "Whohas Project Whohas",
+    "cpe": "cpe:2.3:a:whohas_project:whohas:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "whohas_project",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:whohas_project:whohas:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-11T14:53Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/whohas/whohas/commit/667c3e2e9178f15c23d7918b5db25cd0792c8472",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Whohas Project Whohas"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2020-20178",
+                    "CVE-2021-4258"
+                ]
+            }
+        }
+    }
+}

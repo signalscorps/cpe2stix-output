@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--bb6d2ca2-0104-4caf-9707-b1f33f8dcf7f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e074f877-506d-57e9-ae63-ee701c6e0842",
+            "name": "exec-local-bin Project exec-local-bin 1.1.0 for Node.js",
+            "cpe": "cpe:2.3:a:exec-local-bin_project:exec-local-bin:1.1.0:*:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "exec-local-bin_project",
+            "version": "1.1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:exec-local-bin_project:exec-local-bin:1.1.0:*:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2023-01-11T16:17Z",
+                        "titles": [
+                            {
+                                "title": "exec-local-bin Project exec-local-bin 1.1.0 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/saeedseyfi/exec-local-bin/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://security.snyk.io/vuln/SNYK-JS-EXECLOCALBIN-3157956",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.npmjs.com/package/exec-local-bin?activeTab=versions",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--3c62649f-0bfd-4804-a1d1-c854b091a1ae",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--92bf4203-c7ed-5099-816b-07d23dba596c",
+            "name": "National Security Agency (NSA) Ghidra",
+            "cpe": "cpe:2.3:a:nsa:ghidra:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "nsa",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:nsa:ghidra:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-11T16:08Z",
+                        "titles": [
+                            {
+                                "title": "National Security Agency (NSA) Ghidra",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/NationalSecurityAgency/ghidra/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/NationalSecurityAgency/ghidra/issues/4869",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://ghidra-sre.org/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-13623",
+                            "CVE-2019-13625",
+                            "CVE-2019-16941",
+                            "CVE-2019-17664",
+                            "CVE-2019-17665"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

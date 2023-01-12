@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--361726c3-9eaf-4404-9cfe-c7337df27f9b",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b091a96e-94ef-5630-92a2-8bbfdda87c10",
+            "name": "Typelevel http4s 1.0.0 Milestone 30",
+            "cpe": "cpe:2.3:a:typelevel:http4s:1.0.0:milestone30:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "typelevel",
+            "version": "1.0.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:typelevel:http4s:1.0.0:milestone30:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-11T16:12Z",
+                        "titles": [
+                            {
+                                "title": "Typelevel http4s 1.0.0 Milestone 30",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://typelevel.org/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://http4s.org/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://http4s.org/changelog.html",
+                                "type": "Change Log"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2023-22465"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

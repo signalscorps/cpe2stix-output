@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--0eb14576-222d-53e8-9533-0be50ab4367e",
+    "name": "National Security Agency (NSA) Ghidra 10.1.4",
+    "cpe": "cpe:2.3:a:nsa:ghidra:10.1.4:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "nsa",
+    "version": "10.1.4",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:nsa:ghidra:10.1.4:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-11T16:08Z",
+                "refs": [
+                    {
+                        "ref": "https://github.com/NationalSecurityAgency/ghidra/releases",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://github.com/NationalSecurityAgency/ghidra/issues/4869",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://ghidra-sre.org/",
+                        "type": "Product"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "National Security Agency (NSA) Ghidra 10.1.4"
+                    }
+                ],
+                "vulnerabilities": [
+                    ""
+                ]
+            }
+        }
+    }
+}

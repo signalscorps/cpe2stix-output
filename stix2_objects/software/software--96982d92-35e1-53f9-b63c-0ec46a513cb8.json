@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--96982d92-35e1-53f9-b63c-0ec46a513cb8",
+    "name": "Loughborough University WebPA 3.0.4",
+    "cpe": "cpe:2.3:a:lboro:webpa:3.0.4:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "lboro",
+    "version": "3.0.4",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:lboro:webpa:3.0.4:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-12T17:12Z",
+                "refs": [
+                    {
+                        "ref": "http://webpaproject.lboro.ac.uk/",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://github.com/WebPA/WebPA",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://github.com/WebPA/WebPA/tags",
+                        "type": "Version"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Loughborough University WebPA 3.0.4"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-4308"
+                ]
+            }
+        }
+    }
+}

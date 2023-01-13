@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--e3c0584b-245b-4e06-a846-109a2a6b2868",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--631ad04c-a035-56a0-8b8a-5676406ec5ea",
+            "name": "Lenovo Ideacentre 610s-02ish Firmware -",
+            "cpe": "cpe:2.3:o:lenovo:ideacentre_610s-02ish_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "lenovo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:lenovo:ideacentre_610s-02ish_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T13:57Z",
+                        "titles": [
+                            {
+                                "title": "Lenovo Ideacentre 610s-02ish Firmware -",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.lenovo.com/us/en/product_security/ps500315-realtek-audio-driver-vulnerability",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-19705"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

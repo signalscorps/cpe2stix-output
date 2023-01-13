@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--e8021a7d-1159-4a19-ab60-44b36452e1a3",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b017e896-eab5-56de-8d4a-a5c12b31f2c5",
+            "name": "Viavi Webtech EBook 10 for Android",
+            "cpe": "cpe:2.3:a:viaviweb:ebook:10:*:*:*:*:android:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "viaviweb",
+            "version": "10",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:viaviweb:ebook:10:*:*:*:*:android:*:*",
+                        "lastModifiedDate": "2023-01-12T11:29Z",
+                        "titles": [
+                            {
+                                "title": "Viavi Webtech EBook 10 for Android",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://codecanyon.net/item/android-ebook-app-with-material-design/21680614",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "http://www.viaviweb.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://veysel-xan.com/CVE-2021-32428.txt",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-32428"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

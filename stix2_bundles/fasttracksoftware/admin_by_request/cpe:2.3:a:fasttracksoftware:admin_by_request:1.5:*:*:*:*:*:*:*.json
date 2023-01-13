@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--0374c375-4b0f-4062-ad55-49ec914cd5f1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--12ce57b3-3c90-5ff6-93b3-aaf5de103730",
+            "name": "FastTrack Software Admin By Request 1.5",
+            "cpe": "cpe:2.3:a:fasttracksoftware:admin_by_request:1.5:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "fasttracksoftware",
+            "version": "1.5",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:fasttracksoftware:admin_by_request:1.5:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T17:33Z",
+                        "titles": [
+                            {
+                                "title": "FastTrack Software Admin By Request 1.5",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.adminbyrequest.com/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://www.fasttracksoftware.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.adminbyrequest.com/ReleaseNotes",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-17201",
+                            "CVE-2019-17202"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

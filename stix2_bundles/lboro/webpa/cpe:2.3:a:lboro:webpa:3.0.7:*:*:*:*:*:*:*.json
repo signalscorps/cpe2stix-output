@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--4863e085-299a-4a6b-86f5-e9dd54a81a10",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--3cd07409-9bc7-58e1-8634-311908105a5e",
+            "name": "Loughborough University WebPA 3.0.7",
+            "cpe": "cpe:2.3:a:lboro:webpa:3.0.7:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "lboro",
+            "version": "3.0.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:lboro:webpa:3.0.7:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T17:12Z",
+                        "titles": [
+                            {
+                                "title": "Loughborough University WebPA 3.0.7",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "http://webpaproject.lboro.ac.uk/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/WebPA/WebPA",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/WebPA/WebPA/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-4308"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

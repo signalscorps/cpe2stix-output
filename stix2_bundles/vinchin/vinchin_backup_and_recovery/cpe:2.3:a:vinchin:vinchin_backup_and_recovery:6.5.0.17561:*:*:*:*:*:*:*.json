@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--a7164fca-ad57-4205-a307-967b4850f17c",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--ff843e25-630f-5359-b532-71e21b201d52",
+            "name": "Vinchin Backup And Recovery 6.5.0.17561",
+            "cpe": "cpe:2.3:a:vinchin:vinchin_backup_and_recovery:6.5.0.17561:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "vinchin",
+            "version": "6.5.0.17561",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:vinchin:vinchin_backup_and_recovery:6.5.0.17561:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T11:32Z",
+                        "titles": [
+                            {
+                                "title": "Vinchin Backup And Recovery 6.5.0.17561",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.vinchin.com/en/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://www.vinchin.com/en/product/vm-backup-and-recovery.html",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/35xxx/CVE-2022-35866.json",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-35866"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

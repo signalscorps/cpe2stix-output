@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--dee768bb-6110-4a01-9efe-b50f75bdda71",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--57103c48-1abd-597b-b361-a2f319279de2",
+            "name": "JoomGallery Project JoomGallery for Joomla!",
+            "cpe": "cpe:2.3:a:joomgallery_project:joomgallery:-:*:*:*:*:joomla\\!:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "joomgallery_project",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:joomgallery_project:joomgallery:-:*:*:*:*:joomla\\!:*:*",
+                        "lastModifiedDate": "2023-01-12T17:12Z",
+                        "titles": [
+                            {
+                                "title": "JoomGallery Project JoomGallery for Joomla!",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/JoomGallery/JoomGallery",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://github.com/JoomGallery/JoomGallery/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2018-25067"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--0ef00fdf-24a2-5396-9a91-86a83b5ae338",
+    "name": "Lenovo Ideacentre 510-15abr Firmware -",
+    "cpe": "cpe:2.3:o:lenovo:ideacentre_510-15abr_firmware:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "lenovo",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:lenovo:ideacentre_510-15abr_firmware:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-12T13:57Z",
+                "refs": [
+                    {
+                        "ref": "https://support.lenovo.com/us/en/product_security/ps500315-realtek-audio-driver-vulnerability",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Lenovo Ideacentre 510-15abr Firmware -"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2019-19705"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--3a3c708b-c470-4ebe-a121-c60140f9da83",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--54ee95e4-38b0-51f4-8570-15898b9d0b8f",
+            "name": "terminal-kit Project terminal-kit 1.26.8 for Node.js",
+            "cpe": "cpe:2.3:a:terminal-kit_project:terminal-kit:1.26.8:*:*:*:*:node.js:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "terminal-kit_project",
+            "version": "1.26.8",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:terminal-kit_project:terminal-kit:1.26.8:*:*:*:*:node.js:*:*",
+                        "lastModifiedDate": "2023-01-12T12:25Z",
+                        "titles": [
+                            {
+                                "title": "terminal-kit Project terminal-kit 1.26.8 for Node.js",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://vuldb.com/?id.217620",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.npmjs.com/package/terminal-kit?activeTab=versions",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/cronvel/terminal-kit",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2021-4306"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

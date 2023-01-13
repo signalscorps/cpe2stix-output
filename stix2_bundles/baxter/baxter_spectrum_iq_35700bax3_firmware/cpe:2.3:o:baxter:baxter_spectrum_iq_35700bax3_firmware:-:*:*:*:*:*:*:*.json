@@ -1,0 +1,51 @@
+{
+    "type": "bundle",
+    "id": "bundle--8daeffb7-a6ed-451e-8196-bbf2e5b3b02f",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--404c08aa-4ede-5aba-af0a-241b5f7897c1",
+            "name": "Baxter Spectrum IQ 35700BAX3 Firmware",
+            "cpe": "cpe:2.3:o:baxter:baxter_spectrum_iq_35700bax3_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "baxter",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:baxter:baxter_spectrum_iq_35700bax3_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T19:31Z",
+                        "titles": [
+                            {
+                                "title": "Baxter Spectrum IQ 35700BAX3 Firmware",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cisa.gov/uscert/ics/advisories/icsma-22-251-01",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.baxter.com/sites/g/files/ebysai3896/files/2022-09/ICSMA-22-251-01.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-26390",
+                            "CVE-2022-26392",
+                            "CVE-2022-26393",
+                            "CVE-2022-26394"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

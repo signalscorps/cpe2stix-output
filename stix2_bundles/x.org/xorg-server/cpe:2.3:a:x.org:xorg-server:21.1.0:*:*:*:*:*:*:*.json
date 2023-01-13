@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--1b5a7f47-d347-46b4-a41b-9762b5494b84",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--94479673-c1f1-54a7-a006-f1676b22e4a1",
+            "name": "X.Org xorg-server 21.1.0",
+            "cpe": "cpe:2.3:a:x.org:xorg-server:21.1.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "x.org",
+            "version": "21.1.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:x.org:xorg-server:21.1.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T18:47Z",
+                        "titles": [
+                            {
+                                "title": "X.Org xorg-server 21.1.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://gitlab.freedesktop.org/xorg/xserver/-/tags",
+                                "type": "Version"
+                            },
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2022/2xxx/CVE-2022-2319.json",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://gitlab.freedesktop.org/xorg/xserver/-/merge_requests/939",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-2319",
+                            "CVE-2022-2320"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

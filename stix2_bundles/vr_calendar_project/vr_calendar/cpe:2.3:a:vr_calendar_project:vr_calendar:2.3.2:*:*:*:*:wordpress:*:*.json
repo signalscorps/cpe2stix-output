@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--2dac9018-095b-4185-bce0-a84b74ccc6bf",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--bd16ce07-7d85-5b22-ac8e-b0b706da6803",
+            "name": "VR Calendar Project VR Calendar 2.3.2 for WordPress",
+            "cpe": "cpe:2.3:a:vr_calendar_project:vr_calendar:2.3.2:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "vr_calendar_project",
+            "version": "2.3.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:vr_calendar_project:vr_calendar:2.3.2:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2023-01-12T18:46Z",
+                        "titles": [
+                            {
+                                "title": "VR Calendar Project VR Calendar 2.3.2 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wpscan.com/vulnerability/b22fe77c-844e-4c24-8023-014441cc1e82",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-2314",
+                            "CVE-2022-3852"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

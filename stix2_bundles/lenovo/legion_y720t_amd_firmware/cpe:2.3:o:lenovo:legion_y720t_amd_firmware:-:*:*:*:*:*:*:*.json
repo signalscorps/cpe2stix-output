@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--7be50204-b65f-4792-9335-a18e31016ae5",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--801d3903-ebbd-5e96-bf44-dd4bf694a746",
+            "name": "Lenovo Legion Y720t Amd Firmware -",
+            "cpe": "cpe:2.3:o:lenovo:legion_y720t_amd_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "lenovo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:lenovo:legion_y720t_amd_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T13:57Z",
+                        "titles": [
+                            {
+                                "title": "Lenovo Legion Y720t Amd Firmware -",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.lenovo.com/us/en/product_security/ps500315-realtek-audio-driver-vulnerability",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-19705"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

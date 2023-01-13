@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--cdec9925-9b66-4391-bb36-798fe4cfb4b9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--744c6f76-fa43-5269-b073-7033ccc84547",
+            "name": "Lenovo Aio300-23isu Firmware -",
+            "cpe": "cpe:2.3:o:lenovo:aio300-23isu_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "lenovo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:lenovo:aio300-23isu_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T13:57Z",
+                        "titles": [
+                            {
+                                "title": "Lenovo Aio300-23isu Firmware -",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.lenovo.com/us/en/product_security/ps500315-realtek-audio-driver-vulnerability",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-19705"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

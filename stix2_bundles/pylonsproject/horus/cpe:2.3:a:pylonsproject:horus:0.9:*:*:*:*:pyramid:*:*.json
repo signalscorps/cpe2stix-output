@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--87505395-4d83-4aea-a81c-6545714252f1",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--627c6b9a-5602-5dd2-a19d-a8cc59a795d5",
+            "name": "Pylonsproject Horus 0.9 for Pyramid",
+            "cpe": "cpe:2.3:a:pylonsproject:horus:0.9:*:*:*:*:pyramid:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "pylonsproject",
+            "version": "0.9",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:pylonsproject:horus:0.9:*:*:*:*:pyramid:*:*",
+                        "lastModifiedDate": "2023-01-12T13:57Z",
+                        "titles": [
+                            {
+                                "title": "Pylonsproject Horus 0.9 for Pyramid",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://pypi.org/project/horus/#history",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/Pylons/horus",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://trypyramid.com/extending-pyramid.html",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2014-125056"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

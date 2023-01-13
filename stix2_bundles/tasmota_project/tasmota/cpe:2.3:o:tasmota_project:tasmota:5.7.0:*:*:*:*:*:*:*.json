@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--d08e3f36-ca2a-4c04-a8cb-e15a17a43015",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--99b39db4-4847-59f0-a591-1a3db831c298",
+            "name": "Tasmota Project Tasmota 5.7.0",
+            "cpe": "cpe:2.3:o:tasmota_project:tasmota:5.7.0:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tasmota_project",
+            "version": "5.7.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:tasmota_project:tasmota:5.7.0:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T17:44Z",
+                        "titles": [
+                            {
+                                "title": "Tasmota Project Tasmota 5.7.0",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/arendst/Tasmota/pull/16802/commits/066878da4d4762a9b6cb169fdf353e804d735cfd",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/arendst/Tasmota/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://tasmota.github.io/docs/",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

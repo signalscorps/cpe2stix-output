@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--2ec637e2-8be6-4a12-879a-9c2869639ac4",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d50ea994-340e-5d09-a7ff-114244eae8aa",
+            "name": "Piwigo GuestBook 1.0.1 for Piwigo",
+            "cpe": "cpe:2.3:a:piwigo:guestbook:1.0.1:*:*:*:*:piwigo:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "piwigo",
+            "version": "1.0.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:piwigo:guestbook:1.0.1:*:*:*:*:piwigo:*:*",
+                        "lastModifiedDate": "2023-01-12T13:57Z",
+                        "titles": [
+                            {
+                                "title": "Piwigo GuestBook 1.0.1 for Piwigo",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://piwigo.org/ext/extension_view.php?eid=609",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2014-125053"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

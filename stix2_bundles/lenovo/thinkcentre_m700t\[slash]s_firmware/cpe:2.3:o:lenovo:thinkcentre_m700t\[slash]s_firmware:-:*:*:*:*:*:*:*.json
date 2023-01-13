@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--0e3f4c6a-c411-47f5-bb99-9963b936d8b2",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--144811f8-7f5f-564c-92b4-98b35cc845ea",
+            "name": "Lenovo Thinkcentre M700t/s Firmware -",
+            "cpe": "cpe:2.3:o:lenovo:thinkcentre_m700t\\/s_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "lenovo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:lenovo:thinkcentre_m700t\\/s_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T13:57Z",
+                        "titles": [
+                            {
+                                "title": "Lenovo Thinkcentre M700t/s Firmware -",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.lenovo.com/us/en/product_security/ps500315-realtek-audio-driver-vulnerability",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-19705"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--55374c24-096d-4a48-9e2e-8ad3e4693685",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2e3355ef-d38f-5cad-8ef1-5c0e0b7e0bec",
+            "name": "Lenovo Ideacentre 720-18asr Firmware -",
+            "cpe": "cpe:2.3:o:lenovo:ideacentre_720-18asr_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "lenovo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:lenovo:ideacentre_720-18asr_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T13:57Z",
+                        "titles": [
+                            {
+                                "title": "Lenovo Ideacentre 720-18asr Firmware -",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.lenovo.com/us/en/product_security/ps500315-realtek-audio-driver-vulnerability",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-19705"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

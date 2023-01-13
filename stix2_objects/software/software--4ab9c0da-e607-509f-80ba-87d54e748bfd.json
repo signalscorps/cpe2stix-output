@@ -1,0 +1,38 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--4ab9c0da-e607-509f-80ba-87d54e748bfd",
+    "name": "Lenovo Thinkcentre M7300z Firmware 6.0.8924.1",
+    "cpe": "cpe:2.3:o:lenovo:thinkcentre_m7300z_firmware:6.0.8924.1:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "lenovo",
+    "version": "6.0.8924.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:o:lenovo:thinkcentre_m7300z_firmware:6.0.8924.1:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-12T13:57Z",
+                "refs": [
+                    {
+                        "ref": "https://support.lenovo.com/us/en/product_security/ps500315-realtek-audio-driver-vulnerability",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Lenovo Thinkcentre M7300z Firmware 6.0.8924.1"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2019-6190"
+                ]
+            }
+        }
+    }
+}

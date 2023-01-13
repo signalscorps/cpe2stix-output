@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--d5485b5b-540f-5b7c-b186-f44053230e0b",
+    "name": "Vestacp Control Panel 0.9.8-26-43",
+    "cpe": "cpe:2.3:a:vestacp:control_panel:0.9.8-26-43:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "vestacp",
+    "version": "0.9.8-26-43",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:vestacp:control_panel:0.9.8-26-43:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-12T11:26Z",
+                "refs": [
+                    {
+                        "ref": "https://www.exploit-db.com/exploits/49674",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://github.com/myvesta/vesta/releases",
+                        "type": "Change Log"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Vestacp Control Panel 0.9.8-26-43"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-3967"
+                ]
+            }
+        }
+    }
+}

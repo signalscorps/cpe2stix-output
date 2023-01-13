@@ -1,0 +1,64 @@
+{
+    "type": "bundle",
+    "id": "bundle--165901a9-a96c-422c-b2f0-a55ca495d082",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b3c30717-99d8-560e-ab47-435620d0a5a0",
+            "name": "NetApp Bootstrap OS",
+            "cpe": "cpe:2.3:o:netapp:bootstrap_os:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "netapp",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:netapp:bootstrap_os:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T19:33Z",
+                        "titles": [
+                            {
+                                "title": "NetApp Bootstrap OS",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://security.netapp.com/advisory/ntap-20220429-0006/",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_access_the_bootstrap_OS_on_a_NetApp_HCI_compute_node",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-17498",
+                            "CVE-2020-11884",
+                            "CVE-2020-12888",
+                            "CVE-2020-13143",
+                            "CVE-2020-36516",
+                            "CVE-2021-3753",
+                            "CVE-2021-4203",
+                            "CVE-2022-1678",
+                            "CVE-2022-21443",
+                            "CVE-2022-21476",
+                            "CVE-2022-21496",
+                            "CVE-2022-22576",
+                            "CVE-2022-23308",
+                            "CVE-2022-32206",
+                            "CVE-2022-32207",
+                            "CVE-2022-32208",
+                            "CVE-2022-35252"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

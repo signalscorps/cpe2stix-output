@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--b51573b5-6c04-404e-87f7-cebb387b400d",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--54c68b18-d10c-51a7-8059-5aab08ef0f80",
+            "name": "Verint Desktop and Process Analytics 15.2",
+            "cpe": "cpe:2.3:a:verint:desktop_and_process_analytics:15.2:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "verint",
+            "version": "15.2",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:verint:desktop_and_process_analytics:15.2:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T11:20Z",
+                        "titles": [
+                            {
+                                "title": "Verint Desktop and Process Analytics 15.2",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.verint.com/desktop-and-process-analytics/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/bwiltse/cve/blob/master/Verint/Verint-CVE-2020-12744.txt",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://github.com/CVEProject/cvelist/blob/master/2020/12xxx/CVE-2020-12744.json",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2020-12744"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

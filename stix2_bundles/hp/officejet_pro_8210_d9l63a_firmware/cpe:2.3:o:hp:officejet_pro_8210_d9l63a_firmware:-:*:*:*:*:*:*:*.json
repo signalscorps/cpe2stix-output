@@ -1,0 +1,47 @@
+{
+    "type": "bundle",
+    "id": "bundle--a0d2b8db-e12f-40e6-b273-6c1446118147",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--4046abf3-8270-531c-b6ba-d602f0a242e6",
+            "name": "HP Officejet Pro 8210 D9l63a Firmware -",
+            "cpe": "cpe:2.3:o:hp:officejet_pro_8210_d9l63a_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hp",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:hp:officejet_pro_8210_d9l63a_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T13:57Z",
+                        "titles": [
+                            {
+                                "title": "HP Officejet Pro 8210 D9l63a Firmware -",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.hp.com/us-en/document/ish_5948778-5949142-16/hpsbpi03780",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-16240",
+                            "CVE-2022-24291",
+                            "CVE-2022-24292",
+                            "CVE-2022-24293"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--f35fb436-485a-5379-bf94-f570b357452a",
+    "name": "NetApp SANtricity SMI-S Provider",
+    "cpe": "cpe:2.3:h:netapp:santricity_smi-s_provider:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "netapp",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:netapp:santricity_smi-s_provider:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-12T19:29Z",
+                "refs": [
+                    {
+                        "ref": "https://mysupport.netapp.com/documentation/productlibrary/index.html?productID=62208",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://security.netapp.com/advisory/ntap-20210326-0006/",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "NetApp SANtricity SMI-S Provider"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-3450"
+                ]
+            }
+        }
+    }
+}

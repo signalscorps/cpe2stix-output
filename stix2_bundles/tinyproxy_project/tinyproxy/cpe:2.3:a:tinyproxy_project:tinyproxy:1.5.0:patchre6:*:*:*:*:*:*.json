@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--eae9957b-3e09-4c75-9914-d4ea5ec9d054",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--15afd2ef-6da6-5315-bba5-7290b03f92c7",
+            "name": "Tinyproxy Project Tinyproxy 1.5.0 Patchre6",
+            "cpe": "cpe:2.3:a:tinyproxy_project:tinyproxy:1.5.0:patchre6:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "tinyproxy_project",
+            "version": "1.5.0",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:tinyproxy_project:tinyproxy:1.5.0:patchre6:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T13:57Z",
+                        "titles": [
+                            {
+                                "title": "Tinyproxy Project Tinyproxy 1.5.0 Patchre6",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/tinyproxy/tinyproxy/tags",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/tinyproxy/tinyproxy",
+                                "type": "Project"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2017-11747",
+                            "CVE-2022-40468"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

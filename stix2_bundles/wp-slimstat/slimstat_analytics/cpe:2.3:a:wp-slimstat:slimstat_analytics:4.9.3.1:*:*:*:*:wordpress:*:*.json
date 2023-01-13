@@ -1,0 +1,52 @@
+{
+    "type": "bundle",
+    "id": "bundle--5f8c8e7f-7dbe-451b-828b-5582454c50a6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--e4035f68-dc10-5b28-9e93-3816f4cde35b",
+            "name": "WP Slimstat Slimstat Analytics 4.9.3.1 for WordPress",
+            "cpe": "cpe:2.3:a:wp-slimstat:slimstat_analytics:4.9.3.1:*:*:*:*:wordpress:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "wp-slimstat",
+            "version": "4.9.3.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:wp-slimstat:slimstat_analytics:4.9.3.1:*:*:*:*:wordpress:*:*",
+                        "lastModifiedDate": "2023-01-12T17:13Z",
+                        "titles": [
+                            {
+                                "title": "WP Slimstat Slimstat Analytics 4.9.3.1 for WordPress",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://wp-slimstat.com/",
+                                "type": "Vendor"
+                            },
+                            {
+                                "ref": "https://wordpress.org/plugins/wp-slimstat/",
+                                "type": "Product"
+                            },
+                            {
+                                "ref": "https://github.com/wp-slimstat/wp-slimstat/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            ""
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

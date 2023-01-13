@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--b770f4b1-af18-46dc-9ce6-188800326de6",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--d251e896-0b96-5fee-859a-33001c4f1092",
+            "name": "Lenovo Aio 910-27ish Firmware -",
+            "cpe": "cpe:2.3:o:lenovo:aio_910-27ish_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "lenovo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:lenovo:aio_910-27ish_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T13:57Z",
+                        "titles": [
+                            {
+                                "title": "Lenovo Aio 910-27ish Firmware -",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.lenovo.com/us/en/product_security/ps500315-realtek-audio-driver-vulnerability",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-19705",
+                            "CVE-2019-6156"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--15d0cdeb-b7c7-534c-8b7f-bd2868c8170c",
+    "name": "terminal-kit Project terminal-kit 1.14.1 for Node.js",
+    "cpe": "cpe:2.3:a:terminal-kit_project:terminal-kit:1.14.1:*:*:*:*:node.js:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "terminal-kit_project",
+    "version": "1.14.1",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:terminal-kit_project:terminal-kit:1.14.1:*:*:*:*:node.js:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-12T12:25Z",
+                "refs": [
+                    {
+                        "ref": "https://vuldb.com/?id.217620",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.npmjs.com/package/terminal-kit?activeTab=versions",
+                        "type": "Change Log"
+                    },
+                    {
+                        "ref": "https://github.com/cronvel/terminal-kit",
+                        "type": "Project"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "terminal-kit Project terminal-kit 1.14.1 for Node.js"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2021-4306"
+                ]
+            }
+        }
+    }
+}

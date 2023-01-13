@@ -1,0 +1,45 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--71a5b469-f03a-5bcf-8866-283a18fc5ed0",
+    "name": "Baxter Spectrum Iq 35700bax3",
+    "cpe": "cpe:2.3:h:baxter:baxter_spectrum_iq_35700bax3:-:*:*:*:*:*:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "baxter",
+    "version": "-",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:h:baxter:baxter_spectrum_iq_35700bax3:-:*:*:*:*:*:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-12T19:16Z",
+                "refs": [
+                    {
+                        "ref": "https://www.cisa.gov/uscert/ics/advisories/icsma-22-251-01",
+                        "type": "Advisory"
+                    },
+                    {
+                        "ref": "https://www.baxter.com/sites/g/files/ebysai3896/files/2022-09/ICSMA-22-251-01.pdf",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Baxter Spectrum Iq 35700bax3"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-26390",
+                    "CVE-2022-26392",
+                    "CVE-2022-26393",
+                    "CVE-2022-26394"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--d405905b-4853-4cd6-9b94-96b051b624b0",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--b9f76799-a312-5106-8fe1-55f1c56bc53d",
+            "name": "Cisco RoomOS",
+            "cpe": "cpe:2.3:o:cisco:roomos:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "cisco",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:cisco:roomos:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T19:32Z",
+                        "titles": [
+                            {
+                                "title": "Cisco RoomOS",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-roomos-trav-beFvCcyu",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-12622",
+                            "CVE-2019-15288",
+                            "CVE-2019-15967",
+                            "CVE-2021-1532",
+                            "CVE-2021-34758",
+                            "CVE-2022-20764",
+                            "CVE-2022-20776",
+                            "CVE-2022-20783",
+                            "CVE-2022-20794",
+                            "CVE-2022-20811",
+                            "CVE-2022-20953",
+                            "CVE-2022-20954",
+                            "CVE-2022-20955"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

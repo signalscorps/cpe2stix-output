@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--7c415acb-b0aa-45fa-b9b3-4c442be04d63",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--953c15a7-5667-5435-ba00-e059e23c3fb7",
+            "name": "HP Officejet Pro 8210 J3p67a Firmware -",
+            "cpe": "cpe:2.3:o:hp:officejet_pro_8210_j3p67a_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "hp",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:hp:officejet_pro_8210_j3p67a_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T13:57Z",
+                        "titles": [
+                            {
+                                "title": "HP Officejet Pro 8210 J3p67a Firmware -",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.hp.com/us-en/document/ish_5948778-5949142-16/hpsbpi03780",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-24291",
+                            "CVE-2022-24292",
+                            "CVE-2022-24293"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

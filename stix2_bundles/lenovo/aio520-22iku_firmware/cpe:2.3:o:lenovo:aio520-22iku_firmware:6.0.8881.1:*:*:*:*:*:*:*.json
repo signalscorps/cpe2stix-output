@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--da2f59e9-563b-4717-b058-373c9905cd02",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--2b213cf4-1d3d-576d-9c94-f32a8c068a1a",
+            "name": "Lenovo Aio520-22iku Firmware 6.0.8881.1",
+            "cpe": "cpe:2.3:o:lenovo:aio520-22iku_firmware:6.0.8881.1:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "lenovo",
+            "version": "6.0.8881.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:lenovo:aio520-22iku_firmware:6.0.8881.1:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T13:57Z",
+                        "titles": [
+                            {
+                                "title": "Lenovo Aio520-22iku Firmware 6.0.8881.1",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.lenovo.com/us/en/product_security/ps500315-realtek-audio-driver-vulnerability",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-6190"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

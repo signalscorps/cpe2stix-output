@@ -1,0 +1,43 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--47ae2c12-ac35-519d-80f5-c1e7f3c3e5b9",
+    "name": "Visual Composer Visual Composer Website Builder 45.0 for WordPress",
+    "cpe": "cpe:2.3:a:visualcomposer:visual_composer_website_builder:45.0:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "visualcomposer",
+    "version": "45.0",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:visualcomposer:visual_composer_website_builder:45.0:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-12T18:36Z",
+                "refs": [
+                    {
+                        "ref": "https://visualcomposer.com/?utm_source=vcwb&utm_medium=wpplugins&utm_campaign=vcbrand&utm_content=text",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://www.wordfence.com/vulnerability-advisories/#CVE-2022-2430",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Visual Composer Visual Composer Website Builder 45.0 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-2430",
+                    "CVE-2022-2516"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "type": "bundle",
+    "id": "bundle--fdc23fbd-3da2-4371-abb9-201e61692939",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--245a1ad3-70f5-5930-956f-e019634fac8e",
+            "name": "Spectrum Wireless Battery Module",
+            "cpe": "cpe:2.3:h:baxter:spectrum_wireless_battery_module:-:-:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "baxter",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:h:baxter:spectrum_wireless_battery_module:-:-:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T19:16Z",
+                        "titles": [
+                            {
+                                "title": "Spectrum Wireless Battery Module",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://www.cisa.gov/uscert/ics/advisories/icsma-22-251-01",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.baxter.com/sites/g/files/ebysai3896/files/2022-09/ICSMA-22-251-01.pdf",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-26390",
+                            "CVE-2022-26392",
+                            "CVE-2022-26393",
+                            "CVE-2022-26394"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

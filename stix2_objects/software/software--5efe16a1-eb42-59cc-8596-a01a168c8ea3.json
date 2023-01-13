@@ -1,0 +1,46 @@
+{
+    "type": "software",
+    "spec_version": "2.1",
+    "id": "software--5efe16a1-eb42-59cc-8596-a01a168c8ea3",
+    "name": "Visser Labs WooCommerce - Product Importer 1.5.2 for WordPress",
+    "cpe": "cpe:2.3:a:visser:woocommerce_-_product_importer:1.5.2:*:*:*:*:wordpress:*:*",
+    "languages": [
+        "en_US"
+    ],
+    "vendor": "visser",
+    "version": "1.5.2",
+    "extensions": {
+        "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+            "extension_type": "property-extension",
+            "nvd_cpe": {
+                "cpe23Uri": "cpe:2.3:a:visser:woocommerce_-_product_importer:1.5.2:*:*:*:*:wordpress:*:*",
+                "deprecated": false,
+                "deprecatedBy": [],
+                "lastModifiedDate": "2023-01-12T11:35Z",
+                "refs": [
+                    {
+                        "ref": "https://visser.com.au/",
+                        "type": "Vendor"
+                    },
+                    {
+                        "ref": "https://wordpress.org/plugins/woocommerce-product-importer/#description",
+                        "type": "Product"
+                    },
+                    {
+                        "ref": "https://wpscan.com/vulnerability/5ec6182c-6917-4c48-90ce-e0ebe38e7595",
+                        "type": "Advisory"
+                    }
+                ],
+                "titles": [
+                    {
+                        "lang": "en_US",
+                        "title": "Visser Labs WooCommerce - Product Importer 1.5.2 for WordPress"
+                    }
+                ],
+                "vulnerabilities": [
+                    "CVE-2022-1546"
+                ]
+            }
+        }
+    }
+}

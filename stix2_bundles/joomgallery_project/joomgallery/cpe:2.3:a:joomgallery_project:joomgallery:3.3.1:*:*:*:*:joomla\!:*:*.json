@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--fe835783-c615-4174-9509-ddba80f6c44a",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--fb32c9ac-c417-5e58-b32a-ace03b8ab884",
+            "name": "JoomGallery Project JoomGallery 3.3.1 for Joomla!",
+            "cpe": "cpe:2.3:a:joomgallery_project:joomgallery:3.3.1:*:*:*:*:joomla\\!:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "joomgallery_project",
+            "version": "3.3.1",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:joomgallery_project:joomgallery:3.3.1:*:*:*:*:joomla\\!:*:*",
+                        "lastModifiedDate": "2023-01-12T17:12Z",
+                        "titles": [
+                            {
+                                "title": "JoomGallery Project JoomGallery 3.3.1 for Joomla!",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/JoomGallery/JoomGallery",
+                                "type": "Project"
+                            },
+                            {
+                                "ref": "https://github.com/JoomGallery/JoomGallery/tags",
+                                "type": "Version"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2018-25067"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

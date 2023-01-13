@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--48471eea-926f-4d27-9397-b122644b24f9",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--15d498cf-afd5-51a0-83d7-d8cf9f322973",
+            "name": "ZKTec ZKBio Time 8.0.7",
+            "cpe": "cpe:2.3:a:zktec:zkbio_time:8.0.7:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "zktec",
+            "version": "8.0.7",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:zktec:zkbio_time:8.0.7:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T18:57Z",
+                        "titles": [
+                            {
+                                "title": "ZKTec ZKBio Time 8.0.7",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://the-it-wonders.blogspot.com/2022/09/zkbio-time-csv-injection.html",
+                                "type": "Advisory"
+                            },
+                            {
+                                "ref": "https://www.zkteco.com/en/ZKBioTime",
+                                "type": "Product"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-40472"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

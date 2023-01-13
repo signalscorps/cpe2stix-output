@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--34e31bdc-635f-4a42-a749-2d68e283da74",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--6be45ac8-026a-583d-8761-92493c58cde6",
+            "name": "Lenovo Ideacentre 520s-23iku Firmware -",
+            "cpe": "cpe:2.3:o:lenovo:ideacentre_520s-23iku_firmware:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "lenovo",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:o:lenovo:ideacentre_520s-23iku_firmware:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T13:57Z",
+                        "titles": [
+                            {
+                                "title": "Lenovo Ideacentre 520s-23iku Firmware -",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://support.lenovo.com/us/en/product_security/ps500315-realtek-audio-driver-vulnerability",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2019-10724",
+                            "CVE-2019-19705",
+                            "CVE-2019-6156"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

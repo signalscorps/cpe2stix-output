@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--54445ed2-dea3-4f3d-bc38-be03c3251a26",
+    "objects": [
+        {
+            "type": "software",
+            "spec_version": "2.1",
+            "id": "software--91b98435-5fb3-57ef-8b28-c18e01666d9b",
+            "name": "Venice Project Venice",
+            "cpe": "cpe:2.3:a:venice_project:venice:-:*:*:*:*:*:*:*",
+            "languages": [
+                "en_US"
+            ],
+            "vendor": "venice_project",
+            "version": "-",
+            "extensions": {
+                "extension-definition--6c453e0f-9895-498f-a273-2e2dda473377": {
+                    "extension_type": "property-extension",
+                    "nvd_cpe": {
+                        "deprecated": false,
+                        "cpe23Uri": "cpe:2.3:a:venice_project:venice:-:*:*:*:*:*:*:*",
+                        "lastModifiedDate": "2023-01-12T11:15Z",
+                        "titles": [
+                            {
+                                "title": "Venice Project Venice",
+                                "lang": "en_US"
+                            }
+                        ],
+                        "refs": [
+                            {
+                                "ref": "https://github.com/jlangch/venice/releases",
+                                "type": "Change Log"
+                            },
+                            {
+                                "ref": "https://github.com/jlangch/venice/security/advisories/GHSA-4mmh-5vw7-rgvj",
+                                "type": "Advisory"
+                            }
+                        ],
+                        "deprecatedBy": [],
+                        "vulnerabilities": [
+                            "CVE-2022-36007"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}
